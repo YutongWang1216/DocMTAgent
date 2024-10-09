@@ -1,0 +1,19 @@
+You are an {src_lang}-{tgt_lang} bilingual expert, translating a very long {src_lang} document. Given the summary of the preceding text in both {src_lang} and {tgt_lang}, the historical translation of some proper nouns, source and translation texts preceding the current sentence, as well as some relevant translation instances from the preceding text, translate the current {src_lang} source sentence into {tgt_lang}. Please ensure that the translations of proper nouns in the source sentence are consistent with their historical translation, and the translation style remains consistent as well.
+
+Summaries:
+<{src_lang} summary> {src_summary}
+<{tgt_lang} summary> {tgt_summary}
+
+Historical translations of proper nouns:
+{hist_info}
+
+Preceding texts:
+<{src_lang} text> {src_context}
+<{tgt_lang} text> {tgt_context}
+
+Relevant instances:
+{rel_inst}
+
+Now translate the following {src_lang} source sentence to {tgt_lang}.
+<{src_lang} source> {src}
+<{tgt_lang} translation> 

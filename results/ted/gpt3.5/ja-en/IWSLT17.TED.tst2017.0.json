@@ -1,0 +1,3629 @@
+[
+    {
+        "idx": 0,
+        "src": "これは 私たちがどうやって 知識を得るのかという話です",
+        "ref": "So, this is a story  about how we know what we know.",
+        "hyp": "This is a discussion about how we acquire knowledge.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 1,
+        "src": "話の主役は この女性 ナタリア・リプチンスキー",
+        "ref": "It's a story about this woman,  Natalia Rybczynski.",
+        "hyp": "The main character of the story is this woman, Natalia Liptinskaya.",
+        "rel_src": [
+            "これは 私たちがどうやって 知識を得るのかという話です"
+        ],
+        "rel_tgt": [
+            "This is a discussion about how we acquire knowledge."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya"
+        }
+    },
+    {
+        "idx": 2,
+        "src": "古生物学者で 太古の死骸を掘るのが専門です",
+        "ref": "She's a paleobiologist,  which means she specializes in digging up really old dead stuff.",
+        "hyp": "He is a paleontologist who specializes in excavating ancient remains.",
+        "rel_src": [
+            "これは 私たちがどうやって 知識を得るのかという話です",
+            "話の主役は この女性 ナタリア・リプチンスキー"
+        ],
+        "rel_tgt": [
+            "This is a discussion about how we acquire knowledge.",
+            "The main character of the story is this woman, Natalia Liptinskaya."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya"
+        }
+    },
+    {
+        "idx": 3,
+        "src": "ナタリア・リプチンスキー： 人には「死骸博士」って呼ばせてたわ",
+        "ref": "Natalia Rybczynski: Yeah, I had someone call me \"Dr. Dead Things.\"",
+        "hyp": "Natalia Liptinskaya: I had people calling me \"Doctor Bones\"",
+        "rel_src": [
+            "話の主役は この女性 ナタリア・リプチンスキー",
+            "古生物学者で 太古の死骸を掘るのが専門です"
+        ],
+        "rel_tgt": [
+            "The main character of the story is this woman, Natalia Liptinskaya.",
+            "He is a paleontologist who specializes in excavating ancient remains."
+        ],
+        "hist_info": "\"ナタリア・リプチンスキー\" - \"Natalia Liptinskaya\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones"
+        }
+    },
+    {
+        "idx": 4,
+        "src": "ラティフ・ナサー： 特に面白いと思ったのは 発掘現場が 北極圏のはるか北 人里離れた カナダのツンドラ地帯だからです",
+        "ref": "Latif Nasser: And I think she's particularly interesting  because of where she digs that stuff up,  way above the Arctic Circle in the remote Canadian tundra.",
+        "hyp": "Latif Nasser: What I found particularly interesting was that the excavation site is in the remote tundra region of Canada, far north in the Arctic Circle.",
+        "rel_src": [
+            "古生物学者で 太古の死骸を掘るのが専門です",
+            "ナタリア・リプチンスキー： 人には「死骸博士」って呼ばせてたわ"
+        ],
+        "rel_tgt": [
+            "He is a paleontologist who specializes in excavating ancient remains.",
+            "Natalia Liptinskaya: I had people calling me \"Doctor Bones\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle"
+        }
+    },
+    {
+        "idx": 5,
+        "src": "2006年の夏のある日 彼女はファイルズリーフベッドという 発掘現場にいました 磁北極まで緯度10度もありません",
+        "ref": "Now, one summer day in 2006,  she was at a dig site called the Fyles Leaf Bed,  which is less than 10 degrees latitude away from the magnetic north pole.",
+        "hyp": "One summer day in 2006, she was at an excavation site called Files Reef Bed, with a latitude of only 10 degrees to the magnetic North Pole.",
+        "rel_src": [
+            "古生物学者で 太古の死骸を掘るのが専門です",
+            "ラティフ・ナサー： 特に面白いと思ったのは 発掘現場が 北極圏のはるか北 人里離れた カナダのツンドラ地帯だからです"
+        ],
+        "rel_tgt": [
+            "He is a paleontologist who specializes in excavating ancient remains.",
+            "Latif Nasser: What I found particularly interesting was that the excavation site is in the remote tundra region of Canada, far north in the Arctic Circle."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 6,
+        "src": "ナタリア： 退屈だと思うかもしれません リュックを背負って GPSとノートを抱え 化石らしきものを拾いながら １日中歩き回るだけですから",
+        "ref": "NR: Really, it's not going to sound very exciting,  because it was a day of walking with your backpack and your GPS  and notebook and just picking up anything that might be a fossil.",
+        "hyp": "Natalia: You might think it's boring, but all I do is walk around all day carrying a backpack with a GPS and a notebook, picking up things that look like fossils.",
+        "rel_src": [
+            "ナタリア・リプチンスキー： 人には「死骸博士」って呼ばせてたわ",
+            "ラティフ・ナサー： 特に面白いと思ったのは 発掘現場が 北極圏のはるか北 人里離れた カナダのツンドラ地帯だからです"
+        ],
+        "rel_tgt": [
+            "Natalia Liptinskaya: I had people calling me \"Doctor Bones\"",
+            "Latif Nasser: What I found particularly interesting was that the excavation site is in the remote tundra region of Canada, far north in the Arctic Circle."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 7,
+        "src": "ラティフ：ある時 彼女は 何かに気づきました",
+        "ref": "LN: And at some point, she noticed something.",
+        "hyp": "Latif: At one point, she noticed something.",
+        "rel_src": [
+            "2006年の夏のある日 彼女はファイルズリーフベッドという 発掘現場にいました 磁北極まで緯度10度もありません",
+            "ナタリア： 退屈だと思うかもしれません リュックを背負って GPSとノートを抱え 化石らしきものを拾いながら １日中歩き回るだけですから"
+        ],
+        "rel_tgt": [
+            "One summer day in 2006, she was at an excavation site called Files Reef Bed, with a latitude of only 10 degrees to the magnetic North Pole.",
+            "Natalia: You might think it's boring, but all I do is walk around all day carrying a backpack with a GPS and a notebook, picking up things that look like fossils."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 8,
+        "src": "ナタリア：古い 赤褐色をした 手のひら大のもので",
+        "ref": "NR: Rusty, kind of rust-colored,  about the size of the palm of my hand.",
+        "hyp": "Natalia: It was an old, palm-sized reddish-brown object.",
+        "rel_src": [
+            "ナタリア・リプチンスキー： 人には「死骸博士」って呼ばせてたわ",
+            "ナタリア： 退屈だと思うかもしれません リュックを背負って GPSとノートを抱え 化石らしきものを拾いながら １日中歩き回るだけですから"
+        ],
+        "rel_tgt": [
+            "Natalia Liptinskaya: I had people calling me \"Doctor Bones\"",
+            "Natalia: You might think it's boring, but all I do is walk around all day carrying a backpack with a GPS and a notebook, picking up things that look like fossils."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia"
+        }
+    },
+    {
+        "idx": 9,
+        "src": "地面に落ちていたんです",
+        "ref": "It was just lying on the surface.",
+        "hyp": "It was lying on the ground.",
+        "rel_src": [
+            "ナタリア： 退屈だと思うかもしれません リュックを背負って GPSとノートを抱え 化石らしきものを拾いながら １日中歩き回るだけですから",
+            "ナタリア：古い 赤褐色をした 手のひら大のもので"
+        ],
+        "rel_tgt": [
+            "Natalia: You might think it's boring, but all I do is walk around all day carrying a backpack with a GPS and a notebook, picking up things that look like fossils.",
+            "Natalia: It was an old, palm-sized reddish-brown object."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia"
+        }
+    },
+    {
+        "idx": 10,
+        "src": "ラティフ：最初は ただの木片だと思いました というのも ファイルズリーフベッドでは 太古の植物の破片が よく見つかったからです",
+        "ref": "LN: And at first she thought it was just a splinter of wood,  because that's the sort of thing people had found  at the Fyles Leaf Bed before -- prehistoric plant parts.",
+        "hyp": "Latif: At first, I thought it was just a piece of wood. This is because at Files Reef Bed, fragments of ancient plants are often found.",
+        "rel_src": [
+            "2006年の夏のある日 彼女はファイルズリーフベッドという 発掘現場にいました 磁北極まで緯度10度もありません",
+            "ナタリア：古い 赤褐色をした 手のひら大のもので"
+        ],
+        "rel_tgt": [
+            "One summer day in 2006, she was at an excavation site called Files Reef Bed, with a latitude of only 10 degrees to the magnetic North Pole.",
+            "Natalia: It was an old, palm-sized reddish-brown object."
+        ],
+        "hist_info": "\"ファイルズリーフベッド\" - \"Files Reef Bed\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia"
+        }
+    },
+    {
+        "idx": 11,
+        "src": "ところが その夜キャンプに帰り ―",
+        "ref": "But that night, back at camp ...",
+        "hyp": "However, when they returned to the camp that night ―",
+        "rel_src": [
+            "ラティフ：ある時 彼女は 何かに気づきました",
+            "地面に落ちていたんです"
+        ],
+        "rel_tgt": [
+            "Latif: At one point, she noticed something.",
+            "It was lying on the ground."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia"
+        }
+    },
+    {
+        "idx": 12,
+        "src": "ナタリア：ルーペを取り出して もう少し よく見てみると 年輪がないんです",
+        "ref": "NR: ... I get out the hand lens,  I'm looking a little bit more closely and realizing  it doesn't quite look like this has tree rings.",
+        "hyp": "Natalia: When I took out the magnifying glass and looked at it more closely, I realized that there were no growth rings.",
+        "rel_src": [
+            "ナタリア：古い 赤褐色をした 手のひら大のもので",
+            "ラティフ：最初は ただの木片だと思いました というのも ファイルズリーフベッドでは 太古の植物の破片が よく見つかったからです"
+        ],
+        "rel_tgt": [
+            "Natalia: It was an old, palm-sized reddish-brown object.",
+            "Latif: At first, I thought it was just a piece of wood. This is because at Files Reef Bed, fragments of ancient plants are often found."
+        ],
+        "hist_info": "\"ナタリア\" - \"Natalia\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia"
+        }
+    },
+    {
+        "idx": 13,
+        "src": "保存状態のせいかもしれませんが それは見れば見るほど —",
+        "ref": "Maybe it's a preservation thing,  but it looks really like ...",
+        "hyp": "It may be due to the preservation condition, but the more you look at it —",
+        "rel_src": [
+            "ナタリア：古い 赤褐色をした 手のひら大のもので",
+            "ナタリア：ルーペを取り出して もう少し よく見てみると 年輪がないんです"
+        ],
+        "rel_tgt": [
+            "Natalia: It was an old, palm-sized reddish-brown object.",
+            "Natalia: When I took out the magnifying glass and looked at it more closely, I realized that there were no growth rings."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia"
+        }
+    },
+    {
+        "idx": 14,
+        "src": "骨でした",
+        "ref": "bone.",
+        "hyp": "It was bones.",
+        "rel_src": [
+            "古生物学者で 太古の死骸を掘るのが専門です",
+            "ナタリア・リプチンスキー： 人には「死骸博士」って呼ばせてたわ"
+        ],
+        "rel_tgt": [
+            "He is a paleontologist who specializes in excavating ancient remains.",
+            "Natalia Liptinskaya: I had people calling me \"Doctor Bones\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia"
+        }
+    },
+    {
+        "idx": 15,
+        "src": "ラティフ：彼女は それから４年以上 何度も この地点を訪れ 最終的に 30個の 同じ骨の破片を集めました ほとんどが とても小さなものです",
+        "ref": "LN: Huh. So over the next four years,  she went to that spot over and over,  and eventually collected 30 fragments of that exact same bone,  most of them really tiny.",
+        "hyp": "Latif: She visited this spot more than four years and collected a total of 30 fragments of the same bones, most of which are very small.",
+        "rel_src": [
+            "ラティフ：最初は ただの木片だと思いました というのも ファイルズリーフベッドでは 太古の植物の破片が よく見つかったからです",
+            "ナタリア：ルーペを取り出して もう少し よく見てみると 年輪がないんです"
+        ],
+        "rel_tgt": [
+            "Latif: At first, I thought it was just a piece of wood. This is because at Files Reef Bed, fragments of ancient plants are often found.",
+            "Natalia: When I took out the magnifying glass and looked at it more closely, I realized that there were no growth rings."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia"
+        }
+    },
+    {
+        "idx": 16,
+        "src": "ナタリア：数は多くありません 小さなビニール袋に収まるくらいです",
+        "ref": "NR: It's not a whole lot. It fits in a small Ziploc bag.",
+        "hyp": "Natalia: The number is not large, it fits in a small plastic bag.",
+        "rel_src": [
+            "骨でした",
+            "ラティフ：彼女は それから４年以上 何度も この地点を訪れ 最終的に 30個の 同じ骨の破片を集めました ほとんどが とても小さなものです"
+        ],
+        "rel_tgt": [
+            "It was bones.",
+            "Latif: She visited this spot more than four years and collected a total of 30 fragments of the same bones, most of which are very small."
+        ],
+        "hist_info": "\"ナタリア\" - \"Natalia\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia"
+        }
+    },
+    {
+        "idx": 17,
+        "src": "ラティフ：パズルのように 破片を組み合わせようとしましたが",
+        "ref": "LN: And she tried to piece them together like a jigsaw puzzle.",
+        "hyp": "Latif: She tried to put the fragments together like a puzzle, but",
+        "rel_src": [
+            "ラティフ：最初は ただの木片だと思いました というのも ファイルズリーフベッドでは 太古の植物の破片が よく見つかったからです",
+            "ラティフ：彼女は それから４年以上 何度も この地点を訪れ 最終的に 30個の 同じ骨の破片を集めました ほとんどが とても小さなものです"
+        ],
+        "rel_tgt": [
+            "Latif: At first, I thought it was just a piece of wood. This is because at Files Reef Bed, fragments of ancient plants are often found.",
+            "Latif: She visited this spot more than four years and collected a total of 30 fragments of the same bones, most of which are very small."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia"
+        }
+    },
+    {
+        "idx": 18,
+        "src": "本当に大変な作業でした",
+        "ref": "But it was challenging.",
+        "hyp": "It was truly a difficult task.",
+        "rel_src": [
+            "ナタリア： 退屈だと思うかもしれません リュックを背負って GPSとノートを抱え 化石らしきものを拾いながら １日中歩き回るだけですから",
+            "ラティフ：彼女は それから４年以上 何度も この地点を訪れ 最終的に 30個の 同じ骨の破片を集めました ほとんどが とても小さなものです"
+        ],
+        "rel_tgt": [
+            "Natalia: You might think it's boring, but all I do is walk around all day carrying a backpack with a GPS and a notebook, picking up things that look like fossils.",
+            "Latif: She visited this spot more than four years and collected a total of 30 fragments of the same bones, most of which are very small."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia"
+        }
+    },
+    {
+        "idx": 19,
+        "src": "ナタリア：割れて 粉々になっていたので 砂とパテを使おうとしましたが うまくいきません",
+        "ref": "NR: It's broken up into so many little tiny pieces,  I'm trying to use sand and putty, and it's not looking good.",
+        "hyp": "Natalia: It was shattered into pieces, so I tried to use sand and putty, but it didn't work well.",
+        "new_src_summary": "この段落は、古生物学者のナタリア・リプチンスキーが北極圏のツンドラ地帯で発掘を行い、手のひら大の古代の骨を発見した話である。最初は木片と思われたものが実は骨であることに気付いたナタリアは、4年以上かけて30個の同じ骨の破片を集め、パズルのように組み合わせようと試みた。彼女はこの作業が非常に困難であることを認識していた。話は科学的で専門的なトーンで進行し、リプチンスキーの情熱と熱意が強調されている。",
+        "new_tgt_summary": "This paragraph discusses Natalia Liptinskaya, a paleontologist who specializes in excavating ancient remains in the remote tundra region of Canada. While at an excavation site, she discovers small bone fragments that initially appeared to be pieces of wood. After closer inspection, she realizes they are actually bones. Over the course of four years, she collects 30 fragments and attempts to piece them together like a puzzle, a challenging task.",
+        "rel_src": [
+            "ナタリア：ルーペを取り出して もう少し よく見てみると 年輪がないんです",
+            "骨でした"
+        ],
+        "rel_tgt": [
+            "Natalia: When I took out the magnifying glass and looked at it more closely, I realized that there were no growth rings.",
+            "It was bones."
+        ],
+        "hist_info": "\"ナタリア\" - \"Natalia\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia"
+        }
+    },
+    {
+        "idx": 20,
+        "src": "だから結局 3Dスキャナーを使いました",
+        "ref": "So finally, we used a 3D surface scanner.",
+        "hyp": "So in the end, I used a 3D scanner.",
+        "rel_src": [
+            "ラティフ：彼女は それから４年以上 何度も この地点を訪れ 最終的に 30個の 同じ骨の破片を集めました ほとんどが とても小さなものです",
+            "ナタリア：数は多くありません 小さなビニール袋に収まるくらいです"
+        ],
+        "rel_tgt": [
+            "Latif: She visited this spot more than four years and collected a total of 30 fragments of the same bones, most of which are very small.",
+            "Natalia: The number is not large, it fits in a small plastic bag."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia"
+        }
+    },
+    {
+        "idx": 21,
+        "src": "ラティフ：すごいな！ ナタリア：でしょ？",
+        "ref": "LN: Ooh! NR: Yeah, right?",
+        "hyp": "Latif: Amazing! Natalia: Right?",
+        "rel_src": [
+            "ラティフ：彼女は それから４年以上 何度も この地点を訪れ 最終的に 30個の 同じ骨の破片を集めました ほとんどが とても小さなものです",
+            "ナタリア：数は多くありません 小さなビニール袋に収まるくらいです"
+        ],
+        "rel_tgt": [
+            "Latif: She visited this spot more than four years and collected a total of 30 fragments of the same bones, most of which are very small.",
+            "Natalia: The number is not large, it fits in a small plastic bag."
+        ],
+        "hist_info": "\"ナタリア\" - \"Natalia\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia"
+        }
+    },
+    {
+        "idx": 22,
+        "src": "ラティフ：画面上で作業した方が ずっと簡単です",
+        "ref": "LN: It turns out it was way easier to do it virtually.",
+        "hyp": "Latif: It's much easier to work on the screen.",
+        "rel_src": [
+            "だから結局 3Dスキャナーを使いました",
+            "ラティフ：すごいな！ ナタリア：でしょ？"
+        ],
+        "rel_tgt": [
+            "So in the end, I used a 3D scanner.",
+            "Latif: Amazing! Natalia: Right?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia"
+        }
+    },
+    {
+        "idx": 23,
+        "src": "ナタリア：全部 組み合わさった時は ちょっと感動しました",
+        "ref": "NR: It's kind of magical when it all fits together.",
+        "hyp": "Natalia: I was a little moved when everything came together.",
+        "rel_src": [
+            "ラティフ：パズルのように 破片を組み合わせようとしましたが",
+            "本当に大変な作業でした"
+        ],
+        "rel_tgt": [
+            "Latif: She tried to put the fragments together like a puzzle, but",
+            "It was truly a difficult task."
+        ],
+        "hist_info": "\"ナタリア\" - \"Natalia\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia"
+        }
+    },
+    {
+        "idx": 24,
+        "src": "ラティフ：組み立て方が正しいという 自信は どのくらいありました？",
+        "ref": "LN: How certain were you that you had it right,  that you had put it together in the right way?",
+        "hyp": "Latif: How confident were you that the assembly was correct?",
+        "rel_src": [
+            "ラティフ：パズルのように 破片を組み合わせようとしましたが",
+            "本当に大変な作業でした"
+        ],
+        "rel_tgt": [
+            "Latif: She tried to put the fragments together like a puzzle, but",
+            "It was truly a difficult task."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia"
+        }
+    },
+    {
+        "idx": 25,
+        "src": "別の組み立て方をしたら 違うものになる可能性は？ 実はインコだったとか？",
+        "ref": "Was there a potential that you'd put it together a different way  and have, like, a parakeet or something?",
+        "hyp": "If you tried assembling it differently, is there a possibility it could turn into something else? Like, it was actually a parrot?",
+        "rel_src": [
+            "ラティフ：最初は ただの木片だと思いました というのも ファイルズリーフベッドでは 太古の植物の破片が よく見つかったからです",
+            "保存状態のせいかもしれませんが それは見れば見るほど —"
+        ],
+        "rel_tgt": [
+            "Latif: At first, I thought it was just a piece of wood. This is because at Files Reef Bed, fragments of ancient plants are often found.",
+            "It may be due to the preservation condition, but the more you look at it —"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia"
+        }
+    },
+    {
+        "idx": 26,
+        "src": "ナタリア：いいえ 間違いありません",
+        "ref": "NR:  Um, no. No, we got this.",
+        "hyp": "Natalia: No, there is no mistake.",
+        "rel_src": [
+            "ナタリア：ルーペを取り出して もう少し よく見てみると 年輪がないんです",
+            "骨でした"
+        ],
+        "rel_tgt": [
+            "Natalia: When I took out the magnifying glass and looked at it more closely, I realized that there were no growth rings.",
+            "It was bones."
+        ],
+        "hist_info": "\"ナタリア\" - \"Natalia\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia"
+        }
+    },
+    {
+        "idx": 27,
+        "src": "ラティフ：彼女が発見したのは けい骨 つまり脚の骨で しかも偶蹄類のものでした 牛や羊の仲間のことです",
+        "ref": "LN: What she had, she discovered, was a tibia, a leg bone,  and specifically, one that belonged to a cloven-hoofed mammal,  so something like a cow or a sheep.",
+        "hyp": "Latif: What she discovered were metatarsal bones, which are leg bones, and they belonged to an artiodactyl, which refers to animals like cows and sheep.",
+        "rel_src": [
+            "骨でした",
+            "ラティフ：彼女は それから４年以上 何度も この地点を訪れ 最終的に 30個の 同じ骨の破片を集めました ほとんどが とても小さなものです"
+        ],
+        "rel_tgt": [
+            "It was bones.",
+            "Latif: She visited this spot more than four years and collected a total of 30 fragments of the same bones, most of which are very small."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia"
+        }
+    },
+    {
+        "idx": 28,
+        "src": "ただ この骨は牛や羊のはずは ありませんでした",
+        "ref": "But it couldn't have been either of those.",
+        "hyp": "However, these bones did not belong to animals like cows or sheep.",
+        "rel_src": [
+            "ナタリア：いいえ 間違いありません",
+            "ラティフ：彼女が発見したのは けい骨 つまり脚の骨で しかも偶蹄類のものでした 牛や羊の仲間のことです"
+        ],
+        "rel_tgt": [
+            "Natalia: No, there is no mistake.",
+            "Latif: What she discovered were metatarsal bones, which are leg bones, and they belonged to an artiodactyl, which refers to animals like cows and sheep."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia"
+        }
+    },
+    {
+        "idx": 29,
+        "src": "大き過ぎたのです",
+        "ref": "It was just too big.",
+        "hyp": "It was too big.",
+        "rel_src": [
+            "ラティフ：最初は ただの木片だと思いました というのも ファイルズリーフベッドでは 太古の植物の破片が よく見つかったからです",
+            "ただ この骨は牛や羊のはずは ありませんでした"
+        ],
+        "rel_tgt": [
+            "Latif: At first, I thought it was just a piece of wood. This is because at Files Reef Bed, fragments of ancient plants are often found.",
+            "However, these bones did not belong to animals like cows or sheep."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia"
+        }
+    },
+    {
+        "idx": 30,
+        "src": "ナタリア：特大サイズでした すごく大きな動物です",
+        "ref": "NR: The size of this thing, it was huge. It's a really big animal.",
+        "hyp": "Natalia: It was an extra-large size, a very large animal.",
+        "rel_src": [
+            "ただ この骨は牛や羊のはずは ありませんでした",
+            "大き過ぎたのです"
+        ],
+        "rel_tgt": [
+            "However, these bones did not belong to animals like cows or sheep.",
+            "It was too big."
+        ],
+        "hist_info": "\"ナタリア\" - \"Natalia\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia"
+        }
+    },
+    {
+        "idx": 31,
+        "src": "ラティフ：どんな動物だったのでしょう？",
+        "ref": "LN: So what animal could it be?",
+        "hyp": "Latif: What kind of animal was it?",
+        "rel_src": [
+            "ラティフ：彼女が発見したのは けい骨 つまり脚の骨で しかも偶蹄類のものでした 牛や羊の仲間のことです",
+            "ナタリア：特大サイズでした すごく大きな動物です"
+        ],
+        "rel_tgt": [
+            "Latif: What she discovered were metatarsal bones, which are leg bones, and they belonged to an artiodactyl, which refers to animals like cows and sheep.",
+            "Natalia: It was an extra-large size, a very large animal."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia"
+        }
+    },
+    {
+        "idx": 32,
+        "src": "行き詰った彼女は 骨片の１つを コロラドの同僚に見せました その時ひらめいたんです",
+        "ref": "Having hit a wall, she showed one of the fragments  to some colleagues of hers in Colorado,  and they had an idea.",
+        "hyp": "Feeling stuck, she showed one of the bone fragments to her colleague from Colorado, and that's when she had a breakthrough.",
+        "rel_src": [
+            "ラティフ：彼女は それから４年以上 何度も この地点を訪れ 最終的に 30個の 同じ骨の破片を集めました ほとんどが とても小さなものです",
+            "ラティフ：彼女が発見したのは けい骨 つまり脚の骨で しかも偶蹄類のものでした 牛や羊の仲間のことです"
+        ],
+        "rel_tgt": [
+            "Latif: She visited this spot more than four years and collected a total of 30 fragments of the same bones, most of which are very small.",
+            "Latif: What she discovered were metatarsal bones, which are leg bones, and they belonged to an artiodactyl, which refers to animals like cows and sheep."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado"
+        }
+    },
+    {
+        "idx": 33,
+        "src": "ナタリア：私たちが のこぎりで 骨の端に切り目を入れると 特徴のある匂いがしたんです",
+        "ref": "NR: We took a saw, and we nicked just the edge of it,  and there was this really interesting smell that comes from it.",
+        "hyp": "Natalia: When we made an incision on the edge of the bone with a saw, it had a distinctive smell.",
+        "rel_src": [
+            "ナタリア：割れて 粉々になっていたので 砂とパテを使おうとしましたが うまくいきません",
+            "だから結局 3Dスキャナーを使いました"
+        ],
+        "rel_tgt": [
+            "Natalia: It was shattered into pieces, so I tried to use sand and putty, but it didn't work well.",
+            "So in the end, I used a 3D scanner."
+        ],
+        "hist_info": "\"ナタリア\" - \"Natalia\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado"
+        }
+    },
+    {
+        "idx": 34,
+        "src": "ラティフ：焦げた肉のような匂いで",
+        "ref": "LN: It smelled kind of like singed flesh.",
+        "hyp": "Latif: It smelled like burnt meat.",
+        "rel_src": [
+            "ラティフ：彼女は それから４年以上 何度も この地点を訪れ 最終的に 30個の 同じ骨の破片を集めました ほとんどが とても小さなものです",
+            "ナタリア：私たちが のこぎりで 骨の端に切り目を入れると 特徴のある匂いがしたんです"
+        ],
+        "rel_tgt": [
+            "Latif: She visited this spot more than four years and collected a total of 30 fragments of the same bones, most of which are very small.",
+            "Natalia: When we made an incision on the edge of the bone with a saw, it had a distinctive smell."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado"
+        }
+    },
+    {
+        "idx": 35,
+        "src": "不気味な解剖室で ナタリアが 頭蓋骨を切断した時に 嗅いだのと同じ匂いでした コラーゲンです",
+        "ref": "It was a smell that Natalia recognized  from cutting up skulls in her gross anatomy lab:  collagen.",
+        "hyp": "In the eerie autopsy room, the smell Natalia detected when she dissected the skull was the same as collagen.",
+        "rel_src": [
+            "ナタリア：私たちが のこぎりで 骨の端に切り目を入れると 特徴のある匂いがしたんです",
+            "ラティフ：焦げた肉のような匂いで"
+        ],
+        "rel_tgt": [
+            "Natalia: When we made an incision on the edge of the bone with a saw, it had a distinctive smell.",
+            "Latif: It smelled like burnt meat."
+        ],
+        "hist_info": "\"ナタリア\" - \"Natalia\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado"
+        }
+    },
+    {
+        "idx": 36,
+        "src": "コラーゲンは骨の構造を保つ 役割を果たします",
+        "ref": "Collagen is what gives structure to our bones.",
+        "hyp": "Collagen plays a role in maintaining the structure of bones.",
+        "rel_src": [
+            "ナタリア：私たちが のこぎりで 骨の端に切り目を入れると 特徴のある匂いがしたんです",
+            "不気味な解剖室で ナタリアが 頭蓋骨を切断した時に 嗅いだのと同じ匂いでした コラーゲンです"
+        ],
+        "rel_tgt": [
+            "Natalia: When we made an incision on the edge of the bone with a saw, it had a distinctive smell.",
+            "In the eerie autopsy room, the smell Natalia detected when she dissected the skull was the same as collagen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado"
+        }
+    },
+    {
+        "idx": 37,
+        "src": "年月が経つと 普通は 分解しますが",
+        "ref": "And usually, after so many years,  it breaks down.",
+        "hyp": "Over time, they typically decompose.",
+        "rel_src": [
+            "不気味な解剖室で ナタリアが 頭蓋骨を切断した時に 嗅いだのと同じ匂いでした コラーゲンです",
+            "コラーゲンは骨の構造を保つ 役割を果たします"
+        ],
+        "rel_tgt": [
+            "In the eerie autopsy room, the smell Natalia detected when she dissected the skull was the same as collagen.",
+            "Collagen plays a role in maintaining the structure of bones."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado"
+        }
+    },
+    {
+        "idx": 38,
+        "src": "この場合 北極圏の気候が 天然の冷蔵庫となって保存したのです",
+        "ref": "But in this case, the Arctic had acted like a natural freezer and preserved it.",
+        "hyp": "In this case, the Arctic Circle's climate acted as a natural refrigerator, preserving the remains.",
+        "rel_src": [
+            "行き詰った彼女は 骨片の１つを コロラドの同僚に見せました その時ひらめいたんです",
+            "不気味な解剖室で ナタリアが 頭蓋骨を切断した時に 嗅いだのと同じ匂いでした コラーゲンです"
+        ],
+        "rel_tgt": [
+            "Feeling stuck, she showed one of the bone fragments to her colleague from Colorado, and that's when she had a breakthrough.",
+            "In the eerie autopsy room, the smell Natalia detected when she dissected the skull was the same as collagen."
+        ],
+        "hist_info": "\"北極圏\" - \"Arctic Circle\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado"
+        }
+    },
+    {
+        "idx": 39,
+        "src": "それから１〜２年経って ナタリアがブリストルで学会に参加した時 マイク・バックリーという学者仲間が 「コラーゲン鑑定」という新しい処理法の デモをしていました",
+        "ref": "Then a year or two later, Natalia was at a conference in Bristol,  and she saw that a colleague of hers named Mike Buckley  was demoing this new process that he called \"collagen fingerprinting.\"",
+        "hyp": "One to two years later, when Natalia attended a conference in Bristol, her scholarly colleague Mike Buckley was demonstrating a new processing method called \"collagen analysis.\"",
+        "new_src_summary": "古生物学者ナタリア・リプチンスキーは北極圏のツンドラ地帯で手のひら大の古代の骨を発見し、その骨の破片を集めてパズルのように組み合わせようと試みた。彼女は3Dスキャナーを使用して割れた骨を修復し、偶蹄類の骨であることを特定した。コロラドの同僚の助けを得て、骨に焦げた肉のような匂いがすることに気づき、それがコラーゲンであることを発見した。これらの発見は北極圏の気候によって保存されたものであり、リプチンスキーの情熱と熱意が強調されている。",
+        "new_tgt_summary": "Paleontologist Natalia Liptinskaya excavates ancient remains in the remote tundra region of Canada, discovering small bone fragments that turn out to be bones, not wood. Over four years, she collects and reconstructs 30 fragments using a 3D scanner, identifying them as metatarsal bones from an artiodactyl. With the help of a colleague, Natalia makes a breakthrough in identifying the bones, which were preserved by the Arctic climate due to the distinctive smell of collagen.",
+        "rel_src": [
+            "不気味な解剖室で ナタリアが 頭蓋骨を切断した時に 嗅いだのと同じ匂いでした コラーゲンです",
+            "コラーゲンは骨の構造を保つ 役割を果たします"
+        ],
+        "rel_tgt": [
+            "In the eerie autopsy room, the smell Natalia detected when she dissected the skull was the same as collagen.",
+            "Collagen plays a role in maintaining the structure of bones."
+        ],
+        "hist_info": "\"ナタリア\" - \"Natalia\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley"
+        }
+    },
+    {
+        "idx": 40,
+        "src": "動物はそれぞれ コラーゲンの構造が少しずつ 違っていて 未知の骨のコラーゲンの特徴がわかれば 既に分かっている動物のものと 比較でき ひょっとしたら 特定できるかもしれません",
+        "ref": "It turns out that different species have slightly different structures  of collagen,  so if you get a collagen profile of an unknown bone,  you can compare it to those of known species,  and, who knows, maybe you get a match.",
+        "hyp": "Animals each have slightly different structures of collagen, so if the characteristics of the collagen in unknown bones can be identified, they can be compared to those of known animals, and possibly identified.",
+        "rel_src": [
+            "不気味な解剖室で ナタリアが 頭蓋骨を切断した時に 嗅いだのと同じ匂いでした コラーゲンです",
+            "コラーゲンは骨の構造を保つ 役割を果たします"
+        ],
+        "rel_tgt": [
+            "In the eerie autopsy room, the smell Natalia detected when she dissected the skull was the same as collagen.",
+            "Collagen plays a role in maintaining the structure of bones."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley"
+        }
+    },
+    {
+        "idx": 41,
+        "src": "だから 骨片を１つ送ったのです 宅配便でね",
+        "ref": "So she shipped him one of the fragments,  FedEx.",
+        "hyp": "So, she sent one bone fragment by courier.",
+        "rel_src": [
+            "行き詰った彼女は 骨片の１つを コロラドの同僚に見せました その時ひらめいたんです",
+            "それから１〜２年経って ナタリアがブリストルで学会に参加した時 マイク・バックリーという学者仲間が 「コラーゲン鑑定」という新しい処理法の デモをしていました"
+        ],
+        "rel_tgt": [
+            "Feeling stuck, she showed one of the bone fragments to her colleague from Colorado, and that's when she had a breakthrough.",
+            "One to two years later, when Natalia attended a conference in Bristol, her scholarly colleague Mike Buckley was demonstrating a new processing method called \"collagen analysis.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley"
+        }
+    },
+    {
+        "idx": 42,
+        "src": "ナタリア：大切なものだから 追跡したかったんです",
+        "ref": "NR: Yeah, you want to track it. It's kind of important.",
+        "hyp": "Natalia: Because it was something important, I wanted to track it.",
+        "rel_src": [
+            "それから１〜２年経って ナタリアがブリストルで学会に参加した時 マイク・バックリーという学者仲間が 「コラーゲン鑑定」という新しい処理法の デモをしていました",
+            "だから 骨片を１つ送ったのです 宅配便でね"
+        ],
+        "rel_tgt": [
+            "One to two years later, when Natalia attended a conference in Bristol, her scholarly colleague Mike Buckley was demonstrating a new processing method called \"collagen analysis.\"",
+            "So, she sent one bone fragment by courier."
+        ],
+        "hist_info": "\"ナタリア\" - \"Natalia\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley"
+        }
+    },
+    {
+        "idx": 43,
+        "src": "ラティフ：彼は骨片を処理して 37種類の現代の哺乳類と比較し",
+        "ref": "LN: And he processed it,  and compared it to 37 known and modern-day mammal species.",
+        "hyp": "Latif: He processed the bone fragments and compared them to 37 modern mammal species.",
+        "rel_src": [
+            "それから１〜２年経って ナタリアがブリストルで学会に参加した時 マイク・バックリーという学者仲間が 「コラーゲン鑑定」という新しい処理法の デモをしていました",
+            "動物はそれぞれ コラーゲンの構造が少しずつ 違っていて 未知の骨のコラーゲンの特徴がわかれば 既に分かっている動物のものと 比較でき ひょっとしたら 特定できるかもしれません"
+        ],
+        "rel_tgt": [
+            "One to two years later, when Natalia attended a conference in Bristol, her scholarly colleague Mike Buckley was demonstrating a new processing method called \"collagen analysis.\"",
+            "Animals each have slightly different structures of collagen, so if the characteristics of the collagen in unknown bones can be identified, they can be compared to those of known animals, and possibly identified."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley"
+        }
+    },
+    {
+        "idx": 44,
+        "src": "一致する動物を見つけました",
+        "ref": "And he found a match.",
+        "hyp": "I found a matching animal.",
+        "rel_src": [
+            "それから１〜２年経って ナタリアがブリストルで学会に参加した時 マイク・バックリーという学者仲間が 「コラーゲン鑑定」という新しい処理法の デモをしていました",
+            "動物はそれぞれ コラーゲンの構造が少しずつ 違っていて 未知の骨のコラーゲンの特徴がわかれば 既に分かっている動物のものと 比較でき ひょっとしたら 特定できるかもしれません"
+        ],
+        "rel_tgt": [
+            "One to two years later, when Natalia attended a conference in Bristol, her scholarly colleague Mike Buckley was demonstrating a new processing method called \"collagen analysis.\"",
+            "Animals each have slightly different structures of collagen, so if the characteristics of the collagen in unknown bones can be identified, they can be compared to those of known animals, and possibly identified."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley"
+        }
+    },
+    {
+        "idx": 45,
+        "src": "ナタリアが高緯度の北極圏で 発掘した 350万年前の骨の持ち主は なんと",
+        "ref": "It turns out that the 3.5 million-year-old bone  that Natalia had dug out of the High Arctic  belonged to ...",
+        "hyp": "The owner of the 3.5 million-year-old bones excavated by Natalia in the high latitude Arctic Circle is none other than",
+        "rel_src": [
+            "この場合 北極圏の気候が 天然の冷蔵庫となって保存したのです",
+            "一致する動物を見つけました"
+        ],
+        "rel_tgt": [
+            "In this case, the Arctic Circle's climate acted as a natural refrigerator, preserving the remains.",
+            "I found a matching animal."
+        ],
+        "hist_info": "\"北極圏\" - \"Arctic Circle\", \"ナタリア\" - \"Natalia\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley"
+        }
+    },
+    {
+        "idx": 46,
+        "src": "ラクダでした",
+        "ref": "a camel.",
+        "hyp": "It was a camel.",
+        "rel_src": [
+            "ラティフ：彼女が発見したのは けい骨 つまり脚の骨で しかも偶蹄類のものでした 牛や羊の仲間のことです",
+            "ラティフ：焦げた肉のような匂いで"
+        ],
+        "rel_tgt": [
+            "Latif: What she discovered were metatarsal bones, which are leg bones, and they belonged to an artiodactyl, which refers to animals like cows and sheep.",
+            "Latif: It smelled like burnt meat."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley"
+        }
+    },
+    {
+        "idx": 47,
+        "src": "ナタリア：「え？」って思いました 本当なら すごいことです",
+        "ref": "NR: And I'm thinking, what? That's amazing -- if it's true.",
+        "hyp": "Natalia thought, \"Huh?\" If it's true, it's amazing.",
+        "rel_src": [
+            "それから１〜２年経って ナタリアがブリストルで学会に参加した時 マイク・バックリーという学者仲間が 「コラーゲン鑑定」という新しい処理法の デモをしていました",
+            "動物はそれぞれ コラーゲンの構造が少しずつ 違っていて 未知の骨のコラーゲンの特徴がわかれば 既に分かっている動物のものと 比較でき ひょっとしたら 特定できるかもしれません"
+        ],
+        "rel_tgt": [
+            "One to two years later, when Natalia attended a conference in Bristol, her scholarly colleague Mike Buckley was demonstrating a new processing method called \"collagen analysis.\"",
+            "Animals each have slightly different structures of collagen, so if the characteristics of the collagen in unknown bones can be identified, they can be compared to those of known animals, and possibly identified."
+        ],
+        "hist_info": "\"ナタリア\" - \"Natalia\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley"
+        }
+    },
+    {
+        "idx": 48,
+        "src": "ラティフ：多くの骨片を 検査しましたが どれも結果は同じでした",
+        "ref": "LN: So they tested a bunch of the fragments,  and they got the same result for each one.",
+        "hyp": "Latif: I examined many bone fragments, but the results were all the same.",
+        "rel_src": [
+            "ラティフ：彼は骨片を処理して 37種類の現代の哺乳類と比較し",
+            "一致する動物を見つけました"
+        ],
+        "rel_tgt": [
+            "Latif: He processed the bone fragments and compared them to 37 modern mammal species.",
+            "I found a matching animal."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley"
+        }
+    },
+    {
+        "idx": 49,
+        "src": "ただし 発見した骨の サイズから考えると このラクダは 現在のものより ３割も大きかったのです",
+        "ref": "However, based on the size of the bone that they found,  it meant that this camel was 30 percent larger than modern-day camels.",
+        "hyp": "However, judging from the size of the discovered bones, this camel was actually 30% larger than modern ones.",
+        "rel_src": [
+            "ナタリアが高緯度の北極圏で 発掘した 350万年前の骨の持ち主は なんと",
+            "ラクダでした"
+        ],
+        "rel_tgt": [
+            "The owner of the 3.5 million-year-old bones excavated by Natalia in the high latitude Arctic Circle is none other than",
+            "It was a camel."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley"
+        }
+    },
+    {
+        "idx": 50,
+        "src": "背の高さは およそ2.7m — 体重は約１トンでした",
+        "ref": "So this camel would have been about nine feet tall,  weighed around a ton.",
+        "hyp": "The height was approximately 2.7 meters, and the weight was about 1 ton.",
+        "rel_src": [
+            "ナタリアが高緯度の北極圏で 発掘した 350万年前の骨の持ち主は なんと",
+            "ラクダでした"
+        ],
+        "rel_tgt": [
+            "The owner of the 3.5 million-year-old bones excavated by Natalia in the high latitude Arctic Circle is none other than",
+            "It was a camel."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley"
+        }
+    },
+    {
+        "idx": 51,
+        "src": "そうです",
+        "ref": "Yeah.",
+        "hyp": "That's right.",
+        "rel_src": [
+            "ナタリア：大切なものだから 追跡したかったんです",
+            "ナタリア：「え？」って思いました 本当なら すごいことです"
+        ],
+        "rel_tgt": [
+            "Natalia: Because it was something important, I wanted to track it.",
+            "Natalia thought, \"Huh?\" If it's true, it's amazing."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley"
+        }
+    },
+    {
+        "idx": 52,
+        "src": "ナタリアが発見したのは 「巨大 北極ラクダ」だったんです",
+        "ref": "Natalia had found a Giant Arctic camel.",
+        "hyp": "What Natalia discovered was a \"giant Arctic camel.\"",
+        "rel_src": [
+            "ナタリアが高緯度の北極圏で 発掘した 350万年前の骨の持ち主は なんと",
+            "ただし 発見した骨の サイズから考えると このラクダは 現在のものより ３割も大きかったのです"
+        ],
+        "rel_tgt": [
+            "The owner of the 3.5 million-year-old bones excavated by Natalia in the high latitude Arctic Circle is none other than",
+            "However, judging from the size of the discovered bones, this camel was actually 30% larger than modern ones."
+        ],
+        "hist_info": "\"ナタリア\" - \"Natalia\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley"
+        }
+    },
+    {
+        "idx": 53,
+        "src": "みなさんがラクダと聞いて 思い浮かべるのは 東・中央アジアに生息する フタコブラクダか",
+        "ref": "Now, when you hear the word \"camel,\"  what may come to mind is one of these,  the Bactrian camel of East and Central Asia.",
+        "hyp": "When you hear the word camel, what comes to mind is the Bactrian camel that inhabits East and Central Asia.",
+        "rel_src": [
+            "ナタリアが高緯度の北極圏で 発掘した 350万年前の骨の持ち主は なんと",
+            "ナタリアが発見したのは 「巨大 北極ラクダ」だったんです"
+        ],
+        "rel_tgt": [
+            "The owner of the 3.5 million-year-old bones excavated by Natalia in the high latitude Arctic Circle is none other than",
+            "What Natalia discovered was a \"giant Arctic camel.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel"
+        }
+    },
+    {
+        "idx": 54,
+        "src": "頭の中の 絵はがきのイメージは きっと こちらのヒトコブラクダでしょう 砂漠の生き物といえば これです 中東やサハラ砂漠といった 高温の砂漠に暮らし 背中の大きなこぶに 砂漠の長旅用に水を蓄え 大きな幅広い足で 砂丘を踏みしめて進みます",
+        "ref": "But chances are the postcard image you have in your brain  is one of these, the dromedary,  quintessential desert creature --  hangs out in sandy, hot places like the Middle East and the Sahara,  has a big old hump on its back  for storing water for those long desert treks,  has big, broad feet to help it tromp over sand dunes.",
+        "hyp": "The image of a postcard in your mind is probably of the Bactrian camel here. When it comes to desert creatures, this is it. Living in hot deserts like the Middle East and the Sahara, they store water in their large humps for long desert journeys and stride across sand dunes with their wide feet.",
+        "rel_src": [
+            "ナタリアが発見したのは 「巨大 北極ラクダ」だったんです",
+            "みなさんがラクダと聞いて 思い浮かべるのは 東・中央アジアに生息する フタコブラクダか"
+        ],
+        "rel_tgt": [
+            "What Natalia discovered was a \"giant Arctic camel.\"",
+            "When you hear the word camel, what comes to mind is the Bactrian camel that inhabits East and Central Asia."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel"
+        }
+    },
+    {
+        "idx": 55,
+        "src": "一体なぜ そんな動物がカナダ北部の 北極圏に到達したのでしょう？",
+        "ref": "So how on earth would one of these guys end up in the High Arctic?",
+        "hyp": "Why on earth did such an animal reach the Arctic Circle in northern Canada?",
+        "rel_src": [
+            "ナタリアが高緯度の北極圏で 発掘した 350万年前の骨の持ち主は なんと",
+            "ナタリアが発見したのは 「巨大 北極ラクダ」だったんです"
+        ],
+        "rel_tgt": [
+            "The owner of the 3.5 million-year-old bones excavated by Natalia in the high latitude Arctic Circle is none other than",
+            "What Natalia discovered was a \"giant Arctic camel.\""
+        ],
+        "hist_info": "\"カナダ\" - \"Canada\", \"北極圏\" - \"Arctic Circle\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel"
+        }
+    },
+    {
+        "idx": 56,
+        "src": "実は 科学者が以前から 知っていたことがあります ナタリアの発見以前からです 実は ラクダの原産地は アメリカなんです",
+        "ref": "Well, scientists have known for a long time, turns out,  even before Natalia's discovery,  that camels are actually originally American.",
+        "hyp": "In fact, there is something that scientists have known before Natalia's discovery. Actually, the original home of camels is America.",
+        "rel_src": [
+            "みなさんがラクダと聞いて 思い浮かべるのは 東・中央アジアに生息する フタコブラクダか",
+            "一体なぜ そんな動物がカナダ北部の 北極圏に到達したのでしょう？"
+        ],
+        "rel_tgt": [
+            "When you hear the word camel, what comes to mind is the Bactrian camel that inhabits East and Central Asia.",
+            "Why on earth did such an animal reach the Arctic Circle in northern Canada?"
+        ],
+        "hist_info": "\"ナタリア\" - \"Natalia\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America"
+        }
+    },
+    {
+        "idx": 57,
+        "src": "ここで誕生したんです",
+        "ref": "They started here.",
+        "hyp": "It was born here.",
+        "rel_src": [
+            "ナタリアが発見したのは 「巨大 北極ラクダ」だったんです",
+            "実は 科学者が以前から 知っていたことがあります ナタリアの発見以前からです 実は ラクダの原産地は アメリカなんです"
+        ],
+        "rel_tgt": [
+            "What Natalia discovered was a \"giant Arctic camel.\"",
+            "In fact, there is something that scientists have known before Natalia's discovery. Actually, the original home of camels is America."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America"
+        }
+    },
+    {
+        "idx": 58,
+        "src": "ラクダが出現してから 約4,500万年経ちますが そのうち ほぼ4,000万年の間 北米だけに分布し 種類は およそ20種類 多分それ以上いました",
+        "ref": "For nearly 40 of the 45 million years that camels have been around,  you could only find them in North America,  around 20 different species, maybe more.",
+        "hyp": "It has been about 45 million years since camels appeared, and during nearly 40 million years of that time, they were distributed only in North America, with approximately 20 species, probably even more.",
+        "rel_src": [
+            "実は 科学者が以前から 知っていたことがあります ナタリアの発見以前からです 実は ラクダの原産地は アメリカなんです",
+            "ここで誕生したんです"
+        ],
+        "rel_tgt": [
+            "In fact, there is something that scientists have known before Natalia's discovery. Actually, the original home of camels is America.",
+            "It was born here."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America"
+        }
+    },
+    {
+        "idx": 59,
+        "src": "ラティフ：全部 並べたら 違いは分かったでしょうか？",
+        "ref": "LN: If I put them all in a lineup, would they look different?",
+        "hyp": "Latif: Did you notice the difference when you lined them all up?",
+        "new_src_summary": "古生物学者ナタリア・リプチンスキーは北極圏のツンドラ地帯で手のひら大の古代の偶蹄類の骨を発見し、3Dスキャナーを使用して修復した。彼女はコロラドの同僚と協力して、骨に焦げた肉のような匂いがすることに気づき、それがコラーゲンであることを発見した。さらに、学会でマイク・バックリーが新しいコラーゲン鑑定法をデモし、リプチンスキーは北極圏で発掘した骨が巨大北極ラクダであることを確認した。この巨大北極ラクダは現在のものよりも30%大きかった。ラクダは実はアメリカが原産地であり、約4,500万年前に出現し、そのうち4,000万年間は北米に分布していた。彼女の情熱と熱意が強調される一方で、新たな科学的手法によって古代の骨がより詳細に研究されている。",
+        "new_tgt_summary": "Paleontologist Natalia Liptinskaya excavates ancient remains in the remote tundra region of Canada, discovering small bone fragments that turn out to be bones, not wood. Over four years, she collects and reconstructs 30 fragments using a 3D scanner, identifying them as metatarsal bones from an artiodactyl. With the help of colleague Mike Buckley, Natalia makes a breakthrough in identifying the bones, which were preserved by the Arctic climate due to the distinctive smell of collagen. Collagen analysis reveals the bones belonged to a giant Arctic camel that lived 3.5 million years ago, challenging the common perception of camels and their origins as originally from America before spreading to other regions.",
+        "rel_src": [
+            "ラティフ：多くの骨片を 検査しましたが どれも結果は同じでした",
+            "ただし 発見した骨の サイズから考えると このラクダは 現在のものより ３割も大きかったのです"
+        ],
+        "rel_tgt": [
+            "Latif: I examined many bone fragments, but the results were all the same.",
+            "However, judging from the size of the discovered bones, this camel was actually 30% larger than modern ones."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America"
+        }
+    },
+    {
+        "idx": 60,
+        "src": "ナタリア：ええ 体の大きさはまちまちで",
+        "ref": "NR: Yeah, you're going to have different body sizes.",
+        "hyp": "Natalia: Yes, the sizes of the bodies vary.",
+        "rel_src": [
+            "背の高さは およそ2.7m — 体重は約１トンでした",
+            "ナタリアが発見したのは 「巨大 北極ラクダ」だったんです"
+        ],
+        "rel_tgt": [
+            "The height was approximately 2.7 meters, and the weight was about 1 ton.",
+            "What Natalia discovered was a \"giant Arctic camel.\""
+        ],
+        "hist_info": "\"ナタリア\" - \"Natalia\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America"
+        }
+    },
+    {
+        "idx": 61,
+        "src": "とても首の長い種類もいました キリンの首と同じようなものでしょう",
+        "ref": "You'll have some with really long necks,  so they're actually functionally like giraffes.",
+        "hyp": "There were also species with very long necks, similar to a giraffe's neck.",
+        "rel_src": [
+            "頭の中の 絵はがきのイメージは きっと こちらのヒトコブラクダでしょう 砂漠の生き物といえば これです 中東やサハラ砂漠といった 高温の砂漠に暮らし 背中の大きなこぶに 砂漠の長旅用に水を蓄え 大きな幅広い足で 砂丘を踏みしめて進みます",
+            "ラクダが出現してから 約4,500万年経ちますが そのうち ほぼ4,000万年の間 北米だけに分布し 種類は およそ20種類 多分それ以上いました"
+        ],
+        "rel_tgt": [
+            "The image of a postcard in your mind is probably of the Bactrian camel here. When it comes to desert creatures, this is it. Living in hot deserts like the Middle East and the Sahara, they store water in their large humps for long desert journeys and stride across sand dunes with their wide feet.",
+            "It has been about 45 million years since camels appeared, and during nearly 40 million years of that time, they were distributed only in North America, with approximately 20 species, probably even more."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America"
+        }
+    },
+    {
+        "idx": 62,
+        "src": "ラティフ：ワニのような 顔をしたものもいました",
+        "ref": "LN: Some had snouts, like crocodiles.",
+        "hyp": "Latif: There were also ones with faces like crocodiles.",
+        "rel_src": [
+            "頭の中の 絵はがきのイメージは きっと こちらのヒトコブラクダでしょう 砂漠の生き物といえば これです 中東やサハラ砂漠といった 高温の砂漠に暮らし 背中の大きなこぶに 砂漠の長旅用に水を蓄え 大きな幅広い足で 砂丘を踏みしめて進みます",
+            "ラクダが出現してから 約4,500万年経ちますが そのうち ほぼ4,000万年の間 北米だけに分布し 種類は およそ20種類 多分それ以上いました"
+        ],
+        "rel_tgt": [
+            "The image of a postcard in your mind is probably of the Bactrian camel here. When it comes to desert creatures, this is it. Living in hot deserts like the Middle East and the Sahara, they store water in their large humps for long desert journeys and stride across sand dunes with their wide feet.",
+            "It has been about 45 million years since camels appeared, and during nearly 40 million years of that time, they were distributed only in North America, with approximately 20 species, probably even more."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America"
+        }
+    },
+    {
+        "idx": 63,
+        "src": "ナタリア：初期の 原始的なラクダは とても小さくて ウサギくらいの大きさでした",
+        "ref": "NR: The really primitive, early ones would have been really small,  almost like rabbits.",
+        "hyp": "Natalia: The early primitive camels were very small, about the size of a rabbit.",
+        "rel_src": [
+            "一体なぜ そんな動物がカナダ北部の 北極圏に到達したのでしょう？",
+            "実は 科学者が以前から 知っていたことがあります ナタリアの発見以前からです 実は ラクダの原産地は アメリカなんです"
+        ],
+        "rel_tgt": [
+            "Why on earth did such an animal reach the Arctic Circle in northern Canada?",
+            "In fact, there is something that scientists have known before Natalia's discovery. Actually, the original home of camels is America."
+        ],
+        "hist_info": "\"ナタリア\" - \"Natalia\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America"
+        }
+    },
+    {
+        "idx": 64,
+        "src": "ラティフ：ええっ？ ウサギサイズのラクダですか？",
+        "ref": "LN: What? Rabbit-sized camels?",
+        "hyp": "Latif: Huh? A camel the size of a rabbit?",
+        "rel_src": [
+            "ナタリアが発見したのは 「巨大 北極ラクダ」だったんです",
+            "ナタリア：初期の 原始的なラクダは とても小さくて ウサギくらいの大きさでした"
+        ],
+        "rel_tgt": [
+            "What Natalia discovered was a \"giant Arctic camel.\"",
+            "Natalia: The early primitive camels were very small, about the size of a rabbit."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America"
+        }
+    },
+    {
+        "idx": 65,
+        "src": "ナタリア：初期の種類です",
+        "ref": "NR: The earliest ones.",
+        "hyp": "Natalia: It's an early species.",
+        "rel_src": [
+            "ナタリア：初期の 原始的なラクダは とても小さくて ウサギくらいの大きさでした",
+            "ラティフ：ええっ？ ウサギサイズのラクダですか？"
+        ],
+        "rel_tgt": [
+            "Natalia: The early primitive camels were very small, about the size of a rabbit.",
+            "Latif: Huh? A camel the size of a rabbit?"
+        ],
+        "hist_info": "\"ナタリア\" - \"Natalia\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America"
+        }
+    },
+    {
+        "idx": 66,
+        "src": "見てもわからないでしょうね",
+        "ref": "So those ones you probably would not recognize.",
+        "hyp": "You wouldn't understand even if you looked, would you?",
+        "rel_src": [
+            "ラティフ：全部 並べたら 違いは分かったでしょうか？",
+            "ナタリア：ええ 体の大きさはまちまちで"
+        ],
+        "rel_tgt": [
+            "Latif: Did you notice the difference when you lined them all up?",
+            "Natalia: Yes, the sizes of the bodies vary."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America"
+        }
+    },
+    {
+        "idx": 67,
+        "src": "ラティフ：ウサギ・ラクダを飼ってみたいな",
+        "ref": "LN: Oh my God, I want a pet rabbit-camel.",
+        "hyp": "Latif: I'd like to try raising a rabbit camel.",
+        "rel_src": [
+            "ナタリア：初期の 原始的なラクダは とても小さくて ウサギくらいの大きさでした",
+            "ラティフ：ええっ？ ウサギサイズのラクダですか？"
+        ],
+        "rel_tgt": [
+            "Natalia: The early primitive camels were very small, about the size of a rabbit.",
+            "Latif: Huh? A camel the size of a rabbit?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America"
+        }
+    },
+    {
+        "idx": 68,
+        "src": "ナタリア：ええ きっと最高ね",
+        "ref": "NR: I know, wouldn't that be great?",
+        "hyp": "Natalia: Yes, it will definitely be amazing.",
+        "rel_src": [
+            "ナタリア：ええ 体の大きさはまちまちで",
+            "ナタリア：初期の種類です"
+        ],
+        "rel_tgt": [
+            "Natalia: Yes, the sizes of the bodies vary.",
+            "Natalia: It's an early species."
+        ],
+        "hist_info": "\"ナタリア\" - \"Natalia\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America"
+        }
+    },
+    {
+        "idx": 69,
+        "src": "ラティフ：その後 3〜700万年前に ラクダの群れが南米へと下り ラマやアルパカになりました 別の種類はベーリング陸橋を渡り アジアやアフリカに行きました",
+        "ref": "LN: And then about three to seven million years ago,  one branch of camels went down to South America,  where they became llamas and alpacas,  and another branch crossed over the Bering Land Bridge  into Asia and Africa.",
+        "hyp": "Latif: Subsequently, 3 to 7 million years ago, camel herds descended to South America and became llamas and alpacas. Another species crossed the Bering Land Bridge and went to Asia and Africa.",
+        "rel_src": [
+            "ラクダが出現してから 約4,500万年経ちますが そのうち ほぼ4,000万年の間 北米だけに分布し 種類は およそ20種類 多分それ以上いました",
+            "ナタリア：初期の 原始的なラクダは とても小さくて ウサギくらいの大きさでした"
+        ],
+        "rel_tgt": [
+            "It has been about 45 million years since camels appeared, and during nearly 40 million years of that time, they were distributed only in North America, with approximately 20 species, probably even more.",
+            "Natalia: The early primitive camels were very small, about the size of a rabbit."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America"
+        }
+    },
+    {
+        "idx": 70,
+        "src": "前回の氷河期の終わり頃 北米のラクダは絶滅しました",
+        "ref": "And then around the end of the last ice age,  North American camels went extinct.",
+        "hyp": "At the end of the last Ice Age, camels in North America became extinct.",
+        "rel_src": [
+            "ラクダが出現してから 約4,500万年経ちますが そのうち ほぼ4,000万年の間 北米だけに分布し 種類は およそ20種類 多分それ以上いました",
+            "ラティフ：その後 3〜700万年前に ラクダの群れが南米へと下り ラマやアルパカになりました 別の種類はベーリング陸橋を渡り アジアやアフリカに行きました"
+        ],
+        "rel_tgt": [
+            "It has been about 45 million years since camels appeared, and during nearly 40 million years of that time, they were distributed only in North America, with approximately 20 species, probably even more.",
+            "Latif: Subsequently, 3 to 7 million years ago, camel herds descended to South America and became llamas and alpacas. Another species crossed the Bering Land Bridge and went to Asia and Africa."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America"
+        }
+    },
+    {
+        "idx": 71,
+        "src": "ここまでは すでに判明していることです とは言え あれほど北で発見されたことが 完全に説明できるわけではありません",
+        "ref": "So, scientists knew all of that already,  but it still doesn't fully explain how Natalia found one so far north.",
+        "hyp": "Up to this point, it is already known. However, the fact that it was discovered so far north does not completely explain it.",
+        "rel_src": [
+            "実は 科学者が以前から 知っていたことがあります ナタリアの発見以前からです 実は ラクダの原産地は アメリカなんです",
+            "ラティフ：その後 3〜700万年前に ラクダの群れが南米へと下り ラマやアルパカになりました 別の種類はベーリング陸橋を渡り アジアやアフリカに行きました"
+        ],
+        "rel_tgt": [
+            "In fact, there is something that scientists have known before Natalia's discovery. Actually, the original home of camels is America.",
+            "Latif: Subsequently, 3 to 7 million years ago, camel herds descended to South America and became llamas and alpacas. Another species crossed the Bering Land Bridge and went to Asia and Africa."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America"
+        }
+    },
+    {
+        "idx": 72,
+        "src": "例えば気温の面で サハラ砂漠とは正反対ですから",
+        "ref": "Like, this is, temperature-wise, the polar opposite of the Sahara.",
+        "hyp": "For example, in terms of temperature, it is completely opposite to the Sahara Desert.",
+        "rel_src": [
+            "頭の中の 絵はがきのイメージは きっと こちらのヒトコブラクダでしょう 砂漠の生き物といえば これです 中東やサハラ砂漠といった 高温の砂漠に暮らし 背中の大きなこぶに 砂漠の長旅用に水を蓄え 大きな幅広い足で 砂丘を踏みしめて進みます",
+            "実は 科学者が以前から 知っていたことがあります ナタリアの発見以前からです 実は ラクダの原産地は アメリカなんです"
+        ],
+        "rel_tgt": [
+            "The image of a postcard in your mind is probably of the Bactrian camel here. When it comes to desert creatures, this is it. Living in hot deserts like the Middle East and the Sahara, they store water in their large humps for long desert journeys and stride across sand dunes with their wide feet.",
+            "In fact, there is something that scientists have known before Natalia's discovery. Actually, the original home of camels is America."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America"
+        }
+    },
+    {
+        "idx": 73,
+        "src": "確かに 350万年前の気温は 現代より平均22度 高かったんです",
+        "ref": "Now to be fair,  three and a half million years ago,  it was on average 22 degrees Celsius warmer than it is now.",
+        "hyp": "Indeed, the temperature 3.5 million years ago was on average 22 degrees higher than it is today.",
+        "rel_src": [
+            "ラクダが出現してから 約4,500万年経ちますが そのうち ほぼ4,000万年の間 北米だけに分布し 種類は およそ20種類 多分それ以上いました",
+            "ラティフ：その後 3〜700万年前に ラクダの群れが南米へと下り ラマやアルパカになりました 別の種類はベーリング陸橋を渡り アジアやアフリカに行きました"
+        ],
+        "rel_tgt": [
+            "It has been about 45 million years since camels appeared, and during nearly 40 million years of that time, they were distributed only in North America, with approximately 20 species, probably even more.",
+            "Latif: Subsequently, 3 to 7 million years ago, camel herds descended to South America and became llamas and alpacas. Another species crossed the Bering Land Bridge and went to Asia and Africa."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America"
+        }
+    },
+    {
+        "idx": 74,
+        "src": "だから針葉樹林が広がっていて 今のユーコン川流域やシベリアに 似ていたかもしれません",
+        "ref": "So it would have been boreal forest,  so more like the Yukon or Siberia today.",
+        "hyp": "Therefore, it is possible that there were coniferous forests spread out, similar to the current Yukon River basin and Siberia.",
+        "rel_src": [
+            "一体なぜ そんな動物がカナダ北部の 北極圏に到達したのでしょう？",
+            "ラティフ：その後 3〜700万年前に ラクダの群れが南米へと下り ラマやアルパカになりました 別の種類はベーリング陸橋を渡り アジアやアフリカに行きました"
+        ],
+        "rel_tgt": [
+            "Why on earth did such an animal reach the Arctic Circle in northern Canada?",
+            "Latif: Subsequently, 3 to 7 million years ago, camel herds descended to South America and became llamas and alpacas. Another species crossed the Bering Land Bridge and went to Asia and Africa."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America"
+        }
+    },
+    {
+        "idx": 75,
+        "src": "ただ それでも 冬は６か月間も続き 池は凍りついたでしょう",
+        "ref": "But still, like, they would have six-month-long winters  where the ponds would freeze over.",
+        "hyp": "However, even so, winter lasted for six months, and the pond would have frozen.",
+        "rel_src": [
+            "例えば気温の面で サハラ砂漠とは正反対ですから",
+            "確かに 350万年前の気温は 現代より平均22度 高かったんです"
+        ],
+        "rel_tgt": [
+            "For example, in terms of temperature, it is completely opposite to the Sahara Desert.",
+            "Indeed, the temperature 3.5 million years ago was on average 22 degrees higher than it is today."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America"
+        }
+    },
+    {
+        "idx": 76,
+        "src": "ブリザードもあれば",
+        "ref": "You'd have blizzards.",
+        "hyp": "There are also blizzards.",
+        "rel_src": [
+            "ここまでは すでに判明していることです とは言え あれほど北で発見されたことが 完全に説明できるわけではありません",
+            "例えば気温の面で サハラ砂漠とは正反対ですから"
+        ],
+        "rel_tgt": [
+            "Up to this point, it is already known. However, the fact that it was discovered so far north does not completely explain it.",
+            "For example, in terms of temperature, it is completely opposite to the Sahara Desert."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America"
+        }
+    },
+    {
+        "idx": 77,
+        "src": "夜の暗闇が 24時間続く時期もあったでしょう",
+        "ref": "You'd have 24 hours a day of straight darkness.",
+        "hyp": "There may have been periods when the darkness of night lasted for 24 hours.",
+        "rel_src": [
+            "確かに 350万年前の気温は 現代より平均22度 高かったんです",
+            "だから針葉樹林が広がっていて 今のユーコン川流域やシベリアに 似ていたかもしれません"
+        ],
+        "rel_tgt": [
+            "Indeed, the temperature 3.5 million years ago was on average 22 degrees higher than it is today.",
+            "Therefore, it is possible that there were coniferous forests spread out, similar to the current Yukon River basin and Siberia."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America"
+        }
+    },
+    {
+        "idx": 78,
+        "src": "では一体全体",
+        "ref": "Like, how ... How?",
+        "hyp": "So what exactly",
+        "rel_src": [
+            "前回の氷河期の終わり頃 北米のラクダは絶滅しました",
+            "ここまでは すでに判明していることです とは言え あれほど北で発見されたことが 完全に説明できるわけではありません"
+        ],
+        "rel_tgt": [
+            "At the end of the last Ice Age, camels in North America became extinct.",
+            "Up to this point, it is already known. However, the fact that it was discovered so far north does not completely explain it."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America"
+        }
+    },
+    {
+        "idx": 79,
+        "src": "このサハラ砂漠の スーパースターは どうやって 北極圏の気候を 生き延びることができたのでしょう？",
+        "ref": "How is it that one of these Saharan superstars  could ever have survived those arctic conditions?",
+        "hyp": "How did this superstar of the Sahara Desert manage to survive in the climate of the Arctic Circle?",
+        "new_src_summary": "古生物学者ナタリア・リプチンスキーは北極圏のツンドラ地帯で手のひら大の古代の偶蹄類の骨を発見し、3Dスキャナーを使用して修復した。彼女はコロラドの同僚と協力して、骨に焦げた肉のような匂いがすることに気づき、それがコラーゲンであることを発見した。さらに、学会でマイク・バックリーが新しいコラーゲン鑑定法をデモし、リプチンスキーは北極圏で発掘した骨が巨大北極ラクダであることを確認した。この巨大北極ラクダは現在のものよりも30%大きかった。ラクダは実はアメリカが原産地であり、約4,500万年前に出現し、そのうち4,000万年間は北米に分布していた。一方、ラティフとナタリアは古代のラクダについて話しており、初期のラクダはウサギほどの大きさだったとされる。南米に移住したラクダはラマやアルパカに進化し、北米のラクダは氷河期の終わりに絶滅した。古代の気候は現代よりも暖かかったため、針葉樹林が広がり、冬は6か月間も続く厳しい環境だったと考えられている。こうした古代の骨の研究には、ナタリアの情熱と熱意、そして新たな科学的手法が重要な役割を果たしている。",
+        "new_tgt_summary": "Paleontologist Natalia Liptinskaya excavates ancient remains in the remote tundra region of Canada, discovering small bone fragments that turn out to be bones, not wood. Over four years, she collects and reconstructs 30 fragments using a 3D scanner, identifying them as metatarsal bones from an artiodactyl. With the help of colleague Mike Buckley, Natalia makes a breakthrough in identifying the bones, which were preserved by the Arctic climate due to the distinctive smell of collagen. Collagen analysis reveals the bones belonged to a giant Arctic camel that lived 3.5 million years ago, challenging the common perception of camels and their origins as originally from America before spreading to other regions. In a conversation with Latif, Natalia discusses the evolution of camels, including their different sizes and features. They talk about how early primitive camels were small, similar to rabbits, and how camel herds eventually migrated to South America and became llamas and alpacas. The extinction of camels in North America is also mentioned, with the possibility of a different climate in the past explaining their presence in the region.",
+        "rel_src": [
+            "例えば気温の面で サハラ砂漠とは正反対ですから",
+            "確かに 350万年前の気温は 現代より平均22度 高かったんです"
+        ],
+        "rel_tgt": [
+            "For example, in terms of temperature, it is completely opposite to the Sahara Desert.",
+            "Indeed, the temperature 3.5 million years ago was on average 22 degrees higher than it is today."
+        ],
+        "hist_info": "\"北極圏\" - \"Arctic Circle\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 80,
+        "src": "ナタリアと仲間の学者たちは 答えを見つけたと考えています",
+        "ref": "Natalia and her colleagues think they have an answer.",
+        "hyp": "Natalia and her fellow scholars believe they have found the answer.",
+        "rel_src": [
+            "ナタリア：初期の種類です",
+            "ナタリア：ええ きっと最高ね"
+        ],
+        "rel_tgt": [
+            "Natalia: It's an early species.",
+            "Natalia: Yes, it will definitely be amazing."
+        ],
+        "hist_info": "\"ナタリア\" - \"Natalia\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 81,
+        "src": "しかも見事な答えです",
+        "ref": "And it's kind of brilliant.",
+        "hyp": "And it is a splendid answer.",
+        "rel_src": [
+            "このサハラ砂漠の スーパースターは どうやって 北極圏の気候を 生き延びることができたのでしょう？",
+            "ナタリアと仲間の学者たちは 答えを見つけたと考えています"
+        ],
+        "rel_tgt": [
+            "How did this superstar of the Sahara Desert manage to survive in the climate of the Arctic Circle?",
+            "Natalia and her fellow scholars believe they have found the answer."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 82,
+        "src": "サハラ砂漠のような場所に 適応するためだと 私たちが考えてきた ラクダの特徴が 実は 冬を乗り切るために 進化したものだとしたら？",
+        "ref": "What if the very features that we imagine make the camel so well-suited  to places like the Sahara,  actually evolved to help it get through the winter?",
+        "hyp": "What if the characteristics of camels that we have believed to adapt to places like the Sahara Desert actually evolved to survive the winter?",
+        "rel_src": [
+            "確かに 350万年前の気温は 現代より平均22度 高かったんです",
+            "このサハラ砂漠の スーパースターは どうやって 北極圏の気候を 生き延びることができたのでしょう？"
+        ],
+        "rel_tgt": [
+            "Indeed, the temperature 3.5 million years ago was on average 22 degrees higher than it is today.",
+            "How did this superstar of the Sahara Desert manage to survive in the climate of the Arctic Circle?"
+        ],
+        "hist_info": "\"サハラ砂漠\" - \"Sahara Desert\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 83,
+        "src": "幅の広い足は 砂の上を歩くためではなく かんじきのように 雪上を歩くためのものだとしたら？",
+        "ref": "What if those broad feet were meant to tromp not over sand,  but over snow, like a pair of snowshoes?",
+        "hyp": "What if the wide feet were not for walking on sand, but rather for walking on snow like snowshoes?",
+        "rel_src": [
+            "ナタリアと仲間の学者たちは 答えを見つけたと考えています",
+            "しかも見事な答えです"
+        ],
+        "rel_tgt": [
+            "Natalia and her fellow scholars believe they have found the answer.",
+            "And it is a splendid answer."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 84,
+        "src": "背中のこぶには — 私は知らなくて 驚いたんですが 水ではなく 脂肪が詰まっています  そのこぶが 食料の少ない 半年に渡る冬を乗り切るのに 役立っていたとしたら？",
+        "ref": "What if that hump -- which, huge news to me,  does not contain water, it contains fat --    was there to help the camel get through that six-month-long winter,  when food was scarce?",
+        "hyp": "What if the humps on their backs - I was surprised to learn this, but they are actually filled with fat, not water - helped them survive the six-month-long winter with limited food?",
+        "rel_src": [
+            "サハラ砂漠のような場所に 適応するためだと 私たちが考えてきた ラクダの特徴が 実は 冬を乗り切るために 進化したものだとしたら？",
+            "幅の広い足は 砂の上を歩くためではなく かんじきのように 雪上を歩くためのものだとしたら？"
+        ],
+        "rel_tgt": [
+            "What if the characteristics of camels that we have believed to adapt to places like the Sahara Desert actually evolved to survive the winter?",
+            "What if the wide feet were not for walking on sand, but rather for walking on snow like snowshoes?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 85,
+        "src": "その後 陸橋を超えてから しばらく経って 冬向きの特徴を 高温の砂漠の環境に役立てたとしたら？",
+        "ref": "And then, only later, long after it crossed over the land bridge  did it retrofit those winter features for a hot desert environment?",
+        "hyp": "What if, after crossing the land bridge, they evolved winter-adapted features that proved useful in the hot desert environment?",
+        "rel_src": [
+            "サハラ砂漠のような場所に 適応するためだと 私たちが考えてきた ラクダの特徴が 実は 冬を乗り切るために 進化したものだとしたら？",
+            "幅の広い足は 砂の上を歩くためではなく かんじきのように 雪上を歩くためのものだとしたら？"
+        ],
+        "rel_tgt": [
+            "What if the characteristics of camels that we have believed to adapt to places like the Sahara Desert actually evolved to survive the winter?",
+            "What if the wide feet were not for walking on sand, but rather for walking on snow like snowshoes?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 86,
+        "src": "例えば こぶは暑い気候でも 役立つかもしれません というのも 全身の脂肪を リュックのように１か所に蓄えれば 断熱材の役割を果たす脂肪で 体中を覆う必要がなくなります",
+        "ref": "Like, for instance, the hump may be helpful to camels in hotter climes  because having all your fat in one place,  like a, you know, fat backpack,  means that you don't have to have that insulation  all over the rest of your body.",
+        "hyp": "For example, humps might be useful even in hot climates because if all the body fat is stored in one place like a backpack, the fat can act as insulation, eliminating the need to cover the entire body.",
+        "rel_src": [
+            "背中のこぶには — 私は知らなくて 驚いたんですが 水ではなく 脂肪が詰まっています  そのこぶが 食料の少ない 半年に渡る冬を乗り切るのに 役立っていたとしたら？",
+            "その後 陸橋を超えてから しばらく経って 冬向きの特徴を 高温の砂漠の環境に役立てたとしたら？"
+        ],
+        "rel_tgt": [
+            "What if the humps on their backs - I was surprised to learn this, but they are actually filled with fat, not water - helped them survive the six-month-long winter with limited food?",
+            "What if, after crossing the land bridge, they evolved winter-adapted features that proved useful in the hot desert environment?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 87,
+        "src": "そうすれば熱を逃がすのが楽になります",
+        "ref": "So it helps heat dissipate easier.",
+        "hyp": "Then it will be easier to release heat.",
+        "rel_src": [
+            "背中のこぶには — 私は知らなくて 驚いたんですが 水ではなく 脂肪が詰まっています  そのこぶが 食料の少ない 半年に渡る冬を乗り切るのに 役立っていたとしたら？",
+            "例えば こぶは暑い気候でも 役立つかもしれません というのも 全身の脂肪を リュックのように１か所に蓄えれば 断熱材の役割を果たす脂肪で 体中を覆う必要がなくなります"
+        ],
+        "rel_tgt": [
+            "What if the humps on their backs - I was surprised to learn this, but they are actually filled with fat, not water - helped them survive the six-month-long winter with limited food?",
+            "For example, humps might be useful even in hot climates because if all the body fat is stored in one place like a backpack, the fat can act as insulation, eliminating the need to cover the entire body."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 88,
+        "src": "この途方もない発想によって 砂漠に適応したことの 代表的な証拠と考えられていたものが 実際は かつて高緯度北極圏に 住んでいた証拠になりうるのです",
+        "ref": "It's this crazy idea,  that what seems like proof of the camel's quintessential desert nature  could actually be proof of its High Arctic past.",
+        "hyp": "This incredible idea may actually serve as evidence that what was thought to be a typical example of adaptation to the desert environment could in fact be evidence of having once lived in the high-latitude Arctic Circle.",
+        "rel_src": [
+            "サハラ砂漠のような場所に 適応するためだと 私たちが考えてきた ラクダの特徴が 実は 冬を乗り切るために 進化したものだとしたら？",
+            "背中のこぶには — 私は知らなくて 驚いたんですが 水ではなく 脂肪が詰まっています  そのこぶが 食料の少ない 半年に渡る冬を乗り切るのに 役立っていたとしたら？"
+        ],
+        "rel_tgt": [
+            "What if the characteristics of camels that we have believed to adapt to places like the Sahara Desert actually evolved to survive the winter?",
+            "What if the humps on their backs - I was surprised to learn this, but they are actually filled with fat, not water - helped them survive the six-month-long winter with limited food?"
+        ],
+        "hist_info": "\"北極圏\" - \"Arctic Circle\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 89,
+        "src": "この話をするのは 私が初めてではありません",
+        "ref": "Now, I'm not the first person to tell this story.",
+        "hyp": "This is not the first time I have told this story.",
+        "rel_src": [
+            "ナタリアと仲間の学者たちは 答えを見つけたと考えています",
+            "しかも見事な答えです"
+        ],
+        "rel_tgt": [
+            "Natalia and her fellow scholars believe they have found the answer.",
+            "And it is a splendid answer."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 90,
+        "src": "他の人たちは この話を通して 進化生物学の驚異を語り 将来の気候変動を解明する 手がかりにしてきました",
+        "ref": "Others have told it as a way to marvel at evolutionary biology  or as a keyhole into the future of climate change.",
+        "hyp": "Others have used this story to discuss the wonders of evolutionary biology and as a clue to unraveling future climate change.",
+        "rel_src": [
+            "サハラ砂漠のような場所に 適応するためだと 私たちが考えてきた ラクダの特徴が 実は 冬を乗り切るために 進化したものだとしたら？",
+            "この途方もない発想によって 砂漠に適応したことの 代表的な証拠と考えられていたものが 実際は かつて高緯度北極圏に 住んでいた証拠になりうるのです"
+        ],
+        "rel_tgt": [
+            "What if the characteristics of camels that we have believed to adapt to places like the Sahara Desert actually evolved to survive the winter?",
+            "This incredible idea may actually serve as evidence that what was thought to be a typical example of adaptation to the desert environment could in fact be evidence of having once lived in the high-latitude Arctic Circle."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 91,
+        "src": "でも私が この話が好きな理由は別なんです",
+        "ref": "But I love it for a totally different reason.",
+        "hyp": "But the reason I like this story is different.",
+        "rel_src": [
+            "サハラ砂漠のような場所に 適応するためだと 私たちが考えてきた ラクダの特徴が 実は 冬を乗り切るために 進化したものだとしたら？",
+            "例えば こぶは暑い気候でも 役立つかもしれません というのも 全身の脂肪を リュックのように１か所に蓄えれば 断熱材の役割を果たす脂肪で 体中を覆う必要がなくなります"
+        ],
+        "rel_tgt": [
+            "What if the characteristics of camels that we have believed to adapt to places like the Sahara Desert actually evolved to survive the winter?",
+            "For example, humps might be useful even in hot climates because if all the body fat is stored in one place like a backpack, the fat can act as insulation, eliminating the need to cover the entire body."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 92,
+        "src": "私にとって これは自分自身の話であり 自分たちの世界観や それがどう変化するかという話なのです",
+        "ref": "For me, it's a story about us,  about how we see the world  and about how that changes.",
+        "hyp": "For me, this is a story about myself, our worldview, and how it changes.",
+        "rel_src": [
+            "この話をするのは 私が初めてではありません",
+            "他の人たちは この話を通して 進化生物学の驚異を語り 将来の気候変動を解明する 手がかりにしてきました"
+        ],
+        "rel_tgt": [
+            "This is not the first time I have told this story.",
+            "Others have used this story to discuss the wonders of evolutionary biology and as a clue to unraveling future climate change."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 93,
+        "src": "私は歴史家として 教育を受けてきました",
+        "ref": "So I was trained as a historian.",
+        "hyp": "I have received education as a historian.",
+        "rel_src": [
+            "他の人たちは この話を通して 進化生物学の驚異を語り 将来の気候変動を解明する 手がかりにしてきました",
+            "私にとって これは自分自身の話であり 自分たちの世界観や それがどう変化するかという話なのです"
+        ],
+        "rel_tgt": [
+            "Others have used this story to discuss the wonders of evolutionary biology and as a clue to unraveling future climate change.",
+            "For me, this is a story about myself, our worldview, and how it changes."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 94,
+        "src": "わかってきたのは 科学者も大部分が歴史家だということです",
+        "ref": "And I've learned that, actually, a lot of scientists are historians, too.",
+        "hyp": "What has become clear is that the majority of scientists are also historians.",
+        "rel_src": [
+            "他の人たちは この話を通して 進化生物学の驚異を語り 将来の気候変動を解明する 手がかりにしてきました",
+            "私にとって これは自分自身の話であり 自分たちの世界観や それがどう変化するかという話なのです"
+        ],
+        "rel_tgt": [
+            "Others have used this story to discuss the wonders of evolutionary biology and as a clue to unraveling future climate change.",
+            "For me, this is a story about myself, our worldview, and how it changes."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 95,
+        "src": "彼らも過去を理解しようとします",
+        "ref": "They make sense of the past.",
+        "hyp": "They also try to understand the past.",
+        "rel_src": [
+            "私は歴史家として 教育を受けてきました",
+            "わかってきたのは 科学者も大部分が歴史家だということです"
+        ],
+        "rel_tgt": [
+            "I have received education as a historian.",
+            "What has become clear is that the majority of scientists are also historians."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 96,
+        "src": "宇宙や惑星や 地球の生命の歴史を語ります",
+        "ref": "They tell the history of our universe, of our planet, of life on this planet.",
+        "hyp": "We will discuss the history of the universe, planets, and life on Earth.",
+        "rel_src": [
+            "ナタリアと仲間の学者たちは 答えを見つけたと考えています",
+            "他の人たちは この話を通して 進化生物学の驚異を語り 将来の気候変動を解明する 手がかりにしてきました"
+        ],
+        "rel_tgt": [
+            "Natalia and her fellow scholars believe they have found the answer.",
+            "Others have used this story to discuss the wonders of evolutionary biology and as a clue to unraveling future climate change."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 97,
+        "src": "そして歴史家として 物語の展開について 発想することから始めるのです",
+        "ref": "And as a historian,  you start with an idea in your mind of how the story goes.",
+        "hyp": "And as a historian, we begin by considering the development of the story.",
+        "rel_src": [
+            "私にとって これは自分自身の話であり 自分たちの世界観や それがどう変化するかという話なのです",
+            "私は歴史家として 教育を受けてきました"
+        ],
+        "rel_tgt": [
+            "For me, this is a story about myself, our worldview, and how it changes.",
+            "I have received education as a historian."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 98,
+        "src": "ナタリア：私たちは物語を作り それにこだわります 例えば砂漠のラクダという物語です",
+        "ref": "NR: We make up stories and we stick with it,  like the camel in the desert, right?",
+        "hyp": "Natalia: We create stories and are dedicated to them. For example, the story of the desert camel.",
+        "rel_src": [
+            "サハラ砂漠のような場所に 適応するためだと 私たちが考えてきた ラクダの特徴が 実は 冬を乗り切るために 進化したものだとしたら？",
+            "例えば こぶは暑い気候でも 役立つかもしれません というのも 全身の脂肪を リュックのように１か所に蓄えれば 断熱材の役割を果たす脂肪で 体中を覆う必要がなくなります"
+        ],
+        "rel_tgt": [
+            "What if the characteristics of camels that we have believed to adapt to places like the Sahara Desert actually evolved to survive the winter?",
+            "For example, humps might be useful even in hot climates because if all the body fat is stored in one place like a backpack, the fat can act as insulation, eliminating the need to cover the entire body."
+        ],
+        "hist_info": "\"ナタリア\" - \"Natalia\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 99,
+        "src": "すごくよく出来た物語です ラクダは完璧に適応しています",
+        "ref": "That's a great story! It's totally adapted for that.",
+        "hyp": "This is a very well-crafted story. Camels have adapted perfectly.",
+        "new_src_summary": "古生物学者ナタリア・リプチンスキーは北極圏で手のひら大の古代の偶蹄類の骨を発見し、3Dスキャナーを使用して修復した。彼女はコロラドの同僚と協力して、骨に焦げた肉のような匂いがすることに気づき、それがコラーゲンであることを発見した。学会でマイク・バックリーが新しいコラーゲン鑑定法をデモし、リプチンスキーは北極圏で発掘した骨が巨大北極ラクダであることを確認した。この巨大北極ラクダは現在のものよりも30%大きかった。古代の気候は現代よりも暖かかったため、針葉樹林が広がり、冬は6か月間も続く厳しい環境だったと考えられている。一方、サハラ砂漠のラクダが北極圏の気候に適応するために進化した特徴についての考察では、ラクダの背中のこぶに脂肪が詰まっており、冬を乗り切るのに役立っていた可能性が示唆されている。この進化の過程は、砂漠に適応した証拠として考えられていたものが、かつて高緯度北極圏に住んでいた証拠にもなりうることを示唆している。そして、著者は、進化生物学の驚異を通じて自らの世界観やそれがどう変化するかについて考えることの重要性を強調し、科学者もまた歴史家であり、過去を理解し物語を作ることから始めると述べている。",
+        "new_tgt_summary": "Paleontologist Natalia Liptinskaya excavates ancient remains in the remote tundra region of Canada, discovering small bone fragments that turn out to be bones, not wood. Over four years, she collects and reconstructs 30 fragments using a 3D scanner, identifying them as metatarsal bones from an artiodactyl. With the help of colleague Mike Buckley, Natalia makes a breakthrough in identifying the bones, which were preserved by the Arctic climate due to the distinctive smell of collagen. Collagen analysis reveals the bones belonged to a giant Arctic camel that lived 3.5 million years ago, challenging the common perception of camels and their origins as originally from America before spreading to other regions. In a conversation with Latif, Natalia discusses the evolution of camels, including their different sizes and features. They talk about how early primitive camels were small, similar to rabbits, and how camel herds eventually migrated to South America and became llamas and alpacas. The extinction of camels in North America is also mentioned, with the possibility of a different climate in the past explaining their presence in the region. Natalia and her colleagues have proposed a theory suggesting that the characteristics of camels, such as wide feet and humps filled with fat, may have actually evolved to help them survive in the Arctic Circle. This theory challenges the traditional belief that camels adapted to the desert environment, and instead suggests they may have once lived in a cold climate. The idea serves as evidence of evolutionary biology and can be used to understand future climate change. Natalia sees this story as a reflection of how our worldview can change over time, as historians and scientists alike try to understand the past and create narratives to explain it.",
+        "rel_src": [
+            "サハラ砂漠のような場所に 適応するためだと 私たちが考えてきた ラクダの特徴が 実は 冬を乗り切るために 進化したものだとしたら？",
+            "例えば こぶは暑い気候でも 役立つかもしれません というのも 全身の脂肪を リュックのように１か所に蓄えれば 断熱材の役割を果たす脂肪で 体中を覆う必要がなくなります"
+        ],
+        "rel_tgt": [
+            "What if the characteristics of camels that we have believed to adapt to places like the Sahara Desert actually evolved to survive the winter?",
+            "For example, humps might be useful even in hot climates because if all the body fat is stored in one place like a backpack, the fat can act as insulation, eliminating the need to cover the entire body."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 100,
+        "src": "ずっと砂漠にいるんですから",
+        "ref": "Clearly, it always lived there.",
+        "hyp": "Since they have been in the desert for a long time.",
+        "rel_src": [
+            "サハラ砂漠のような場所に 適応するためだと 私たちが考えてきた ラクダの特徴が 実は 冬を乗り切るために 進化したものだとしたら？",
+            "例えば こぶは暑い気候でも 役立つかもしれません というのも 全身の脂肪を リュックのように１か所に蓄えれば 断熱材の役割を果たす脂肪で 体中を覆う必要がなくなります"
+        ],
+        "rel_tgt": [
+            "What if the characteristics of camels that we have believed to adapt to places like the Sahara Desert actually evolved to survive the winter?",
+            "For example, humps might be useful even in hot climates because if all the body fat is stored in one place like a backpack, the fat can act as insulation, eliminating the need to cover the entire body."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 101,
+        "src": "ラティフ：でも いつか 小さな証拠が見つかるかもしれません",
+        "ref": "LN: But at any moment, you could uncover some tiny bit of evidence.",
+        "hyp": "Latif: But someday, small pieces of evidence may be found.",
+        "rel_src": [
+            "この途方もない発想によって 砂漠に適応したことの 代表的な証拠と考えられていたものが 実際は かつて高緯度北極圏に 住んでいた証拠になりうるのです",
+            "ナタリア：私たちは物語を作り それにこだわります 例えば砂漠のラクダという物語です"
+        ],
+        "rel_tgt": [
+            "This incredible idea may actually serve as evidence that what was thought to be a typical example of adaptation to the desert environment could in fact be evidence of having once lived in the high-latitude Arctic Circle.",
+            "Natalia: We create stories and are dedicated to them. For example, the story of the desert camel."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 102,
+        "src": "小さなことを理解することで 自分が信じていたこと すべてを 組み立て直すことになるかもしれません",
+        "ref": "You could learn some tiny thing  that forces you to reframe everything you thought you knew.",
+        "hyp": "By understanding small details, you may end up reconstructing everything you believed in.",
+        "rel_src": [
+            "私にとって これは自分自身の話であり 自分たちの世界観や それがどう変化するかという話なのです",
+            "ナタリア：私たちは物語を作り それにこだわります 例えば砂漠のラクダという物語です"
+        ],
+        "rel_tgt": [
+            "For me, this is a story about myself, our worldview, and how it changes.",
+            "Natalia: We create stories and are dedicated to them. For example, the story of the desert camel."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 103,
+        "src": "この場合も そうです 一人の科学者が発見した 木片のような化石が きっかけで ドクター・スースの絵本に 出てきそうな この動物が なぜ こんな姿なのか まったく新しい 常識を超える仮説に 科学はたどり着いたのです",
+        "ref": "Like, in this case, this one scientist finds this one shard  of what she thought was wood,  and because of that, science has a totally new and totally counterintuitive theory  about why this absurd Dr. Seuss-looking creature  looks the way it does.",
+        "hyp": "In this case as well, yes, it was a fossil fragment discovered by a scientist that led science to a completely new hypothesis beyond conventional wisdom as to why this animal, which seems like it could appear in a Dr. Seuss book, has such a form.",
+        "rel_src": [
+            "ナタリア：私たちは物語を作り それにこだわります 例えば砂漠のラクダという物語です",
+            "すごくよく出来た物語です ラクダは完璧に適応しています"
+        ],
+        "rel_tgt": [
+            "Natalia: We create stories and are dedicated to them. For example, the story of the desert camel.",
+            "This is a very well-crafted story. Camels have adapted perfectly."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert",
+            "ドクター・スース": "Dr. Seuss"
+        }
+    },
+    {
+        "idx": 104,
+        "src": "ラクダに対する私の考え方は 一変しました",
+        "ref": "And for me, it completely upended the way I think of the camel.",
+        "hyp": "My perception of camels has completely changed.",
+        "rel_src": [
+            "ナタリア：私たちは物語を作り それにこだわります 例えば砂漠のラクダという物語です",
+            "すごくよく出来た物語です ラクダは完璧に適応しています"
+        ],
+        "rel_tgt": [
+            "Natalia: We create stories and are dedicated to them. For example, the story of the desert camel.",
+            "This is a very well-crafted story. Camels have adapted perfectly."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert",
+            "ドクター・スース": "Dr. Seuss"
+        }
+    },
+    {
+        "idx": 105,
+        "src": "砂漠という特定の環境にしか 適応できない 極めて特殊な動物という見方から たまたまサハラ砂漠にいるけれど 本当は世界を股にかけ どこでだって生きられる動物という 見方に変わったんです",
+        "ref": "It went from being this ridiculously niche creature  suited only to this one specific environment,  to being this world traveler that just happens to be in the Sahara,  and could end up virtually anywhere.",
+        "hyp": "I changed my perspective from viewing camels as extremely specialized animals that can only adapt to specific desert environments, to realizing that they happen to be in the Sahara Desert, but in reality, they are animals that can thrive anywhere in the world.",
+        "rel_src": [
+            "この途方もない発想によって 砂漠に適応したことの 代表的な証拠と考えられていたものが 実際は かつて高緯度北極圏に 住んでいた証拠になりうるのです",
+            "ラクダに対する私の考え方は 一変しました"
+        ],
+        "rel_tgt": [
+            "This incredible idea may actually serve as evidence that what was thought to be a typical example of adaptation to the desert environment could in fact be evidence of having once lived in the high-latitude Arctic Circle.",
+            "My perception of camels has completely changed."
+        ],
+        "hist_info": "\"サハラ砂漠\" - \"Sahara Desert\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert",
+            "ドクター・スース": "Dr. Seuss"
+        }
+    },
+    {
+        "idx": 106,
+        "src": "（拍手） こちらはアズーリ",
+        "ref": "This is Azuri.",
+        "hyp": "(Applause) This is Azuli.",
+        "rel_src": [
+            "ナタリア：私たちは物語を作り それにこだわります 例えば砂漠のラクダという物語です",
+            "すごくよく出来た物語です ラクダは完璧に適応しています"
+        ],
+        "rel_tgt": [
+            "Natalia: We create stories and are dedicated to them. For example, the story of the desert camel.",
+            "This is a very well-crafted story. Camels have adapted perfectly."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert",
+            "ドクター・スース": "Dr. Seuss",
+            "アズーリ": "Azuli"
+        }
+    },
+    {
+        "idx": 107,
+        "src": "やあアズーリ こんにちは",
+        "ref": "Azuri, hi, how are you doing?",
+        "hyp": "Hello Azuli, good morning.",
+        "rel_src": [
+            "ナタリア：私たちは物語を作り それにこだわります 例えば砂漠のラクダという物語です",
+            "（拍手） こちらはアズーリ"
+        ],
+        "rel_tgt": [
+            "Natalia: We create stories and are dedicated to them. For example, the story of the desert camel.",
+            "(Applause) This is Azuli."
+        ],
+        "hist_info": "\"アズーリ\" - \"Azuli\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert",
+            "ドクター・スース": "Dr. Seuss",
+            "アズーリ": "Azuli"
+        }
+    },
+    {
+        "idx": 108,
+        "src": "ほら お食べ",
+        "ref": "OK, here, I've got one of these for you here.",
+        "hyp": "Here, please eat.",
+        "rel_src": [
+            "小さなことを理解することで 自分が信じていたこと すべてを 組み立て直すことになるかもしれません",
+            "この場合も そうです 一人の科学者が発見した 木片のような化石が きっかけで ドクター・スースの絵本に 出てきそうな この動物が なぜ こんな姿なのか まったく新しい 常識を超える仮説に 科学はたどり着いたのです"
+        ],
+        "rel_tgt": [
+            "By understanding small details, you may end up reconstructing everything you believed in.",
+            "In this case as well, yes, it was a fossil fragment discovered by a scientist that led science to a completely new hypothesis beyond conventional wisdom as to why this animal, which seems like it could appear in a Dr. Seuss book, has such a form."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert",
+            "ドクター・スース": "Dr. Seuss",
+            "アズーリ": "Azuli"
+        }
+    },
+    {
+        "idx": 109,
+        "src": "アズーリは普段 ラジオシティ・ ミュージックホールに出演していますが",
+        "ref": "So Azuri is on a break from her regular gig at the Radio City Music Hall.",
+        "hyp": "Azuli usually performs at the Radio City Music Hall, but",
+        "rel_src": [
+            "（拍手） こちらはアズーリ",
+            "やあアズーリ こんにちは"
+        ],
+        "rel_tgt": [
+            "(Applause) This is Azuli.",
+            "Hello Azuli, good morning."
+        ],
+        "hist_info": "\"アズーリ\" - \"Azuli\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert",
+            "ドクター・スース": "Dr. Seuss",
+            "アズーリ": "Azuli",
+            "ラジオシティ・ミュージックホール": "Radio City Music Hall"
+        }
+    },
+    {
+        "idx": 110,
+        "src": "冗談なんかじゃありません",
+        "ref": "That's not even a joke.",
+        "hyp": "This is no joke.",
+        "rel_src": [
+            "小さなことを理解することで 自分が信じていたこと すべてを 組み立て直すことになるかもしれません",
+            "この場合も そうです 一人の科学者が発見した 木片のような化石が きっかけで ドクター・スースの絵本に 出てきそうな この動物が なぜ こんな姿なのか まったく新しい 常識を超える仮説に 科学はたどり着いたのです"
+        ],
+        "rel_tgt": [
+            "By understanding small details, you may end up reconstructing everything you believed in.",
+            "In this case as well, yes, it was a fossil fragment discovered by a scientist that led science to a completely new hypothesis beyond conventional wisdom as to why this animal, which seems like it could appear in a Dr. Seuss book, has such a form."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert",
+            "ドクター・スース": "Dr. Seuss",
+            "アズーリ": "Azuli",
+            "ラジオシティ・ミュージックホール": "Radio City Music Hall"
+        }
+    },
+    {
+        "idx": 111,
+        "src": "さて このアズーリこそ 私たちの世界についての物語が ダイナミックなものだという 生きた証拠です",
+        "ref": "Anyway --  But really, Azuri is here as a living reminder  that the story of our world is a dynamic one.",
+        "hyp": "Now, Azuli is living proof that the story of our world is dynamic.",
+        "rel_src": [
+            "ナタリア：私たちは物語を作り それにこだわります 例えば砂漠のラクダという物語です",
+            "砂漠という特定の環境にしか 適応できない 極めて特殊な動物という見方から たまたまサハラ砂漠にいるけれど 本当は世界を股にかけ どこでだって生きられる動物という 見方に変わったんです"
+        ],
+        "rel_tgt": [
+            "Natalia: We create stories and are dedicated to them. For example, the story of the desert camel.",
+            "I changed my perspective from viewing camels as extremely specialized animals that can only adapt to specific desert environments, to realizing that they happen to be in the Sahara Desert, but in reality, they are animals that can thrive anywhere in the world."
+        ],
+        "hist_info": "\"アズーリ\" - \"Azuli\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert",
+            "ドクター・スース": "Dr. Seuss",
+            "アズーリ": "Azuli",
+            "ラジオシティ・ミュージックホール": "Radio City Music Hall"
+        }
+    },
+    {
+        "idx": 112,
+        "src": "私たちは 物語を組み立て直し 想像し直さなければなりません",
+        "ref": "It requires our willingness to readjust, to reimagine.",
+        "hyp": "We must reconstruct the story and reimagine it.",
+        "rel_src": [
+            "ナタリア：私たちは物語を作り それにこだわります 例えば砂漠のラクダという物語です",
+            "小さなことを理解することで 自分が信じていたこと すべてを 組み立て直すことになるかもしれません"
+        ],
+        "rel_tgt": [
+            "Natalia: We create stories and are dedicated to them. For example, the story of the desert camel.",
+            "By understanding small details, you may end up reconstructing everything you believed in."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert",
+            "ドクター・スース": "Dr. Seuss",
+            "アズーリ": "Azuli",
+            "ラジオシティ・ミュージックホール": "Radio City Music Hall"
+        }
+    },
+    {
+        "idx": 113,
+        "src": "そうだろ？アズーリ",
+        "ref": "Right, Azuri?",
+        "hyp": "Right? Azuli.",
+        "rel_src": [
+            "（拍手） こちらはアズーリ",
+            "さて このアズーリこそ 私たちの世界についての物語が ダイナミックなものだという 生きた証拠です"
+        ],
+        "rel_tgt": [
+            "(Applause) This is Azuli.",
+            "Now, Azuli is living proof that the story of our world is dynamic."
+        ],
+        "hist_info": "\"アズーリ\" - \"Azuli\"",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert",
+            "ドクター・スース": "Dr. Seuss",
+            "アズーリ": "Azuli",
+            "ラジオシティ・ミュージックホール": "Radio City Music Hall"
+        }
+    },
+    {
+        "idx": 114,
+        "src": "ひとかけらの骨の向こう側に 世界の新しい見方が 存在するんです",
+        "ref": "And, really, that we're all just one shard of bone away  from seeing the world anew.",
+        "hyp": "Beyond a single bone lies a new perspective on the world.",
+        "rel_src": [
+            "この場合も そうです 一人の科学者が発見した 木片のような化石が きっかけで ドクター・スースの絵本に 出てきそうな この動物が なぜ こんな姿なのか まったく新しい 常識を超える仮説に 科学はたどり着いたのです",
+            "砂漠という特定の環境にしか 適応できない 極めて特殊な動物という見方から たまたまサハラ砂漠にいるけれど 本当は世界を股にかけ どこでだって生きられる動物という 見方に変わったんです"
+        ],
+        "rel_tgt": [
+            "In this case as well, yes, it was a fossil fragment discovered by a scientist that led science to a completely new hypothesis beyond conventional wisdom as to why this animal, which seems like it could appear in a Dr. Seuss book, has such a form.",
+            "I changed my perspective from viewing camels as extremely specialized animals that can only adapt to specific desert environments, to realizing that they happen to be in the Sahara Desert, but in reality, they are animals that can thrive anywhere in the world."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert",
+            "ドクター・スース": "Dr. Seuss",
+            "アズーリ": "Azuli",
+            "ラジオシティ・ミュージックホール": "Radio City Music Hall"
+        }
+    },
+    {
+        "idx": 115,
+        "src": "ありがとうございました",
+        "ref": "Thank you very much.",
+        "hyp": "Thank you very much.",
+        "rel_src": [
+            "やあアズーリ こんにちは",
+            "冗談なんかじゃありません"
+        ],
+        "rel_tgt": [
+            "Hello Azuli, good morning.",
+            "This is no joke."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "ナタリア・リプチンスキー": "Natalia Liptinskaya",
+            "死骸博士": "Doctor Bones",
+            "ラティフ・ナサー": "Latif Nasser",
+            "カナダ": "Canada",
+            "ツンドラ地帯": "tundra region",
+            "北極圏": "Arctic Circle",
+            "2006年": "2006",
+            "ファイルズリーフベッド": "Files Reef Bed",
+            "磁北極": "magnetic North Pole",
+            "ナタリア": "Natalia",
+            "コロラド": "Colorado",
+            "ブリストル": "Bristol",
+            "マイク・バックリー": "Mike Buckley",
+            "東・中央アジア": "East & Central Asia",
+            "フタコブラクダ": "Bactrian camel",
+            "アメリカ": "America",
+            "北米": "North America",
+            "サハラ砂漠": "Sahara Desert",
+            "ドクター・スース": "Dr. Seuss",
+            "アズーリ": "Azuli",
+            "ラジオシティ・ミュージックホール": "Radio City Music Hall"
+        }
+    }
+]

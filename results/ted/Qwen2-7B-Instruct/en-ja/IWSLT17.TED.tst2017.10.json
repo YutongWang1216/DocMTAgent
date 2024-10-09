@@ -1,0 +1,2766 @@
+[
+    {
+        "idx": 0,
+        "src": "Hello.",
+        "ref": "こんにちは",
+        "hyp": "こんにちは。",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 1,
+        "src": "My name is Matthew Williams,  and I am a champion.",
+        "ref": "マシュー・ウィリアムズと申します 僕はチャンピオンです",
+        "hyp": "私の名前はマーティン・ウィリアムズで、私はチャンピオンです。",
+        "rel_src": [
+            "Hello."
+        ],
+        "rel_tgt": [
+            "こんにちは。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 2,
+        "src": "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage.",
+        "ref": "３種目のスポーツ競技のメダルを カナダの全国大会で取っています バスケットボールでは 世界レベルの試合に参加し 光栄なことに カナダ代表として 世界大会に出場しました",
+        "hyp": "私は3つの異なるスポーツでメダルを獲得し、カナダで国際レベルでバスケットボールに参加し、世界のステージでカナダを代表するということが誇りです。",
+        "rel_src": [
+            "Hello.",
+            "My name is Matthew Williams,  and I am a champion."
+        ],
+        "rel_tgt": [
+            "こんにちは。",
+            "私の名前はマーティン・ウィリアムズで、私はチャンピオンです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 3,
+        "src": "I train five days a week for basketball and speed skating,  work with top quality coaches  and mental performance consultants  to be at my best in my sport.",
+        "ref": "（拍手） 週５日 バスケットボールと スピードスケートの練習に出て トップクラスのコーチ陣と メンタル・パフォーマンスの コンサルタントが 試合でベストを出せるように 支えてくれています",
+        "hyp": "私は週に5日バスケットボールとスピードスケートのためにトレーニングを行います。最高品質のコーチとメンタルパフォーマンスコンサルタントと協力して、私のスポーツでベストな状態を維持します。",
+        "rel_src": [
+            "My name is Matthew Williams,  and I am a champion.",
+            "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage."
+        ],
+        "rel_tgt": [
+            "私の名前はマーティン・ウィリアムズで、私はチャンピオンです。",
+            "私は3つの異なるスポーツでメダルを獲得し、カナダで国際レベルでバスケットボールに参加し、世界のステージでカナダを代表するということが誇りです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 4,
+        "src": "By the way, all that is through Special Olympics.",
+        "ref": "ところで これは すべて スペシャルオリンピックスのことです",
+        "hyp": "あっ、それらすべては特別オリンピックを通じてです。",
+        "rel_src": [
+            "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage.",
+            "I train five days a week for basketball and speed skating,  work with top quality coaches  and mental performance consultants  to be at my best in my sport."
+        ],
+        "rel_tgt": [
+            "私は3つの異なるスポーツでメダルを獲得し、カナダで国際レベルでバスケットボールに参加し、世界のステージでカナダを代表するということが誇りです。",
+            "私は週に5日バスケットボールとスピードスケートのためにトレーニングを行います。最高品質のコーチとメンタルパフォーマンスコンサルタントと協力して、私のスポーツでベストな状態を維持します。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック"
+        }
+    },
+    {
+        "idx": 5,
+        "src": "Does that change the way you think of me  and my accomplishments?",
+        "ref": "それを聞いて 僕や僕の成果を 見る目が変わりますか？",
+        "hyp": "そのことで私や私の成績に対するあなたの考え方を変えるのですか？",
+        "rel_src": [
+            "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage.",
+            "By the way, all that is through Special Olympics."
+        ],
+        "rel_tgt": [
+            "私は3つの異なるスポーツでメダルを獲得し、カナダで国際レベルでバスケットボールに参加し、世界のステージでカナダを代表するということが誇りです。",
+            "あっ、それらすべては特別オリンピックを通じてです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック"
+        }
+    },
+    {
+        "idx": 6,
+        "src": "The world does not see all people like me as champions.",
+        "ref": "世の中は 僕のような人々を 必ずしも チャンピオンとは見なしません",
+        "hyp": "世界は私のような全ての人々を全ての王者と考えて見ないのです。",
+        "rel_src": [
+            "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage.",
+            "By the way, all that is through Special Olympics."
+        ],
+        "rel_tgt": [
+            "私は3つの異なるスポーツでメダルを獲得し、カナダで国際レベルでバスケットボールに参加し、世界のステージでカナダを代表するということが誇りです。",
+            "あっ、それらすべては特別オリンピックを通じてです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック"
+        }
+    },
+    {
+        "idx": 7,
+        "src": "Not long ago, people like me were shunned and hidden away.",
+        "ref": "最近まで 僕みたいな人は 疎外され 人前には出ないものでした",
+        "hyp": "先日までは、私のような人が見下され、隠れ家に閉じ込められていた時期がありました。",
+        "rel_src": [
+            "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage.",
+            "Does that change the way you think of me  and my accomplishments?"
+        ],
+        "rel_tgt": [
+            "私は3つの異なるスポーツでメダルを獲得し、カナダで国際レベルでバスケットボールに参加し、世界のステージでカナダを代表するということが誇りです。",
+            "そのことで私や私の成績に対するあなたの考え方を変えるのですか？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック"
+        }
+    },
+    {
+        "idx": 8,
+        "src": "There has been lots of change since Special Olympics began in 1968,  but in too many cases,  people with intellectual disabilities  are invisible to the wider population.",
+        "ref": "1968年にスペシャルオリンピックスが 始まってから 大きく変わりましたが あまりに多くの場合において 知的障害のある人々は 広い世の中にとって 見えない存在です",
+        "hyp": "特別オリンピックが始まった1968年以来、多くの変化が起こりました。しかし、多くの場合、知的障害を持つ人々は広い社会から見えない存在となっています。",
+        "rel_src": [
+            "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage.",
+            "The world does not see all people like me as champions."
+        ],
+        "rel_tgt": [
+            "私は3つの異なるスポーツでメダルを獲得し、カナダで国際レベルでバスケットボールに参加し、世界のステージでカナダを代表するということが誇りです。",
+            "世界は私のような全ての人々を全ての王者と考えて見ないのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会"
+        }
+    },
+    {
+        "idx": 9,
+        "src": "People use the r-word in front of me, and they think it doesn't matter.",
+        "ref": "皆 僕の目の前で差別用語を使うのを 悪いことだと思っていません",
+        "hyp": "私が面前で「r-ワード」を使用し、それが問題ないと考えています。",
+        "rel_src": [
+            "The world does not see all people like me as champions.",
+            "There has been lots of change since Special Olympics began in 1968,  but in too many cases,  people with intellectual disabilities  are invisible to the wider population."
+        ],
+        "rel_tgt": [
+            "世界は私のような全ての人々を全ての王者と考えて見ないのです。",
+            "特別オリンピックが始まった1968年以来、多くの変化が起こりました。しかし、多くの場合、知的障害を持つ人々は広い社会から見えない存在となっています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会"
+        }
+    },
+    {
+        "idx": 10,
+        "src": "That's the word \"retard\" or \"retarded\"  used in a derogatory manner.",
+        "ref": "「知恵遅れ」という言葉を 侮蔑的に使うのです",
+        "hyp": "それは蔑みの意味で使われる「遅钝者」または「遅钝」の言葉です。",
+        "rel_src": [
+            "Does that change the way you think of me  and my accomplishments?",
+            "People use the r-word in front of me, and they think it doesn't matter."
+        ],
+        "rel_tgt": [
+            "そのことで私や私の成績に対するあなたの考え方を変えるのですか？",
+            "私が面前で「r-ワード」を使用し、それが問題ないと考えています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会"
+        }
+    },
+    {
+        "idx": 11,
+        "src": "They're not thinking about how much it hurts me and my friends.",
+        "ref": "それで 僕や仲間が どれだけ傷つくか 考えていないのです",
+        "hyp": "彼らは私や友人たちへの痛みについて考えていません。",
+        "rel_src": [
+            "Does that change the way you think of me  and my accomplishments?",
+            "There has been lots of change since Special Olympics began in 1968,  but in too many cases,  people with intellectual disabilities  are invisible to the wider population."
+        ],
+        "rel_tgt": [
+            "そのことで私や私の成績に対するあなたの考え方を変えるのですか？",
+            "特別オリンピックが始まった1968年以来、多くの変化が起こりました。しかし、多くの場合、知的障害を持つ人々は広い社会から見えない存在となっています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会"
+        }
+    },
+    {
+        "idx": 12,
+        "src": "I don't want you to think I'm here because I'm a charity case.",
+        "ref": "僕が 哀れみの対象として ここにいると思わないでください",
+        "hyp": "私は慈善の対象だからここにいるわけではありませんので、あなたはそう考える必要はありません。",
+        "rel_src": [
+            "Does that change the way you think of me  and my accomplishments?",
+            "There has been lots of change since Special Olympics began in 1968,  but in too many cases,  people with intellectual disabilities  are invisible to the wider population."
+        ],
+        "rel_tgt": [
+            "そのことで私や私の成績に対するあなたの考え方を変えるのですか？",
+            "特別オリンピックが始まった1968年以来、多くの変化が起こりました。しかし、多くの場合、知的障害を持つ人々は広い社会から見えない存在となっています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会"
+        }
+    },
+    {
+        "idx": 13,
+        "src": "I am here because there is still a big problem with the way  many people see individuals with intellectual disabilities,  or, too often,  how they don't see them at all.",
+        "ref": "僕がここにいるのは 世間の 知的障害者に対する見方に 未だに深刻な問題が残っているからであり いや あまりに多くのケースで 何も見えていないことが問題だからです",
+        "hyp": "私はここにいるのは、多くの人々が知的障害を持つ個々人を見ることの方法に大きな問題があるからです。もしくは、しばしば、彼らを全く見過ごすからです。",
+        "rel_src": [
+            "Does that change the way you think of me  and my accomplishments?",
+            "There has been lots of change since Special Olympics began in 1968,  but in too many cases,  people with intellectual disabilities  are invisible to the wider population."
+        ],
+        "rel_tgt": [
+            "そのことで私や私の成績に対するあなたの考え方を変えるのですか？",
+            "特別オリンピックが始まった1968年以来、多くの変化が起こりました。しかし、多くの場合、知的障害を持つ人々は広い社会から見えない存在となっています。"
+        ],
+        "hist_info": "\"intellectual disabilities\" - \"知的障害\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会"
+        }
+    },
+    {
+        "idx": 14,
+        "src": "Did you know the World Games happened this year?",
+        "ref": "今年 世界大会があったこと 知ってましたか？",
+        "hyp": "あなたは今年の世界ゲームズが行われたことを知っていますか？",
+        "rel_src": [
+            "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage.",
+            "People use the r-word in front of me, and they think it doesn't matter."
+        ],
+        "rel_tgt": [
+            "私は3つの異なるスポーツでメダルを獲得し、カナダで国際レベルでバスケットボールに参加し、世界のステージでカナダを代表するということが誇りです。",
+            "私が面前で「r-ワード」を使用し、それが問題ないと考えています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ"
+        }
+    },
+    {
+        "idx": 15,
+        "src": "I was one of over 6,500 athletes with intellectual disabilities  from 165 countries who competed in LA.",
+        "ref": "僕は 知的障害を持つアスリート ６千５百人の１人でした 165か国からの選手が LAに集まり 競い合ったのです",
+        "hyp": "私は165カ国の6,500以上の知的障害を持つ選手のうちの一人であり、LAで競技を行いました。",
+        "rel_src": [
+            "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage.",
+            "I am here because there is still a big problem with the way  many people see individuals with intellectual disabilities,  or, too often,  how they don't see them at all."
+        ],
+        "rel_tgt": [
+            "私は3つの異なるスポーツでメダルを獲得し、カナダで国際レベルでバスケットボールに参加し、世界のステージでカナダを代表するということが誇りです。",
+            "私はここにいるのは、多くの人々が知的障害を持つ個々人を見ることの方法に大きな問題があるからです。もしくは、しばしば、彼らを全く見過ごすからです。"
+        ],
+        "hist_info": "\"intellectual disabilities\" - \"知的障害\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ"
+        }
+    },
+    {
+        "idx": 16,
+        "src": "There was over 62,000 spectators watching opening ceremonies,  and there was live coverage on TSN and ESPN.",
+        "ref": "６万２千人以上の観客が 開会式を観ていて スポーツテレビ局のTSNとESPNが 生放送していました",
+        "hyp": "開会式には約6万2千人の観客が見守り、TSNとESPNでは生中継が放送されました。",
+        "rel_src": [
+            "Did you know the World Games happened this year?",
+            "I was one of over 6,500 athletes with intellectual disabilities  from 165 countries who competed in LA."
+        ],
+        "rel_tgt": [
+            "あなたは今年の世界ゲームズが行われたことを知っていますか？",
+            "私は165カ国の6,500以上の知的障害を持つ選手のうちの一人であり、LAで競技を行いました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ"
+        }
+    },
+    {
+        "idx": 17,
+        "src": "Did you even know that happened?",
+        "ref": "そんな大会 知らなかったでしょう？",
+        "hyp": "あなたはそのことが起こったことを全然知らなかったのですか？",
+        "rel_src": [
+            "I was one of over 6,500 athletes with intellectual disabilities  from 165 countries who competed in LA.",
+            "There was over 62,000 spectators watching opening ceremonies,  and there was live coverage on TSN and ESPN."
+        ],
+        "rel_tgt": [
+            "私は165カ国の6,500以上の知的障害を持つ選手のうちの一人であり、LAで競技を行いました。",
+            "開会式には約6万2千人の観客が見守り、TSNとESPNでは生中継が放送されました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ"
+        }
+    },
+    {
+        "idx": 18,
+        "src": "What do you think of when you see someone like me?",
+        "ref": "僕みたいな人を見たとき どう思いますか？",
+        "hyp": "あなたが私のような人を見て考えるのは何か？",
+        "rel_src": [
+            "Does that change the way you think of me  and my accomplishments?",
+            "Did you even know that happened?"
+        ],
+        "rel_tgt": [
+            "そのことで私や私の成績に対するあなたの考え方を変えるのですか？",
+            "あなたはそのことが起こったことを全然知らなかったのですか？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ"
+        }
+    },
+    {
+        "idx": 19,
+        "src": "I am here today to challenge you  to look at us as equals.",
+        "ref": "皆さんへの挑戦です 僕たちを 対等に見られるでしょうか",
+        "hyp": "私たちは今日、私たちを等しい存在として見ることにあなたを挑むべきだ。",
+        "new_src_summary": "Matthew Williams, a Special Olympics athlete, shares his experiences as a champion in multiple sports, highlighting the transformation in societal perception of individuals with intellectual disabilities over time. He mentions the support he receives from coaches and mental performance consultants in training, emphasizing the role of Special Olympics in empowering him and others like him. Matthew addresses the use of derogatory language, such as the r-word (\"retard\" or \"retarded\"), which can cause significant emotional pain and perpetuates negative stereotypes.\n\nHe argues that there is still a major issue with how many people perceive individuals with intellectual disabilities, often failing to recognize their as capable and deserving champions. Matthew mentions the World Games, where he and other athletes from around the world participated, showcasing their skills to a large audience, including live coverage on TSN and ESPN. Despite these efforts, many may not even be aware of such events or the achievements of athletes like him.\n\nThe overall domain of this paragraph falls under disability rights and awareness, specifically focusing on the experiences and challenges faced by individuals with intellectual disabilities. The style is personal and direct, aiming to engage readers and provoke thought on the topic. The tone is passionate and determined, reflecting Matthew's's desire to challenge misconceptions and highlight the importance of recognizing the abilities and achievements of individuals with intellectual disabilities.",
+        "new_tgt_summary": "この段落は、マーティン・ウィリアムズという名前のチャンピオンについて述べています。彼は特別オリンピックを通じて、3つの異なるスポーツでメダルを獲得し、カナダを代表するバスケットボール選手として国際的に活躍しています。毎週5日間、バスケットボールとスピードスケートのトレーニングに励んでおり、最高品質のコーチとメンタルパフォーマンスコンサルタントとの協力を得てベストな状態を維持しています。特に、彼の経験は特別オリンピックの設立以来の進歩を示しています。また、彼は「r-ワード」の使用が問題であると主張し、それを使用することによる他人への痛みについて言及しています。彼は今年の世界ゲームズに出場し、その出来事は大きな注目を集めました。",
+        "rel_src": [
+            "I am here because there is still a big problem with the way  many people see individuals with intellectual disabilities,  or, too often,  how they don't see them at all.",
+            "Did you even know that happened?"
+        ],
+        "rel_tgt": [
+            "私はここにいるのは、多くの人々が知的障害を持つ個々人を見ることの方法に大きな問題があるからです。もしくは、しばしば、彼らを全く見過ごすからです。",
+            "あなたはそのことが起こったことを全然知らなかったのですか？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ"
+        }
+    },
+    {
+        "idx": 20,
+        "src": "Special Olympics transforms the self-identity of athletes  with intellectual disabilities  and the perceptions of everyone watching.",
+        "ref": "スペシャルオリンピックスは 知的障害を持つアスリートたちの 自己アイデンティティも 観る人すべての価値観をも 一変させます",
+        "hyp": "特別オリンピックは、知的障害を持つ選手たちの自我アイデンティティを変えるとともに、観察しているすべての人々の認識も変わります。",
+        "rel_src": [
+            "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage.",
+            "I was one of over 6,500 athletes with intellectual disabilities  from 165 countries who competed in LA."
+        ],
+        "rel_tgt": [
+            "私は3つの異なるスポーツでメダルを獲得し、カナダで国際レベルでバスケットボールに参加し、世界のステージでカナダを代表するということが誇りです。",
+            "私は165カ国の6,500以上の知的障害を持つ選手のうちの一人であり、LAで競技を行いました。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"特別オリンピック\", \"intellectual disabilities\" - \"知的障害\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック"
+        }
+    },
+    {
+        "idx": 21,
+        "src": "For those of you who aren't familiar,  Special Olympics is for athletes with intellectual disabilities.",
+        "ref": "知らない人のために説明すると スペシャルオリンピックスとは 知的障害を持つアスリートが対象です",
+        "hyp": "あなた方の中には、まだ知らない方もいるかもしれませんが、特別オリンピックは知的障害を持つ選手たちが参加する大会です。",
+        "rel_src": [
+            "My name is Matthew Williams,  and I am a champion.",
+            "Did you know the World Games happened this year?"
+        ],
+        "rel_tgt": [
+            "私の名前はマーティン・ウィリアムズで、私はチャンピオンです。",
+            "あなたは今年の世界ゲームズが行われたことを知っていますか？"
+        ],
+        "hist_info": "\"Special Olympics\" - \"特別オリンピック\", \"intellectual disabilities\" - \"知的障害\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック"
+        }
+    },
+    {
+        "idx": 22,
+        "src": "Special Olympics is separate from the Paralympics and Olympics.",
+        "ref": "パラリンピックや オリンピックとは別物です",
+        "hyp": "特別オリンピックはパラリンピックとオリンピックとは別物です。",
+        "rel_src": [
+            "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage.",
+            "Did you know the World Games happened this year?"
+        ],
+        "rel_tgt": [
+            "私は3つの異なるスポーツでメダルを獲得し、カナダで国際レベルでバスケットボールに参加し、世界のステージでカナダを代表するということが誇りです。",
+            "あなたは今年の世界ゲームズが行われたことを知っていますか？"
+        ],
+        "hist_info": "\"Special Olympics\" - \"特別オリンピック\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック"
+        }
+    },
+    {
+        "idx": 23,
+        "src": "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions.",
+        "ref": "レベルの高いスポーツ競技が 年間を通じて 知的障害者のために開催され 関わる人の 人生や価値観が変わります",
+        "hyp": "私たちは、知的障害を持つ人々向けの高品質で一年中続くスポーツプログラムを提供し、人生と認識を変えることができます。",
+        "rel_src": [
+            "I train five days a week for basketball and speed skating,  work with top quality coaches  and mental performance consultants  to be at my best in my sport.",
+            "I am here because there is still a big problem with the way  many people see individuals with intellectual disabilities,  or, too often,  how they don't see them at all."
+        ],
+        "rel_tgt": [
+            "私は週に5日バスケットボールとスピードスケートのためにトレーニングを行います。最高品質のコーチとメンタルパフォーマンスコンサルタントと協力して、私のスポーツでベストな状態を維持します。",
+            "私はここにいるのは、多くの人々が知的障害を持つ個々人を見ることの方法に大きな問題があるからです。もしくは、しばしば、彼らを全く見過ごすからです。"
+        ],
+        "hist_info": "\"intellectual disabilities\" - \"知的障害\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック"
+        }
+    },
+    {
+        "idx": 24,
+        "src": "This movement has changed my life  and those of so many others.",
+        "ref": "これで 僕の人生も 他の本当に大勢の人々の 人生も変わりました",
+        "hyp": "この運動は私の生活を変えており、他にも多くの人々の生活を変えてきました。",
+        "rel_src": [
+            "By the way, all that is through Special Olympics.",
+            "I am here today to challenge you  to look at us as equals."
+        ],
+        "rel_tgt": [
+            "あっ、それらすべては特別オリンピックを通じてです。",
+            "私たちは今日、私たちを等しい存在として見ることにあなたを挑むべきだ。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック"
+        }
+    },
+    {
+        "idx": 25,
+        "src": "And it has changed the way the world sees people with intellectual disabilities.",
+        "ref": "そして 知的障害者を見る 世間の目も変わりました",
+        "hyp": "そして、世界が知的障害を持つ人々を見ることの方法を変えてきました。",
+        "rel_src": [
+            "There has been lots of change since Special Olympics began in 1968,  but in too many cases,  people with intellectual disabilities  are invisible to the wider population.",
+            "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions."
+        ],
+        "rel_tgt": [
+            "特別オリンピックが始まった1968年以来、多くの変化が起こりました。しかし、多くの場合、知的障害を持つ人々は広い社会から見えない存在となっています。",
+            "私たちは、知的障害を持つ人々向けの高品質で一年中続くスポーツプログラムを提供し、人生と認識を変えることができます。"
+        ],
+        "hist_info": "\"intellectual disabilities\" - \"知的障害\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック"
+        }
+    },
+    {
+        "idx": 26,
+        "src": "I was born with epilepsy and an intellectual disability.",
+        "ref": "僕は 生まれつき てんかんと 知的障害があります",
+        "hyp": "私はエpilepsyと知的障害を持ちながら生まれたのです。",
+        "rel_src": [
+            "I am here because there is still a big problem with the way  many people see individuals with intellectual disabilities,  or, too often,  how they don't see them at all.",
+            "This movement has changed my life  and those of so many others."
+        ],
+        "rel_tgt": [
+            "私はここにいるのは、多くの人々が知的障害を持つ個々人を見ることの方法に大きな問題があるからです。もしくは、しばしば、彼らを全く見過ごすからです。",
+            "この運動は私の生活を変えており、他にも多くの人々の生活を変えてきました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy"
+        }
+    },
+    {
+        "idx": 27,
+        "src": "Growing up, I played hockey until I was 12 years old.",
+        "ref": "小さい頃から 12歳まで ホッケーをしていました",
+        "hyp": "育った頃、私はハッカーシュートを12歳までプレイしていました。",
+        "rel_src": [
+            "I don't want you to think I'm here because I'm a charity case.",
+            "This movement has changed my life  and those of so many others."
+        ],
+        "rel_tgt": [
+            "私は慈善の対象だからここにいるわけではありませんので、あなたはそう考える必要はありません。",
+            "この運動は私の生活を変えており、他にも多くの人々の生活を変えてきました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy"
+        }
+    },
+    {
+        "idx": 28,
+        "src": "The older I got, the more I felt  it was harder to keep up with everyone else,  and I was angry and frustrated.",
+        "ref": "成長するにつれて どんどん みんなについていくのが 難しくなってきて もどかしく 腹立たしかったです",
+        "hyp": "私が年を重ねるにつれて、他のすべての人々を追いつけないと感じることが多くなり、怒りと挫折感を感じました。",
+        "rel_src": [
+            "I am here because there is still a big problem with the way  many people see individuals with intellectual disabilities,  or, too often,  how they don't see them at all.",
+            "And it has changed the way the world sees people with intellectual disabilities."
+        ],
+        "rel_tgt": [
+            "私はここにいるのは、多くの人々が知的障害を持つ個々人を見ることの方法に大きな問題があるからです。もしくは、しばしば、彼らを全く見過ごすからです。",
+            "そして、世界が知的障害を持つ人々を見ることの方法を変えてきました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy"
+        }
+    },
+    {
+        "idx": 29,
+        "src": "For a while, I did not play any sports,  didn't have many friends  and felt left out and sad.",
+        "ref": "しばらくの間 スポーツから完全に離れていました 友達も あまりいなかったし 取り残された気がして 悲しかったです",
+        "hyp": "一時、私はスポーツをプレイせず、多くの友人を持っていなかったので、孤立感を感じ、悲しみを感じました。",
+        "rel_src": [
+            "People use the r-word in front of me, and they think it doesn't matter.",
+            "I was born with epilepsy and an intellectual disability."
+        ],
+        "rel_tgt": [
+            "私が面前で「r-ワード」を使用し、それが問題ないと考えています。",
+            "私はエpilepsyと知的障害を持ちながら生まれたのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy"
+        }
+    },
+    {
+        "idx": 30,
+        "src": "There was a time when people with intellectual disabilities  were hidden away from society.",
+        "ref": "その昔 知的障害のある人々は 社会から覆い隠された存在でした",
+        "hyp": "知的障害を持つ人々はかつて社会から隠れられていた時期がありました。",
+        "rel_src": [
+            "I am here because there is still a big problem with the way  many people see individuals with intellectual disabilities,  or, too often,  how they don't see them at all.",
+            "And it has changed the way the world sees people with intellectual disabilities."
+        ],
+        "rel_tgt": [
+            "私はここにいるのは、多くの人々が知的障害を持つ個々人を見ることの方法に大きな問題があるからです。もしくは、しばしば、彼らを全く見過ごすからです。",
+            "そして、世界が知的障害を持つ人々を見ることの方法を変えてきました。"
+        ],
+        "hist_info": "\"intellectual disabilities\" - \"知的障害\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy"
+        }
+    },
+    {
+        "idx": 31,
+        "src": "No one thought they could participate in sports,  let alone be a valued member of society.",
+        "ref": "スポーツに参加できるとか ましてや 社会の貴重な一員だなんて 誰も思いませんでした",
+        "hyp": "誰一人が、体育に参加できると思わなかった。更には、社会の価値あるメンバーになることも考えられていなかった。",
+        "rel_src": [
+            "I am here because there is still a big problem with the way  many people see individuals with intellectual disabilities,  or, too often,  how they don't see them at all.",
+            "For a while, I did not play any sports,  didn't have many friends  and felt left out and sad."
+        ],
+        "rel_tgt": [
+            "私はここにいるのは、多くの人々が知的障害を持つ個々人を見ることの方法に大きな問題があるからです。もしくは、しばしば、彼らを全く見過ごすからです。",
+            "一時、私はスポーツをプレイせず、多くの友人を持っていなかったので、孤立感を感じ、悲しみを感じました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy"
+        }
+    },
+    {
+        "idx": 32,
+        "src": "In the 1960s, Dr. Frank Hayden,  a scientist at the University of Toronto,  was studying the effects of regular exercise  on the fitness levels of children with intellectual disabilities.",
+        "ref": "1960年代になって トロント大学の科学者 フランク・ヘイデン博士が 定期的な運動が 知的障害児の 運動能力に与える影響を 研究しました",
+        "hyp": "1960年代に、トロント大学の科学者であるフランク・ヘイデン博士は、規則的な運動が知的障害児の適性レベルに及ぼす影響を研究していました。",
+        "rel_src": [
+            "I was one of over 6,500 athletes with intellectual disabilities  from 165 countries who competed in LA.",
+            "I am here today to challenge you  to look at us as equals."
+        ],
+        "rel_tgt": [
+            "私は165カ国の6,500以上の知的障害を持つ選手のうちの一人であり、LAで競技を行いました。",
+            "私たちは今日、私たちを等しい存在として見ることにあなたを挑むべきだ。"
+        ],
+        "hist_info": "\"intellectual disabilities\" - \"知的障害\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学"
+        }
+    },
+    {
+        "idx": 33,
+        "src": "Using rigorous scientific research,  Dr. Hayden and other researchers  came to the conclusion  that it was simply the lack of opportunity to participate  that caused their fitness levels to suffer.",
+        "ref": "厳密に科学的な 研究方法によって ヘイデン博士と他の研究者たちが 出した結論はこうです 「知的障害児の運動能力が低いのは 単に 運動に参加する機会が 不足しているからに過ぎない」",
+        "hyp": "フランク・ヘイデン博士や他の研究者たちが厳格な科学的調査を行い、結論に至ったのは、適切な機会がないことが適性レベルに影響を与え、その結果、適性レベルが低下するという事実でした。",
+        "rel_src": [
+            "I am here because there is still a big problem with the way  many people see individuals with intellectual disabilities,  or, too often,  how they don't see them at all.",
+            "No one thought they could participate in sports,  let alone be a valued member of society."
+        ],
+        "rel_tgt": [
+            "私はここにいるのは、多くの人々が知的障害を持つ個々人を見ることの方法に大きな問題があるからです。もしくは、しばしば、彼らを全く見過ごすからです。",
+            "誰一人が、体育に参加できると思わなかった。更には、社会の価値あるメンバーになることも考えられていなかった。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち"
+        }
+    },
+    {
+        "idx": 34,
+        "src": "Lots of people doubted that people with intellectual disabilities  could benefit from fitness programs and sports competition opportunities.",
+        "ref": "知的障害を持つ人にとって 運動プログラムや スポーツ競技参加が有益だと",
+        "hyp": "多くの人が、知的障害を持つ人々がフィットネスプログラムやスポーツ競技の機会から利益を得る能力があるかどうか疑問視していました。",
+        "rel_src": [
+            "No one thought they could participate in sports,  let alone be a valued member of society.",
+            "In the 1960s, Dr. Frank Hayden,  a scientist at the University of Toronto,  was studying the effects of regular exercise  on the fitness levels of children with intellectual disabilities."
+        ],
+        "rel_tgt": [
+            "誰一人が、体育に参加できると思わなかった。更には、社会の価値あるメンバーになることも考えられていなかった。",
+            "1960年代に、トロント大学の科学者であるフランク・ヘイデン博士は、規則的な運動が知的障害児の適性レベルに及ぼす影響を研究していました。"
+        ],
+        "hist_info": "\"intellectual disabilities\" - \"知的障害\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち"
+        }
+    },
+    {
+        "idx": 35,
+        "src": "But pioneers like Dr. Hayden and Eunice Kennedy Shriver,  the founder of Special Olympics,  persevered,  and Special Olympics athletes have proved them right  four and a half million times over.",
+        "ref": "信じる人は あまりいませんでした しかし 先駆者たち―ヘイデン博士や スペシャルオリンピックスの創始者 ユーニス・ケネディ・シュライバーは 諦めませんでした そして 選手たちも 彼らが正しかったのだと 450万回以上も 証明してきました",
+        "hyp": "しかし、ヘイデン博士やエニシク・ケネディ・シュライバーといった先駆者たちは諦めずに、特別オリンピックの選手たちは彼らが正しいと証明してきました。特に対話の回数は約1500万回にも上る。",
+        "rel_src": [
+            "Special Olympics transforms the self-identity of athletes  with intellectual disabilities  and the perceptions of everyone watching.",
+            "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions."
+        ],
+        "rel_tgt": [
+            "特別オリンピックは、知的障害を持つ選手たちの自我アイデンティティを変えるとともに、観察しているすべての人々の認識も変わります。",
+            "私たちは、知的障害を持つ人々向けの高品質で一年中続くスポーツプログラムを提供し、人生と認識を変えることができます。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"特別オリンピック\", \"Olympics\" - \"オリンピック\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは"
+        }
+    },
+    {
+        "idx": 36,
+        "src": "Before I joined Special Olympics,  I was nervous  because I was young, shy, not confident  and didn't have many friends.",
+        "ref": "（拍手） スペシャルオリンピックスに 参加する前 僕は不安でした 歳若く 人見知りで 自信もなかったし 友達も少なかったからです",
+        "hyp": "私が特別オリンピックに参加するまでは、私は若く、内気で自信がなく、友人があまりいなかったため、とても緊張していました。",
+        "rel_src": [
+            "This movement has changed my life  and those of so many others.",
+            "The older I got, the more I felt  it was harder to keep up with everyone else,  and I was angry and frustrated."
+        ],
+        "rel_tgt": [
+            "この運動は私の生活を変えており、他にも多くの人々の生活を変えてきました。",
+            "私が年を重ねるにつれて、他のすべての人々を追いつけないと感じることが多くなり、怒りと挫折感を感じました。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"特別オリンピック\", \"Olympics\" - \"オリンピック\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは"
+        }
+    },
+    {
+        "idx": 37,
+        "src": "When I got there, though, everyone was very encouraging,  supportive, and let me be myself  without being judged.",
+        "ref": "でも 行ってみたら 誰もが 皆 励ましてくれたり 支えてくれて そこでは 人の目を気にせず 自分らしく いられたのです",
+        "hyp": "到着したとき、すべての人々は私を励まし、支援し、自分自身のままでいることを許してくれました。",
+        "rel_src": [
+            "But pioneers like Dr. Hayden and Eunice Kennedy Shriver,  the founder of Special Olympics,  persevered,  and Special Olympics athletes have proved them right  four and a half million times over.",
+            "Before I joined Special Olympics,  I was nervous  because I was young, shy, not confident  and didn't have many friends."
+        ],
+        "rel_tgt": [
+            "しかし、ヘイデン博士やエニシク・ケネディ・シュライバーといった先駆者たちは諦めずに、特別オリンピックの選手たちは彼らが正しいと証明してきました。特に対話の回数は約1500万回にも上る。",
+            "私が特別オリンピックに参加するまでは、私は若く、内気で自信がなく、友人があまりいなかったため、とても緊張していました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは"
+        }
+    },
+    {
+        "idx": 38,
+        "src": "Now, I am a basketball player and speed skater  who has competed at provincial, national games,  and this year made it all the way to the World Summer Games in LA,  where I was part of the first ever Canadian basketball team  to compete at World Games.",
+        "ref": "今では僕は バスケットボールと スピードスケートの選手です 州大会や 全国大会に 出場してきました そして今年は LAで開催された 夏の世界大会出場を果たしました カナダ代表として 初めて 世界大会まで進んだ— バスケチームの一員でした",
+        "hyp": "現在、私はバスケットボール選手であり、スピードスケート選手であり、県大会、全国大会で競技し、今年は初のカナダのバスケットボールチームの一員としてLAの世界夏ゲームズに出場しました。",
+        "rel_src": [
+            "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions.",
+            "Before I joined Special Olympics,  I was nervous  because I was young, shy, not confident  and didn't have many friends."
+        ],
+        "rel_tgt": [
+            "私たちは、知的障害を持つ人々向けの高品質で一年中続くスポーツプログラムを提供し、人生と認識を変えることができます。",
+            "私が特別オリンピックに参加するまでは、私は若く、内気で自信がなく、友人があまりいなかったため、とても緊張していました。"
+        ],
+        "hist_info": "\"World Games\" - \"世界ゲームズ\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム"
+        }
+    },
+    {
+        "idx": 39,
+        "src": "I am one of more than four and a half million athletes around the globe,  and I've heard so many similar stories.",
+        "ref": "（拍手） 僕は 世界で450万人を超える アスリートの１人です 似たような話を 本当に たくさん聞いてきました",
+        "hyp": "私は全世界の450万人以上の選手の一人で、たくさんの類似した体験談を聞いたことがあります。",
+        "new_src_summary": "Matthew Williams, a Special Olympics athlete, shares his transformational journey, highlighting the pivotal role of the organization in empowering individuals with intellectual disabilities. Through his personal experiences, Matthew emphasizes the impact of the Special Olympics in fostering confidence, skill development, and competitive spirit among participants. Despite the progress made in recognizing the capabilities of individuals with intellectual disabilities, Matthew argues that societal perceptions still lag behind, often overlooking the achievements of athletes like himself. His participation in the World Games, featuring live coverage on platforms such as Tsn and ESPN, showcases the global recognition of Special Olympics athletes' skills. By addressing the use of derogatory language, Matthew underscores the emotional harm it causes and the need for change in societal attitudes. This narrative is situated within the broader domain of disability rights and awareness, specifically focusing on the Special Olympics as a platform for inclusion and empowerment. The style is personal and direct, aiming to engage readers and provoke reflection on the importance of recognizing and supporting individuals with intellectual disabilities. The tone is passionate and determined, reflecting Matthew's's commitment to challenging misconceptions and highlighting the significance of celebrating abilities and achievements in this domain.",
+        "new_tgt_summary": "マーティン・ウィリアムズという名前のチャンピオンは、特別オリンピックを通じて3つの異なるスポーツでメダルを獲得し、カナダを代表するバスケットボール選手として国際的に活躍しています。彼は毎週5日間、バスケットボールとスピードスケートのトレーニングに励んでおり、最高品質のコーチとメンタルパフォーマンスコンサルタントとの協力を得てベストな状態を維持しています。彼の経験は特別オリンピックの設立以来の進歩を示しています。彼は「r-ワード」の使用が問題であると主張し、それを使用することによる他人への痛みについて言及しています。また、特別オリンピックは、知的障害を持つ選手を含む全ての選手が等しい存在として扱われる大会であり、参加者だけでなく観客も新たな認識を得られるイベントです。知的障害を持つ人々がスポーツを通じて自己肯定感を持つことにより、その生活や社会での認識が変わる可能性があると述べられています。また、特別オリンピックの選手としての経験は、マーティン自身の自信と友人関係を深め、さらには全国大会や世界大会に出場する機会を生み出しました。フランク・ヘイデン博士らの研究により、適切な運動が知的障害児の適性向上に寄与することを示しています。",
+        "rel_src": [
+            "Lots of people doubted that people with intellectual disabilities  could benefit from fitness programs and sports competition opportunities.",
+            "Before I joined Special Olympics,  I was nervous  because I was young, shy, not confident  and didn't have many friends."
+        ],
+        "rel_tgt": [
+            "多くの人が、知的障害を持つ人々がフィットネスプログラムやスポーツ競技の機会から利益を得る能力があるかどうか疑問視していました。",
+            "私が特別オリンピックに参加するまでは、私は若く、内気で自信がなく、友人があまりいなかったため、とても緊張していました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム"
+        }
+    },
+    {
+        "idx": 40,
+        "src": "Being Special Olympics athletes  restores our pride and dignity.",
+        "ref": "スペシャルオリンピックスの 選手であることで 僕たちは 誇りと尊厳を 取り戻すのです",
+        "hyp": "特別オリンピックの選手であることにより、私たちの誇りと尊厳を取り戻します。",
+        "rel_src": [
+            "And it has changed the way the world sees people with intellectual disabilities.",
+            "Now, I am a basketball player and speed skater  who has competed at provincial, national games,  and this year made it all the way to the World Summer Games in LA,  where I was part of the first ever Canadian basketball team  to compete at World Games."
+        ],
+        "rel_tgt": [
+            "そして、世界が知的障害を持つ人々を見ることの方法を変えてきました。",
+            "現在、私はバスケットボール選手であり、スピードスケート選手であり、県大会、全国大会で競技し、今年は初のカナダのバスケットボールチームの一員としてLAの世界夏ゲームズに出場しました。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"特別オリンピック\", \"Olympics\" - \"オリンピック\", \"Special Olympics athletes\" - \"特別オリンピックの選手たちは\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム"
+        }
+    },
+    {
+        "idx": 41,
+        "src": "Special Olympics also addresses critical health needs.",
+        "ref": "スペシャルオリンピックスは 選手にとって 重要な健康のニーズにも 応えます",
+        "hyp": "特別オリンピックも重要な健康ニーズに対応しています。",
+        "rel_src": [
+            "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions.",
+            "There was a time when people with intellectual disabilities  were hidden away from society."
+        ],
+        "rel_tgt": [
+            "私たちは、知的障害を持つ人々向けの高品質で一年中続くスポーツプログラムを提供し、人生と認識を変えることができます。",
+            "知的障害を持つ人々はかつて社会から隠れられていた時期がありました。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"特別オリンピック\", \"Olympics\" - \"オリンピック\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム"
+        }
+    },
+    {
+        "idx": 42,
+        "src": "Studies have shown that, on average,  men with intellectual disabilities  die 13 years younger than men without,  and women with intellectual disabilities  die 20 years younger than women without.",
+        "ref": "研究によれば 知的障害を持つ男性の平均寿命は 健常者より13年短く 女性の場合は 20年短いそうです",
+        "hyp": "研究によれば、平均的なところでは、知的障害のある男性は通常の男性よりも13年早く亡くなり、知的障害のある女性は通常の女性よりも22年早く亡くなることが示されています。",
+        "rel_src": [
+            "In the 1960s, Dr. Frank Hayden,  a scientist at the University of Toronto,  was studying the effects of regular exercise  on the fitness levels of children with intellectual disabilities.",
+            "Using rigorous scientific research,  Dr. Hayden and other researchers  came to the conclusion  that it was simply the lack of opportunity to participate  that caused their fitness levels to suffer."
+        ],
+        "rel_tgt": [
+            "1960年代に、トロント大学の科学者であるフランク・ヘイデン博士は、規則的な運動が知的障害児の適性レベルに及ぼす影響を研究していました。",
+            "フランク・ヘイデン博士や他の研究者たちが厳格な科学的調査を行い、結論に至ったのは、適切な機会がないことが適性レベルに影響を与え、その結果、適性レベルが低下するという事実でした。"
+        ],
+        "hist_info": "\"intellectual disabilities\" - \"知的障害\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム"
+        }
+    },
+    {
+        "idx": 43,
+        "src": "Special Olympics keeps us healthy  by getting us active and participating in sport.",
+        "ref": "でも スペシャルオリンピックスで 体を動かし 競技参加することで 健康を保つことができます",
+        "hyp": "特別オリンピックは私たちを健康に保つために私たちを活動的になるようにし、スポーツに参加させます。",
+        "rel_src": [
+            "In the 1960s, Dr. Frank Hayden,  a scientist at the University of Toronto,  was studying the effects of regular exercise  on the fitness levels of children with intellectual disabilities.",
+            "Special Olympics also addresses critical health needs."
+        ],
+        "rel_tgt": [
+            "1960年代に、トロント大学の科学者であるフランク・ヘイデン博士は、規則的な運動が知的障害児の適性レベルに及ぼす影響を研究していました。",
+            "特別オリンピックも重要な健康ニーズに対応しています。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"特別オリンピック\", \"Olympics\" - \"オリンピック\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム"
+        }
+    },
+    {
+        "idx": 44,
+        "src": "Also, our coaches teach us about nutrition and health.",
+        "ref": "また コーチ陣が 栄養や健康について教えてくれます",
+        "hyp": "また、私たちのコーチたちは私たちに栄養と健康について教えます。",
+        "rel_src": [
+            "Before I joined Special Olympics,  I was nervous  because I was young, shy, not confident  and didn't have many friends.",
+            "Studies have shown that, on average,  men with intellectual disabilities  die 13 years younger than men without,  and women with intellectual disabilities  die 20 years younger than women without."
+        ],
+        "rel_tgt": [
+            "私が特別オリンピックに参加するまでは、私は若く、内気で自信がなく、友人があまりいなかったため、とても緊張していました。",
+            "研究によれば、平均的なところでは、知的障害のある男性は通常の男性よりも13年早く亡くなり、知的障害のある女性は通常の女性よりも22年早く亡くなることが示されています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム"
+        }
+    },
+    {
+        "idx": 45,
+        "src": "Special Olympics also provides free health screening  for athletes who have difficulty communicating with their doctor  or accessing health care.",
+        "ref": "スペシャルオリンピックスでは 無料健康診断を提供しています 対象となるのは 医師との意思疎通が困難だったり 医療に手が届きにくい選手です",
+        "hyp": "特別オリンピックはまた、医師とのコミュニケーションが困難であるか、または医療サービスにアクセスが難しい選手に対して無料の健康診査を提供します。",
+        "rel_src": [
+            "Being Special Olympics athletes  restores our pride and dignity.",
+            "Special Olympics keeps us healthy  by getting us active and participating in sport."
+        ],
+        "rel_tgt": [
+            "特別オリンピックの選手であることにより、私たちの誇りと尊厳を取り戻します。",
+            "特別オリンピックは私たちを健康に保つために私たちを活動的になるようにし、スポーツに参加させます。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"特別オリンピック\", \"Olympics\" - \"オリンピック\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム"
+        }
+    },
+    {
+        "idx": 46,
+        "src": "At the 2015 World Summer Games,  my Team Canada teammates and I played the Nigerian basketball team.",
+        "ref": "2015年夏の世界大会で 僕のいたチームカナダは ナイジェリアの バスケチームと対戦しました",
+        "hyp": "2015年の世界夏ゲームズで、私のカナダチームのメンバーと一緒にナイジェリアのバスケットボールチームと対戦しました。",
+        "rel_src": [
+            "Now, I am a basketball player and speed skater  who has competed at provincial, national games,  and this year made it all the way to the World Summer Games in LA,  where I was part of the first ever Canadian basketball team  to compete at World Games.",
+            "I am one of more than four and a half million athletes around the globe,  and I've heard so many similar stories."
+        ],
+        "rel_tgt": [
+            "現在、私はバスケットボール選手であり、スピードスケート選手であり、県大会、全国大会で競技し、今年は初のカナダのバスケットボールチームの一員としてLAの世界夏ゲームズに出場しました。",
+            "私は全世界の450万人以上の選手の一人で、たくさんの類似した体験談を聞いたことがあります。"
+        ],
+        "hist_info": "\"World Summer Games\" - \"世界夏ゲームズ\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム"
+        }
+    },
+    {
+        "idx": 47,
+        "src": "The day before our game,  the Nigerian basketball team went to the World Games Healthy Athlete screening,  where seven of 10 members  were given hearing aids for free  and got to hear clearly for the first time.",
+        "ref": "試合の前日に ナイジェリアチームは 会場で実施される健康診断を受け 10名のメンバーのうち ７名が 補聴器の無料支給を受け おかげで 生まれて初めて はっきりと 耳が聞こえたのです",
+        "hyp": "私達の試合の前日、ナイジェリアのバスケットボールチームは世界ゲームズヘルシーオーライターの検査に行きました。その中で11人のメンバーの7人が無料で聴覚補助器を与えられ、初めてはっきりと聞くことができました。",
+        "rel_src": [
+            "Studies have shown that, on average,  men with intellectual disabilities  die 13 years younger than men without,  and women with intellectual disabilities  die 20 years younger than women without.",
+            "Special Olympics also provides free health screening  for athletes who have difficulty communicating with their doctor  or accessing health care."
+        ],
+        "rel_tgt": [
+            "研究によれば、平均的なところでは、知的障害のある男性は通常の男性よりも13年早く亡くなり、知的障害のある女性は通常の女性よりも22年早く亡くなることが示されています。",
+            "特別オリンピックはまた、医師とのコミュニケーションが困難であるか、または医療サービスにアクセスが難しい選手に対して無料の健康診査を提供します。"
+        ],
+        "hist_info": "\"World Games\" - \"世界ゲームズ\", \"Nigerian basketball team\" - \"ナイジェリアのバスケットボールチーム\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム"
+        }
+    },
+    {
+        "idx": 48,
+        "src": "The change in them was amazing.",
+        "ref": "（拍手） 選手たちには 見違えるほどの変化が起こりました",
+        "hyp": "彼らの変化は驚くべきものです。",
+        "rel_src": [
+            "I am one of more than four and a half million athletes around the globe,  and I've heard so many similar stories.",
+            "At the 2015 World Summer Games,  my Team Canada teammates and I played the Nigerian basketball team."
+        ],
+        "rel_tgt": [
+            "私は全世界の450万人以上の選手の一人で、たくさんの類似した体験談を聞いたことがあります。",
+            "2015年の世界夏ゲームズで、私のカナダチームのメンバーと一緒にナイジェリアのバスケットボールチームと対戦しました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム"
+        }
+    },
+    {
+        "idx": 49,
+        "src": "They were more excited, happy and confident,  because their coach could vocally communicate with them.",
+        "ref": "より生き生きと 試合を楽しみ 自信を持ってプレイしていました コーチと肉声で意思疎通が できるようになったからです",
+        "hyp": "彼らは、コーチが音声でコミュニケーションを取ることができることを認識し、それによりより興奮し、幸せになり、自信を持ったのです。",
+        "rel_src": [
+            "Lots of people doubted that people with intellectual disabilities  could benefit from fitness programs and sports competition opportunities.",
+            "When I got there, though, everyone was very encouraging,  supportive, and let me be myself  without being judged."
+        ],
+        "rel_tgt": [
+            "多くの人が、知的障害を持つ人々がフィットネスプログラムやスポーツ競技の機会から利益を得る能力があるかどうか疑問視していました。",
+            "到着したとき、すべての人々は私を励まし、支援し、自分自身のままでいることを許してくれました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム"
+        }
+    },
+    {
+        "idx": 50,
+        "src": "And they were emotional  because they could hear the sounds of the basketball,  the sounds of the whistle  and the cheering fans in the stands --  sounds that we take for granted.",
+        "ref": "感情も昂ぶっていました ボールの音が 聞こえるようにようになったからです そして 笛の音や スタンドに立つファンの歓声もです 皆にとっては 聞こえて当然の音です",
+        "hyp": "そしてそれは感情的なものでした。バスケットボールの音、口笛の音、スタンドで沸き立つファンの声など、私たちが当然と感じる音が聞けるようになったからです。",
+        "rel_src": [
+            "The day before our game,  the Nigerian basketball team went to the World Games Healthy Athlete screening,  where seven of 10 members  were given hearing aids for free  and got to hear clearly for the first time.",
+            "The change in them was amazing."
+        ],
+        "rel_tgt": [
+            "私達の試合の前日、ナイジェリアのバスケットボールチームは世界ゲームズヘルシーオーライターの検査に行きました。その中で11人のメンバーの7人が無料で聴覚補助器を与えられ、初めてはっきりと聞くことができました。",
+            "彼らの変化は驚くべきものです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム"
+        }
+    },
+    {
+        "idx": 51,
+        "src": "Special Olympics is transforming more than just the athlete in their sport.",
+        "ref": "スペシャルオリンピックスの 選手たちは 競技中だけでなく",
+        "hyp": "特別オリンピックは彼らのスポーツにおけるだけではなく、あらゆるアスリートを変容させています。",
+        "rel_src": [
+            "Special Olympics keeps us healthy  by getting us active and participating in sport.",
+            "They were more excited, happy and confident,  because their coach could vocally communicate with them."
+        ],
+        "rel_tgt": [
+            "特別オリンピックは私たちを健康に保つために私たちを活動的になるようにし、スポーツに参加させます。",
+            "彼らは、コーチが音声でコミュニケーションを取ることができることを認識し、それによりより興奮し、幸せになり、自信を持ったのです。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"特別オリンピック\", \"Olympics\" - \"オリンピック\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム"
+        }
+    },
+    {
+        "idx": 52,
+        "src": "Special Olympics is transforming their lives off the field.",
+        "ref": "競技場の外での人生も変わります",
+        "hyp": "特別オリンピックはフィールド外の彼らの生活を変革しています。",
+        "rel_src": [
+            "They were more excited, happy and confident,  because their coach could vocally communicate with them.",
+            "And they were emotional  because they could hear the sounds of the basketball,  the sounds of the whistle  and the cheering fans in the stands --  sounds that we take for granted."
+        ],
+        "rel_tgt": [
+            "彼らは、コーチが音声でコミュニケーションを取ることができることを認識し、それによりより興奮し、幸せになり、自信を持ったのです。",
+            "そしてそれは感情的なものでした。バスケットボールの音、口笛の音、スタンドで沸き立つファンの声など、私たちが当然と感じる音が聞けるようになったからです。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"特別オリンピック\", \"Olympics\" - \"オリンピック\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム"
+        }
+    },
+    {
+        "idx": 53,
+        "src": "This year, research findings showed  that nearly half of the adults in the US  don't know a single person with an intellectual disability,  and the 44 percent of Americans  who don't have personal contact with intellectual disabilities  are significantly less accepting and positive.",
+        "ref": "今年出た調査の結果によれば アメリカの成人の半数近くは 知的障害の知り合いが １人もいないそうです アメリカ人の44%にあたる そういった人々は 障害者に対し 受容性が非常に低く 著しくネガティブな 見方をしているそうです",
+        "hyp": "この年に、研究結果は米国の成人のほぼ半分が知的障害を持つ個人を一人も知らないことを示しており、アメリカ人の44パーセントが個人的な接点を持っていない場合、それらの人々は有意に受け入れやすさやポジティブな印象が少ないという結果が出ました。",
+        "rel_src": [
+            "Using rigorous scientific research,  Dr. Hayden and other researchers  came to the conclusion  that it was simply the lack of opportunity to participate  that caused their fitness levels to suffer.",
+            "Studies have shown that, on average,  men with intellectual disabilities  die 13 years younger than men without,  and women with intellectual disabilities  die 20 years younger than women without."
+        ],
+        "rel_tgt": [
+            "フランク・ヘイデン博士や他の研究者たちが厳格な科学的調査を行い、結論に至ったのは、適切な機会がないことが適性レベルに影響を与え、その結果、適性レベルが低下するという事実でした。",
+            "研究によれば、平均的なところでは、知的障害のある男性は通常の男性よりも13年早く亡くなり、知的障害のある女性は通常の女性よりも22年早く亡くなることが示されています。"
+        ],
+        "hist_info": "\"intellectual disabilities\" - \"知的障害\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム"
+        }
+    },
+    {
+        "idx": 54,
+        "src": "Then there's the r-word,  proving that people with intellectual disabilities  are still invisible to far too many people.",
+        "ref": "さらに 例の差別語使用の多さが 知的障害者が あまりの多くの人にとって 未だに見えない存在である という証拠です",
+        "hyp": "そして「r-ワード」について、なおも多くの人々にとっては知的障害を持つ人々は見えない状態が続いています。",
+        "rel_src": [
+            "I am one of more than four and a half million athletes around the globe,  and I've heard so many similar stories.",
+            "Studies have shown that, on average,  men with intellectual disabilities  die 13 years younger than men without,  and women with intellectual disabilities  die 20 years younger than women without."
+        ],
+        "rel_tgt": [
+            "私は全世界の450万人以上の選手の一人で、たくさんの類似した体験談を聞いたことがあります。",
+            "研究によれば、平均的なところでは、知的障害のある男性は通常の男性よりも13年早く亡くなり、知的障害のある女性は通常の女性よりも22年早く亡くなることが示されています。"
+        ],
+        "hist_info": "\"intellectual disabilities\" - \"知的障害\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "<r-word>": "r-ワード"
+        }
+    },
+    {
+        "idx": 55,
+        "src": "People use it as a casual term or an insult.",
+        "ref": "皆 気軽な表現や けなし言葉として 使ったりします",
+        "hyp": "それは日常的な用語や侮辱として使われています。",
+        "rel_src": [
+            "Special Olympics is transforming their lives off the field.",
+            "Then there's the r-word,  proving that people with intellectual disabilities  are still invisible to far too many people."
+        ],
+        "rel_tgt": [
+            "特別オリンピックはフィールド外の彼らの生活を変革しています。",
+            "そして「r-ワード」について、なおも多くの人々にとっては知的障害を持つ人々は見えない状態が続いています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "<r-word>": "r-ワード"
+        }
+    },
+    {
+        "idx": 56,
+        "src": "It was tweeted more than nine million times last year,  and it is deeply hurtful  to me and my four and a half million fellow athletes around the planet.",
+        "ref": "「知恵遅れ」という言葉の 去年のツイート回数は900万回以上 でもそれは 僕や 世界中にいる― 450万人のアスリート仲間を ものすごく傷つける言葉なのです",
+        "hyp": "去年は900万回以上ツイートされ、私や全世界の2500万の同様のアスリートにとって深い傷を負わせています。",
+        "rel_src": [
+            "Special Olympics is transforming more than just the athlete in their sport.",
+            "Special Olympics is transforming their lives off the field."
+        ],
+        "rel_tgt": [
+            "特別オリンピックは彼らのスポーツにおけるだけではなく、あらゆるアスリートを変容させています。",
+            "特別オリンピックはフィールド外の彼らの生活を変革しています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "<r-word>": "r-ワード"
+        }
+    },
+    {
+        "idx": 57,
+        "src": "People don't think it's insulting,  but it is.",
+        "ref": "皆 侮辱に当たると 思っていないのですが それは間違いです",
+        "hyp": "人々はそれが侮辱だとは思わないかもしれませんが、それがそうであるのです。",
+        "rel_src": [
+            "People use it as a casual term or an insult.",
+            "It was tweeted more than nine million times last year,  and it is deeply hurtful  to me and my four and a half million fellow athletes around the planet."
+        ],
+        "rel_tgt": [
+            "それは日常的な用語や侮辱として使われています。",
+            "去年は900万回以上ツイートされ、私や全世界の2500万の同様のアスリートにとって深い傷を負わせています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "<r-word>": "r-ワード"
+        }
+    },
+    {
+        "idx": 58,
+        "src": "As my fellow athlete and global messenger John Franklin Stephens wrote  in an open letter to a political pundit  who used the r-word as an insult,  \"Come join us someday at Special Olympics.",
+        "ref": "僕の仲間で グローバルメッセンジャーの ジョン・フランクリン・スティーヴンズが 公開書簡を書きました 例の差別語で人をけなす 政治評論家に宛てたものです 「いつか スペシャルオリンピックスに 来てください",
+        "hyp": "私の同僚のアスリートであり、グローバルメッセージナーのジョン・フランクリン・ステプヒンスが政治評論家のr-ワードを使用して侮辱として使用しているオープンレターに書いた、「いつか私たちと一緒に特別オリンピックに来てください」と。",
+        "rel_src": [
+            "Now, I am a basketball player and speed skater  who has competed at provincial, national games,  and this year made it all the way to the World Summer Games in LA,  where I was part of the first ever Canadian basketball team  to compete at World Games.",
+            "It was tweeted more than nine million times last year,  and it is deeply hurtful  to me and my four and a half million fellow athletes around the planet."
+        ],
+        "rel_tgt": [
+            "現在、私はバスケットボール選手であり、スピードスケート選手であり、県大会、全国大会で競技し、今年は初のカナダのバスケットボールチームの一員としてLAの世界夏ゲームズに出場しました。",
+            "去年は900万回以上ツイートされ、私や全世界の2500万の同様のアスリートにとって深い傷を負わせています。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"特別オリンピック\", \"Olympics\" - \"オリンピック\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "<r-word>": "r-ワード",
+            "John Franklin Stephens": "ジョン・フランクリン・ステプヒンス"
+        }
+    },
+    {
+        "idx": 59,
+        "src": "See if you walk away with your heart unchanged.\"",
+        "ref": "心を動かされずに帰れるかどうか どうぞ試してみてください」",
+        "hyp": "心が変わらないように帰って来て欲しい。",
+        "new_src_summary": "Matthew Williams, a Special Olympics athlete, recounts his transformational journey, underscoring the organization's pivotal role in empowering individuals with intellectual disabilities. Through personal experiences, he highlights the impact of Special Olympics in fostering confidence, skill development, and competitive spirit among participants. Matthew acknowledges progress in recognizing the capabilities of individuals with intellectual disabilities yet argues that societal perceptions still lag behind, often overlooking athletes' achievements. His participation in the World Games, featuring live coverage on platforms such as TSN and ESPN, showcases global recognition of Special Olympics athletes' skills. Addressing the use of derogatory language, Matthew underscores the emotional harm it causes and the need for societal attitude change. The narrative emphasizes the broader domain of disability rights and awareness, specifically focusing on the Special Olympics as a platform for inclusion and empowerment. The style is personal and direct, aiming to engage readers and provoke reflection on the importance of recognizing and supporting individuals with intellectual disabilities. The tone is passionate and determined, reflecting Matthew's's commitment to challenging misconceptions and highlighting the significance of celebrating abilities and achievements in this domain. \n\nIn addition to the personal stories, the paragraph discusses the transformative impact of Special Olympics on athletes worldwide, emphasizing its role in restoring pride and dignity, addressing critical health needs, and enhancing overall well-being. It highlights statistics showing the shortened life expectancy of individuals with intellectual disabilities compared to those without such conditions. Special Olympics contributes to health improvement through sports activities, nutrition education, and offering free health screenings for athletes who face difficulties in communication or access to healthcare. The 2011 World Summer Games example demonstrates how the program can lead to significant life-changing improvements, such as a Nigerian basketball team member receiving hearing aids for free, enabling them to hear for the first time, positively impacting their emotional state, confidence, and communication with their coach. This highlights how Special Olympics transforms not only athletes' sporting abilities but but also their lives outside of sports.\n\nThe paragraph also mentions the importance of personal connections between individuals with intellectual disabilities and the general public, noting that lack thereof leads to lower acceptance rates. It emphasizes the hurtful nature of using the 'r-word', which is frequently used as a casual term or insult. The author, along with other athletes, advocates against this usage and encourages greater engagement and understanding within the community. Overall, the domain encompasses sports, disability rights, health care, and community engagement, with an informative and passionate style that blends personal experiences with statistical evidence, aiming to raise awareness and promote inclusivity and respect for individuals with intellectual disabilities.",
+        "new_tgt_summary": "マーティン・ウィリアムズという名前の特別オリンピックのチャンピオンは、バスケットボールとスピードスケートでメダルを獲得し、カナダを代表するバスケットボール選手として国際的な舞台で活躍しています。彼は日々、5日間のトレーニングに取り組み、最高品質のコーチとメンタルパフォーマンスコンサルタントのサポートを得ることで、最善の状態を維持しています。彼の経験は特別オリンピックの設立以来の進歩を示しており、「r-ワード」の使用が問題であると主張しています。特別オリンピックは、すべての選手が平等に扱われ、特に知的障害を持つ選手がスポーツを通じて自己肯定感を持つ機会を提供する大会であり、それが生活や社会での認識を変える可能性があると述べられています。特別オリンピックの選手としての経験は、マーティン自身の自信と友人関係を深め、全国大会や世界大会に出場する機会を生み出しました。フランク・ヘイデン博士らの研究により、適切な運動が知的障害児の適性向上に寄与することが示されています。また、特別オリンピックは健康問題に対処し、選手を活動的で健康な生活を送るように励ますとともに、栄養と健康に関する教育を提供し、特に医療サービスへのアクセスが難しい選手を支援しています。作者は自身の経験を共有し、特別オリンピックが彼のスポーツだけでなく、日常生活にも大きな影響を与えたと述べています。",
+        "rel_src": [
+            "Also, our coaches teach us about nutrition and health.",
+            "The day before our game,  the Nigerian basketball team went to the World Games Healthy Athlete screening,  where seven of 10 members  were given hearing aids for free  and got to hear clearly for the first time."
+        ],
+        "rel_tgt": [
+            "また、私たちのコーチたちは私たちに栄養と健康について教えます。",
+            "私達の試合の前日、ナイジェリアのバスケットボールチームは世界ゲームズヘルシーオーライターの検査に行きました。その中で11人のメンバーの7人が無料で聴覚補助器を与えられ、初めてはっきりと聞くことができました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "<r-word>": "r-ワード",
+            "John Franklin Stephens": "ジョン・フランクリン・ステプヒンス"
+        }
+    },
+    {
+        "idx": 60,
+        "src": "This year, at the 2015 World Summer Games,  people lined up for hours  to get into the final night of powerlifting competition.",
+        "ref": "（拍手） 今年2015年夏の 世界大会では 人々は 何時間も並んで 重量挙げ競技の 最終日を 見に来ました",
+        "hyp": "この年、2015年の世界夏ゲームズで、人々は数時間待ち行列を作り、力lifting競技の最終夜に参加するためだった。",
+        "rel_src": [
+            "At the 2015 World Summer Games,  my Team Canada teammates and I played the Nigerian basketball team.",
+            "The day before our game,  the Nigerian basketball team went to the World Games Healthy Athlete screening,  where seven of 10 members  were given hearing aids for free  and got to hear clearly for the first time."
+        ],
+        "rel_tgt": [
+            "2015年の世界夏ゲームズで、私のカナダチームのメンバーと一緒にナイジェリアのバスケットボールチームと対戦しました。",
+            "私達の試合の前日、ナイジェリアのバスケットボールチームは世界ゲームズヘルシーオーライターの検査に行きました。その中で11人のメンバーの7人が無料で聴覚補助器を与えられ、初めてはっきりと聞くことができました。"
+        ],
+        "hist_info": "\"World Summer Games\" - \"世界夏ゲームズ\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "<r-word>": "r-ワード",
+            "John Franklin Stephens": "ジョン・フランクリン・ステプヒンス",
+            "<Proper nouns> World Summer Games": "世界夏ゲームズ",
+            "powerlifting": "力lifting"
+        }
+    },
+    {
+        "idx": 61,
+        "src": "So it was standing room only when my teammate Jackie Barrett,  the Newfoundland Moose,  deadlifted 655 pounds  and lifted 611 pounds in the squat --    setting huge new records for Special Olympics.",
+        "ref": "全員立ち見の中 僕のチームメイト ジャッキー・バレット 通称「ニューファンドランドの大鹿」が デッドリフトで297kgを スクワットで277kgを持ち上げ― （拍手） スペシャルオリンピックスでの 最高記録を大幅に更新しました",
+        "hyp": "したがって、私のチームメイトジャッキー・バーレット、ニューファンドランド・ムースが655ポンドのデッドリフトと611ポンドのスクワットを行ったとき、それは満員だった。これにより、特別オリンピックで大きな新しい記録が樹立された。",
+        "rel_src": [
+            "Special Olympics also addresses critical health needs.",
+            "Special Olympics also provides free health screening  for athletes who have difficulty communicating with their doctor  or accessing health care."
+        ],
+        "rel_tgt": [
+            "特別オリンピックも重要な健康ニーズに対応しています。",
+            "特別オリンピックはまた、医師とのコミュニケーションが困難であるか、または医療サービスにアクセスが難しい選手に対して無料の健康診査を提供します。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"特別オリンピック\", \"Olympics\" - \"オリンピック\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "<r-word>": "r-ワード",
+            "John Franklin Stephens": "ジョン・フランクリン・ステプヒンス",
+            "<Proper nouns> World Summer Games": "世界夏ゲームズ",
+            "powerlifting": "力lifting",
+            "Jackie Barrett": "ジャッキー・バーレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース"
+        }
+    },
+    {
+        "idx": 62,
+        "src": "Jackie is a record holder among all powerlifters in Newfoundland --  not just Special Olympics, all powerlifters.",
+        "ref": "ジャッキーは ニューファンドランド島での 重量挙げの記録保持者です スペシャルオリンピックスに限らず 全重量挙げ選手の中で です",
+        "hyp": "ジャッキーはニューファンドランド全パワーリフターのレコード保持者で、特におよそ全てのパワーリフターだけでなく、特別オリンピックだけに限定されているわけではありません。",
+        "rel_src": [
+            "This year, at the 2015 World Summer Games,  people lined up for hours  to get into the final night of powerlifting competition.",
+            "So it was standing room only when my teammate Jackie Barrett,  the Newfoundland Moose,  deadlifted 655 pounds  and lifted 611 pounds in the squat --    setting huge new records for Special Olympics."
+        ],
+        "rel_tgt": [
+            "この年、2015年の世界夏ゲームズで、人々は数時間待ち行列を作り、力lifting競技の最終夜に参加するためだった。",
+            "したがって、私のチームメイトジャッキー・バーレット、ニューファンドランド・ムースが655ポンドのデッドリフトと611ポンドのスクワットを行ったとき、それは満員だった。これにより、特別オリンピックで大きな新しい記録が樹立された。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"特別オリンピック\", \"Olympics\" - \"オリンピック\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "<r-word>": "r-ワード",
+            "John Franklin Stephens": "ジョン・フランクリン・ステプヒンス",
+            "<Proper nouns> World Summer Games": "世界夏ゲームズ",
+            "powerlifting": "力lifting",
+            "Jackie Barrett": "ジャッキー・バーレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "<Proper nouns>\nJackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド"
+        }
+    },
+    {
+        "idx": 63,
+        "src": "Jackie was a huge star in LA,  and ESPN live-tweeted his record-breaking lifts  and were wowed by his performance.",
+        "ref": "LAでは大スターになり ESPN局が彼の新記録を 生でツイートしました ジャッキーの成績に感動したのです",
+        "hyp": "ジャッキーはLAの大スターで、ESPNは彼の記録破りのリフティングをライブツイートし、彼のパフォーマンスに圧倒されました。",
+        "rel_src": [
+            "So it was standing room only when my teammate Jackie Barrett,  the Newfoundland Moose,  deadlifted 655 pounds  and lifted 611 pounds in the squat --    setting huge new records for Special Olympics.",
+            "Jackie is a record holder among all powerlifters in Newfoundland --  not just Special Olympics, all powerlifters."
+        ],
+        "rel_tgt": [
+            "したがって、私のチームメイトジャッキー・バーレット、ニューファンドランド・ムースが655ポンドのデッドリフトと611ポンドのスクワットを行ったとき、それは満員だった。これにより、特別オリンピックで大きな新しい記録が樹立された。",
+            "ジャッキーはニューファンドランド全パワーリフターのレコード保持者で、特におよそ全てのパワーリフターだけでなく、特別オリンピックだけに限定されているわけではありません。"
+        ],
+        "hist_info": "\"LA\" - \"LA\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "<r-word>": "r-ワード",
+            "John Franklin Stephens": "ジョン・フランクリン・ステプヒンス",
+            "<Proper nouns> World Summer Games": "世界夏ゲームズ",
+            "powerlifting": "力lifting",
+            "Jackie Barrett": "ジャッキー・バーレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "<Proper nouns>\nJackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "Jackie": "ジャッキー",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 64,
+        "src": "Fifty years ago, few imagined individuals with intellectual disabilities  could do anything like that.",
+        "ref": "50年前 知的障害者が そんなことをできるなんて ほとんど誰も考えませんでした",
+        "hyp": "五十年前、多くの人が知識障害を持つ個体がそれのようなことはできないと考えていました。",
+        "rel_src": [
+            "Special Olympics also provides free health screening  for athletes who have difficulty communicating with their doctor  or accessing health care.",
+            "This year, research findings showed  that nearly half of the adults in the US  don't know a single person with an intellectual disability,  and the 44 percent of Americans  who don't have personal contact with intellectual disabilities  are significantly less accepting and positive."
+        ],
+        "rel_tgt": [
+            "特別オリンピックはまた、医師とのコミュニケーションが困難であるか、または医療サービスにアクセスが難しい選手に対して無料の健康診査を提供します。",
+            "この年に、研究結果は米国の成人のほぼ半分が知的障害を持つ個人を一人も知らないことを示しており、アメリカ人の44パーセントが個人的な接点を持っていない場合、それらの人々は有意に受け入れやすさやポジティブな印象が少ないという結果が出ました。"
+        ],
+        "hist_info": "\"intellectual disabilities\" - \"知的障害\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "<r-word>": "r-ワード",
+            "John Franklin Stephens": "ジョン・フランクリン・ステプヒンス",
+            "<Proper nouns> World Summer Games": "世界夏ゲームズ",
+            "powerlifting": "力lifting",
+            "Jackie Barrett": "ジャッキー・バーレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "<Proper nouns>\nJackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "Jackie": "ジャッキー",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 65,
+        "src": "This year, 60,000 spectators filled the famous LA Memorial Coliseum  to watch the opening ceremonies of World Games  and cheer athletes from 165 countries  around the world.",
+        "ref": "今年 ６万人の観客が あの有名な LAメモリアル・コロシアムを埋めました 世界大会の開会式を観るため そして 世界165か国から集まる 選手たちを応援するため 詰めかけたのです",
+        "hyp": "この年、61,100の観客が有名なLA追悼コロシエウムに詰めかけ、世界ゲームズの開幕式典を見ながら、全世界から165カ国のアスリートを応援しました。",
+        "rel_src": [
+            "Special Olympics also provides free health screening  for athletes who have difficulty communicating with their doctor  or accessing health care.",
+            "This year, at the 2015 World Summer Games,  people lined up for hours  to get into the final night of powerlifting competition."
+        ],
+        "rel_tgt": [
+            "特別オリンピックはまた、医師とのコミュニケーションが困難であるか、または医療サービスにアクセスが難しい選手に対して無料の健康診査を提供します。",
+            "この年、2015年の世界夏ゲームズで、人々は数時間待ち行列を作り、力lifting競技の最終夜に参加するためだった。"
+        ],
+        "hist_info": "\"World Games\" - \"世界ゲームズ\", \"LA\" - \"LA\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "<r-word>": "r-ワード",
+            "John Franklin Stephens": "ジョン・フランクリン・ステプヒンス",
+            "<Proper nouns> World Summer Games": "世界夏ゲームズ",
+            "powerlifting": "力lifting",
+            "Jackie Barrett": "ジャッキー・バーレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "<Proper nouns>\nJackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "Jackie": "ジャッキー",
+            "ESPN": "ESPN",
+            "LA Memorial Coliseum": "LA追悼コロシエウム",
+            "165 countries": "165カ国の"
+        }
+    },
+    {
+        "idx": 66,
+        "src": "Far from being hidden away,  we were cheered and celebrated.",
+        "ref": "僕たちは 隠れた存在であるどころか 声援を浴び 称えられました",
+        "hyp": "私たちを隠蔽することなく、私たちは祝�を受けました。",
+        "rel_src": [
+            "Special Olympics is transforming more than just the athlete in their sport.",
+            "Special Olympics is transforming their lives off the field."
+        ],
+        "rel_tgt": [
+            "特別オリンピックは彼らのスポーツにおけるだけではなく、あらゆるアスリートを変容させています。",
+            "特別オリンピックはフィールド外の彼らの生活を変革しています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "<r-word>": "r-ワード",
+            "John Franklin Stephens": "ジョン・フランクリン・ステプヒンス",
+            "<Proper nouns> World Summer Games": "世界夏ゲームズ",
+            "powerlifting": "力lifting",
+            "Jackie Barrett": "ジャッキー・バーレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "<Proper nouns>\nJackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "Jackie": "ジャッキー",
+            "ESPN": "ESPN",
+            "LA Memorial Coliseum": "LA追悼コロシエウム",
+            "165 countries": "165カ国の"
+        }
+    },
+    {
+        "idx": 67,
+        "src": "Special Olympics teaches athletes  to be confident and proud of themselves.",
+        "ref": "スペシャルオリンピックスは アスリートたちに 自信と誇りを持つことを 教えてくれます",
+        "hyp": "特別オリンピックは選手に自分自身に対する自信と誇りを教える",
+        "rel_src": [
+            "They were more excited, happy and confident,  because their coach could vocally communicate with them.",
+            "It was tweeted more than nine million times last year,  and it is deeply hurtful  to me and my four and a half million fellow athletes around the planet."
+        ],
+        "rel_tgt": [
+            "彼らは、コーチが音声でコミュニケーションを取ることができることを認識し、それによりより興奮し、幸せになり、自信を持ったのです。",
+            "去年は900万回以上ツイートされ、私や全世界の2500万の同様のアスリートにとって深い傷を負わせています。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"特別オリンピック\", \"Olympics\" - \"オリンピック\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "<r-word>": "r-ワード",
+            "John Franklin Stephens": "ジョン・フランクリン・ステプヒンス",
+            "<Proper nouns> World Summer Games": "世界夏ゲームズ",
+            "powerlifting": "力lifting",
+            "Jackie Barrett": "ジャッキー・バーレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "<Proper nouns>\nJackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "Jackie": "ジャッキー",
+            "ESPN": "ESPN",
+            "LA Memorial Coliseum": "LA追悼コロシエウム",
+            "165 countries": "165カ国の"
+        }
+    },
+    {
+        "idx": 68,
+        "src": "Special Olympics teaches the world  that people with intellectual disabilities  deserve respect and inclusion.",
+        "ref": "世の中の人々には 知的障害者は 敬意を払い 受け入れるに値すると 教えてくれます",
+        "hyp": "特別オリンピックは世界に示すのは、知的障害を持つ人々は尊重と包括を受けるべきだということです。",
+        "rel_src": [
+            "Far from being hidden away,  we were cheered and celebrated.",
+            "Special Olympics teaches athletes  to be confident and proud of themselves."
+        ],
+        "rel_tgt": [
+            "私たちを隠蔽することなく、私たちは祝�を受けました。",
+            "特別オリンピックは選手に自分自身に対する自信と誇りを教える"
+        ],
+        "hist_info": "\"Special Olympics\" - \"特別オリンピック\", \"intellectual disabilities\" - \"知的障害\", \"Olympics\" - \"オリンピック\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "<r-word>": "r-ワード",
+            "John Franklin Stephens": "ジョン・フランクリン・ステプヒンス",
+            "<Proper nouns> World Summer Games": "世界夏ゲームズ",
+            "powerlifting": "力lifting",
+            "Jackie Barrett": "ジャッキー・バーレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "<Proper nouns>\nJackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "Jackie": "ジャッキー",
+            "ESPN": "ESPN",
+            "LA Memorial Coliseum": "LA追悼コロシエウム",
+            "165 countries": "165カ国の"
+        }
+    },
+    {
+        "idx": 69,
+        "src": "Now, I have dreams and achievements in my sport,  great coaches,  respect and dignity,  better health,  and I am pursuing a career as a personal trainer.",
+        "ref": "（拍手） 僕には今 競技での実績や夢があり 素晴らしいコーチに恵まれ 尊敬と尊厳を持ち 前より健康で そして パーソナルトレーナーを 目指しています",
+        "hyp": "現在、私はスポーツにおける夢と達成感、優れたコーチ、尊重と尊厳、より良い健康、そして個人トレーナーとしてのキャリアを追求しています。",
+        "rel_src": [
+            "They were more excited, happy and confident,  because their coach could vocally communicate with them.",
+            "Special Olympics is transforming their lives off the field."
+        ],
+        "rel_tgt": [
+            "彼らは、コーチが音声でコミュニケーションを取ることができることを認識し、それによりより興奮し、幸せになり、自信を持ったのです。",
+            "特別オリンピックはフィールド外の彼らの生活を変革しています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "<r-word>": "r-ワード",
+            "John Franklin Stephens": "ジョン・フランクリン・ステプヒンス",
+            "<Proper nouns> World Summer Games": "世界夏ゲームズ",
+            "powerlifting": "力lifting",
+            "Jackie Barrett": "ジャッキー・バーレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "<Proper nouns>\nJackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "Jackie": "ジャッキー",
+            "ESPN": "ESPN",
+            "LA Memorial Coliseum": "LA追悼コロシエウム",
+            "165 countries": "165カ国の"
+        }
+    },
+    {
+        "idx": 70,
+        "src": "I am no longer hidden, bullied  and I am here doing a TED Talk.",
+        "ref": "（拍手） 僕はもう 隠れたり いじめられる存在じゃない 今ここで TEDトークを しているのです",
+        "hyp": "私はもう隠れ者ではなく、いじめられ不再是、ここでTEDトークを行っています。",
+        "rel_src": [
+            "Fifty years ago, few imagined individuals with intellectual disabilities  could do anything like that.",
+            "Special Olympics teaches athletes  to be confident and proud of themselves."
+        ],
+        "rel_tgt": [
+            "五十年前、多くの人が知識障害を持つ個体がそれのようなことはできないと考えていました。",
+            "特別オリンピックは選手に自分自身に対する自信と誇りを教える"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "<r-word>": "r-ワード",
+            "John Franklin Stephens": "ジョン・フランクリン・ステプヒンス",
+            "<Proper nouns> World Summer Games": "世界夏ゲームズ",
+            "powerlifting": "力lifting",
+            "Jackie Barrett": "ジャッキー・バーレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "<Proper nouns>\nJackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "Jackie": "ジャッキー",
+            "ESPN": "ESPN",
+            "LA Memorial Coliseum": "LA追悼コロシエウム",
+            "165 countries": "165カ国の"
+        }
+    },
+    {
+        "idx": 71,
+        "src": "The world is a different place because of Special Olympics,  but there is still farther to go.",
+        "ref": "（拍手） スペシャルオリンピックスのおかげで 世界は変わりました でも まだ道のりは遠いです",
+        "hyp": "特別オリンピックのおかげで世界は違った場所になりましたが、まださらに進む余地があります。",
+        "rel_src": [
+            "Special Olympics is transforming their lives off the field.",
+            "It was tweeted more than nine million times last year,  and it is deeply hurtful  to me and my four and a half million fellow athletes around the planet."
+        ],
+        "rel_tgt": [
+            "特別オリンピックはフィールド外の彼らの生活を変革しています。",
+            "去年は900万回以上ツイートされ、私や全世界の2500万の同様のアスリートにとって深い傷を負わせています。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"特別オリンピック\", \"Olympics\" - \"オリンピック\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "<r-word>": "r-ワード",
+            "John Franklin Stephens": "ジョン・フランクリン・ステプヒンス",
+            "<Proper nouns> World Summer Games": "世界夏ゲームズ",
+            "powerlifting": "力lifting",
+            "Jackie Barrett": "ジャッキー・バーレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "<Proper nouns>\nJackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "Jackie": "ジャッキー",
+            "ESPN": "ESPN",
+            "LA Memorial Coliseum": "LA追悼コロシエウム",
+            "165 countries": "165カ国の"
+        }
+    },
+    {
+        "idx": 72,
+        "src": "So the next time you see someone with an intellectual disability,  I hope you will see their ability.",
+        "ref": "あなたが この次に 知的障害を持つ人を見かけたら その人の能力を 見てあげて欲しい",
+        "hyp": "だから次のたびに誰かが知的障害を持っているとき、私はあなたがその能力を見ることを願います。",
+        "rel_src": [
+            "Special Olympics is transforming their lives off the field.",
+            "Special Olympics teaches athletes  to be confident and proud of themselves."
+        ],
+        "rel_tgt": [
+            "特別オリンピックはフィールド外の彼らの生活を変革しています。",
+            "特別オリンピックは選手に自分自身に対する自信と誇りを教える"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "<r-word>": "r-ワード",
+            "John Franklin Stephens": "ジョン・フランクリン・ステプヒンス",
+            "<Proper nouns> World Summer Games": "世界夏ゲームズ",
+            "powerlifting": "力lifting",
+            "Jackie Barrett": "ジャッキー・バーレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "<Proper nouns>\nJackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "Jackie": "ジャッキー",
+            "ESPN": "ESPN",
+            "LA Memorial Coliseum": "LA追悼コロシエウム",
+            "165 countries": "165カ国の"
+        }
+    },
+    {
+        "idx": 73,
+        "src": "The next time someone uses the r-word near you,  I hope you will tell them how much it hurts.",
+        "ref": "差別語を使う人を見かけたら どれだけひどい言葉なのか 教えてあげて欲しい",
+        "hyp": "次のたびにあなたが近くで「r-ワード」を使用する時、私はあなたにそれがどれほど痛みをもたらすかを伝えることを願います。",
+        "rel_src": [
+            "It was tweeted more than nine million times last year,  and it is deeply hurtful  to me and my four and a half million fellow athletes around the planet.",
+            "People don't think it's insulting,  but it is."
+        ],
+        "rel_tgt": [
+            "去年は900万回以上ツイートされ、私や全世界の2500万の同様のアスリートにとって深い傷を負わせています。",
+            "人々はそれが侮辱だとは思わないかもしれませんが、それがそうであるのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "<r-word>": "r-ワード",
+            "John Franklin Stephens": "ジョン・フランクリン・ステプヒンス",
+            "<Proper nouns> World Summer Games": "世界夏ゲームズ",
+            "powerlifting": "力lifting",
+            "Jackie Barrett": "ジャッキー・バーレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "<Proper nouns>\nJackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "Jackie": "ジャッキー",
+            "ESPN": "ESPN",
+            "LA Memorial Coliseum": "LA追悼コロシエウム",
+            "165 countries": "165カ国の"
+        }
+    },
+    {
+        "idx": 74,
+        "src": "I hope you will think about getting involved with Special Olympics.",
+        "ref": "そして スペシャルオリンピックスに 関わることを考えて欲しい",
+        "hyp": "あなたが特別オリンピックに関与するよう考えることを願っています。",
+        "rel_src": [
+            "This year, 60,000 spectators filled the famous LA Memorial Coliseum  to watch the opening ceremonies of World Games  and cheer athletes from 165 countries  around the world.",
+            "Far from being hidden away,  we were cheered and celebrated."
+        ],
+        "rel_tgt": [
+            "この年、61,100の観客が有名なLA追悼コロシエウムに詰めかけ、世界ゲームズの開幕式典を見ながら、全世界から165カ国のアスリートを応援しました。",
+            "私たちを隠蔽することなく、私たちは祝�を受けました。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"特別オリンピック\", \"Olympics\" - \"オリンピック\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "<r-word>": "r-ワード",
+            "John Franklin Stephens": "ジョン・フランクリン・ステプヒンス",
+            "<Proper nouns> World Summer Games": "世界夏ゲームズ",
+            "powerlifting": "力lifting",
+            "Jackie Barrett": "ジャッキー・バーレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "<Proper nouns>\nJackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "Jackie": "ジャッキー",
+            "ESPN": "ESPN",
+            "LA Memorial Coliseum": "LA追悼コロシエウム",
+            "165 countries": "165カ国の"
+        }
+    },
+    {
+        "idx": 75,
+        "src": "I would like to leave you with one final thought.",
+        "ref": "（拍手） 最後に 一言だけ言います",
+        "hyp": "あなた方に残しておきたい最後の一言があります。",
+        "rel_src": [
+            "Special Olympics teaches athletes  to be confident and proud of themselves.",
+            "Special Olympics teaches the world  that people with intellectual disabilities  deserve respect and inclusion."
+        ],
+        "rel_tgt": [
+            "特別オリンピックは選手に自分自身に対する自信と誇りを教える",
+            "特別オリンピックは世界に示すのは、知的障害を持つ人々は尊重と包括を受けるべきだということです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "<r-word>": "r-ワード",
+            "John Franklin Stephens": "ジョン・フランクリン・ステプヒンス",
+            "<Proper nouns> World Summer Games": "世界夏ゲームズ",
+            "powerlifting": "力lifting",
+            "Jackie Barrett": "ジャッキー・バーレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "<Proper nouns>\nJackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "Jackie": "ジャッキー",
+            "ESPN": "ESPN",
+            "LA Memorial Coliseum": "LA追悼コロシエウム",
+            "165 countries": "165カ国の"
+        }
+    },
+    {
+        "idx": 76,
+        "src": "Nelson Mandela said,  \"Sports has the power to change the world.\"",
+        "ref": "ネルソン・マンデラは 「スポーツには世界を変える力がある」 と言いました",
+        "hyp": "ネルソン・マンデラは「スポーツは世界を変える力がある」と言いました。",
+        "rel_src": [
+            "It was tweeted more than nine million times last year,  and it is deeply hurtful  to me and my four and a half million fellow athletes around the planet.",
+            "So the next time you see someone with an intellectual disability,  I hope you will see their ability."
+        ],
+        "rel_tgt": [
+            "去年は900万回以上ツイートされ、私や全世界の2500万の同様のアスリートにとって深い傷を負わせています。",
+            "だから次のたびに誰かが知的障害を持っているとき、私はあなたがその能力を見ることを願います。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "<r-word>": "r-ワード",
+            "John Franklin Stephens": "ジョン・フランクリン・ステプヒンス",
+            "<Proper nouns> World Summer Games": "世界夏ゲームズ",
+            "powerlifting": "力lifting",
+            "Jackie Barrett": "ジャッキー・バーレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "<Proper nouns>\nJackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "Jackie": "ジャッキー",
+            "ESPN": "ESPN",
+            "LA Memorial Coliseum": "LA追悼コロシエウム",
+            "165 countries": "165カ国の",
+            "Nelson Mandela": "ネルソン・マンデラ",
+            "Sports": "スポーツ",
+            "world": "世界"
+        }
+    },
+    {
+        "idx": 77,
+        "src": "Special Olympics is changing the world  by transforming four and a half million athletes  and giving us a place to be confident,  meet friends,  not be judged  and get to feel like and be champions.",
+        "ref": "スペシャルオリンピックスは まさに 世界を変えています 450万人のアスリートたちが 生まれ変わり 自信を持てる場を持ち 友達を作り 偏見の目で見られず チャンピオンの気分を味わい 実際にチャンピオンになれるのです",
+        "hyp": "特別オリンピックは世界を変える 450万人の選手たちを変革し、自信を持ち、友を結び、評価されることなく、チャンピオンであるような気持ちになり、私たちの場所を提供します。",
+        "rel_src": [
+            "Special Olympics teaches athletes  to be confident and proud of themselves.",
+            "Special Olympics teaches the world  that people with intellectual disabilities  deserve respect and inclusion."
+        ],
+        "rel_tgt": [
+            "特別オリンピックは選手に自分自身に対する自信と誇りを教える",
+            "特別オリンピックは世界に示すのは、知的障害を持つ人々は尊重と包括を受けるべきだということです。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"特別オリンピック\", \"Olympics\" - \"オリンピック\", \"world\" - \"世界\"",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "<r-word>": "r-ワード",
+            "John Franklin Stephens": "ジョン・フランクリン・ステプヒンス",
+            "<Proper nouns> World Summer Games": "世界夏ゲームズ",
+            "powerlifting": "力lifting",
+            "Jackie Barrett": "ジャッキー・バーレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "<Proper nouns>\nJackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "Jackie": "ジャッキー",
+            "ESPN": "ESPN",
+            "LA Memorial Coliseum": "LA追悼コロシエウム",
+            "165 countries": "165カ国の",
+            "Nelson Mandela": "ネルソン・マンデラ",
+            "Sports": "スポーツ",
+            "world": "世界"
+        }
+    },
+    {
+        "idx": 78,
+        "src": "Thank you very much.",
+        "ref": "ありがとうございました",
+        "hyp": "どういたしまして。",
+        "rel_src": [
+            "Special Olympics teaches athletes  to be confident and proud of themselves.",
+            "Special Olympics teaches the world  that people with intellectual disabilities  deserve respect and inclusion."
+        ],
+        "rel_tgt": [
+            "特別オリンピックは選手に自分自身に対する自信と誇りを教える",
+            "特別オリンピックは世界に示すのは、知的障害を持つ人々は尊重と包括を受けるべきだということです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "<Proper nouns> Special Olympics": "特別オリンピック",
+            "Special Olympics": "特別オリンピック",
+            "1968": "1968",
+            "intellectual disabilities": "知的障害",
+            "wider population": "広い社会",
+            "World Games": "世界ゲームズ",
+            "<Proper nouns>\nSpecial Olympics": "特別オリンピック",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピック",
+            "<Proper nouns>\nepilepsy": "エpilepsy",
+            "1960s": "1960年代",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "<Proper nouns>\nDr. Hayden": "フランク・ヘイデン博士",
+            "other researchers": "他の研究者たち",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "エニシク・ケネディ・シュライバー",
+            "Special Olympics athletes": "特別オリンピックの選手たちは",
+            "World Summer Games": "世界夏ゲームズ",
+            "LA": "LA",
+            "Canadian basketball team": "カナダのバスケットボールチーム",
+            "Team Canada": "カナダチーム",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "<r-word>": "r-ワード",
+            "John Franklin Stephens": "ジョン・フランクリン・ステプヒンス",
+            "<Proper nouns> World Summer Games": "世界夏ゲームズ",
+            "powerlifting": "力lifting",
+            "Jackie Barrett": "ジャッキー・バーレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "<Proper nouns>\nJackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "Jackie": "ジャッキー",
+            "ESPN": "ESPN",
+            "LA Memorial Coliseum": "LA追悼コロシエウム",
+            "165 countries": "165カ国の",
+            "Nelson Mandela": "ネルソン・マンデラ",
+            "Sports": "スポーツ",
+            "world": "世界"
+        }
+    }
+]

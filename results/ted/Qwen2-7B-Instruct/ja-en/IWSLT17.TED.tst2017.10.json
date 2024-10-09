@@ -1,0 +1,2835 @@
+[
+    {
+        "idx": 0,
+        "src": "こんにちは",
+        "ref": "Hello.",
+        "hyp": "Hello",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 1,
+        "src": "マシュー・ウィリアムズと申します 僕はチャンピオンです",
+        "ref": "My name is Matthew Williams,  and I am a champion.",
+        "hyp": "Matthew Williams here. I am the champion.",
+        "rel_src": [
+            "こんにちは"
+        ],
+        "rel_tgt": [
+            "Hello"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion"
+        }
+    },
+    {
+        "idx": 2,
+        "src": "３種目のスポーツ競技のメダルを カナダの全国大会で取っています バスケットボールでは 世界レベルの試合に参加し 光栄なことに カナダ代表として 世界大会に出場しました",
+        "ref": "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage.",
+        "hyp": "I am winninging medals in the third sports event at the national tournament in Canada. In basketball, I participated in world-level matches and it was an honor to have played for Canada in the world championship.",
+        "rel_src": [
+            "こんにちは",
+            "マシュー・ウィリアムズと申します 僕はチャンピオンです"
+        ],
+        "rel_tgt": [
+            "Hello",
+            "Matthew Williams here. I am the champion."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship."
+        }
+    },
+    {
+        "idx": 3,
+        "src": "（拍手） 週５日 バスケットボールと スピードスケートの練習に出て トップクラスのコーチ陣と メンタル・パフォーマンスの コンサルタントが 試合でベストを出せるように 支えてくれています",
+        "ref": "I train five days a week for basketball and speed skating,  work with top quality coaches  and mental performance consultants  to be at my best in my sport.",
+        "hyp": "(Aapplause) I practice basketball and speed skating for five days a week, and I'm supported by top coaches and a mental performance consultant to perform at my best during matches.",
+        "rel_src": [
+            "３種目のスポーツ競技のメダルを カナダの全国大会で取っています バスケットボールでは 世界レベルの試合に参加し 光栄なことに カナダ代表として 世界大会に出場しました"
+        ],
+        "rel_tgt": [
+            "I am winninging medals in the third sports event at the national tournament in Canada. In basketball, I participated in world-level matches and it was an honor to have played for Canada in the world championship."
+        ],
+        "hist_info": "\"バスケットボール\" - \"basketball\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship."
+        }
+    },
+    {
+        "idx": 4,
+        "src": "ところで これは すべて スペシャルオリンピックスのことです",
+        "ref": "By the way, all that is through Special Olympics.",
+        "hyp": "This is all about the Special Olympics.",
+        "rel_src": [
+            "３種目のスポーツ競技のメダルを カナダの全国大会で取っています バスケットボールでは 世界レベルの試合に参加し 光栄なことに カナダ代表として 世界大会に出場しました",
+            "（拍手） 週５日 バスケットボールと スピードスケートの練習に出て トップクラスのコーチ陣と メンタル・パフォーマンスの コンサルタントが 試合でベストを出せるように 支えてくれています"
+        ],
+        "rel_tgt": [
+            "I am winninging medals in the third sports event at the national tournament in Canada. In basketball, I participated in world-level matches and it was an honor to have played for Canada in the world championship.",
+            "(Aapplause) I practice basketball and speed skating for five days a week, and I'm supported by top coaches and a mental performance consultant to perform at my best during matches."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 5,
+        "src": "それを聞いて 僕や僕の成果を 見る目が変わりますか？",
+        "ref": "Does that change the way you think of me  and my accomplishments?",
+        "hyp": "Does hearing this change someone's's perspective on me or my achievements?",
+        "rel_src": [
+            "３種目のスポーツ競技のメダルを カナダの全国大会で取っています バスケットボールでは 世界レベルの試合に参加し 光栄なことに カナダ代表として 世界大会に出場しました",
+            "（拍手） 週５日 バスケットボールと スピードスケートの練習に出て トップクラスのコーチ陣と メンタル・パフォーマンスの コンサルタントが 試合でベストを出せるように 支えてくれています"
+        ],
+        "rel_tgt": [
+            "I am winninging medals in the third sports event at the national tournament in Canada. In basketball, I participated in world-level matches and it was an honor to have played for Canada in the world championship.",
+            "(Aapplause) I practice basketball and speed skating for five days a week, and I'm supported by top coaches and a mental performance consultant to perform at my best during matches."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 6,
+        "src": "世の中は 僕のような人々を 必ずしも チャンピオンとは見なしません",
+        "ref": "The world does not see all people like me as champions.",
+        "hyp": "The world doesn't always see people like me as champions.",
+        "rel_src": [
+            "マシュー・ウィリアムズと申します 僕はチャンピオンです",
+            "３種目のスポーツ競技のメダルを カナダの全国大会で取っています バスケットボールでは 世界レベルの試合に参加し 光栄なことに カナダ代表として 世界大会に出場しました"
+        ],
+        "rel_tgt": [
+            "Matthew Williams here. I am the champion.",
+            "I am winninging medals in the third sports event at the national tournament in Canada. In basketball, I participated in world-level matches and it was an honor to have played for Canada in the world championship."
+        ],
+        "hist_info": "\"チャンピオン\" - \"champion\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 7,
+        "src": "最近まで 僕みたいな人は 疎外され 人前には出ないものでした",
+        "ref": "Not long ago, people like me were shunned and hidden away.",
+        "hyp": "Until recently, people like me were marginalized and didn't appear in public.",
+        "rel_src": [
+            "３種目のスポーツ競技のメダルを カナダの全国大会で取っています バスケットボールでは 世界レベルの試合に参加し 光栄なことに カナダ代表として 世界大会に出場しました",
+            "それを聞いて 僕や僕の成果を 見る目が変わりますか？"
+        ],
+        "rel_tgt": [
+            "I am winninging medals in the third sports event at the national tournament in Canada. In basketball, I participated in world-level matches and it was an honor to have played for Canada in the world championship.",
+            "Does hearing this change someone's's perspective on me or my achievements?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 8,
+        "src": "1968年にスペシャルオリンピックスが 始まってから 大きく変わりましたが あまりに多くの場合において 知的障害のある人々は 広い世の中にとって 見えない存在です",
+        "ref": "There has been lots of change since Special Olympics began in 1968,  but in too many cases,  people with intellectual disabilities  are invisible to the wider population.",
+        "hyp": "Since the Special Olympics started in 1968, there have been significant changes, but in most cases, people with intellectual disabilities are invisible entities in the broad world.",
+        "rel_src": [
+            "ところで これは すべて スペシャルオリンピックスのことです",
+            "それを聞いて 僕や僕の成果を 見る目が変わりますか？"
+        ],
+        "rel_tgt": [
+            "This is all about the Special Olympics.",
+            "Does hearing this change someone's's perspective on me or my achievements?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 9,
+        "src": "皆 僕の目の前で差別用語を使うのを 悪いことだと思っていません",
+        "ref": "People use the r-word in front of me, and they think it doesn't matter.",
+        "hyp": "No one thinks it's wrong for them to use derogatory language in front of me.",
+        "rel_src": [
+            "それを聞いて 僕や僕の成果を 見る目が変わりますか？",
+            "1968年にスペシャルオリンピックスが 始まってから 大きく変わりましたが あまりに多くの場合において 知的障害のある人々は 広い世の中にとって 見えない存在です"
+        ],
+        "rel_tgt": [
+            "Does hearing this change someone's's perspective on me or my achievements?",
+            "Since the Special Olympics started in 1968, there have been significant changes, but in most cases, people with intellectual disabilities are invisible entities in the broad world."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 10,
+        "src": "「知恵遅れ」という言葉を 侮蔑的に使うのです",
+        "ref": "That's the word \"retard\" or \"retarded\"  used in a derogatory manner.",
+        "hyp": "\"YouUsing the word 'slow-witted' in a derogatory manner.\"",
+        "rel_src": [
+            "それを聞いて 僕や僕の成果を 見る目が変わりますか？",
+            "1968年にスペシャルオリンピックスが 始まってから 大きく変わりましたが あまりに多くの場合において 知的障害のある人々は 広い世の中にとって 見えない存在です"
+        ],
+        "rel_tgt": [
+            "Does hearing this change someone's's perspective on me or my achievements?",
+            "Since the Special Olympics started in 1968, there have been significant changes, but in most cases, people with intellectual disabilities are invisible entities in the broad world."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 11,
+        "src": "それで 僕や仲間が どれだけ傷つくか 考えていないのです",
+        "ref": "They're not thinking about how much it hurts me and my friends.",
+        "hyp": "They don't consider how much damage it can do to me or my comrades.",
+        "rel_src": [
+            "それを聞いて 僕や僕の成果を 見る目が変わりますか？",
+            "1968年にスペシャルオリンピックスが 始まってから 大きく変わりましたが あまりに多くの場合において 知的障害のある人々は 広い世の中にとって 見えない存在です"
+        ],
+        "rel_tgt": [
+            "Does hearing this change someone's's perspective on me or my achievements?",
+            "Since the Special Olympics started in 1968, there have been significant changes, but in most cases, people with intellectual disabilities are invisible entities in the broad world."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 12,
+        "src": "僕が 哀れみの対象として ここにいると思わないでください",
+        "ref": "I don't want you to think I'm here because I'm a charity case.",
+        "hyp": "Please don't think of me as an object of pity here.",
+        "rel_src": [
+            "世の中は 僕のような人々を 必ずしも チャンピオンとは見なしません",
+            "1968年にスペシャルオリンピックスが 始まってから 大きく変わりましたが あまりに多くの場合において 知的障害のある人々は 広い世の中にとって 見えない存在です"
+        ],
+        "rel_tgt": [
+            "The world doesn't always see people like me as champions.",
+            "Since the Special Olympics started in 1968, there have been significant changes, but in most cases, people with intellectual disabilities are invisible entities in the broad world."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 13,
+        "src": "僕がここにいるのは 世間の 知的障害者に対する見方に 未だに深刻な問題が残っているからであり いや あまりに多くのケースで 何も見えていないことが問題だからです",
+        "ref": "I am here because there is still a big problem with the way  many people see individuals with intellectual disabilities,  or, too often,  how they don't see them at all.",
+        "hyp": "I am here because there are still profound issues with the public's perception of people with intellectual disabilities, or rather, there is often nothing visible in too many cases, which is the problem.",
+        "rel_src": [
+            "1968年にスペシャルオリンピックスが 始まってから 大きく変わりましたが あまりに多くの場合において 知的障害のある人々は 広い世の中にとって 見えない存在です",
+            "僕が 哀れみの対象として ここにいると思わないでください"
+        ],
+        "rel_tgt": [
+            "Since the Special Olympics started in 1968, there have been significant changes, but in most cases, people with intellectual disabilities are invisible entities in the broad world.",
+            "Please don't think of me as an object of pity here."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 14,
+        "src": "今年 世界大会があったこと 知ってましたか？",
+        "ref": "Did you know the World Games happened this year?",
+        "hyp": "Did you know that there was a world championship this year?",
+        "rel_src": [
+            "３種目のスポーツ競技のメダルを カナダの全国大会で取っています バスケットボールでは 世界レベルの試合に参加し 光栄なことに カナダ代表として 世界大会に出場しました",
+            "（拍手） 週５日 バスケットボールと スピードスケートの練習に出て トップクラスのコーチ陣と メンタル・パフォーマンスの コンサルタントが 試合でベストを出せるように 支えてくれています"
+        ],
+        "rel_tgt": [
+            "I am winninging medals in the third sports event at the national tournament in Canada. In basketball, I participated in world-level matches and it was an honor to have played for Canada in the world championship.",
+            "(Aapplause) I practice basketball and speed skating for five days a week, and I'm supported by top coaches and a mental performance consultant to perform at my best during matches."
+        ],
+        "hist_info": "\"世界大会\" - \"world championship.\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics"
+        },
+        "conflict": [
+            "\"世界大会\" - \"world championship.\"/\"world championship\""
+        ]
+    },
+    {
+        "idx": 15,
+        "src": "僕は 知的障害を持つアスリート ６千５百人の１人でした 165か国からの選手が LAに集まり 競い合ったのです",
+        "ref": "I was one of over 6,500 athletes with intellectual disabilities  from 165 countries who competed in LA.",
+        "hyp": "I was one of the 6,500 athletes with intellectual disabilities competing among 165 countries gathering in LA.",
+        "rel_src": [
+            "３種目のスポーツ競技のメダルを カナダの全国大会で取っています バスケットボールでは 世界レベルの試合に参加し 光栄なことに カナダ代表として 世界大会に出場しました",
+            "僕がここにいるのは 世間の 知的障害者に対する見方に 未だに深刻な問題が残っているからであり いや あまりに多くのケースで 何も見えていないことが問題だからです"
+        ],
+        "rel_tgt": [
+            "I am winninging medals in the third sports event at the national tournament in Canada. In basketball, I participated in world-level matches and it was an honor to have played for Canada in the world championship.",
+            "I am here because there are still profound issues with the public's perception of people with intellectual disabilities, or rather, there is often nothing visible in too many cases, which is the problem."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 16,
+        "src": "６万２千人以上の観客が 開会式を観ていて スポーツテレビ局のTSNとESPNが 生放送していました",
+        "ref": "There was over 62,000 spectators watching opening ceremonies,  and there was live coverage on TSN and ESPN.",
+        "hyp": "Over 62,000 spectators watched the opening ceremony, with sports TV stations TSN and ESPN broadcasting live.",
+        "rel_src": [
+            "今年 世界大会があったこと 知ってましたか？",
+            "僕は 知的障害を持つアスリート ６千５百人の１人でした 165か国からの選手が LAに集まり 競い合ったのです"
+        ],
+        "rel_tgt": [
+            "Did you know that there was a world championship this year?",
+            "I was one of the 6,500 athletes with intellectual disabilities competing among 165 countries gathering in LA."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 17,
+        "src": "そんな大会 知らなかったでしょう？",
+        "ref": "Did you even know that happened?",
+        "hyp": "Didn't you know about such a conference?",
+        "rel_src": [
+            "今年 世界大会があったこと 知ってましたか？",
+            "僕は 知的障害を持つアスリート ６千５百人の１人でした 165か国からの選手が LAに集まり 競い合ったのです"
+        ],
+        "rel_tgt": [
+            "Did you know that there was a world championship this year?",
+            "I was one of the 6,500 athletes with intellectual disabilities competing among 165 countries gathering in LA."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 18,
+        "src": "僕みたいな人を見たとき どう思いますか？",
+        "ref": "What do you think of when you see someone like me?",
+        "hyp": "When you see someone like me, what do you think?",
+        "rel_src": [
+            "それを聞いて 僕や僕の成果を 見る目が変わりますか？",
+            "僕が 哀れみの対象として ここにいると思わないでください"
+        ],
+        "rel_tgt": [
+            "Does hearing this change someone's's perspective on me or my achievements?",
+            "Please don't think of me as an object of pity here."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 19,
+        "src": "皆さんへの挑戦です 僕たちを 対等に見られるでしょうか",
+        "ref": "I am here today to challenge you  to look at us as equals.",
+        "hyp": "It's a challenge to all of you. Can you see us on equal terms?",
+        "new_src_summary": "This passage is an excerpt from a speech by Matthew Williams, a champion athlete who has won medals in three sports at the national level in Canada. He participated in international matches and represented his country at world championships. He dedicates five days a week to basketball and speed skating training under the guidance of top coaches and mental performance consultants aiming for peak performance. This speech is about Special Olympics, a program that Matthew believes changes the perspective on athletes like him and their achievements. It addresses the historical exclusion of people with disabilities from public view and how they situation has improved over time, but many people still fail to recognize the potential and contribution of such individuals in society. The author argues that using of derogatory language towards individuals with intellectual disabilities is common, and it often goes unnoticed. He emphasizes that he is not an object of pity because of the ongoing issues in society's perception of intellectual disabilities. He mentions that this year there was was a World Championship, where thousands of athletes from 165 countries competed, including himself as one of the 6,550 participants. The event was said to have been widely covered by sports TV channels TSN and ESPN. The author questions asks the audience how they perceive him when they see someone like him.",
+        "new_tgt_summary": "Matthew Williams, a champion athlete, shares his experience participating in the Special Olympics at the national tournament in Canada, emphasizing his dedication to basketball and speed skating. He highlights the significance of the Special Olympics in changing perceptions of individuals with intellectual disabilities, acknowledging the historical marginalization of such individuals in society. Matthew expresses frustration with the continued use of derogatory language and the invisibility of people with intellectual disabilities in mainstream society. He clarifies that he participates in the event not out of pity but, but to address societal issues related to the underrepresentation and misperception of people with intellectual disabilities. He also mentions the scale of the event, noting it includes over 6,000 athletes from 161 countries competing in Los Angeles, with a large audience and media coverage.",
+        "rel_src": [
+            "それを聞いて 僕や僕の成果を 見る目が変わりますか？",
+            "そんな大会 知らなかったでしょう？"
+        ],
+        "rel_tgt": [
+            "Does hearing this change someone's's perspective on me or my achievements?",
+            "Didn't you know about such a conference?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 20,
+        "src": "スペシャルオリンピックスは 知的障害を持つアスリートたちの 自己アイデンティティも 観る人すべての価値観をも 一変させます",
+        "ref": "Special Olympics transforms the self-identity of athletes  with intellectual disabilities  and the perceptions of everyone watching.",
+        "hyp": "The Special Olympics transforms the self-identity of athletes with intellectual disabilities and changes the values of all viewers.",
+        "rel_src": [
+            "今年 世界大会があったこと 知ってましたか？",
+            "僕は 知的障害を持つアスリート ６千５百人の１人でした 165か国からの選手が LAに集まり 競い合ったのです"
+        ],
+        "rel_tgt": [
+            "Did you know that there was a world championship this year?",
+            "I was one of the 6,500 athletes with intellectual disabilities competing among 165 countries gathering in LA."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 21,
+        "src": "知らない人のために説明すると スペシャルオリンピックスとは 知的障害を持つアスリートが対象です",
+        "ref": "For those of you who aren't familiar,  Special Olympics is for athletes with intellectual disabilities.",
+        "hyp": "If explaining for those who don't know, Special Olympics refers to events for athletes with intellectual disabilities.",
+        "rel_src": [
+            "マシュー・ウィリアムズと申します 僕はチャンピオンです",
+            "今年 世界大会があったこと 知ってましたか？"
+        ],
+        "rel_tgt": [
+            "Matthew Williams here. I am the champion.",
+            "Did you know that there was a world championship this year?"
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 22,
+        "src": "パラリンピックや オリンピックとは別物です",
+        "ref": "Special Olympics is separate from the Paralympics and Olympics.",
+        "hyp": "They are separate from the Paralympics or Olympics.",
+        "rel_src": [
+            "３種目のスポーツ競技のメダルを カナダの全国大会で取っています バスケットボールでは 世界レベルの試合に参加し 光栄なことに カナダ代表として 世界大会に出場しました",
+            "スペシャルオリンピックスは 知的障害を持つアスリートたちの 自己アイデンティティも 観る人すべての価値観をも 一変させます"
+        ],
+        "rel_tgt": [
+            "I am winninging medals in the third sports event at the national tournament in Canada. In basketball, I participated in world-level matches and it was an honor to have played for Canada in the world championship.",
+            "The Special Olympics transforms the self-identity of athletes with intellectual disabilities and changes the values of all viewers."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics"
+        }
+    },
+    {
+        "idx": 23,
+        "src": "レベルの高いスポーツ競技が 年間を通じて 知的障害者のために開催され 関わる人の 人生や価値観が変わります",
+        "ref": "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions.",
+        "hyp": "High-level sports competitions are held throughout the year for people with intellectual disabilities, changing the lives and values of those involved.",
+        "rel_src": [
+            "僕は 知的障害を持つアスリート ６千５百人の１人でした 165か国からの選手が LAに集まり 競い合ったのです",
+            "スペシャルオリンピックスは 知的障害を持つアスリートたちの 自己アイデンティティも 観る人すべての価値観をも 一変させます"
+        ],
+        "rel_tgt": [
+            "I was one of the 6,500 athletes with intellectual disabilities competing among 165 countries gathering in LA.",
+            "The Special Olympics transforms the self-identity of athletes with intellectual disabilities and changes the values of all viewers."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics"
+        }
+    },
+    {
+        "idx": 24,
+        "src": "これで 僕の人生も 他の本当に大勢の人々の 人生も変わりました",
+        "ref": "This movement has changed my life  and those of so many others.",
+        "hyp": "With this, my life and the lives of many other people also changed.",
+        "rel_src": [
+            "1968年にスペシャルオリンピックスが 始まってから 大きく変わりましたが あまりに多くの場合において 知的障害のある人々は 広い世の中にとって 見えない存在です",
+            "僕がここにいるのは 世間の 知的障害者に対する見方に 未だに深刻な問題が残っているからであり いや あまりに多くのケースで 何も見えていないことが問題だからです"
+        ],
+        "rel_tgt": [
+            "Since the Special Olympics started in 1968, there have been significant changes, but in most cases, people with intellectual disabilities are invisible entities in the broad world.",
+            "I am here because there are still profound issues with the public's perception of people with intellectual disabilities, or rather, there is often nothing visible in too many cases, which is the problem."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics"
+        }
+    },
+    {
+        "idx": 25,
+        "src": "そして 知的障害者を見る 世間の目も変わりました",
+        "ref": "And it has changed the way the world sees people with intellectual disabilities.",
+        "hyp": "And the eyes of the world seeing people with intellectual disabilities have changed.",
+        "rel_src": [
+            "それを聞いて 僕や僕の成果を 見る目が変わりますか？",
+            "僕がここにいるのは 世間の 知的障害者に対する見方に 未だに深刻な問題が残っているからであり いや あまりに多くのケースで 何も見えていないことが問題だからです"
+        ],
+        "rel_tgt": [
+            "Does hearing this change someone's's perspective on me or my achievements?",
+            "I am here because there are still profound issues with the public's perception of people with intellectual disabilities, or rather, there is often nothing visible in too many cases, which is the problem."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics"
+        }
+    },
+    {
+        "idx": 26,
+        "src": "僕は 生まれつき てんかんと 知的障害があります",
+        "ref": "I was born with epilepsy and an intellectual disability.",
+        "hyp": "I am born with epilepsy and intellectual disability.",
+        "rel_src": [
+            "1968年にスペシャルオリンピックスが 始まってから 大きく変わりましたが あまりに多くの場合において 知的障害のある人々は 広い世の中にとって 見えない存在です",
+            "レベルの高いスポーツ競技が 年間を通じて 知的障害者のために開催され 関わる人の 人生や価値観が変わります"
+        ],
+        "rel_tgt": [
+            "Since the Special Olympics started in 1968, there have been significant changes, but in most cases, people with intellectual disabilities are invisible entities in the broad world.",
+            "High-level sports competitions are held throughout the year for people with intellectual disabilities, changing the lives and values of those involved."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics"
+        }
+    },
+    {
+        "idx": 27,
+        "src": "小さい頃から 12歳まで ホッケーをしていました",
+        "ref": "Growing up, I played hockey until I was 12 years old.",
+        "hyp": "I played hockey from a young age until I was 12 years old.",
+        "rel_src": [
+            "僕は 知的障害を持つアスリート ６千５百人の１人でした 165か国からの選手が LAに集まり 競い合ったのです",
+            "これで 僕の人生も 他の本当に大勢の人々の 人生も変わりました"
+        ],
+        "rel_tgt": [
+            "I was one of the 6,500 athletes with intellectual disabilities competing among 165 countries gathering in LA.",
+            "With this, my life and the lives of many other people also changed."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics"
+        }
+    },
+    {
+        "idx": 28,
+        "src": "成長するにつれて どんどん みんなについていくのが 難しくなってきて もどかしく 腹立たしかったです",
+        "ref": "The older I got, the more I felt  it was harder to keep up with everyone else,  and I was angry and frustrated.",
+        "hyp": "As I grew, it became increasingly difficult to keep up with everyone, making me feel left behind and frustrated.",
+        "rel_src": [
+            "レベルの高いスポーツ競技が 年間を通じて 知的障害者のために開催され 関わる人の 人生や価値観が変わります",
+            "そして 知的障害者を見る 世間の目も変わりました"
+        ],
+        "rel_tgt": [
+            "High-level sports competitions are held throughout the year for people with intellectual disabilities, changing the lives and values of those involved.",
+            "And the eyes of the world seeing people with intellectual disabilities have changed."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics"
+        }
+    },
+    {
+        "idx": 29,
+        "src": "しばらくの間 スポーツから完全に離れていました 友達も あまりいなかったし 取り残された気がして 悲しかったです",
+        "ref": "For a while, I did not play any sports,  didn't have many friends  and felt left out and sad.",
+        "hyp": "For a while, I completely detached myself from sports. I didn't have many friends, and I felt left behind, which made me sad.",
+        "rel_src": [
+            "今年 世界大会があったこと 知ってましたか？",
+            "そんな大会 知らなかったでしょう？"
+        ],
+        "rel_tgt": [
+            "Did you know that there was a world championship this year?",
+            "Didn't you know about such a conference?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics"
+        }
+    },
+    {
+        "idx": 30,
+        "src": "その昔 知的障害のある人々は 社会から覆い隠された存在でした",
+        "ref": "There was a time when people with intellectual disabilities  were hidden away from society.",
+        "hyp": "In the past, people with intellectual disabilities were hidden entities within society.",
+        "rel_src": [
+            "僕がここにいるのは 世間の 知的障害者に対する見方に 未だに深刻な問題が残っているからであり いや あまりに多くのケースで 何も見えていないことが問題だからです",
+            "そして 知的障害者を見る 世間の目も変わりました"
+        ],
+        "rel_tgt": [
+            "I am here because there are still profound issues with the public's perception of people with intellectual disabilities, or rather, there is often nothing visible in too many cases, which is the problem.",
+            "And the eyes of the world seeing people with intellectual disabilities have changed."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics"
+        }
+    },
+    {
+        "idx": 31,
+        "src": "スポーツに参加できるとか ましてや 社会の貴重な一員だなんて 誰も思いませんでした",
+        "ref": "No one thought they could participate in sports,  let alone be a valued member of society.",
+        "hyp": "No one ever thought that someone could participate in sports or be a precious member of society just because they was able to do so.",
+        "rel_src": [
+            "僕は 知的障害を持つアスリート ６千５百人の１人でした 165か国からの選手が LAに集まり 競い合ったのです",
+            "スペシャルオリンピックスは 知的障害を持つアスリートたちの 自己アイデンティティも 観る人すべての価値観をも 一変させます"
+        ],
+        "rel_tgt": [
+            "I was one of the 6,500 athletes with intellectual disabilities competing among 165 countries gathering in LA.",
+            "The Special Olympics transforms the self-identity of athletes with intellectual disabilities and changes the values of all viewers."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics"
+        }
+    },
+    {
+        "idx": 32,
+        "src": "1960年代になって トロント大学の科学者 フランク・ヘイデン博士が 定期的な運動が 知的障害児の 運動能力に与える影響を 研究しました",
+        "ref": "In the 1960s, Dr. Frank Hayden,  a scientist at the University of Toronto,  was studying the effects of regular exercise  on the fitness levels of children with intellectual disabilities.",
+        "hyp": "In the 1960s, Dr. Frank Hayden, a scientist from the University of Toronto, began researching the impact regular exercise had on the physical abilities of children with intellectual disabilities.",
+        "rel_src": [
+            "僕は 知的障害を持つアスリート ６千５百人の１人でした 165か国からの選手が LAに集まり 競い合ったのです",
+            "知らない人のために説明すると スペシャルオリンピックスとは 知的障害を持つアスリートが対象です"
+        ],
+        "rel_tgt": [
+            "I was one of the 6,500 athletes with intellectual disabilities competing among 165 countries gathering in LA.",
+            "If explaining for those who don't know, Special Olympics refers to events for athletes with intellectual disabilities."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden"
+        }
+    },
+    {
+        "idx": 33,
+        "src": "厳密に科学的な 研究方法によって ヘイデン博士と他の研究者たちが 出した結論はこうです 「知的障害児の運動能力が低いのは 単に 運動に参加する機会が 不足しているからに過ぎない」",
+        "ref": "Using rigorous scientific research,  Dr. Hayden and other researchers  came to the conclusion  that it was simply the lack of opportunity to participate  that caused their fitness levels to suffer.",
+        "hyp": "The conclusions drawn by Dr. Hayden and other researchers through rigorous scientific methods state: \"Low physical ability in children with intellectual disabilities is simply due to insufficient opportunities to engage in physical activity.\"",
+        "rel_src": [
+            "スポーツに参加できるとか ましてや 社会の貴重な一員だなんて 誰も思いませんでした",
+            "1960年代になって トロント大学の科学者 フランク・ヘイデン博士が 定期的な運動が 知的障害児の 運動能力に与える影響を 研究しました"
+        ],
+        "rel_tgt": [
+            "No one ever thought that someone could participate in sports or be a precious member of society just because they was able to do so.",
+            "In the 1960s, Dr. Frank Hayden, a scientist from the University of Toronto, began researching the impact regular exercise had on the physical abilities of children with intellectual disabilities."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden"
+        }
+    },
+    {
+        "idx": 34,
+        "src": "知的障害を持つ人にとって 運動プログラムや スポーツ競技参加が有益だと",
+        "ref": "Lots of people doubted that people with intellectual disabilities  could benefit from fitness programs and sports competition opportunities.",
+        "hyp": "For individuals with intellectual disabilities, participation in sports programs and sports competitions can be beneficial.",
+        "rel_src": [
+            "僕みたいな人を見たとき どう思いますか？",
+            "知らない人のために説明すると スペシャルオリンピックスとは 知的障害を持つアスリートが対象です"
+        ],
+        "rel_tgt": [
+            "When you see someone like me, what do you think?",
+            "If explaining for those who don't know, Special Olympics refers to events for athletes with intellectual disabilities."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden"
+        }
+    },
+    {
+        "idx": 35,
+        "src": "信じる人は あまりいませんでした しかし 先駆者たち―ヘイデン博士や スペシャルオリンピックスの創始者 ユーニス・ケネディ・シュライバーは 諦めませんでした そして 選手たちも 彼らが正しかったのだと 450万回以上も 証明してきました",
+        "ref": "But pioneers like Dr. Hayden and Eunice Kennedy Shriver,  the founder of Special Olympics,  persevered,  and Special Olympics athletes have proved them right  four and a half million times over.",
+        "hyp": "Believers were few, but the pioneers - Dr. Hayden and the founder of Special Olympics, Yvonne Kennedy Shriver - did not give up, and the athletes have proven them right over 4.5 million times.",
+        "rel_src": [
+            "スペシャルオリンピックスは 知的障害を持つアスリートたちの 自己アイデンティティも 観る人すべての価値観をも 一変させます",
+            "厳密に科学的な 研究方法によって ヘイデン博士と他の研究者たちが 出した結論はこうです 「知的障害児の運動能力が低いのは 単に 運動に参加する機会が 不足しているからに過ぎない」"
+        ],
+        "rel_tgt": [
+            "The Special Olympics transforms the self-identity of athletes with intellectual disabilities and changes the values of all viewers.",
+            "The conclusions drawn by Dr. Hayden and other researchers through rigorous scientific methods state: \"Low physical ability in children with intellectual disabilities is simply due to insufficient opportunities to engage in physical activity.\""
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\", \"オリンピック\" - \"Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes"
+        }
+    },
+    {
+        "idx": 36,
+        "src": "（拍手） スペシャルオリンピックスに 参加する前 僕は不安でした 歳若く 人見知りで 自信もなかったし 友達も少なかったからです",
+        "ref": "Before I joined Special Olympics,  I was nervous  because I was young, shy, not confident  and didn't have many friends.",
+        "hyp": "(Applause) Before I started participating in Special Olympics, I was worried. I was young, shy, lacked confidence, and had few friends.",
+        "rel_src": [
+            "６万２千人以上の観客が 開会式を観ていて スポーツテレビ局のTSNとESPNが 生放送していました",
+            "信じる人は あまりいませんでした しかし 先駆者たち―ヘイデン博士や スペシャルオリンピックスの創始者 ユーニス・ケネディ・シュライバーは 諦めませんでした そして 選手たちも 彼らが正しかったのだと 450万回以上も 証明してきました"
+        ],
+        "rel_tgt": [
+            "Over 62,000 spectators watched the opening ceremony, with sports TV stations TSN and ESPN broadcasting live.",
+            "Believers were few, but the pioneers - Dr. Hayden and the founder of Special Olympics, Yvonne Kennedy Shriver - did not give up, and the athletes have proven them right over 4.5 million times."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\", \"オリンピック\" - \"Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes"
+        }
+    },
+    {
+        "idx": 37,
+        "src": "でも 行ってみたら 誰もが 皆 励ましてくれたり 支えてくれて そこでは 人の目を気にせず 自分らしく いられたのです",
+        "ref": "When I got there, though, everyone was very encouraging,  supportive, and let me be myself  without being judged.",
+        "hyp": "But when I tried it, everyone encouraged me or supported me. There, I could be myself without worrying about what others think.",
+        "rel_src": [
+            "スペシャルオリンピックスは 知的障害を持つアスリートたちの 自己アイデンティティも 観る人すべての価値観をも 一変させます",
+            "信じる人は あまりいませんでした しかし 先駆者たち―ヘイデン博士や スペシャルオリンピックスの創始者 ユーニス・ケネディ・シュライバーは 諦めませんでした そして 選手たちも 彼らが正しかったのだと 450万回以上も 証明してきました"
+        ],
+        "rel_tgt": [
+            "The Special Olympics transforms the self-identity of athletes with intellectual disabilities and changes the values of all viewers.",
+            "Believers were few, but the pioneers - Dr. Hayden and the founder of Special Olympics, Yvonne Kennedy Shriver - did not give up, and the athletes have proven them right over 4.5 million times."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes"
+        }
+    },
+    {
+        "idx": 38,
+        "src": "今では僕は バスケットボールと スピードスケートの選手です 州大会や 全国大会に 出場してきました そして今年は LAで開催された 夏の世界大会出場を果たしました カナダ代表として 初めて 世界大会まで進んだ— バスケチームの一員でした",
+        "ref": "Now, I am a basketball player and speed skater  who has competed at provincial, national games,  and this year made it all the way to the World Summer Games in LA,  where I was part of the first ever Canadian basketball team  to compete at World Games.",
+        "hyp": "Nowadays, I am a basketball and speed skating player. I have participated in state and national tournaments, and this year I succeeded in attending the summer world championship held in LA - for the first time as a Canadian representative, advancing to the world championship as part of the basketball team.",
+        "rel_src": [
+            "僕みたいな人を見たとき どう思いますか？",
+            "（拍手） スペシャルオリンピックスに 参加する前 僕は不安でした 歳若く 人見知りで 自信もなかったし 友達も少なかったからです"
+        ],
+        "rel_tgt": [
+            "When you see someone like me, what do you think?",
+            "(Applause) Before I started participating in Special Olympics, I was worried. I was young, shy, lacked confidence, and had few friends."
+        ],
+        "hist_info": "\"バスケットボール\" - \"basketball\", \"カナダ代表\" - \"Canada representative\", \"世界大会\" - \"world championship.\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes"
+        }
+    },
+    {
+        "idx": 39,
+        "src": "（拍手） 僕は 世界で450万人を超える アスリートの１人です 似たような話を 本当に たくさん聞いてきました",
+        "ref": "I am one of more than four and a half million athletes around the globe,  and I've heard so many similar stories.",
+        "hyp": "(Applause) I am one of over 45 million athletes worldwide, and I've heard countless similar stories.",
+        "new_src_summary": "Matthew Williams, a decorated athlete who has excelled in three sports at the national level in Canada, champions the Special Olympics program in his speech. Williams, who dedicates five days a week to rigorous training in basketball and speed skating under the guidance of top coaches and mental performance consultants, highlights the program's transformative effect on the perspective of athletes with intellectual disabilities. His speech addresses the historic exclusion of people with disabilities from public view and the ongoing societal perception of intellectual disabilities, arguing against derogatory language used against individuals with intellectual disabilities. He points out the recent World Championship where thousands of athletes from 166 countries, including himself among the 6,550 participants, took part, and was covered extensively by sports TV channels TSN and ESPN. The author poses a question to the audience: how do they perceive him when they see someone like him? \n\nIn a parallel narrative, the author describes their personal journey and transformation through their involvement in Special Olympics, an organization that provides athletic competitions for individuals with intellectual disabilities. They recount how their participation has shaped their identity and changed society's's perspective on intellectual disabilities. The author acknowledges Dr. Frank Hayden's pioneering work in conductinging scientific research on the impact of regular exercise on children with intellectual disabilities, which concluded that lack of participation was the cause of lower physical abilities, not the disability itself. This research led to the creation of Special Olympics, which has provided opportunities for individuals with intellectual disabilities to gain confidence, make friends, and engage in various sports, transforming their lives. The author expresses gratitude for this organization, which has enabled them to compete at national and international levels, including the summer world championships in LA as part of the Canadian basketball team for the first time.",
+        "new_tgt_summary": "Matthew Williams, a champion athlete with a personal connection to intellectual disabilities, participated in the Special Olympics national tournament in Canada and later in Los Angeles, whereunderlining the event's profound impact on athletes' lives. The Special Olympics serves as a transformative platform, challenging societal perceptions of intellectual disabilities and offering athletes, like Matthew, opportunities to excel in sports such as basketball and speed skating. Matthew emphasizes the importance of the Special Olympics in changing the narrative around people with intellectual disabilities, highlighting its role in empowering participants and addressing the historical marginalization they have faced in society. Despite facing discrimination and invisibility, Matthew found solace and encouragement through the Special Olympics, which provided him a stage to express himself without societal judgment. His participation in the event signifies a commitment to addressing the underrepresentation and misperception of people with intellectual disabilities, rather than out of pity. Notably, the scale of the event, involving over 6,000 athletes from 161 countries, underscores its global significance and the support it offers to athletes navigating various conditions, including epilepsy and intellectual disabilities.",
+        "rel_src": [
+            "（拍手） スペシャルオリンピックスに 参加する前 僕は不安でした 歳若く 人見知りで 自信もなかったし 友達も少なかったからです",
+            "でも 行ってみたら 誰もが 皆 励ましてくれたり 支えてくれて そこでは 人の目を気にせず 自分らしく いられたのです"
+        ],
+        "rel_tgt": [
+            "(Applause) Before I started participating in Special Olympics, I was worried. I was young, shy, lacked confidence, and had few friends.",
+            "But when I tried it, everyone encouraged me or supported me. There, I could be myself without worrying about what others think."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes"
+        }
+    },
+    {
+        "idx": 40,
+        "src": "スペシャルオリンピックスの 選手であることで 僕たちは 誇りと尊厳を 取り戻すのです",
+        "ref": "Being Special Olympics athletes  restores our pride and dignity.",
+        "hyp": "Through being Special Olympics athletes, we regain pride and dignity.",
+        "rel_src": [
+            "スペシャルオリンピックスは 知的障害を持つアスリートたちの 自己アイデンティティも 観る人すべての価値観をも 一変させます",
+            "でも 行ってみたら 誰もが 皆 励ましてくれたり 支えてくれて そこでは 人の目を気にせず 自分らしく いられたのです"
+        ],
+        "rel_tgt": [
+            "The Special Olympics transforms the self-identity of athletes with intellectual disabilities and changes the values of all viewers.",
+            "But when I tried it, everyone encouraged me or supported me. There, I could be myself without worrying about what others think."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\", \"オリンピック\" - \"Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes"
+        }
+    },
+    {
+        "idx": 41,
+        "src": "スペシャルオリンピックスは 選手にとって 重要な健康のニーズにも 応えます",
+        "ref": "Special Olympics also addresses critical health needs.",
+        "hyp": "The Special Olympics also meets important health needs for athletes.",
+        "rel_src": [
+            "知的障害を持つ人にとって 運動プログラムや スポーツ競技参加が有益だと",
+            "（拍手） 僕は 世界で450万人を超える アスリートの１人です 似たような話を 本当に たくさん聞いてきました"
+        ],
+        "rel_tgt": [
+            "For individuals with intellectual disabilities, participation in sports programs and sports competitions can be beneficial.",
+            "(Applause) I am one of over 45 million athletes worldwide, and I've heard countless similar stories."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\", \"オリンピック\" - \"Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes"
+        }
+    },
+    {
+        "idx": 42,
+        "src": "研究によれば 知的障害を持つ男性の平均寿命は 健常者より13年短く 女性の場合は 20年短いそうです",
+        "ref": "Studies have shown that, on average,  men with intellectual disabilities  die 13 years younger than men without,  and women with intellectual disabilities  die 20 years younger than women without.",
+        "hyp": "According to the research, the average lifespan of men with intellectual disabilities is 13 years shorter than that of non-disabled individuals, and for women, it's 20 years shorter.",
+        "rel_src": [
+            "1960年代になって トロント大学の科学者 フランク・ヘイデン博士が 定期的な運動が 知的障害児の 運動能力に与える影響を 研究しました",
+            "厳密に科学的な 研究方法によって ヘイデン博士と他の研究者たちが 出した結論はこうです 「知的障害児の運動能力が低いのは 単に 運動に参加する機会が 不足しているからに過ぎない」"
+        ],
+        "rel_tgt": [
+            "In the 1960s, Dr. Frank Hayden, a scientist from the University of Toronto, began researching the impact regular exercise had on the physical abilities of children with intellectual disabilities.",
+            "The conclusions drawn by Dr. Hayden and other researchers through rigorous scientific methods state: \"Low physical ability in children with intellectual disabilities is simply due to insufficient opportunities to engage in physical activity.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes"
+        }
+    },
+    {
+        "idx": 43,
+        "src": "でも スペシャルオリンピックスで 体を動かし 競技参加することで 健康を保つことができます",
+        "ref": "Special Olympics keeps us healthy  by getting us active and participating in sport.",
+        "hyp": "But by moving our bodies and participating in competitions through the Special Olympics, we can maintain our health.",
+        "rel_src": [
+            "スペシャルオリンピックスの 選手であることで 僕たちは 誇りと尊厳を 取り戻すのです",
+            "スペシャルオリンピックスは 選手にとって 重要な健康のニーズにも 応えます"
+        ],
+        "rel_tgt": [
+            "Through being Special Olympics athletes, we regain pride and dignity.",
+            "The Special Olympics also meets important health needs for athletes."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\", \"オリンピック\" - \"Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes"
+        }
+    },
+    {
+        "idx": 44,
+        "src": "また コーチ陣が 栄養や健康について教えてくれます",
+        "ref": "Also, our coaches teach us about nutrition and health.",
+        "hyp": "Additionally, the coaching staff teaches about nutrition and health.",
+        "rel_src": [
+            "（拍手） 僕は 世界で450万人を超える アスリートの１人です 似たような話を 本当に たくさん聞いてきました",
+            "でも スペシャルオリンピックスで 体を動かし 競技参加することで 健康を保つことができます"
+        ],
+        "rel_tgt": [
+            "(Applause) I am one of over 45 million athletes worldwide, and I've heard countless similar stories.",
+            "But by moving our bodies and participating in competitions through the Special Olympics, we can maintain our health."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes"
+        }
+    },
+    {
+        "idx": 45,
+        "src": "スペシャルオリンピックスでは 無料健康診断を提供しています 対象となるのは 医師との意思疎通が困難だったり 医療に手が届きにくい選手です",
+        "ref": "Special Olympics also provides free health screening  for athletes who have difficulty communicating with their doctor  or accessing health care.",
+        "hyp": "In the Special Olympics, free health checkings are provided. The target is athletes who have difficulty communicating with doctors or those who medical care is hard to reach.",
+        "rel_src": [
+            "スペシャルオリンピックスの 選手であることで 僕たちは 誇りと尊厳を 取り戻すのです",
+            "でも スペシャルオリンピックスで 体を動かし 競技参加することで 健康を保つことができます"
+        ],
+        "rel_tgt": [
+            "Through being Special Olympics athletes, we regain pride and dignity.",
+            "But by moving our bodies and participating in competitions through the Special Olympics, we can maintain our health."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\", \"オリンピック\" - \"Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes"
+        }
+    },
+    {
+        "idx": 46,
+        "src": "2015年夏の世界大会で 僕のいたチームカナダは ナイジェリアの バスケチームと対戦しました",
+        "ref": "At the 2015 World Summer Games,  my Team Canada teammates and I played the Nigerian basketball team.",
+        "hyp": "In the 2015 summer world championship, the team I was from, Canada, played against Nigeria's basketball team.",
+        "rel_src": [
+            "今では僕は バスケットボールと スピードスケートの選手です 州大会や 全国大会に 出場してきました そして今年は LAで開催された 夏の世界大会出場を果たしました カナダ代表として 初めて 世界大会まで進んだ— バスケチームの一員でした",
+            "スペシャルオリンピックスは 選手にとって 重要な健康のニーズにも 応えます"
+        ],
+        "rel_tgt": [
+            "Nowadays, I am a basketball and speed skating player. I have participated in state and national tournaments, and this year I succeeded in attending the summer world championship held in LA - for the first time as a Canadian representative, advancing to the world championship as part of the basketball team.",
+            "The Special Olympics also meets important health needs for athletes."
+        ],
+        "hist_info": "\"世界大会\" - \"world championship.\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team"
+        }
+    },
+    {
+        "idx": 47,
+        "src": "試合の前日に ナイジェリアチームは 会場で実施される健康診断を受け 10名のメンバーのうち ７名が 補聴器の無料支給を受け おかげで 生まれて初めて はっきりと 耳が聞こえたのです",
+        "ref": "The day before our game,  the Nigerian basketball team went to the World Games Healthy Athlete screening,  where seven of 10 members  were given hearing aids for free  and got to hear clearly for the first time.",
+        "hyp": "The day before the match, the Nigerian team underwent a health check at the venue, resulting in seven out of ten members receiving free hearing aids for the first time in their lives, allowing them to hear clearly for the first time.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team"
+        }
+    },
+    {
+        "idx": 48,
+        "src": "（拍手） 選手たちには 見違えるほどの変化が起こりました",
+        "ref": "The change in them was amazing.",
+        "hyp": "(Aclamations) A remarkable transformation occurred in the athletes.",
+        "rel_src": [
+            "知的障害を持つ人にとって 運動プログラムや スポーツ競技参加が有益だと",
+            "でも 行ってみたら 誰もが 皆 励ましてくれたり 支えてくれて そこでは 人の目を気にせず 自分らしく いられたのです"
+        ],
+        "rel_tgt": [
+            "For individuals with intellectual disabilities, participation in sports programs and sports competitions can be beneficial.",
+            "But when I tried it, everyone encouraged me or supported me. There, I could be myself without worrying about what others think."
+        ],
+        "hist_info": "\"選手たち\" - \"athletes\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team"
+        }
+    },
+    {
+        "idx": 49,
+        "src": "より生き生きと 試合を楽しみ 自信を持ってプレイしていました コーチと肉声で意思疎通が できるようになったからです",
+        "ref": "They were more excited, happy and confident,  because their coach could vocally communicate with them.",
+        "hyp": "I enjoyed the matches more vividly, playing with confidence. That's because I could communicate my intentions effectively with the coach through voice.",
+        "rel_src": [
+            "（拍手） スペシャルオリンピックスに 参加する前 僕は不安でした 歳若く 人見知りで 自信もなかったし 友達も少なかったからです",
+            "今では僕は バスケットボールと スピードスケートの選手です 州大会や 全国大会に 出場してきました そして今年は LAで開催された 夏の世界大会出場を果たしました カナダ代表として 初めて 世界大会まで進んだ— バスケチームの一員でした"
+        ],
+        "rel_tgt": [
+            "(Applause) Before I started participating in Special Olympics, I was worried. I was young, shy, lacked confidence, and had few friends.",
+            "Nowadays, I am a basketball and speed skating player. I have participated in state and national tournaments, and this year I succeeded in attending the summer world championship held in LA - for the first time as a Canadian representative, advancing to the world championship as part of the basketball team."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team"
+        }
+    },
+    {
+        "idx": 50,
+        "src": "感情も昂ぶっていました ボールの音が 聞こえるようにようになったからです そして 笛の音や スタンドに立つファンの歓声もです 皆にとっては 聞こえて当然の音です",
+        "ref": "And they were emotional  because they could hear the sounds of the basketball,  the sounds of the whistle  and the cheering fans in the stands --  sounds that we take for granted.",
+        "hyp": "Emotions were running high too, thanks to the sound of the ball becoming audible again, as well as the sounds of the trumpet and the cheers of the fans standing in the stands, which were sounds that should be heard for everyone.",
+        "rel_src": [
+            "信じる人は あまりいませんでした しかし 先駆者たち―ヘイデン博士や スペシャルオリンピックスの創始者 ユーニス・ケネディ・シュライバーは 諦めませんでした そして 選手たちも 彼らが正しかったのだと 450万回以上も 証明してきました",
+            "今では僕は バスケットボールと スピードスケートの選手です 州大会や 全国大会に 出場してきました そして今年は LAで開催された 夏の世界大会出場を果たしました カナダ代表として 初めて 世界大会まで進んだ— バスケチームの一員でした"
+        ],
+        "rel_tgt": [
+            "Believers were few, but the pioneers - Dr. Hayden and the founder of Special Olympics, Yvonne Kennedy Shriver - did not give up, and the athletes have proven them right over 4.5 million times.",
+            "Nowadays, I am a basketball and speed skating player. I have participated in state and national tournaments, and this year I succeeded in attending the summer world championship held in LA - for the first time as a Canadian representative, advancing to the world championship as part of the basketball team."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team"
+        }
+    },
+    {
+        "idx": 51,
+        "src": "スペシャルオリンピックスの 選手たちは 競技中だけでなく",
+        "ref": "Special Olympics is transforming more than just the athlete in their sport.",
+        "hyp": "Special Olympics athletes not only during competitions,",
+        "rel_src": [
+            "（拍手） スペシャルオリンピックスに 参加する前 僕は不安でした 歳若く 人見知りで 自信もなかったし 友達も少なかったからです",
+            "（拍手） 僕は 世界で450万人を超える アスリートの１人です 似たような話を 本当に たくさん聞いてきました"
+        ],
+        "rel_tgt": [
+            "(Applause) Before I started participating in Special Olympics, I was worried. I was young, shy, lacked confidence, and had few friends.",
+            "(Applause) I am one of over 45 million athletes worldwide, and I've heard countless similar stories."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\", \"オリンピック\" - \"Olympics\", \"選手たち\" - \"athletes\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team"
+        }
+    },
+    {
+        "idx": 52,
+        "src": "競技場の外での人生も変わります",
+        "ref": "Special Olympics is transforming their lives off the field.",
+        "hyp": "Life outside the stadium also changes.",
+        "rel_src": [
+            "試合の前日に ナイジェリアチームは 会場で実施される健康診断を受け 10名のメンバーのうち ７名が 補聴器の無料支給を受け おかげで 生まれて初めて はっきりと 耳が聞こえたのです",
+            "より生き生きと 試合を楽しみ 自信を持ってプレイしていました コーチと肉声で意思疎通が できるようになったからです"
+        ],
+        "rel_tgt": [
+            "The day before the match, the Nigerian team underwent a health check at the venue, resulting in seven out of ten members receiving free hearing aids for the first time in their lives, allowing them to hear clearly for the first time.",
+            "I enjoyed the matches more vividly, playing with confidence. That's because I could communicate my intentions effectively with the coach through voice."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team"
+        }
+    },
+    {
+        "idx": 53,
+        "src": "今年出た調査の結果によれば アメリカの成人の半数近くは 知的障害の知り合いが １人もいないそうです アメリカ人の44%にあたる そういった人々は 障害者に対し 受容性が非常に低く 著しくネガティブな 見方をしているそうです",
+        "ref": "This year, research findings showed  that nearly half of the adults in the US  don't know a single person with an intellectual disability,  and the 44 percent of Americans  who don't have personal contact with intellectual disabilities  are significantly less accepting and positive.",
+        "hyp": "According to this year's survey results, nearly half of American adults do not know anyone with a learning disability. About 44% of these people show significantly negative perceptions towards disabled individuals, indicating a very low level of acceptance.",
+        "rel_src": [
+            "信じる人は あまりいませんでした しかし 先駆者たち―ヘイデン博士や スペシャルオリンピックスの創始者 ユーニス・ケネディ・シュライバーは 諦めませんでした そして 選手たちも 彼らが正しかったのだと 450万回以上も 証明してきました",
+            "スペシャルオリンピックスの 選手であることで 僕たちは 誇りと尊厳を 取り戻すのです"
+        ],
+        "rel_tgt": [
+            "Believers were few, but the pioneers - Dr. Hayden and the founder of Special Olympics, Yvonne Kennedy Shriver - did not give up, and the athletes have proven them right over 4.5 million times.",
+            "Through being Special Olympics athletes, we regain pride and dignity."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team"
+        }
+    },
+    {
+        "idx": 54,
+        "src": "さらに 例の差別語使用の多さが 知的障害者が あまりの多くの人にとって 未だに見えない存在である という証拠です",
+        "ref": "Then there's the r-word,  proving that people with intellectual disabilities  are still invisible to far too many people.",
+        "hyp": "Furthermore, this abundance of derogatory language use is evidence that intellectually disabled individuals still remain invisible to many people.",
+        "rel_src": [
+            "（拍手） スペシャルオリンピックスに 参加する前 僕は不安でした 歳若く 人見知りで 自信もなかったし 友達も少なかったからです",
+            "より生き生きと 試合を楽しみ 自信を持ってプレイしていました コーチと肉声で意思疎通が できるようになったからです"
+        ],
+        "rel_tgt": [
+            "(Applause) Before I started participating in Special Olympics, I was worried. I was young, shy, lacked confidence, and had few friends.",
+            "I enjoyed the matches more vividly, playing with confidence. That's because I could communicate my intentions effectively with the coach through voice."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team"
+        }
+    },
+    {
+        "idx": 55,
+        "src": "皆 気軽な表現や けなし言葉として 使ったりします",
+        "ref": "People use it as a casual term or an insult.",
+        "hyp": "Everyone uses them casually or as vulgar expressions.",
+        "rel_src": [
+            "スペシャルオリンピックスの 選手であることで 僕たちは 誇りと尊厳を 取り戻すのです",
+            "でも スペシャルオリンピックスで 体を動かし 競技参加することで 健康を保つことができます"
+        ],
+        "rel_tgt": [
+            "Through being Special Olympics athletes, we regain pride and dignity.",
+            "But by moving our bodies and participating in competitions through the Special Olympics, we can maintain our health."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team"
+        }
+    },
+    {
+        "idx": 56,
+        "src": "「知恵遅れ」という言葉の 去年のツイート回数は900万回以上 でもそれは 僕や 世界中にいる― 450万人のアスリート仲間を ものすごく傷つける言葉なのです",
+        "ref": "It was tweeted more than nine million times last year,  and it is deeply hurtful  to me and my four and a half million fellow athletes around the planet.",
+        "hyp": "The number of tweets using the phrase \"slow intelligence\" last year was over 900 million times, but it's a very hurtful word for me and my fellow athletes, numbering over 45 million across the world.",
+        "rel_src": [
+            "（拍手） 僕は 世界で450万人を超える アスリートの１人です 似たような話を 本当に たくさん聞いてきました",
+            "今年出た調査の結果によれば アメリカの成人の半数近くは 知的障害の知り合いが １人もいないそうです アメリカ人の44%にあたる そういった人々は 障害者に対し 受容性が非常に低く 著しくネガティブな 見方をしているそうです"
+        ],
+        "rel_tgt": [
+            "(Applause) I am one of over 45 million athletes worldwide, and I've heard countless similar stories.",
+            "According to this year's survey results, nearly half of American adults do not know anyone with a learning disability. About 44% of these people show significantly negative perceptions towards disabled individuals, indicating a very low level of acceptance."
+        ],
+        "hist_info": "\"アスリート\" - \"athletes\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team"
+        }
+    },
+    {
+        "idx": 57,
+        "src": "皆 侮辱に当たると 思っていないのですが それは間違いです",
+        "ref": "People don't think it's insulting,  but it is.",
+        "hyp": "Everyone doesn't't think it's an insult, but it's a mistake.",
+        "rel_src": [
+            "でも 行ってみたら 誰もが 皆 励ましてくれたり 支えてくれて そこでは 人の目を気にせず 自分らしく いられたのです",
+            "皆 気軽な表現や けなし言葉として 使ったりします"
+        ],
+        "rel_tgt": [
+            "But when I tried it, everyone encouraged me or supported me. There, I could be myself without worrying about what others think.",
+            "Everyone uses them casually or as vulgar expressions."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team"
+        }
+    },
+    {
+        "idx": 58,
+        "src": "僕の仲間で グローバルメッセンジャーの ジョン・フランクリン・スティーヴンズが 公開書簡を書きました 例の差別語で人をけなす 政治評論家に宛てたものです 「いつか スペシャルオリンピックスに 来てください",
+        "ref": "As my fellow athlete and global messenger John Franklin Stephens wrote  in an open letter to a political pundit  who used the r-word as an insult,  \"Come join us someday at Special Olympics.",
+        "hyp": "A colleague of mine, the Global Messenger John Franklin Stevens, wrote an open letter addressed to the notorious political commentator. It invited him to come to the Special Olympics someday.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\", \"オリンピック\" - \"Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team",
+            "僕の仲間で": "僕の仲間で",
+            "グローバルメッセンジャーの": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "公開書簡を書きました": "公開書簡を書きました",
+            "例の差別語で人をけなす 政治評論家": "the notorious political commentator"
+        }
+    },
+    {
+        "idx": 59,
+        "src": "心を動かされずに帰れるかどうか どうぞ試してみてください」",
+        "ref": "See if you walk away with your heart unchanged.\"",
+        "hyp": "\"Please try to see if you can leave without being moved.\"",
+        "new_src_summary": "Matthew Williams, a decorated athlete who has succeeded at the national level in Canada across three sports, advocates for the Special Olympics program in his speech. Williams, who dedicates five days a week to intense training in basketball and speed skating under the guidance of elite coaches and mental performance consultants, emphasizes the program's transformative impact on athletes with intellectual disabilities. His discourse tackles the historical exclusion of people with disabilities from public life and the prevailing societal misconceptions about intellectual disabilities, arguing against the derogatory language often directed at those with such disabilities. He references the World Championship where thousands of athletes from 166 countries, including himself among the 6,550 participants, took part, and was extensively covered by sports TV channels TSN and ESPN. He challenges the audience to reflect on their perceive him when they encounter someone like him.\n\nIn tandem, the author recounts their personal transformation through involvement in Special Olympics, an organization providing athletic competitions for individuals with intellectual disabilities. They acknowledge Dr. Frank Hayden's pioneering research into the influence of regular exercise on children with intellectual disabilities, which revealed that lower physical abilities were due to lack of participation, not the disability itself. This research led to the creation of Special Olympics, which has offered opportunities for individuals with intellectual disabilities to build confidence, forge friendships, and participate in diverse sports, significantly altering their lives. The author expresses gratitude for this organization, which enabled them to compete at national and international levels, including the summer world championships in LA as part of the Canadian basketball team for the first time.\n\nAdditionally, the paragraph underscores the significance of Special Olympics for athletes with intellectual disabilities, highlighting how engagement in sports activities and competitions enhances their health and well-being. It mentions the provision of free health checks and nutritional education by coaches. A notable instance is the match between a Canadian team and Nigeria's basketball team, where six of the Nigerian team members received free hearing aids during the health check conducted at the venue, marking the first time they could hear clearly. The athletes witnessed significant changes in their attitude towards games and confidence in playing.\n\nMoreover, the text brings attention to the profound effect of Special Olympics on the lives of athletes both within and beyond the stadium. It draws light to the fact that approximately half of American adults do not know anyone with intellectual disabilities and many harbor negative opinions towards them. The misuse of derogatory language, such as \"retard,\" is recognized as a widespread issue, with over 9 million tweets using the term in a year. The author stresses the deep hurtfulness and inaccuracy of such language and calls for its cessation. The primary domain of the passage revolves around intellectual disability and its repercussions on athletes, health, and societal perceptions. The style is informative and impassioned, with the tone being supportive and advocating for change.",
+        "new_tgt_summary": "Matthew Williams, a champion athlete with a personal connection to intellectual disabilities, participated in the Special Olympics national tournaments in Canada and Los Angeles, illustrating the profound impact of these events on athletes' lives. The Special Olympics serves as a transformative platform that challenges societal perceptions of intellectual disabilities and offers athletes opportunities to excel in sports such as basketball and speed skating. The program emphasizes empowerment, addresses historical marginalization, and provides a stage for expression without societal judgment. Participation in the Special Olympics signifies a commitment to addressing underrepresentation and misperception of people with intellectual disabilities. Notably, the event involves over 6,000 athletes from 161 countries, underscoring its global significance. Beyond competitions, the Special Olympics addresses societal challenges, including low public awareness and acceptance, and offers crucial support such as nutritional education and free health screenings. An inspiring example is the 2011 Summer World Championship, where seven Nigerian team members received life-changing free hearing aids for the first time, significantly improving their quality of life and performance. The program also tackles the use of derogatory language, with a staggering 900 million tweets using the term \"slow intelligence,\" and calls for greater understanding and inclusion.",
+        "rel_src": [
+            "「知恵遅れ」という言葉の 去年のツイート回数は900万回以上 でもそれは 僕や 世界中にいる― 450万人のアスリート仲間を ものすごく傷つける言葉なのです",
+            "皆 侮辱に当たると 思っていないのですが それは間違いです"
+        ],
+        "rel_tgt": [
+            "The number of tweets using the phrase \"slow intelligence\" last year was over 900 million times, but it's a very hurtful word for me and my fellow athletes, numbering over 45 million across the world.",
+            "Everyone doesn't't think it's an insult, but it's a mistake."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team",
+            "僕の仲間で": "僕の仲間で",
+            "グローバルメッセンジャーの": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "公開書簡を書きました": "公開書簡を書きました",
+            "例の差別語で人をけなす 政治評論家": "the notorious political commentator"
+        }
+    },
+    {
+        "idx": 60,
+        "src": "（拍手） 今年2015年夏の 世界大会では 人々は 何時間も並んで 重量挙げ競技の 最終日を 見に来ました",
+        "ref": "This year, at the 2015 World Summer Games,  people lined up for hours  to get into the final night of powerlifting competition.",
+        "hyp": "(AApplause) During the 2015 summer world championship, people waited for hours to come and watch the final day of the weightlifting competition.",
+        "rel_src": [
+            "2015年夏の世界大会で 僕のいたチームカナダは ナイジェリアの バスケチームと対戦しました",
+            "試合の前日に ナイジェリアチームは 会場で実施される健康診断を受け 10名のメンバーのうち ７名が 補聴器の無料支給を受け おかげで 生まれて初めて はっきりと 耳が聞こえたのです"
+        ],
+        "rel_tgt": [
+            "In the 2015 summer world championship, the team I was from, Canada, played against Nigeria's basketball team.",
+            "The day before the match, the Nigerian team underwent a health check at the venue, resulting in seven out of ten members receiving free hearing aids for the first time in their lives, allowing them to hear clearly for the first time."
+        ],
+        "hist_info": "\"世界大会\" - \"world championship.\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team",
+            "僕の仲間で": "僕の仲間で",
+            "グローバルメッセンジャーの": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "公開書簡を書きました": "公開書簡を書きました",
+            "例の差別語で人をけなす 政治評論家": "the notorious political commentator"
+        }
+    },
+    {
+        "idx": 61,
+        "src": "全員立ち見の中 僕のチームメイト ジャッキー・バレット 通称「ニューファンドランドの大鹿」が デッドリフトで297kgを スクワットで277kgを持ち上げ― （拍手） スペシャルオリンピックスでの 最高記録を大幅に更新しました",
+        "ref": "So it was standing room only when my teammate Jackie Barrett,  the Newfoundland Moose,  deadlifted 655 pounds  and lifted 611 pounds in the squat --    setting huge new records for Special Olympics.",
+        "hyp": "In the midst of the crowd, my teammate Jackie Bullet, nicknamed 'The Big Moose of Newfoundland', lifted 295kg in the deadlift and 243kg in the squat - ( (Applause) - she significantly updated the highest record at the Special Olympics.",
+        "rel_src": [
+            "スペシャルオリンピックスは 選手にとって 重要な健康のニーズにも 応えます",
+            "競技場の外での人生も変わります"
+        ],
+        "rel_tgt": [
+            "The Special Olympics also meets important health needs for athletes.",
+            "Life outside the stadium also changes."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\", \"オリンピック\" - \"Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team",
+            "僕の仲間で": "僕の仲間で",
+            "グローバルメッセンジャーの": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "公開書簡を書きました": "公開書簡を書きました",
+            "例の差別語で人をけなす 政治評論家": "the notorious political commentator",
+            "ジャッキー・バレット": "Jackie Bullet",
+            "ニューファンドランドの大鹿": "The Big Moose of Newfoundland"
+        }
+    },
+    {
+        "idx": 62,
+        "src": "ジャッキーは ニューファンドランド島での 重量挙げの記録保持者です スペシャルオリンピックスに限らず 全重量挙げ選手の中で です",
+        "ref": "Jackie is a record holder among all powerlifters in Newfoundland --  not just Special Olympics, all powerlifters.",
+        "hyp": "Jackie holds the record for weightlifting in Newfoundland, not just in the Special Olympics but among all weightlifting athletes.",
+        "rel_src": [
+            "（拍手） 今年2015年夏の 世界大会では 人々は 何時間も並んで 重量挙げ競技の 最終日を 見に来ました",
+            "全員立ち見の中 僕のチームメイト ジャッキー・バレット 通称「ニューファンドランドの大鹿」が デッドリフトで297kgを スクワットで277kgを持ち上げ― （拍手） スペシャルオリンピックスでの 最高記録を大幅に更新しました"
+        ],
+        "rel_tgt": [
+            "(AApplause) During the 2015 summer world championship, people waited for hours to come and watch the final day of the weightlifting competition.",
+            "In the midst of the crowd, my teammate Jackie Bullet, nicknamed 'The Big Moose of Newfoundland', lifted 295kg in the deadlift and 243kg in the squat - ( (Applause) - she significantly updated the highest record at the Special Olympics."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\", \"オリンピック\" - \"Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team",
+            "僕の仲間で": "僕の仲間で",
+            "グローバルメッセンジャーの": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "公開書簡を書きました": "公開書簡を書きました",
+            "例の差別語で人をけなす 政治評論家": "the notorious political commentator",
+            "ジャッキー・バレット": "Jackie Bullet",
+            "ニューファンドランドの大鹿": "The Big Moose of Newfoundland",
+            "not just in the Special Olympics but among all weightlifting athletes.\n<Proper nouns> ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland"
+        }
+    },
+    {
+        "idx": 63,
+        "src": "LAでは大スターになり ESPN局が彼の新記録を 生でツイートしました ジャッキーの成績に感動したのです",
+        "ref": "Jackie was a huge star in LA,  and ESPN live-tweeted his record-breaking lifts  and were wowed by his performance.",
+        "hyp": "In LA he became a big star, with ESPN broadcasting his new record live, moved by Jackie's achievements.",
+        "rel_src": [
+            "全員立ち見の中 僕のチームメイト ジャッキー・バレット 通称「ニューファンドランドの大鹿」が デッドリフトで297kgを スクワットで277kgを持ち上げ― （拍手） スペシャルオリンピックスでの 最高記録を大幅に更新しました",
+            "ジャッキーは ニューファンドランド島での 重量挙げの記録保持者です スペシャルオリンピックスに限らず 全重量挙げ選手の中で です"
+        ],
+        "rel_tgt": [
+            "In the midst of the crowd, my teammate Jackie Bullet, nicknamed 'The Big Moose of Newfoundland', lifted 295kg in the deadlift and 243kg in the squat - ( (Applause) - she significantly updated the highest record at the Special Olympics.",
+            "Jackie holds the record for weightlifting in Newfoundland, not just in the Special Olympics but among all weightlifting athletes."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team",
+            "僕の仲間で": "僕の仲間で",
+            "グローバルメッセンジャーの": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "公開書簡を書きました": "公開書簡を書きました",
+            "例の差別語で人をけなす 政治評論家": "the notorious political commentator",
+            "ジャッキー・バレット": "Jackie Bullet",
+            "ニューファンドランドの大鹿": "The Big Moose of Newfoundland",
+            "not just in the Special Olympics but among all weightlifting athletes.\n<Proper nouns> ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland"
+        }
+    },
+    {
+        "idx": 64,
+        "src": "50年前 知的障害者が そんなことをできるなんて ほとんど誰も考えませんでした",
+        "ref": "Fifty years ago, few imagined individuals with intellectual disabilities  could do anything like that.",
+        "hyp": "55 years ago, few would have considered that someone with a learning disability could do such things.",
+        "rel_src": [
+            "今年出た調査の結果によれば アメリカの成人の半数近くは 知的障害の知り合いが １人もいないそうです アメリカ人の44%にあたる そういった人々は 障害者に対し 受容性が非常に低く 著しくネガティブな 見方をしているそうです",
+            "ジャッキーは ニューファンドランド島での 重量挙げの記録保持者です スペシャルオリンピックスに限らず 全重量挙げ選手の中で です"
+        ],
+        "rel_tgt": [
+            "According to this year's survey results, nearly half of American adults do not know anyone with a learning disability. About 44% of these people show significantly negative perceptions towards disabled individuals, indicating a very low level of acceptance.",
+            "Jackie holds the record for weightlifting in Newfoundland, not just in the Special Olympics but among all weightlifting athletes."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team",
+            "僕の仲間で": "僕の仲間で",
+            "グローバルメッセンジャーの": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "公開書簡を書きました": "公開書簡を書きました",
+            "例の差別語で人をけなす 政治評論家": "the notorious political commentator",
+            "ジャッキー・バレット": "Jackie Bullet",
+            "ニューファンドランドの大鹿": "The Big Moose of Newfoundland",
+            "not just in the Special Olympics but among all weightlifting athletes.\n<Proper nouns> ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland"
+        }
+    },
+    {
+        "idx": 65,
+        "src": "今年 ６万人の観客が あの有名な LAメモリアル・コロシアムを埋めました 世界大会の開会式を観るため そして 世界165か国から集まる 選手たちを応援するため 詰めかけたのです",
+        "ref": "This year, 60,000 spectators filled the famous LA Memorial Coliseum  to watch the opening ceremonies of World Games  and cheer athletes from 165 countries  around the world.",
+        "hyp": "This year, 60,000 spectators filled that famous LA Memorial Coliseum. They came to witness the opening ceremony of the world championships and to cheer for the athletes gathering from 166 countries around the world.",
+        "rel_src": [
+            "スペシャルオリンピックスでは 無料健康診断を提供しています 対象となるのは 医師との意思疎通が困難だったり 医療に手が届きにくい選手です",
+            "（拍手） 今年2015年夏の 世界大会では 人々は 何時間も並んで 重量挙げ競技の 最終日を 見に来ました"
+        ],
+        "rel_tgt": [
+            "In the Special Olympics, free health checkings are provided. The target is athletes who have difficulty communicating with doctors or those who medical care is hard to reach.",
+            "(AApplause) During the 2015 summer world championship, people waited for hours to come and watch the final day of the weightlifting competition."
+        ],
+        "hist_info": "\"世界大会\" - \"world championship.\", \"選手たち\" - \"athletes\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team",
+            "僕の仲間で": "僕の仲間で",
+            "グローバルメッセンジャーの": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "公開書簡を書きました": "公開書簡を書きました",
+            "例の差別語で人をけなす 政治評論家": "the notorious political commentator",
+            "ジャッキー・バレット": "Jackie Bullet",
+            "ニューファンドランドの大鹿": "The Big Moose of Newfoundland",
+            "not just in the Special Olympics but among all weightlifting athletes.\n<Proper nouns> ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum",
+            "世界165か国": "166 countries around the world"
+        },
+        "conflict": [
+            "\"世界大会\" - \"world championship.\"/\"world championships\""
+        ]
+    },
+    {
+        "idx": 66,
+        "src": "僕たちは 隠れた存在であるどころか 声援を浴び 称えられました",
+        "ref": "Far from being hidden away,  we were cheered and celebrated.",
+        "hyp": "\"We were not just hidden figures, we were cheered for and celebrated.\"",
+        "rel_src": [
+            "心を動かされずに帰れるかどうか どうぞ試してみてください」",
+            "50年前 知的障害者が そんなことをできるなんて ほとんど誰も考えませんでした"
+        ],
+        "rel_tgt": [
+            "\"Please try to see if you can leave without being moved.\"",
+            "55 years ago, few would have considered that someone with a learning disability could do such things."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team",
+            "僕の仲間で": "僕の仲間で",
+            "グローバルメッセンジャーの": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "公開書簡を書きました": "公開書簡を書きました",
+            "例の差別語で人をけなす 政治評論家": "the notorious political commentator",
+            "ジャッキー・バレット": "Jackie Bullet",
+            "ニューファンドランドの大鹿": "The Big Moose of Newfoundland",
+            "not just in the Special Olympics but among all weightlifting athletes.\n<Proper nouns> ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum",
+            "世界165か国": "166 countries around the world"
+        }
+    },
+    {
+        "idx": 67,
+        "src": "スペシャルオリンピックスは アスリートたちに 自信と誇りを持つことを 教えてくれます",
+        "ref": "Special Olympics teaches athletes  to be confident and proud of themselves.",
+        "hyp": "The Special Olympics teaches athletes to gain confidence and pride.",
+        "rel_src": [
+            "スペシャルオリンピックスの 選手たちは 競技中だけでなく",
+            "「知恵遅れ」という言葉の 去年のツイート回数は900万回以上 でもそれは 僕や 世界中にいる― 450万人のアスリート仲間を ものすごく傷つける言葉なのです"
+        ],
+        "rel_tgt": [
+            "Special Olympics athletes not only during competitions,",
+            "The number of tweets using the phrase \"slow intelligence\" last year was over 900 million times, but it's a very hurtful word for me and my fellow athletes, numbering over 45 million across the world."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\", \"オリンピック\" - \"Olympics\", \"アスリート\" - \"athletes\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team",
+            "僕の仲間で": "僕の仲間で",
+            "グローバルメッセンジャーの": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "公開書簡を書きました": "公開書簡を書きました",
+            "例の差別語で人をけなす 政治評論家": "the notorious political commentator",
+            "ジャッキー・バレット": "Jackie Bullet",
+            "ニューファンドランドの大鹿": "The Big Moose of Newfoundland",
+            "not just in the Special Olympics but among all weightlifting athletes.\n<Proper nouns> ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum",
+            "世界165か国": "166 countries around the world"
+        }
+    },
+    {
+        "idx": 68,
+        "src": "世の中の人々には 知的障害者は 敬意を払い 受け入れるに値すると 教えてくれます",
+        "ref": "Special Olympics teaches the world  that people with intellectual disabilities  deserve respect and inclusion.",
+        "hyp": "It teaches the world to respect and accept people with intellectual disabilities.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team",
+            "僕の仲間で": "僕の仲間で",
+            "グローバルメッセンジャーの": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "公開書簡を書きました": "公開書簡を書きました",
+            "例の差別語で人をけなす 政治評論家": "the notorious political commentator",
+            "ジャッキー・バレット": "Jackie Bullet",
+            "ニューファンドランドの大鹿": "The Big Moose of Newfoundland",
+            "not just in the Special Olympics but among all weightlifting athletes.\n<Proper nouns> ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum",
+            "世界165か国": "166 countries around the world"
+        }
+    },
+    {
+        "idx": 69,
+        "src": "（拍手） 僕には今 競技での実績や夢があり 素晴らしいコーチに恵まれ 尊敬と尊厳を持ち 前より健康で そして パーソナルトレーナーを 目指しています",
+        "ref": "Now, I have dreams and achievements in my sport,  great coaches,  respect and dignity,  better health,  and I am pursuing a career as a personal trainer.",
+        "hyp": "(AApplause) I have achievements and dreams in competition, and I am fortunate to have great coaches. I hold respect and dignity, and I am healthier than before. I am aiming to become a personal trainer.",
+        "rel_src": [
+            "全員立ち見の中 僕のチームメイト ジャッキー・バレット 通称「ニューファンドランドの大鹿」が デッドリフトで297kgを スクワットで277kgを持ち上げ― （拍手） スペシャルオリンピックスでの 最高記録を大幅に更新しました",
+            "スペシャルオリンピックスは アスリートたちに 自信と誇りを持つことを 教えてくれます"
+        ],
+        "rel_tgt": [
+            "In the midst of the crowd, my teammate Jackie Bullet, nicknamed 'The Big Moose of Newfoundland', lifted 295kg in the deadlift and 243kg in the squat - ( (Applause) - she significantly updated the highest record at the Special Olympics.",
+            "The Special Olympics teaches athletes to gain confidence and pride."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team",
+            "僕の仲間で": "僕の仲間で",
+            "グローバルメッセンジャーの": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "公開書簡を書きました": "公開書簡を書きました",
+            "例の差別語で人をけなす 政治評論家": "the notorious political commentator",
+            "ジャッキー・バレット": "Jackie Bullet",
+            "ニューファンドランドの大鹿": "The Big Moose of Newfoundland",
+            "not just in the Special Olympics but among all weightlifting athletes.\n<Proper nouns> ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum",
+            "世界165か国": "166 countries around the world"
+        }
+    },
+    {
+        "idx": 70,
+        "src": "（拍手） 僕はもう 隠れたり いじめられる存在じゃない 今ここで TEDトークを しているのです",
+        "ref": "I am no longer hidden, bullied  and I am here doing a TED Talk.",
+        "hyp": "(AApplause) I'm no longer a hidden or bullied entity. I'm giving this TED talk right and now.",
+        "rel_src": [
+            "（拍手） 今年2015年夏の 世界大会では 人々は 何時間も並んで 重量挙げ競技の 最終日を 見に来ました",
+            "今年 ６万人の観客が あの有名な LAメモリアル・コロシアムを埋めました 世界大会の開会式を観るため そして 世界165か国から集まる 選手たちを応援するため 詰めかけたのです"
+        ],
+        "rel_tgt": [
+            "(AApplause) During the 2015 summer world championship, people waited for hours to come and watch the final day of the weightlifting competition.",
+            "This year, 60,000 spectators filled that famous LA Memorial Coliseum. They came to witness the opening ceremony of the world championships and to cheer for the athletes gathering from 166 countries around the world."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team",
+            "僕の仲間で": "僕の仲間で",
+            "グローバルメッセンジャーの": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "公開書簡を書きました": "公開書簡を書きました",
+            "例の差別語で人をけなす 政治評論家": "the notorious political commentator",
+            "ジャッキー・バレット": "Jackie Bullet",
+            "ニューファンドランドの大鹿": "The Big Moose of Newfoundland",
+            "not just in the Special Olympics but among all weightlifting athletes.\n<Proper nouns> ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum",
+            "世界165か国": "166 countries around the world"
+        }
+    },
+    {
+        "idx": 71,
+        "src": "（拍手） スペシャルオリンピックスのおかげで 世界は変わりました でも まだ道のりは遠いです",
+        "ref": "The world is a different place because of Special Olympics,  but there is still farther to go.",
+        "hyp": "(AApplause) Thanks to the Special Olympics, the world has changed, but there's still a long way to go.",
+        "rel_src": [
+            "スペシャルオリンピックスの 選手たちは 競技中だけでなく",
+            "今年 ６万人の観客が あの有名な LAメモリアル・コロシアムを埋めました 世界大会の開会式を観るため そして 世界165か国から集まる 選手たちを応援するため 詰めかけたのです"
+        ],
+        "rel_tgt": [
+            "Special Olympics athletes not only during competitions,",
+            "This year, 60,000 spectators filled that famous LA Memorial Coliseum. They came to witness the opening ceremony of the world championships and to cheer for the athletes gathering from 166 countries around the world."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\", \"オリンピック\" - \"Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team",
+            "僕の仲間で": "僕の仲間で",
+            "グローバルメッセンジャーの": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "公開書簡を書きました": "公開書簡を書きました",
+            "例の差別語で人をけなす 政治評論家": "the notorious political commentator",
+            "ジャッキー・バレット": "Jackie Bullet",
+            "ニューファンドランドの大鹿": "The Big Moose of Newfoundland",
+            "not just in the Special Olympics but among all weightlifting athletes.\n<Proper nouns> ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum",
+            "世界165か国": "166 countries around the world"
+        }
+    },
+    {
+        "idx": 72,
+        "src": "あなたが この次に 知的障害を持つ人を見かけたら その人の能力を 見てあげて欲しい",
+        "ref": "So the next time you see someone with an intellectual disability,  I hope you will see their ability.",
+        "hyp": "Please look at their person's abilities the next time you see someone with an intellectual disability.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team",
+            "僕の仲間で": "僕の仲間で",
+            "グローバルメッセンジャーの": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "公開書簡を書きました": "公開書簡を書きました",
+            "例の差別語で人をけなす 政治評論家": "the notorious political commentator",
+            "ジャッキー・バレット": "Jackie Bullet",
+            "ニューファンドランドの大鹿": "The Big Moose of Newfoundland",
+            "not just in the Special Olympics but among all weightlifting athletes.\n<Proper nouns> ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum",
+            "世界165か国": "166 countries around the world"
+        }
+    },
+    {
+        "idx": 73,
+        "src": "差別語を使う人を見かけたら どれだけひどい言葉なのか 教えてあげて欲しい",
+        "ref": "The next time someone uses the r-word near you,  I hope you will tell them how much it hurts.",
+        "hyp": "If you come across someone who uses derogatory language, please teach them just how harsh those words can be.",
+        "rel_src": [
+            "さらに 例の差別語使用の多さが 知的障害者が あまりの多くの人にとって 未だに見えない存在である という証拠です",
+            "「知恵遅れ」という言葉の 去年のツイート回数は900万回以上 でもそれは 僕や 世界中にいる― 450万人のアスリート仲間を ものすごく傷つける言葉なのです"
+        ],
+        "rel_tgt": [
+            "Furthermore, this abundance of derogatory language use is evidence that intellectually disabled individuals still remain invisible to many people.",
+            "The number of tweets using the phrase \"slow intelligence\" last year was over 900 million times, but it's a very hurtful word for me and my fellow athletes, numbering over 45 million across the world."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team",
+            "僕の仲間で": "僕の仲間で",
+            "グローバルメッセンジャーの": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "公開書簡を書きました": "公開書簡を書きました",
+            "例の差別語で人をけなす 政治評論家": "the notorious political commentator",
+            "ジャッキー・バレット": "Jackie Bullet",
+            "ニューファンドランドの大鹿": "The Big Moose of Newfoundland",
+            "not just in the Special Olympics but among all weightlifting athletes.\n<Proper nouns> ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum",
+            "世界165か国": "166 countries around the world"
+        }
+    },
+    {
+        "idx": 74,
+        "src": "そして スペシャルオリンピックスに 関わることを考えて欲しい",
+        "ref": "I hope you will think about getting involved with Special Olympics.",
+        "hyp": "And I hope you consider getting involved with the Special Olympics.",
+        "rel_src": [
+            "世の中の人々には 知的障害者は 敬意を払い 受け入れるに値すると 教えてくれます",
+            "あなたが この次に 知的障害を持つ人を見かけたら その人の能力を 見てあげて欲しい"
+        ],
+        "rel_tgt": [
+            "It teaches the world to respect and accept people with intellectual disabilities.",
+            "Please look at their person's abilities the next time you see someone with an intellectual disability."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\", \"オリンピック\" - \"Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team",
+            "僕の仲間で": "僕の仲間で",
+            "グローバルメッセンジャーの": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "公開書簡を書きました": "公開書簡を書きました",
+            "例の差別語で人をけなす 政治評論家": "the notorious political commentator",
+            "ジャッキー・バレット": "Jackie Bullet",
+            "ニューファンドランドの大鹿": "The Big Moose of Newfoundland",
+            "not just in the Special Olympics but among all weightlifting athletes.\n<Proper nouns> ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum",
+            "世界165か国": "166 countries around the world"
+        }
+    },
+    {
+        "idx": 75,
+        "src": "（拍手） 最後に 一言だけ言います",
+        "ref": "I would like to leave you with one final thought.",
+        "hyp": "(AApplause) Lastly, I have one last word.",
+        "rel_src": [
+            "（拍手） 僕はもう 隠れたり いじめられる存在じゃない 今ここで TEDトークを しているのです",
+            "差別語を使う人を見かけたら どれだけひどい言葉なのか 教えてあげて欲しい"
+        ],
+        "rel_tgt": [
+            "(AApplause) I'm no longer a hidden or bullied entity. I'm giving this TED talk right and now.",
+            "If you come across someone who uses derogatory language, please teach them just how harsh those words can be."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team",
+            "僕の仲間で": "僕の仲間で",
+            "グローバルメッセンジャーの": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "公開書簡を書きました": "公開書簡を書きました",
+            "例の差別語で人をけなす 政治評論家": "the notorious political commentator",
+            "ジャッキー・バレット": "Jackie Bullet",
+            "ニューファンドランドの大鹿": "The Big Moose of Newfoundland",
+            "not just in the Special Olympics but among all weightlifting athletes.\n<Proper nouns> ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum",
+            "世界165か国": "166 countries around the world"
+        }
+    },
+    {
+        "idx": 76,
+        "src": "ネルソン・マンデラは 「スポーツには世界を変える力がある」 と言いました",
+        "ref": "Nelson Mandela said,  \"Sports has the power to change the world.\"",
+        "hyp": "Nelson Mandela said, \"Sport has the power to change the world.\"",
+        "rel_src": [
+            "世の中の人々には 知的障害者は 敬意を払い 受け入れるに値すると 教えてくれます",
+            "そして スペシャルオリンピックスに 関わることを考えて欲しい"
+        ],
+        "rel_tgt": [
+            "It teaches the world to respect and accept people with intellectual disabilities.",
+            "And I hope you consider getting involved with the Special Olympics."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team",
+            "僕の仲間で": "僕の仲間で",
+            "グローバルメッセンジャーの": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "公開書簡を書きました": "公開書簡を書きました",
+            "例の差別語で人をけなす 政治評論家": "the notorious political commentator",
+            "ジャッキー・バレット": "Jackie Bullet",
+            "ニューファンドランドの大鹿": "The Big Moose of Newfoundland",
+            "not just in the Special Olympics but among all weightlifting athletes.\n<Proper nouns> ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum",
+            "世界165か国": "166 countries around the world",
+            "Nelson Mandela": "Nelson Mandela",
+            "スポーツ": "Sport",
+            "世界": "world"
+        }
+    },
+    {
+        "idx": 77,
+        "src": "スペシャルオリンピックスは まさに 世界を変えています 450万人のアスリートたちが 生まれ変わり 自信を持てる場を持ち 友達を作り 偏見の目で見られず チャンピオンの気分を味わい 実際にチャンピオンになれるのです",
+        "ref": "Special Olympics is changing the world  by transforming four and a half million athletes  and giving us a place to be confident,  meet friends,  not be judged  and get to feel like and be champions.",
+        "hyp": "The Special Olympics truly is transforming the world. For 4.55 million athletes are given a platform for rebirth, to gain confidence, make friends, not be seen through prejudiced eyes, to experience the feeling of being a champion, and actually become champions.",
+        "rel_src": [
+            "全員立ち見の中 僕のチームメイト ジャッキー・バレット 通称「ニューファンドランドの大鹿」が デッドリフトで297kgを スクワットで277kgを持ち上げ― （拍手） スペシャルオリンピックスでの 最高記録を大幅に更新しました",
+            "（拍手） スペシャルオリンピックスのおかげで 世界は変わりました でも まだ道のりは遠いです"
+        ],
+        "rel_tgt": [
+            "In the midst of the crowd, my teammate Jackie Bullet, nicknamed 'The Big Moose of Newfoundland', lifted 295kg in the deadlift and 243kg in the squat - ( (Applause) - she significantly updated the highest record at the Special Olympics.",
+            "(AApplause) Thanks to the Special Olympics, the world has changed, but there's still a long way to go."
+        ],
+        "hist_info": "\"チャンピオン\" - \"champion\", \"スペシャルオリンピックス\" - \"Special Olympics\", \"オリンピック\" - \"Olympics\", \"アスリート\" - \"athletes\", \"世界\" - \"world\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team",
+            "僕の仲間で": "僕の仲間で",
+            "グローバルメッセンジャーの": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "公開書簡を書きました": "公開書簡を書きました",
+            "例の差別語で人をけなす 政治評論家": "the notorious political commentator",
+            "ジャッキー・バレット": "Jackie Bullet",
+            "ニューファンドランドの大鹿": "The Big Moose of Newfoundland",
+            "not just in the Special Olympics but among all weightlifting athletes.\n<Proper nouns> ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum",
+            "世界165か国": "166 countries around the world",
+            "Nelson Mandela": "Nelson Mandela",
+            "スポーツ": "Sport",
+            "世界": "world"
+        }
+    },
+    {
+        "idx": 78,
+        "src": "ありがとうございました",
+        "ref": "Thank you very much.",
+        "hyp": "Thank you very much.",
+        "rel_src": [
+            "差別語を使う人を見かけたら どれだけひどい言葉なのか 教えてあげて欲しい",
+            "ネルソン・マンデラは 「スポーツには世界を変える力がある」 と言いました"
+        ],
+        "rel_tgt": [
+            "If you come across someone who uses derogatory language, please teach them just how harsh those words can be.",
+            "Nelson Mandela said, \"Sport has the power to change the world.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "チャンピオン": "champion",
+            "第三種目のスポーツ競技": "third sports event",
+            "カナダの全国大会": "national tournament in Canada",
+            "バスケットボール": "basketball",
+            "世界レベルの試合": "world-level matches",
+            "カナダ代表": "Canada representative",
+            "世界大会": "world championship.",
+            "<Japanese source> ところで これは すべて スペシャルオリンピックスのことです\n<English translation> This is all about the Special Olympics.\n<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "スペシャルオリンピックス": "Special Olympics",
+            "<Proper nouns> スペシャルオリンピックス": "Special Olympics",
+            "パラリンピック": "Paralympics",
+            "オリンピック": "Olympics",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Yvonne Kennedy Shriver",
+            "選手たち": "athletes",
+            "アスリート": "athletes",
+            "2015年夏の世界大会": "2015 summer world championship",
+            "僕のいたチームカナダ": "the team I am from",
+            "ナイジェリアのバスケチーム": "Nigerias basketball team",
+            "僕の仲間で": "僕の仲間で",
+            "グローバルメッセンジャーの": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "公開書簡を書きました": "公開書簡を書きました",
+            "例の差別語で人をけなす 政治評論家": "the notorious political commentator",
+            "ジャッキー・バレット": "Jackie Bullet",
+            "ニューファンドランドの大鹿": "The Big Moose of Newfoundland",
+            "not just in the Special Olympics but among all weightlifting athletes.\n<Proper nouns> ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum",
+            "世界165か国": "166 countries around the world",
+            "Nelson Mandela": "Nelson Mandela",
+            "スポーツ": "Sport",
+            "世界": "world"
+        }
+    }
+]

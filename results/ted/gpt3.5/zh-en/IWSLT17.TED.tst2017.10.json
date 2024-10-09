@@ -1,0 +1,2403 @@
+[
+    {
+        "idx": 0,
+        "src": "大家好",
+        "ref": "Hello.",
+        "hyp": "Hello everyone",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 1,
+        "src": "我的名字叫马修·威廉姆斯 我是一名冠军",
+        "ref": "My name is Matthew Williams,  and I am a champion.",
+        "hyp": "My name is Matthew Williams, and I am a champion.",
+        "rel_src": [
+            "大家好"
+        ],
+        "rel_tgt": [
+            "Hello everyone"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams"
+        }
+    },
+    {
+        "idx": 2,
+        "src": "我曾在三种不同的运动中 以及加拿大全运会中获得奖牌 我参与过是国际级别的篮球项目 并且我为能代表加拿大走向世界舞台 感到十分骄傲",
+        "ref": "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage.",
+        "hyp": "I have won medals in three different sports and at the Canada Games. I have participated in international level basketball projects, and I am very proud to represent Canada on the world stage.",
+        "rel_src": [
+            "大家好",
+            "我的名字叫马修·威廉姆斯 我是一名冠军"
+        ],
+        "rel_tgt": [
+            "Hello everyone",
+            "My name is Matthew Williams, and I am a champion."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada"
+        }
+    },
+    {
+        "idx": 3,
+        "src": "我每周都有五天与顶级的教练和心理作业咨询师一起 训练篮球和竞速滑冰 来保持最好的竞技状态",
+        "ref": "I train five days a week for basketball and speed skating, work with top quality coaches  and mental performance consultants  to be at my best in my sport.",
+        "hyp": "I train basketball and speed skating with top coaches and sports psychologists five days a week to maintain the best competitive condition.",
+        "rel_src": [
+            "我的名字叫马修·威廉姆斯 我是一名冠军",
+            "我曾在三种不同的运动中 以及加拿大全运会中获得奖牌 我参与过是国际级别的篮球项目 并且我为能代表加拿大走向世界舞台 感到十分骄傲"
+        ],
+        "rel_tgt": [
+            "My name is Matthew Williams, and I am a champion.",
+            "I have won medals in three different sports and at the Canada Games. I have participated in international level basketball projects, and I am very proud to represent Canada on the world stage."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada"
+        }
+    },
+    {
+        "idx": 4,
+        "src": "补充一下，这些都是因为特殊奥林匹克运动会",
+        "ref": "By the way, all that is through Special Olympics.",
+        "hyp": "To add on, all of these are because of the Special Olympics.",
+        "rel_src": [
+            "我曾在三种不同的运动中 以及加拿大全运会中获得奖牌 我参与过是国际级别的篮球项目 并且我为能代表加拿大走向世界舞台 感到十分骄傲",
+            "我每周都有五天与顶级的教练和心理作业咨询师一起 训练篮球和竞速滑冰 来保持最好的竞技状态"
+        ],
+        "rel_tgt": [
+            "I have won medals in three different sports and at the Canada Games. I have participated in international level basketball projects, and I am very proud to represent Canada on the world stage.",
+            "I train basketball and speed skating with top coaches and sports psychologists five days a week to maintain the best competitive condition."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics"
+        }
+    },
+    {
+        "idx": 5,
+        "src": "这有没有让你们对我 以及我的成就有所改观呢？",
+        "ref": "Does that change the way you think of me  and my accomplishments?",
+        "hyp": "Has this changed your perception of me and my achievements at all?",
+        "rel_src": [
+            "我曾在三种不同的运动中 以及加拿大全运会中获得奖牌 我参与过是国际级别的篮球项目 并且我为能代表加拿大走向世界舞台 感到十分骄傲",
+            "我每周都有五天与顶级的教练和心理作业咨询师一起 训练篮球和竞速滑冰 来保持最好的竞技状态"
+        ],
+        "rel_tgt": [
+            "I have won medals in three different sports and at the Canada Games. I have participated in international level basketball projects, and I am very proud to represent Canada on the world stage.",
+            "I train basketball and speed skating with top coaches and sports psychologists five days a week to maintain the best competitive condition."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics"
+        }
+    },
+    {
+        "idx": 6,
+        "src": "这个世界并没有把所有像我一样的人当成冠军",
+        "ref": "The world does not see all people like me as champions.",
+        "hyp": "This world does not consider everyone like me as champions.",
+        "rel_src": [
+            "我的名字叫马修·威廉姆斯 我是一名冠军",
+            "我曾在三种不同的运动中 以及加拿大全运会中获得奖牌 我参与过是国际级别的篮球项目 并且我为能代表加拿大走向世界舞台 感到十分骄傲"
+        ],
+        "rel_tgt": [
+            "My name is Matthew Williams, and I am a champion.",
+            "I have won medals in three different sports and at the Canada Games. I have participated in international level basketball projects, and I am very proud to represent Canada on the world stage."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics"
+        }
+    },
+    {
+        "idx": 7,
+        "src": "不久以前，像我这样的人是不被待见的",
+        "ref": "Not long ago, people like me were shunned and hidden away.",
+        "hyp": "Not long ago, people like me were not treated well.",
+        "rel_src": [
+            "这有没有让你们对我 以及我的成就有所改观呢？",
+            "这个世界并没有把所有像我一样的人当成冠军"
+        ],
+        "rel_tgt": [
+            "Has this changed your perception of me and my achievements at all?",
+            "This world does not consider everyone like me as champions."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics"
+        }
+    },
+    {
+        "idx": 8,
+        "src": "自从1968年的特殊奥林匹克运动会开始， 这种现象得到很大的改善 但现实中还是经常可以看到 相比普通人来说 智力有缺陷的人常被视而不见",
+        "ref": "There has been lots of change since Special Olympics began in 1968,  but in too many cases,  people with intellectual disabilities  are invisible to the wider population.",
+        "hyp": "Since the Special Olympics began in 1968, this phenomenon has greatly improved, but in reality, it is still common to see intellectually disabled individuals being overlooked compared to ordinary people.",
+        "rel_src": [
+            "补充一下，这些都是因为特殊奥林匹克运动会",
+            "这个世界并没有把所有像我一样的人当成冠军"
+        ],
+        "rel_tgt": [
+            "To add on, all of these are because of the Special Olympics.",
+            "This world does not consider everyone like me as champions."
+        ],
+        "hist_info": "\"特殊奥林匹克运动会\" - \"Special Olympics\"",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics"
+        }
+    },
+    {
+        "idx": 9,
+        "src": "人们在我面前用“傻”字叫我，以为我会无所谓",
+        "ref": "People use the r-word in front of me, and they think it doesn't matter.",
+        "hyp": "People call me \"stupid\" in front of me, thinking that I don't care.",
+        "rel_src": [
+            "这个世界并没有把所有像我一样的人当成冠军",
+            "不久以前，像我这样的人是不被待见的"
+        ],
+        "rel_tgt": [
+            "This world does not consider everyone like me as champions.",
+            "Not long ago, people like me were not treated well."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics"
+        }
+    },
+    {
+        "idx": 10,
+        "src": "他们叫我“傻子”，说我迟钝 完全是贬义的用法",
+        "ref": "That's the word \"retard\" or \"retarded\"  used in a derogatory manner.",
+        "hyp": "They call me \"idiot\" and say I am slow, which is completely derogatory.",
+        "rel_src": [
+            "自从1968年的特殊奥林匹克运动会开始， 这种现象得到很大的改善 但现实中还是经常可以看到 相比普通人来说 智力有缺陷的人常被视而不见",
+            "人们在我面前用“傻”字叫我，以为我会无所谓"
+        ],
+        "rel_tgt": [
+            "Since the Special Olympics began in 1968, this phenomenon has greatly improved, but in reality, it is still common to see intellectually disabled individuals being overlooked compared to ordinary people.",
+            "People call me \"stupid\" in front of me, thinking that I don't care."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics"
+        }
+    },
+    {
+        "idx": 11,
+        "src": "他们不知道这对我和我朋友伤害有多大。",
+        "ref": "They're not thinking about how much it hurts me and my friends.",
+        "hyp": "They don't know how much this hurts me and my friends.",
+        "rel_src": [
+            "人们在我面前用“傻”字叫我，以为我会无所谓",
+            "他们叫我“傻子”，说我迟钝 完全是贬义的用法"
+        ],
+        "rel_tgt": [
+            "People call me \"stupid\" in front of me, thinking that I don't care.",
+            "They call me \"idiot\" and say I am slow, which is completely derogatory."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics"
+        }
+    },
+    {
+        "idx": 12,
+        "src": "我不想让你们觉得我出现在这里是为了得到怜悯",
+        "ref": "I don't want you to think I'm here because I'm a charity case.",
+        "hyp": "I don't want you to think that I am here to seek pity.",
+        "rel_src": [
+            "这有没有让你们对我 以及我的成就有所改观呢？",
+            "自从1968年的特殊奥林匹克运动会开始， 这种现象得到很大的改善 但现实中还是经常可以看到 相比普通人来说 智力有缺陷的人常被视而不见"
+        ],
+        "rel_tgt": [
+            "Has this changed your perception of me and my achievements at all?",
+            "Since the Special Olympics began in 1968, this phenomenon has greatly improved, but in reality, it is still common to see intellectually disabled individuals being overlooked compared to ordinary people."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics"
+        }
+    },
+    {
+        "idx": 13,
+        "src": "我在这里，是因为这个问题还存在： 还有很多人看待智力缺陷的人的方式有问题 或者，更多的 许多人根本就不认可他们的存在",
+        "ref": "I am here because there is still a big problem with the way  many people see individuals with intellectual disabilities,  or, too often,  how they don't see them at all.",
+        "hyp": "I am here because this issue still exists: there are still many people who have problematic views towards intellectually disabled individuals, or even more, many people simply do not acknowledge their existence.",
+        "rel_src": [
+            "自从1968年的特殊奥林匹克运动会开始， 这种现象得到很大的改善 但现实中还是经常可以看到 相比普通人来说 智力有缺陷的人常被视而不见",
+            "他们叫我“傻子”，说我迟钝 完全是贬义的用法"
+        ],
+        "rel_tgt": [
+            "Since the Special Olympics began in 1968, this phenomenon has greatly improved, but in reality, it is still common to see intellectually disabled individuals being overlooked compared to ordinary people.",
+            "They call me \"idiot\" and say I am slow, which is completely derogatory."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics"
+        }
+    },
+    {
+        "idx": 14,
+        "src": "你们都知道世界运动会是今年举办的吧？",
+        "ref": "Did you know the World Games happened this year?",
+        "hyp": "Do you all know that the World Games are being held this year?",
+        "rel_src": [
+            "补充一下，这些都是因为特殊奥林匹克运动会",
+            "自从1968年的特殊奥林匹克运动会开始， 这种现象得到很大的改善 但现实中还是经常可以看到 相比普通人来说 智力有缺陷的人常被视而不见"
+        ],
+        "rel_tgt": [
+            "To add on, all of these are because of the Special Olympics.",
+            "Since the Special Olympics began in 1968, this phenomenon has greatly improved, but in reality, it is still common to see intellectually disabled individuals being overlooked compared to ordinary people."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games"
+        }
+    },
+    {
+        "idx": 15,
+        "src": "我是6500名智力缺陷运动员中的一员 我们来自165个国家，在洛杉矶比赛",
+        "ref": "I was one of over 6,500 athletes with intellectual disabilities  from 165 countries who competed in LA.",
+        "hyp": "I am one of the 6,500 intellectually disabled athletes. We come from 165 countries and are competing in Los Angeles.",
+        "rel_src": [
+            "自从1968年的特殊奥林匹克运动会开始， 这种现象得到很大的改善 但现实中还是经常可以看到 相比普通人来说 智力有缺陷的人常被视而不见",
+            "我在这里，是因为这个问题还存在： 还有很多人看待智力缺陷的人的方式有问题 或者，更多的 许多人根本就不认可他们的存在"
+        ],
+        "rel_tgt": [
+            "Since the Special Olympics began in 1968, this phenomenon has greatly improved, but in reality, it is still common to see intellectually disabled individuals being overlooked compared to ordinary people.",
+            "I am here because this issue still exists: there are still many people who have problematic views towards intellectually disabled individuals, or even more, many people simply do not acknowledge their existence."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles"
+        }
+    },
+    {
+        "idx": 16,
+        "src": "当时有超过62000名观众观看开幕式 而且TSN和ESPN还直播了",
+        "ref": "There was over 62,000 spectators watching opening ceremonies,  and there was live coverage on TSN and ESPN.",
+        "hyp": "At that time, there were over 62,000 spectators watching the opening ceremony, and TSN and ESPN also broadcasted it.",
+        "rel_src": [
+            "你们都知道世界运动会是今年举办的吧？",
+            "我是6500名智力缺陷运动员中的一员 我们来自165个国家，在洛杉矶比赛"
+        ],
+        "rel_tgt": [
+            "Do you all know that the World Games are being held this year?",
+            "I am one of the 6,500 intellectually disabled athletes. We come from 165 countries and are competing in Los Angeles."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 17,
+        "src": "可你们知道这件事吗？",
+        "ref": "Did you even know that happened?",
+        "hyp": "But do you know about this?",
+        "rel_src": [
+            "我在这里，是因为这个问题还存在： 还有很多人看待智力缺陷的人的方式有问题 或者，更多的 许多人根本就不认可他们的存在",
+            "我是6500名智力缺陷运动员中的一员 我们来自165个国家，在洛杉矶比赛"
+        ],
+        "rel_tgt": [
+            "I am here because this issue still exists: there are still many people who have problematic views towards intellectually disabled individuals, or even more, many people simply do not acknowledge their existence.",
+            "I am one of the 6,500 intellectually disabled athletes. We come from 165 countries and are competing in Los Angeles."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 18,
+        "src": "当你看到像我一样的人的时候，你会怎么想？",
+        "ref": "What do you think of when you see someone like me?",
+        "hyp": "When you see people like me, what do you think?",
+        "rel_src": [
+            "自从1968年的特殊奥林匹克运动会开始， 这种现象得到很大的改善 但现实中还是经常可以看到 相比普通人来说 智力有缺陷的人常被视而不见",
+            "我在这里，是因为这个问题还存在： 还有很多人看待智力缺陷的人的方式有问题 或者，更多的 许多人根本就不认可他们的存在"
+        ],
+        "rel_tgt": [
+            "Since the Special Olympics began in 1968, this phenomenon has greatly improved, but in reality, it is still common to see intellectually disabled individuals being overlooked compared to ordinary people.",
+            "I am here because this issue still exists: there are still many people who have problematic views towards intellectually disabled individuals, or even more, many people simply do not acknowledge their existence."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 19,
+        "src": "我今天来到这里 就是想大胆提出，将我们平等看待",
+        "ref": "I am here today to challenge you  to look at us as equals.",
+        "hyp": "I came here today to boldly propose that we treat each other equally.",
+        "new_src_summary": "这段文段介绍了一位名叫马修·威廉姆斯的冠军运动员，他在三种不同的运动和加拿大全运会中获得奖牌。他参与国际级别的篮球项目，为能代表加拿大感到骄傲。他每周与顶级教练和心理作业咨询师一起训练篮球和竞速滑冰，为特殊奥林匹克运动会保持竞技状态。他指出智力缺陷的人经常受到歧视和不被认可，呼吁改变这种现象。他是6500名智力缺陷运动员中的一员，参加了世界运动会。文段领域为体育领域，语气自信坚定，旨在引起读者对智力缺陷人群的关注和思考。",
+        "new_tgt_summary": "Matthew Williams is a champion who has won medals in three different sports and at the Canada Games. He participates in international level basketball projects and represents Canada on the world stage. He trains five days a week with top coaches and sports psychologists. His achievements are due to the Special Olympics, which has helped improve the treatment of intellectually disabled individuals. Despite progress, there are still problematic views towards intellectually disabled individuals. Matthew is competing in the World Games with 6,500 athletes from 165 countries. He questions people's perceptions of intellectually disabled individuals and encourages awareness of their existence and achievements.",
+        "rel_src": [
+            "我在这里，是因为这个问题还存在： 还有很多人看待智力缺陷的人的方式有问题 或者，更多的 许多人根本就不认可他们的存在",
+            "当你看到像我一样的人的时候，你会怎么想？"
+        ],
+        "rel_tgt": [
+            "I am here because this issue still exists: there are still many people who have problematic views towards intellectually disabled individuals, or even more, many people simply do not acknowledge their existence.",
+            "When you see people like me, what do you think?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 20,
+        "src": "特殊奥林匹克运动会改变了 智力缺陷运动员的自我认识 也改变了观众的看法",
+        "ref": "Special Olympics transforms the self-identity of athletes  with intellectual disabilities  and the perceptions of everyone watching.",
+        "hyp": "The Special Olympics has changed the self-awareness of intellectually disabled athletes and also changed the perception of the audience.",
+        "rel_src": [
+            "自从1968年的特殊奥林匹克运动会开始， 这种现象得到很大的改善 但现实中还是经常可以看到 相比普通人来说 智力有缺陷的人常被视而不见",
+            "我是6500名智力缺陷运动员中的一员 我们来自165个国家，在洛杉矶比赛"
+        ],
+        "rel_tgt": [
+            "Since the Special Olympics began in 1968, this phenomenon has greatly improved, but in reality, it is still common to see intellectually disabled individuals being overlooked compared to ordinary people.",
+            "I am one of the 6,500 intellectually disabled athletes. We come from 165 countries and are competing in Los Angeles."
+        ],
+        "hist_info": "\"特殊奥林匹克运动会\" - \"Special Olympics\"",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 21,
+        "src": "如果你们不熟悉特殊奥林匹克运动会 我来解释一下，它就是给智力有缺陷的人设立的",
+        "ref": "For those of you who aren't familiar,  Special Olympics is for athletes with intellectual disabilities.",
+        "hyp": "If you are not familiar with the Special Olympics, let me explain - it is designed for intellectually disabled individuals.",
+        "rel_src": [
+            "补充一下，这些都是因为特殊奥林匹克运动会",
+            "自从1968年的特殊奥林匹克运动会开始， 这种现象得到很大的改善 但现实中还是经常可以看到 相比普通人来说 智力有缺陷的人常被视而不见"
+        ],
+        "rel_tgt": [
+            "To add on, all of these are because of the Special Olympics.",
+            "Since the Special Olympics began in 1968, this phenomenon has greatly improved, but in reality, it is still common to see intellectually disabled individuals being overlooked compared to ordinary people."
+        ],
+        "hist_info": "\"特殊奥林匹克运动会\" - \"Special Olympics\"",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 22,
+        "src": "它独立于残奥会和奥运会",
+        "ref": "Special Olympics is separate from the Paralympics and Olympics.",
+        "hyp": "It is separate from the Paralympics and the Olympics.",
+        "rel_src": [
+            "补充一下，这些都是因为特殊奥林匹克运动会",
+            "如果你们不熟悉特殊奥林匹克运动会 我来解释一下，它就是给智力有缺陷的人设立的"
+        ],
+        "rel_tgt": [
+            "To add on, all of these are because of the Special Olympics.",
+            "If you are not familiar with the Special Olympics, let me explain - it is designed for intellectually disabled individuals."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 23,
+        "src": "我们有高质量的、专门给智力缺陷的选手的、全年的运动项目 这些项目能改变我们的命运和对我们的认知的",
+        "ref": "We offer high-quality, year round sports programs for people with intellectual disabilities  that changes lives and perceptions.",
+        "hyp": "We have high-quality, year-round sports programs specifically designed for intellectually disabled athletes. These programs can change our destiny and our perception of ourselves.",
+        "rel_src": [
+            "特殊奥林匹克运动会改变了 智力缺陷运动员的自我认识 也改变了观众的看法",
+            "如果你们不熟悉特殊奥林匹克运动会 我来解释一下，它就是给智力有缺陷的人设立的"
+        ],
+        "rel_tgt": [
+            "The Special Olympics has changed the self-awareness of intellectually disabled athletes and also changed the perception of the audience.",
+            "If you are not familiar with the Special Olympics, let me explain - it is designed for intellectually disabled individuals."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 24,
+        "src": "特殊奥运会改变了我的生活 也改变了很多人的生活 同时也改变了这个世界看待智力缺陷人群的看法",
+        "ref": "This movement has changed my life  and those of so many others. And it has changed the way  the world sees people with intellectual disabilities.",
+        "hyp": "The Special Olympics has changed my life, as well as the lives of many others, and has also changed the way the world views intellectually disabled individuals.",
+        "rel_src": [
+            "特殊奥林匹克运动会改变了 智力缺陷运动员的自我认识 也改变了观众的看法",
+            "我们有高质量的、专门给智力缺陷的选手的、全年的运动项目 这些项目能改变我们的命运和对我们的认知的"
+        ],
+        "rel_tgt": [
+            "The Special Olympics has changed the self-awareness of intellectually disabled athletes and also changed the perception of the audience.",
+            "We have high-quality, year-round sports programs specifically designed for intellectually disabled athletes. These programs can change our destiny and our perception of ourselves."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics"
+        }
+    },
+    {
+        "idx": 25,
+        "src": "我出生时就患有癫痫以及智力缺陷",
+        "ref": "I was born with epilepsy and an intellectual disability.",
+        "hyp": "I was born with epilepsy and intellectual disabilities.",
+        "rel_src": [
+            "我在这里，是因为这个问题还存在： 还有很多人看待智力缺陷的人的方式有问题 或者，更多的 许多人根本就不认可他们的存在",
+            "我们有高质量的、专门给智力缺陷的选手的、全年的运动项目 这些项目能改变我们的命运和对我们的认知的"
+        ],
+        "rel_tgt": [
+            "I am here because this issue still exists: there are still many people who have problematic views towards intellectually disabled individuals, or even more, many people simply do not acknowledge their existence.",
+            "We have high-quality, year-round sports programs specifically designed for intellectually disabled athletes. These programs can change our destiny and our perception of ourselves."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics"
+        }
+    },
+    {
+        "idx": 26,
+        "src": "12岁之前，我一直都是打曲棍球",
+        "ref": "Growing up, I played hockey until I was 12 years old.",
+        "hyp": "Before the age of 12, I had always been playing field hockey.",
+        "rel_src": [
+            "如果你们不熟悉特殊奥林匹克运动会 我来解释一下，它就是给智力有缺陷的人设立的",
+            "它独立于残奥会和奥运会"
+        ],
+        "rel_tgt": [
+            "If you are not familiar with the Special Olympics, let me explain - it is designed for intellectually disabled individuals.",
+            "It is separate from the Paralympics and the Olympics."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics"
+        }
+    },
+    {
+        "idx": 27,
+        "src": "越长大，就越觉得要跟上别人愈来愈困难 我感到生气沮丧",
+        "ref": "The older I got, the more I felt it was harder to keep up with everyone else,  and I was angry and frustrated.",
+        "hyp": "The older I get, the more difficult it becomes to keep up with others. I feel angry and frustrated.",
+        "rel_src": [
+            "不久以前，像我这样的人是不被待见的",
+            "人们在我面前用“傻”字叫我，以为我会无所谓"
+        ],
+        "rel_tgt": [
+            "Not long ago, people like me were not treated well.",
+            "People call me \"stupid\" in front of me, thinking that I don't care."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics"
+        }
+    },
+    {
+        "idx": 28,
+        "src": "有一段时间，我没有接触任何体育运动 没有多少朋友 感觉自己被遗弃，无人问津",
+        "ref": "For a while, I did not play any sports,  didn't have many friends  and felt left out and sad.",
+        "hyp": "For a period of time, I had no contact with any sports, not many friends, and felt abandoned, with no one paying attention.",
+        "rel_src": [
+            "我出生时就患有癫痫以及智力缺陷",
+            "越长大，就越觉得要跟上别人愈来愈困难 我感到生气沮丧"
+        ],
+        "rel_tgt": [
+            "I was born with epilepsy and intellectual disabilities.",
+            "The older I get, the more difficult it becomes to keep up with others. I feel angry and frustrated."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics"
+        }
+    },
+    {
+        "idx": 29,
+        "src": "曾经有这么一段时间，智力缺陷的人 是被这个社会隔离开来，不被公开的",
+        "ref": "There was a time when people with intellectual disabilities  were hidden away from society.",
+        "hyp": "There was a time when intellectually disabled individuals were isolated and not openly accepted by society.",
+        "rel_src": [
+            "我们有高质量的、专门给智力缺陷的选手的、全年的运动项目 这些项目能改变我们的命运和对我们的认知的",
+            "特殊奥运会改变了我的生活 也改变了很多人的生活 同时也改变了这个世界看待智力缺陷人群的看法"
+        ],
+        "rel_tgt": [
+            "We have high-quality, year-round sports programs specifically designed for intellectually disabled athletes. These programs can change our destiny and our perception of ourselves.",
+            "The Special Olympics has changed my life, as well as the lives of many others, and has also changed the way the world views intellectually disabled individuals."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics"
+        }
+    },
+    {
+        "idx": 30,
+        "src": "没人会觉得他们也能参加体育运动 更别说成为社会有价值的一员",
+        "ref": "No one thought they could participate in sports,  let alone be a valued member of society.",
+        "hyp": "No one would think that they can also participate in sports, let alone become a valuable member of society.",
+        "rel_src": [
+            "我们有高质量的、专门给智力缺陷的选手的、全年的运动项目 这些项目能改变我们的命运和对我们的认知的",
+            "特殊奥运会改变了我的生活 也改变了很多人的生活 同时也改变了这个世界看待智力缺陷人群的看法"
+        ],
+        "rel_tgt": [
+            "We have high-quality, year-round sports programs specifically designed for intellectually disabled athletes. These programs can change our destiny and our perception of ourselves.",
+            "The Special Olympics has changed my life, as well as the lives of many others, and has also changed the way the world views intellectually disabled individuals."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics"
+        }
+    },
+    {
+        "idx": 31,
+        "src": "在20世纪60年代，弗兰克·海登博士 多伦多大学的一名科学家 他当时在研究正常运动 对智力缺陷儿童的健康程度的影响",
+        "ref": "In the 1960s, Dr. Frank Hayden,  a scientist at the University of Toronto,  was studying the effects of regular exercise  on the fitness levels of children with intellectual disabilities.",
+        "hyp": "In the 1960s, Dr. Frank Hayden, a scientist at the University of Toronto, was researching the impact of regular exercise on the health of intellectually disabled children.",
+        "rel_src": [
+            "我们有高质量的、专门给智力缺陷的选手的、全年的运动项目 这些项目能改变我们的命运和对我们的认知的",
+            "特殊奥运会改变了我的生活 也改变了很多人的生活 同时也改变了这个世界看待智力缺陷人群的看法"
+        ],
+        "rel_tgt": [
+            "We have high-quality, year-round sports programs specifically designed for intellectually disabled athletes. These programs can change our destiny and our perception of ourselves.",
+            "The Special Olympics has changed my life, as well as the lives of many others, and has also changed the way the world views intellectually disabled individuals."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto"
+        }
+    },
+    {
+        "idx": 32,
+        "src": "海登博士以及其他研究人员 通过严谨的科学研究 得出了一个结论： 导致智力缺陷儿童的他们健康程度下降的原因 仅仅是缺乏运动的机会",
+        "ref": "Dr. Hayden and other researchers  came to the conclusion  that it was simply the lack of opportunity to participate  that caused their fitness levels to suffer.",
+        "hyp": "Dr. Hayden and other researchers have come to a conclusion through rigorous scientific research: the reason for the declining health of intellectually disabled children is simply the lack of opportunities for exercise.",
+        "rel_src": [
+            "我在这里，是因为这个问题还存在： 还有很多人看待智力缺陷的人的方式有问题 或者，更多的 许多人根本就不认可他们的存在",
+            "在20世纪60年代，弗兰克·海登博士 多伦多大学的一名科学家 他当时在研究正常运动 对智力缺陷儿童的健康程度的影响"
+        ],
+        "rel_tgt": [
+            "I am here because this issue still exists: there are still many people who have problematic views towards intellectually disabled individuals, or even more, many people simply do not acknowledge their existence.",
+            "In the 1960s, Dr. Frank Hayden, a scientist at the University of Toronto, was researching the impact of regular exercise on the health of intellectually disabled children."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden"
+        }
+    },
+    {
+        "idx": 33,
+        "src": "很多人质疑智力缺陷的人 能从运动项目 或体育竞技中受益",
+        "ref": "Lots of people doubted that people with intellectual disabilities  could benefit from fitness programs  and sports competition opportunities.",
+        "hyp": "Many people doubt that intellectually disabled individuals can benefit from sports programs or athletic competitions.",
+        "rel_src": [
+            "我们有高质量的、专门给智力缺陷的选手的、全年的运动项目 这些项目能改变我们的命运和对我们的认知的",
+            "没人会觉得他们也能参加体育运动 更别说成为社会有价值的一员"
+        ],
+        "rel_tgt": [
+            "We have high-quality, year-round sports programs specifically designed for intellectually disabled athletes. These programs can change our destiny and our perception of ourselves.",
+            "No one would think that they can also participate in sports, let alone become a valuable member of society."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden"
+        }
+    },
+    {
+        "idx": 34,
+        "src": "但正是因为有海登博士， 以及特殊奥林匹克运动会创始人尤尼斯·肯尼迪·谢里夫 他们坚持运动的好处 而且特殊奥林匹克运动员 不下四百五十万次证明了运动的确有好处",
+        "ref": "But pioneers like Dr. Hayden and Eunice Kennedy Shriver,  the founder of Special Olympics,  persevered,  and Special Olympics athletes have proved them right  four and a half million times over.",
+        "hyp": "But it is precisely because of Dr. Hayden, as well as the founder of the Special Olympics, Eunice Kennedy Shriver, that they advocate the benefits of sports, and Special Olympics athletes have proven the benefits of sports more than four and a half million times.",
+        "rel_src": [
+            "特殊奥林匹克运动会改变了 智力缺陷运动员的自我认识 也改变了观众的看法",
+            "特殊奥运会改变了我的生活 也改变了很多人的生活 同时也改变了这个世界看待智力缺陷人群的看法"
+        ],
+        "rel_tgt": [
+            "The Special Olympics has changed the self-awareness of intellectually disabled athletes and also changed the perception of the audience.",
+            "The Special Olympics has changed my life, as well as the lives of many others, and has also changed the way the world views intellectually disabled individuals."
+        ],
+        "hist_info": "\"特殊奥林匹克运动会\" - \"Special Olympics\", \"海登博士\" - \"Dr. Hayden\"",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver"
+        }
+    },
+    {
+        "idx": 35,
+        "src": "在我参加特殊奥林匹克运动会之前 我是容易紧张的人 因为我年轻害羞，没自信 也没多少朋友",
+        "ref": "Before I joined Special Olympics,  I was nervous  because I was young, shy, not confident  and didn't have many friends.",
+        "hyp": "Before I participated in the Special Olympics, I was an easily nervous person because I was young, shy, lacked confidence, and didn't have many friends.",
+        "rel_src": [
+            "越长大，就越觉得要跟上别人愈来愈困难 我感到生气沮丧",
+            "有一段时间，我没有接触任何体育运动 没有多少朋友 感觉自己被遗弃，无人问津"
+        ],
+        "rel_tgt": [
+            "The older I get, the more difficult it becomes to keep up with others. I feel angry and frustrated.",
+            "For a period of time, I had no contact with any sports, not many friends, and felt abandoned, with no one paying attention."
+        ],
+        "hist_info": "\"特殊奥林匹克运动会\" - \"Special Olympics\"",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver"
+        }
+    },
+    {
+        "idx": 36,
+        "src": "但我到了那里，却发现每个人都很友善 很乐于助人，不歧视我 让我做回我自己",
+        "ref": "When I got there, though, everyone was very encouraging,  supportive, and let me be myself  without being judged.",
+        "hyp": "But when I arrived there, I found that everyone was very friendly, helpful, and did not discriminate against me, allowing me to be myself.",
+        "rel_src": [
+            "特殊奥运会改变了我的生活 也改变了很多人的生活 同时也改变了这个世界看待智力缺陷人群的看法",
+            "在我参加特殊奥林匹克运动会之前 我是容易紧张的人 因为我年轻害羞，没自信 也没多少朋友"
+        ],
+        "rel_tgt": [
+            "The Special Olympics has changed my life, as well as the lives of many others, and has also changed the way the world views intellectually disabled individuals.",
+            "Before I participated in the Special Olympics, I was an easily nervous person because I was young, shy, lacked confidence, and didn't have many friends."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver"
+        }
+    },
+    {
+        "idx": 37,
+        "src": "现在，我是一名篮球运动员， 也是一名竞速滑冰运动员 参加过省级和国家级比赛 而且今年还参加了在洛杉矶的 夏季特殊奥林匹克运动会 在那里，我代表的是第一届加拿大篮球运动员 参加世界比赛",
+        "ref": "Now, I am a basketball player and speed skater  who has competed at provincial, national games,  and this year made it all the way to the World Summer Games in LA,  where I was part of the first ever Canadian basketball team  to compete at World Games.",
+        "hyp": "Now, I am a basketball player and a speed skating athlete, having participated in provincial and national competitions, and this year I also participated in the Summer Special Olympics in Los Angeles. There, I represented the first Canadian basketball player to compete in the World Games.",
+        "rel_src": [
+            "特殊奥林匹克运动会改变了 智力缺陷运动员的自我认识 也改变了观众的看法",
+            "特殊奥运会改变了我的生活 也改变了很多人的生活 同时也改变了这个世界看待智力缺陷人群的看法"
+        ],
+        "rel_tgt": [
+            "The Special Olympics has changed the self-awareness of intellectually disabled athletes and also changed the perception of the audience.",
+            "The Special Olympics has changed my life, as well as the lives of many others, and has also changed the way the world views intellectually disabled individuals."
+        ],
+        "hist_info": "\"加拿大\" - \"Canada\", \"特殊奥林匹克运动会\" - \"Special Olympics\", \"洛杉矶\" - \"Los Angeles\"",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games"
+        },
+        "conflict": [
+            "\"加拿大\" - \"Canada\"/\"Canadian\""
+        ]
+    },
+    {
+        "idx": 38,
+        "src": "我是世界上这四百五十万名运动员中的一份子 我也听说过很多相似的故事",
+        "ref": "I am one of more than four and a half million athletes around the globe,  and I've heard so many similar stories.",
+        "hyp": "I am a part of the four and a half million athletes in the world, and I have also heard many similar stories.",
+        "rel_src": [
+            "我们有高质量的、专门给智力缺陷的选手的、全年的运动项目 这些项目能改变我们的命运和对我们的认知的",
+            "但正是因为有海登博士， 以及特殊奥林匹克运动会创始人尤尼斯·肯尼迪·谢里夫 他们坚持运动的好处 而且特殊奥林匹克运动员 不下四百五十万次证明了运动的确有好处"
+        ],
+        "rel_tgt": [
+            "We have high-quality, year-round sports programs specifically designed for intellectually disabled athletes. These programs can change our destiny and our perception of ourselves.",
+            "But it is precisely because of Dr. Hayden, as well as the founder of the Special Olympics, Eunice Kennedy Shriver, that they advocate the benefits of sports, and Special Olympics athletes have proven the benefits of sports more than four and a half million times."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games"
+        }
+    },
+    {
+        "idx": 39,
+        "src": "成为特殊奥林匹克运动会的运动员 帮我们拾回自信和尊严",
+        "ref": "Being Special Olympics athletes  restores our pride and dignity.",
+        "hyp": "Being a Special Olympics athlete helps us regain our confidence and dignity.",
+        "new_src_summary": "这段文段介绍了一位名叫马修·威廉姆斯的冠军运动员，他在三种不同的运动和加拿大全运会中获得奖牌。马修参与国际级别的篮球项目，为能代表加拿大感到骄傲，并每周与顶级教练和心理作业咨询师一起训练篮球和竞速滑冰，为特殊奥林匹克运动会保持竞技状态。他是6500名智力缺陷运动员中的一员，参加了世界运动会。特殊奥林匹克运动会为智力有缺陷的人设立了独立的运动项目，改变了运动员们的自我认识，同时也改变了社会对他们的看法。通过科学研究，证明了运动对智力缺陷儿童的健康程度有积极影响。参加特殊奥林匹克运动会让马修变得自信，成为一名篮球和竞速滑冰运动员，并代表加拿大参加世界比赛。整体风格较为客观，语气自信坚定，旨在引起读者对智力缺陷人群的关注和思考，强调运动对智力缺陷人群的重要性和积极影响。",
+        "new_tgt_summary": "Matthew Williams, a champion in multiple sports and Canada Games medalist, is representing Canada internationally in basketball. He credits his success to the Special Olympics, which has improved treatment of intellectually disabled individuals. Despite lingering stigma, Matthew is competing in the World Games to challenge perceptions and raise awareness. He advocates for equal treatment and highlights the positive impact of sports programs, emphasizing the inclusivity and support provided by the Special Olympics community.",
+        "rel_src": [
+            "特殊奥运会改变了我的生活 也改变了很多人的生活 同时也改变了这个世界看待智力缺陷人群的看法",
+            "在我参加特殊奥林匹克运动会之前 我是容易紧张的人 因为我年轻害羞，没自信 也没多少朋友"
+        ],
+        "rel_tgt": [
+            "The Special Olympics has changed my life, as well as the lives of many others, and has also changed the way the world views intellectually disabled individuals.",
+            "Before I participated in the Special Olympics, I was an easily nervous person because I was young, shy, lacked confidence, and didn't have many friends."
+        ],
+        "hist_info": "\"特殊奥林匹克运动会\" - \"Special Olympics\"",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games"
+        }
+    },
+    {
+        "idx": 40,
+        "src": "这个运动会也指出了重要的健康需求",
+        "ref": "Special Olympics also addresses critical health needs.",
+        "hyp": "This event also highlighted important health needs.",
+        "rel_src": [
+            "海登博士以及其他研究人员 通过严谨的科学研究 得出了一个结论： 导致智力缺陷儿童的他们健康程度下降的原因 仅仅是缺乏运动的机会",
+            "但正是因为有海登博士， 以及特殊奥林匹克运动会创始人尤尼斯·肯尼迪·谢里夫 他们坚持运动的好处 而且特殊奥林匹克运动员 不下四百五十万次证明了运动的确有好处"
+        ],
+        "rel_tgt": [
+            "Dr. Hayden and other researchers have come to a conclusion through rigorous scientific research: the reason for the declining health of intellectually disabled children is simply the lack of opportunities for exercise.",
+            "But it is precisely because of Dr. Hayden, as well as the founder of the Special Olympics, Eunice Kennedy Shriver, that they advocate the benefits of sports, and Special Olympics athletes have proven the benefits of sports more than four and a half million times."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games"
+        }
+    },
+    {
+        "idx": 41,
+        "src": "研究表明，平均来看 智力缺陷的男人 比没有智力缺陷的男人要少活13年 而智力缺陷的女人 比没有智力缺陷的女人要少活20年",
+        "ref": "Studies have shown that, on average,  men with intellectual disabilities  die 13 years younger than men without,  and women with intellectual disabilities  die 20 years younger than women without.",
+        "hyp": "Studies have shown that, on average, intellectually disabled men live 13 years less than men without intellectual disabilities, while intellectually disabled women live 20 years less than women without intellectual disabilities.",
+        "rel_src": [
+            "海登博士以及其他研究人员 通过严谨的科学研究 得出了一个结论： 导致智力缺陷儿童的他们健康程度下降的原因 仅仅是缺乏运动的机会",
+            "很多人质疑智力缺陷的人 能从运动项目 或体育竞技中受益"
+        ],
+        "rel_tgt": [
+            "Dr. Hayden and other researchers have come to a conclusion through rigorous scientific research: the reason for the declining health of intellectually disabled children is simply the lack of opportunities for exercise.",
+            "Many people doubt that intellectually disabled individuals can benefit from sports programs or athletic competitions."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games"
+        }
+    },
+    {
+        "idx": 42,
+        "src": "特殊奥林匹克运动会让我们保持健康 让我们主动地参与到运动中来",
+        "ref": "Special Olympics keeps us healthy  by getting us active and participating in sport.",
+        "hyp": "The Special Olympics help us stay healthy and actively engage in sports.",
+        "rel_src": [
+            "很多人质疑智力缺陷的人 能从运动项目 或体育竞技中受益",
+            "这个运动会也指出了重要的健康需求"
+        ],
+        "rel_tgt": [
+            "Many people doubt that intellectually disabled individuals can benefit from sports programs or athletic competitions.",
+            "This event also highlighted important health needs."
+        ],
+        "hist_info": "\"特殊奥林匹克运动会\" - \"Special Olympics\"",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games"
+        }
+    },
+    {
+        "idx": 43,
+        "src": "我们的教练也教会我们营养与健康",
+        "ref": "Also, our coaches teach us about nutrition and health.",
+        "hyp": "Our coaches also teach us about nutrition and health.",
+        "rel_src": [
+            "海登博士以及其他研究人员 通过严谨的科学研究 得出了一个结论： 导致智力缺陷儿童的他们健康程度下降的原因 仅仅是缺乏运动的机会",
+            "特殊奥林匹克运动会让我们保持健康 让我们主动地参与到运动中来"
+        ],
+        "rel_tgt": [
+            "Dr. Hayden and other researchers have come to a conclusion through rigorous scientific research: the reason for the declining health of intellectually disabled children is simply the lack of opportunities for exercise.",
+            "The Special Olympics help us stay healthy and actively engage in sports."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games"
+        }
+    },
+    {
+        "idx": 44,
+        "src": "特殊奥林匹克运动会也会提供免费的健康体检 给那些和他们的医生沟通有困难的运动员 或者是难以得到健康关注的运动员",
+        "ref": "Special Olympics also provides free health screening  for athletes who have difficulty communicating with their doctor  or accessing health care.",
+        "hyp": "The Special Olympics also provide free health check-ups for athletes who have difficulty communicating with their doctors or have difficulty accessing health care.",
+        "rel_src": [
+            "海登博士以及其他研究人员 通过严谨的科学研究 得出了一个结论： 导致智力缺陷儿童的他们健康程度下降的原因 仅仅是缺乏运动的机会",
+            "特殊奥林匹克运动会让我们保持健康 让我们主动地参与到运动中来"
+        ],
+        "rel_tgt": [
+            "Dr. Hayden and other researchers have come to a conclusion through rigorous scientific research: the reason for the declining health of intellectually disabled children is simply the lack of opportunities for exercise.",
+            "The Special Olympics help us stay healthy and actively engage in sports."
+        ],
+        "hist_info": "\"特殊奥林匹克运动会\" - \"Special Olympics\"",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games"
+        }
+    },
+    {
+        "idx": 45,
+        "src": "在2015年的夏季特殊奥林匹克运动会 我的加拿大队伍的队员和我 一起对抗尼日利亚篮球队",
+        "ref": "At the 2015 World Summer Games,  my Team Canada teammates and I played the Nigerian basketball team.",
+        "hyp": "At the 2015 Summer Special Olympics, my Canadian team members and I competed against the Nigerian basketball team.",
+        "rel_src": [
+            "现在，我是一名篮球运动员， 也是一名竞速滑冰运动员 参加过省级和国家级比赛 而且今年还参加了在洛杉矶的 夏季特殊奥林匹克运动会 在那里，我代表的是第一届加拿大篮球运动员 参加世界比赛",
+            "成为特殊奥林匹克运动会的运动员 帮我们拾回自信和尊严"
+        ],
+        "rel_tgt": [
+            "Now, I am a basketball player and a speed skating athlete, having participated in provincial and national competitions, and this year I also participated in the Summer Special Olympics in Los Angeles. There, I represented the first Canadian basketball player to compete in the World Games.",
+            "Being a Special Olympics athlete helps us regain our confidence and dignity."
+        ],
+        "hist_info": "\"加拿大\" - \"Canada\", \"特殊奥林匹克运动会\" - \"Special Olympics\", \"夏季特殊奥林匹克运动会\" - \"Summer Special Olympics\"",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian"
+        },
+        "conflict": [
+            "\"加拿大\" - \"Canada\"/\"Canadian\""
+        ]
+    },
+    {
+        "idx": 46,
+        "src": "比赛的前一天 尼日利亚篮球队队员参加了运动会的健康系统体检 10名队员中的7名 得到了免费的助听器 人生第一次听得更清楚",
+        "ref": "The day before our game,  the Nigerian basketball team went to the World Games Healthy Athlete screening,  where seven of 10 members  were given hearing aids for free  and got to hear clearly for the first time.",
+        "hyp": "The day before the game, members of the Nigerian basketball team participated in the health system check-up at the sports event. Out of the 10 players, 7 of them received free hearing aids, hearing clearly for the first time in their lives.",
+        "rel_src": [
+            "特殊奥林匹克运动会也会提供免费的健康体检 给那些和他们的医生沟通有困难的运动员 或者是难以得到健康关注的运动员",
+            "在2015年的夏季特殊奥林匹克运动会 我的加拿大队伍的队员和我 一起对抗尼日利亚篮球队"
+        ],
+        "rel_tgt": [
+            "The Special Olympics also provide free health check-ups for athletes who have difficulty communicating with their doctors or have difficulty accessing health care.",
+            "At the 2015 Summer Special Olympics, my Canadian team members and I competed against the Nigerian basketball team."
+        ],
+        "hist_info": "\"尼日利亚\" - \"Nigerian\"",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian"
+        },
+        "conflict": [
+            "\"尼日利亚\" - \"Nigerian\"/\"Nigeria\""
+        ]
+    },
+    {
+        "idx": 47,
+        "src": "给他们带来的变化是很惊人的",
+        "ref": "The change in them was amazing.",
+        "hyp": "The changes brought to them are truly astonishing.",
+        "rel_src": [
+            "海登博士以及其他研究人员 通过严谨的科学研究 得出了一个结论： 导致智力缺陷儿童的他们健康程度下降的原因 仅仅是缺乏运动的机会",
+            "在我参加特殊奥林匹克运动会之前 我是容易紧张的人 因为我年轻害羞，没自信 也没多少朋友"
+        ],
+        "rel_tgt": [
+            "Dr. Hayden and other researchers have come to a conclusion through rigorous scientific research: the reason for the declining health of intellectually disabled children is simply the lack of opportunities for exercise.",
+            "Before I participated in the Special Olympics, I was an easily nervous person because I was young, shy, lacked confidence, and didn't have many friends."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian"
+        }
+    },
+    {
+        "idx": 48,
+        "src": "他们更加兴奋，开心，自信 因为他们的教练终于能用语言和他们交流了",
+        "ref": "They were more excited, happy and confident,  because their coach could vocally communicate with them.",
+        "hyp": "They became more excited, happy, and confident because their coach could finally communicate with them in language.",
+        "rel_src": [
+            "但我到了那里，却发现每个人都很友善 很乐于助人，不歧视我 让我做回我自己",
+            "我们的教练也教会我们营养与健康"
+        ],
+        "rel_tgt": [
+            "But when I arrived there, I found that everyone was very friendly, helpful, and did not discriminate against me, allowing me to be myself.",
+            "Our coaches also teach us about nutrition and health."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian"
+        }
+    },
+    {
+        "idx": 49,
+        "src": "他们非常容易激动 因为他们能听到篮球的声音了 哨子的声音 还有站在旁边的粉丝的欢呼声 那些我们认为理所应当存在的声音。",
+        "ref": "And they were emotional  because they could hear the sounds of the basketball,  the sounds of the whistle  and the cheering fans in the stands --  sounds that we take for granted.",
+        "hyp": "They were very excited because they could hear the sound of basketball, the whistle, and the cheers of the fans standing by, the sounds that we take for granted.",
+        "rel_src": [
+            "比赛的前一天 尼日利亚篮球队队员参加了运动会的健康系统体检 10名队员中的7名 得到了免费的助听器 人生第一次听得更清楚",
+            "他们更加兴奋，开心，自信 因为他们的教练终于能用语言和他们交流了"
+        ],
+        "rel_tgt": [
+            "The day before the game, members of the Nigerian basketball team participated in the health system check-up at the sports event. Out of the 10 players, 7 of them received free hearing aids, hearing clearly for the first time in their lives.",
+            "They became more excited, happy, and confident because their coach could finally communicate with them in language."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian"
+        }
+    },
+    {
+        "idx": 50,
+        "src": "特殊奥林匹克运动会不单在运动员的体育方面改变他们",
+        "ref": "Special Olympics is transforming more than just the athlete in their sport.",
+        "hyp": "The Special Olympics not only change them in terms of their athletic abilities, but also in other aspects.",
+        "rel_src": [
+            "特殊奥林匹克运动会也会提供免费的健康体检 给那些和他们的医生沟通有困难的运动员 或者是难以得到健康关注的运动员",
+            "在2015年的夏季特殊奥林匹克运动会 我的加拿大队伍的队员和我 一起对抗尼日利亚篮球队"
+        ],
+        "rel_tgt": [
+            "The Special Olympics also provide free health check-ups for athletes who have difficulty communicating with their doctors or have difficulty accessing health care.",
+            "At the 2015 Summer Special Olympics, my Canadian team members and I competed against the Nigerian basketball team."
+        ],
+        "hist_info": "\"特殊奥林匹克运动会\" - \"Special Olympics\"",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian"
+        }
+    },
+    {
+        "idx": 51,
+        "src": "它同时也在运动员的生活方面改变他们",
+        "ref": "Special Olympics is transforming their lives off the field.",
+        "hyp": "It also changes them in terms of their personal lives.",
+        "rel_src": [
+            "但我到了那里，却发现每个人都很友善 很乐于助人，不歧视我 让我做回我自己",
+            "特殊奥林匹克运动会让我们保持健康 让我们主动地参与到运动中来"
+        ],
+        "rel_tgt": [
+            "But when I arrived there, I found that everyone was very friendly, helpful, and did not discriminate against me, allowing me to be myself.",
+            "The Special Olympics help us stay healthy and actively engage in sports."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian"
+        }
+    },
+    {
+        "idx": 52,
+        "src": "今年，研究表明 在美国接近半数的成年人 对于智力缺陷的人一个也不认识 44%的没有与智力缺陷的人接触的美国人 明显的更不宽容，态度更不积极",
+        "ref": "This year, research findings showed  that nearly half of the adults in the US  don't know a single person with an intellectual disability,  and the 44 percent of Americans who don't have personal contact with intellectual disabilities  are significantly less accepting and positive.",
+        "hyp": "This year, research shows that nearly half of adults in the United States do not know anyone with an intellectual disability. 44% of Americans who have not had contact with individuals with intellectual disabilities are significantly less tolerant and have a less positive attitude.",
+        "rel_src": [
+            "研究表明，平均来看 智力缺陷的男人 比没有智力缺陷的男人要少活13年 而智力缺陷的女人 比没有智力缺陷的女人要少活20年",
+            "特殊奥林匹克运动会不单在运动员的体育方面改变他们"
+        ],
+        "rel_tgt": [
+            "Studies have shown that, on average, intellectually disabled men live 13 years less than men without intellectual disabilities, while intellectually disabled women live 20 years less than women without intellectual disabilities.",
+            "The Special Olympics not only change them in terms of their athletic abilities, but also in other aspects."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian",
+            "美国": "United States"
+        }
+    },
+    {
+        "idx": 53,
+        "src": "然后带“傻”字的词 证明了智力缺陷的人 依旧被视而不见 感觉与世隔绝",
+        "ref": "Then there's the r-word,  proving that people with intellectual disabilities  are still invisible  to far too many people.",
+        "hyp": "Words containing the word \"idiot\" further prove that intellectually disabled individuals are still being ignored and feel isolated from the world.",
+        "rel_src": [
+            "研究表明，平均来看 智力缺陷的男人 比没有智力缺陷的男人要少活13年 而智力缺陷的女人 比没有智力缺陷的女人要少活20年",
+            "今年，研究表明 在美国接近半数的成年人 对于智力缺陷的人一个也不认识 44%的没有与智力缺陷的人接触的美国人 明显的更不宽容，态度更不积极"
+        ],
+        "rel_tgt": [
+            "Studies have shown that, on average, intellectually disabled men live 13 years less than men without intellectual disabilities, while intellectually disabled women live 20 years less than women without intellectual disabilities.",
+            "This year, research shows that nearly half of adults in the United States do not know anyone with an intellectual disability. 44% of Americans who have not had contact with individuals with intellectual disabilities are significantly less tolerant and have a less positive attitude."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian",
+            "美国": "United States"
+        }
+    },
+    {
+        "idx": 54,
+        "src": "人们用这个词，要么随口说说，要么骂人",
+        "ref": "People use it as a casual term or an insult.",
+        "hyp": "People use this word either casually or as an insult.",
+        "rel_src": [
+            "今年，研究表明 在美国接近半数的成年人 对于智力缺陷的人一个也不认识 44%的没有与智力缺陷的人接触的美国人 明显的更不宽容，态度更不积极",
+            "然后带“傻”字的词 证明了智力缺陷的人 依旧被视而不见 感觉与世隔绝"
+        ],
+        "rel_tgt": [
+            "This year, research shows that nearly half of adults in the United States do not know anyone with an intellectual disability. 44% of Americans who have not had contact with individuals with intellectual disabilities are significantly less tolerant and have a less positive attitude.",
+            "Words containing the word \"idiot\" further prove that intellectually disabled individuals are still being ignored and feel isolated from the world."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian",
+            "美国": "United States"
+        }
+    },
+    {
+        "idx": 55,
+        "src": "去年在推特上，被用了超过九百万次 这深深伤害到了我 以及这个世界上四百五十万运动员同伴",
+        "ref": "It was tweeted more than nine million times last year,  and it is deeply hurtful  to me and my four and a half million fellow athletes around the planet.",
+        "hyp": "Last year, on Twitter, it was used over nine million times, deeply hurting me and my 4.5 million athlete companions in this world.",
+        "rel_src": [
+            "然后带“傻”字的词 证明了智力缺陷的人 依旧被视而不见 感觉与世隔绝",
+            "人们用这个词，要么随口说说，要么骂人"
+        ],
+        "rel_tgt": [
+            "Words containing the word \"idiot\" further prove that intellectually disabled individuals are still being ignored and feel isolated from the world.",
+            "People use this word either casually or as an insult."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian",
+            "美国": "United States"
+        }
+    },
+    {
+        "idx": 56,
+        "src": "人们不觉得这是在骂人 但它确实是",
+        "ref": "People don't think it's insulting,  but it is.",
+        "hyp": "People don't think they are insulting anyone, but they actually are.",
+        "rel_src": [
+            "然后带“傻”字的词 证明了智力缺陷的人 依旧被视而不见 感觉与世隔绝",
+            "人们用这个词，要么随口说说，要么骂人"
+        ],
+        "rel_tgt": [
+            "Words containing the word \"idiot\" further prove that intellectually disabled individuals are still being ignored and feel isolated from the world.",
+            "People use this word either casually or as an insult."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian",
+            "美国": "United States"
+        }
+    },
+    {
+        "idx": 57,
+        "src": "我的运动员同伴，也是全球信使 富兰克林·史蒂芬斯 他给一个曾用“傻”词来骂人的政治评论家写了一封信 “找一天来看特殊奥林匹克运动会吧，",
+        "ref": "As my fellow athlete and global messenger John Franklin Stephens wrote  in an open letter to a political pundit who used the r-word as an insult,  \"Come join us someday at Special Olympics.",
+        "hyp": "My athlete companion and global messenger, Franklin Stevens, wrote a letter to a political commentator who had used the word \"stupid\" as an insult, inviting them to come and see the Special Olympics.",
+        "rel_src": [
+            "他们更加兴奋，开心，自信 因为他们的教练终于能用语言和他们交流了",
+            "他们非常容易激动 因为他们能听到篮球的声音了 哨子的声音 还有站在旁边的粉丝的欢呼声 那些我们认为理所应当存在的声音。"
+        ],
+        "rel_tgt": [
+            "They became more excited, happy, and confident because their coach could finally communicate with them in language.",
+            "They were very excited because they could hear the sound of basketball, the whistle, and the cheers of the fans standing by, the sounds that we take for granted."
+        ],
+        "hist_info": "\"特殊奥林匹克运动会\" - \"Special Olympics\"",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian",
+            "美国": "United States",
+            "富兰克林·史蒂芬斯": "Franklin Stevens"
+        }
+    },
+    {
+        "idx": 58,
+        "src": "看在你离开的时候，是否仍想法不变。”",
+        "ref": "See if you walk away with your heart unchanged.\"",
+        "hyp": "See if you still have the same thoughts when you leave.\"",
+        "rel_src": [
+            "然后带“傻”字的词 证明了智力缺陷的人 依旧被视而不见 感觉与世隔绝",
+            "人们用这个词，要么随口说说，要么骂人"
+        ],
+        "rel_tgt": [
+            "Words containing the word \"idiot\" further prove that intellectually disabled individuals are still being ignored and feel isolated from the world.",
+            "People use this word either casually or as an insult."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian",
+            "美国": "United States",
+            "富兰克林·史蒂芬斯": "Franklin Stevens"
+        }
+    },
+    {
+        "idx": 59,
+        "src": "今年，在2015年夏季特殊奥林匹克运动会 人们排了好几小时队 就是为了看最后一晚的举重比赛",
+        "ref": "This year, at the 2015 World Summer Games,  people lined up for hours  to get into the final night of powerlifting competition.",
+        "hyp": "This year, at the 2015 Summer Special Olympics, people lined up for hours just to watch the weightlifting competition on the final night.",
+        "new_src_summary": "这段文段介绍了冠军运动员马修·威廉姆斯参加特殊奥林匹克运动会的经历。作为一名智力缺陷运动员，马修通过参与篮球和竞速滑冰项目，代表加拿大参加世界比赛，展现出自信和竞技状态。特殊奥林匹克运动会为智力缺陷者提供了独立的运动项目和健康关注，改善了他们的生活质量。此外，文章也呼吁社会更加包容和理解智力缺陷者，避免使用伤害性词语，体现了运动对智力缺陷人群的重要性和积极影响。整体风格客观自信，旨在引起读者对智力缺陷人群的关注和思考。",
+        "new_tgt_summary": "Matthew Williams, a champion in multiple sports and Canada Games medalist, is representing Canada internationally in basketball. He credits his success to the Special Olympics, which has improved treatment of intellectually disabled individuals. Despite lingering stigma, Matthew is competing in the World Games to challenge perceptions and raise awareness. Special Olympics athletes regain confidence and dignity through participation, highlighting important health needs for intellectually disabled individuals who live significantly shorter lives than those without disabilities. The Special Olympics provide opportunities for athletes to stay healthy, engage in sports, receive health check-ups, and learn about nutrition. The event also brings positive changes to athletes' personal lives, combating negative attitudes and language towards intellectually disabled individuals. Matthew advocates for equal treatment and highlights the positive impact of sports programs, emphasizing the inclusivity and support provided by the Special Olympics community.",
+        "rel_src": [
+            "在2015年的夏季特殊奥林匹克运动会 我的加拿大队伍的队员和我 一起对抗尼日利亚篮球队",
+            "比赛的前一天 尼日利亚篮球队队员参加了运动会的健康系统体检 10名队员中的7名 得到了免费的助听器 人生第一次听得更清楚"
+        ],
+        "rel_tgt": [
+            "At the 2015 Summer Special Olympics, my Canadian team members and I competed against the Nigerian basketball team.",
+            "The day before the game, members of the Nigerian basketball team participated in the health system check-up at the sports event. Out of the 10 players, 7 of them received free hearing aids, hearing clearly for the first time in their lives."
+        ],
+        "hist_info": "\"特殊奥林匹克运动会\" - \"Special Olympics\", \"夏季特殊奥林匹克运动会\" - \"Summer Special Olympics\"",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian",
+            "美国": "United States",
+            "富兰克林·史蒂芬斯": "Franklin Stevens",
+            "2015年夏季特殊奥林匹克运动会": "2015 Summer Special Olympics"
+        }
+    },
+    {
+        "idx": 60,
+        "src": "当我的队友杰基·巴雷特上场时，人们都站了起来 他被称为纽芬兰驼鹿 他硬拉起来665磅 并且蹲起举起了611磅  为特殊奥林匹克运动会传下了多项新纪录",
+        "ref": "So it was standing room only when my teammate Jackie Barrett,  the Newfoundland Moose,  deadlifted 655 pounds  and lifted 611 pounds in the squat --    setting huge new records for Special Olympics.",
+        "hyp": "When my teammate Jackie Barrett took the field, people stood up. He was known as the Newfoundland Caribou. He deadlifted 665 pounds and squatted and lifted 611 pounds, setting multiple new records for the Special Olympics.",
+        "rel_src": [
+            "在2015年的夏季特殊奥林匹克运动会 我的加拿大队伍的队员和我 一起对抗尼日利亚篮球队",
+            "今年，在2015年夏季特殊奥林匹克运动会 人们排了好几小时队 就是为了看最后一晚的举重比赛"
+        ],
+        "rel_tgt": [
+            "At the 2015 Summer Special Olympics, my Canadian team members and I competed against the Nigerian basketball team.",
+            "This year, at the 2015 Summer Special Olympics, people lined up for hours just to watch the weightlifting competition on the final night."
+        ],
+        "hist_info": "\"特殊奥林匹克运动会\" - \"Special Olympics\"",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian",
+            "美国": "United States",
+            "富兰克林·史蒂芬斯": "Franklin Stevens",
+            "2015年夏季特殊奥林匹克运动会": "2015 Summer Special Olympics",
+            "杰基·巴雷特": "Jackie Barrett",
+            "纽芬兰驼鹿": "Newfoundland Caribou"
+        }
+    },
+    {
+        "idx": 61,
+        "src": "杰基是纽芬兰举重选手中的记录保持者 不仅仅是特殊奥林匹克运动会，而是全部举重选手。",
+        "ref": "Jackie is a record holder among all powerlifters in Newfoundland --  not just Special Olympics, all powerlifters.",
+        "hyp": "Jackie is the record holder among weightlifters in Newfoundland, not just in the Special Olympics, but among all weightlifters.",
+        "rel_src": [
+            "特殊奥林匹克运动会让我们保持健康 让我们主动地参与到运动中来",
+            "当我的队友杰基·巴雷特上场时，人们都站了起来 他被称为纽芬兰驼鹿 他硬拉起来665磅 并且蹲起举起了611磅  为特殊奥林匹克运动会传下了多项新纪录"
+        ],
+        "rel_tgt": [
+            "The Special Olympics help us stay healthy and actively engage in sports.",
+            "When my teammate Jackie Barrett took the field, people stood up. He was known as the Newfoundland Caribou. He deadlifted 665 pounds and squatted and lifted 611 pounds, setting multiple new records for the Special Olympics."
+        ],
+        "hist_info": "\"特殊奥林匹克运动会\" - \"Special Olympics\"",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian",
+            "美国": "United States",
+            "富兰克林·史蒂芬斯": "Franklin Stevens",
+            "2015年夏季特殊奥林匹克运动会": "2015 Summer Special Olympics",
+            "杰基·巴雷特": "Jackie Barrett",
+            "纽芬兰驼鹿": "Newfoundland Caribou",
+            "杰基": "Jackie",
+            "纽芬兰": "Newfoundland"
+        }
+    },
+    {
+        "idx": 62,
+        "src": "杰基现在在洛杉矶算是大明星了 ESPN也实时发了关于他打破举重记录的推特 并且为他的表现而震惊",
+        "ref": "Jackie was a huge star in LA,  and ESPN live-tweeted his record-breaking lifts  and were wowed by his performance.",
+        "hyp": "Jackie is now a big star in Los Angeles, with ESPN even tweeting in real-time about his record-breaking weightlifting performance and being amazed by his performance.",
+        "rel_src": [
+            "当我的队友杰基·巴雷特上场时，人们都站了起来 他被称为纽芬兰驼鹿 他硬拉起来665磅 并且蹲起举起了611磅  为特殊奥林匹克运动会传下了多项新纪录",
+            "杰基是纽芬兰举重选手中的记录保持者 不仅仅是特殊奥林匹克运动会，而是全部举重选手。"
+        ],
+        "rel_tgt": [
+            "When my teammate Jackie Barrett took the field, people stood up. He was known as the Newfoundland Caribou. He deadlifted 665 pounds and squatted and lifted 611 pounds, setting multiple new records for the Special Olympics.",
+            "Jackie is the record holder among weightlifters in Newfoundland, not just in the Special Olympics, but among all weightlifters."
+        ],
+        "hist_info": "\"洛杉矶\" - \"Los Angeles\", \"ESPN\" - \"ESPN\", \"杰基\" - \"Jackie\"",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian",
+            "美国": "United States",
+            "富兰克林·史蒂芬斯": "Franklin Stevens",
+            "2015年夏季特殊奥林匹克运动会": "2015 Summer Special Olympics",
+            "杰基·巴雷特": "Jackie Barrett",
+            "纽芬兰驼鹿": "Newfoundland Caribou",
+            "杰基": "Jackie",
+            "纽芬兰": "Newfoundland"
+        }
+    },
+    {
+        "idx": 63,
+        "src": "50年前，几乎没人可以想象智力缺陷的人 可以做到这样",
+        "ref": "Fifty years ago, few imagined individuals with intellectual disabilities  could do anything like that.",
+        "hyp": "50 years ago, almost no one could imagine that individuals with intellectual disabilities could achieve this.",
+        "rel_src": [
+            "当我的队友杰基·巴雷特上场时，人们都站了起来 他被称为纽芬兰驼鹿 他硬拉起来665磅 并且蹲起举起了611磅  为特殊奥林匹克运动会传下了多项新纪录",
+            "杰基是纽芬兰举重选手中的记录保持者 不仅仅是特殊奥林匹克运动会，而是全部举重选手。"
+        ],
+        "rel_tgt": [
+            "When my teammate Jackie Barrett took the field, people stood up. He was known as the Newfoundland Caribou. He deadlifted 665 pounds and squatted and lifted 611 pounds, setting multiple new records for the Special Olympics.",
+            "Jackie is the record holder among weightlifters in Newfoundland, not just in the Special Olympics, but among all weightlifters."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian",
+            "美国": "United States",
+            "富兰克林·史蒂芬斯": "Franklin Stevens",
+            "2015年夏季特殊奥林匹克运动会": "2015 Summer Special Olympics",
+            "杰基·巴雷特": "Jackie Barrett",
+            "纽芬兰驼鹿": "Newfoundland Caribou",
+            "杰基": "Jackie",
+            "纽芬兰": "Newfoundland"
+        }
+    },
+    {
+        "idx": 64,
+        "src": "今年，六万观众填满了著名的洛杉矶纪念体育馆 观看了比赛的开幕式 也为来自世界165个国家 的运动员喝彩",
+        "ref": "This year, 60,000 spectators filled the famous LA Memorial Coliseum  to watch the opening ceremonies of World Games  and cheer athletes from 165 countries  around the world.",
+        "hyp": "This year, sixty thousand spectators filled the famous Los Angeles Memorial Sports Arena to watch the opening ceremony of the competition and cheer for athletes from 165 countries around the world.",
+        "rel_src": [
+            "今年，在2015年夏季特殊奥林匹克运动会 人们排了好几小时队 就是为了看最后一晚的举重比赛",
+            "当我的队友杰基·巴雷特上场时，人们都站了起来 他被称为纽芬兰驼鹿 他硬拉起来665磅 并且蹲起举起了611磅  为特殊奥林匹克运动会传下了多项新纪录"
+        ],
+        "rel_tgt": [
+            "This year, at the 2015 Summer Special Olympics, people lined up for hours just to watch the weightlifting competition on the final night.",
+            "When my teammate Jackie Barrett took the field, people stood up. He was known as the Newfoundland Caribou. He deadlifted 665 pounds and squatted and lifted 611 pounds, setting multiple new records for the Special Olympics."
+        ],
+        "hist_info": "\"洛杉矶\" - \"Los Angeles\"",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian",
+            "美国": "United States",
+            "富兰克林·史蒂芬斯": "Franklin Stevens",
+            "2015年夏季特殊奥林匹克运动会": "2015 Summer Special Olympics",
+            "杰基·巴雷特": "Jackie Barrett",
+            "纽芬兰驼鹿": "Newfoundland Caribou",
+            "杰基": "Jackie",
+            "纽芬兰": "Newfoundland",
+            "洛杉矶纪念体育馆": "Los Angeles Memorial Sports Arena"
+        }
+    },
+    {
+        "idx": 65,
+        "src": "我们受到祝贺和欢呼，而不再是被掩藏起来",
+        "ref": "Far from being hidden away, we were cheered and celebrated.",
+        "hyp": "We are congratulated and cheered for, rather than being hidden away.",
+        "rel_src": [
+            "然后带“傻”字的词 证明了智力缺陷的人 依旧被视而不见 感觉与世隔绝",
+            "去年在推特上，被用了超过九百万次 这深深伤害到了我 以及这个世界上四百五十万运动员同伴"
+        ],
+        "rel_tgt": [
+            "Words containing the word \"idiot\" further prove that intellectually disabled individuals are still being ignored and feel isolated from the world.",
+            "Last year, on Twitter, it was used over nine million times, deeply hurting me and my 4.5 million athlete companions in this world."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian",
+            "美国": "United States",
+            "富兰克林·史蒂芬斯": "Franklin Stevens",
+            "2015年夏季特殊奥林匹克运动会": "2015 Summer Special Olympics",
+            "杰基·巴雷特": "Jackie Barrett",
+            "纽芬兰驼鹿": "Newfoundland Caribou",
+            "杰基": "Jackie",
+            "纽芬兰": "Newfoundland",
+            "洛杉矶纪念体育馆": "Los Angeles Memorial Sports Arena"
+        }
+    },
+    {
+        "idx": 66,
+        "src": "特殊奥林匹克运动会教会运动员们 更加自信，更加以己为豪",
+        "ref": "Special Olympics teaches athletes  to be confident and proud of themselves.",
+        "hyp": "The Special Olympics teach athletes to be more confident and proud of themselves.",
+        "rel_src": [
+            "他们更加兴奋，开心，自信 因为他们的教练终于能用语言和他们交流了",
+            "它同时也在运动员的生活方面改变他们"
+        ],
+        "rel_tgt": [
+            "They became more excited, happy, and confident because their coach could finally communicate with them in language.",
+            "It also changes them in terms of their personal lives."
+        ],
+        "hist_info": "\"特殊奥林匹克运动会\" - \"Special Olympics\"",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian",
+            "美国": "United States",
+            "富兰克林·史蒂芬斯": "Franklin Stevens",
+            "2015年夏季特殊奥林匹克运动会": "2015 Summer Special Olympics",
+            "杰基·巴雷特": "Jackie Barrett",
+            "纽芬兰驼鹿": "Newfoundland Caribou",
+            "杰基": "Jackie",
+            "纽芬兰": "Newfoundland",
+            "洛杉矶纪念体育馆": "Los Angeles Memorial Sports Arena"
+        }
+    },
+    {
+        "idx": 67,
+        "src": "特殊奥林匹克运动会也教会这个世界 有智力缺陷的人 也值得被尊重被包含",
+        "ref": "Special Olympics teaches the world  that people with intellectual disabilities  deserve respect and inclusion.",
+        "hyp": "The Special Olympics also teach the world that individuals with intellectual disabilities deserve to be respected and included.",
+        "rel_src": [
+            "今年，研究表明 在美国接近半数的成年人 对于智力缺陷的人一个也不认识 44%的没有与智力缺陷的人接触的美国人 明显的更不宽容，态度更不积极",
+            "去年在推特上，被用了超过九百万次 这深深伤害到了我 以及这个世界上四百五十万运动员同伴"
+        ],
+        "rel_tgt": [
+            "This year, research shows that nearly half of adults in the United States do not know anyone with an intellectual disability. 44% of Americans who have not had contact with individuals with intellectual disabilities are significantly less tolerant and have a less positive attitude.",
+            "Last year, on Twitter, it was used over nine million times, deeply hurting me and my 4.5 million athlete companions in this world."
+        ],
+        "hist_info": "\"特殊奥林匹克运动会\" - \"Special Olympics\"",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian",
+            "美国": "United States",
+            "富兰克林·史蒂芬斯": "Franklin Stevens",
+            "2015年夏季特殊奥林匹克运动会": "2015 Summer Special Olympics",
+            "杰基·巴雷特": "Jackie Barrett",
+            "纽芬兰驼鹿": "Newfoundland Caribou",
+            "杰基": "Jackie",
+            "纽芬兰": "Newfoundland",
+            "洛杉矶纪念体育馆": "Los Angeles Memorial Sports Arena"
+        }
+    },
+    {
+        "idx": 68,
+        "src": "现在，我在我的运动事业里，有梦想也有成就 有良好的培训 得到尊重 生活更加健康 然后我也在努力往私人教练的事业前进",
+        "ref": "Now, I have dreams and achievements in my sport,  great coaches,  respect and dignity,  better health,  and I am pursuing a career as a personal trainer.",
+        "hyp": "Now, in my sports career, I have dreams and achievements, receive good training, respect, live a healthier life, and I am also working towards a career as a personal coach.",
+        "rel_src": [
+            "特殊奥林匹克运动会教会运动员们 更加自信，更加以己为豪",
+            "特殊奥林匹克运动会也教会这个世界 有智力缺陷的人 也值得被尊重被包含"
+        ],
+        "rel_tgt": [
+            "The Special Olympics teach athletes to be more confident and proud of themselves.",
+            "The Special Olympics also teach the world that individuals with intellectual disabilities deserve to be respected and included."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian",
+            "美国": "United States",
+            "富兰克林·史蒂芬斯": "Franklin Stevens",
+            "2015年夏季特殊奥林匹克运动会": "2015 Summer Special Olympics",
+            "杰基·巴雷特": "Jackie Barrett",
+            "纽芬兰驼鹿": "Newfoundland Caribou",
+            "杰基": "Jackie",
+            "纽芬兰": "Newfoundland",
+            "洛杉矶纪念体育馆": "Los Angeles Memorial Sports Arena"
+        }
+    },
+    {
+        "idx": 69,
+        "src": "我不在被掩藏，被欺凌 我在TED这里在做TED Talk",
+        "ref": "I am no longer hidden, bullied  and I am here doing a TED Talk.",
+        "hyp": "I am no longer hidden or bullied. I am here at TED giving a TED Talk.",
+        "rel_src": [
+            "我们受到祝贺和欢呼，而不再是被掩藏起来",
+            "特殊奥林匹克运动会也教会这个世界 有智力缺陷的人 也值得被尊重被包含"
+        ],
+        "rel_tgt": [
+            "We are congratulated and cheered for, rather than being hidden away.",
+            "The Special Olympics also teach the world that individuals with intellectual disabilities deserve to be respected and included."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian",
+            "美国": "United States",
+            "富兰克林·史蒂芬斯": "Franklin Stevens",
+            "2015年夏季特殊奥林匹克运动会": "2015 Summer Special Olympics",
+            "杰基·巴雷特": "Jackie Barrett",
+            "纽芬兰驼鹿": "Newfoundland Caribou",
+            "杰基": "Jackie",
+            "纽芬兰": "Newfoundland",
+            "洛杉矶纪念体育馆": "Los Angeles Memorial Sports Arena",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 70,
+        "src": "有了特殊奥林匹克运动会，这个世界变得不一样 但还有很长一段路要走",
+        "ref": "The world is a different place because of Special Olympics,  but there is still farther to go.",
+        "hyp": "With the Special Olympics, the world has changed, but there is still a long way to go.",
+        "rel_src": [
+            "特殊奥林匹克运动会教会运动员们 更加自信，更加以己为豪",
+            "特殊奥林匹克运动会也教会这个世界 有智力缺陷的人 也值得被尊重被包含"
+        ],
+        "rel_tgt": [
+            "The Special Olympics teach athletes to be more confident and proud of themselves.",
+            "The Special Olympics also teach the world that individuals with intellectual disabilities deserve to be respected and included."
+        ],
+        "hist_info": "\"特殊奥林匹克运动会\" - \"Special Olympics\"",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian",
+            "美国": "United States",
+            "富兰克林·史蒂芬斯": "Franklin Stevens",
+            "2015年夏季特殊奥林匹克运动会": "2015 Summer Special Olympics",
+            "杰基·巴雷特": "Jackie Barrett",
+            "纽芬兰驼鹿": "Newfoundland Caribou",
+            "杰基": "Jackie",
+            "纽芬兰": "Newfoundland",
+            "洛杉矶纪念体育馆": "Los Angeles Memorial Sports Arena",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 71,
+        "src": "所以下一次当你再看到智力缺陷的人 我希望你们能看到他们的潜力",
+        "ref": "So the next time you see someone with an intellectual disability,  I hope you will see their ability.",
+        "hyp": "So the next time you see someone with an intellectual disability, I hope you can see their potential.",
+        "rel_src": [
+            "特殊奥林匹克运动会也教会这个世界 有智力缺陷的人 也值得被尊重被包含",
+            "有了特殊奥林匹克运动会，这个世界变得不一样 但还有很长一段路要走"
+        ],
+        "rel_tgt": [
+            "The Special Olympics also teach the world that individuals with intellectual disabilities deserve to be respected and included.",
+            "With the Special Olympics, the world has changed, but there is still a long way to go."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian",
+            "美国": "United States",
+            "富兰克林·史蒂芬斯": "Franklin Stevens",
+            "2015年夏季特殊奥林匹克运动会": "2015 Summer Special Olympics",
+            "杰基·巴雷特": "Jackie Barrett",
+            "纽芬兰驼鹿": "Newfoundland Caribou",
+            "杰基": "Jackie",
+            "纽芬兰": "Newfoundland",
+            "洛杉矶纪念体育馆": "Los Angeles Memorial Sports Arena",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 72,
+        "src": "下次有人在你身边用“傻”这个词 我希望你告诉他们这个词都多伤人",
+        "ref": "The next time someone uses the r-word near you,  I hope you will tell them how much it hurts.",
+        "hyp": "Next time someone uses the word \"stupid\" around you, I hope you will tell them how hurtful that word can be.",
+        "rel_src": [
+            "我的运动员同伴，也是全球信使 富兰克林·史蒂芬斯 他给一个曾用“傻”词来骂人的政治评论家写了一封信 “找一天来看特殊奥林匹克运动会吧，",
+            "今年，在2015年夏季特殊奥林匹克运动会 人们排了好几小时队 就是为了看最后一晚的举重比赛"
+        ],
+        "rel_tgt": [
+            "My athlete companion and global messenger, Franklin Stevens, wrote a letter to a political commentator who had used the word \"stupid\" as an insult, inviting them to come and see the Special Olympics.",
+            "This year, at the 2015 Summer Special Olympics, people lined up for hours just to watch the weightlifting competition on the final night."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian",
+            "美国": "United States",
+            "富兰克林·史蒂芬斯": "Franklin Stevens",
+            "2015年夏季特殊奥林匹克运动会": "2015 Summer Special Olympics",
+            "杰基·巴雷特": "Jackie Barrett",
+            "纽芬兰驼鹿": "Newfoundland Caribou",
+            "杰基": "Jackie",
+            "纽芬兰": "Newfoundland",
+            "洛杉矶纪念体育馆": "Los Angeles Memorial Sports Arena",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 73,
+        "src": "我希望你们会希望看一场特殊奥林匹克运动会",
+        "ref": "I hope you will think about getting involved with Special Olympics.",
+        "hyp": "I hope you will want to watch a Special Olympics event.",
+        "rel_src": [
+            "看在你离开的时候，是否仍想法不变。”",
+            "当我的队友杰基·巴雷特上场时，人们都站了起来 他被称为纽芬兰驼鹿 他硬拉起来665磅 并且蹲起举起了611磅  为特殊奥林匹克运动会传下了多项新纪录"
+        ],
+        "rel_tgt": [
+            "See if you still have the same thoughts when you leave.\"",
+            "When my teammate Jackie Barrett took the field, people stood up. He was known as the Newfoundland Caribou. He deadlifted 665 pounds and squatted and lifted 611 pounds, setting multiple new records for the Special Olympics."
+        ],
+        "hist_info": "\"特殊奥林匹克运动会\" - \"Special Olympics\"",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian",
+            "美国": "United States",
+            "富兰克林·史蒂芬斯": "Franklin Stevens",
+            "2015年夏季特殊奥林匹克运动会": "2015 Summer Special Olympics",
+            "杰基·巴雷特": "Jackie Barrett",
+            "纽芬兰驼鹿": "Newfoundland Caribou",
+            "杰基": "Jackie",
+            "纽芬兰": "Newfoundland",
+            "洛杉矶纪念体育馆": "Los Angeles Memorial Sports Arena",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 74,
+        "src": "我最后再跟大家分享一个想法",
+        "ref": "I would like to leave you with one final thought.",
+        "hyp": "Lastly, I would like to share one more idea with everyone.",
+        "rel_src": [
+            "现在，我在我的运动事业里，有梦想也有成就 有良好的培训 得到尊重 生活更加健康 然后我也在努力往私人教练的事业前进",
+            "我不在被掩藏，被欺凌 我在TED这里在做TED Talk"
+        ],
+        "rel_tgt": [
+            "Now, in my sports career, I have dreams and achievements, receive good training, respect, live a healthier life, and I am also working towards a career as a personal coach.",
+            "I am no longer hidden or bullied. I am here at TED giving a TED Talk."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian",
+            "美国": "United States",
+            "富兰克林·史蒂芬斯": "Franklin Stevens",
+            "2015年夏季特殊奥林匹克运动会": "2015 Summer Special Olympics",
+            "杰基·巴雷特": "Jackie Barrett",
+            "纽芬兰驼鹿": "Newfoundland Caribou",
+            "杰基": "Jackie",
+            "纽芬兰": "Newfoundland",
+            "洛杉矶纪念体育馆": "Los Angeles Memorial Sports Arena",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 75,
+        "src": "尼尔森·曼德拉说过 “体育有改变世界的能力。”",
+        "ref": "Nelson Mandela said,  \"Sports has the power to change the world.\"",
+        "hyp": "Nelson Mandela once said, \"Sport has the power to change the world.\"",
+        "rel_src": [
+            "特殊奥林匹克运动会也教会这个世界 有智力缺陷的人 也值得被尊重被包含",
+            "有了特殊奥林匹克运动会，这个世界变得不一样 但还有很长一段路要走"
+        ],
+        "rel_tgt": [
+            "The Special Olympics also teach the world that individuals with intellectual disabilities deserve to be respected and included.",
+            "With the Special Olympics, the world has changed, but there is still a long way to go."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian",
+            "美国": "United States",
+            "富兰克林·史蒂芬斯": "Franklin Stevens",
+            "2015年夏季特殊奥林匹克运动会": "2015 Summer Special Olympics",
+            "杰基·巴雷特": "Jackie Barrett",
+            "纽芬兰驼鹿": "Newfoundland Caribou",
+            "杰基": "Jackie",
+            "纽芬兰": "Newfoundland",
+            "洛杉矶纪念体育馆": "Los Angeles Memorial Sports Arena",
+            "TED": "TED",
+            "尼尔森·曼德拉": "Nelson Mandela"
+        }
+    },
+    {
+        "idx": 76,
+        "src": "特殊奥林匹克运动会正在改变世界 在改变四百五十万运动员 给了我们一席之地，让我们变得自信 认识朋友 不被歧视 也能体验当一回冠军",
+        "ref": "Special Olympics is changing the world  by transforming four and a half million athletes  and giving us a place to be confident,  meet friends,  not be judged  and get to feel like and be champions.",
+        "hyp": "The Special Olympics are changing the world, changing the lives of 4.5 million athletes, giving us a place to be confident, make friends, avoid discrimination, and experience being a champion.",
+        "rel_src": [
+            "特殊奥林匹克运动会教会运动员们 更加自信，更加以己为豪",
+            "特殊奥林匹克运动会也教会这个世界 有智力缺陷的人 也值得被尊重被包含"
+        ],
+        "rel_tgt": [
+            "The Special Olympics teach athletes to be more confident and proud of themselves.",
+            "The Special Olympics also teach the world that individuals with intellectual disabilities deserve to be respected and included."
+        ],
+        "hist_info": "\"特殊奥林匹克运动会\" - \"Special Olympics\"",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian",
+            "美国": "United States",
+            "富兰克林·史蒂芬斯": "Franklin Stevens",
+            "2015年夏季特殊奥林匹克运动会": "2015 Summer Special Olympics",
+            "杰基·巴雷特": "Jackie Barrett",
+            "纽芬兰驼鹿": "Newfoundland Caribou",
+            "杰基": "Jackie",
+            "纽芬兰": "Newfoundland",
+            "洛杉矶纪念体育馆": "Los Angeles Memorial Sports Arena",
+            "TED": "TED",
+            "尼尔森·曼德拉": "Nelson Mandela"
+        }
+    },
+    {
+        "idx": 77,
+        "src": "谢谢大家！",
+        "ref": "Thank you very much.",
+        "hyp": "Thank you, everyone!",
+        "rel_src": [
+            "特殊奥林匹克运动会教会运动员们 更加自信，更加以己为豪",
+            "特殊奥林匹克运动会也教会这个世界 有智力缺陷的人 也值得被尊重被包含"
+        ],
+        "rel_tgt": [
+            "The Special Olympics teach athletes to be more confident and proud of themselves.",
+            "The Special Olympics also teach the world that individuals with intellectual disabilities deserve to be respected and included."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "马修·威廉姆斯": "Matthew Williams",
+            "加拿大全运会": "Canada Games",
+            "加拿大": "Canada",
+            "特殊奥林匹克运动会": "Special Olympics",
+            "世界运动会": "World Games",
+            "洛杉矶": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "特殊奥运会": "Special Olympics",
+            "弗兰克·海登博士": "Dr. Frank Hayden",
+            "多伦多大学": "University of Toronto",
+            "海登博士": "Dr. Hayden",
+            "尤尼斯·肯尼迪·谢里夫": "Eunice Kennedy Shriver",
+            "夏季特殊奥林匹克运动会": "Summer Special Olympics",
+            "世界比赛": "World Games",
+            "尼日利亚": "Nigerian",
+            "美国": "United States",
+            "富兰克林·史蒂芬斯": "Franklin Stevens",
+            "2015年夏季特殊奥林匹克运动会": "2015 Summer Special Olympics",
+            "杰基·巴雷特": "Jackie Barrett",
+            "纽芬兰驼鹿": "Newfoundland Caribou",
+            "杰基": "Jackie",
+            "纽芬兰": "Newfoundland",
+            "洛杉矶纪念体育馆": "Los Angeles Memorial Sports Arena",
+            "TED": "TED",
+            "尼尔森·曼德拉": "Nelson Mandela"
+        }
+    }
+]

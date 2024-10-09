@@ -1,0 +1,2621 @@
+[
+    {
+        "idx": 0,
+        "src": "Today's computers are so amazing  that we fail to notice how terrible they really are.",
+        "ref": "現代のコンピューターは あまりにも優れていて 私たちはその出来の酷さに 気付きすらしない程です",
+        "hyp": "今日のコンピューターは本当に素晴らしいので、実際にはどれだけひどいか気づかないほどです。",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 1,
+        "src": "I'd like to talk to you today about this problem,  and how we can fix it with neuroscience.",
+        "ref": "今日はこの問題と これを― 神経科学で「修復する」ことについて お話ししたいと思います",
+        "hyp": "今日はこの問題について話し、脳科学を使ってどのように修正できるかについてお話ししたいと思います。",
+        "rel_src": [
+            "Today's computers are so amazing  that we fail to notice how terrible they really are."
+        ],
+        "rel_tgt": [
+            "今日のコンピューターは本当に素晴らしいので、実際にはどれだけひどいか気づかないほどです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 2,
+        "src": "First, I'd like to take you back to a frosty night in Harlem in 2011  that had a profound impact on me.",
+        "ref": "2011年 霜の降りる ハーレムの夜のこと その夜は僕に 深い衝撃を与えました",
+        "hyp": "まず、2011年のハーレムでの霜の降りる夜にあなたを連れて行きたいと思います。その夜は私に深い影響を与えました。",
+        "rel_src": [
+            "Today's computers are so amazing  that we fail to notice how terrible they really are.",
+            "I'd like to talk to you today about this problem,  and how we can fix it with neuroscience."
+        ],
+        "rel_tgt": [
+            "今日のコンピューターは本当に素晴らしいので、実際にはどれだけひどいか気づかないほどです。",
+            "今日はこの問題について話し、脳科学を使ってどのように修正できるかについてお話ししたいと思います。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年"
+        }
+    },
+    {
+        "idx": 3,
+        "src": "I was sitting in a dive bar outside of Columbia University,  where I studied computer science and neuroscience,  and I was having this great conversation with a fellow student  about the power of holograms to one day replace computers.",
+        "ref": "僕がコンピューター・サイエンスと 神経科学を学んでいた コロンビア大学の外にあるバーで １人の学友と いつかコンピューターに 取って代わるであろう ホログラムの力について 有意義に語り合っている時でした",
+        "hyp": "私はコロンビア大学の外のダイブバーに座っていて、コンピューターサイエンスと脳科学を勉強していた。そして、ホログラムの力がいつかコンピューターを置き換える日について、仲間の学生と素晴らしい会話をしていました。",
+        "rel_src": [
+            "Today's computers are so amazing  that we fail to notice how terrible they really are.",
+            "I'd like to talk to you today about this problem,  and how we can fix it with neuroscience."
+        ],
+        "rel_tgt": [
+            "今日のコンピューターは本当に素晴らしいので、実際にはどれだけひどいか気づかないほどです。",
+            "今日はこの問題について話し、脳科学を使ってどのように修正できるかについてお話ししたいと思います。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学"
+        }
+    },
+    {
+        "idx": 4,
+        "src": "And just as we were getting to the best part of the conversation,  of course, his phone lights up.",
+        "ref": "僕たちの会話が 最高潮に盛り上がった時 そう 彼のスマホが光りました",
+        "hyp": "そして、会話の最高の部分に達していたとき、もちろん、彼の電話が光りました。",
+        "rel_src": [
+            "I'd like to talk to you today about this problem,  and how we can fix it with neuroscience.",
+            "I was sitting in a dive bar outside of Columbia University,  where I studied computer science and neuroscience,  and I was having this great conversation with a fellow student  about the power of holograms to one day replace computers."
+        ],
+        "rel_tgt": [
+            "今日はこの問題について話し、脳科学を使ってどのように修正できるかについてお話ししたいと思います。",
+            "私はコロンビア大学の外のダイブバーに座っていて、コンピューターサイエンスと脳科学を勉強していた。そして、ホログラムの力がいつかコンピューターを置き換える日について、仲間の学生と素晴らしい会話をしていました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学"
+        }
+    },
+    {
+        "idx": 5,
+        "src": "And he pulls it towards himself, and he looks down and he starts typing.",
+        "ref": "彼はスマホを取り出すと これに目を向け タイプし始めました",
+        "hyp": "そして、彼はそれを自分に引き寄せ、下を見てタイプし始めます。",
+        "rel_src": [
+            "I was sitting in a dive bar outside of Columbia University,  where I studied computer science and neuroscience,  and I was having this great conversation with a fellow student  about the power of holograms to one day replace computers.",
+            "And just as we were getting to the best part of the conversation,  of course, his phone lights up."
+        ],
+        "rel_tgt": [
+            "私はコロンビア大学の外のダイブバーに座っていて、コンピューターサイエンスと脳科学を勉強していた。そして、ホログラムの力がいつかコンピューターを置き換える日について、仲間の学生と素晴らしい会話をしていました。",
+            "そして、会話の最高の部分に達していたとき、もちろん、彼の電話が光りました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学"
+        }
+    },
+    {
+        "idx": 6,
+        "src": "And then he forces his eyeballs back up to mine and he goes,  \"Keep going. I'm with you.\"",
+        "ref": "そして目だけで僕の方を見上げると 「続けて 聞いてるよ」 と言ったのです",
+        "hyp": "そして、彼は目を私の方に強制的に戻し、「続けて。私はあなたと共にいます。」と言いました。",
+        "rel_src": [
+            "I was sitting in a dive bar outside of Columbia University,  where I studied computer science and neuroscience,  and I was having this great conversation with a fellow student  about the power of holograms to one day replace computers.",
+            "And he pulls it towards himself, and he looks down and he starts typing."
+        ],
+        "rel_tgt": [
+            "私はコロンビア大学の外のダイブバーに座っていて、コンピューターサイエンスと脳科学を勉強していた。そして、ホログラムの力がいつかコンピューターを置き換える日について、仲間の学生と素晴らしい会話をしていました。",
+            "そして、彼はそれを自分に引き寄せ、下を見てタイプし始めます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学"
+        }
+    },
+    {
+        "idx": 7,
+        "src": "But of course his eyes were glazed over,  and the moment was dead.",
+        "ref": "でももちろん 彼の視線は ぼんやりとしてしまって その時間の意味は失われました",
+        "hyp": "しかし、もちろん、彼の目はうっとりしていて、その瞬間は終わってしまいました。",
+        "rel_src": [
+            "And just as we were getting to the best part of the conversation,  of course, his phone lights up.",
+            "And he pulls it towards himself, and he looks down and he starts typing."
+        ],
+        "rel_tgt": [
+            "そして、会話の最高の部分に達していたとき、もちろん、彼の電話が光りました。",
+            "そして、彼はそれを自分に引き寄せ、下を見てタイプし始めます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学"
+        }
+    },
+    {
+        "idx": 8,
+        "src": "Meanwhile across the bar,  I noticed another student holding his phone,  this time towards a group.",
+        "ref": "その時 バーの向こう側では また別の学生が スマホを持ち 友達の一団へそれを掲げて",
+        "hyp": "一方、バーの向こう側で、別の学生が電話を持っているのを見ました。今度はグループに向けています。",
+        "rel_src": [
+            "And just as we were getting to the best part of the conversation,  of course, his phone lights up.",
+            "And he pulls it towards himself, and he looks down and he starts typing."
+        ],
+        "rel_tgt": [
+            "そして、会話の最高の部分に達していたとき、もちろん、彼の電話が光りました。",
+            "そして、彼はそれを自分に引き寄せ、下を見てタイプし始めます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学"
+        }
+    },
+    {
+        "idx": 9,
+        "src": "He was swiping through pictures on Instagram,  and these kids were laughing hysterically.",
+        "ref": "インスタグラムの写真を スワイプしながら見せていて 彼らは笑いころげていました",
+        "hyp": "彼はInstagramの写真をスワイプしていて、その子供たちはヒステリックに笑っていました。",
+        "rel_src": [
+            "And he pulls it towards himself, and he looks down and he starts typing.",
+            "Meanwhile across the bar,  I noticed another student holding his phone,  this time towards a group."
+        ],
+        "rel_tgt": [
+            "そして、彼はそれを自分に引き寄せ、下を見てタイプし始めます。",
+            "一方、バーの向こう側で、別の学生が電話を持っているのを見ました。今度はグループに向けています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学"
+        }
+    },
+    {
+        "idx": 10,
+        "src": "And that dichotomy between how crappy I was feeling  and how happy they were feeling about the same technology,  really got me thinking.",
+        "ref": "同じ技術に対して 自分が不満を感じているのに 彼らは幸せに感じていることについて 私は考え始めました",
+        "hyp": "そして、私が感じていたくだらなさと、彼らが同じ技術に対して感じていた幸せとの間の二分法は、私を本当に考えさせました。",
+        "rel_src": [
+            "I was sitting in a dive bar outside of Columbia University,  where I studied computer science and neuroscience,  and I was having this great conversation with a fellow student  about the power of holograms to one day replace computers.",
+            "He was swiping through pictures on Instagram,  and these kids were laughing hysterically."
+        ],
+        "rel_tgt": [
+            "私はコロンビア大学の外のダイブバーに座っていて、コンピューターサイエンスと脳科学を勉強していた。そして、ホログラムの力がいつかコンピューターを置き換える日について、仲間の学生と素晴らしい会話をしていました。",
+            "彼はInstagramの写真をスワイプしていて、その子供たちはヒステリックに笑っていました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学"
+        }
+    },
+    {
+        "idx": 11,
+        "src": "And the more I thought of it, the more I realized  it was clearly not the digital information that was the bad guy here,  it was simply the display position that was separating me from my friend  and that was binding those kids together.",
+        "ref": "考えるにつれ 「悪者」はデジタル情報そのものではなく 単にディスプレイ装置が 友人から私を隔てているのであり 一方で彼らを結びつけたんだと 気付きました",
+        "hyp": "そして、考えれば考えるほど、明らかに悪者ではなかったのはデジタル情報ではなく、単に私と友人を分断し、それらの子供たちを結びつけていたのは表示位置だったと気づきました。",
+        "rel_src": [
+            "I was sitting in a dive bar outside of Columbia University,  where I studied computer science and neuroscience,  and I was having this great conversation with a fellow student  about the power of holograms to one day replace computers.",
+            "And that dichotomy between how crappy I was feeling  and how happy they were feeling about the same technology,  really got me thinking."
+        ],
+        "rel_tgt": [
+            "私はコロンビア大学の外のダイブバーに座っていて、コンピューターサイエンスと脳科学を勉強していた。そして、ホログラムの力がいつかコンピューターを置き換える日について、仲間の学生と素晴らしい会話をしていました。",
+            "そして、私が感じていたくだらなさと、彼らが同じ技術に対して感じていた幸せとの間の二分法は、私を本当に考えさせました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学"
+        }
+    },
+    {
+        "idx": 12,
+        "src": "See, they were connected around something,  just like our ancestors who evolved their social cognitions  And that's exactly what tools should do, I think.",
+        "ref": "彼らは何かの周りで結びついていました それはまるで 焚き火の周りで 物語を語って 社会的認知を発達させた先祖のように 僕はこのツールは その為にあるんだと思います",
+        "hyp": "彼らは何かに囲まれてつながっていた、私たちの祖先と同様に、社会認識を進化させた。そして、それこそが道具がすべきことだと私は考えます。",
+        "rel_src": [
+            "And that dichotomy between how crappy I was feeling  and how happy they were feeling about the same technology,  really got me thinking.",
+            "And the more I thought of it, the more I realized  it was clearly not the digital information that was the bad guy here,  it was simply the display position that was separating me from my friend  and that was binding those kids together."
+        ],
+        "rel_tgt": [
+            "そして、私が感じていたくだらなさと、彼らが同じ技術に対して感じていた幸せとの間の二分法は、私を本当に考えさせました。",
+            "そして、考えれば考えるほど、明らかに悪者ではなかったのはデジタル情報ではなく、単に私と友人を分断し、それらの子供たちを結びつけていたのは表示位置だったと気づきました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学"
+        }
+    },
+    {
+        "idx": 13,
+        "src": "They should extend our bodies.",
+        "ref": "身体機能の拡張であるべきです",
+        "hyp": "彼らは私たちの身体を拡張すべきです。",
+        "rel_src": [
+            "And the more I thought of it, the more I realized  it was clearly not the digital information that was the bad guy here,  it was simply the display position that was separating me from my friend  and that was binding those kids together.",
+            "See, they were connected around something,  just like our ancestors who evolved their social cognitions  And that's exactly what tools should do, I think."
+        ],
+        "rel_tgt": [
+            "そして、考えれば考えるほど、明らかに悪者ではなかったのはデジタル情報ではなく、単に私と友人を分断し、それらの子供たちを結びつけていたのは表示位置だったと気づきました。",
+            "彼らは何かに囲まれてつながっていた、私たちの祖先と同様に、社会認識を進化させた。そして、それこそが道具がすべきことだと私は考えます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学"
+        }
+    },
+    {
+        "idx": 14,
+        "src": "And I think computers today are doing quite the opposite.",
+        "ref": "こんにちのコンピューターでは 逆のことが起きています",
+        "hyp": "そして、私は今日のコンピューターはまったく逆のことをしていると思います。",
+        "rel_src": [
+            "Today's computers are so amazing  that we fail to notice how terrible they really are.",
+            "And that dichotomy between how crappy I was feeling  and how happy they were feeling about the same technology,  really got me thinking."
+        ],
+        "rel_tgt": [
+            "今日のコンピューターは本当に素晴らしいので、実際にはどれだけひどいか気づかないほどです。",
+            "そして、私が感じていたくだらなさと、彼らが同じ技術に対して感じていた幸せとの間の二分法は、私を本当に考えさせました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学"
+        }
+    },
+    {
+        "idx": 15,
+        "src": "Whether you're sending an email to your wife  or you're composing a symphony  or just consoling a friend,  you're doing it in pretty much the same way.",
+        "ref": "あなたが妻にメールを送っている時 交響曲を作曲している時 あるいは友達を慰めている時 全く同じような行動を取っています",
+        "hyp": "あなたが妻にメールを送ったり、交響曲を作曲したり、友人を慰めたりしているとき、ほぼ同じ方法で行っています。",
+        "rel_src": [
+            "And the more I thought of it, the more I realized  it was clearly not the digital information that was the bad guy here,  it was simply the display position that was separating me from my friend  and that was binding those kids together.",
+            "See, they were connected around something,  just like our ancestors who evolved their social cognitions  And that's exactly what tools should do, I think."
+        ],
+        "rel_tgt": [
+            "そして、考えれば考えるほど、明らかに悪者ではなかったのはデジタル情報ではなく、単に私と友人を分断し、それらの子供たちを結びつけていたのは表示位置だったと気づきました。",
+            "彼らは何かに囲まれてつながっていた、私たちの祖先と同様に、社会認識を進化させた。そして、それこそが道具がすべきことだと私は考えます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学"
+        }
+    },
+    {
+        "idx": 16,
+        "src": "You're hunched over these rectangles,  fumbling with buttons and menus and more rectangles.",
+        "ref": "屈み込みながら このように四角く表示された 延々と出てくるアイコンや メニューボタンを操作しています",
+        "hyp": "あなたはこれらの四角形に身をかがめ、ボタンやメニュー、そしてさらに四角形を手探りしています。",
+        "rel_src": [
+            "And I think computers today are doing quite the opposite.",
+            "Whether you're sending an email to your wife  or you're composing a symphony  or just consoling a friend,  you're doing it in pretty much the same way."
+        ],
+        "rel_tgt": [
+            "そして、私は今日のコンピューターはまったく逆のことをしていると思います。",
+            "あなたが妻にメールを送ったり、交響曲を作曲したり、友人を慰めたりしているとき、ほぼ同じ方法で行っています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学"
+        }
+    },
+    {
+        "idx": 17,
+        "src": "And I think this is the wrong way,  I think we can start using a much more natural machine.",
+        "ref": "これは間違っていると 僕は思います もっとずっと「自然な機械」を 使い始めることができると思っています",
+        "hyp": "そして、私はこれが間違った方法だと思います。私たちはもっと自然な機械を使い始めることができると思います。",
+        "rel_src": [
+            "And I think computers today are doing quite the opposite.",
+            "Whether you're sending an email to your wife  or you're composing a symphony  or just consoling a friend,  you're doing it in pretty much the same way."
+        ],
+        "rel_tgt": [
+            "そして、私は今日のコンピューターはまったく逆のことをしていると思います。",
+            "あなたが妻にメールを送ったり、交響曲を作曲したり、友人を慰めたりしているとき、ほぼ同じ方法で行っています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学"
+        }
+    },
+    {
+        "idx": 18,
+        "src": "We should use machines that bring our work back into the world.",
+        "ref": "こうした作業を現実世界へ 引き戻してくれる機械を使うべきです",
+        "hyp": "私たちは、私たちの仕事を世界に戻す機械を使用すべきです。",
+        "rel_src": [
+            "And I think computers today are doing quite the opposite.",
+            "And I think this is the wrong way,  I think we can start using a much more natural machine."
+        ],
+        "rel_tgt": [
+            "そして、私は今日のコンピューターはまったく逆のことをしていると思います。",
+            "そして、私はこれが間違った方法だと思います。私たちはもっと自然な機械を使い始めることができると思います。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学"
+        }
+    },
+    {
+        "idx": 19,
+        "src": "We should use machines that use the principles of neuroscience  to extend our senses versus going against them.",
+        "ref": "神経科学の原理を応用することにより 知覚を制限するのではなく 拡張するような機械を用いるべきです",
+        "hyp": "私たちは、脳科学の原理を利用して、私たちの感覚を拡張する機械を使用すべきです。それらに逆らうのではなく。",
+        "new_src_summary": "The paragraph discusses the impact of modern computers on human interactions and proposes using neuroscience to fix the problem. The author recalls a moment in a bar where technology caused a disconnect between people, leading to a realization that current computers hinder human connection rather than enhance it. The author suggests using machines that bring work back into the physical world to improve social interactions. The tone is reflective and critical of current technology's impact on human relationships.",
+        "new_tgt_summary": "コンピューターは今日非常に進化しており、脳科学を使って修正する方法について話し合われている。著者は、人々がデジタル情報に囲まれている中で、コンピューターが本来人々を繋げるべきだと主張している。現代のコンピューターは人々を分断し、より自然な機械を使用するべきだと考えている。",
+        "rel_src": [
+            "I'd like to talk to you today about this problem,  and how we can fix it with neuroscience.",
+            "We should use machines that bring our work back into the world."
+        ],
+        "rel_tgt": [
+            "今日はこの問題について話し、脳科学を使ってどのように修正できるかについてお話ししたいと思います。",
+            "私たちは、私たちの仕事を世界に戻す機械を使用すべきです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学"
+        }
+    },
+    {
+        "idx": 20,
+        "src": "Now it just so happens that I have such a machine here.",
+        "ref": "さあ ここにそんな機械を持ってきました",
+        "hyp": "今、たまたま私はそのような機械を持っています。",
+        "rel_src": [
+            "We should use machines that bring our work back into the world.",
+            "We should use machines that use the principles of neuroscience  to extend our senses versus going against them."
+        ],
+        "rel_tgt": [
+            "私たちは、私たちの仕事を世界に戻す機械を使用すべきです。",
+            "私たちは、脳科学の原理を利用して、私たちの感覚を拡張する機械を使用すべきです。それらに逆らうのではなく。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学"
+        }
+    },
+    {
+        "idx": 21,
+        "src": "It's called the Meta 2.",
+        "ref": "これは「Meta ２」です",
+        "hyp": "それはMeta 2と呼ばれています。",
+        "rel_src": [
+            "We should use machines that use the principles of neuroscience  to extend our senses versus going against them.",
+            "Now it just so happens that I have such a machine here."
+        ],
+        "rel_tgt": [
+            "私たちは、脳科学の原理を利用して、私たちの感覚を拡張する機械を使用すべきです。それらに逆らうのではなく。",
+            "今、たまたま私はそのような機械を持っています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2"
+        }
+    },
+    {
+        "idx": 22,
+        "src": "Let's try it out.",
+        "ref": "試してみましょう",
+        "hyp": "やってみましょう。",
+        "rel_src": [
+            "And I think this is the wrong way,  I think we can start using a much more natural machine.",
+            "We should use machines that bring our work back into the world."
+        ],
+        "rel_tgt": [
+            "そして、私はこれが間違った方法だと思います。私たちはもっと自然な機械を使い始めることができると思います。",
+            "私たちは、私たちの仕事を世界に戻す機械を使用すべきです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2"
+        }
+    },
+    {
+        "idx": 23,
+        "src": "Now in front of me right now, I can see the audience,  and I can see my very hands.",
+        "ref": "今 僕の目の前には皆さんが見えます そして自分の手も見えます",
+        "hyp": "今、私の前には観客がおり、私の手も見ることができます。",
+        "rel_src": [
+            "We should use machines that use the principles of neuroscience  to extend our senses versus going against them.",
+            "Now it just so happens that I have such a machine here."
+        ],
+        "rel_tgt": [
+            "私たちは、脳科学の原理を利用して、私たちの感覚を拡張する機械を使用すべきです。それらに逆らうのではなく。",
+            "今、たまたま私はそのような機械を持っています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2"
+        }
+    },
+    {
+        "idx": 24,
+        "src": "And in three, two, one,  we're going to see an immersive hologram appear,  a very realistic hologram appear in front of me,  of our very glasses I'm wearing on my head right now.",
+        "ref": "じゃあ ３、２、１ 没入型のホログラム体験に入りますよ とてもリアルなホログラムが 僕の目の前― 今 装着中のヘッドセットの目の前に 浮かび上がっています",
+        "hyp": "そして、3、2、1、私の前に非常にリアルなホログラムが現れ、今私が頭にかけているメガネのホログラムが表示されます。",
+        "rel_src": [
+            "It's called the Meta 2.",
+            "Let's try it out."
+        ],
+        "rel_tgt": [
+            "それはMeta 2と呼ばれています。",
+            "やってみましょう。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2"
+        }
+    },
+    {
+        "idx": 25,
+        "src": "And of course this could be anything that we're shopping for  or learning from,  and I can use my hands  to very nicely kind of move it around with fine control.",
+        "ref": "もちろん見ているものが 買い物する商品でもいいし 学習教材かもしれません そして手を使って 精緻にコントロールし 上手く動かすことができます",
+        "hyp": "そして、もちろん、私たちが買い物をしたり学んだりするものは何でも良いですし、私は手を使って非常に上手に微調整しながら移動させることができます。",
+        "rel_src": [
+            "And I think this is the wrong way,  I think we can start using a much more natural machine.",
+            "We should use machines that bring our work back into the world."
+        ],
+        "rel_tgt": [
+            "そして、私はこれが間違った方法だと思います。私たちはもっと自然な機械を使い始めることができると思います。",
+            "私たちは、私たちの仕事を世界に戻す機械を使用すべきです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2"
+        }
+    },
+    {
+        "idx": 26,
+        "src": "And I think Iron Man would be proud.",
+        "ref": "アイアンマンも誇りに 思ってくれるでしょう",
+        "hyp": "そして、アイアンマンは誇りに思うだろう。",
+        "rel_src": [
+            "And I think this is the wrong way,  I think we can start using a much more natural machine.",
+            "We should use machines that use the principles of neuroscience  to extend our senses versus going against them."
+        ],
+        "rel_tgt": [
+            "そして、私はこれが間違った方法だと思います。私たちはもっと自然な機械を使い始めることができると思います。",
+            "私たちは、脳科学の原理を利用して、私たちの感覚を拡張する機械を使用すべきです。それらに逆らうのではなく。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン"
+        }
+    },
+    {
+        "idx": 27,
+        "src": "We're going to come back to this in just a bit.",
+        "ref": "これは またすぐ後にお見せします",
+        "hyp": "私たちは少し後でこれに戻ってきます。",
+        "rel_src": [
+            "And I think this is the wrong way,  I think we can start using a much more natural machine.",
+            "We should use machines that bring our work back into the world."
+        ],
+        "rel_tgt": [
+            "そして、私はこれが間違った方法だと思います。私たちはもっと自然な機械を使い始めることができると思います。",
+            "私たちは、私たちの仕事を世界に戻す機械を使用すべきです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン"
+        }
+    },
+    {
+        "idx": 28,
+        "src": "Now if you're anything like me, your mind is already reeling  with the possibilities of what we can do with this kind of technology,  so let's look at a few.",
+        "ref": "（拍手） 僕と同じように考える方なら このような技術で何が出来るのか その可能性を考え ワクワクしているでしょう では いくつか見てみましょう",
+        "hyp": "もし私のような人ならば、この種の技術で何ができるかについての可能性で、すでに頭がぐるぐる回っているはずですので、いくつか見てみましょう。",
+        "rel_src": [
+            "We should use machines that bring our work back into the world.",
+            "We should use machines that use the principles of neuroscience  to extend our senses versus going against them."
+        ],
+        "rel_tgt": [
+            "私たちは、私たちの仕事を世界に戻す機械を使用すべきです。",
+            "私たちは、脳科学の原理を利用して、私たちの感覚を拡張する機械を使用すべきです。それらに逆らうのではなく。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン"
+        }
+    },
+    {
+        "idx": 29,
+        "src": "My mom is an architect,  so naturally the first thing I imagined  was laying out a building in 3D space  instead of having to use these 2D floor plans.",
+        "ref": "僕の母は建築家です だから自然に思い浮かんだのは ２次元の図面の代わりに ３次元空間にビルの設計図を 描き出すことでした",
+        "hyp": "私の母は建築家なので、自然に私が最初に想像したことは、2Dの間取り図を使用する代わりに、3D空間に建物を配置することでした。",
+        "rel_src": [
+            "We should use machines that use the principles of neuroscience  to extend our senses versus going against them.",
+            "Now it just so happens that I have such a machine here."
+        ],
+        "rel_tgt": [
+            "私たちは、脳科学の原理を利用して、私たちの感覚を拡張する機械を使用すべきです。それらに逆らうのではなく。",
+            "今、たまたま私はそのような機械を持っています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン"
+        }
+    },
+    {
+        "idx": 30,
+        "src": "She's actually touching graphics right now  and selecting an interior decor.",
+        "ref": "母は今 映像を触って インテリアの内装を選んでいるところです",
+        "hyp": "彼女は実際にグラフィックスに触れ、インテリアデコレーションを選択しています。",
+        "rel_src": [
+            "And in three, two, one,  we're going to see an immersive hologram appear,  a very realistic hologram appear in front of me,  of our very glasses I'm wearing on my head right now.",
+            "And of course this could be anything that we're shopping for  or learning from,  and I can use my hands  to very nicely kind of move it around with fine control."
+        ],
+        "rel_tgt": [
+            "そして、3、2、1、私の前に非常にリアルなホログラムが現れ、今私が頭にかけているメガネのホログラムが表示されます。",
+            "そして、もちろん、私たちが買い物をしたり学んだりするものは何でも良いですし、私は手を使って非常に上手に微調整しながら移動させることができます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン"
+        }
+    },
+    {
+        "idx": 31,
+        "src": "This was all shot through a GoPro through our very glasses.",
+        "ref": "これは全てGoProカメラを使い ヘッドギアを通して撮影されました",
+        "hyp": "これは、私たちのメガネを通してGoProで撮影されたものです。",
+        "rel_src": [
+            "And in three, two, one,  we're going to see an immersive hologram appear,  a very realistic hologram appear in front of me,  of our very glasses I'm wearing on my head right now.",
+            "And of course this could be anything that we're shopping for  or learning from,  and I can use my hands  to very nicely kind of move it around with fine control."
+        ],
+        "rel_tgt": [
+            "そして、3、2、1、私の前に非常にリアルなホログラムが現れ、今私が頭にかけているメガネのホログラムが表示されます。",
+            "そして、もちろん、私たちが買い物をしたり学んだりするものは何でも良いですし、私は手を使って非常に上手に微調整しながら移動させることができます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン"
+        }
+    },
+    {
+        "idx": 32,
+        "src": "And this next use case is very personal to me,  it's Professor Adam Gazzaley's glass brain project,  courtesy of UCSF.",
+        "ref": "この次の利用例は とても個人的なものです カリフォルニア大学サンフランシスコ校の ご厚意の元 アダム・ギャザリー教授が行う 「グラス・ブレイン」プロジェクトです",
+        "hyp": "そして、この次のユースケースは私にとって非常に個人的であり、UCSFの恩恵によるアダム・ガザリー教授のグラスブレインプロジェクトです。",
+        "rel_src": [
+            "We should use machines that use the principles of neuroscience  to extend our senses versus going against them.",
+            "Let's try it out."
+        ],
+        "rel_tgt": [
+            "私たちは、脳科学の原理を利用して、私たちの感覚を拡張する機械を使用すべきです。それらに逆らうのではなく。",
+            "やってみましょう。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 33,
+        "src": "As a neuroscience student,  I would always fantasize  about the ability to learn and memorize these complex brain structures  with an actual machine,  where I could touch and play with the various brain structures.",
+        "ref": "脳神経科学の学生として 僕は常に まるでこの多様で複雑な 脳の構造に触れて 操作できるような機械を使って 学び 覚えるようなことを いつも夢見ていました",
+        "hyp": "脳科学の学生として、私は常に、実際の機械でこれらの複雑な脳構造を学習し記憶する能力について空想していました。そこで、さまざまな脳構造に触れて遊ぶことができる。",
+        "rel_src": [
+            "We should use machines that use the principles of neuroscience  to extend our senses versus going against them.",
+            "And this next use case is very personal to me,  it's Professor Adam Gazzaley's glass brain project,  courtesy of UCSF."
+        ],
+        "rel_tgt": [
+            "私たちは、脳科学の原理を利用して、私たちの感覚を拡張する機械を使用すべきです。それらに逆らうのではなく。",
+            "そして、この次のユースケースは私にとって非常に個人的であり、UCSFの恩恵によるアダム・ガザリー教授のグラスブレインプロジェクトです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 34,
+        "src": "Now what you're seeing is called augmented reality,  but to me, it's part of a much more important story --  a story of how we can begin to extend our bodies with digital devices,  instead of the other way around.",
+        "ref": "今 見ているのは 拡張現実です でも これはもっと重要な構想― デジタル機器により 身体能力を制限する代わりに 拡張しようという構想の一部です",
+        "hyp": "今見ているのは拡張現実と呼ばれていますが、私にとっては、それがより重要な物語の一部です。それは、私たちがデジタルデバイスを使って身体を拡張し始める方法の物語です。逆の方法ではなく。",
+        "rel_src": [
+            "We should use machines that use the principles of neuroscience  to extend our senses versus going against them.",
+            "Let's try it out."
+        ],
+        "rel_tgt": [
+            "私たちは、脳科学の原理を利用して、私たちの感覚を拡張する機械を使用すべきです。それらに逆らうのではなく。",
+            "やってみましょう。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 35,
+        "src": "Now ...",
+        "ref": "さあ…",
+        "hyp": "今...",
+        "rel_src": [
+            "Now if you're anything like me, your mind is already reeling  with the possibilities of what we can do with this kind of technology,  so let's look at a few.",
+            "Now what you're seeing is called augmented reality,  but to me, it's part of a much more important story --  a story of how we can begin to extend our bodies with digital devices,  instead of the other way around."
+        ],
+        "rel_tgt": [
+            "もし私のような人ならば、この種の技術で何ができるかについての可能性で、すでに頭がぐるぐる回っているはずですので、いくつか見てみましょう。",
+            "今見ているのは拡張現実と呼ばれていますが、私にとっては、それがより重要な物語の一部です。それは、私たちがデジタルデバイスを使って身体を拡張し始める方法の物語です。逆の方法ではなく。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 36,
+        "src": "in the next few years, humanity's going to go through a shift, I think.",
+        "ref": "これから数年の間に 人類は転換期を迎えると思います",
+        "hyp": "次の数年で、人類は変化を経験すると思います。",
+        "rel_src": [
+            "And I think this is the wrong way,  I think we can start using a much more natural machine.",
+            "Now what you're seeing is called augmented reality,  but to me, it's part of a much more important story --  a story of how we can begin to extend our bodies with digital devices,  instead of the other way around."
+        ],
+        "rel_tgt": [
+            "そして、私はこれが間違った方法だと思います。私たちはもっと自然な機械を使い始めることができると思います。",
+            "今見ているのは拡張現実と呼ばれていますが、私にとっては、それがより重要な物語の一部です。それは、私たちがデジタルデバイスを使って身体を拡張し始める方法の物語です。逆の方法ではなく。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 37,
+        "src": "We're going to start putting an entire layer of digital information  on the real world.",
+        "ref": "あらゆるデジタル情報が 現実世界に 表現され始めるのです",
+        "hyp": "私たちは現実世界に完全なデジタル情報の層を追加し始める予定です。",
+        "rel_src": [
+            "And in three, two, one,  we're going to see an immersive hologram appear,  a very realistic hologram appear in front of me,  of our very glasses I'm wearing on my head right now.",
+            "Now what you're seeing is called augmented reality,  but to me, it's part of a much more important story --  a story of how we can begin to extend our bodies with digital devices,  instead of the other way around."
+        ],
+        "rel_tgt": [
+            "そして、3、2、1、私の前に非常にリアルなホログラムが現れ、今私が頭にかけているメガネのホログラムが表示されます。",
+            "今見ているのは拡張現実と呼ばれていますが、私にとっては、それがより重要な物語の一部です。それは、私たちがデジタルデバイスを使って身体を拡張し始める方法の物語です。逆の方法ではなく。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 38,
+        "src": "Just imagine for a moment  what this could mean for storytellers,  for painters,  for brain surgeons,  for interior decorators  and maybe for all of us here today.",
+        "ref": "少し 想像してみてください これが 物語の語り部やー 画家 脳外科医 インテリアデザイナー そして― ここにいる私たちに どのような意味があるのでしょうか？",
+        "hyp": "物語作家や画家、脳外科医、インテリアデザイナー、そしておそらく今日ここにいる私たち全員にとって、これが意味することを一瞬考えてみてください。",
+        "rel_src": [
+            "My mom is an architect,  so naturally the first thing I imagined  was laying out a building in 3D space  instead of having to use these 2D floor plans.",
+            "As a neuroscience student,  I would always fantasize  about the ability to learn and memorize these complex brain structures  with an actual machine,  where I could touch and play with the various brain structures."
+        ],
+        "rel_tgt": [
+            "私の母は建築家なので、自然に私が最初に想像したことは、2Dの間取り図を使用する代わりに、3D空間に建物を配置することでした。",
+            "脳科学の学生として、私は常に、実際の機械でこれらの複雑な脳構造を学習し記憶する能力について空想していました。そこで、さまざまな脳構造に触れて遊ぶことができる。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 39,
+        "src": "And what I think we need to do as a community,  is really try and make an effort  to imagine how we can create this new reality  in a way that extends the human experience, instead of gamifying our reality  or cluttering it with digital information.",
+        "ref": "私たちが社会共同体として やるべきなのは どのようにしたら 人間の体験を拡張するような 新たな現実を造り出せるのかを 想像してみることであり ただ現実をゲーム化したり デジタル情報で― ゴチャゴチャに しないようにすることです",
+        "hyp": "そして、私たちがコミュニティとして行う必要があることは、本当に努力して、人間の経験を拡張する方法でこの新しい現実を創造することを想像することです。現実をゲーム化したり、デジタル情報で混乱させるのではなく。",
+        "new_src_summary": "The paragraph discusses the impact of modern computers on human interactions and proposes using neuroscience to fix the problem. The author recalls a moment in a bar where technology caused a disconnect between people, leading to a realization that current computers hinder human connection rather than enhance it. The author suggests using machines that bring work back into the physical world to improve social interactions. The paragraph also introduces the Meta 2 machine, which allows users to see immersive holograms and interact with them using hand gestures based on neuroscience principles. Various potential uses of this technology, such as 3D building layouts, interior decorating, and studying brain structures, are explored, highlighting the concept of augmented reality and its transformative potential in various fields. The tone is reflective, critical of current technology's impact on human relationships, enthusiastic, and forward-thinking, emphasizing the potential of digital devices to enhance human capabilities in the future.",
+        "new_tgt_summary": "コンピューターの進化により、脳科学を活用して感覚を拡張する機械が提案されている。著者は、人々がデジタル情報に囲まれる中で、コンピューターが本来人々を繋げるべきだと主張しており、現代のコンピューターは人々を分断していると考えている。Meta 2などの機械を使えば、新たな可能性が建築や脳科学などの分野で広がると説明されており、デジタル情報の層を現実世界に追加することで人類が変化する可能性があると予想されている。",
+        "rel_src": [
+            "Now what you're seeing is called augmented reality,  but to me, it's part of a much more important story --  a story of how we can begin to extend our bodies with digital devices,  instead of the other way around.",
+            "We're going to start putting an entire layer of digital information  on the real world."
+        ],
+        "rel_tgt": [
+            "今見ているのは拡張現実と呼ばれていますが、私にとっては、それがより重要な物語の一部です。それは、私たちがデジタルデバイスを使って身体を拡張し始める方法の物語です。逆の方法ではなく。",
+            "私たちは現実世界に完全なデジタル情報の層を追加し始める予定です。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 40,
+        "src": "And that's what I'm very passionate about.",
+        "ref": "私はこのことに とても情熱を注いでいます",
+        "hyp": "そして、それが私が非常に情熱を持っていることです。",
+        "rel_src": [
+            "Now what you're seeing is called augmented reality,  but to me, it's part of a much more important story --  a story of how we can begin to extend our bodies with digital devices,  instead of the other way around.",
+            "And what I think we need to do as a community,  is really try and make an effort  to imagine how we can create this new reality  in a way that extends the human experience, instead of gamifying our reality  or cluttering it with digital information."
+        ],
+        "rel_tgt": [
+            "今見ているのは拡張現実と呼ばれていますが、私にとっては、それがより重要な物語の一部です。それは、私たちがデジタルデバイスを使って身体を拡張し始める方法の物語です。逆の方法ではなく。",
+            "そして、私たちがコミュニティとして行う必要があることは、本当に努力して、人間の経験を拡張する方法でこの新しい現実を創造することを想像することです。現実をゲーム化したり、デジタル情報で混乱させるのではなく。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 41,
+        "src": "Now, I want to tell you a little secret.",
+        "ref": "さて 少し秘密を明かします",
+        "hyp": "今、ちょっとした秘密をお伝えしたいと思います。",
+        "rel_src": [
+            "And I think Iron Man would be proud.",
+            "My mom is an architect,  so naturally the first thing I imagined  was laying out a building in 3D space  instead of having to use these 2D floor plans."
+        ],
+        "rel_tgt": [
+            "そして、アイアンマンは誇りに思うだろう。",
+            "私の母は建築家なので、自然に私が最初に想像したことは、2Dの間取り図を使用する代わりに、3D空間に建物を配置することでした。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 42,
+        "src": "In about five years --  this is not the smallest device --  in about five years,  these are all going to look like strips of glass on our eyes  that project holograms.",
+        "ref": "約５年以内に これは小さな装置ではありませんが 約５年以内に これらは全て ホログラムを投影する 薄型の眼鏡のようになります",
+        "hyp": "約5年後には、これは最も小さなデバイスではありませんが、約5年後には、これらは私たちの目にガラスのストリップのように見え、ホログラムを投影するようになるでしょう。",
+        "rel_src": [
+            "We're going to start putting an entire layer of digital information  on the real world.",
+            "Just imagine for a moment  what this could mean for storytellers,  for painters,  for brain surgeons,  for interior decorators  and maybe for all of us here today."
+        ],
+        "rel_tgt": [
+            "私たちは現実世界に完全なデジタル情報の層を追加し始める予定です。",
+            "物語作家や画家、脳外科医、インテリアデザイナー、そしておそらく今日ここにいる私たち全員にとって、これが意味することを一瞬考えてみてください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 43,
+        "src": "And just like we don't care so much about which phone we buy  in terms of the hardware -- we buy it for the operating system --  as a neuroscientist,  I always dreamt of building the iOS of the mind, if you will.",
+        "ref": "私たちがスマホを選ぶ時に ハードウエア自体にはそれほど気に掛けず 基本ソフトを重視しますが 神経科学者として 僕は常に 言うなれば 「心のiOS」を作る事を夢見て来ました",
+        "hyp": "そして、私たちがハードウェアの点でどの電話を買うかについてあまり気にしないように、私たちはそれをオペレーティングシステムのために購入します。脳科学者として、私は常に、心のiOSを構築することを夢見ていました。",
+        "rel_src": [
+            "And this next use case is very personal to me,  it's Professor Adam Gazzaley's glass brain project,  courtesy of UCSF.",
+            "As a neuroscience student,  I would always fantasize  about the ability to learn and memorize these complex brain structures  with an actual machine,  where I could touch and play with the various brain structures."
+        ],
+        "rel_tgt": [
+            "そして、この次のユースケースは私にとって非常に個人的であり、UCSFの恩恵によるアダム・ガザリー教授のグラスブレインプロジェクトです。",
+            "脳科学の学生として、私は常に、実際の機械でこれらの複雑な脳構造を学習し記憶する能力について空想していました。そこで、さまざまな脳構造に触れて遊ぶことができる。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 44,
+        "src": "And it's very, very important that we get this right,  because we might be living inside of these things  for at least as long as we've lived  with the Windows graphical user interface.",
+        "ref": "これを適切に作ることは 非常に重要です 私たちはウィンドウズ画面の インターフェースと 少なくとも同じくらい長い期間を このようなシステムと共に 過ごすことになるかも知れないからです",
+        "hyp": "そして、これを正しく行うことが非常に重要です。なぜなら、私たちはWindowsのグラフィカルユーザーインターフェースと同じくらい長い間、これらのものの中で生活するかもしれないからです。",
+        "rel_src": [
+            "in the next few years, humanity's going to go through a shift, I think.",
+            "We're going to start putting an entire layer of digital information  on the real world."
+        ],
+        "rel_tgt": [
+            "次の数年で、人類は変化を経験すると思います。",
+            "私たちは現実世界に完全なデジタル情報の層を追加し始める予定です。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 45,
+        "src": "And I don't know about you,  but living inside of Windows scares me.",
+        "ref": "皆さんはどうか知りませんが― ウインドウズの中に住むなんて コワイことです",
+        "hyp": "そして、あなたはどうかわかりませんが、Windowsの中で生活することは私を怖がらせます。",
+        "rel_src": [
+            "And what I think we need to do as a community,  is really try and make an effort  to imagine how we can create this new reality  in a way that extends the human experience, instead of gamifying our reality  or cluttering it with digital information.",
+            "And it's very, very important that we get this right,  because we might be living inside of these things  for at least as long as we've lived  with the Windows graphical user interface."
+        ],
+        "rel_tgt": [
+            "そして、私たちがコミュニティとして行う必要があることは、本当に努力して、人間の経験を拡張する方法でこの新しい現実を創造することを想像することです。現実をゲーム化したり、デジタル情報で混乱させるのではなく。",
+            "そして、これを正しく行うことが非常に重要です。なぜなら、私たちはWindowsのグラフィカルユーザーインターフェースと同じくらい長い間、これらのものの中で生活するかもしれないからです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows"
+        }
+    },
+    {
+        "idx": 46,
+        "src": "To isolate the single most intuitive interface out of infinity,  we use neuroscience to drive our design guidelines,  instead of letting a bunch of designers fight it out in the boardroom.",
+        "ref": "あらゆる可能性の中から 最も直感的な インターフェースを導き出すのに 私たちは神経科学を デザインの基軸にしました デザイナー達に役員会議室で 議論を戦わせる代わりにです",
+        "hyp": "無限の中から最も直感的なインターフェースを単独で特定するために、デザイナーたちがボードルームで争うのではなく、私たちは脳科学を使用してデザインガイドラインを導きます。",
+        "rel_src": [
+            "As a neuroscience student,  I would always fantasize  about the ability to learn and memorize these complex brain structures  with an actual machine,  where I could touch and play with the various brain structures.",
+            "And just like we don't care so much about which phone we buy  in terms of the hardware -- we buy it for the operating system --  as a neuroscientist,  I always dreamt of building the iOS of the mind, if you will."
+        ],
+        "rel_tgt": [
+            "脳科学の学生として、私は常に、実際の機械でこれらの複雑な脳構造を学習し記憶する能力について空想していました。そこで、さまざまな脳構造に触れて遊ぶことができる。",
+            "そして、私たちがハードウェアの点でどの電話を買うかについてあまり気にしないように、私たちはそれをオペレーティングシステムのために購入します。脳科学者として、私は常に、心のiOSを構築することを夢見ていました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows"
+        }
+    },
+    {
+        "idx": 47,
+        "src": "And the principle we all revolve around  is what's called the \"Neural Path of Least Resistance.\"",
+        "ref": "そしてこの中心に据えた原理は 「最小抵抗神経経路」というものです",
+        "hyp": "そして、私たちが取り巻く原則は、「最小抵抗経路」と呼ばれるものです。",
+        "rel_src": [
+            "As a neuroscience student,  I would always fantasize  about the ability to learn and memorize these complex brain structures  with an actual machine,  where I could touch and play with the various brain structures.",
+            "And just like we don't care so much about which phone we buy  in terms of the hardware -- we buy it for the operating system --  as a neuroscientist,  I always dreamt of building the iOS of the mind, if you will."
+        ],
+        "rel_tgt": [
+            "脳科学の学生として、私は常に、実際の機械でこれらの複雑な脳構造を学習し記憶する能力について空想していました。そこで、さまざまな脳構造に触れて遊ぶことができる。",
+            "そして、私たちがハードウェアの点でどの電話を買うかについてあまり気にしないように、私たちはそれをオペレーティングシステムのために購入します。脳科学者として、私は常に、心のiOSを構築することを夢見ていました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows"
+        }
+    },
+    {
+        "idx": 48,
+        "src": "At every turn, we're connecting the iOS of the brain with our brain  on, for the first time, our brain's terms.",
+        "ref": "絶えず 「心のiOS」を ヒトの脳と繋ぎ― 初めてヒトの脳が そのiOSを制御するのです",
+        "hyp": "あらゆる場面で、私たちは脳のiOSを、初めて、私たちの脳の条件でつないでいます。",
+        "rel_src": [
+            "And just like we don't care so much about which phone we buy  in terms of the hardware -- we buy it for the operating system --  as a neuroscientist,  I always dreamt of building the iOS of the mind, if you will.",
+            "And it's very, very important that we get this right,  because we might be living inside of these things  for at least as long as we've lived  with the Windows graphical user interface."
+        ],
+        "rel_tgt": [
+            "そして、私たちがハードウェアの点でどの電話を買うかについてあまり気にしないように、私たちはそれをオペレーティングシステムのために購入します。脳科学者として、私は常に、心のiOSを構築することを夢見ていました。",
+            "そして、これを正しく行うことが非常に重要です。なぜなら、私たちはWindowsのグラフィカルユーザーインターフェースと同じくらい長い間、これらのものの中で生活するかもしれないからです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows"
+        }
+    },
+    {
+        "idx": 49,
+        "src": "In other words, we're trying to create a zero learning-curve computer.",
+        "ref": "言い換えると 使い方を学ぶ必要が無い コンピューターを作ろうとしています",
+        "hyp": "言い換えると、私たちは学習曲線ゼロのコンピューターを作ろうとしています。",
+        "rel_src": [
+            "Just imagine for a moment  what this could mean for storytellers,  for painters,  for brain surgeons,  for interior decorators  and maybe for all of us here today.",
+            "At every turn, we're connecting the iOS of the brain with our brain  on, for the first time, our brain's terms."
+        ],
+        "rel_tgt": [
+            "物語作家や画家、脳外科医、インテリアデザイナー、そしておそらく今日ここにいる私たち全員にとって、これが意味することを一瞬考えてみてください。",
+            "あらゆる場面で、私たちは脳のiOSを、初めて、私たちの脳の条件でつないでいます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows"
+        }
+    },
+    {
+        "idx": 50,
+        "src": "We're building a system that you've always known how to use.",
+        "ref": "利用者が 使い方を自然に分かる システムを作っているのです",
+        "hyp": "私たちは、あなたが常に使い方を知っていたシステムを構築しています。",
+        "rel_src": [
+            "To isolate the single most intuitive interface out of infinity,  we use neuroscience to drive our design guidelines,  instead of letting a bunch of designers fight it out in the boardroom.",
+            "In other words, we're trying to create a zero learning-curve computer."
+        ],
+        "rel_tgt": [
+            "無限の中から最も直感的なインターフェースを単独で特定するために、デザイナーたちがボードルームで争うのではなく、私たちは脳科学を使用してデザインガイドラインを導きます。",
+            "言い換えると、私たちは学習曲線ゼロのコンピューターを作ろうとしています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows"
+        }
+    },
+    {
+        "idx": 51,
+        "src": "Here are the first three design guidelines that we employ  in this brand-new form of user experience.",
+        "ref": "我々が用いた ユーザー体験の真新しいデザイン指針の 主な３つを紹介します",
+        "hyp": "以下は、この全く新しい形式のユーザーエクスペリエンスで採用している最初の3つのデザインガイドラインです。",
+        "rel_src": [
+            "To isolate the single most intuitive interface out of infinity,  we use neuroscience to drive our design guidelines,  instead of letting a bunch of designers fight it out in the boardroom.",
+            "In other words, we're trying to create a zero learning-curve computer."
+        ],
+        "rel_tgt": [
+            "無限の中から最も直感的なインターフェースを単独で特定するために、デザイナーたちがボードルームで争うのではなく、私たちは脳科学を使用してデザインガイドラインを導きます。",
+            "言い換えると、私たちは学習曲線ゼロのコンピューターを作ろうとしています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows"
+        }
+    },
+    {
+        "idx": 52,
+        "src": "First and foremost, you are the operating system.",
+        "ref": "最も重要なのは 「使う人がOS」 だということです",
+        "hyp": "まず第一に、あなたがオペレーティングシステムなのです。",
+        "rel_src": [
+            "And just like we don't care so much about which phone we buy  in terms of the hardware -- we buy it for the operating system --  as a neuroscientist,  I always dreamt of building the iOS of the mind, if you will.",
+            "And it's very, very important that we get this right,  because we might be living inside of these things  for at least as long as we've lived  with the Windows graphical user interface."
+        ],
+        "rel_tgt": [
+            "そして、私たちがハードウェアの点でどの電話を買うかについてあまり気にしないように、私たちはそれをオペレーティングシステムのために購入します。脳科学者として、私は常に、心のiOSを構築することを夢見ていました。",
+            "そして、これを正しく行うことが非常に重要です。なぜなら、私たちはWindowsのグラフィカルユーザーインターフェースと同じくらい長い間、これらのものの中で生活するかもしれないからです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows"
+        }
+    },
+    {
+        "idx": 53,
+        "src": "Traditional file systems are complex and abstract,  and they take your brain extra steps to decode them.",
+        "ref": "従来的なファイルで構成された システムは複雑で抽象的で それを理解するのにすら まず頭を使います",
+        "hyp": "従来のファイルシステムは複雑で抽象的であり、脳に余分な手順を要求します。",
+        "rel_src": [
+            "To isolate the single most intuitive interface out of infinity,  we use neuroscience to drive our design guidelines,  instead of letting a bunch of designers fight it out in the boardroom.",
+            "In other words, we're trying to create a zero learning-curve computer."
+        ],
+        "rel_tgt": [
+            "無限の中から最も直感的なインターフェースを単独で特定するために、デザイナーたちがボードルームで争うのではなく、私たちは脳科学を使用してデザインガイドラインを導きます。",
+            "言い換えると、私たちは学習曲線ゼロのコンピューターを作ろうとしています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows"
+        }
+    },
+    {
+        "idx": 54,
+        "src": "We're going against the Neural Path of Least Resistance.",
+        "ref": "それは「最小抵抗神経経路」の 逆を行っています",
+        "hyp": "私たちは「最小抵抗経路」に逆らっています。",
+        "rel_src": [
+            "To isolate the single most intuitive interface out of infinity,  we use neuroscience to drive our design guidelines,  instead of letting a bunch of designers fight it out in the boardroom.",
+            "And the principle we all revolve around  is what's called the \"Neural Path of Least Resistance.\""
+        ],
+        "rel_tgt": [
+            "無限の中から最も直感的なインターフェースを単独で特定するために、デザイナーたちがボードルームで争うのではなく、私たちは脳科学を使用してデザインガイドラインを導きます。",
+            "そして、私たちが取り巻く原則は、「最小抵抗経路」と呼ばれるものです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows"
+        }
+    },
+    {
+        "idx": 55,
+        "src": "Meanwhile, in augmented reality,  you can of course place your holographic TED panel over here,  and your holographic email on the other side of the desk,  and your spatial memory evolved just fine to go ahead and retrieve them.",
+        "ref": "しかし 拡張現実では ホログラムのTEDパネルをここに据えて ホログラム・メールを机の反対側に置くと 空間記憶能力がこれに順応し 手を伸ばして情報を取り出すことが出来ます",
+        "hyp": "一方、拡張現実の中では、もちろん、ホログラフィックなTEDパネルをこちらに配置し、ホログラフィックなメールを机の反対側に配置し、空間記憶はこれらを取り出すためにうまく進化しています。",
+        "rel_src": [
+            "In about five years --  this is not the smallest device --  in about five years,  these are all going to look like strips of glass on our eyes  that project holograms.",
+            "And it's very, very important that we get this right,  because we might be living inside of these things  for at least as long as we've lived  with the Windows graphical user interface."
+        ],
+        "rel_tgt": [
+            "約5年後には、これは最も小さなデバイスではありませんが、約5年後には、これらは私たちの目にガラスのストリップのように見え、ホログラムを投影するようになるでしょう。",
+            "そして、これを正しく行うことが非常に重要です。なぜなら、私たちはWindowsのグラフィカルユーザーインターフェースと同じくらい長い間、これらのものの中で生活するかもしれないからです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows"
+        }
+    },
+    {
+        "idx": 56,
+        "src": "You could put your holographic Tesla that you're shopping for --  or whatever model my legal team told me to put in right before the show.",
+        "ref": "買いたいと思っているテスラ車から 法務チームが― 登壇の事前に僕に要求したものまで 何でもホログラムで表示できます",
+        "hyp": "ショーの直前に法的チームが私に入れるように指示したモデル、例えば、ショッピング中のホログラフィックなテスラを配置することができます。",
+        "rel_src": [
+            "In about five years --  this is not the smallest device --  in about five years,  these are all going to look like strips of glass on our eyes  that project holograms.",
+            "Meanwhile, in augmented reality,  you can of course place your holographic TED panel over here,  and your holographic email on the other side of the desk,  and your spatial memory evolved just fine to go ahead and retrieve them."
+        ],
+        "rel_tgt": [
+            "約5年後には、これは最も小さなデバイスではありませんが、約5年後には、これらは私たちの目にガラスのストリップのように見え、ホログラムを投影するようになるでしょう。",
+            "一方、拡張現実の中では、もちろん、ホログラフィックなTEDパネルをこちらに配置し、ホログラフィックなメールを机の反対側に配置し、空間記憶はこれらを取り出すためにうまく進化しています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ"
+        }
+    },
+    {
+        "idx": 57,
+        "src": "Perfect. And your brain knows exactly how to get it back.",
+        "ref": "よし これで あなたの脳は 情報の取り出し方を覚えました",
+        "hyp": "完璧です。そして、あなたの脳はそれを取り戻す方法を正確に知っています。",
+        "rel_src": [
+            "In other words, we're trying to create a zero learning-curve computer.",
+            "We're building a system that you've always known how to use."
+        ],
+        "rel_tgt": [
+            "言い換えると、私たちは学習曲線ゼロのコンピューターを作ろうとしています。",
+            "私たちは、あなたが常に使い方を知っていたシステムを構築しています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ"
+        }
+    },
+    {
+        "idx": 58,
+        "src": "The second interface guideline we call \"touch to see.\"",
+        "ref": "インターフェースの２つ目の指針は 「見て 触る」というものです",
+        "hyp": "第二のインタフェースガイドラインは、「タッチして見る」と呼んでいます。",
+        "rel_src": [
+            "Here are the first three design guidelines that we employ  in this brand-new form of user experience.",
+            "Traditional file systems are complex and abstract,  and they take your brain extra steps to decode them."
+        ],
+        "rel_tgt": [
+            "以下は、この全く新しい形式のユーザーエクスペリエンスで採用している最初の3つのデザインガイドラインです。",
+            "従来のファイルシステムは複雑で抽象的であり、脳に余分な手順を要求します。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ"
+        }
+    },
+    {
+        "idx": 59,
+        "src": "What do babies do when they see something that grabs their interest?",
+        "ref": "赤ちゃんが興味を持ったものを見たら まず何をするでしょう？",
+        "hyp": "赤ちゃんは、興味を引くものを見た時に何をしますか？",
+        "new_src_summary": "The paragraphs discuss the impact of modern computers on human interactions and propose using neuroscience to address the issue. The authors suggest using machines that bring work back into the physical world and introduce the Meta 2 machine, which allows users to see immersive holograms and interact with them using hand gestures based on neuroscience principles. The potential uses of this technology, such as 3D building layouts and studying brain structures, highlight the concept of augmented reality's transformative potential. The focus is on creating a new reality that enhances the human experience by developing user-friendly interfaces that mimic the brain's natural processes, with an emphasis on a zero learning-curve computer system that is intuitive and easy to use. The overall tone is reflective, critical of current technology's impact on human relationships, enthusiastic, and forward-thinking, emphasizing the potential of digital devices to enhance human capabilities in the future.",
+        "new_tgt_summary": "コンピューターの進化により、脳科学を活用して感覚を拡張する機械が提案されている。著者は、人々がデジタル情報に囲まれる中で、コンピューターが本来人々を繋げるべきだと主張しており、現代のコンピューターは人々を分断していると考えている。Meta 2などの機械を使えば、新たな可能性が建築や脳科学などの分野で広がると説明されており、デジタル情報の層を現実世界に追加することで人類が変化する可能性があると予想されている。また、将来的には脳のiOSを構築し、学習曲線ゼロのコンピューターシステムを構築することが重要であり、拡張現実の中では、ホログラフィックな要素を配置し、脳の最小抵抗経路に従うことで直感的なインターフェースを提供することが重要である。",
+        "rel_src": [
+            "In about five years --  this is not the smallest device --  in about five years,  these are all going to look like strips of glass on our eyes  that project holograms.",
+            "Meanwhile, in augmented reality,  you can of course place your holographic TED panel over here,  and your holographic email on the other side of the desk,  and your spatial memory evolved just fine to go ahead and retrieve them."
+        ],
+        "rel_tgt": [
+            "約5年後には、これは最も小さなデバイスではありませんが、約5年後には、これらは私たちの目にガラスのストリップのように見え、ホログラムを投影するようになるでしょう。",
+            "一方、拡張現実の中では、もちろん、ホログラフィックなTEDパネルをこちらに配置し、ホログラフィックなメールを机の反対側に配置し、空間記憶はこれらを取り出すためにうまく進化しています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ"
+        }
+    },
+    {
+        "idx": 60,
+        "src": "They try and reach out and touch it.",
+        "ref": "手を伸ばし触ってみようとしますね",
+        "hyp": "彼らは手を伸ばしてそれに触ろうとします。",
+        "rel_src": [
+            "The second interface guideline we call \"touch to see.\"",
+            "What do babies do when they see something that grabs their interest?"
+        ],
+        "rel_tgt": [
+            "第二のインタフェースガイドラインは、「タッチして見る」と呼んでいます。",
+            "赤ちゃんは、興味を引くものを見た時に何をしますか？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ"
+        }
+    },
+    {
+        "idx": 61,
+        "src": "And that's exactly how the natural machine should work as well.",
+        "ref": "「自然な機械」というものは このように働くべきなのです",
+        "hyp": "そして、それが自然な機械が動作すべき方法です。",
+        "rel_src": [
+            "At every turn, we're connecting the iOS of the brain with our brain  on, for the first time, our brain's terms.",
+            "In other words, we're trying to create a zero learning-curve computer."
+        ],
+        "rel_tgt": [
+            "あらゆる場面で、私たちは脳のiOSを、初めて、私たちの脳の条件でつないでいます。",
+            "言い換えると、私たちは学習曲線ゼロのコンピューターを作ろうとしています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ"
+        }
+    },
+    {
+        "idx": 62,
+        "src": "Turns out the visual system gets a fundamental boost  from a sense we call proprioception --  that's the sense of our body parts in space.",
+        "ref": "視覚システムは基本的な刺激を 固有受容性感覚 というものから受けます これは身体の深部で起こる感覚です",
+        "hyp": "視覚システムは、我々の身体部位が空間内でどこにあるかを感じるという感覚であるプロプリオセプションと呼ばれる感覚から、根本的なブーストを受けることが判明しました。",
+        "rel_src": [
+            "Traditional file systems are complex and abstract,  and they take your brain extra steps to decode them.",
+            "Meanwhile, in augmented reality,  you can of course place your holographic TED panel over here,  and your holographic email on the other side of the desk,  and your spatial memory evolved just fine to go ahead and retrieve them."
+        ],
+        "rel_tgt": [
+            "従来のファイルシステムは複雑で抽象的であり、脳に余分な手順を要求します。",
+            "一方、拡張現実の中では、もちろん、ホログラフィックなTEDパネルをこちらに配置し、ホログラフィックなメールを机の反対側に配置し、空間記憶はこれらを取り出すためにうまく進化しています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ"
+        }
+    },
+    {
+        "idx": 63,
+        "src": "So by touching our work directly, we're not only going to control it better,  we're also going to understand it much more deeply.",
+        "ref": "だから作品を直接触ることで それをより良くコントロール出来るだけでなく より深く理解することが出来ます",
+        "hyp": "したがって、私たちの仕事に直接触れることで、それをよりよく制御するだけでなく、より深く理解することができます。",
+        "rel_src": [
+            "The second interface guideline we call \"touch to see.\"",
+            "And that's exactly how the natural machine should work as well."
+        ],
+        "rel_tgt": [
+            "第二のインタフェースガイドラインは、「タッチして見る」と呼んでいます。",
+            "そして、それが自然な機械が動作すべき方法です。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ"
+        }
+    },
+    {
+        "idx": 64,
+        "src": "Hence, touch to see.",
+        "ref": "それゆえに 「見て 触る」のです",
+        "hyp": "したがって、タッチして見る。",
+        "rel_src": [
+            "The second interface guideline we call \"touch to see.\"",
+            "What do babies do when they see something that grabs their interest?"
+        ],
+        "rel_tgt": [
+            "第二のインタフェースガイドラインは、「タッチして見る」と呼んでいます。",
+            "赤ちゃんは、興味を引くものを見た時に何をしますか？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ"
+        }
+    },
+    {
+        "idx": 65,
+        "src": "But it's not enough to experience things ourselves.",
+        "ref": "でも ただこれだけでは 体験としては十分ではありません",
+        "hyp": "しかし、自分自身で物事を経験するだけでは不十分です。",
+        "rel_src": [
+            "And I don't know about you,  but living inside of Windows scares me.",
+            "And the principle we all revolve around  is what's called the \"Neural Path of Least Resistance.\""
+        ],
+        "rel_tgt": [
+            "そして、あなたはどうかわかりませんが、Windowsの中で生活することは私を怖がらせます。",
+            "そして、私たちが取り巻く原則は、「最小抵抗経路」と呼ばれるものです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ"
+        }
+    },
+    {
+        "idx": 66,
+        "src": "We're inherently these social primates.",
+        "ref": "人間は生来 社会的な生き物である霊長類です",
+        "hyp": "私たちは本質的にこれらの社会的霊長類です。",
+        "rel_src": [
+            "And the principle we all revolve around  is what's called the \"Neural Path of Least Resistance.\"",
+            "First and foremost, you are the operating system."
+        ],
+        "rel_tgt": [
+            "そして、私たちが取り巻く原則は、「最小抵抗経路」と呼ばれるものです。",
+            "まず第一に、あなたがオペレーティングシステムなのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ"
+        }
+    },
+    {
+        "idx": 67,
+        "src": "And this leads me to our third guideline,  the holographic campfire from our first story.",
+        "ref": "そこから３番目の指針 つまり― 冒頭の焚き火の例の ホログラム版が導かれます",
+        "hyp": "そして、これは私たちの第3のガイドラインにつながります、最初の物語からのホログラフィックなキャンプファイア。",
+        "rel_src": [
+            "Meanwhile, in augmented reality,  you can of course place your holographic TED panel over here,  and your holographic email on the other side of the desk,  and your spatial memory evolved just fine to go ahead and retrieve them.",
+            "Perfect. And your brain knows exactly how to get it back."
+        ],
+        "rel_tgt": [
+            "一方、拡張現実の中では、もちろん、ホログラフィックなTEDパネルをこちらに配置し、ホログラフィックなメールを机の反対側に配置し、空間記憶はこれらを取り出すためにうまく進化しています。",
+            "完璧です。そして、あなたの脳はそれを取り戻す方法を正確に知っています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ"
+        }
+    },
+    {
+        "idx": 68,
+        "src": "Our mirror-neuron subsystem suggests  that we can connect with each other and with our work much better  if we can see each other's faces and hands in 3D.",
+        "ref": "霊長類のミラーニューロン・サブシステムは お互いの顔と手を３次元的に 見ることが出来るのならば より上手く 互いが連携し 共同で作業できることを示しています",
+        "hyp": "鏡ニューロンサブシステムからの提案は、お互いの顔や手を3Dで見ることができれば、お互いや仕事とより良いつながりを築くことができると示唆しています。",
+        "rel_src": [
+            "Turns out the visual system gets a fundamental boost  from a sense we call proprioception --  that's the sense of our body parts in space.",
+            "So by touching our work directly, we're not only going to control it better,  we're also going to understand it much more deeply."
+        ],
+        "rel_tgt": [
+            "視覚システムは、我々の身体部位が空間内でどこにあるかを感じるという感覚であるプロプリオセプションと呼ばれる感覚から、根本的なブーストを受けることが判明しました。",
+            "したがって、私たちの仕事に直接触れることで、それをよりよく制御するだけでなく、より深く理解することができます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ"
+        }
+    },
+    {
+        "idx": 69,
+        "src": "So if you look at the video behind me,  you can see two Meta users playing around with the same hologram,  making eye contact, connected around this thing,  instead of being distracted by external devices.",
+        "ref": "僕の後ろのビデオをご覧ください ２人のMetaユーザーたちが 同じホログラムを扱い デバイスによって 気を散らされてしまう事無く 目線を交わし この物体を介して 繋がっています",
+        "hyp": "背後のビデオを見ると、同じホログラムで遊ぶ2人のMetaユーザーが目を合わせ、このものにつながっているのが見えます。外部デバイスに気を取られるのではなく、このようなことが可能です。",
+        "rel_src": [
+            "And this leads me to our third guideline,  the holographic campfire from our first story.",
+            "Our mirror-neuron subsystem suggests  that we can connect with each other and with our work much better  if we can see each other's faces and hands in 3D."
+        ],
+        "rel_tgt": [
+            "そして、これは私たちの第3のガイドラインにつながります、最初の物語からのホログラフィックなキャンプファイア。",
+            "鏡ニューロンサブシステムからの提案は、お互いの顔や手を3Dで見ることができれば、お互いや仕事とより良いつながりを築くことができると示唆しています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 70,
+        "src": "Let's go ahead and try this again with neuroscience in mind.",
+        "ref": "さあ 神経科学を念頭に置いて もう一度これを試してみましょう",
+        "hyp": "脳科学を考慮に入れて、もう一度試してみましょう。",
+        "rel_src": [
+            "Turns out the visual system gets a fundamental boost  from a sense we call proprioception --  that's the sense of our body parts in space.",
+            "So by touching our work directly, we're not only going to control it better,  we're also going to understand it much more deeply."
+        ],
+        "rel_tgt": [
+            "視覚システムは、我々の身体部位が空間内でどこにあるかを感じるという感覚であるプロプリオセプションと呼ばれる感覚から、根本的なブーストを受けることが判明しました。",
+            "したがって、私たちの仕事に直接触れることで、それをよりよく制御するだけでなく、より深く理解することができます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 71,
+        "src": "So again, our favorite interface, the iOS of the mind.",
+        "ref": "私たちのお気に入り 「心のiOS」ですー",
+        "hyp": "ですから、再び、私たちのお気に入りのインターフェース、脳のiOSです。",
+        "rel_src": [
+            "First and foremost, you are the operating system.",
+            "And that's exactly how the natural machine should work as well."
+        ],
+        "rel_tgt": [
+            "まず第一に、あなたがオペレーティングシステムなのです。",
+            "そして、それが自然な機械が動作すべき方法です。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 72,
+        "src": "I'm going to now take a step further  and go ahead and grab this pair of glasses  and leave it right here by the desk.",
+        "ref": "もう一歩先に進んでみましょう このヘッドセットを手に取って 机の横のこの場所に置きます",
+        "hyp": "今、さらに一歩踏み込んで、この眼鏡を取って、机の隣に置いてみます。",
+        "rel_src": [
+            "Meanwhile, in augmented reality,  you can of course place your holographic TED panel over here,  and your holographic email on the other side of the desk,  and your spatial memory evolved just fine to go ahead and retrieve them.",
+            "So by touching our work directly, we're not only going to control it better,  we're also going to understand it much more deeply."
+        ],
+        "rel_tgt": [
+            "一方、拡張現実の中では、もちろん、ホログラフィックなTEDパネルをこちらに配置し、ホログラフィックなメールを机の反対側に配置し、空間記憶はこれらを取り出すためにうまく進化しています。",
+            "したがって、私たちの仕事に直接触れることで、それをよりよく制御するだけでなく、より深く理解することができます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 73,
+        "src": "I'm now with you, I'm in the moment,  we're connecting.",
+        "ref": "今 僕は皆さんと一緒にいて この瞬間 我々は繋がっています",
+        "hyp": "今、私はあなたと一緒にいます。この瞬間に、私たちは繋がっています。",
+        "rel_src": [
+            "Our mirror-neuron subsystem suggests  that we can connect with each other and with our work much better  if we can see each other's faces and hands in 3D.",
+            "So if you look at the video behind me,  you can see two Meta users playing around with the same hologram,  making eye contact, connected around this thing,  instead of being distracted by external devices."
+        ],
+        "rel_tgt": [
+            "鏡ニューロンサブシステムからの提案は、お互いの顔や手を3Dで見ることができれば、お互いや仕事とより良いつながりを築くことができると示唆しています。",
+            "背後のビデオを見ると、同じホログラムで遊ぶ2人のMetaユーザーが目を合わせ、このものにつながっているのが見えます。外部デバイスに気を取られるのではなく、このようなことが可能です。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 74,
+        "src": "My spatial memory kicks in, and I can go ahead and grab it  that I am the operating system.",
+        "ref": "僕の空間記憶が働き ヘッドセットをつかんで取り戻すと 自分がOSであることに 気づきます",
+        "hyp": "空間記憶が作動し、私は進んでそれを取ることができます。私がそのオペレーティングシステムであることを。",
+        "rel_src": [
+            "Perfect. And your brain knows exactly how to get it back.",
+            "I'm going to now take a step further  and go ahead and grab this pair of glasses  and leave it right here by the desk."
+        ],
+        "rel_tgt": [
+            "完璧です。そして、あなたの脳はそれを取り戻す方法を正確に知っています。",
+            "今、さらに一歩踏み込んで、この眼鏡を取って、机の隣に置いてみます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 75,
+        "src": "And now my proprioception is working,  and I can go ahead and explode these glasses into a thousand parts  and touch the very sensor that is currently scanning my hand.",
+        "ref": "そして僕の固有受容性感覚が働いて 僕はこのヘッドセットを 数千のパーツに分解し― 僕の手をスキャンするセンサーを 触ります",
+        "hyp": "そして今、私のプロプリオセプションが作動しており、これらの眼鏡を千切れに爆発させ、現在私の手をスキャンしているセンサーに触れることができます。",
+        "rel_src": [
+            "Turns out the visual system gets a fundamental boost  from a sense we call proprioception --  that's the sense of our body parts in space.",
+            "So by touching our work directly, we're not only going to control it better,  we're also going to understand it much more deeply."
+        ],
+        "rel_tgt": [
+            "視覚システムは、我々の身体部位が空間内でどこにあるかを感じるという感覚であるプロプリオセプションと呼ばれる感覚から、根本的なブーストを受けることが判明しました。",
+            "したがって、私たちの仕事に直接触れることで、それをよりよく制御するだけでなく、より深く理解することができます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 76,
+        "src": "But it's not enough to see things alone,  so in a second, my co-founder Ray is going to make a 3D call --  Ray?",
+        "ref": "でも これを自分一人で見る というだけでは不十分なので 今 共同創業者のレイが まもなく３D電話を掛けてきます― レイ？",
+        "hyp": "しかし、単独で物事を見るだけでは不十分です。ですので、今から共同創設者であるレイが3D通話を行います。レイ？",
+        "rel_src": [
+            "But it's not enough to experience things ourselves.",
+            "We're inherently these social primates."
+        ],
+        "rel_tgt": [
+            "しかし、自分自身で物事を経験するだけでは不十分です。",
+            "私たちは本質的にこれらの社会的霊長類です。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ"
+        }
+    },
+    {
+        "idx": 77,
+        "src": "Hey Ray, how's it going?",
+        "ref": "（呼び出し音） やあ レイ 元気？",
+        "hyp": "レイ、調子はどう？",
+        "rel_src": [
+            "So if you look at the video behind me,  you can see two Meta users playing around with the same hologram,  making eye contact, connected around this thing,  instead of being distracted by external devices.",
+            "But it's not enough to see things alone,  so in a second, my co-founder Ray is going to make a 3D call --  Ray?"
+        ],
+        "rel_tgt": [
+            "背後のビデオを見ると、同じホログラムで遊ぶ2人のMetaユーザーが目を合わせ、このものにつながっているのが見えます。外部デバイスに気を取られるのではなく、このようなことが可能です。",
+            "しかし、単独で物事を見るだけでは不十分です。ですので、今から共同創設者であるレイが3D通話を行います。レイ？"
+        ],
+        "hist_info": "\"Ray\" - \"レイ\"",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ"
+        }
+    },
+    {
+        "idx": 78,
+        "src": "Guys, I can see this guy in front me in full 3D.",
+        "ref": "皆さん 僕には彼が目の前に ３次元で見えます",
+        "hyp": "皆さん、私は目の前のこの人を完全な3Dで見ることができます。",
+        "rel_src": [
+            "Our mirror-neuron subsystem suggests  that we can connect with each other and with our work much better  if we can see each other's faces and hands in 3D.",
+            "So if you look at the video behind me,  you can see two Meta users playing around with the same hologram,  making eye contact, connected around this thing,  instead of being distracted by external devices."
+        ],
+        "rel_tgt": [
+            "鏡ニューロンサブシステムからの提案は、お互いの顔や手を3Dで見ることができれば、お互いや仕事とより良いつながりを築くことができると示唆しています。",
+            "背後のビデオを見ると、同じホログラムで遊ぶ2人のMetaユーザーが目を合わせ、このものにつながっているのが見えます。外部デバイスに気を取られるのではなく、このようなことが可能です。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ"
+        }
+    },
+    {
+        "idx": 79,
+        "src": "And he is photo-realistic.",
+        "ref": "写真のような現実味を持って",
+        "hyp": "そして、彼は写真のようにリアルです。",
+        "new_src_summary": "The paragraphs explore the impact of modern computers on human interactions and propose using neuroscience principles to address the issue. The authors introduce the Meta 2 machine, which allows users to interact with immersive holograms using hand gestures based on neuroscience principles. The potential uses of this technology, such as 3D building layouts and studying brain structures, highlight the transformative potential of augmented reality. The focus is on creating a new reality that enhances the human experience by developing user-friendly interfaces that mimic the brain's natural processes. The importance of touch and social interaction in enhancing our understanding and connection with work is emphasized, with a focus on utilizing neuroscience principles to enhance user experience and connectivity. The overall tone is reflective, critical of current technology's impact on human relationships, enthusiastic, and forward-thinking, emphasizing the potential of digital devices to enhance human capabilities in the future.",
+        "new_tgt_summary": "コンピューターの進化により、脳科学を活用して感覚を拡張する機械が提案されている。人々がデジタル情報に囲まれる中で、コンピューターが本来人々を繋げるべきだと主張しており、現代のコンピューターは人々を分断していると考えている。Meta 2などの機械を使えば、新たな可能性が建築や脳科学などの分野で広がると説明されており、デジタル情報の層を現実世界に追加することで人類が変化する可能性があると予想されている。赤ちゃんは興味を引くものに手を伸ばして触ろうとし、視覚システムはプロプリオセプションから刺激を受けることが判明しています。脳科学を考慮に入れて、お互いをより深く理解し、つながりを強化することが重要です。",
+        "rel_src": [
+            "Our mirror-neuron subsystem suggests  that we can connect with each other and with our work much better  if we can see each other's faces and hands in 3D.",
+            "Guys, I can see this guy in front me in full 3D."
+        ],
+        "rel_tgt": [
+            "鏡ニューロンサブシステムからの提案は、お互いの顔や手を3Dで見ることができれば、お互いや仕事とより良いつながりを築くことができると示唆しています。",
+            "皆さん、私は目の前のこの人を完全な3Dで見ることができます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ"
+        }
+    },
+    {
+        "idx": 80,
+        "src": "Thank you.",
+        "ref": "（拍手） ありがとうございます",
+        "hyp": "ありがとうございます。",
+        "rel_src": [
+            "I'm now with you, I'm in the moment,  we're connecting.",
+            "Hey Ray, how's it going?"
+        ],
+        "rel_tgt": [
+            "今、私はあなたと一緒にいます。この瞬間に、私たちは繋がっています。",
+            "レイ、調子はどう？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ"
+        }
+    },
+    {
+        "idx": 81,
+        "src": "My mirror-neuron subsystem suggests that this is going to replace phones  in not too long.",
+        "ref": "僕のミラーニューロン・システムは これが携帯電話に もうすぐ取って代わると 示唆しています",
+        "hyp": "私の鏡ニューロンサブシステムは、これが間もなく電話を取って代わると示唆しています。",
+        "rel_src": [
+            "Our mirror-neuron subsystem suggests  that we can connect with each other and with our work much better  if we can see each other's faces and hands in 3D.",
+            "Guys, I can see this guy in front me in full 3D."
+        ],
+        "rel_tgt": [
+            "鏡ニューロンサブシステムからの提案は、お互いの顔や手を3Dで見ることができれば、お互いや仕事とより良いつながりを築くことができると示唆しています。",
+            "皆さん、私は目の前のこの人を完全な3Dで見ることができます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ"
+        }
+    },
+    {
+        "idx": 82,
+        "src": "Ray, how's it going?",
+        "ref": "レイ 調子はどう？",
+        "hyp": "レイ、調子はどう？",
+        "rel_src": [
+            "Hey Ray, how's it going?",
+            "Guys, I can see this guy in front me in full 3D."
+        ],
+        "rel_tgt": [
+            "レイ、調子はどう？",
+            "皆さん、私は目の前のこの人を完全な3Dで見ることができます。"
+        ],
+        "hist_info": "\"Ray\" - \"レイ\"",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ"
+        }
+    },
+    {
+        "idx": 83,
+        "src": "Ray: Great. We're live today.",
+        "ref": "いいよ 今ライブ会話中だね",
+        "hyp": "レイ：素晴らしいです。今日は生放送です。",
+        "rel_src": [
+            "But it's not enough to see things alone,  so in a second, my co-founder Ray is going to make a 3D call --  Ray?",
+            "Ray, how's it going?"
+        ],
+        "rel_tgt": [
+            "しかし、単独で物事を見るだけでは不十分です。ですので、今から共同創設者であるレイが3D通話を行います。レイ？",
+            "レイ、調子はどう？"
+        ],
+        "hist_info": "\"Ray\" - \"レイ\"",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ"
+        }
+    },
+    {
+        "idx": 84,
+        "src": "MG: Ray, give the crowd a gift  of the holographic brain we saw from the video earlier.",
+        "ref": "（拍手） レイ 先ほどビデオで見た ホログラムの脳を皆さんにお見せして",
+        "hyp": "MG: レイ、ビデオで見たホログラフィック脳のギフトを観客に贈ってください。",
+        "rel_src": [
+            "So if you look at the video behind me,  you can see two Meta users playing around with the same hologram,  making eye contact, connected around this thing,  instead of being distracted by external devices.",
+            "But it's not enough to see things alone,  so in a second, my co-founder Ray is going to make a 3D call --  Ray?"
+        ],
+        "rel_tgt": [
+            "背後のビデオを見ると、同じホログラムで遊ぶ2人のMetaユーザーが目を合わせ、このものにつながっているのが見えます。外部デバイスに気を取られるのではなく、このようなことが可能です。",
+            "しかし、単独で物事を見るだけでは不十分です。ですので、今から共同創設者であるレイが3D通話を行います。レイ？"
+        ],
+        "hist_info": "\"Ray\" - \"レイ\"",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ",
+            "MG": "MG"
+        }
+    },
+    {
+        "idx": 85,
+        "src": "Guys, this is not only going to change phones,  it's also going to change the way we collaborate.",
+        "ref": "みなさん これは電話を 変えてしまうだけでなく 私たちが共同で作業する方法をも 変えてしまうでしょう",
+        "hyp": "皆さん、これは電話だけでなく、協力の仕方も変えることになります。",
+        "rel_src": [
+            "Thank you.",
+            "My mirror-neuron subsystem suggests that this is going to replace phones  in not too long."
+        ],
+        "rel_tgt": [
+            "ありがとうございます。",
+            "私の鏡ニューロンサブシステムは、これが間もなく電話を取って代わると示唆しています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ",
+            "MG": "MG"
+        }
+    },
+    {
+        "idx": 86,
+        "src": "Thank you so much.",
+        "ref": "ありがとうございました",
+        "hyp": "ありがとうございます。",
+        "rel_src": [
+            "Thank you.",
+            "Guys, this is not only going to change phones,  it's also going to change the way we collaborate."
+        ],
+        "rel_tgt": [
+            "ありがとうございます。",
+            "皆さん、これは電話だけでなく、協力の仕方も変えることになります。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ",
+            "MG": "MG"
+        }
+    },
+    {
+        "idx": 87,
+        "src": "Thanks, Ray.",
+        "ref": "レイ ありがとう",
+        "hyp": "ありがとう、レイ。",
+        "rel_src": [
+            "Ray, how's it going?",
+            "MG: Ray, give the crowd a gift  of the holographic brain we saw from the video earlier."
+        ],
+        "rel_tgt": [
+            "レイ、調子はどう？",
+            "MG: レイ、ビデオで見たホログラフィック脳のギフトを観客に贈ってください。"
+        ],
+        "hist_info": "\"Ray\" - \"レイ\"",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ",
+            "MG": "MG"
+        }
+    },
+    {
+        "idx": 88,
+        "src": "Ray: You're welcome.",
+        "ref": "どういたしまして",
+        "hyp": "レイ：どういたしまして。",
+        "rel_src": [
+            "Ray: Great. We're live today.",
+            "Thanks, Ray."
+        ],
+        "rel_tgt": [
+            "レイ：素晴らしいです。今日は生放送です。",
+            "ありがとう、レイ。"
+        ],
+        "hist_info": "\"Ray\" - \"レイ\"",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ",
+            "MG": "MG"
+        }
+    },
+    {
+        "idx": 89,
+        "src": "MG: So folks, this is the message that I discovered in that bar in 2011:  The future of computers is not locked inside one of these screens.",
+        "ref": "（拍手） これが2011年にあのバーで 僕が見つけたメッセージです コンピューターの未来は 平たいスクリーンに囚われていません",
+        "hyp": "MG: 皆さん、これが私が2011年のバーで発見したメッセージです：コンピューターの未来は、これらの画面の中に閉じ込められていないのです。",
+        "rel_src": [
+            "My mirror-neuron subsystem suggests that this is going to replace phones  in not too long.",
+            "Guys, this is not only going to change phones,  it's also going to change the way we collaborate."
+        ],
+        "rel_tgt": [
+            "私の鏡ニューロンサブシステムは、これが間もなく電話を取って代わると示唆しています。",
+            "皆さん、これは電話だけでなく、協力の仕方も変えることになります。"
+        ],
+        "hist_info": "\"2011\" - \"2011年\", \"MG\" - \"MG\"",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ",
+            "MG": "MG"
+        }
+    },
+    {
+        "idx": 90,
+        "src": "It's right here, inside of us.",
+        "ref": "ここ 私たちの中にあるんです",
+        "hyp": "それは、私たちの内部にあります。",
+        "rel_src": [
+            "I'm going to now take a step further  and go ahead and grab this pair of glasses  and leave it right here by the desk.",
+            "My spatial memory kicks in, and I can go ahead and grab it  that I am the operating system."
+        ],
+        "rel_tgt": [
+            "今、さらに一歩踏み込んで、この眼鏡を取って、机の隣に置いてみます。",
+            "空間記憶が作動し、私は進んでそれを取ることができます。私がそのオペレーティングシステムであることを。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ",
+            "MG": "MG"
+        }
+    },
+    {
+        "idx": 91,
+        "src": "So if there's one idea that I could leave you with here today,  it's that the natural machine is not some figment of the future,  it's right here in 2016.",
+        "ref": "（拍手） 今日 アイデアを１つだけ選んで 皆さんに残すとすれば 「自然な機械」は 未来の作りごとではなく 2016年の今 もうここにある ということです",
+        "hyp": "だから、もしここで皆さんに残しておきたいアイデアがあるとすれば、それは自然な機械は未来の幻影ではなく、2016年の今、ここにあるということです。",
+        "rel_src": [
+            "MG: So folks, this is the message that I discovered in that bar in 2011:  The future of computers is not locked inside one of these screens.",
+            "It's right here, inside of us."
+        ],
+        "rel_tgt": [
+            "MG: 皆さん、これが私が2011年のバーで発見したメッセージです：コンピューターの未来は、これらの画面の中に閉じ込められていないのです。",
+            "それは、私たちの内部にあります。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ",
+            "MG": "MG"
+        }
+    },
+    {
+        "idx": 92,
+        "src": "Which is why all hundred of us at Meta,  including the administrative staff,  the executives,  the designers, the engineers --  before TED2017,  we're all going to be throwing away our external monitors  and replacing them with a truly and profoundly more natural machine.",
+        "ref": "だから Metaに勤める 100名のスタッフ全員― 事務管理職員 経営陣 デザイナー、エンジニアが TED2017までに モニター画面を放り出し 真に「自然な機械」を 使っているでしょう",
+        "hyp": "Metaの100人全員、管理スタッフ、幹部、デザイナー、エンジニアを含む、TED2017の前に、外部モニターを捨てて、本当にそして深く自然な機械に取り替える予定です。",
+        "rel_src": [
+            "MG: So folks, this is the message that I discovered in that bar in 2011:  The future of computers is not locked inside one of these screens.",
+            "It's right here, inside of us."
+        ],
+        "rel_tgt": [
+            "MG: 皆さん、これが私が2011年のバーで発見したメッセージです：コンピューターの未来は、これらの画面の中に閉じ込められていないのです。",
+            "それは、私たちの内部にあります。"
+        ],
+        "hist_info": "\"Meta\" - \"Meta\"",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ",
+            "MG": "MG",
+            "TED2017": "TED2017"
+        }
+    },
+    {
+        "idx": 93,
+        "src": "Thank you very much.",
+        "ref": "ありがとうございました",
+        "hyp": "ありがとうございました。",
+        "rel_src": [
+            "Thank you.",
+            "Thanks, Ray."
+        ],
+        "rel_tgt": [
+            "ありがとうございます。",
+            "ありがとう、レイ。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ",
+            "MG": "MG",
+            "TED2017": "TED2017"
+        }
+    },
+    {
+        "idx": 94,
+        "src": "Thank you, appreciate it.",
+        "ref": "（拍手） ありがとうございました",
+        "hyp": "ありがとうございます、感謝しています。",
+        "rel_src": [
+            "Thank you so much.",
+            "Thanks, Ray."
+        ],
+        "rel_tgt": [
+            "ありがとうございます。",
+            "ありがとう、レイ。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ",
+            "MG": "MG",
+            "TED2017": "TED2017"
+        }
+    },
+    {
+        "idx": 95,
+        "src": "Thanks, guys.",
+        "ref": "ありがとう",
+        "hyp": "ありがとう、皆さん。",
+        "rel_src": [
+            "Thanks, Ray.",
+            "Ray: You're welcome."
+        ],
+        "rel_tgt": [
+            "ありがとう、レイ。",
+            "レイ：どういたしまして。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ",
+            "MG": "MG",
+            "TED2017": "TED2017"
+        }
+    },
+    {
+        "idx": 96,
+        "src": "Chris Anderson: So help me out on one thing,  because there've been a few augmented reality demos  shown over the last year or so out there.",
+        "ref": "（クリス・アンダーソン） では聞いてみたいのですが― 過去数年にわたって 拡張現実のデモが 何度か行われましたが",
+        "hyp": "クリス・アンダーソン：一つお手伝いいただけますか、なぜならここ数年、いくつかの拡張現実デモが披露されてきました。",
+        "rel_src": [
+            "MG: So folks, this is the message that I discovered in that bar in 2011:  The future of computers is not locked inside one of these screens.",
+            "So if there's one idea that I could leave you with here today,  it's that the natural machine is not some figment of the future,  it's right here in 2016."
+        ],
+        "rel_tgt": [
+            "MG: 皆さん、これが私が2011年のバーで発見したメッセージです：コンピューターの未来は、これらの画面の中に閉じ込められていないのです。",
+            "だから、もしここで皆さんに残しておきたいアイデアがあるとすれば、それは自然な機械は未来の幻影ではなく、2016年の今、ここにあるということです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "クリス・アンダーソン"
+        }
+    },
+    {
+        "idx": 97,
+        "src": "And there's sometimes a debate among technologists  about, are we really seeing the real thing on-screen?",
+        "ref": "「実際のものを大スクリーンでも 見ているのか」という議論も 技術者の間で時々出ています",
+        "hyp": "そして、技術者の間で、画面上で本当のものを見ているのかという点で時々議論がありますか？",
+        "rel_src": [
+            "MG: So folks, this is the message that I discovered in that bar in 2011:  The future of computers is not locked inside one of these screens.",
+            "It's right here, inside of us."
+        ],
+        "rel_tgt": [
+            "MG: 皆さん、これが私が2011年のバーで発見したメッセージです：コンピューターの未来は、これらの画面の中に閉じ込められていないのです。",
+            "それは、私たちの内部にあります。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "クリス・アンダーソン"
+        }
+    },
+    {
+        "idx": 98,
+        "src": "There's this issue of field of view,  that somehow the technology is showing a broader view  than you would actually see wearing the glasses.",
+        "ref": "視野に関しての指摘もありました 実際のヘッドセットを着用したときに 見えるものよりも デモでは 広い視野を描けてしまう という指摘です",
+        "hyp": "メガネをかけていると実際に見るよりも広い視野を表示する技術があるという問題があります。",
+        "rel_src": [
+            "Chris Anderson: So help me out on one thing,  because there've been a few augmented reality demos  shown over the last year or so out there.",
+            "And there's sometimes a debate among technologists  about, are we really seeing the real thing on-screen?"
+        ],
+        "rel_tgt": [
+            "クリス・アンダーソン：一つお手伝いいただけますか、なぜならここ数年、いくつかの拡張現実デモが披露されてきました。",
+            "そして、技術者の間で、画面上で本当のものを見ているのかという点で時々議論がありますか？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "クリス・アンダーソン"
+        }
+    },
+    {
+        "idx": 99,
+        "src": "Were we seeing the real deal there?",
+        "ref": "お見せいただいたのは 実際の映像ですか",
+        "hyp": "そこで本物を見ていたのかな？",
+        "new_src_summary": "The paragraphs explore the impact of modern computers on human interactions and propose using neuroscience principles to address the issue. They introduce the Meta 2 machine, a holographic brain technology that allows users to interact with immersive holograms using hand gestures based on neuroscience principles. The potential uses of this technology, such as 3D building layouts and studying brain structures, highlight the transformative potential of augmented reality. The focus is on creating a new reality that enhances the human experience by developing user-friendly interfaces that mimic the brain's natural processes. The importance of touch and social interaction in enhancing our understanding and connection with work is emphasized, with a focus on utilizing neuroscience principles to enhance user experience and connectivity. MG discusses the potential of photo-realistic technology to replace phones in the near future, announcing that all employees at Meta will be transitioning to using a more natural machine, implying augmented reality technology. The overall tone is reflective, critical of current technology's impact on human relationships, enthusiastic, and forward-thinking, emphasizing the potential of digital devices to enhance human capabilities in the future.",
+        "new_tgt_summary": "コンピューターの進化により、脳科学を活用して感覚を拡張する機械が提案されている。人々がデジタル情報に囲まれる中で、コンピューターが本来人々を繋げるべきだと主張しており、現代のコンピューターは人々を分断していると考えている。Meta 2などの機械を使えば、新たな可能性が建築や脳科学などの分野で広がると説明されており、デジタル情報の層を現実世界に追加することで人類が変化する可能性があると予想されている。写真のようにリアルな画像を表示する鏡ニューロンサブシステムが電話を取って代わる可能性があり、レイが生放送でホログラフィック脳のギフトを観客に贈る。2011年のメッセージでは、コンピューターの未来は内部にあり、自然な機械は2016年の現実であると述べられている。TED2017の前に外部モニターを捨て、自然な機械に取り替える計画がある。赤ちゃんは興味を引くものに手を伸ばして触ろうとし、視覚システムはプロプリオセプションから刺激を受けることが判明しています。脳科学を考慮に入れて、お互いをより深く理解し、つながりを強化するこが重要です。拡張現実デモの議論では、画面上で本物を見ているかどうかについて技術者の間で時々議論がある。",
+        "rel_src": [
+            "And there's sometimes a debate among technologists  about, are we really seeing the real thing on-screen?",
+            "There's this issue of field of view,  that somehow the technology is showing a broader view  than you would actually see wearing the glasses."
+        ],
+        "rel_tgt": [
+            "そして、技術者の間で、画面上で本当のものを見ているのかという点で時々議論がありますか？",
+            "メガネをかけていると実際に見るよりも広い視野を表示する技術があるという問題があります。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "クリス・アンダーソン"
+        }
+    },
+    {
+        "idx": 100,
+        "src": "MG: Absolutely the real deal.",
+        "ref": "もちろん ホンモノです",
+        "hyp": "MG: まさに本物です。",
+        "rel_src": [
+            "MG: So folks, this is the message that I discovered in that bar in 2011:  The future of computers is not locked inside one of these screens.",
+            "Were we seeing the real deal there?"
+        ],
+        "rel_tgt": [
+            "MG: 皆さん、これが私が2011年のバーで発見したメッセージです：コンピューターの未来は、これらの画面の中に閉じ込められていないのです。",
+            "そこで本物を見ていたのかな？"
+        ],
+        "hist_info": "\"MG\" - \"MG\"",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "クリス・アンダーソン"
+        }
+    },
+    {
+        "idx": 101,
+        "src": "Not only that,  we took extra measures to shoot it with a GoPro through the actual lens  in the various videos that you've seen here.",
+        "ref": "それだけではなくて ご紹介したビデオを作るときには 特に工夫して GoProカメラのレンズ越しに 撮影しました",
+        "hyp": "その上、ここで見た様々なビデオで、実際のレンズを通してGoProで撮影するための追加の対策を講じました。",
+        "rel_src": [
+            "Chris Anderson: So help me out on one thing,  because there've been a few augmented reality demos  shown over the last year or so out there.",
+            "And there's sometimes a debate among technologists  about, are we really seeing the real thing on-screen?"
+        ],
+        "rel_tgt": [
+            "クリス・アンダーソン：一つお手伝いいただけますか、なぜならここ数年、いくつかの拡張現実デモが披露されてきました。",
+            "そして、技術者の間で、画面上で本当のものを見ているのかという点で時々議論がありますか？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "クリス・アンダーソン"
+        }
+    },
+    {
+        "idx": 102,
+        "src": "We want to try to simulate the experience for the world  that we're actually seeing through the glasses,  and not cut any corners.",
+        "ref": "皆さんに ヘッドギアを通して目にする 本物の体験を まるごとそのまま 疑似体験して 頂きたかったからです",
+        "hyp": "私たちは、眼鏡越しに実際に見ている体験を世界にシミュレートし、一切手を抜かないようにしたいと考えています。",
+        "rel_src": [
+            "Chris Anderson: So help me out on one thing,  because there've been a few augmented reality demos  shown over the last year or so out there.",
+            "And there's sometimes a debate among technologists  about, are we really seeing the real thing on-screen?"
+        ],
+        "rel_tgt": [
+            "クリス・アンダーソン：一つお手伝いいただけますか、なぜならここ数年、いくつかの拡張現実デモが披露されてきました。",
+            "そして、技術者の間で、画面上で本当のものを見ているのかという点で時々議論がありますか？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "クリス・アンダーソン"
+        }
+    },
+    {
+        "idx": 103,
+        "src": "CA: Thank you so much for showing us that.",
+        "ref": "紹介してくれてありがとう",
+        "hyp": "CA: それを見せてくれて本当にありがとうございます。",
+        "rel_src": [
+            "Thank you very much.",
+            "Thank you, appreciate it."
+        ],
+        "rel_tgt": [
+            "ありがとうございました。",
+            "ありがとうございます、感謝しています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "クリス・アンダーソン"
+        }
+    },
+    {
+        "idx": 104,
+        "src": "MG: Thanks so much, I appreciate that.",
+        "ref": "ありがとうございました",
+        "hyp": "MG: ありがとうございます、感謝しています。",
+        "rel_src": [
+            "Thank you very much.",
+            "Thank you, appreciate it."
+        ],
+        "rel_tgt": [
+            "ありがとうございました。",
+            "ありがとうございます、感謝しています。"
+        ],
+        "hist_info": "\"MG\" - \"MG\"",
+        "entity_dict": {
+            "Harlem": "ハーレム",
+            "2011": "2011年",
+            "Columbia University": "コロンビア大学",
+            "Meta 2": "Meta 2",
+            "Iron Man": "アイアンマン",
+            "Professor Adam Gazzaley": "アダム・ガザリー教授",
+            "UCSF": "UCSF",
+            "Windows": "Windows",
+            "Tesla": "テスラ",
+            "Meta": "Meta",
+            "Ray": "レイ",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "クリス・アンダーソン"
+        }
+    }
+]

@@ -1,0 +1,3065 @@
+[
+    {
+        "idx": 0,
+        "src": "Les ordinateurs d'aujourd'hui sont tellement incroyables que l'on ne réalise pas à quel point ils sont mauvais.",
+        "ref": "Today's computers are so amazing  that we fail to notice how terrible they really are.",
+        "hyp": "Today's computers are so incredible that we don't realize how bad they actually are.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 1,
+        "src": "J'aimerais aujourd'hui vous parler de ce problème et comment nous pouvons le résoudre avec les neurosciences.",
+        "ref": "I'd like to talk to you today about this problem,  and how we can fix it with neuroscience.",
+        "hyp": "I would like to talk to you today about this problem and how we can solve it with neuroscience.",
+        "rel_src": [
+            "Les ordinateurs d'aujourd'hui sont tellement incroyables que l'on ne réalise pas à quel point ils sont mauvais."
+        ],
+        "rel_tgt": [
+            "Today's computers are so incredible that we don't realize how bad they actually are."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 2,
+        "src": "Tout d'abord, j'aimerais vous ramener à Harlem lors d'une nuit glaciale de 2011 qui m'a profondément marqué.",
+        "ref": "First, I'd like to take you back to a frosty night in Harlem in 2011  that had a profound impact on me.",
+        "hyp": "Firstly, I would like to take you back to Harlem on a freezing night in 2011 that left a deep impression on me.",
+        "rel_src": [
+            "Les ordinateurs d'aujourd'hui sont tellement incroyables que l'on ne réalise pas à quel point ils sont mauvais.",
+            "J'aimerais aujourd'hui vous parler de ce problème et comment nous pouvons le résoudre avec les neurosciences."
+        ],
+        "rel_tgt": [
+            "Today's computers are so incredible that we don't realize how bad they actually are.",
+            "I would like to talk to you today about this problem and how we can solve it with neuroscience."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011"
+        }
+    },
+    {
+        "idx": 3,
+        "src": "J'étais assis à un bar non loin de l'université Columbia, où j'étudiais l'informatique et les neurosciences et j'étais en grande conversation avec un autre étudiant sur la capacité des hologrammes à remplacer un jour les ordinateurs.",
+        "ref": "I was sitting in a dive bar outside of Columbia University,  where I studied computer science and neuroscience,  and I was having this great conversation with a fellow student  about the power of holograms to one day replace computers.",
+        "hyp": "I was sitting at a bar not far from Columbia University, where I was studying computer science and neuroscience, and I was engaged in a deep conversation with another student about the potential for holograms to one day replace computers.",
+        "rel_src": [
+            "Les ordinateurs d'aujourd'hui sont tellement incroyables que l'on ne réalise pas à quel point ils sont mauvais.",
+            "J'aimerais aujourd'hui vous parler de ce problème et comment nous pouvons le résoudre avec les neurosciences."
+        ],
+        "rel_tgt": [
+            "Today's computers are so incredible that we don't realize how bad they actually are.",
+            "I would like to talk to you today about this problem and how we can solve it with neuroscience."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University"
+        }
+    },
+    {
+        "idx": 4,
+        "src": "Alors que nous arrivions au meilleur moment de la conversation, bien sûr, son téléphone s'allume.",
+        "ref": "And just as we were getting to the best part of the conversation,  of course, his phone lights up.",
+        "hyp": "As we were reaching the most interesting part of the conversation, of course, his phone lit up.",
+        "rel_src": [
+            "J'aimerais aujourd'hui vous parler de ce problème et comment nous pouvons le résoudre avec les neurosciences.",
+            "J'étais assis à un bar non loin de l'université Columbia, où j'étudiais l'informatique et les neurosciences et j'étais en grande conversation avec un autre étudiant sur la capacité des hologrammes à remplacer un jour les ordinateurs."
+        ],
+        "rel_tgt": [
+            "I would like to talk to you today about this problem and how we can solve it with neuroscience.",
+            "I was sitting at a bar not far from Columbia University, where I was studying computer science and neuroscience, and I was engaged in a deep conversation with another student about the potential for holograms to one day replace computers."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University"
+        }
+    },
+    {
+        "idx": 5,
+        "src": "Il le sort, le regarde et commence à taper quelque chose.",
+        "ref": "And he pulls it towards himself, and he looks down and he starts typing.",
+        "hyp": "He takes it out, looks at it, and starts typing something.",
+        "rel_src": [
+            "J'étais assis à un bar non loin de l'université Columbia, où j'étudiais l'informatique et les neurosciences et j'étais en grande conversation avec un autre étudiant sur la capacité des hologrammes à remplacer un jour les ordinateurs.",
+            "Alors que nous arrivions au meilleur moment de la conversation, bien sûr, son téléphone s'allume."
+        ],
+        "rel_tgt": [
+            "I was sitting at a bar not far from Columbia University, where I was studying computer science and neuroscience, and I was engaged in a deep conversation with another student about the potential for holograms to one day replace computers.",
+            "As we were reaching the most interesting part of the conversation, of course, his phone lit up."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University"
+        }
+    },
+    {
+        "idx": 6,
+        "src": "Puis il force ses yeux à revenir sur moi et il dit : « Continue. Je t'écoute. »",
+        "ref": "And then he forces his eyeballs back up to mine and he goes,  \"Keep going. I'm with you.\"",
+        "hyp": "Then he forces his eyes back to me and says, \"Go on. I'm listening.\"",
+        "rel_src": [
+            "J'étais assis à un bar non loin de l'université Columbia, où j'étudiais l'informatique et les neurosciences et j'étais en grande conversation avec un autre étudiant sur la capacité des hologrammes à remplacer un jour les ordinateurs.",
+            "Alors que nous arrivions au meilleur moment de la conversation, bien sûr, son téléphone s'allume."
+        ],
+        "rel_tgt": [
+            "I was sitting at a bar not far from Columbia University, where I was studying computer science and neuroscience, and I was engaged in a deep conversation with another student about the potential for holograms to one day replace computers.",
+            "As we were reaching the most interesting part of the conversation, of course, his phone lit up."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University"
+        }
+    },
+    {
+        "idx": 7,
+        "src": "Mais bien sûr, ses yeux étaient absents, et le moment était passé.",
+        "ref": "But of course his eyes were glazed over,  and the moment was dead.",
+        "hyp": "But of course, his eyes were elsewhere, and the moment had passed.",
+        "rel_src": [
+            "Alors que nous arrivions au meilleur moment de la conversation, bien sûr, son téléphone s'allume.",
+            "Il le sort, le regarde et commence à taper quelque chose."
+        ],
+        "rel_tgt": [
+            "As we were reaching the most interesting part of the conversation, of course, his phone lit up.",
+            "He takes it out, looks at it, and starts typing something."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University"
+        }
+    },
+    {
+        "idx": 8,
+        "src": "Pendant ce temps, dans ce bar, j'ai vu un autre étudiant tenir son téléphone, cette fois vers un groupe.",
+        "ref": "Meanwhile across the bar,  I noticed another student holding his phone,  this time towards a group.",
+        "hyp": "Meanwhile, in this bar, I saw another student holding his phone, this time towards a group.",
+        "rel_src": [
+            "Alors que nous arrivions au meilleur moment de la conversation, bien sûr, son téléphone s'allume.",
+            "Il le sort, le regarde et commence à taper quelque chose."
+        ],
+        "rel_tgt": [
+            "As we were reaching the most interesting part of the conversation, of course, his phone lit up.",
+            "He takes it out, looks at it, and starts typing something."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University"
+        }
+    },
+    {
+        "idx": 9,
+        "src": "Il faisait défiler des photos sur Instagram, et ces gamins riaient hystériquement.",
+        "ref": "He was swiping through pictures on Instagram,  and these kids were laughing hysterically.",
+        "hyp": "He was scrolling through pictures on Instagram, and these kids were laughing hysterically.",
+        "rel_src": [
+            "Il le sort, le regarde et commence à taper quelque chose.",
+            "Pendant ce temps, dans ce bar, j'ai vu un autre étudiant tenir son téléphone, cette fois vers un groupe."
+        ],
+        "rel_tgt": [
+            "He takes it out, looks at it, and starts typing something.",
+            "Meanwhile, in this bar, I saw another student holding his phone, this time towards a group."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 10,
+        "src": "Cette dichotomie entre mon sentiment de malaise et la joie qu'ils ressentaient à propos de la même technologie m'a fait m'interroger.",
+        "ref": "And that dichotomy between how crappy I was feeling  and how happy they were feeling about the same technology,  really got me thinking.",
+        "hyp": "This dichotomy between my feeling of discomfort and the joy they felt about the same technology made me wonder.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 11,
+        "src": "Plus j'y pensais, plus je réalisais qu'ici, le problème n'était clairement pas l'information numérique, c'était seulement la position d'utilisation qui me séparait de mon ami et qui rassemblait ces gamins.",
+        "ref": "And the more I thought of it, the more I realized  it was clearly not the digital information that was the bad guy here,  it was simply the display position that was separating me from my friend  and that was binding those kids together.",
+        "hyp": "The more I thought about it, the more I realized that here, the issue was clearly not the digital information, it was merely the usage position that separated me from my friend and brought these kids together.",
+        "rel_src": [
+            "J'étais assis à un bar non loin de l'université Columbia, où j'étudiais l'informatique et les neurosciences et j'étais en grande conversation avec un autre étudiant sur la capacité des hologrammes à remplacer un jour les ordinateurs.",
+            "Cette dichotomie entre mon sentiment de malaise et la joie qu'ils ressentaient à propos de la même technologie m'a fait m'interroger."
+        ],
+        "rel_tgt": [
+            "I was sitting at a bar not far from Columbia University, where I was studying computer science and neuroscience, and I was engaged in a deep conversation with another student about the potential for holograms to one day replace computers.",
+            "This dichotomy between my feeling of discomfort and the joy they felt about the same technology made me wonder."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 12,
+        "src": "Ils étaient connectés autour de quelque chose tout comme nos ancêtres qui ont amélioré leurs connaissances sociales en racontant des histoires autour du feu de camp.",
+        "ref": "See, they were connected around something,  just like our ancestors who evolved their social cognitions  telling stories around the campfire.",
+        "hyp": "They were connected around something just like our ancestors who enhanced their social knowledge by telling stories around the campfire.",
+        "rel_src": [
+            "Il faisait défiler des photos sur Instagram, et ces gamins riaient hystériquement.",
+            "Cette dichotomie entre mon sentiment de malaise et la joie qu'ils ressentaient à propos de la même technologie m'a fait m'interroger."
+        ],
+        "rel_tgt": [
+            "He was scrolling through pictures on Instagram, and these kids were laughing hysterically.",
+            "This dichotomy between my feeling of discomfort and the joy they felt about the same technology made me wonder."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 13,
+        "src": "Je pense que c'est exactement ce que les outils devraient faire.",
+        "ref": "And that's exactly what tools should do, I think.",
+        "hyp": "I think that's exactly what tools should do.",
+        "rel_src": [
+            "J'aimerais aujourd'hui vous parler de ce problème et comment nous pouvons le résoudre avec les neurosciences.",
+            "Plus j'y pensais, plus je réalisais qu'ici, le problème n'était clairement pas l'information numérique, c'était seulement la position d'utilisation qui me séparait de mon ami et qui rassemblait ces gamins."
+        ],
+        "rel_tgt": [
+            "I would like to talk to you today about this problem and how we can solve it with neuroscience.",
+            "The more I thought about it, the more I realized that here, the issue was clearly not the digital information, it was merely the usage position that separated me from my friend and brought these kids together."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 14,
+        "src": "Prolonger nos corps.",
+        "ref": "They should extend our bodies.",
+        "hyp": "Extending our bodies.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 15,
+        "src": "Je pense qu'aujourd'hui les ordinateurs font l'inverse.",
+        "ref": "And I think computers today are doing quite the opposite.",
+        "hyp": "I think that today's computers do the opposite.",
+        "rel_src": [
+            "Les ordinateurs d'aujourd'hui sont tellement incroyables que l'on ne réalise pas à quel point ils sont mauvais.",
+            "J'étais assis à un bar non loin de l'université Columbia, où j'étudiais l'informatique et les neurosciences et j'étais en grande conversation avec un autre étudiant sur la capacité des hologrammes à remplacer un jour les ordinateurs."
+        ],
+        "rel_tgt": [
+            "Today's computers are so incredible that we don't realize how bad they actually are.",
+            "I was sitting at a bar not far from Columbia University, where I was studying computer science and neuroscience, and I was engaged in a deep conversation with another student about the potential for holograms to one day replace computers."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 16,
+        "src": "Que vous envoyiez un e-mail à votre femme, que vous composiez une symphonie ou que vous consoliez un ami, vous le faites à peu près de la même manière.",
+        "ref": "Whether you're sending an email to your wife  or you're composing a symphony  or just consoling a friend,  you're doing it in pretty much the same way.",
+        "hyp": "Whether you're sending an email to your wife, composing a symphony, or consoling a friend, you do it pretty much the same way.",
+        "rel_src": [
+            "J'étais assis à un bar non loin de l'université Columbia, où j'étudiais l'informatique et les neurosciences et j'étais en grande conversation avec un autre étudiant sur la capacité des hologrammes à remplacer un jour les ordinateurs.",
+            "Je pense qu'aujourd'hui les ordinateurs font l'inverse."
+        ],
+        "rel_tgt": [
+            "I was sitting at a bar not far from Columbia University, where I was studying computer science and neuroscience, and I was engaged in a deep conversation with another student about the potential for holograms to one day replace computers.",
+            "I think that today's computers do the opposite."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 17,
+        "src": "Vous êtes penchés sur ces rectangles, vous tapez sur des boutons, des menus et plus de rectangles.",
+        "ref": "You're hunched over these rectangles,  fumbling with buttons and menus and more rectangles.",
+        "hyp": "You are hunched over these rectangles, tapping on buttons, menus, and more rectangles.",
+        "rel_src": [
+            "J'étais assis à un bar non loin de l'université Columbia, où j'étudiais l'informatique et les neurosciences et j'étais en grande conversation avec un autre étudiant sur la capacité des hologrammes à remplacer un jour les ordinateurs.",
+            "Je pense qu'aujourd'hui les ordinateurs font l'inverse."
+        ],
+        "rel_tgt": [
+            "I was sitting at a bar not far from Columbia University, where I was studying computer science and neuroscience, and I was engaged in a deep conversation with another student about the potential for holograms to one day replace computers.",
+            "I think that today's computers do the opposite."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 18,
+        "src": "Je pense que c'est la mauvaise manière. Je pense que nous pouvons commencer à utiliser une machine plus naturelle.",
+        "ref": "And I think this is the wrong way,  I think we can start using a much more natural machine.",
+        "hyp": "I think that's the wrong approach. I think we can start to use a machine in a more natural way.",
+        "rel_src": [
+            "Je pense qu'aujourd'hui les ordinateurs font l'inverse.",
+            "Vous êtes penchés sur ces rectangles, vous tapez sur des boutons, des menus et plus de rectangles."
+        ],
+        "rel_tgt": [
+            "I think that today's computers do the opposite.",
+            "You are hunched over these rectangles, tapping on buttons, menus, and more rectangles."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 19,
+        "src": "Nous devrions utiliser des machines qui ramènent notre travail dans ce monde.",
+        "ref": "We should use machines that bring our work back into the world.",
+        "hyp": "We should use machines that bring our work back into this world.",
+        "new_src_summary": "Le paragraphe, écrit dans un style narratif et réflexif, discute du décalage entre les capacités impressionnantes des ordinateurs actuels et leur incapacité à favoriser des interactions humaines authentiques. L'auteur, un étudiant en informatique et neurosciences, partage deux scénarios observés à Harlem en 2011. Le premier montre un ami interrompu par son téléphone pendant une conversation, illustrant la distraction causée par la technologie. Le second décrit un groupe d'étudiants partageant joyeusement des photos sur Instagram, mettant en évidence le potentiel des technologies pour favoriser la connexion sociale. Cette dichotomie soulève la question de la manière dont les ordinateurs sont utilisés, suggérant que leur format actuel peut entraver plutôt qu'améliorer les interactions humaines. L'auteur propose que les machines devraient prolonger notre humanité, pas l'entraver, et insinue que les neurosciences pourraient offrir des solutions pour améliorer cela. \n\nDomaine général : Technologie et Neurosciences.\n\nTonalité : Réflexive, critique mais optimiste.",
+        "new_tgt_summary": "The author reflects on a moment in 2011 in Harlem where he observed the dichotomy of human interaction with technology, leading him to question the proper usage of digital information. Inspired by the idea of tools extending our bodies, he argues that current computers fail to enhance social knowledge and connection, instead requiring unnatural postures and interactions. The author suggests that we need to reevaluate our approach to using machines and explore more intuitive and natural ways of interacting with technology.\n\nKey points:\n- The author shares a personal experience in Harlem in 2011 that highlighted the different ways people interact with technology.\n- He contrasts his discomfort with a friend being distracted by his phone during a conversation with the joy of others engaging with technology in a social setting.\n- The author believes that tools should extend our bodies and enhance social connections, similar to how our ancestors shared knowledge through storytelling.\n- Current computers require unnatural postures and interactions, such as hunching over screens and tapping on buttons.\n- The author calls for a reevaluation of our approach to using machines and encourages exploring more intuitive and natural ways of interacting with technology.",
+        "rel_src": [
+            "Je pense que c'est exactement ce que les outils devraient faire.",
+            "Je pense que c'est la mauvaise manière. Je pense que nous pouvons commencer à utiliser une machine plus naturelle."
+        ],
+        "rel_tgt": [
+            "I think that's exactly what tools should do.",
+            "I think that's the wrong approach. I think we can start to use a machine in a more natural way."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 20,
+        "src": "Des machines qui utilisent les principes des neurosciences pour prolonger nos sens, et non aller contre eux.",
+        "ref": "We should use machines that use the principles of neuroscience  to extend our senses versus going against them.",
+        "hyp": "Machines that use the principles of neuroscience to extend our senses, rather than working against them.",
+        "rel_src": [
+            "J'aimerais aujourd'hui vous parler de ce problème et comment nous pouvons le résoudre avec les neurosciences.",
+            "Je pense que c'est la mauvaise manière. Je pense que nous pouvons commencer à utiliser une machine plus naturelle."
+        ],
+        "rel_tgt": [
+            "I would like to talk to you today about this problem and how we can solve it with neuroscience.",
+            "I think that's the wrong approach. I think we can start to use a machine in a more natural way."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 21,
+        "src": "Il s'avère en fait que j'ai une telle machine.",
+        "ref": "Now it just so happens that I have such a machine here.",
+        "hyp": "It turns out that I actually have such a machine.",
+        "rel_src": [
+            "J'aimerais aujourd'hui vous parler de ce problème et comment nous pouvons le résoudre avec les neurosciences.",
+            "Des machines qui utilisent les principes des neurosciences pour prolonger nos sens, et non aller contre eux."
+        ],
+        "rel_tgt": [
+            "I would like to talk to you today about this problem and how we can solve it with neuroscience.",
+            "Machines that use the principles of neuroscience to extend our senses, rather than working against them."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 22,
+        "src": "Elle s'appelle Meta 2.",
+        "ref": "It's called the Meta 2.",
+        "hyp": "It is called Meta 2.",
+        "rel_src": [
+            "Nous devrions utiliser des machines qui ramènent notre travail dans ce monde.",
+            "Il s'avère en fait que j'ai une telle machine."
+        ],
+        "rel_tgt": [
+            "We should use machines that bring our work back into this world.",
+            "It turns out that I actually have such a machine."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2"
+        }
+    },
+    {
+        "idx": 23,
+        "src": "Testons-la !",
+        "ref": "Let's try it out.",
+        "hyp": "Let's test it!",
+        "rel_src": [
+            "Il s'avère en fait que j'ai une telle machine.",
+            "Elle s'appelle Meta 2."
+        ],
+        "rel_tgt": [
+            "It turns out that I actually have such a machine.",
+            "It is called Meta 2."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2"
+        }
+    },
+    {
+        "idx": 24,
+        "src": "En face de moi, je peux voir un public, et je peux voir mes mains.",
+        "ref": "Now in front of me right now, I can see the audience,  and I can see my very hands.",
+        "hyp": "In front of me, I can see an audience, and I can see my hands.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2"
+        }
+    },
+    {
+        "idx": 25,
+        "src": "Et dans trois, deux, un, nous allons voir apparaître un hologramme immersif, un hologramme très réaliste apparaît devant moi, issu des lunettes que je porte.",
+        "ref": "And in three, two, one,  we're going to see an immersive hologram appear,  a very realistic hologram appear in front of me,  of our very glasses I'm wearing on my head right now.",
+        "hyp": "And in three, two, one, we will see an immersive hologram appear, a very realistic hologram appears in front of me, coming from the glasses that I wear.",
+        "rel_src": [
+            "Il s'avère en fait que j'ai une telle machine.",
+            "Elle s'appelle Meta 2."
+        ],
+        "rel_tgt": [
+            "It turns out that I actually have such a machine.",
+            "It is called Meta 2."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2"
+        }
+    },
+    {
+        "idx": 26,
+        "src": "Bien sûr, cela pourrait être quelque chose que nous achetons ou que nous apprenons, et je peux utilise mes mains pour les déplacer finement.",
+        "ref": "And of course this could be anything that we're shopping for  or learning from,  and I can use my hands  to very nicely kind of move it around with fine control.",
+        "hyp": "Of course, this could be something we buy or learn, and I can use my hands to manipulate them finely.",
+        "rel_src": [
+            "En face de moi, je peux voir un public, et je peux voir mes mains.",
+            "Et dans trois, deux, un, nous allons voir apparaître un hologramme immersif, un hologramme très réaliste apparaît devant moi, issu des lunettes que je porte."
+        ],
+        "rel_tgt": [
+            "In front of me, I can see an audience, and I can see my hands.",
+            "And in three, two, one, we will see an immersive hologram appear, a very realistic hologram appears in front of me, coming from the glasses that I wear."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2"
+        }
+    },
+    {
+        "idx": 27,
+        "src": "Je pense qu'Iron Man serait fier.",
+        "ref": "And I think Iron Man would be proud.",
+        "hyp": "I think Iron Man would be proud.",
+        "rel_src": [
+            "Elle s'appelle Meta 2.",
+            "Et dans trois, deux, un, nous allons voir apparaître un hologramme immersif, un hologramme très réaliste apparaît devant moi, issu des lunettes que je porte."
+        ],
+        "rel_tgt": [
+            "It is called Meta 2.",
+            "And in three, two, one, we will see an immersive hologram appear, a very realistic hologram appears in front of me, coming from the glasses that I wear."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man"
+        }
+    },
+    {
+        "idx": 28,
+        "src": "Nous reviendrons sur ça un peu plus tard.",
+        "ref": "We're going to come back to this in just a bit.",
+        "hyp": "We will come back to this a little later.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man"
+        }
+    },
+    {
+        "idx": 29,
+        "src": "Maintenant si vous êtes comme moi, votre esprit est déjà sous le choc des possibilités que nous avons avec ce type de technologie, regardons-en quelques-unes.",
+        "ref": "Now if you're anything like me, your mind is already reeling  with the possibilities of what we can do with this kind of technology,  so let's look at a few.",
+        "hyp": "Now if you're like me, your mind is already reeling from the possibilities we have with this kind of technology, let's look at a few of them.",
+        "rel_src": [
+            "Elle s'appelle Meta 2.",
+            "Et dans trois, deux, un, nous allons voir apparaître un hologramme immersif, un hologramme très réaliste apparaît devant moi, issu des lunettes que je porte."
+        ],
+        "rel_tgt": [
+            "It is called Meta 2.",
+            "And in three, two, one, we will see an immersive hologram appear, a very realistic hologram appears in front of me, coming from the glasses that I wear."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man"
+        }
+    },
+    {
+        "idx": 30,
+        "src": "Ma mère est architecte, naturellement la première chose que j'ai imaginée était de dessiner un bâtiment en 3D au lieu d'utiliser ces plans en 2D.",
+        "ref": "My mom is an architect,  so naturally the first thing I imagined  was laying out a building in 3D space  instead of having to use these 2D floor plans.",
+        "hyp": "My mother is an architect, naturally the first thing I envisioned was drawing a building in 3D instead of using these 2D plans.",
+        "rel_src": [
+            "Et dans trois, deux, un, nous allons voir apparaître un hologramme immersif, un hologramme très réaliste apparaît devant moi, issu des lunettes que je porte.",
+            "Bien sûr, cela pourrait être quelque chose que nous achetons ou que nous apprenons, et je peux utilise mes mains pour les déplacer finement."
+        ],
+        "rel_tgt": [
+            "And in three, two, one, we will see an immersive hologram appear, a very realistic hologram appears in front of me, coming from the glasses that I wear.",
+            "Of course, this could be something we buy or learn, and I can use my hands to manipulate them finely."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man"
+        }
+    },
+    {
+        "idx": 31,
+        "src": "Là, elle touche des graphiques et sélectionne un décor intérieur.",
+        "ref": "She's actually touching graphics right now  and selecting an interior decor.",
+        "hyp": "There, she touches the charts and selects an interior decor.",
+        "rel_src": [
+            "Bien sûr, cela pourrait être quelque chose que nous achetons ou que nous apprenons, et je peux utilise mes mains pour les déplacer finement.",
+            "Ma mère est architecte, naturellement la première chose que j'ai imaginée était de dessiner un bâtiment en 3D au lieu d'utiliser ces plans en 2D."
+        ],
+        "rel_tgt": [
+            "Of course, this could be something we buy or learn, and I can use my hands to manipulate them finely.",
+            "My mother is an architect, naturally the first thing I envisioned was drawing a building in 3D instead of using these 2D plans."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man"
+        }
+    },
+    {
+        "idx": 32,
+        "src": "Tout a été filmé avec une GoPro avec nos propres lunettes.",
+        "ref": "This was all shot through a GoPro through our very glasses.",
+        "hyp": "Everything was filmed with a GoPro using our own glasses.",
+        "rel_src": [
+            "Et dans trois, deux, un, nous allons voir apparaître un hologramme immersif, un hologramme très réaliste apparaît devant moi, issu des lunettes que je porte.",
+            "Là, elle touche des graphiques et sélectionne un décor intérieur."
+        ],
+        "rel_tgt": [
+            "And in three, two, one, we will see an immersive hologram appear, a very realistic hologram appears in front of me, coming from the glasses that I wear.",
+            "There, she touches the charts and selects an interior decor."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro"
+        }
+    },
+    {
+        "idx": 33,
+        "src": "Ce prochain cas est vraiment particulier pour moi, il s'agit du projet de lunettes pour cerveau du professeur Adam Gazzaley, fourni par l'UCSF.",
+        "ref": "And this next use case is very personal to me,  it's Professor Adam Gazzaley's glass brain project,  courtesy of UCSF.",
+        "hyp": "This next case is particularly special to me, it's about Professor Adam Gazzaley's brain glasses project, provided by UCSF.",
+        "rel_src": [
+            "Des machines qui utilisent les principes des neurosciences pour prolonger nos sens, et non aller contre eux.",
+            "Il s'avère en fait que j'ai une telle machine."
+        ],
+        "rel_tgt": [
+            "Machines that use the principles of neuroscience to extend our senses, rather than working against them.",
+            "It turns out that I actually have such a machine."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 34,
+        "src": "En tant qu'étudiant en neurosciences, je fantasmerai toujours sur la possibilité d'apprendre et de mémoriser ces structures cérébrales complexes avec une machine réelle, je pourrais toucher et jouer avec ces différentes structures cérébrales.",
+        "ref": "As a neuroscience student,  I would always fantasize  about the ability to learn and memorize these complex brain structures  with an actual machine,  where I could touch and play with the various brain structures.",
+        "hyp": "As a neuroscience student, I will always daydream about the possibility of learning and memorizing these complex brain structures with a real machine, one I could touch and play with these various brain structures.",
+        "rel_src": [
+            "Des machines qui utilisent les principes des neurosciences pour prolonger nos sens, et non aller contre eux.",
+            "Ce prochain cas est vraiment particulier pour moi, il s'agit du projet de lunettes pour cerveau du professeur Adam Gazzaley, fourni par l'UCSF."
+        ],
+        "rel_tgt": [
+            "Machines that use the principles of neuroscience to extend our senses, rather than working against them.",
+            "This next case is particularly special to me, it's about Professor Adam Gazzaley's brain glasses project, provided by UCSF."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 35,
+        "src": "Ce que vous voyez à présent s'appelle la réalité augmentée, mais pour moi, ca fait partie d'une histoire beaucoup plus importante — une histoire sur la manière dont on commence à étendre nos corps grâce à des objets numériques, plutôt que l'inverse.",
+        "ref": "Now what you're seeing is called augmented reality,  but to me, it's part of a much more important story --  a story of how we can begin to extend our bodies with digital devices,  instead of the other way around.",
+        "hyp": "What you see now is called augmented reality, but to me, it's part of a much bigger story - a story about how we begin to extend our bodies through digital objects, rather than the reverse.",
+        "rel_src": [
+            "Je pense que c'est la mauvaise manière. Je pense que nous pouvons commencer à utiliser une machine plus naturelle.",
+            "Des machines qui utilisent les principes des neurosciences pour prolonger nos sens, et non aller contre eux."
+        ],
+        "rel_tgt": [
+            "I think that's the wrong approach. I think we can start to use a machine in a more natural way.",
+            "Machines that use the principles of neuroscience to extend our senses, rather than working against them."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 36,
+        "src": "A présent...",
+        "ref": "Now ...",
+        "hyp": "Now...",
+        "rel_src": [
+            "Et dans trois, deux, un, nous allons voir apparaître un hologramme immersif, un hologramme très réaliste apparaît devant moi, issu des lunettes que je porte.",
+            "Ce que vous voyez à présent s'appelle la réalité augmentée, mais pour moi, ca fait partie d'une histoire beaucoup plus importante — une histoire sur la manière dont on commence à étendre nos corps grâce à des objets numériques, plutôt que l'inverse."
+        ],
+        "rel_tgt": [
+            "And in three, two, one, we will see an immersive hologram appear, a very realistic hologram appears in front of me, coming from the glasses that I wear.",
+            "What you see now is called augmented reality, but to me, it's part of a much bigger story - a story about how we begin to extend our bodies through digital objects, rather than the reverse."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 37,
+        "src": "je pense que dans les prochaines années, l'humanité va vivre un changement.",
+        "ref": "in the next few years, humanity's going to go through a shift, I think.",
+        "hyp": "I believe that in the coming years, humanity is going to experience a change.",
+        "rel_src": [
+            "Maintenant si vous êtes comme moi, votre esprit est déjà sous le choc des possibilités que nous avons avec ce type de technologie, regardons-en quelques-unes.",
+            "Ce que vous voyez à présent s'appelle la réalité augmentée, mais pour moi, ca fait partie d'une histoire beaucoup plus importante — une histoire sur la manière dont on commence à étendre nos corps grâce à des objets numériques, plutôt que l'inverse."
+        ],
+        "rel_tgt": [
+            "Now if you're like me, your mind is already reeling from the possibilities we have with this kind of technology, let's look at a few of them.",
+            "What you see now is called augmented reality, but to me, it's part of a much bigger story - a story about how we begin to extend our bodies through digital objects, rather than the reverse."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 38,
+        "src": "Nous allons commencer à mettre une couche entière d'information digitale sur le monde réel.",
+        "ref": "We're going to start putting an entire layer of digital information  on the real world.",
+        "hyp": "We are going to start laying an entire layer of digital information over the real world.",
+        "rel_src": [
+            "Maintenant si vous êtes comme moi, votre esprit est déjà sous le choc des possibilités que nous avons avec ce type de technologie, regardons-en quelques-unes.",
+            "Ce que vous voyez à présent s'appelle la réalité augmentée, mais pour moi, ca fait partie d'une histoire beaucoup plus importante — une histoire sur la manière dont on commence à étendre nos corps grâce à des objets numériques, plutôt que l'inverse."
+        ],
+        "rel_tgt": [
+            "Now if you're like me, your mind is already reeling from the possibilities we have with this kind of technology, let's look at a few of them.",
+            "What you see now is called augmented reality, but to me, it's part of a much bigger story - a story about how we begin to extend our bodies through digital objects, rather than the reverse."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 39,
+        "src": "Imaginez un seul instant ce que cela signifierait pour les conteurs, les peintres, les neurochirurgiens, les décorateurs d'intérieurs et peut-être pour nous tous ici aujourd'hui.",
+        "ref": "Just imagine for a moment  what this could mean for storytellers,  for painters,  for brain surgeons,  for interior decorators  and maybe for all of us here today.",
+        "hyp": "Imagine for a moment what this would mean for storytellers, painters, neurosurgeons, interior decorators, and perhaps all of us here today.",
+        "new_src_summary": "Dans un récit réflexif et critique mais optimiste, un étudiant en informatique et neurosciences explore la complexité de l'interaction entre l'homme et la machine au sein du domaine technologique et neuroscientifique. En se basant sur des scènes observées à Harlem en 2011, il illustre comment, malgré leurs capacités impressionnantes, les ordinateurs peuvent à la fois distraire et favoriser des interactions sociales, suscitant des questions sur leur utilisation actuelle. L'auteur plaide pour une conception de machines qui renforcent notre humanité plutôt que de la limiter, suggérant que les neurosciences pourraient apporter des solutions. Il partage ensuite son expérience avec des lunettes holographiques Meta 2, démontrant l'impact de la technologie inspirée des principes de neuroscience sur l'augmentation de nos capacités sensorielles. Avec un ton d'émerveillement, il décrit comment ces lunettes permettent une visualisation en 3D, modifiant notre perception et interaction avec le monde réel. Il conclut en prédissant un bouleversement imminent dans la façon dont l'humanité perçoit et interagit avec son environnement grâce à la réalité augmentée.",
+        "new_tgt_summary": "In 2011, the author's observation of contrasting human interactions with technology in Harlem sparked a reflection on the role of digital devices in society. He noted the disconnect between the isolating effect of smartphones during conversations and the communal joy found in shared technological experiences. Inspired by the concept of tools as body extensions that should foster social connection, akin to ancestral storytelling, he critiques modern computers for demanding unnatural postures and interactions. Urging a reimagined relationship with machines, the author envisions an evolution akin to neuroscience-driven augmentation, demonstrated by the Meta 2 device. This technology projects lifelike, gesture-controlled holograms, opening up possibilities in fields like 3D design and immersive education about intricate subjects, such as the brain. The future, he predicts, will see an increasing fusion of digital overlays with the real world, profoundly altering human experience and enhancing capabilities in intuitive, organic ways.",
+        "rel_src": [
+            "Maintenant si vous êtes comme moi, votre esprit est déjà sous le choc des possibilités que nous avons avec ce type de technologie, regardons-en quelques-unes.",
+            "En tant qu'étudiant en neurosciences, je fantasmerai toujours sur la possibilité d'apprendre et de mémoriser ces structures cérébrales complexes avec une machine réelle, je pourrais toucher et jouer avec ces différentes structures cérébrales."
+        ],
+        "rel_tgt": [
+            "Now if you're like me, your mind is already reeling from the possibilities we have with this kind of technology, let's look at a few of them.",
+            "As a neuroscience student, I will always daydream about the possibility of learning and memorizing these complex brain structures with a real machine, one I could touch and play with these various brain structures."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 40,
+        "src": "Et ce que nous devons faire en tant que communauté, c'est d'essayer et de faire l'effort d'imaginer comment nous pouvons créer cette nouvelle réalité d'une manière qui étende l'expérience humaine, plutôt que de ludifier notre réalité ou de l'encombrer avec de l'information digitale.",
+        "ref": "And what I think we need to do as a community,  is really try and make an effort  to imagine how we can create this new reality  in a way that extends the human experience,  instead of gamifying our reality  or cluttering it with digital information.",
+        "hyp": "And what we need to do as a community is try and make the effort to imagine how we can create this new reality in a way that extends the human experience, rather than gamifying our reality or cluttering it with digital information.",
+        "rel_src": [
+            "Ce que vous voyez à présent s'appelle la réalité augmentée, mais pour moi, ca fait partie d'une histoire beaucoup plus importante — une histoire sur la manière dont on commence à étendre nos corps grâce à des objets numériques, plutôt que l'inverse.",
+            "Nous allons commencer à mettre une couche entière d'information digitale sur le monde réel."
+        ],
+        "rel_tgt": [
+            "What you see now is called augmented reality, but to me, it's part of a much bigger story - a story about how we begin to extend our bodies through digital objects, rather than the reverse.",
+            "We are going to start laying an entire layer of digital information over the real world."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 41,
+        "src": "C'est cela qui me passionne réellement.",
+        "ref": "And that's what I'm very passionate about.",
+        "hyp": "This is what truly fascinates me.",
+        "rel_src": [
+            "Ce que vous voyez à présent s'appelle la réalité augmentée, mais pour moi, ca fait partie d'une histoire beaucoup plus importante — une histoire sur la manière dont on commence à étendre nos corps grâce à des objets numériques, plutôt que l'inverse.",
+            "Nous allons commencer à mettre une couche entière d'information digitale sur le monde réel."
+        ],
+        "rel_tgt": [
+            "What you see now is called augmented reality, but to me, it's part of a much bigger story - a story about how we begin to extend our bodies through digital objects, rather than the reverse.",
+            "We are going to start laying an entire layer of digital information over the real world."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 42,
+        "src": "A présent, je veux vous dire un petit secret.",
+        "ref": "Now, I want to tell you a little secret.",
+        "hyp": "Now, I want to tell you a little secret.",
+        "rel_src": [
+            "Ce que vous voyez à présent s'appelle la réalité augmentée, mais pour moi, ca fait partie d'une histoire beaucoup plus importante — une histoire sur la manière dont on commence à étendre nos corps grâce à des objets numériques, plutôt que l'inverse.",
+            "je pense que dans les prochaines années, l'humanité va vivre un changement."
+        ],
+        "rel_tgt": [
+            "What you see now is called augmented reality, but to me, it's part of a much bigger story - a story about how we begin to extend our bodies through digital objects, rather than the reverse.",
+            "I believe that in the coming years, humanity is going to experience a change."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 43,
+        "src": "Dans environ cinq ans — c'est pas l'appareil le plus petit — dans environ cinq ans, ils ressembleront tous à des bandes de verre sur nos yeux qui projetteront des hologrammes.",
+        "ref": "In about five years --  this is not the smallest device --  in about five years,  these are all going to look like strips of glass on our eyes  that project holograms.",
+        "hyp": "In about five years - it's not the smallest device - in about five years, they will all look like strands of glass over our eyes that project holograms.",
+        "rel_src": [
+            "Et dans trois, deux, un, nous allons voir apparaître un hologramme immersif, un hologramme très réaliste apparaît devant moi, issu des lunettes que je porte.",
+            "Ce prochain cas est vraiment particulier pour moi, il s'agit du projet de lunettes pour cerveau du professeur Adam Gazzaley, fourni par l'UCSF."
+        ],
+        "rel_tgt": [
+            "And in three, two, one, we will see an immersive hologram appear, a very realistic hologram appears in front of me, coming from the glasses that I wear.",
+            "This next case is particularly special to me, it's about Professor Adam Gazzaley's brain glasses project, provided by UCSF."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 44,
+        "src": "Comme on se préoccupe peu du téléphone que l'on achète pour ses caractéristiques techniques — on l'achète pour le système d'exploitation — en tant que neuroscientifique, j'ai toujours rêvé de créer « l'iOS de l'esprit », si vous voulez.",
+        "ref": "And just like we don't care so much about which phone we buy  in terms of the hardware -- we buy it for the operating system --  as a neuroscientist,  I always dreamt of building the iOS of the mind, if you will.",
+        "hyp": "Just as we care little about the technical specifications of the phone we buy - we buy it for the operating system - as a neuroscientist, I have always dreamed of creating the \"iOS of the mind\", so to speak.",
+        "rel_src": [
+            "Ce prochain cas est vraiment particulier pour moi, il s'agit du projet de lunettes pour cerveau du professeur Adam Gazzaley, fourni par l'UCSF.",
+            "En tant qu'étudiant en neurosciences, je fantasmerai toujours sur la possibilité d'apprendre et de mémoriser ces structures cérébrales complexes avec une machine réelle, je pourrais toucher et jouer avec ces différentes structures cérébrales."
+        ],
+        "rel_tgt": [
+            "This next case is particularly special to me, it's about Professor Adam Gazzaley's brain glasses project, provided by UCSF.",
+            "As a neuroscience student, I will always daydream about the possibility of learning and memorizing these complex brain structures with a real machine, one I could touch and play with these various brain structures."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS"
+        }
+    },
+    {
+        "idx": 45,
+        "src": "C'est très, très important de faire bien les choses, car nous pourrions vivre dans ces choses pendant au moins aussi longtemps que le temps passé avec l'interface utilisateur de Windows.",
+        "ref": "And it's very, very important that we get this right,  because we might be living inside of these things  for at least as long as we've lived  with the Windows graphical user interface.",
+        "hyp": "It is very, very important to do things right, because we could be living with these things for at least as long as we have spent with the Windows user interface.",
+        "rel_src": [
+            "je pense que dans les prochaines années, l'humanité va vivre un changement.",
+            "Nous allons commencer à mettre une couche entière d'information digitale sur le monde réel."
+        ],
+        "rel_tgt": [
+            "I believe that in the coming years, humanity is going to experience a change.",
+            "We are going to start laying an entire layer of digital information over the real world."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows"
+        }
+    },
+    {
+        "idx": 46,
+        "src": "Et je ne sais pas vous, mais vivre à l'intérieur de Windows me fait peur.",
+        "ref": "And I don't know about you,  but living inside of Windows scares me.",
+        "hyp": "And I don't know about you, but living inside Windows scares me.",
+        "rel_src": [
+            "Maintenant si vous êtes comme moi, votre esprit est déjà sous le choc des possibilités que nous avons avec ce type de technologie, regardons-en quelques-unes.",
+            "C'est très, très important de faire bien les choses, car nous pourrions vivre dans ces choses pendant au moins aussi longtemps que le temps passé avec l'interface utilisateur de Windows."
+        ],
+        "rel_tgt": [
+            "Now if you're like me, your mind is already reeling from the possibilities we have with this kind of technology, let's look at a few of them.",
+            "It is very, very important to do things right, because we could be living with these things for at least as long as we have spent with the Windows user interface."
+        ],
+        "hist_info": "\"Windows\" - \"Windows\"",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows"
+        }
+    },
+    {
+        "idx": 47,
+        "src": "Pour isoler de l'infinité l'interface la plus intuitive, nous utilisons les neurosciences pour créer nos principes de design, plutôt qu'une bande de designers se disputant en réunion.",
+        "ref": "To isolate the single most intuitive interface out of infinity,  we use neuroscience to drive our design guidelines,  instead of letting a bunch of designers fight it out in the boardroom.",
+        "hyp": "To isolate from infinity the most intuitive interface, we use neuroscience to create our design principles, rather than a bunch of designers squabbling in a meeting.",
+        "rel_src": [
+            "En tant qu'étudiant en neurosciences, je fantasmerai toujours sur la possibilité d'apprendre et de mémoriser ces structures cérébrales complexes avec une machine réelle, je pourrais toucher et jouer avec ces différentes structures cérébrales.",
+            "Et ce que nous devons faire en tant que communauté, c'est d'essayer et de faire l'effort d'imaginer comment nous pouvons créer cette nouvelle réalité d'une manière qui étende l'expérience humaine, plutôt que de ludifier notre réalité ou de l'encombrer avec de l'information digitale."
+        ],
+        "rel_tgt": [
+            "As a neuroscience student, I will always daydream about the possibility of learning and memorizing these complex brain structures with a real machine, one I could touch and play with these various brain structures.",
+            "And what we need to do as a community is try and make the effort to imagine how we can create this new reality in a way that extends the human experience, rather than gamifying our reality or cluttering it with digital information."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows"
+        }
+    },
+    {
+        "idx": 48,
+        "src": "Le principe sur lequel nous nous appuyons tous est ce qui est appelé le « Chemin Neural de Plus Faible Résistance. »",
+        "ref": "And the principle we all revolve around  is what's called the \"Neural Path of Least Resistance.\"",
+        "hyp": "The principle on which we all rely is what is called the \"Path of Least Resistance Neural Pathway.\"",
+        "rel_src": [
+            "En tant qu'étudiant en neurosciences, je fantasmerai toujours sur la possibilité d'apprendre et de mémoriser ces structures cérébrales complexes avec une machine réelle, je pourrais toucher et jouer avec ces différentes structures cérébrales.",
+            "Pour isoler de l'infinité l'interface la plus intuitive, nous utilisons les neurosciences pour créer nos principes de design, plutôt qu'une bande de designers se disputant en réunion."
+        ],
+        "rel_tgt": [
+            "As a neuroscience student, I will always daydream about the possibility of learning and memorizing these complex brain structures with a real machine, one I could touch and play with these various brain structures.",
+            "To isolate from infinity the most intuitive interface, we use neuroscience to create our design principles, rather than a bunch of designers squabbling in a meeting."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person"
+        }
+    },
+    {
+        "idx": 49,
+        "src": "A chaque fois, nous essayons de connecter l'iOS de notre cerveau avec notre cerveau selon, pour la toute première fois, nos conditions.",
+        "ref": "At every turn, we're connecting the iOS of the brain with our brain  on, for the first time, our brain's terms.",
+        "hyp": "Every time, we attempt to connect our brain's iOS with our brain itself, for the very first time, on our own terms.",
+        "rel_src": [
+            "En tant qu'étudiant en neurosciences, je fantasmerai toujours sur la possibilité d'apprendre et de mémoriser ces structures cérébrales complexes avec une machine réelle, je pourrais toucher et jouer avec ces différentes structures cérébrales.",
+            "Comme on se préoccupe peu du téléphone que l'on achète pour ses caractéristiques techniques — on l'achète pour le système d'exploitation — en tant que neuroscientifique, j'ai toujours rêvé de créer « l'iOS de l'esprit », si vous voulez."
+        ],
+        "rel_tgt": [
+            "As a neuroscience student, I will always daydream about the possibility of learning and memorizing these complex brain structures with a real machine, one I could touch and play with these various brain structures.",
+            "Just as we care little about the technical specifications of the phone we buy - we buy it for the operating system - as a neuroscientist, I have always dreamed of creating the \"iOS of the mind\", so to speak."
+        ],
+        "hist_info": "\"iOS\" - \"iOS\"",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person"
+        }
+    },
+    {
+        "idx": 50,
+        "src": "Autrement dit, nous essayons de créer un ordinateur sans courbe d'apprentissage.",
+        "ref": "In other words, we're trying to create a zero learning-curve computer.",
+        "hyp": "In other words, we are trying to create a computer without a learning curve.",
+        "rel_src": [
+            "Pour isoler de l'infinité l'interface la plus intuitive, nous utilisons les neurosciences pour créer nos principes de design, plutôt qu'une bande de designers se disputant en réunion.",
+            "A chaque fois, nous essayons de connecter l'iOS de notre cerveau avec notre cerveau selon, pour la toute première fois, nos conditions."
+        ],
+        "rel_tgt": [
+            "To isolate from infinity the most intuitive interface, we use neuroscience to create our design principles, rather than a bunch of designers squabbling in a meeting.",
+            "Every time, we attempt to connect our brain's iOS with our brain itself, for the very first time, on our own terms."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person"
+        }
+    },
+    {
+        "idx": 51,
+        "src": "Nous construisons un système que vous savez utiliser depuis toujours.",
+        "ref": "We're building a system that you've always known how to use.",
+        "hyp": "We are building a system that you have always known how to use.",
+        "rel_src": [
+            "Comme on se préoccupe peu du téléphone que l'on achète pour ses caractéristiques techniques — on l'achète pour le système d'exploitation — en tant que neuroscientifique, j'ai toujours rêvé de créer « l'iOS de l'esprit », si vous voulez.",
+            "Autrement dit, nous essayons de créer un ordinateur sans courbe d'apprentissage."
+        ],
+        "rel_tgt": [
+            "Just as we care little about the technical specifications of the phone we buy - we buy it for the operating system - as a neuroscientist, I have always dreamed of creating the \"iOS of the mind\", so to speak.",
+            "In other words, we are trying to create a computer without a learning curve."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person"
+        }
+    },
+    {
+        "idx": 52,
+        "src": "Voici le premier des trois principes que nous employons dans cette toute nouvelle expérience utilisateur.",
+        "ref": "Here are the first three design guidelines that we employ  in this brand-new form of user experience.",
+        "hyp": "Here is the first of the three principles that we apply in this entirely new user experience.",
+        "rel_src": [
+            "Pour isoler de l'infinité l'interface la plus intuitive, nous utilisons les neurosciences pour créer nos principes de design, plutôt qu'une bande de designers se disputant en réunion.",
+            "Le principe sur lequel nous nous appuyons tous est ce qui est appelé le « Chemin Neural de Plus Faible Résistance. »"
+        ],
+        "rel_tgt": [
+            "To isolate from infinity the most intuitive interface, we use neuroscience to create our design principles, rather than a bunch of designers squabbling in a meeting.",
+            "The principle on which we all rely is what is called the \"Path of Least Resistance Neural Pathway.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person"
+        }
+    },
+    {
+        "idx": 53,
+        "src": "En premier lieu, vous êtes le système d'exploitation.",
+        "ref": "First and foremost, you are the operating system.",
+        "hyp": "Firstly, you are the operating system.",
+        "rel_src": [
+            "Comme on se préoccupe peu du téléphone que l'on achète pour ses caractéristiques techniques — on l'achète pour le système d'exploitation — en tant que neuroscientifique, j'ai toujours rêvé de créer « l'iOS de l'esprit », si vous voulez.",
+            "A chaque fois, nous essayons de connecter l'iOS de notre cerveau avec notre cerveau selon, pour la toute première fois, nos conditions."
+        ],
+        "rel_tgt": [
+            "Just as we care little about the technical specifications of the phone we buy - we buy it for the operating system - as a neuroscientist, I have always dreamed of creating the \"iOS of the mind\", so to speak.",
+            "Every time, we attempt to connect our brain's iOS with our brain itself, for the very first time, on our own terms."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person"
+        }
+    },
+    {
+        "idx": 54,
+        "src": "Les systèmes de fichiers classiques sont complexes et abstraits, exigent de votre cerveau des étapes en plus pour les décoder.",
+        "ref": "Traditional file systems are complex and abstract,  and they take your brain extra steps to decode them.",
+        "hyp": "Classic file systems are complex and abstract, requiring extra steps from your brain to decode them.",
+        "rel_src": [
+            "Pour isoler de l'infinité l'interface la plus intuitive, nous utilisons les neurosciences pour créer nos principes de design, plutôt qu'une bande de designers se disputant en réunion.",
+            "Autrement dit, nous essayons de créer un ordinateur sans courbe d'apprentissage."
+        ],
+        "rel_tgt": [
+            "To isolate from infinity the most intuitive interface, we use neuroscience to create our design principles, rather than a bunch of designers squabbling in a meeting.",
+            "In other words, we are trying to create a computer without a learning curve."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person"
+        }
+    },
+    {
+        "idx": 55,
+        "src": "Nous contrarions le Chemin Neural de Plus Faible Resistance.",
+        "ref": "We're going against the Neural Path of Least Resistance.",
+        "hyp": "We counteract the Path of Least Resistance Neural Pathway.",
+        "rel_src": [
+            "Le principe sur lequel nous nous appuyons tous est ce qui est appelé le « Chemin Neural de Plus Faible Résistance. »",
+            "A chaque fois, nous essayons de connecter l'iOS de notre cerveau avec notre cerveau selon, pour la toute première fois, nos conditions."
+        ],
+        "rel_tgt": [
+            "The principle on which we all rely is what is called the \"Path of Least Resistance Neural Pathway.\"",
+            "Every time, we attempt to connect our brain's iOS with our brain itself, for the very first time, on our own terms."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person"
+        }
+    },
+    {
+        "idx": 56,
+        "src": "Pendant ce temps, dans la réalité augmentée, vous placez votre panneau holographique TED juste là, et votre email holographique de l'autre coté du bureau, et votre mémoire spatiale évoluée les récupère.",
+        "ref": "Meanwhile, in augmented reality,  you can of course place your holographic TED panel over here,  and your holographic email on the other side of the desk,  and your spatial memory evolved just fine to go ahead and retrieve them.",
+        "hyp": "Meanwhile, in augmented reality, you place your TED holographic panel right there, and your holographic email on the other side of the desk, and your advanced spatial memory retrieves them.",
+        "rel_src": [
+            "Nous allons commencer à mettre une couche entière d'information digitale sur le monde réel.",
+            "Dans environ cinq ans — c'est pas l'appareil le plus petit — dans environ cinq ans, ils ressembleront tous à des bandes de verre sur nos yeux qui projetteront des hologrammes."
+        ],
+        "rel_tgt": [
+            "We are going to start laying an entire layer of digital information over the real world.",
+            "In about five years - it's not the smallest device - in about five years, they will all look like strands of glass over our eyes that project holograms."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 57,
+        "src": "Vous pourriez mettre votre Tesla holographique que vous achetez — ou n'importe quel modèle que mon équipe juridique m'a dit de mettre.",
+        "ref": "You could put your holographic Tesla that you're shopping for --  or whatever model my legal team told me to put in right before the show.",
+        "hyp": "You could place your holographic Tesla that you buy - or any model that my legal team has instructed me to include.",
+        "rel_src": [
+            "Dans environ cinq ans — c'est pas l'appareil le plus petit — dans environ cinq ans, ils ressembleront tous à des bandes de verre sur nos yeux qui projetteront des hologrammes.",
+            "Pendant ce temps, dans la réalité augmentée, vous placez votre panneau holographique TED juste là, et votre email holographique de l'autre coté du bureau, et votre mémoire spatiale évoluée les récupère."
+        ],
+        "rel_tgt": [
+            "In about five years - it's not the smallest device - in about five years, they will all look like strands of glass over our eyes that project holograms.",
+            "Meanwhile, in augmented reality, you place your TED holographic panel right there, and your holographic email on the other side of the desk, and your advanced spatial memory retrieves them."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>"
+        }
+    },
+    {
+        "idx": 58,
+        "src": "Parfait. Votre cerveau sait exactement comment le faire revenir.",
+        "ref": "Perfect. And your brain knows exactly how to get it back.",
+        "hyp": "Perfect. Your brain knows exactly how to bring it back.",
+        "rel_src": [
+            "Nous construisons un système que vous savez utiliser depuis toujours.",
+            "Pendant ce temps, dans la réalité augmentée, vous placez votre panneau holographique TED juste là, et votre email holographique de l'autre coté du bureau, et votre mémoire spatiale évoluée les récupère."
+        ],
+        "rel_tgt": [
+            "We are building a system that you have always known how to use.",
+            "Meanwhile, in augmented reality, you place your TED holographic panel right there, and your holographic email on the other side of the desk, and your advanced spatial memory retrieves them."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>"
+        }
+    },
+    {
+        "idx": 59,
+        "src": "Nous appelons le second principe d'interface « Toucher pour voir ».",
+        "ref": "The second interface guideline we call \"touch to see.\"",
+        "hyp": "We call the second interface principle \"Touch to See\".",
+        "new_src_summary": "Dans un plaidoyer réflexif et optimiste teinté d'un regard critique, un étudiant passionné d'informatique et de neurosciences explore l'interaction complexe entre l'homme et la machine, illustrant à travers des observations faites à Harlem en 2011, comment les ordinateurs, malgré leurs capacités extraordinaires, peuvent à la fois détourner notre attention et stimuler des interactions sociales. L'étudiant prône une conception de machines qui valorisent notre humanité plutôt que de la restreindre, anticipant un futur où les neurosciences influencent le développement de la technologie. Il partage son expérience avec les lunettes holographiques Meta 2, décrivant avec émerveillement comment elles augmentent nos capacités sensorielles et transforment notre perception du monde réel. Projetant vers cinq ans à venir, l'étudiant prévoit que les appareils ressembleront à des bandes de verre projetant des hologrammes, créant une réalité augmentée qui enrichit plutôt que surcharge l'expérience humaine. Il vise à élaborer une interface utilisateur intuitive, comparée à \"l'iOS de l'esprit\", qui établit un \"Chemin Neural de Plus Faible Résistance\", reliant l'iOS du cerveau à lui-même sans courbe d'apprentissage. Cet avenir envisagé permettrait aux utilisateurs de positionner virtuellement des objets comme des emails holographiques ou des voitures Tesla à des endroits précis, exploitant notre mémoire spatiale évoluée pour faciliter leur localisation. Le tout est présenté dans un ton visionnaire et didactique, avec un style formel et un vocabulaire technique spécifique au domaine de la technologie et des neurosciences.",
+        "new_tgt_summary": "In 2011, the author observed the dual nature of technology's impact on human interaction in Harlem, leading to a critical reflection on the role of digital devices in society. While noting the isolating effect of smartphones during conversations, he also highlighted the communal joy found in shared technological experiences. Drawing inspiration from the idea of tools as body extensions designed to foster social connection, akin to ancestral storytelling, the author critiqued modern computers for promoting unnatural postures and interactions. He envisioned a future where our relationship with machines evolves, akin to neuroscience-driven augmentation, as exemplified by the Meta 2 device. This technology projects lifelike, gesture-controlled holograms, unlocking potential in areas like 3D design and immersive education. The author predicts an increasingly integrated digital overlay with the real world, profoundly transforming human experience and enhancing capabilities in intuitive, organic ways. In this future, augmented reality devices, which resemble strands of glass over the eyes, will project holograms and become extensions of the human experience. The aim is to create a user-friendly system, dubbed the \"iOS of the mind,\" based on intuitive design principles from neuroscience, particularly the \"Path of Least Resistance Neural Pathway.\" This method seeks to design a system that users inherently understand, integrating seamlessly with their spatial memory and cognitive processes, making augmented reality devices as natural and effortless to use as innate abilities, enabling intuitive interaction with holographic interfaces and objects.",
+        "rel_src": [
+            "Voici le premier des trois principes que nous employons dans cette toute nouvelle expérience utilisateur.",
+            "En premier lieu, vous êtes le système d'exploitation."
+        ],
+        "rel_tgt": [
+            "Here is the first of the three principles that we apply in this entirely new user experience.",
+            "Firstly, you are the operating system."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>"
+        }
+    },
+    {
+        "idx": 60,
+        "src": "Que font les bébés lorsqu'ils voient quelque chose qui attirent l'attention ?",
+        "ref": "What do babies do when they see something that grabs their interest?",
+        "hyp": "What do babies do when they see something that catches their attention?",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>"
+        }
+    },
+    {
+        "idx": 61,
+        "src": "Ils essayent de l'atteindre, de le toucher.",
+        "ref": "They try and reach out and touch it.",
+        "hyp": "They try to reach for it, to touch it.",
+        "rel_src": [
+            "Nous appelons le second principe d'interface « Toucher pour voir ».",
+            "Que font les bébés lorsqu'ils voient quelque chose qui attirent l'attention ?"
+        ],
+        "rel_tgt": [
+            "We call the second interface principle \"Touch to See\".",
+            "What do babies do when they see something that catches their attention?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>"
+        }
+    },
+    {
+        "idx": 62,
+        "src": "C'est exactement la manière dont la machine naturelle devrait marcher.",
+        "ref": "And that's exactly how the natural machine should work as well.",
+        "hyp": "This is exactly how the natural machine should work.",
+        "rel_src": [
+            "En premier lieu, vous êtes le système d'exploitation.",
+            "Nous appelons le second principe d'interface « Toucher pour voir »."
+        ],
+        "rel_tgt": [
+            "Firstly, you are the operating system.",
+            "We call the second interface principle \"Touch to See\"."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>"
+        }
+    },
+    {
+        "idx": 63,
+        "src": "Il s'avère que le système visuel ait un coup de pouce essentiel d'un sens que l'on appelle proprioception — c'est le sens des membres de notre corps dans l'espace.",
+        "ref": "Turns out the visual system gets a fundamental boost  from a sense we call proprioception --  that's the sense of our body parts in space.",
+        "hyp": "It turns out that the visual system gets an essential boost from a sense we call proprioception — it's the sense of the position of our body parts in space.",
+        "rel_src": [
+            "Pendant ce temps, dans la réalité augmentée, vous placez votre panneau holographique TED juste là, et votre email holographique de l'autre coté du bureau, et votre mémoire spatiale évoluée les récupère.",
+            "Nous appelons le second principe d'interface « Toucher pour voir »."
+        ],
+        "rel_tgt": [
+            "Meanwhile, in augmented reality, you place your TED holographic panel right there, and your holographic email on the other side of the desk, and your advanced spatial memory retrieves them.",
+            "We call the second interface principle \"Touch to See\"."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>"
+        }
+    },
+    {
+        "idx": 64,
+        "src": "En touchant directement notre travail, nous allons non seulement mieux le contrôler, mais nous allons également mieux le comprendre.",
+        "ref": "So by touching our work directly, we're not only going to control it better,  we're also going to understand it much more deeply.",
+        "hyp": "By directly touching our work, we will not only control it better, but we will also understand it better.",
+        "rel_src": [
+            "Nous appelons le second principe d'interface « Toucher pour voir ».",
+            "Ils essayent de l'atteindre, de le toucher."
+        ],
+        "rel_tgt": [
+            "We call the second interface principle \"Touch to See\".",
+            "They try to reach for it, to touch it."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>"
+        }
+    },
+    {
+        "idx": 65,
+        "src": "Et ainsi, toucher pour voir.",
+        "ref": "Hence, touch to see.",
+        "hyp": "And thus, touch to see.",
+        "rel_src": [
+            "Nous appelons le second principe d'interface « Toucher pour voir ».",
+            "Ils essayent de l'atteindre, de le toucher."
+        ],
+        "rel_tgt": [
+            "We call the second interface principle \"Touch to See\".",
+            "They try to reach for it, to touch it."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>"
+        }
+    },
+    {
+        "idx": 66,
+        "src": "Mais ce n'est pas assez pour ressentir les choses.",
+        "ref": "But it's not enough to experience things ourselves.",
+        "hyp": "But it's not enough to feel things.",
+        "rel_src": [
+            "Il s'avère que le système visuel ait un coup de pouce essentiel d'un sens que l'on appelle proprioception — c'est le sens des membres de notre corps dans l'espace.",
+            "En touchant directement notre travail, nous allons non seulement mieux le contrôler, mais nous allons également mieux le comprendre."
+        ],
+        "rel_tgt": [
+            "It turns out that the visual system gets an essential boost from a sense we call proprioception — it's the sense of the position of our body parts in space.",
+            "By directly touching our work, we will not only control it better, but we will also understand it better."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>"
+        }
+    },
+    {
+        "idx": 67,
+        "src": "Nous sommes intrinsèquement des primates sociaux.",
+        "ref": "We're inherently these social primates.",
+        "hyp": "We are inherently social primates.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>"
+        }
+    },
+    {
+        "idx": 68,
+        "src": "Ceci m'amène à notre troisième principe, le feu de camp holographique de notre première histoire.",
+        "ref": "And this leads me to our third guideline,  the holographic campfire from our first story.",
+        "hyp": "This brings me to our third principle, the holographic campfire of our first story.",
+        "rel_src": [
+            "En premier lieu, vous êtes le système d'exploitation.",
+            "Pendant ce temps, dans la réalité augmentée, vous placez votre panneau holographique TED juste là, et votre email holographique de l'autre coté du bureau, et votre mémoire spatiale évoluée les récupère."
+        ],
+        "rel_tgt": [
+            "Firstly, you are the operating system.",
+            "Meanwhile, in augmented reality, you place your TED holographic panel right there, and your holographic email on the other side of the desk, and your advanced spatial memory retrieves them."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>"
+        }
+    },
+    {
+        "idx": 69,
+        "src": "Notre système de neurones miroirs suggère que nous pouvons mieux nous connecter entre nous et avec notre travail si nous pouvons voir nos visages et nos mains en 3D.",
+        "ref": "Our mirror-neuron subsystem suggests  that we can connect with each other and with our work much better  if we can see each other's faces and hands in 3D.",
+        "hyp": "Our mirror neuron system suggests that we can better connect with each other and with our work if we can see our faces and hands in 3D.",
+        "rel_src": [
+            "En touchant directement notre travail, nous allons non seulement mieux le contrôler, mais nous allons également mieux le comprendre.",
+            "Ceci m'amène à notre troisième principe, le feu de camp holographique de notre première histoire."
+        ],
+        "rel_tgt": [
+            "By directly touching our work, we will not only control it better, but we will also understand it better.",
+            "This brings me to our third principle, the holographic campfire of our first story."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>"
+        }
+    },
+    {
+        "idx": 70,
+        "src": "Donc si vous regardez la vidéo derrière moi, vous pouvez voir deux Meta utilisateurs jouant avec le même hologramme, établissant un contact visuel, connectés autour de cet objet, au lieu d'être distraits par des appareils externes.",
+        "ref": "So if you look at the video behind me,  you can see two Meta users playing around with the same hologram,  making eye contact, connected around this thing,  instead of being distracted by external devices.",
+        "hyp": "So if you look at the video behind me, you can see two Meta users interacting with the same hologram, making eye contact, connected around this object, instead of being distracted by external devices.",
+        "rel_src": [
+            "Nous sommes intrinsèquement des primates sociaux.",
+            "Notre système de neurones miroirs suggère que nous pouvons mieux nous connecter entre nous et avec notre travail si nous pouvons voir nos visages et nos mains en 3D."
+        ],
+        "rel_tgt": [
+            "We are inherently social primates.",
+            "Our mirror neuron system suggests that we can better connect with each other and with our work if we can see our faces and hands in 3D."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 71,
+        "src": "Continuons et essayons à nouveau en ayant les neurosciences à l'esprit.",
+        "ref": "Let's go ahead and try this again with neuroscience in mind.",
+        "hyp": "Let's move forward and try again with neuroscience in mind.",
+        "rel_src": [
+            "Il s'avère que le système visuel ait un coup de pouce essentiel d'un sens que l'on appelle proprioception — c'est le sens des membres de notre corps dans l'espace.",
+            "Notre système de neurones miroirs suggère que nous pouvons mieux nous connecter entre nous et avec notre travail si nous pouvons voir nos visages et nos mains en 3D."
+        ],
+        "rel_tgt": [
+            "It turns out that the visual system gets an essential boost from a sense we call proprioception — it's the sense of the position of our body parts in space.",
+            "Our mirror neuron system suggests that we can better connect with each other and with our work if we can see our faces and hands in 3D."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 72,
+        "src": "Encore une fois, notre interface favorite, l'iOS de l'esprit.",
+        "ref": "So again, our favorite interface, the iOS of the mind.",
+        "hyp": "Once again, our favorite interface, the iOS of the mind.",
+        "rel_src": [
+            "Nous appelons le second principe d'interface « Toucher pour voir ».",
+            "En touchant directement notre travail, nous allons non seulement mieux le contrôler, mais nous allons également mieux le comprendre."
+        ],
+        "rel_tgt": [
+            "We call the second interface principle \"Touch to See\".",
+            "By directly touching our work, we will not only control it better, but we will also understand it better."
+        ],
+        "hist_info": "\"iOS\" - \"iOS\"",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 73,
+        "src": "Je vais maintenant aller plus loin et attraper cette paire de lunettes et la laisser ici à coté du bureau.",
+        "ref": "I'm going to now take a step further  and go ahead and grab this pair of glasses  and leave it right here by the desk.",
+        "hyp": "I am now going to go further and grab this pair of glasses and leave it here next to the desk.",
+        "rel_src": [
+            "Pendant ce temps, dans la réalité augmentée, vous placez votre panneau holographique TED juste là, et votre email holographique de l'autre coté du bureau, et votre mémoire spatiale évoluée les récupère.",
+            "Parfait. Votre cerveau sait exactement comment le faire revenir."
+        ],
+        "rel_tgt": [
+            "Meanwhile, in augmented reality, you place your TED holographic panel right there, and your holographic email on the other side of the desk, and your advanced spatial memory retrieves them.",
+            "Perfect. Your brain knows exactly how to bring it back."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 74,
+        "src": "Je suis avec vous, en ce moment, nous sommes connectés.",
+        "ref": "I'm now with you, I'm in the moment,  we're connecting.",
+        "hyp": "I am with you, right now, we are connected.",
+        "rel_src": [
+            "Nous sommes intrinsèquement des primates sociaux.",
+            "Notre système de neurones miroirs suggère que nous pouvons mieux nous connecter entre nous et avec notre travail si nous pouvons voir nos visages et nos mains en 3D."
+        ],
+        "rel_tgt": [
+            "We are inherently social primates.",
+            "Our mirror neuron system suggests that we can better connect with each other and with our work if we can see our faces and hands in 3D."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 75,
+        "src": "Ma mémoire spatiale s'est mise en marche, et je peux l'attraper et la remettre ici, en me rappelant que je suis le système d'exploitation.",
+        "ref": "My spatial memory kicks in, and I can go ahead and grab it  and bring it right back here, reminding me  that I am the operating system.",
+        "hyp": "My spatial memory has kicked in, and I can grab it and put it back here, remembering that I am the operating system.",
+        "rel_src": [
+            "Pendant ce temps, dans la réalité augmentée, vous placez votre panneau holographique TED juste là, et votre email holographique de l'autre coté du bureau, et votre mémoire spatiale évoluée les récupère.",
+            "Parfait. Votre cerveau sait exactement comment le faire revenir."
+        ],
+        "rel_tgt": [
+            "Meanwhile, in augmented reality, you place your TED holographic panel right there, and your holographic email on the other side of the desk, and your advanced spatial memory retrieves them.",
+            "Perfect. Your brain knows exactly how to bring it back."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 76,
+        "src": "Et ma proprioception est en marche, et je peux continuer et exploser ces lunettes en des milliers de morceaux et toucher le capteur qui est en train de scanner ma main.",
+        "ref": "And now my proprioception is working,  and I can go ahead and explode these glasses into a thousand parts  and touch the very sensor that is currently scanning my hand.",
+        "hyp": "And my proprioception is active, and I can continue and break these glasses into thousands of pieces and touch the sensor that is scanning my hand.",
+        "rel_src": [
+            "Il s'avère que le système visuel ait un coup de pouce essentiel d'un sens que l'on appelle proprioception — c'est le sens des membres de notre corps dans l'espace.",
+            "En touchant directement notre travail, nous allons non seulement mieux le contrôler, mais nous allons également mieux le comprendre."
+        ],
+        "rel_tgt": [
+            "It turns out that the visual system gets an essential boost from a sense we call proprioception — it's the sense of the position of our body parts in space.",
+            "By directly touching our work, we will not only control it better, but we will also understand it better."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 77,
+        "src": "Mais ça n'est pas assez pour voir les objets seuls, dans une seconde, le co-fondateur Ray va téléphoner en 3D -- Ray ?",
+        "ref": "But it's not enough to see things alone,  so in a second, my co-founder Ray is going to make a 3D call --  Ray?",
+        "hyp": "But seeing objects alone is not enough, in a moment, co-founder Ray is going to call in 3D -- Ray?",
+        "rel_src": [
+            "Notre système de neurones miroirs suggère que nous pouvons mieux nous connecter entre nous et avec notre travail si nous pouvons voir nos visages et nos mains en 3D.",
+            "Donc si vous regardez la vidéo derrière moi, vous pouvez voir deux Meta utilisateurs jouant avec le même hologramme, établissant un contact visuel, connectés autour de cet objet, au lieu d'être distraits par des appareils externes."
+        ],
+        "rel_tgt": [
+            "Our mirror neuron system suggests that we can better connect with each other and with our work if we can see our faces and hands in 3D.",
+            "So if you look at the video behind me, you can see two Meta users interacting with the same hologram, making eye contact, connected around this object, instead of being distracted by external devices."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray"
+        }
+    },
+    {
+        "idx": 78,
+        "src": "Salut Ray, comment ça va ?",
+        "ref": "Hey Ray, how's it going?",
+        "hyp": "Hello Ray, how are you?",
+        "rel_src": [
+            "Et ma proprioception est en marche, et je peux continuer et exploser ces lunettes en des milliers de morceaux et toucher le capteur qui est en train de scanner ma main.",
+            "Mais ça n'est pas assez pour voir les objets seuls, dans une seconde, le co-fondateur Ray va téléphoner en 3D -- Ray ?"
+        ],
+        "rel_tgt": [
+            "And my proprioception is active, and I can continue and break these glasses into thousands of pieces and touch the sensor that is scanning my hand.",
+            "But seeing objects alone is not enough, in a moment, co-founder Ray is going to call in 3D -- Ray?"
+        ],
+        "hist_info": "\"Ray\" - \"Ray\"",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray"
+        }
+    },
+    {
+        "idx": 79,
+        "src": "Je peux voir cette personne entièrement en face de moi en 3D.",
+        "ref": "Guys, I can see this guy in front me in full 3D.",
+        "hyp": "I can see this person fully in front of me in 3D.",
+        "new_src_summary": "Dans un discours optimiste et réfléchi teinté d'une critique pertinente, un étudiant enthousiaste, spécialiste en informatique et neurosciences, analyse l'interaction complexe entre l'homme et la machine, se basant sur des observations faites à Harlem en 2011. Il met en lumière comment, malgré leurs capacités exceptionnelles, les ordinateurs peuvent à la fois détourner notre attention et stimuler des interactions sociales. En utilisant les lunettes holographiques Meta 2 comme exemple, il décrit avec émerveillement comment ces technologies augmentent nos capacités sensorielles, transformant notre perception du monde réel. Prônant une conception de machines valorisant notre humanité plutôt que de la limiter, il anticipe un futur où les neurosciences influencent le développement technologique. Son vision futuriste est d'appareils semblables à des bandes de verre projetant des hologrammes, créant une réalité augmentée qui enrichit l'expérience humaine sans la surcharger. Il ambitionne de développer une interface utilisateur intuitive, comparée à \"l'iOS de l'esprit\", permettant un \"Chemin Neural de Plus Faible Résistance\". Dans cet univers, les utilisateurs pourraient placer virtuellement des objets comme des emails holographiques ou des voitures Tesla à des emplacements précis, exploitant notre mémoire spatiale pour faciliter leur localisation.\n\nCe récit visionnaire et didactique est soutenu par trois principes d'interface centrés sur l'expérience utilisateur naturelle et intuitive. Inspirés par le comportement des bébés et nos capacités sensorielles innées, ces principes promeuvent un \"Toucher pour voir\" pour améliorer le contrôle et la compréhension, soulignent la dimension sociale inhérente à l'espèce humaine grâce à la visualisation 3D, et suggèrent une utilisation avancée de la technologie pour une interaction plus profonde. Avec un style formel et un vocabulaire technique spécifique, ce plaidoyer offre une perspective captivante sur l'avenir de la technologie de réalité augmentée ou virtuelle, où les neurosciences jouent un rôle central dans la conception de ces interfaces.",
+        "new_tgt_summary": "In 2011, the author reflected on the dichotomy of technology's influence on human interaction in Harlem, observing both the alienating impact of smartphones and the unifying power of shared technological experiences. Inspired by the concept of tools as extensions of the body meant to enhance social bonds, similar to traditional storytelling, the author critiqued contemporary computers for inducing unnatural postures and interactions. Envisioning a future where humans and machines are more symbiotically integrated, akin to neuroscience-driven enhancements, he pointed to the Meta 2 device as an example, showcasing its ability to project realistic, gesture-controlled holograms, opening up new possibilities in 3D design and immersive learning. The author anticipates a seamless digital overlay merging with the physical world, significantly enriching human experience through intuitive, organic interactions. Augmented reality devices, resembling strands of glass worn over the eyes, will project holograms and become extensions of human senses, guided by a user-friendly system inspired by neuroscience, termed the \"iOS of the mind.\" This approach aims to align with the \"Path of Least Resistance Neural Pathway,\" ensuring designs that users naturally comprehend, blending effortlessly with their spatial memory and cognitive functions, thus making augmented reality as instinctive and effort-free as inherent skills.\n\nThe discussion further elaborates on three interface guidelines for achieving a more immersive and intuitive technology experience. Firstly, \"Touch to See\" draws parallels with infants' exploratory methods, advocating for direct physical involvement to improve control and comprehension. Secondly, it underscores the role of proprioception, the awareness of body position, which complements the visual system. Lastly, it underlines the value of social dynamics, introducing a holographic campfire concept to foster 3D connectivity, enhancing engagement and collaboration among users. A practical demonstration using a set of glasses demonstrates the application of spatial memory and proprioception in manipulating virtual items, reinforcing the argument that interaction goes beyond mere visual engagement. The narrative foreshadows the inclusion of a co-founder, Ray, in a 3D call, signaling the direction towards a more holistic integration of sensory experiences in future technology.",
+        "rel_src": [
+            "Notre système de neurones miroirs suggère que nous pouvons mieux nous connecter entre nous et avec notre travail si nous pouvons voir nos visages et nos mains en 3D.",
+            "Donc si vous regardez la vidéo derrière moi, vous pouvez voir deux Meta utilisateurs jouant avec le même hologramme, établissant un contact visuel, connectés autour de cet objet, au lieu d'être distraits par des appareils externes."
+        ],
+        "rel_tgt": [
+            "Our mirror neuron system suggests that we can better connect with each other and with our work if we can see our faces and hands in 3D.",
+            "So if you look at the video behind me, you can see two Meta users interacting with the same hologram, making eye contact, connected around this object, instead of being distracted by external devices."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray"
+        }
+    },
+    {
+        "idx": 80,
+        "src": "Et il est plutôt réaliste.",
+        "ref": "And he is photo-realistic.",
+        "hyp": "And it is quite realistic.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray"
+        }
+    },
+    {
+        "idx": 81,
+        "src": "Merci.",
+        "ref": "Thank you.",
+        "hyp": "Thank you.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray"
+        }
+    },
+    {
+        "idx": 82,
+        "src": "Mon système de neurones miroirs suggère que cela va remplacer les téléphones dans peu de temps.",
+        "ref": "My mirror-neuron subsystem suggests that this is going to replace phones  in not too long.",
+        "hyp": "My mirror neuron system suggests that this will replace phones in no time.",
+        "rel_src": [
+            "Notre système de neurones miroirs suggère que nous pouvons mieux nous connecter entre nous et avec notre travail si nous pouvons voir nos visages et nos mains en 3D.",
+            "Mais ça n'est pas assez pour voir les objets seuls, dans une seconde, le co-fondateur Ray va téléphoner en 3D -- Ray ?"
+        ],
+        "rel_tgt": [
+            "Our mirror neuron system suggests that we can better connect with each other and with our work if we can see our faces and hands in 3D.",
+            "But seeing objects alone is not enough, in a moment, co-founder Ray is going to call in 3D -- Ray?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray"
+        }
+    },
+    {
+        "idx": 83,
+        "src": "Ray, comment ça va ?",
+        "ref": "Ray, how's it going?",
+        "hyp": "Ray, how are you?",
+        "rel_src": [
+            "Salut Ray, comment ça va ?",
+            "Je peux voir cette personne entièrement en face de moi en 3D."
+        ],
+        "rel_tgt": [
+            "Hello Ray, how are you?",
+            "I can see this person fully in front of me in 3D."
+        ],
+        "hist_info": "\"Ray\" - \"Ray\"",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray"
+        }
+    },
+    {
+        "idx": 84,
+        "src": "Ray : Très bien. Nous sommes en direct aujourd'hui.",
+        "ref": "Ray: Great. We're live today.",
+        "hyp": "Ray: Very well. We are live today.",
+        "rel_src": [
+            "Salut Ray, comment ça va ?",
+            "Je peux voir cette personne entièrement en face de moi en 3D."
+        ],
+        "rel_tgt": [
+            "Hello Ray, how are you?",
+            "I can see this person fully in front of me in 3D."
+        ],
+        "hist_info": "\"Ray\" - \"Ray\"",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray"
+        }
+    },
+    {
+        "idx": 85,
+        "src": "MG: Ray, donne au public un cadeau du cerveau holographique que nous avons vu plus tôt.",
+        "ref": "MG: Ray, give the crowd a gift  of the holographic brain we saw from the video earlier.",
+        "hyp": "MG: Ray, give the audience a gift from the holographic brain we saw earlier.",
+        "rel_src": [
+            "Ceci m'amène à notre troisième principe, le feu de camp holographique de notre première histoire.",
+            "Salut Ray, comment ça va ?"
+        ],
+        "rel_tgt": [
+            "This brings me to our third principle, the holographic campfire of our first story.",
+            "Hello Ray, how are you?"
+        ],
+        "hist_info": "\"Ray\" - \"Ray\"",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray",
+            "MG": "MG"
+        }
+    },
+    {
+        "idx": 86,
+        "src": "Ceci va non seulement remplacer les téléphones, mais cela va changer également notre manière de collaborer.",
+        "ref": "Guys, this is not only going to change phones,  it's also going to change the way we collaborate.",
+        "hyp": "This will not only replace phones, but it will also change the way we collaborate.",
+        "rel_src": [
+            "Je peux voir cette personne entièrement en face de moi en 3D.",
+            "Mon système de neurones miroirs suggère que cela va remplacer les téléphones dans peu de temps."
+        ],
+        "rel_tgt": [
+            "I can see this person fully in front of me in 3D.",
+            "My mirror neuron system suggests that this will replace phones in no time."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray",
+            "MG": "MG"
+        }
+    },
+    {
+        "idx": 87,
+        "src": "Merci beaucoup.",
+        "ref": "Thank you so much.",
+        "hyp": "Thank you very much.",
+        "rel_src": [
+            "Merci.",
+            "Ray : Très bien. Nous sommes en direct aujourd'hui."
+        ],
+        "rel_tgt": [
+            "Thank you.",
+            "Ray: Very well. We are live today."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray",
+            "MG": "MG"
+        }
+    },
+    {
+        "idx": 88,
+        "src": "Merci, Ray.",
+        "ref": "Thanks, Ray.",
+        "hyp": "Thank you, Ray.",
+        "rel_src": [
+            "Merci.",
+            "Merci beaucoup."
+        ],
+        "rel_tgt": [
+            "Thank you.",
+            "Thank you very much."
+        ],
+        "hist_info": "\"Ray\" - \"Ray\"",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray",
+            "MG": "MG"
+        }
+    },
+    {
+        "idx": 89,
+        "src": "Ray : De rien.",
+        "ref": "Ray: You're welcome.",
+        "hyp": "Ray: You're welcome.",
+        "rel_src": [
+            "Merci.",
+            "Merci, Ray."
+        ],
+        "rel_tgt": [
+            "Thank you.",
+            "Thank you, Ray."
+        ],
+        "hist_info": "\"Ray\" - \"Ray\"",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray",
+            "MG": "MG"
+        }
+    },
+    {
+        "idx": 90,
+        "src": "MG: Bon, voici le message que j'ai découvert dans un bar en 2011 : le futur des ordinateurs n'est pas bloqué à l'intérieur de l'un de ces écrans.",
+        "ref": "MG: So folks, this is the message that I discovered in that bar in 2011:  The future of computers is not locked inside one of these screens.",
+        "hyp": "MG: Alright, here's the message I uncovered in a bar in 2011: the future of computers is not confined within any of these screens.",
+        "rel_src": [
+            "Donc si vous regardez la vidéo derrière moi, vous pouvez voir deux Meta utilisateurs jouant avec le même hologramme, établissant un contact visuel, connectés autour de cet objet, au lieu d'être distraits par des appareils externes.",
+            "Ceci va non seulement remplacer les téléphones, mais cela va changer également notre manière de collaborer."
+        ],
+        "rel_tgt": [
+            "So if you look at the video behind me, you can see two Meta users interacting with the same hologram, making eye contact, connected around this object, instead of being distracted by external devices.",
+            "This will not only replace phones, but it will also change the way we collaborate."
+        ],
+        "hist_info": "\"2011\" - \"2011\", \"MG\" - \"MG\"",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray",
+            "MG": "MG"
+        }
+    },
+    {
+        "idx": 91,
+        "src": "Il est juste là, en nous.",
+        "ref": "It's right here, inside of us.",
+        "hyp": "It is right there, within us.",
+        "rel_src": [
+            "Mon système de neurones miroirs suggère que cela va remplacer les téléphones dans peu de temps.",
+            "Ceci va non seulement remplacer les téléphones, mais cela va changer également notre manière de collaborer."
+        ],
+        "rel_tgt": [
+            "My mirror neuron system suggests that this will replace phones in no time.",
+            "This will not only replace phones, but it will also change the way we collaborate."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray",
+            "MG": "MG"
+        }
+    },
+    {
+        "idx": 92,
+        "src": "S'il n'y a qu'une seule idée que je peux donner aujourd'hui, c'est que la machine naturelle n'est pas le fruit du futur, elle est juste ici en 2016.",
+        "ref": "So if there's one idea that I could leave you with here today,  it's that the natural machine is not some figment of the future,  it's right here in 2016.",
+        "hyp": "If there's only one idea I can impart today, it's that the natural machine is not a product of the future, it is right here in 2016.",
+        "rel_src": [
+            "MG: Bon, voici le message que j'ai découvert dans un bar en 2011 : le futur des ordinateurs n'est pas bloqué à l'intérieur de l'un de ces écrans.",
+            "Il est juste là, en nous."
+        ],
+        "rel_tgt": [
+            "MG: Alright, here's the message I uncovered in a bar in 2011: the future of computers is not confined within any of these screens.",
+            "It is right there, within us."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray",
+            "MG": "MG",
+            "2016": "2016"
+        }
+    },
+    {
+        "idx": 93,
+        "src": "C'est pourquoi nous tous à Meta, incluant le personnel administratif, les cadres, les designers, les ingénieurs -- avant TED2017, nous allons tous mettre à la poubelle nos moniteurs externes et les remplacer par des machines vraiment et profondément plus naturelles.",
+        "ref": "Which is why all hundred of us at Meta,  including the administrative staff,  the executives,  the designers, the engineers --  before TED2017,  we're all going to be throwing away our external monitors  and replacing them with a truly and profoundly more natural machine.",
+        "hyp": "That's why all of us at Meta, including the administrative staff, executives, designers, engineers -- before TED2017, we're all going to throw out our external monitors and replace them with machines that are truly and deeply more natural.",
+        "rel_src": [
+            "Mon système de neurones miroirs suggère que cela va remplacer les téléphones dans peu de temps.",
+            "Ceci va non seulement remplacer les téléphones, mais cela va changer également notre manière de collaborer."
+        ],
+        "rel_tgt": [
+            "My mirror neuron system suggests that this will replace phones in no time.",
+            "This will not only replace phones, but it will also change the way we collaborate."
+        ],
+        "hist_info": "\"TED\" - \"TED\", \"Meta\" - \"Meta\"",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray",
+            "MG": "MG",
+            "2016": "2016",
+            "TED2017": "TED2017"
+        }
+    },
+    {
+        "idx": 94,
+        "src": "Merci beaucoup.",
+        "ref": "Thank you very much.",
+        "hyp": "Thank you very much.",
+        "rel_src": [
+            "Merci.",
+            "Merci beaucoup."
+        ],
+        "rel_tgt": [
+            "Thank you.",
+            "Thank you very much."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray",
+            "MG": "MG",
+            "2016": "2016",
+            "TED2017": "TED2017"
+        }
+    },
+    {
+        "idx": 95,
+        "src": "Merci, c'est très gentil.",
+        "ref": "Thank you, appreciate it.",
+        "hyp": "Thank you, that's very kind.",
+        "rel_src": [
+            "Merci.",
+            "Merci beaucoup."
+        ],
+        "rel_tgt": [
+            "Thank you.",
+            "Thank you very much."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray",
+            "MG": "MG",
+            "2016": "2016",
+            "TED2017": "TED2017"
+        }
+    },
+    {
+        "idx": 96,
+        "src": "Merci à tous.",
+        "ref": "Thanks, guys.",
+        "hyp": "Thank you all.",
+        "rel_src": [
+            "Merci.",
+            "Merci beaucoup."
+        ],
+        "rel_tgt": [
+            "Thank you.",
+            "Thank you very much."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray",
+            "MG": "MG",
+            "2016": "2016",
+            "TED2017": "TED2017"
+        }
+    },
+    {
+        "idx": 97,
+        "src": "Chris Anderson : Bon, expliquez-moi une chose, parce qu'il y a eu peu de démonstrations sur la réalité augmentée l'année dernière ou précédemment ici-même.",
+        "ref": "Chris Anderson: So help me out on one thing,  because there've been a few augmented reality demos  shown over the last year or so out there.",
+        "hyp": "Chris Anderson: Alright, explain one thing to me, because there have been few demonstrations on augmented reality here last year or previously.",
+        "rel_src": [
+            "Mon système de neurones miroirs suggère que cela va remplacer les téléphones dans peu de temps.",
+            "Ceci va non seulement remplacer les téléphones, mais cela va changer également notre manière de collaborer."
+        ],
+        "rel_tgt": [
+            "My mirror neuron system suggests that this will replace phones in no time.",
+            "This will not only replace phones, but it will also change the way we collaborate."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray",
+            "MG": "MG",
+            "2016": "2016",
+            "TED2017": "TED2017",
+            "Chris Anderson": "Chris Anderson",
+            "réalité augmentée": "augmented reality (Note: Although réalité augmentée is translated directly as augmented reality",
+            "then the proper nouns would be:\nChris Anderson": "Chris Anderson"
+        }
+    },
+    {
+        "idx": 98,
+        "src": "Et il y a parfois un débat parmi les technologistes pour savoir si nous voyons vraiment l'objet réel à l'écran.",
+        "ref": "And there's sometimes a debate among technologists  about, are we really seeing the real thing on-screen?",
+        "hyp": "And sometimes there is a debate among technologists about whether we actually see the real object on the screen.",
+        "rel_src": [
+            "Je peux voir cette personne entièrement en face de moi en 3D.",
+            "Mon système de neurones miroirs suggère que cela va remplacer les téléphones dans peu de temps."
+        ],
+        "rel_tgt": [
+            "I can see this person fully in front of me in 3D.",
+            "My mirror neuron system suggests that this will replace phones in no time."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray",
+            "MG": "MG",
+            "2016": "2016",
+            "TED2017": "TED2017",
+            "Chris Anderson": "Chris Anderson",
+            "réalité augmentée": "augmented reality (Note: Although réalité augmentée is translated directly as augmented reality",
+            "then the proper nouns would be:\nChris Anderson": "Chris Anderson"
+        }
+    },
+    {
+        "idx": 99,
+        "src": "C'est un problème de champ de vision. D'une certaine manière, la technologie montre une vue plus large que celle que vous devriez voir en portant les lunettes.",
+        "ref": "There's this issue of field of view,  that somehow the technology is showing a broader view  than you would actually see wearing the glasses.",
+        "hyp": "It's a field of view issue. In a way, the technology shows a wider view than what you should see wearing the glasses.",
+        "new_src_summary": "Dans un discours à la fois optimiste et réfléchi, un étudiant passionné spécialisé en informatique et neurosciences, analyse avec finesse l'interaction homme-machine, en s'appuyant sur des observations effectuées à Harlem en 2011. Il critique avec pertinence le potentiel des ordinateurs à distraire tout en soulignant leur capacité à stimuler les interactions sociales. En mettant en avant les lunettes holographiques Meta 2, il décrit avec émerveillement comment ces technologies amplifient nos sens et modifient notre perception du monde réel. \n\nIl prône la conception d'appareils valorisant notre humanité, anticipant un avenir où les neurosciences influencent le développement technologique. Sa vision futuriste comprend des dispositifs de type bandeau de verre projetant des hologrammes pour créer une réalité augmentée enrichissante sans surcharge cognitive. Son objectif est de concevoir une interface intuitive, qualifiée de \"l'iOS de l'esprit\", offrant un \"Chemin Neural de Plus Faible Résistance\". Cette interface permettrait aux utilisateurs de positionner virtuellement des objets tels que des emails holographiques ou des voitures Tesla, exploitant notre mémoire spatiale pour faciliter leur localisation.\n\nSoutenue par trois principes d'interface axés sur l'expérience utilisateur, sa narration futuriste et didactique est inspirée par le comportement des bébés et nos capacités sensorielles innées. Il prédit que la technologie holographique 3D remplacera les smartphones et révolutionnera la collaboration. Il affirme que la technologie naturelle est déjà disponible, annonçant que tous les employés de l'entreprise Meta abandonneront leurs écrans traditionnels pour une technologie plus naturelle avant TED2017. \n\nLe ton est optimiste et futuriste, illustrant une conviction profonde que la technologie est sur le point d'atteindre une nouvelle étape d'intégration humaine. Chris Anderson intervient pour éclaircir certains aspects de la réalité augmentée, notant que cette technologie a rarement été démontrée efficacement dans le passé, soulignant ainsi un débat persistant au sein de l'industrie technologique sur la perception réelle des objets sur l'écran. L'ensemble du texte se situe dans le domaine de la technologie, spécifiquement celui de la réalité augmentée et de l'holographie, avec un style conversational typique d'une présentation ou d'une conférence.",
+        "new_tgt_summary": "In 2011, the author observed the dual nature of technology's impact on human interaction in Harlem, noting the isolating effect of smartphones while also recognizing the potential for shared technological experiences to unite people. Drawing inspiration from the idea that tools should extend the body to strengthen social connections, similar to traditional storytelling, the author critiqued modern computers for promoting unnatural postures and interactions. Envisioning a future where humans and machines are more harmoniously integrated, akin to neuroscience-driven enhancements, he highlighted the Meta 2 device as an exemplar of this vision, demonstrating its capability to project lifelike, gesture-controlled holograms, thereby revolutionizing 3D design and immersive learning. The author foresaw a world where a seamless digital overlay merges with the physical environment, enriching human experience through natural, organic interactions facilitated by augmented reality (AR) devices. These devices, resembling strands of glass worn over the eyes, would project holograms and act as extensions of human senses, guided by a neuroscience-inspired system dubbed the \"iOS of the mind,\" designed to align with the brain's natural pathways for effortless use.\n\nTo achieve a more immersive and intuitive technology experience, the author outlined three interface principles: \"Touch to See,\" encouraging direct physical engagement; the importance of proprioception, or body awareness, complementing the visual system; and the significance of social dynamics, exemplified by a holographic campfire concept to promote 3D connectivity and collaborative engagement. A demonstration showcased the application of spatial memory and proprioception in manipulating virtual items, illustrating that interaction extends beyond visual engagement. The narrative hinted at the inclusion of a co-founder, Ray, in a 3D call, indicating the move toward integrating sensory experiences in future technology.\n\nMG, in a presentation, displayed a realistic 3D hologram of a person, suggesting that such technology could soon replace phones and revolutionize collaboration. Building on a 2011 insight that the future of computing lies within us, not confined to screens, MG announced that Meta, along with its entire team, would abandon external monitors in favor of more intuitive machines before TED2017, marking a pivotal shift toward more immersive and natural computing experiences. Chris Anderson sought clarification on augmented reality, referencing previous debates among technologists regarding the distinction between real objects and their screen representations. Together, these insights and demonstrations underscore the potential for technology to blend seamlessly into our lives, enhancing rather than hindering human connection and interaction.",
+        "rel_src": [
+            "Mon système de neurones miroirs suggère que cela va remplacer les téléphones dans peu de temps.",
+            "Ceci va non seulement remplacer les téléphones, mais cela va changer également notre manière de collaborer."
+        ],
+        "rel_tgt": [
+            "My mirror neuron system suggests that this will replace phones in no time.",
+            "This will not only replace phones, but it will also change the way we collaborate."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray",
+            "MG": "MG",
+            "2016": "2016",
+            "TED2017": "TED2017",
+            "Chris Anderson": "Chris Anderson",
+            "réalité augmentée": "augmented reality (Note: Although réalité augmentée is translated directly as augmented reality",
+            "then the proper nouns would be:\nChris Anderson": "Chris Anderson"
+        }
+    },
+    {
+        "idx": 100,
+        "src": "Avons-nous vu la vraie vie ?",
+        "ref": "Were we seeing the real deal there?",
+        "hyp": "Have we seen real life?",
+        "rel_src": [
+            "Et il y a parfois un débat parmi les technologistes pour savoir si nous voyons vraiment l'objet réel à l'écran.",
+            "C'est un problème de champ de vision. D'une certaine manière, la technologie montre une vue plus large que celle que vous devriez voir en portant les lunettes."
+        ],
+        "rel_tgt": [
+            "And sometimes there is a debate among technologists about whether we actually see the real object on the screen.",
+            "It's a field of view issue. In a way, the technology shows a wider view than what you should see wearing the glasses."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray",
+            "MG": "MG",
+            "2016": "2016",
+            "TED2017": "TED2017",
+            "Chris Anderson": "Chris Anderson",
+            "réalité augmentée": "augmented reality (Note: Although réalité augmentée is translated directly as augmented reality",
+            "then the proper nouns would be:\nChris Anderson": "Chris Anderson"
+        }
+    },
+    {
+        "idx": 101,
+        "src": "MG : Absolument la vraie vie.",
+        "ref": "MG: Absolutely the real deal.",
+        "hyp": "MG: Absolutely real life.",
+        "rel_src": [
+            "MG: Bon, voici le message que j'ai découvert dans un bar en 2011 : le futur des ordinateurs n'est pas bloqué à l'intérieur de l'un de ces écrans.",
+            "Avons-nous vu la vraie vie ?"
+        ],
+        "rel_tgt": [
+            "MG: Alright, here's the message I uncovered in a bar in 2011: the future of computers is not confined within any of these screens.",
+            "Have we seen real life?"
+        ],
+        "hist_info": "\"MG\" - \"MG\"",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray",
+            "MG": "MG",
+            "2016": "2016",
+            "TED2017": "TED2017",
+            "Chris Anderson": "Chris Anderson",
+            "réalité augmentée": "augmented reality (Note: Although réalité augmentée is translated directly as augmented reality",
+            "then the proper nouns would be:\nChris Anderson": "Chris Anderson"
+        }
+    },
+    {
+        "idx": 102,
+        "src": "Et pas seulement cela, nous avons pris d'autres mesures pour filmer avec une GoPro avec les vraies lentilles, les différentes vidéos diffusées.",
+        "ref": "Not only that,  we took extra measures to shoot it with a GoPro through the actual lens  in the various videos that you've seen here.",
+        "hyp": "And not only that, we've taken other steps to film with a real GoPro lens, the various videos being broadcasted.",
+        "rel_src": [
+            "Mon système de neurones miroirs suggère que cela va remplacer les téléphones dans peu de temps.",
+            "Ceci va non seulement remplacer les téléphones, mais cela va changer également notre manière de collaborer."
+        ],
+        "rel_tgt": [
+            "My mirror neuron system suggests that this will replace phones in no time.",
+            "This will not only replace phones, but it will also change the way we collaborate."
+        ],
+        "hist_info": "\"GoPro\" - \"GoPro\"",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray",
+            "MG": "MG",
+            "2016": "2016",
+            "TED2017": "TED2017",
+            "Chris Anderson": "Chris Anderson",
+            "réalité augmentée": "augmented reality (Note: Although réalité augmentée is translated directly as augmented reality",
+            "then the proper nouns would be:\nChris Anderson": "Chris Anderson"
+        }
+    },
+    {
+        "idx": 103,
+        "src": "Nous voulons essayer de simuler l'expérience du monde que nous voyons à travers les lunettes, et ne couper aucun passage.",
+        "ref": "We want to try to simulate the experience for the world  that we're actually seeing through the glasses,  and not cut any corners.",
+        "hyp": "We want to try to simulate the experience of the world as we see it through the glasses, and not cut any part of it.",
+        "rel_src": [
+            "C'est un problème de champ de vision. D'une certaine manière, la technologie montre une vue plus large que celle que vous devriez voir en portant les lunettes.",
+            "MG : Absolument la vraie vie."
+        ],
+        "rel_tgt": [
+            "It's a field of view issue. In a way, the technology shows a wider view than what you should see wearing the glasses.",
+            "MG: Absolutely real life."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray",
+            "MG": "MG",
+            "2016": "2016",
+            "TED2017": "TED2017",
+            "Chris Anderson": "Chris Anderson",
+            "réalité augmentée": "augmented reality (Note: Although réalité augmentée is translated directly as augmented reality",
+            "then the proper nouns would be:\nChris Anderson": "Chris Anderson"
+        }
+    },
+    {
+        "idx": 104,
+        "src": "CA : Merci beaucoup pour cette présentation.",
+        "ref": "CA: Thank you so much for showing us that.",
+        "hyp": "CA: Thank you very much for this presentation.",
+        "rel_src": [
+            "Merci beaucoup.",
+            "Merci à tous."
+        ],
+        "rel_tgt": [
+            "Thank you very much.",
+            "Thank you all."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray",
+            "MG": "MG",
+            "2016": "2016",
+            "TED2017": "TED2017",
+            "Chris Anderson": "Chris Anderson",
+            "réalité augmentée": "augmented reality (Note: Although réalité augmentée is translated directly as augmented reality",
+            "then the proper nouns would be:\nChris Anderson": "Chris Anderson"
+        }
+    },
+    {
+        "idx": 105,
+        "src": "MG : Merci beaucoup, c'était un plaisir.",
+        "ref": "MG: Thanks so much, I appreciate that.",
+        "hyp": "MG: Thank you very much, it was a pleasure.",
+        "rel_src": [
+            "Merci beaucoup.",
+            "Merci à tous."
+        ],
+        "rel_tgt": [
+            "Thank you very much.",
+            "Thank you all."
+        ],
+        "hist_info": "\"MG\" - \"MG\"",
+        "entity_dict": {
+            "Harlem": "Harlem",
+            "2011": "2011",
+            "Columbia": "Columbia University",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "GoPro": "GoPro",
+            "Adam Gazzaley": "Adam Gazzaley",
+            "UCSF": "UCSF",
+            "iOS": "iOS",
+            "Windows": "Windows",
+            "Chemin Neural de Plus Faible Résistance": "Path of Least Resistance Neural Pathway (Note: This is not a typical proper noun as it doesnt refer to a specific person",
+            "TED": "TED",
+            "<Tesla>": "<Tesla>",
+            "<équipe juridique>": "<legal team> \n\nHowever",
+            "a more accurate annotation would be:\n\n<Tesla>": "<Tesla>",
+            "Meta": "Meta",
+            "Ray": "Ray",
+            "MG": "MG",
+            "2016": "2016",
+            "TED2017": "TED2017",
+            "Chris Anderson": "Chris Anderson",
+            "réalité augmentée": "augmented reality (Note: Although réalité augmentée is translated directly as augmented reality",
+            "then the proper nouns would be:\nChris Anderson": "Chris Anderson"
+        }
+    }
+]

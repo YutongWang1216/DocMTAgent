@@ -1,0 +1,3887 @@
+[
+    {
+        "idx": 0,
+        "src": "All right, I want to see a show of hands:  how many of you have unfriended someone on Facebook  because they said something offensive about politics or religion,  childcare, food?",
+        "ref": "挙手をお願いしたいのですが フェイスブックで 友達解除したことがある人いますか？ その人が 何か不快な発言を 政治や 宗教や 子育てや 食品について したという理由でです",
+        "hyp": "わかりました、手を挙げてください：政治や宗教、子育て、食べ物について不快な発言をした人をFacebookで友達解除したことがある人は何人いますか？",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 1,
+        "src": "And how many of you know at least one person that you avoid  because you just don't want to talk to them?",
+        "ref": "話したくなくて 避けている人が 少なくとも１人いる という人は？",
+        "hyp": "そして、話したくないから避けている人が少なくとも1人は知っている人は何人いますか？",
+        "rel_src": [
+            "All right, I want to see a show of hands:  how many of you have unfriended someone on Facebook  because they said something offensive about politics or religion,  childcare, food?"
+        ],
+        "rel_tgt": [
+            "わかりました、手を挙げてください：政治や宗教、子育て、食べ物について不快な発言をした人をFacebookで友達解除したことがある人は何人いますか？"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 2,
+        "src": "You know, it used to be that in order to have a polite conversation,  we just had to follow the advice of Henry Higgins in \"My Fair Lady\":  Stick to the weather and your health.",
+        "ref": "かつては 礼儀正しく 会話するためには 『マイ・フェア・レディ』の ヒギンズ教授の言葉に従って 天気や健康の話をしていれば 良かったんですが",
+        "hyp": "あなたも知っているように、以前は礼儀正しい会話をするためには、「マイ・フェア・レディ」のヘンリー・ヒギンズのアドバイスに従うだけでした：天気と健康について話すだけでした。",
+        "rel_src": [
+            "All right, I want to see a show of hands:  how many of you have unfriended someone on Facebook  because they said something offensive about politics or religion,  childcare, food?",
+            "And how many of you know at least one person that you avoid  because you just don't want to talk to them?"
+        ],
+        "rel_tgt": [
+            "わかりました、手を挙げてください：政治や宗教、子育て、食べ物について不快な発言をした人をFacebookで友達解除したことがある人は何人いますか？",
+            "そして、話したくないから避けている人が少なくとも1人は知っている人は何人いますか？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ"
+        }
+    },
+    {
+        "idx": 3,
+        "src": "But these days, with climate change and anti-vaxxing, those subjects --    are not safe either.",
+        "ref": "最近では 気候変動とか 反予防接種とかあって —  安全な話題では なくなりました",
+        "hyp": "しかし、今日では、気候変動やワクチン反対論といった、これらの話題は安全ではありません。",
+        "rel_src": [
+            "All right, I want to see a show of hands:  how many of you have unfriended someone on Facebook  because they said something offensive about politics or religion,  childcare, food?",
+            "You know, it used to be that in order to have a polite conversation,  we just had to follow the advice of Henry Higgins in \"My Fair Lady\":  Stick to the weather and your health."
+        ],
+        "rel_tgt": [
+            "わかりました、手を挙げてください：政治や宗教、子育て、食べ物について不快な発言をした人をFacebookで友達解除したことがある人は何人いますか？",
+            "あなたも知っているように、以前は礼儀正しい会話をするためには、「マイ・フェア・レディ」のヘンリー・ヒギンズのアドバイスに従うだけでした：天気と健康について話すだけでした。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ"
+        }
+    },
+    {
+        "idx": 4,
+        "src": "So this world that we live in,  this world in which every conversation  has the potential to devolve into an argument,  where our politicians can't speak to one another  and where even the most trivial of issues  have someone fighting both passionately for it and against it, it's not normal.",
+        "ref": "私たちが住む世界では どんな会話も 論争に発展する恐れがあり 政治家は互いに話ができず 本当に些細な問題にさえ 激して賛成 反対の議論をする人がいます 普通じゃありません",
+        "hyp": "だから、私たちが生きているこの世界、すべての会話が口論に発展する可能性があるこの世界、政治家が互いに話すことができず、些細な問題でさえ、それに熱心に賛成する人と反対する人がいるこの世界は、普通ではない。",
+        "rel_src": [
+            "All right, I want to see a show of hands:  how many of you have unfriended someone on Facebook  because they said something offensive about politics or religion,  childcare, food?",
+            "But these days, with climate change and anti-vaxxing, those subjects --    are not safe either."
+        ],
+        "rel_tgt": [
+            "わかりました、手を挙げてください：政治や宗教、子育て、食べ物について不快な発言をした人をFacebookで友達解除したことがある人は何人いますか？",
+            "しかし、今日では、気候変動やワクチン反対論といった、これらの話題は安全ではありません。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ"
+        }
+    },
+    {
+        "idx": 5,
+        "src": "Pew Research did a study of 10,000 American adults,  and they found that at this moment, we are more polarized,  we are more divided,  than we ever have been in history.",
+        "ref": "ピュー研究所が１万人の アメリカ人成人を対象に調査したところ 現在では 歴史上 かつてないほどに 人々が二極化し 対立していることが わかりました",
+        "hyp": "ピュー・リサーチは1万人のアメリカ人大人を対象に調査を行い、現時点で、私たちは歴史上で最も分断され、分裂していることが分かりました。",
+        "rel_src": [
+            "You know, it used to be that in order to have a polite conversation,  we just had to follow the advice of Henry Higgins in \"My Fair Lady\":  Stick to the weather and your health.",
+            "So this world that we live in,  this world in which every conversation  has the potential to devolve into an argument,  where our politicians can't speak to one another  and where even the most trivial of issues  have someone fighting both passionately for it and against it, it's not normal."
+        ],
+        "rel_tgt": [
+            "あなたも知っているように、以前は礼儀正しい会話をするためには、「マイ・フェア・レディ」のヘンリー・ヒギンズのアドバイスに従うだけでした：天気と健康について話すだけでした。",
+            "だから、私たちが生きているこの世界、すべての会話が口論に発展する可能性があるこの世界、政治家が互いに話すことができず、些細な問題でさえ、それに熱心に賛成する人と反対する人がいるこの世界は、普通ではない。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人"
+        }
+    },
+    {
+        "idx": 6,
+        "src": "We're less likely to compromise,  which means we're not listening to each other.",
+        "ref": "みんな妥協しようとせず 聞く耳を持たないのです",
+        "hyp": "私たちは妥協する可能性が低くなっており、つまりお互いに耳を傾けていないということです。",
+        "rel_src": [
+            "So this world that we live in,  this world in which every conversation  has the potential to devolve into an argument,  where our politicians can't speak to one another  and where even the most trivial of issues  have someone fighting both passionately for it and against it, it's not normal.",
+            "Pew Research did a study of 10,000 American adults,  and they found that at this moment, we are more polarized,  we are more divided,  than we ever have been in history."
+        ],
+        "rel_tgt": [
+            "だから、私たちが生きているこの世界、すべての会話が口論に発展する可能性があるこの世界、政治家が互いに話すことができず、些細な問題でさえ、それに熱心に賛成する人と反対する人がいるこの世界は、普通ではない。",
+            "ピュー・リサーチは1万人のアメリカ人大人を対象に調査を行い、現時点で、私たちは歴史上で最も分断され、分裂していることが分かりました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人"
+        }
+    },
+    {
+        "idx": 7,
+        "src": "And we make decisions about where to live,  who to marry and even who our friends are going to be,  based on what we already believe.",
+        "ref": "そして私たちは どこに住み 誰と結婚し 誰と友達になるかを 既に信じていることに 基づいて決めています",
+        "hyp": "そして、私たちはすでに信じていることに基づいて、どこに住むか、誰と結婚するか、さらには友達が誰になるかについての決定をします。",
+        "rel_src": [
+            "So this world that we live in,  this world in which every conversation  has the potential to devolve into an argument,  where our politicians can't speak to one another  and where even the most trivial of issues  have someone fighting both passionately for it and against it, it's not normal.",
+            "Pew Research did a study of 10,000 American adults,  and they found that at this moment, we are more polarized,  we are more divided,  than we ever have been in history."
+        ],
+        "rel_tgt": [
+            "だから、私たちが生きているこの世界、すべての会話が口論に発展する可能性があるこの世界、政治家が互いに話すことができず、些細な問題でさえ、それに熱心に賛成する人と反対する人がいるこの世界は、普通ではない。",
+            "ピュー・リサーチは1万人のアメリカ人大人を対象に調査を行い、現時点で、私たちは歴史上で最も分断され、分裂していることが分かりました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人"
+        }
+    },
+    {
+        "idx": 8,
+        "src": "Again, that means we're not listening to each other.",
+        "ref": "これもまた 聞く耳を持たないということです",
+        "hyp": "再び、それは私たちがお互いに耳を傾けていないということを意味します。",
+        "rel_src": [
+            "We're less likely to compromise,  which means we're not listening to each other.",
+            "And we make decisions about where to live,  who to marry and even who our friends are going to be,  based on what we already believe."
+        ],
+        "rel_tgt": [
+            "私たちは妥協する可能性が低くなっており、つまりお互いに耳を傾けていないということです。",
+            "そして、私たちはすでに信じていることに基づいて、どこに住むか、誰と結婚するか、さらには友達が誰になるかについての決定をします。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人"
+        }
+    },
+    {
+        "idx": 9,
+        "src": "A conversation requires a balance between talking and listening,  and somewhere along the way, we lost that balance.",
+        "ref": "会話には 話すことと聞くことの バランスが必要ですが 私たちはどこかで そのバランスを失ってしまいました",
+        "hyp": "会話には話すことと聞くことのバランスが必要であり、どこかでそのバランスを失ってしまった。",
+        "rel_src": [
+            "We're less likely to compromise,  which means we're not listening to each other.",
+            "Again, that means we're not listening to each other."
+        ],
+        "rel_tgt": [
+            "私たちは妥協する可能性が低くなっており、つまりお互いに耳を傾けていないということです。",
+            "再び、それは私たちがお互いに耳を傾けていないということを意味します。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人"
+        }
+    },
+    {
+        "idx": 10,
+        "src": "Now, part of that is due to technology.",
+        "ref": "技術の発展も一因です",
+        "hyp": "今、その一部は技術のせいです。",
+        "rel_src": [
+            "But these days, with climate change and anti-vaxxing, those subjects --    are not safe either.",
+            "So this world that we live in,  this world in which every conversation  has the potential to devolve into an argument,  where our politicians can't speak to one another  and where even the most trivial of issues  have someone fighting both passionately for it and against it, it's not normal."
+        ],
+        "rel_tgt": [
+            "しかし、今日では、気候変動やワクチン反対論といった、これらの話題は安全ではありません。",
+            "だから、私たちが生きているこの世界、すべての会話が口論に発展する可能性があるこの世界、政治家が互いに話すことができず、些細な問題でさえ、それに熱心に賛成する人と反対する人がいるこの世界は、普通ではない。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人"
+        }
+    },
+    {
+        "idx": 11,
+        "src": "The smartphones that you all either have in your hands  or close enough that you could grab them really quickly.",
+        "ref": "携帯電話は 今も 手にしているか 手の届くところに あることでしょう",
+        "hyp": "皆さんが手に持っているか、すぐに手の届くところにあるスマートフォン。",
+        "rel_src": [
+            "A conversation requires a balance between talking and listening,  and somewhere along the way, we lost that balance.",
+            "Now, part of that is due to technology."
+        ],
+        "rel_tgt": [
+            "会話には話すことと聞くことのバランスが必要であり、どこかでそのバランスを失ってしまった。",
+            "今、その一部は技術のせいです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人"
+        }
+    },
+    {
+        "idx": 12,
+        "src": "According to Pew Research,  about a third of American teenagers send more than a hundred texts a day.",
+        "ref": "ピュー研究所によると 10代の若者の３分の１は 日に100件以上メッセージを送っています",
+        "hyp": "ピュー・リサーチによると、アメリカの10代の約3分の1が1日100通以上のテキストメッセージを送信している。",
+        "rel_src": [
+            "Pew Research did a study of 10,000 American adults,  and they found that at this moment, we are more polarized,  we are more divided,  than we ever have been in history.",
+            "Again, that means we're not listening to each other."
+        ],
+        "rel_tgt": [
+            "ピュー・リサーチは1万人のアメリカ人大人を対象に調査を行い、現時点で、私たちは歴史上で最も分断され、分裂していることが分かりました。",
+            "再び、それは私たちがお互いに耳を傾けていないということを意味します。"
+        ],
+        "hist_info": "\"Pew Research\" - \"ピュー・リサーチ\", \"American\" - \"アメリカ人\"",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人"
+        },
+        "conflict": [
+            "\"American\" - \"アメリカ人\"/\"アメリカ\""
+        ]
+    },
+    {
+        "idx": 13,
+        "src": "And many of them, almost most of them, are more likely to text their friends  than they are to talk to them face to face.",
+        "ref": "恐らく その人たちのほとんどは 面と向かって話すよりも メッセすることの方が 多いことでしょう",
+        "hyp": "そして、彼らの多く、ほとんどの人は、友達とテキストをすることの方が、直接話すよりも好ましいと考えています。",
+        "rel_src": [
+            "And how many of you know at least one person that you avoid  because you just don't want to talk to them?",
+            "According to Pew Research,  about a third of American teenagers send more than a hundred texts a day."
+        ],
+        "rel_tgt": [
+            "そして、話したくないから避けている人が少なくとも1人は知っている人は何人いますか？",
+            "ピュー・リサーチによると、アメリカの10代の約3分の1が1日100通以上のテキストメッセージを送信している。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人"
+        }
+    },
+    {
+        "idx": 14,
+        "src": "There's this great piece in The Atlantic.",
+        "ref": "雑誌『アトランティック』に",
+        "hyp": "アトランティック誌に素晴らしい記事があります。",
+        "rel_src": [
+            "So this world that we live in,  this world in which every conversation  has the potential to devolve into an argument,  where our politicians can't speak to one another  and where even the most trivial of issues  have someone fighting both passionately for it and against it, it's not normal.",
+            "Pew Research did a study of 10,000 American adults,  and they found that at this moment, we are more polarized,  we are more divided,  than we ever have been in history."
+        ],
+        "rel_tgt": [
+            "だから、私たちが生きているこの世界、すべての会話が口論に発展する可能性があるこの世界、政治家が互いに話すことができず、些細な問題でさえ、それに熱心に賛成する人と反対する人がいるこの世界は、普通ではない。",
+            "ピュー・リサーチは1万人のアメリカ人大人を対象に調査を行い、現時点で、私たちは歴史上で最も分断され、分裂していることが分かりました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌"
+        }
+    },
+    {
+        "idx": 15,
+        "src": "It was written by a high school teacher named Paul Barnwell.",
+        "ref": "ポール・バーンウェルという 高校教師が書いた面白い記事があります",
+        "hyp": "それはポール・バーンウェルという高校教師によって書かれました。",
+        "rel_src": [
+            "Pew Research did a study of 10,000 American adults,  and they found that at this moment, we are more polarized,  we are more divided,  than we ever have been in history.",
+            "There's this great piece in The Atlantic."
+        ],
+        "rel_tgt": [
+            "ピュー・リサーチは1万人のアメリカ人大人を対象に調査を行い、現時点で、私たちは歴史上で最も分断され、分裂していることが分かりました。",
+            "アトランティック誌に素晴らしい記事があります。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル"
+        }
+    },
+    {
+        "idx": 16,
+        "src": "And he gave his kids a communication project.",
+        "ref": "彼は生徒に コミュニケーションの課題を出しました",
+        "hyp": "そして、彼は子供たちにコミュニケーションプロジェクトを与えました。",
+        "rel_src": [
+            "There's this great piece in The Atlantic.",
+            "It was written by a high school teacher named Paul Barnwell."
+        ],
+        "rel_tgt": [
+            "アトランティック誌に素晴らしい記事があります。",
+            "それはポール・バーンウェルという高校教師によって書かれました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル"
+        }
+    },
+    {
+        "idx": 17,
+        "src": "He wanted to teach them how to speak on a specific subject without using notes.",
+        "ref": "メモを使わず 特定の題目について 話す方法を教えたかったのです",
+        "hyp": "彼は、ノートを使わずに特定の話題について話す方法を子供たちに教えたかったのです。",
+        "rel_src": [
+            "There's this great piece in The Atlantic.",
+            "It was written by a high school teacher named Paul Barnwell."
+        ],
+        "rel_tgt": [
+            "アトランティック誌に素晴らしい記事があります。",
+            "それはポール・バーンウェルという高校教師によって書かれました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル"
+        }
+    },
+    {
+        "idx": 18,
+        "src": "And he said this: \"I came to realize...\"",
+        "ref": "彼はこう書いています 「私は気が付いた—」",
+        "hyp": "そして、彼はこう言いました: \"私は気づくようになりました...\"",
+        "rel_src": [
+            "It was written by a high school teacher named Paul Barnwell.",
+            "And he gave his kids a communication project."
+        ],
+        "rel_tgt": [
+            "それはポール・バーンウェルという高校教師によって書かれました。",
+            "そして、彼は子供たちにコミュニケーションプロジェクトを与えました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル"
+        }
+    },
+    {
+        "idx": 19,
+        "src": "\"I came to realize that conversational competence  might be the single most overlooked skill we fail to teach.",
+        "ref": "「会話の能力というのは 教師が教えそこねている 最も見過ごされたスキルだと",
+        "hyp": "\"会話の能力が、私たちが教えるのを見落としている可能性がある、最も見過ごされているスキルであることに気づくようになりました。\"",
+        "new_src_summary": "The paragraph discusses the increasing polarization and lack of listening in conversations in today's society, fueled by technology and a lack of compromise. It mentions how people unfriend others on social media due to differing opinions, and how conversations have become more argumentative. The paragraph also highlights the impact of technology on communication, with a focus on texting over face-to-face interactions. The overall tone is reflective and critical of the current state of communication and relationships.",
+        "new_tgt_summary": "現代社会では、政治や宗教、子育て、食べ物などの話題が口論に発展しやすくなっており、人々は意見を述べるだけでなく、聞くことも重要であることが失われつつある。技術の進化により、テキストメッセージの利用が増え、直接会話よりも好まれる傾向がある。コミュニケーションの重要性を強調する教育者もおり、お互いに耳を傾けることが必要だと訴えている。",
+        "rel_src": [
+            "A conversation requires a balance between talking and listening,  and somewhere along the way, we lost that balance.",
+            "He wanted to teach them how to speak on a specific subject without using notes."
+        ],
+        "rel_tgt": [
+            "会話には話すことと聞くことのバランスが必要であり、どこかでそのバランスを失ってしまった。",
+            "彼は、ノートを使わずに特定の話題について話す方法を子供たちに教えたかったのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル"
+        }
+    },
+    {
+        "idx": 20,
+        "src": "Kids spend hours each day engaging with ideas and each other through screens,  but rarely do they have an opportunity  to hone their interpersonal communications skills.",
+        "ref": "生徒たちは 毎日何時間も画面を通して アイデアや他の人に接しているが 対人スキルを磨く機会は ほとんど持っていない",
+        "hyp": "子供たちは毎日何時間も画面を通じてアイデアや他者と関わり合っていますが、滅多に対人コミュニケーションスキルを磨く機会がありません。",
+        "rel_src": [
+            "According to Pew Research,  about a third of American teenagers send more than a hundred texts a day.",
+            "And many of them, almost most of them, are more likely to text their friends  than they are to talk to them face to face."
+        ],
+        "rel_tgt": [
+            "ピュー・リサーチによると、アメリカの10代の約3分の1が1日100通以上のテキストメッセージを送信している。",
+            "そして、彼らの多く、ほとんどの人は、友達とテキストをすることの方が、直接話すよりも好ましいと考えています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル"
+        }
+    },
+    {
+        "idx": 21,
+        "src": "It might sound like a funny question, but we have to ask ourselves:  Is there any 21st-century skill  more important than being able to sustain coherent, confident conversation?\"",
+        "ref": "変な聞こえるかもしれないが 我々は自問せねばならないだろう 21世紀における スキルの中で 理路整然と自信を持って会話する能力より 大切なものがあるだろうかと」",
+        "hyp": "滑稽な質問のように聞こえるかもしれませんが、自問しなければならないことがあります: 21世紀において、一貫した自信を持った会話を維持する能力よりも重要なスキルはありますか？",
+        "rel_src": [
+            "A conversation requires a balance between talking and listening,  and somewhere along the way, we lost that balance.",
+            "Kids spend hours each day engaging with ideas and each other through screens,  but rarely do they have an opportunity  to hone their interpersonal communications skills."
+        ],
+        "rel_tgt": [
+            "会話には話すことと聞くことのバランスが必要であり、どこかでそのバランスを失ってしまった。",
+            "子供たちは毎日何時間も画面を通じてアイデアや他者と関わり合っていますが、滅多に対人コミュニケーションスキルを磨く機会がありません。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル"
+        }
+    },
+    {
+        "idx": 22,
+        "src": "Now, I make my living talking to people:  Nobel Prize winners, truck drivers,  billionaires, kindergarten teachers,  heads of state, plumbers.",
+        "ref": "私は話すことを 仕事にしています ノーベル賞受賞者 トラック運転手 億万長者 幼稚園の先生 国家元首 配管工",
+        "hyp": "今、私は人々と話すことで生計を立てています：ノーベル賞受賞者、トラック運転手、億万長者、幼稚園の先生、国家元首、配管工。",
+        "rel_src": [
+            "A conversation requires a balance between talking and listening,  and somewhere along the way, we lost that balance.",
+            "It might sound like a funny question, but we have to ask ourselves:  Is there any 21st-century skill  more important than being able to sustain coherent, confident conversation?\""
+        ],
+        "rel_tgt": [
+            "会話には話すことと聞くことのバランスが必要であり、どこかでそのバランスを失ってしまった。",
+            "滑稽な質問のように聞こえるかもしれませんが、自問しなければならないことがあります: 21世紀において、一貫した自信を持った会話を維持する能力よりも重要なスキルはありますか？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 23,
+        "src": "I talk to people that I like. I talk to people that I don't like.",
+        "ref": "好きな人とも 好きではない人とも話します",
+        "hyp": "私は好きな人と話します。嫌いな人とも話します。",
+        "rel_src": [
+            "A conversation requires a balance between talking and listening,  and somewhere along the way, we lost that balance.",
+            "\"I came to realize that conversational competence  might be the single most overlooked skill we fail to teach."
+        ],
+        "rel_tgt": [
+            "会話には話すことと聞くことのバランスが必要であり、どこかでそのバランスを失ってしまった。",
+            "\"会話の能力が、私たちが教えるのを見落としている可能性がある、最も見過ごされているスキルであることに気づくようになりました。\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 24,
+        "src": "I talk to some people that I disagree with deeply on a personal level.",
+        "ref": "個人的には まったく意見が 合わない人とも話します",
+        "hyp": "私は個人的なレベルで深く異なる意見を持つ人々とも話します。",
+        "rel_src": [
+            "A conversation requires a balance between talking and listening,  and somewhere along the way, we lost that balance.",
+            "Now, I make my living talking to people:  Nobel Prize winners, truck drivers,  billionaires, kindergarten teachers,  heads of state, plumbers."
+        ],
+        "rel_tgt": [
+            "会話には話すことと聞くことのバランスが必要であり、どこかでそのバランスを失ってしまった。",
+            "今、私は人々と話すことで生計を立てています：ノーベル賞受賞者、トラック運転手、億万長者、幼稚園の先生、国家元首、配管工。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 25,
+        "src": "But I still have a great conversation with them.",
+        "ref": "それでも その人たちと 素晴らしい会話ができます",
+        "hyp": "しかし、私はそれらと素晴らしい会話をします。",
+        "rel_src": [
+            "I talk to people that I like. I talk to people that I don't like.",
+            "I talk to some people that I disagree with deeply on a personal level."
+        ],
+        "rel_tgt": [
+            "私は好きな人と話します。嫌いな人とも話します。",
+            "私は個人的なレベルで深く異なる意見を持つ人々とも話します。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 26,
+        "src": "So I'd like to spend the next 10 minutes or so teaching you how to talk  and how to listen.",
+        "ref": "これからの10分間で 話す方法と 聞く方法を お教えします",
+        "hyp": "次の10分間ほど、話す方法と聞く方法を教えたいと思います。",
+        "rel_src": [
+            "He wanted to teach them how to speak on a specific subject without using notes.",
+            "It might sound like a funny question, but we have to ask ourselves:  Is there any 21st-century skill  more important than being able to sustain coherent, confident conversation?\""
+        ],
+        "rel_tgt": [
+            "彼は、ノートを使わずに特定の話題について話す方法を子供たちに教えたかったのです。",
+            "滑稽な質問のように聞こえるかもしれませんが、自問しなければならないことがあります: 21世紀において、一貫した自信を持った会話を維持する能力よりも重要なスキルはありますか？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 27,
+        "src": "Many of you have already heard a lot of advice on this,  things like look the person in the eye,  think of interesting topics to discuss in advance,  look, nod and smile to show that you're paying attention,  repeat back what you just heard or summarize it.",
+        "ref": "会話の秘訣については いろいろ聞いたことがあるでしょう 相手の目を見るとか 前もって興味のある話題について 考えておくとか 注意して聞いていること示すよう 相手を見つめ 相槌を打ち 微笑むとか 相手の言葉を 繰り返したり 要約して言うとか —",
+        "hyp": "多くの方々は、既にこのことに関する多くのアドバイスを聞いたことがあるかもしれません。例えば、相手の目を見る、事前に話題を考えておく、注意を払っていることを示すために見つめたり、うなずいたり、微笑んだりする、聞いた内容を繰り返すか要約するなどのことです。",
+        "rel_src": [
+            "\"I came to realize that conversational competence  might be the single most overlooked skill we fail to teach.",
+            "It might sound like a funny question, but we have to ask ourselves:  Is there any 21st-century skill  more important than being able to sustain coherent, confident conversation?\""
+        ],
+        "rel_tgt": [
+            "\"会話の能力が、私たちが教えるのを見落としている可能性がある、最も見過ごされているスキルであることに気づくようになりました。\"",
+            "滑稽な質問のように聞こえるかもしれませんが、自問しなければならないことがあります: 21世紀において、一貫した自信を持った会話を維持する能力よりも重要なスキルはありますか？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 28,
+        "src": "So I want you to forget all of that.",
+        "ref": "そういうのは 全て忘れてください",
+        "hyp": "だから、それらすべてを忘れてほしいのです。",
+        "rel_src": [
+            "So I'd like to spend the next 10 minutes or so teaching you how to talk  and how to listen.",
+            "Many of you have already heard a lot of advice on this,  things like look the person in the eye,  think of interesting topics to discuss in advance,  look, nod and smile to show that you're paying attention,  repeat back what you just heard or summarize it."
+        ],
+        "rel_tgt": [
+            "次の10分間ほど、話す方法と聞く方法を教えたいと思います。",
+            "多くの方々は、既にこのことに関する多くのアドバイスを聞いたことがあるかもしれません。例えば、相手の目を見る、事前に話題を考えておく、注意を払っていることを示すために見つめたり、うなずいたり、微笑んだりする、聞いた内容を繰り返すか要約するなどのことです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 29,
+        "src": "It is crap.",
+        "ref": "役に立ちませんから",
+        "hyp": "それはクソだ。",
+        "rel_src": [
+            "Kids spend hours each day engaging with ideas and each other through screens,  but rarely do they have an opportunity  to hone their interpersonal communications skills.",
+            "So I want you to forget all of that."
+        ],
+        "rel_tgt": [
+            "子供たちは毎日何時間も画面を通じてアイデアや他者と関わり合っていますが、滅多に対人コミュニケーションスキルを磨く機会がありません。",
+            "だから、それらすべてを忘れてほしいのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 30,
+        "src": "There is no reason to learn how to show you're paying attention  if you are in fact paying attention.",
+        "ref": "注意して聞いている風に見せる方法を 学ぶ必要はありません 実際に注意して 聞いているのであれば",
+        "hyp": "実際に注意を払っているなら、注意を示す方法を学ぶ理由はありません。",
+        "rel_src": [
+            "Many of you have already heard a lot of advice on this,  things like look the person in the eye,  think of interesting topics to discuss in advance,  look, nod and smile to show that you're paying attention,  repeat back what you just heard or summarize it.",
+            "So I want you to forget all of that."
+        ],
+        "rel_tgt": [
+            "多くの方々は、既にこのことに関する多くのアドバイスを聞いたことがあるかもしれません。例えば、相手の目を見る、事前に話題を考えておく、注意を払っていることを示すために見つめたり、うなずいたり、微笑んだりする、聞いた内容を繰り返すか要約するなどのことです。",
+            "だから、それらすべてを忘れてほしいのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 31,
+        "src": "Now, I actually use the exact same skills as a professional interviewer  that I do in regular life.",
+        "ref": "（拍手） 私はプロのインタビュアー としてのスキルを そのまま普段の生活でも 使っています",
+        "hyp": "実際、私は普段の生活と同じスキルを使って、プロのインタビュアーとして活動しています。",
+        "rel_src": [
+            "Now, I make my living talking to people:  Nobel Prize winners, truck drivers,  billionaires, kindergarten teachers,  heads of state, plumbers.",
+            "So I'd like to spend the next 10 minutes or so teaching you how to talk  and how to listen."
+        ],
+        "rel_tgt": [
+            "今、私は人々と話すことで生計を立てています：ノーベル賞受賞者、トラック運転手、億万長者、幼稚園の先生、国家元首、配管工。",
+            "次の10分間ほど、話す方法と聞く方法を教えたいと思います。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 32,
+        "src": "So, I'm going to teach you how to interview people,  and that's actually going to help you learn how to be better conversationalists. Learn to have a conversation  without wasting your time, without getting bored,  and, please God, without offending anybody.",
+        "ref": "皆さんにインタビューの技術を お教えしますが それは 会話が上手くなるためにも 役立ちます 互いの時間を 無駄にせず 退屈せず 相手を傷つけない会話の方法を 学んでください",
+        "hyp": "だから、私は人々にインタビューする方法を教えるつもりで、実際にはそれがあなたがより良い会話ができるようになるのを手助けするでしょう。時間を無駄にせず、退屈することなく、そしてどうか誰も怒らせることなく会話をする方法を学んでください。",
+        "rel_src": [
+            "So I'd like to spend the next 10 minutes or so teaching you how to talk  and how to listen.",
+            "Now, I actually use the exact same skills as a professional interviewer  that I do in regular life."
+        ],
+        "rel_tgt": [
+            "次の10分間ほど、話す方法と聞く方法を教えたいと思います。",
+            "実際、私は普段の生活と同じスキルを使って、プロのインタビュアーとして活動しています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 33,
+        "src": "We've all had really great conversations.",
+        "ref": "みんな素晴らしい会話を したことはあって",
+        "hyp": "私たちは皆、本当に素晴らしい会話を経験したことがあります。",
+        "rel_src": [
+            "Now, I make my living talking to people:  Nobel Prize winners, truck drivers,  billionaires, kindergarten teachers,  heads of state, plumbers.",
+            "But I still have a great conversation with them."
+        ],
+        "rel_tgt": [
+            "今、私は人々と話すことで生計を立てています：ノーベル賞受賞者、トラック運転手、億万長者、幼稚園の先生、国家元首、配管工。",
+            "しかし、私はそれらと素晴らしい会話をします。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 34,
+        "src": "We've had them before. We know what it's like.",
+        "ref": "どの様なものか 知っています",
+        "hyp": "私たちは以前それらを経験したことがあります。どんな感じかわかっています。",
+        "rel_src": [
+            "I talk to people that I like. I talk to people that I don't like.",
+            "We've all had really great conversations."
+        ],
+        "rel_tgt": [
+            "私は好きな人と話します。嫌いな人とも話します。",
+            "私たちは皆、本当に素晴らしい会話を経験したことがあります。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 35,
+        "src": "The kind of conversation where you walk away feeling engaged and inspired,  or where you feel like you've made a real connection  or you've been perfectly understood.",
+        "ref": "話に引き込まれ 鼓舞された 相手と本当の 繋がりができた すっかり理解してもらえたと 別れ際に感じるような会話です",
+        "hyp": "あなたが参加し、刺激を受けたと感じるような会話、または本当のつながりを感じたり、完璧に理解されたと感じるような会話の種類。",
+        "rel_src": [
+            "So, I'm going to teach you how to interview people,  and that's actually going to help you learn how to be better conversationalists. Learn to have a conversation  without wasting your time, without getting bored,  and, please God, without offending anybody.",
+            "We've all had really great conversations."
+        ],
+        "rel_tgt": [
+            "だから、私は人々にインタビューする方法を教えるつもりで、実際にはそれがあなたがより良い会話ができるようになるのを手助けするでしょう。時間を無駄にせず、退屈することなく、そしてどうか誰も怒らせることなく会話をする方法を学んでください。",
+            "私たちは皆、本当に素晴らしい会話を経験したことがあります。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 36,
+        "src": "There is no reason  why most of your interactions can't be like that.",
+        "ref": "会話のほとんどが そのようなものであっていけない 理由はありません",
+        "hyp": "ほとんどの対話がそうでない理由はありません。",
+        "rel_src": [
+            "There is no reason to learn how to show you're paying attention  if you are in fact paying attention.",
+            "So, I'm going to teach you how to interview people,  and that's actually going to help you learn how to be better conversationalists. Learn to have a conversation  without wasting your time, without getting bored,  and, please God, without offending anybody."
+        ],
+        "rel_tgt": [
+            "実際に注意を払っているなら、注意を示す方法を学ぶ理由はありません。",
+            "だから、私は人々にインタビューする方法を教えるつもりで、実際にはそれがあなたがより良い会話ができるようになるのを手助けするでしょう。時間を無駄にせず、退屈することなく、そしてどうか誰も怒らせることなく会話をする方法を学んでください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 37,
+        "src": "So I have 10 basic rules. I'm going to walk you through all of them,  but honestly, if you just choose one of them and master it,  you'll already enjoy better conversations.",
+        "ref": "会話の10の基本ルールを 一緒に見ていきましょう そのうちの１つでも マスターすれば よりよい会話を 楽しめるようになります",
+        "hyp": "私には10の基本ルールがあります。全てを説明していきますが、正直言って、その中から1つ選んでマスターすれば、すでにより良い会話を楽しむことができるでしょう。",
+        "rel_src": [
+            "So I'd like to spend the next 10 minutes or so teaching you how to talk  and how to listen.",
+            "So, I'm going to teach you how to interview people,  and that's actually going to help you learn how to be better conversationalists. Learn to have a conversation  without wasting your time, without getting bored,  and, please God, without offending anybody."
+        ],
+        "rel_tgt": [
+            "次の10分間ほど、話す方法と聞く方法を教えたいと思います。",
+            "だから、私は人々にインタビューする方法を教えるつもりで、実際にはそれがあなたがより良い会話ができるようになるのを手助けするでしょう。時間を無駄にせず、退屈することなく、そしてどうか誰も怒らせることなく会話をする方法を学んでください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 38,
+        "src": "Number one: Don't multitask.",
+        "ref": "その１「“ながら”をしない」",
+        "hyp": "第一：マルチタスクをしないでください。",
+        "rel_src": [
+            "There is no reason to learn how to show you're paying attention  if you are in fact paying attention.",
+            "So, I'm going to teach you how to interview people,  and that's actually going to help you learn how to be better conversationalists. Learn to have a conversation  without wasting your time, without getting bored,  and, please God, without offending anybody."
+        ],
+        "rel_tgt": [
+            "実際に注意を払っているなら、注意を示す方法を学ぶ理由はありません。",
+            "だから、私は人々にインタビューする方法を教えるつもりで、実際にはそれがあなたがより良い会話ができるようになるのを手助けするでしょう。時間を無駄にせず、退屈することなく、そしてどうか誰も怒らせることなく会話をする方法を学んでください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 39,
+        "src": "And I don't mean just set down your cell phone  or your tablet or your car keys or whatever is in your hand.",
+        "ref": "携帯電話やタブレットや 車の鍵なんかを もてあそぶのをやめる というだけでなく",
+        "hyp": "そして、私が言っているのは、単に携帯電話やタブレット、車の鍵、または手に持っているものを置くだけではありません。",
+        "new_src_summary": "The paragraph discusses the increasing polarization and lack of listening in conversations in today's society, fueled by technology and a lack of compromise. It highlights how people unfriend others on social media due to differing opinions, making conversations more argumentative. The impact of technology on communication, with a focus on texting over face-to-face interactions, is also discussed. The author emphasizes the importance of conversational competence as a skill often overlooked in education, sharing their experience of talking to various people and expressing a desire to teach effective communication skills. They reject common advice and focus on being present and engaged in conversations, providing ten basic rules for better communication, with the first rule being to avoid multitasking. The overall tone is reflective, critical, informative, and instructional, stressing the importance of effective communication in various contexts.",
+        "new_tgt_summary": "現代社会では、政治や宗教、子育て、食べ物などの話題が口論に発展しやすくなっており、人々は意見を述べるだけでなく、聞くことも重要であることが失われつつある。技術の進化により、テキストメッセージの利用が増え、直接会話よりも好まれる傾向がある。会話の能力は21世紀において非常に重要であり、相手に注意を払うことが重要であり、マルチタスクを避けることが良い会話を楽しむための基本ルールの1つであると指摘されている。",
+        "rel_src": [
+            "So, I'm going to teach you how to interview people,  and that's actually going to help you learn how to be better conversationalists. Learn to have a conversation  without wasting your time, without getting bored,  and, please God, without offending anybody.",
+            "Number one: Don't multitask."
+        ],
+        "rel_tgt": [
+            "だから、私は人々にインタビューする方法を教えるつもりで、実際にはそれがあなたがより良い会話ができるようになるのを手助けするでしょう。時間を無駄にせず、退屈することなく、そしてどうか誰も怒らせることなく会話をする方法を学んでください。",
+            "第一：マルチタスクをしないでください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 40,
+        "src": "I mean, be present.",
+        "ref": "身も心も そこにいる ということです",
+        "hyp": "つまり、その場にいることです。",
+        "rel_src": [
+            "So I want you to forget all of that.",
+            "And I don't mean just set down your cell phone  or your tablet or your car keys or whatever is in your hand."
+        ],
+        "rel_tgt": [
+            "だから、それらすべてを忘れてほしいのです。",
+            "そして、私が言っているのは、単に携帯電話やタブレット、車の鍵、または手に持っているものを置くだけではありません。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 41,
+        "src": "Be in that moment.",
+        "ref": "その瞬間に いるようにするのです",
+        "hyp": "その瞬間にいるのです。",
+        "rel_src": [
+            "And I don't mean just set down your cell phone  or your tablet or your car keys or whatever is in your hand.",
+            "I mean, be present."
+        ],
+        "rel_tgt": [
+            "そして、私が言っているのは、単に携帯電話やタブレット、車の鍵、または手に持っているものを置くだけではありません。",
+            "つまり、その場にいることです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 42,
+        "src": "Don't think about your argument you had with your boss.",
+        "ref": "上司との口論のことなんて 考えないでください",
+        "hyp": "上司との議論について考えないでください。",
+        "rel_src": [
+            "I talk to some people that I disagree with deeply on a personal level.",
+            "But I still have a great conversation with them."
+        ],
+        "rel_tgt": [
+            "私は個人的なレベルで深く異なる意見を持つ人々とも話します。",
+            "しかし、私はそれらと素晴らしい会話をします。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 43,
+        "src": "Don't think about what you're going to have for dinner.",
+        "ref": "夕食は何にしようかなんて 考えないでください",
+        "hyp": "夕食に何を食べるか考えないでください。",
+        "rel_src": [
+            "Number one: Don't multitask.",
+            "And I don't mean just set down your cell phone  or your tablet or your car keys or whatever is in your hand."
+        ],
+        "rel_tgt": [
+            "第一：マルチタスクをしないでください。",
+            "そして、私が言っているのは、単に携帯電話やタブレット、車の鍵、または手に持っているものを置くだけではありません。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 44,
+        "src": "If you want to get out of the conversation,  get out of the conversation,  but don't be half in it and half out of it.",
+        "ref": "もし 会話から 抜けたいなら どうぞ抜けてください でも 半分だけ参加というのは やめてください",
+        "hyp": "会話から抜け出したいのであれば、会話から抜け出してください。しかし、半分だけ参加して半分だけ離れているような状態にならないでください。",
+        "rel_src": [
+            "Number one: Don't multitask.",
+            "And I don't mean just set down your cell phone  or your tablet or your car keys or whatever is in your hand."
+        ],
+        "rel_tgt": [
+            "第一：マルチタスクをしないでください。",
+            "そして、私が言っているのは、単に携帯電話やタブレット、車の鍵、または手に持っているものを置くだけではありません。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 45,
+        "src": "Number two: Don't pontificate.",
+        "ref": "その２「一方的に話さないこと」",
+        "hyp": "第二：説教しないでください。",
+        "rel_src": [
+            "So I have 10 basic rules. I'm going to walk you through all of them,  but honestly, if you just choose one of them and master it,  you'll already enjoy better conversations.",
+            "Number one: Don't multitask."
+        ],
+        "rel_tgt": [
+            "私には10の基本ルールがあります。全てを説明していきますが、正直言って、その中から1つ選んでマスターすれば、すでにより良い会話を楽しむことができるでしょう。",
+            "第一：マルチタスクをしないでください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 46,
+        "src": "If you want to state your opinion  without any opportunity for response or argument or pushback or growth,  write a blog.",
+        "ref": "もし 自分の意見を 反応や 議論や 反論や 成長の機会なしに 主張したいのだったら ブログを書けばいい",
+        "hyp": "もし、返答や議論や反論や成長の機会を与えずに意見を述べたいのであれば、ブログを書いてください。",
+        "rel_src": [
+            "Number one: Don't multitask.",
+            "And I don't mean just set down your cell phone  or your tablet or your car keys or whatever is in your hand."
+        ],
+        "rel_tgt": [
+            "第一：マルチタスクをしないでください。",
+            "そして、私が言っているのは、単に携帯電話やタブレット、車の鍵、または手に持っているものを置くだけではありません。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 47,
+        "src": "Now, there's a really good reason why I don't allow pundits on my show:  Because they're really boring.",
+        "ref": "独断的に話す人を 私の番組に出さない理由は つまらないからです",
+        "hyp": "私の番組に専門家を出演させない理由は本当に良い理由があります：彼らは本当に退屈だからです。",
+        "rel_src": [
+            "It is crap.",
+            "If you want to state your opinion  without any opportunity for response or argument or pushback or growth,  write a blog."
+        ],
+        "rel_tgt": [
+            "それはクソだ。",
+            "もし、返答や議論や反論や成長の機会を与えずに意見を述べたいのであれば、ブログを書いてください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 48,
+        "src": "If they're conservative, they're going to hate Obama and food stamps and abortion.",
+        "ref": "もし保守派なら オバマや フードスタンプや 中絶が嫌い",
+        "hyp": "もし彼らが保守的なら、オバマやフードスタンプ、中絶を嫌うだろう。",
+        "rel_src": [
+            "It is crap.",
+            "Now, there's a really good reason why I don't allow pundits on my show:  Because they're really boring."
+        ],
+        "rel_tgt": [
+            "それはクソだ。",
+            "私の番組に専門家を出演させない理由は本当に良い理由があります：彼らは本当に退屈だからです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ"
+        }
+    },
+    {
+        "idx": 49,
+        "src": "If they're liberal, they're going to hate  big banks and oil corporations and Dick Cheney.",
+        "ref": "リベラル派なら 大銀行や 石油会社や ディック・チェイニーが嫌いでしょう",
+        "hyp": "もし彼らがリベラルなら、彼らは大手銀行や石油企業、ディック・チェイニーを嫌うだろう。",
+        "rel_src": [
+            "Now, there's a really good reason why I don't allow pundits on my show:  Because they're really boring.",
+            "If they're conservative, they're going to hate Obama and food stamps and abortion."
+        ],
+        "rel_tgt": [
+            "私の番組に専門家を出演させない理由は本当に良い理由があります：彼らは本当に退屈だからです。",
+            "もし彼らが保守的なら、オバマやフードスタンプ、中絶を嫌うだろう。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー"
+        }
+    },
+    {
+        "idx": 50,
+        "src": "Totally predictable.",
+        "ref": "言うことが 分かりきっています",
+        "hyp": "完全に予測可能です。",
+        "rel_src": [
+            "If they're conservative, they're going to hate Obama and food stamps and abortion.",
+            "If they're liberal, they're going to hate  big banks and oil corporations and Dick Cheney."
+        ],
+        "rel_tgt": [
+            "もし彼らが保守的なら、オバマやフードスタンプ、中絶を嫌うだろう。",
+            "もし彼らがリベラルなら、彼らは大手銀行や石油企業、ディック・チェイニーを嫌うだろう。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー"
+        }
+    },
+    {
+        "idx": 51,
+        "src": "And you don't want to be like that.",
+        "ref": "そんな風になりなくは ないでしょう",
+        "hyp": "そして、あなたはそんな風になりたくない。",
+        "rel_src": [
+            "If you want to state your opinion  without any opportunity for response or argument or pushback or growth,  write a blog.",
+            "If they're liberal, they're going to hate  big banks and oil corporations and Dick Cheney."
+        ],
+        "rel_tgt": [
+            "もし、返答や議論や反論や成長の機会を与えずに意見を述べたいのであれば、ブログを書いてください。",
+            "もし彼らがリベラルなら、彼らは大手銀行や石油企業、ディック・チェイニーを嫌うだろう。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー"
+        }
+    },
+    {
+        "idx": 52,
+        "src": "You need to enter every conversation assuming that you have something to learn.",
+        "ref": "何か学ぶものがあるはずという姿勢で 会話に臨む必要があります",
+        "hyp": "あなたは、自分に学ぶべきことがあるという前提で、すべての会話に参加する必要があります。",
+        "rel_src": [
+            "So I have 10 basic rules. I'm going to walk you through all of them,  but honestly, if you just choose one of them and master it,  you'll already enjoy better conversations.",
+            "I mean, be present."
+        ],
+        "rel_tgt": [
+            "私には10の基本ルールがあります。全てを説明していきますが、正直言って、その中から1つ選んでマスターすれば、すでにより良い会話を楽しむことができるでしょう。",
+            "つまり、その場にいることです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー"
+        }
+    },
+    {
+        "idx": 53,
+        "src": "The famed therapist M. Scott Peck said  that true listening requires a setting aside of oneself.",
+        "ref": "有名なセラピスト Ｍ･スコット･ペック は ｢本当に聞くためには 自分を脇に置く必要がある｣と言っています",
+        "hyp": "名だたるセラピスト、M.スコット・ペックは、真の聞き手は自己を置いておくことが必要だと述べています。",
+        "rel_src": [
+            "I mean, be present.",
+            "You need to enter every conversation assuming that you have something to learn."
+        ],
+        "rel_tgt": [
+            "つまり、その場にいることです。",
+            "あなたは、自分に学ぶべきことがあるという前提で、すべての会話に参加する必要があります。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック"
+        }
+    },
+    {
+        "idx": 54,
+        "src": "And sometimes that means setting aside your personal opinion.",
+        "ref": "これは 時に自分の意見は脇に置いておく 必要があるということです",
+        "hyp": "そして、時には自分の個人的な意見を置いておくことが必要です。",
+        "rel_src": [
+            "If you want to state your opinion  without any opportunity for response or argument or pushback or growth,  write a blog.",
+            "The famed therapist M. Scott Peck said  that true listening requires a setting aside of oneself."
+        ],
+        "rel_tgt": [
+            "もし、返答や議論や反論や成長の機会を与えずに意見を述べたいのであれば、ブログを書いてください。",
+            "名だたるセラピスト、M.スコット・ペックは、真の聞き手は自己を置いておくことが必要だと述べています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック"
+        }
+    },
+    {
+        "idx": 55,
+        "src": "He said that sensing this acceptance,  the speaker will become less and less vulnerable  and more and more likely to open up the inner recesses  of his or her mind to the listener.",
+        "ref": "｢受け入れられていると 感じることで 話し手は 無防備だと感じなくなり 心の奥まった所まで 聞き手に見せるように なるのです｣",
+        "hyp": "彼は、この受容を感じることで、話し手はますます脆弱ではなくなり、そして内面の奥深くをリスナーに開示する可能性がますます高くなると述べました。",
+        "rel_src": [
+            "The famed therapist M. Scott Peck said  that true listening requires a setting aside of oneself.",
+            "And sometimes that means setting aside your personal opinion."
+        ],
+        "rel_tgt": [
+            "名だたるセラピスト、M.スコット・ペックは、真の聞き手は自己を置いておくことが必要だと述べています。",
+            "そして、時には自分の個人的な意見を置いておくことが必要です。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック"
+        }
+    },
+    {
+        "idx": 56,
+        "src": "Again, assume that you have something to learn.",
+        "ref": "繰り返します 学ぶ姿勢で臨みましょう",
+        "hyp": "再度、あなたには学ぶべきことがあると仮定してください。",
+        "rel_src": [
+            "And you don't want to be like that.",
+            "You need to enter every conversation assuming that you have something to learn."
+        ],
+        "rel_tgt": [
+            "そして、あなたはそんな風になりたくない。",
+            "あなたは、自分に学ぶべきことがあるという前提で、すべての会話に参加する必要があります。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック"
+        }
+    },
+    {
+        "idx": 57,
+        "src": "Bill Nye: \"Everyone you will ever meet knows something that you don't.\"",
+        "ref": "ビル･ナイ曰く｢出会う人の誰もが 自分の知らない何かを知っている｣",
+        "hyp": "ビル・ナイ：「あなたが出会うすべての人は、あなたが知らない何かを知っています。」",
+        "rel_src": [
+            "You need to enter every conversation assuming that you have something to learn.",
+            "Again, assume that you have something to learn."
+        ],
+        "rel_tgt": [
+            "あなたは、自分に学ぶべきことがあるという前提で、すべての会話に参加する必要があります。",
+            "再度、あなたには学ぶべきことがあると仮定してください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ"
+        }
+    },
+    {
+        "idx": 58,
+        "src": "I put it this way:  Everybody is an expert in something.",
+        "ref": "私ならこう言います ｢誰でも何かの専門家｣",
+        "hyp": "私はこう言います：誰もが何かには専門家です。",
+        "rel_src": [
+            "The famed therapist M. Scott Peck said  that true listening requires a setting aside of oneself.",
+            "Bill Nye: \"Everyone you will ever meet knows something that you don't.\""
+        ],
+        "rel_tgt": [
+            "名だたるセラピスト、M.スコット・ペックは、真の聞き手は自己を置いておくことが必要だと述べています。",
+            "ビル・ナイ：「あなたが出会うすべての人は、あなたが知らない何かを知っています。」"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ"
+        }
+    },
+    {
+        "idx": 59,
+        "src": "Number three: Use open-ended questions.",
+        "ref": "その３「自由回答の質問をすること」",
+        "hyp": "第3位：オープンエンドの質問を使用してください。",
+        "new_src_summary": "The paragraph discusses the increasing polarization and lack of listening in conversations in today's society, fueled by technology and a lack of compromise. It highlights how people unfriend others on social media due to differing opinions, making conversations more argumentative. The impact of technology on communication, with a focus on texting over face-to-face interactions, is also discussed. The author emphasizes the importance of conversational competence as a skill often overlooked in education, sharing their experience of talking to various people and expressing a desire to teach effective communication skills. They reject common advice and focus on being present and engaged in conversations, providing ten basic rules for better communication, with the first rule being to avoid multitasking. The paragraph also emphasizes the importance of being fully present in conversations and avoiding pontificating, promoting true listening, open-mindedness, and humility in communication. The overall tone is reflective, critical, assertive, informative, and instructional, stressing the importance of effective communication in various contexts, focusing on interpersonal communication and self-improvement.",
+        "new_tgt_summary": "現代社会では、政治や宗教、子育て、食べ物などの話題が口論に発展しやすくなっており、人々は意見を述べるだけでなく、聞くことも重要であることが失われつつある。会話の能力は21世紀において非常に重要であり、相手に注意を払い、マルチタスクを避けることが良い会話を楽しむための基本ルールの1つであると指摘されている。その場にいることが重要であり、自分の意見を押し付けず、相手の話を真剣に聞くことが大切だと述べられており、他人から学ぶことができるという前提で、全ての会話に参加することが推奨されている。",
+        "rel_src": [
+            "You need to enter every conversation assuming that you have something to learn.",
+            "Again, assume that you have something to learn."
+        ],
+        "rel_tgt": [
+            "あなたは、自分に学ぶべきことがあるという前提で、すべての会話に参加する必要があります。",
+            "再度、あなたには学ぶべきことがあると仮定してください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ"
+        }
+    },
+    {
+        "idx": 60,
+        "src": "In this case, take a cue from journalists.",
+        "ref": "ジャーナリストを見習いましょう",
+        "hyp": "この場合は、ジャーナリストから手本を取りましょう。",
+        "rel_src": [
+            "If you want to state your opinion  without any opportunity for response or argument or pushback or growth,  write a blog.",
+            "Bill Nye: \"Everyone you will ever meet knows something that you don't.\""
+        ],
+        "rel_tgt": [
+            "もし、返答や議論や反論や成長の機会を与えずに意見を述べたいのであれば、ブログを書いてください。",
+            "ビル・ナイ：「あなたが出会うすべての人は、あなたが知らない何かを知っています。」"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ"
+        }
+    },
+    {
+        "idx": 61,
+        "src": "Start your questions with who, what, when, where, why or how.",
+        "ref": "いつ/どこで/誰が/何を/なぜ/どのように で始まる質問をするんです",
+        "hyp": "質問をする際は、who、what、when、where、why、またはhowで始めてください。",
+        "rel_src": [
+            "You need to enter every conversation assuming that you have something to learn.",
+            "Again, assume that you have something to learn."
+        ],
+        "rel_tgt": [
+            "あなたは、自分に学ぶべきことがあるという前提で、すべての会話に参加する必要があります。",
+            "再度、あなたには学ぶべきことがあると仮定してください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ"
+        }
+    },
+    {
+        "idx": 62,
+        "src": "If you put in a complicated question, you're going to get a simple answer out.",
+        "ref": "複雑な質問をしても 簡単な答えが返ってくるだけです",
+        "hyp": "複雑な質問をすると、単純な答えが得られるでしょう。",
+        "rel_src": [
+            "Bill Nye: \"Everyone you will ever meet knows something that you don't.\"",
+            "I put it this way:  Everybody is an expert in something."
+        ],
+        "rel_tgt": [
+            "ビル・ナイ：「あなたが出会うすべての人は、あなたが知らない何かを知っています。」",
+            "私はこう言います：誰もが何かには専門家です。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ"
+        }
+    },
+    {
+        "idx": 63,
+        "src": "If I ask you, \"Were you terrified?\"",
+        "ref": "もし「怖かったの？」と聞けば",
+        "hyp": "もし私があなたに尋ねたら、「あなたは恐怖を感じましたか？」",
+        "rel_src": [
+            "Number three: Use open-ended questions.",
+            "Start your questions with who, what, when, where, why or how."
+        ],
+        "rel_tgt": [
+            "第3位：オープンエンドの質問を使用してください。",
+            "質問をする際は、who、what、when、where、why、またはhowで始めてください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ"
+        }
+    },
+    {
+        "idx": 64,
+        "src": "you're going to respond to the most powerful word in that sentence,  which is \"terrified,\" and the answer is \"Yes, I was\" or \"No, I wasn't.\"",
+        "ref": "質問の中の最も 印象的な言葉に反応し この場合「怖かった」で 答えは「はい」か「いいえ」です",
+        "hyp": "その文の中で最も強力な単語である「恐怖を感じましたか？」に対して、「はい、感じました」と答えることになるでしょう。",
+        "rel_src": [
+            "If you put in a complicated question, you're going to get a simple answer out.",
+            "If I ask you, \"Were you terrified?\""
+        ],
+        "rel_tgt": [
+            "複雑な質問をすると、単純な答えが得られるでしょう。",
+            "もし私があなたに尋ねたら、「あなたは恐怖を感じましたか？」"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ"
+        }
+    },
+    {
+        "idx": 65,
+        "src": "\"Were you angry?\" \"Yes, I was very angry.\"",
+        "ref": "「怒っていたの？」 「ええ とても怒っていました」",
+        "hyp": "「怒っていましたか？」 「はい、とても怒っていました」。",
+        "rel_src": [
+            "If I ask you, \"Were you terrified?\"",
+            "you're going to respond to the most powerful word in that sentence,  which is \"terrified,\" and the answer is \"Yes, I was\" or \"No, I wasn't.\""
+        ],
+        "rel_tgt": [
+            "もし私があなたに尋ねたら、「あなたは恐怖を感じましたか？」",
+            "その文の中で最も強力な単語である「恐怖を感じましたか？」に対して、「はい、感じました」と答えることになるでしょう。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ"
+        }
+    },
+    {
+        "idx": 66,
+        "src": "Let them describe it. They're the ones that know.",
+        "ref": "相手に説明させましょうよ 知っているのは向こうなんだから",
+        "hyp": "彼らにそれを説明させてください。彼らこそが知っているのです。",
+        "rel_src": [
+            "Bill Nye: \"Everyone you will ever meet knows something that you don't.\"",
+            "I put it this way:  Everybody is an expert in something."
+        ],
+        "rel_tgt": [
+            "ビル・ナイ：「あなたが出会うすべての人は、あなたが知らない何かを知っています。」",
+            "私はこう言います：誰もが何かには専門家です。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ"
+        }
+    },
+    {
+        "idx": 67,
+        "src": "Try asking them things like, \"What was that like?\"",
+        "ref": "こんな質問をするんです 「どんな様子だった？」",
+        "hyp": "彼らに、「それはどんな感じでしたか？」などと尋ねてみてください。",
+        "rel_src": [
+            "Number three: Use open-ended questions.",
+            "Let them describe it. They're the ones that know."
+        ],
+        "rel_tgt": [
+            "第3位：オープンエンドの質問を使用してください。",
+            "彼らにそれを説明させてください。彼らこそが知っているのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ"
+        }
+    },
+    {
+        "idx": 68,
+        "src": "\"How did that feel?\"",
+        "ref": "「どう感じたの？」",
+        "hyp": "「それはどんな感じでしたか？」",
+        "rel_src": [
+            "If I ask you, \"Were you terrified?\"",
+            "you're going to respond to the most powerful word in that sentence,  which is \"terrified,\" and the answer is \"Yes, I was\" or \"No, I wasn't.\""
+        ],
+        "rel_tgt": [
+            "もし私があなたに尋ねたら、「あなたは恐怖を感じましたか？」",
+            "その文の中で最も強力な単語である「恐怖を感じましたか？」に対して、「はい、感じました」と答えることになるでしょう。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ"
+        }
+    },
+    {
+        "idx": 69,
+        "src": "Because then they might have to stop for a moment and think about it,  and you're going to get a much more interesting response.",
+        "ref": "そうすれば 相手は立ち止まって 考えなければならなくなり そして ずっと興味深い答えが 返ってくるでしょう",
+        "hyp": "なぜなら、その時に彼らは一瞬立ち止まって考えなければならず、より興味深い返答が得られる可能性があるからです。",
+        "rel_src": [
+            "Start your questions with who, what, when, where, why or how.",
+            "Try asking them things like, \"What was that like?\""
+        ],
+        "rel_tgt": [
+            "質問をする際は、who、what、when、where、why、またはhowで始めてください。",
+            "彼らに、「それはどんな感じでしたか？」などと尋ねてみてください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ"
+        }
+    },
+    {
+        "idx": 70,
+        "src": "Number four: Go with the flow.",
+        "ref": "その４「流れにまかせること」",
+        "hyp": "第4位：流れに身を任せる。",
+        "rel_src": [
+            "You need to enter every conversation assuming that you have something to learn.",
+            "Again, assume that you have something to learn."
+        ],
+        "rel_tgt": [
+            "あなたは、自分に学ぶべきことがあるという前提で、すべての会話に参加する必要があります。",
+            "再度、あなたには学ぶべきことがあると仮定してください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ"
+        }
+    },
+    {
+        "idx": 71,
+        "src": "That means thoughts will come into your mind  and you need to let them go out of your mind.",
+        "ref": "頭に浮かんだ考えは 出て行かせなければ なりません",
+        "hyp": "それは、考えがあなたの心に浮かんでくることを意味し、それらを心から離れさせる必要があるということです。",
+        "rel_src": [
+            "The famed therapist M. Scott Peck said  that true listening requires a setting aside of oneself.",
+            "And sometimes that means setting aside your personal opinion."
+        ],
+        "rel_tgt": [
+            "名だたるセラピスト、M.スコット・ペックは、真の聞き手は自己を置いておくことが必要だと述べています。",
+            "そして、時には自分の個人的な意見を置いておくことが必要です。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ"
+        }
+    },
+    {
+        "idx": 72,
+        "src": "We've heard interviews often  in which a guest is talking for several minutes  and then the host comes back in and asks a question  which seems like it comes out of nowhere, or it's already been answered.",
+        "ref": "よく こんなインタビューを 聞いたことがあるでしょう ゲストが何分も話した後に 司会者のする質問が 全然無関係だったり 前に答えていることだ というような",
+        "hyp": "私たちは、ゲストが数分間話しているインタビューをよく聞きますが、その後、ホストが突然質問をし、それがどこから来たのかわからないか、すでに答えられているように思える場面があります。",
+        "rel_src": [
+            "Number three: Use open-ended questions.",
+            "Start your questions with who, what, when, where, why or how."
+        ],
+        "rel_tgt": [
+            "第3位：オープンエンドの質問を使用してください。",
+            "質問をする際は、who、what、when、where、why、またはhowで始めてください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ"
+        }
+    },
+    {
+        "idx": 73,
+        "src": "That means the host probably stopped listening two minutes ago  because he thought of this really clever question,  and he was just bound and determined to say that.",
+        "ref": "司会者は２分前に聞くことを 止めてしまったのでしょう 何か巧みな質問を思いついて これは絶対言わなきゃいけないと 心に決めたのです",
+        "hyp": "つまり、ホストはおそらく2分前に聞くのをやめたので、本当に賢い質問を考えたので、それを言うことに決めていたのです。",
+        "rel_src": [
+            "And sometimes that means setting aside your personal opinion.",
+            "We've heard interviews often  in which a guest is talking for several minutes  and then the host comes back in and asks a question  which seems like it comes out of nowhere, or it's already been answered."
+        ],
+        "rel_tgt": [
+            "そして、時には自分の個人的な意見を置いておくことが必要です。",
+            "私たちは、ゲストが数分間話しているインタビューをよく聞きますが、その後、ホストが突然質問をし、それがどこから来たのかわからないか、すでに答えられているように思える場面があります。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ"
+        }
+    },
+    {
+        "idx": 74,
+        "src": "And we do the exact same thing.",
+        "ref": "私たちも全く同じことを しています",
+        "hyp": "そして、私たちはまったく同じことをします。",
+        "rel_src": [
+            "And sometimes that means setting aside your personal opinion.",
+            "Bill Nye: \"Everyone you will ever meet knows something that you don't.\""
+        ],
+        "rel_tgt": [
+            "そして、時には自分の個人的な意見を置いておくことが必要です。",
+            "ビル・ナイ：「あなたが出会うすべての人は、あなたが知らない何かを知っています。」"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ"
+        }
+    },
+    {
+        "idx": 75,
+        "src": "We're sitting there having a conversation with someone,  and then we remember that time that we met Hugh Jackman in a coffee shop.",
+        "ref": "誰かと座って 話をしている時に 俳優のヒュー･ジャックマンに 喫茶店で出くわしたことを思い出すのです",
+        "hyp": "私たちは誰かと会話をしているときに、その時にヒュー・ジャックマンにコーヒーショップで出会ったことを思い出します。",
+        "rel_src": [
+            "Let them describe it. They're the ones that know.",
+            "Try asking them things like, \"What was that like?\""
+        ],
+        "rel_tgt": [
+            "彼らにそれを説明させてください。彼らこそが知っているのです。",
+            "彼らに、「それはどんな感じでしたか？」などと尋ねてみてください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン"
+        }
+    },
+    {
+        "idx": 76,
+        "src": "And we stop listening.",
+        "ref": "そして聞くことをやめるのです",
+        "hyp": "そして、私たちは聞くのをやめる。",
+        "rel_src": [
+            "We've heard interviews often  in which a guest is talking for several minutes  and then the host comes back in and asks a question  which seems like it comes out of nowhere, or it's already been answered.",
+            "That means the host probably stopped listening two minutes ago  because he thought of this really clever question,  and he was just bound and determined to say that."
+        ],
+        "rel_tgt": [
+            "私たちは、ゲストが数分間話しているインタビューをよく聞きますが、その後、ホストが突然質問をし、それがどこから来たのかわからないか、すでに答えられているように思える場面があります。",
+            "つまり、ホストはおそらく2分前に聞くのをやめたので、本当に賢い質問を考えたので、それを言うことに決めていたのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン"
+        }
+    },
+    {
+        "idx": 77,
+        "src": "Stories and ideas are going to come to you.",
+        "ref": "話やアイデアは 頭に浮かんできますが",
+        "hyp": "物語やアイデアがあなたにやってくるでしょう。",
+        "rel_src": [
+            "That means thoughts will come into your mind  and you need to let them go out of your mind.",
+            "We've heard interviews often  in which a guest is talking for several minutes  and then the host comes back in and asks a question  which seems like it comes out of nowhere, or it's already been answered."
+        ],
+        "rel_tgt": [
+            "それは、考えがあなたの心に浮かんでくることを意味し、それらを心から離れさせる必要があるということです。",
+            "私たちは、ゲストが数分間話しているインタビューをよく聞きますが、その後、ホストが突然質問をし、それがどこから来たのかわからないか、すでに答えられているように思える場面があります。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン"
+        }
+    },
+    {
+        "idx": 78,
+        "src": "You need to let them come and let them go.",
+        "ref": "ただ浮かんでは消えるに まかせましょう",
+        "hyp": "それらがやってきて、そして去るのを許す必要があります。",
+        "rel_src": [
+            "That means thoughts will come into your mind  and you need to let them go out of your mind.",
+            "Stories and ideas are going to come to you."
+        ],
+        "rel_tgt": [
+            "それは、考えがあなたの心に浮かんでくることを意味し、それらを心から離れさせる必要があるということです。",
+            "物語やアイデアがあなたにやってくるでしょう。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン"
+        }
+    },
+    {
+        "idx": 79,
+        "src": "Number five: If you don't know, say that you don't know.",
+        "ref": "その５「もし知らなければ 知らないと言いましょう」",
+        "hyp": "第五：わからない場合は、わからないと言いなさい。",
+        "new_src_summary": "The paragraph discusses the increasing polarization and lack of listening in conversations fueled by technology and a lack of compromise. It emphasizes the impact of unfriending on social media due to differing opinions, making conversations more argumentative. The importance of conversational competence as a skill often overlooked in education is highlighted, with the author sharing their experience of talking to various people and expressing a desire to teach effective communication skills. The paragraph rejects common advice and focuses on being present and engaged in conversations, providing ten basic rules for better communication, with the first rule being to avoid multitasking. It also stresses the importance of using open-ended questions when interviewing someone and letting thoughts flow freely during conversations, promoting true listening, open-mindedness, and humility in communication. The overall tone is reflective, critical, assertive, informative, and instructional, with a focus on effective communication techniques in various contexts.",
+        "new_tgt_summary": "現代社会では、政治や宗教、子育て、食べ物などの話題が口論に発展しやすくなっており、人々は意見を述べるだけでなく、聞くことも重要であることが失われつつある。会話の能力は21世紀において非常に重要であり、相手に注意を払い、マルチタスクを避けることが良い会話を楽しむための基本ルールの1つであると指摘されている。その場にいることが重要であり、自分の意見を押し付けず、相手の話を真剣に聞くことが大切だと述べられており、他人から学ぶことができるという前提で、全ての会話に参加することが推奨されている。オープンエンドの質問を使用して、相手に詳細を説明させることが重要であり、話を聞くことと賢い質問を考えることが新しいアイデアや物語が生まれる可能性を高めるとされている。",
+        "rel_src": [
+            "If you put in a complicated question, you're going to get a simple answer out.",
+            "Let them describe it. They're the ones that know."
+        ],
+        "rel_tgt": [
+            "複雑な質問をすると、単純な答えが得られるでしょう。",
+            "彼らにそれを説明させてください。彼らこそが知っているのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン"
+        }
+    },
+    {
+        "idx": 80,
+        "src": "Now, people on the radio, especially on NPR,  are much more aware that they're going on the record,  and so they're more careful about what they claim to be an expert in  and what they claim to know for sure.",
+        "ref": "ラジオに出演する人は 特にNPRの場合 話したことは記録に残ると 分かっているので 自分が何かの専門家だとか 何かを確かに知っていると言うときには よほど注意します",
+        "hyp": "今、特にNPRなどのラジオ番組で、人々はより記録に残ることを意識しており、だからこそ、自分が専門家であると主張することや確実に知っていることについてはより注意を払っています。",
+        "rel_src": [
+            "We've heard interviews often  in which a guest is talking for several minutes  and then the host comes back in and asks a question  which seems like it comes out of nowhere, or it's already been answered.",
+            "That means the host probably stopped listening two minutes ago  because he thought of this really clever question,  and he was just bound and determined to say that."
+        ],
+        "rel_tgt": [
+            "私たちは、ゲストが数分間話しているインタビューをよく聞きますが、その後、ホストが突然質問をし、それがどこから来たのかわからないか、すでに答えられているように思える場面があります。",
+            "つまり、ホストはおそらく2分前に聞くのをやめたので、本当に賢い質問を考えたので、それを言うことに決めていたのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR"
+        }
+    },
+    {
+        "idx": 81,
+        "src": "Do that. Err on the side of caution.",
+        "ref": "皆さんもそうして下さい 注意しすぎるくらいでいいです",
+        "hyp": "そうしてください。慎重を期す方がいい。",
+        "rel_src": [
+            "Number five: If you don't know, say that you don't know.",
+            "Now, people on the radio, especially on NPR,  are much more aware that they're going on the record,  and so they're more careful about what they claim to be an expert in  and what they claim to know for sure."
+        ],
+        "rel_tgt": [
+            "第五：わからない場合は、わからないと言いなさい。",
+            "今、特にNPRなどのラジオ番組で、人々はより記録に残ることを意識しており、だからこそ、自分が専門家であると主張することや確実に知っていることについてはより注意を払っています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR"
+        }
+    },
+    {
+        "idx": 82,
+        "src": "Talk should not be cheap.",
+        "ref": "話を 安っぽくしては いけません",
+        "hyp": "話は安易にすべきではない。",
+        "rel_src": [
+            "If you put in a complicated question, you're going to get a simple answer out.",
+            "Do that. Err on the side of caution."
+        ],
+        "rel_tgt": [
+            "複雑な質問をすると、単純な答えが得られるでしょう。",
+            "そうしてください。慎重を期す方がいい。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR"
+        }
+    },
+    {
+        "idx": 83,
+        "src": "Number six: Don't equate your experience with theirs.",
+        "ref": "その６「相手の体験を自分のと 同一視してはいけません」",
+        "hyp": "第六条：自分の経験を彼らの経験と同等だと考えないでください。",
+        "rel_src": [
+            "We're sitting there having a conversation with someone,  and then we remember that time that we met Hugh Jackman in a coffee shop.",
+            "You need to let them come and let them go."
+        ],
+        "rel_tgt": [
+            "私たちは誰かと会話をしているときに、その時にヒュー・ジャックマンにコーヒーショップで出会ったことを思い出します。",
+            "それらがやってきて、そして去るのを許す必要があります。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR"
+        }
+    },
+    {
+        "idx": 84,
+        "src": "If they're talking about having lost a family member,  don't start talking about the time you lost a family member.",
+        "ref": "相手が 家族を亡くした と話しているときに 自分が家族を亡くした話を 持ち出さないことです",
+        "hyp": "もし彼らが家族を失ったことについて話しているなら、あなたが家族を失った時の話を始めないでください。",
+        "rel_src": [
+            "We're sitting there having a conversation with someone,  and then we remember that time that we met Hugh Jackman in a coffee shop.",
+            "Number five: If you don't know, say that you don't know."
+        ],
+        "rel_tgt": [
+            "私たちは誰かと会話をしているときに、その時にヒュー・ジャックマンにコーヒーショップで出会ったことを思い出します。",
+            "第五：わからない場合は、わからないと言いなさい。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR"
+        }
+    },
+    {
+        "idx": 85,
+        "src": "If they're talking about the trouble they're having at work,  don't tell them about how much you hate your job.",
+        "ref": "相手が会社でのトラブルについて 話している時に 自分の仕事が どんなに嫌か 言い出さないことです",
+        "hyp": "もし彼らが仕事で抱えている問題について話しているなら、あなたが自分の仕事がどれだけ嫌いかを話さないでください。",
+        "rel_src": [
+            "Number six: Don't equate your experience with theirs.",
+            "If they're talking about having lost a family member,  don't start talking about the time you lost a family member."
+        ],
+        "rel_tgt": [
+            "第六条：自分の経験を彼らの経験と同等だと考えないでください。",
+            "もし彼らが家族を失ったことについて話しているなら、あなたが家族を失った時の話を始めないでください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR"
+        }
+    },
+    {
+        "idx": 86,
+        "src": "It's not the same. It is never the same.",
+        "ref": "相手と自分の経験は 全く違うものです",
+        "hyp": "それは同じではありません。決して同じではありません。",
+        "rel_src": [
+            "Number six: Don't equate your experience with theirs.",
+            "If they're talking about having lost a family member,  don't start talking about the time you lost a family member."
+        ],
+        "rel_tgt": [
+            "第六条：自分の経験を彼らの経験と同等だと考えないでください。",
+            "もし彼らが家族を失ったことについて話しているなら、あなたが家族を失った時の話を始めないでください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR"
+        }
+    },
+    {
+        "idx": 87,
+        "src": "All experiences are individual.",
+        "ref": "全ての経験は 個別のものなんです",
+        "hyp": "全ての経験は個々のものです。",
+        "rel_src": [
+            "Number six: Don't equate your experience with theirs.",
+            "It's not the same. It is never the same."
+        ],
+        "rel_tgt": [
+            "第六条：自分の経験を彼らの経験と同等だと考えないでください。",
+            "それは同じではありません。決して同じではありません。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR"
+        }
+    },
+    {
+        "idx": 88,
+        "src": "And, more importantly, it is not about you.",
+        "ref": "さらに重要なのは 自分の話を しているのではないということです",
+        "hyp": "そして、もっと重要なことは、あなたのことではないのです。",
+        "rel_src": [
+            "Number six: Don't equate your experience with theirs.",
+            "If they're talking about having lost a family member,  don't start talking about the time you lost a family member."
+        ],
+        "rel_tgt": [
+            "第六条：自分の経験を彼らの経験と同等だと考えないでください。",
+            "もし彼らが家族を失ったことについて話しているなら、あなたが家族を失った時の話を始めないでください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR"
+        }
+    },
+    {
+        "idx": 89,
+        "src": "You don't need to take that moment to prove how amazing you are  or how much you've suffered.",
+        "ref": "その機会に あなたがどれほど 素晴らしいか どれほど困っているか 示そうとする必要はありません",
+        "hyp": "その瞬間に自分がどれだけ素晴らしいかやどれだけ苦しんできたかを証明する必要はありません。",
+        "rel_src": [
+            "Number six: Don't equate your experience with theirs.",
+            "If they're talking about having lost a family member,  don't start talking about the time you lost a family member."
+        ],
+        "rel_tgt": [
+            "第六条：自分の経験を彼らの経験と同等だと考えないでください。",
+            "もし彼らが家族を失ったことについて話しているなら、あなたが家族を失った時の話を始めないでください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR"
+        }
+    },
+    {
+        "idx": 90,
+        "src": "Somebody asked Stephen Hawking once what his IQ was, and he said,  \"I have no idea. People who brag about their IQs are losers.\"",
+        "ref": "スティーヴン・ホーキングは IQを聞かれてこう答えたそうです 「さあね　IQ自慢なんて 負け犬のすることだよ」",
+        "hyp": "スティーブン・ホーキングにIQが何か尋ねられたことがあり、彼は「全く分からない。IQを自慢する人は負け犬だ」と答えました。",
+        "rel_src": [
+            "Number five: If you don't know, say that you don't know.",
+            "Do that. Err on the side of caution."
+        ],
+        "rel_tgt": [
+            "第五：わからない場合は、わからないと言いなさい。",
+            "そうしてください。慎重を期す方がいい。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング"
+        }
+    },
+    {
+        "idx": 91,
+        "src": "Conversations are not a promotional opportunity.",
+        "ref": "会話は 自己宣伝する 機会ではありません [21世紀における会話]",
+        "hyp": "会話は宣伝の機会ではありません。",
+        "rel_src": [
+            "Talk should not be cheap.",
+            "You don't need to take that moment to prove how amazing you are  or how much you've suffered."
+        ],
+        "rel_tgt": [
+            "話は安易にすべきではない。",
+            "その瞬間に自分がどれだけ素晴らしいかやどれだけ苦しんできたかを証明する必要はありません。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング"
+        }
+    },
+    {
+        "idx": 92,
+        "src": "Number seven:  Try not to repeat yourself.",
+        "ref": "｢今日の調子はどう？｣ ｢ブログ見てよ！｣ その７ 「同じことを 何度も言わないこと」",
+        "hyp": "7番目: 自分を繰り返さないようにしてください。",
+        "rel_src": [
+            "Do that. Err on the side of caution.",
+            "Conversations are not a promotional opportunity."
+        ],
+        "rel_tgt": [
+            "そうしてください。慎重を期す方がいい。",
+            "会話は宣伝の機会ではありません。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング"
+        }
+    },
+    {
+        "idx": 93,
+        "src": "It's condescending, and it's really boring,  and we tend to do it a lot.",
+        "ref": "恩着せがましく うんざりしますが みんな やりがちです",
+        "hyp": "それは見下すことであり、非常に退屈であり、私たちはそれをよくします。",
+        "rel_src": [
+            "Number six: Don't equate your experience with theirs.",
+            "If they're talking about having lost a family member,  don't start talking about the time you lost a family member."
+        ],
+        "rel_tgt": [
+            "第六条：自分の経験を彼らの経験と同等だと考えないでください。",
+            "もし彼らが家族を失ったことについて話しているなら、あなたが家族を失った時の話を始めないでください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング"
+        }
+    },
+    {
+        "idx": 94,
+        "src": "Especially in work conversations or in conversations with our kids,  we have a point to make,  so we just keep rephrasing it over and over.",
+        "ref": "特に 職場での会話や 子供たちとの会話で 自分の主張が 正しいことを示そうと 言葉を変えて 繰り返すのです",
+        "hyp": "特に仕事の会話や子供との会話では、私たちには伝えたいポイントがありますので、それを何度も言い換えるだけです。",
+        "rel_src": [
+            "Number seven:  Try not to repeat yourself.",
+            "It's condescending, and it's really boring,  and we tend to do it a lot."
+        ],
+        "rel_tgt": [
+            "7番目: 自分を繰り返さないようにしてください。",
+            "それは見下すことであり、非常に退屈であり、私たちはそれをよくします。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング"
+        }
+    },
+    {
+        "idx": 95,
+        "src": "Don't do that.",
+        "ref": "それはしないで下さい",
+        "hyp": "そんなことはしないでください。",
+        "rel_src": [
+            "Do that. Err on the side of caution.",
+            "Number six: Don't equate your experience with theirs."
+        ],
+        "rel_tgt": [
+            "そうしてください。慎重を期す方がいい。",
+            "第六条：自分の経験を彼らの経験と同等だと考えないでください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング"
+        }
+    },
+    {
+        "idx": 96,
+        "src": "Number eight: Stay out of the weeds.",
+        "ref": "その８「細かいことには こだわらない」",
+        "hyp": "8番: 細部に立ち入らないでください。",
+        "rel_src": [
+            "Do that. Err on the side of caution.",
+            "If they're talking about having lost a family member,  don't start talking about the time you lost a family member."
+        ],
+        "rel_tgt": [
+            "そうしてください。慎重を期す方がいい。",
+            "もし彼らが家族を失ったことについて話しているなら、あなたが家族を失った時の話を始めないでください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング"
+        }
+    },
+    {
+        "idx": 97,
+        "src": "Frankly, people don't care  about the years, the names,  the dates, all those details  that you're struggling to come up with in your mind.",
+        "ref": "率直に言って 相手は 細かいことを気にしていません 年号や 氏名や 日付のような詳細です 皆さん 思い出そうと 苦労しているかもしれませんが",
+        "hyp": "率直に言って、人々は、あなたが心の中で苦労して思いつこうとしている年数や名前、日付などの細部については興味がありません。",
+        "rel_src": [
+            "Number five: If you don't know, say that you don't know.",
+            "It's not the same. It is never the same."
+        ],
+        "rel_tgt": [
+            "第五：わからない場合は、わからないと言いなさい。",
+            "それは同じではありません。決して同じではありません。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング"
+        }
+    },
+    {
+        "idx": 98,
+        "src": "They don't care. What they care about is you.",
+        "ref": "相手は興味がありません 興味があるのはあなたについてです",
+        "hyp": "彼らは興味がありません。彼らが気にしているのはあなたです。",
+        "rel_src": [
+            "You don't need to take that moment to prove how amazing you are  or how much you've suffered.",
+            "Number eight: Stay out of the weeds."
+        ],
+        "rel_tgt": [
+            "その瞬間に自分がどれだけ素晴らしいかやどれだけ苦しんできたかを証明する必要はありません。",
+            "8番: 細部に立ち入らないでください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング"
+        }
+    },
+    {
+        "idx": 99,
+        "src": "They care about what you're like,  what you have in common.",
+        "ref": "あなたがどんな人で どんな共通点があるのか",
+        "hyp": "彼らは、あなたの人柄や共通点に興味を持っています。",
+        "new_src_summary": "The paragraph discusses the increasing polarization and lack of listening in conversations fueled by technology and a lack of compromise. It emphasizes the impact of unfriending on social media due to differing opinions, making conversations more argumentative. The importance of conversational competence as a skill often overlooked in education is highlighted, with the author sharing their experience of talking to various people and expressing a desire to teach effective communication skills. The paragraph rejects common advice and focuses on being present and engaged in conversations, providing ten basic rules for better communication, with the first rule being to avoid multitasking. It also stresses the importance of using open-ended questions when interviewing someone and letting thoughts flow freely during conversations, promoting true listening, open-mindedness, and humility in communication. The overall tone is reflective, critical, assertive, informative, and instructional, with a focus on effective communication techniques in various contexts. The paragraph also provides advice on effective communication, emphasizing the importance of honesty, caution, empathy, and humility in conversations. It encourages listeners to avoid making conversations about themselves, to refrain from repeating themselves, and to focus on the main points rather than getting lost in unnecessary details. The tone is informative and practical, with a focus on improving communication skills.",
+        "new_tgt_summary": "現代社会では、政治や宗教、子育て、食べ物などの話題が口論に発展しやすくなっており、人々は意見を述べるだけでなく、聞くことも重要であることが失われつつある。会話の能力は21世紀において非常に重要であり、相手に注意を払い、マルチタスクを避けることが良い会話を楽しむための基本ルールの1つであると指摘されている。その場にいることが重要であり、自分の意見を押し付けず、相手の話を真剣に聞くことが大切だと述べられており、他人から学ぶことができるという前提で、全ての会話に参加することが推奨されている。また、他人との会話において、わからないことは素直に認めるべきであり、自分の経験を他人の経験と同等だと考えるべきではない。自分を繰り返したり、細部にこだわることは避けるべきである。会話は自己宣伝の場ではなく、相手のことに興味を持つべきである。",
+        "rel_src": [
+            "All experiences are individual.",
+            "They don't care. What they care about is you."
+        ],
+        "rel_tgt": [
+            "全ての経験は個々のものです。",
+            "彼らは興味がありません。彼らが気にしているのはあなたです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング"
+        }
+    },
+    {
+        "idx": 100,
+        "src": "So forget the details. Leave them out.",
+        "ref": "だから 詳細は忘れましょう 必要ありません",
+        "hyp": "だから、細部を忘れてください。それらを省いてください。",
+        "rel_src": [
+            "Number eight: Stay out of the weeds.",
+            "Frankly, people don't care  about the years, the names,  the dates, all those details  that you're struggling to come up with in your mind."
+        ],
+        "rel_tgt": [
+            "8番: 細部に立ち入らないでください。",
+            "率直に言って、人々は、あなたが心の中で苦労して思いつこうとしている年数や名前、日付などの細部については興味がありません。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング"
+        }
+    },
+    {
+        "idx": 101,
+        "src": "Number nine:  This is not the last one, but it is the most important one.",
+        "ref": "その９ これは最後ではありませんが 最も重要なことです",
+        "hyp": "9番: これが最後ではないが、最も重要なルールである。",
+        "rel_src": [
+            "And, more importantly, it is not about you.",
+            "You don't need to take that moment to prove how amazing you are  or how much you've suffered."
+        ],
+        "rel_tgt": [
+            "そして、もっと重要なことは、あなたのことではないのです。",
+            "その瞬間に自分がどれだけ素晴らしいかやどれだけ苦しんできたかを証明する必要はありません。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング"
+        }
+    },
+    {
+        "idx": 102,
+        "src": "Listen.",
+        "ref": "「聞くこと」",
+        "hyp": "聞いてください。",
+        "rel_src": [
+            "And, more importantly, it is not about you.",
+            "Conversations are not a promotional opportunity."
+        ],
+        "rel_tgt": [
+            "そして、もっと重要なことは、あなたのことではないのです。",
+            "会話は宣伝の機会ではありません。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング"
+        }
+    },
+    {
+        "idx": 103,
+        "src": "I cannot tell you how many really important people have said  that listening is perhaps the most, the number one most important skill  that you could develop.",
+        "ref": "この点を言った偉人が どれほど 沢山いたか分からないほどですが 聞くことは 誰もが伸ばせる 最も重要なスキルなんです",
+        "hyp": "本当に重要な人々が、聞くことがおそらく、あなたが磨くべき最も重要なスキルであると言ってきたか、数えきれません。",
+        "rel_src": [
+            "Conversations are not a promotional opportunity.",
+            "Listen."
+        ],
+        "rel_tgt": [
+            "会話は宣伝の機会ではありません。",
+            "聞いてください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング"
+        }
+    },
+    {
+        "idx": 104,
+        "src": "Buddha said, and I'm paraphrasing,  \"If your mouth is open, you're not learning.\"",
+        "ref": "ブッダの言葉です 少し言い換えていますが 「口が開いている時には 何も学ばない」",
+        "hyp": "ブッダは言いました、私が言い換えると、「口が開いているとき、学ぶことはできません」と。",
+        "rel_src": [
+            "Listen.",
+            "I cannot tell you how many really important people have said  that listening is perhaps the most, the number one most important skill  that you could develop."
+        ],
+        "rel_tgt": [
+            "聞いてください。",
+            "本当に重要な人々が、聞くことがおそらく、あなたが磨くべき最も重要なスキルであると言ってきたか、数えきれません。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ"
+        }
+    },
+    {
+        "idx": 105,
+        "src": "And Calvin Coolidge said, \"No man ever listened his way out of a job.\"",
+        "ref": "無口で有名な大統領カルビン・クーリッジ曰く 「聞いたことでクビになった者はいない」",
+        "hyp": "そして、カルビン・クーリッジは、「聞くことで誰もが仕事から逃れたことはない」と言いました。",
+        "rel_src": [
+            "I cannot tell you how many really important people have said  that listening is perhaps the most, the number one most important skill  that you could develop.",
+            "Buddha said, and I'm paraphrasing,  \"If your mouth is open, you're not learning.\""
+        ],
+        "rel_tgt": [
+            "本当に重要な人々が、聞くことがおそらく、あなたが磨くべき最も重要なスキルであると言ってきたか、数えきれません。",
+            "ブッダは言いました、私が言い換えると、「口が開いているとき、学ぶことはできません」と。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ"
+        }
+    },
+    {
+        "idx": 106,
+        "src": "Why do we not listen to each other?",
+        "ref": "何故 お互いに聞こうと しないのでしょうか",
+        "hyp": "なぜ私たちはお互いに耳を傾けないのでしょうか？",
+        "rel_src": [
+            "I cannot tell you how many really important people have said  that listening is perhaps the most, the number one most important skill  that you could develop.",
+            "Buddha said, and I'm paraphrasing,  \"If your mouth is open, you're not learning.\""
+        ],
+        "rel_tgt": [
+            "本当に重要な人々が、聞くことがおそらく、あなたが磨くべき最も重要なスキルであると言ってきたか、数えきれません。",
+            "ブッダは言いました、私が言い換えると、「口が開いているとき、学ぶことはできません」と。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ"
+        }
+    },
+    {
+        "idx": 107,
+        "src": "Number one, we'd rather talk.",
+        "ref": "１つには 聞くより むしろ 話したいというのがあります",
+        "hyp": "1番、話すことを選びます。",
+        "rel_src": [
+            "Number seven:  Try not to repeat yourself.",
+            "Don't do that."
+        ],
+        "rel_tgt": [
+            "7番目: 自分を繰り返さないようにしてください。",
+            "そんなことはしないでください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ"
+        }
+    },
+    {
+        "idx": 108,
+        "src": "When I'm talking, I'm in control.",
+        "ref": "話している時は 自分に主導権があり",
+        "hyp": "私が話している時、私はコントロールしている。",
+        "rel_src": [
+            "It's condescending, and it's really boring,  and we tend to do it a lot.",
+            "Number eight: Stay out of the weeds."
+        ],
+        "rel_tgt": [
+            "それは見下すことであり、非常に退屈であり、私たちはそれをよくします。",
+            "8番: 細部に立ち入らないでください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ"
+        }
+    },
+    {
+        "idx": 109,
+        "src": "I don't have to hear anything I'm not interested in.",
+        "ref": "興味が無いことを 聞く必要がありません",
+        "hyp": "私には興味のないことを聞かなくてもいいのです。",
+        "rel_src": [
+            "Frankly, people don't care  about the years, the names,  the dates, all those details  that you're struggling to come up with in your mind.",
+            "They don't care. What they care about is you."
+        ],
+        "rel_tgt": [
+            "率直に言って、人々は、あなたが心の中で苦労して思いつこうとしている年数や名前、日付などの細部については興味がありません。",
+            "彼らは興味がありません。彼らが気にしているのはあなたです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ"
+        }
+    },
+    {
+        "idx": 110,
+        "src": "I'm the center of attention.",
+        "ref": "注目の的になれ",
+        "hyp": "私が注目の的です。",
+        "rel_src": [
+            "When I'm talking, I'm in control.",
+            "I don't have to hear anything I'm not interested in."
+        ],
+        "rel_tgt": [
+            "私が話している時、私はコントロールしている。",
+            "私には興味のないことを聞かなくてもいいのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ"
+        }
+    },
+    {
+        "idx": 111,
+        "src": "I can bolster my own identity.",
+        "ref": "自分のアイデンティティを 強化できます",
+        "hyp": "私は自分のアイデンティティを強化することができます。",
+        "rel_src": [
+            "They don't care. What they care about is you.",
+            "They care about what you're like,  what you have in common."
+        ],
+        "rel_tgt": [
+            "彼らは興味がありません。彼らが気にしているのはあなたです。",
+            "彼らは、あなたの人柄や共通点に興味を持っています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ"
+        }
+    },
+    {
+        "idx": 112,
+        "src": "But there's another reason:  We get distracted.",
+        "ref": "しかし 他にも理由があります 注意をそらされるためです",
+        "hyp": "しかし、もう1つ理由があります：私たちは気を散らします。",
+        "rel_src": [
+            "Why do we not listen to each other?",
+            "Number one, we'd rather talk."
+        ],
+        "rel_tgt": [
+            "なぜ私たちはお互いに耳を傾けないのでしょうか？",
+            "1番、話すことを選びます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ"
+        }
+    },
+    {
+        "idx": 113,
+        "src": "The average person talks at about 225 word per minute,  but we can listen at up to 500 words per minute.",
+        "ref": "普通の人の話す速さは １分間に225語です しかし 私たちは１分間に 500語まで聞き取れます",
+        "hyp": "一般的な人は、1分あたり約225語話すが、最大で1分あたり500語を聞くことができます。",
+        "rel_src": [
+            "I cannot tell you how many really important people have said  that listening is perhaps the most, the number one most important skill  that you could develop.",
+            "Buddha said, and I'm paraphrasing,  \"If your mouth is open, you're not learning.\""
+        ],
+        "rel_tgt": [
+            "本当に重要な人々が、聞くことがおそらく、あなたが磨くべき最も重要なスキルであると言ってきたか、数えきれません。",
+            "ブッダは言いました、私が言い換えると、「口が開いているとき、学ぶことはできません」と。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ"
+        }
+    },
+    {
+        "idx": 114,
+        "src": "So our minds are filling in those other 275 words.",
+        "ref": "私たちの意識は 余力の275語を 埋めようとするのです",
+        "hyp": "私たちの心は、その他の275語を補完している。",
+        "rel_src": [
+            "And Calvin Coolidge said, \"No man ever listened his way out of a job.\"",
+            "The average person talks at about 225 word per minute,  but we can listen at up to 500 words per minute."
+        ],
+        "rel_tgt": [
+            "そして、カルビン・クーリッジは、「聞くことで誰もが仕事から逃れたことはない」と言いました。",
+            "一般的な人は、1分あたり約225語話すが、最大で1分あたり500語を聞くことができます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ"
+        }
+    },
+    {
+        "idx": 115,
+        "src": "And look, I know, it takes effort and energy  but if you can't do that, you're not in a conversation.",
+        "ref": "相手に注意を 向けておくのには 確かに努力と エネルギーが必要ですが それができなければ 会話をしていることにはなりません",
+        "hyp": "そして、私はわかっています、それには努力とエネルギーが必要ですが、それができないなら、あなたは会話に参加していません。",
+        "rel_src": [
+            "Why do we not listen to each other?",
+            "Number one, we'd rather talk."
+        ],
+        "rel_tgt": [
+            "なぜ私たちはお互いに耳を傾けないのでしょうか？",
+            "1番、話すことを選びます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ"
+        }
+    },
+    {
+        "idx": 116,
+        "src": "You're just two people shouting out barely related sentences in the same place.",
+        "ref": "２人が同じ場所にいて無関係な言葉を 叫び合っているだけです",
+        "hyp": "あなたたちはただ同じ場所でほとんど関係のない文を叫ぶ2人です。",
+        "rel_src": [
+            "Number one, we'd rather talk.",
+            "When I'm talking, I'm in control."
+        ],
+        "rel_tgt": [
+            "1番、話すことを選びます。",
+            "私が話している時、私はコントロールしている。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ"
+        }
+    },
+    {
+        "idx": 117,
+        "src": "You have to listen to one another.",
+        "ref": "お互いに聞かなくては いけません",
+        "hyp": "お互いに耳を傾けなければなりません。",
+        "rel_src": [
+            "And Calvin Coolidge said, \"No man ever listened his way out of a job.\"",
+            "Why do we not listen to each other?"
+        ],
+        "rel_tgt": [
+            "そして、カルビン・クーリッジは、「聞くことで誰もが仕事から逃れたことはない」と言いました。",
+            "なぜ私たちはお互いに耳を傾けないのでしょうか？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ"
+        }
+    },
+    {
+        "idx": 118,
+        "src": "Stephen Covey said it very beautifully.",
+        "ref": "作家のスティーブン･コヴィーが 見事に言い表しています",
+        "hyp": "スティーブン・コヴィーは非常に美しく述べました。",
+        "rel_src": [
+            "I cannot tell you how many really important people have said  that listening is perhaps the most, the number one most important skill  that you could develop.",
+            "And Calvin Coolidge said, \"No man ever listened his way out of a job.\""
+        ],
+        "rel_tgt": [
+            "本当に重要な人々が、聞くことがおそらく、あなたが磨くべき最も重要なスキルであると言ってきたか、数えきれません。",
+            "そして、カルビン・クーリッジは、「聞くことで誰もが仕事から逃れたことはない」と言いました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ",
+            "Stephen Covey": "スティーブン・コヴィー"
+        }
+    },
+    {
+        "idx": 119,
+        "src": "He said, \"Most of us don't listen with the intent to understand.",
+        "ref": "｢多くの人は 理解しようと聞くのではなく",
+        "hyp": "彼は、「私たちのほとんどは理解する意図で聞いていない」と言いました。",
+        "new_src_summary": "The paragraphs emphasize the increasing polarization and lack of listening in conversations fueled by technology and a lack of compromise. The impact of unfriending on social media due to differing opinions is highlighted, making conversations more argumentative. The importance of conversational competence as a skill often overlooked in education is emphasized, with the author sharing their experience of talking to various people and expressing a desire to teach effective communication skills. The paragraphs reject common advice and focus on being present and engaged in conversations, providing ten basic rules for better communication. They stress the importance of using open-ended questions when interviewing someone and letting thoughts flow freely during conversations, promoting true listening, open-mindedness, and humility in communication. The overall tone is reflective, critical, assertive, informative, and instructional, with a focus on effective communication techniques in various contexts. The paragraphs also discuss the importance of listening in communication, mentioning that many important people have highlighted it as essential. Reasons why people struggle to listen, such as preferring to talk and getting easily distracted, are explored. The paragraphs emphasize that listening requires effort and energy but is necessary for meaningful conversations, urging readers to prioritize listening in their interactions. The tone is informative and practical, with a focus on improving communication skills.",
+        "new_tgt_summary": "現代社会では、政治や宗教、子育て、食べ物などの話題が口論に発展しやすくなっており、会話の能力は21世紀において非常に重要であると指摘されている。相手に注意を払い、マルチタスクを避けることが良い会話を楽しむための基本ルールであり、自分の意見を押し付けず、相手の話を真剣に聞くことが大切だと述べられている。他人との会話において、わからないことは素直に認め、自分の経験を他人の経験と同等だと考えるべきではない。自分を繰り返したり、細部にこだわることは避け、相手のことに興味を持つべきである。重要な人々は聞くことが重要だと言っており、話すことを選ぶのではなく、お互いに耳を傾けることが重要である。話すことに集中しすぎず、相手の話に注意を払うことが重要である。",
+        "rel_src": [
+            "And Calvin Coolidge said, \"No man ever listened his way out of a job.\"",
+            "You have to listen to one another."
+        ],
+        "rel_tgt": [
+            "そして、カルビン・クーリッジは、「聞くことで誰もが仕事から逃れたことはない」と言いました。",
+            "お互いに耳を傾けなければなりません。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ",
+            "Stephen Covey": "スティーブン・コヴィー"
+        }
+    },
+    {
+        "idx": 120,
+        "src": "We listen with the intent to reply.\"",
+        "ref": "回答しようと聞いている｣",
+        "hyp": "私たちは返信する意図で聞いています。",
+        "rel_src": [
+            "Stephen Covey said it very beautifully.",
+            "He said, \"Most of us don't listen with the intent to understand."
+        ],
+        "rel_tgt": [
+            "スティーブン・コヴィーは非常に美しく述べました。",
+            "彼は、「私たちのほとんどは理解する意図で聞いていない」と言いました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ",
+            "Stephen Covey": "スティーブン・コヴィー"
+        }
+    },
+    {
+        "idx": 121,
+        "src": "One more rule, number 10, and it's this one: Be brief.",
+        "ref": "ルールが もう１つあります その10は「簡潔に」",
+        "hyp": "もう1つのルール、第10条、それは次の通りです：簡潔であること。",
+        "rel_src": [
+            "The average person talks at about 225 word per minute,  but we can listen at up to 500 words per minute.",
+            "And look, I know, it takes effort and energy  but if you can't do that, you're not in a conversation."
+        ],
+        "rel_tgt": [
+            "一般的な人は、1分あたり約225語話すが、最大で1分あたり500語を聞くことができます。",
+            "そして、私はわかっています、それには努力とエネルギーが必要ですが、それができないなら、あなたは会話に参加していません。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ",
+            "Stephen Covey": "スティーブン・コヴィー"
+        }
+    },
+    {
+        "idx": 122,
+        "src": "[A good conversation is like a miniskirt; short enough to retain interest,  but long enough to cover the subject. -- My Sister]      All of this boils down to the same basic concept, and it is this one:  Be interested in other people.",
+        "ref": "[私の妹曰く｢良い会話は ミニスカートのようなもの 興味を引けるくらいに短く ただし肝心な ところをカバーできるだけ長くすること」] （拍手）  ここまで述べてきたことはすべて １つのことに要約できます 「相手に興味を持つこと」",
+        "hyp": "[良い会話はミニスカートのようなものです；興味を引くほど短く、しかし話題をカバーするほど長く。-- 私の姉]  すべては同じ基本的なコンセプトに帰着し、それは次の通りです：他人に興味を持つことです。",
+        "rel_src": [
+            "You have to listen to one another.",
+            "One more rule, number 10, and it's this one: Be brief."
+        ],
+        "rel_tgt": [
+            "お互いに耳を傾けなければなりません。",
+            "もう1つのルール、第10条、それは次の通りです：簡潔であること。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ",
+            "Stephen Covey": "スティーブン・コヴィー"
+        }
+    },
+    {
+        "idx": 123,
+        "src": "You know, I grew up with a very famous grandfather,  and there was kind of a ritual in my home.",
+        "ref": "私は非常に有名な 祖父の元に育ちました 私の家で お決まりの ことだったんですが",
+        "hyp": "ねえ、私は非常に有名な祖父と一緒に育ちましたが、家庭には一種の儀式がありました。",
+        "rel_src": [
+            "I don't have to hear anything I'm not interested in.",
+            "I can bolster my own identity."
+        ],
+        "rel_tgt": [
+            "私には興味のないことを聞かなくてもいいのです。",
+            "私は自分のアイデンティティを強化することができます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ",
+            "Stephen Covey": "スティーブン・コヴィー",
+            "grandfather": "祖父"
+        }
+    },
+    {
+        "idx": 124,
+        "src": "People would come over to talk to my grandparents,  and after they would leave, my mother would come over to us,  and she'd say, \"Do you know who that was?",
+        "ref": "祖父母と話しに いろんな人がやってきて お客様が帰った後に 母が来て 「あの人誰だか知っている？」 と聞くのです",
+        "hyp": "人々は祖父母と話すためにやって来て、その後、彼らが去った後、母が私たちのところにやって来て、「あの人が誰だか知ってる？」と言った。",
+        "rel_src": [
+            "And Calvin Coolidge said, \"No man ever listened his way out of a job.\"",
+            "He said, \"Most of us don't listen with the intent to understand."
+        ],
+        "rel_tgt": [
+            "そして、カルビン・クーリッジは、「聞くことで誰もが仕事から逃れたことはない」と言いました。",
+            "彼は、「私たちのほとんどは理解する意図で聞いていない」と言いました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ",
+            "Stephen Covey": "スティーブン・コヴィー",
+            "grandfather": "祖父"
+        }
+    },
+    {
+        "idx": 125,
+        "src": "She was the runner-up to Miss America.",
+        "ref": "彼女 準ミス・アメリカになったのよ",
+        "hyp": "彼女はミス・アメリカの準優勝者でした。",
+        "rel_src": [
+            "You know, I grew up with a very famous grandfather,  and there was kind of a ritual in my home.",
+            "People would come over to talk to my grandparents,  and after they would leave, my mother would come over to us,  and she'd say, \"Do you know who that was?"
+        ],
+        "rel_tgt": [
+            "ねえ、私は非常に有名な祖父と一緒に育ちましたが、家庭には一種の儀式がありました。",
+            "人々は祖父母と話すためにやって来て、その後、彼らが去った後、母が私たちのところにやって来て、「あの人が誰だか知ってる？」と言った。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ",
+            "Stephen Covey": "スティーブン・コヴィー",
+            "grandfather": "祖父",
+            "Miss America": "ミス・アメリカ"
+        }
+    },
+    {
+        "idx": 126,
+        "src": "He was the mayor of Sacramento.",
+        "ref": "あの人 サクラメント市長よ",
+        "hyp": "彼はサクラメント市長でした。",
+        "rel_src": [
+            "You know, I grew up with a very famous grandfather,  and there was kind of a ritual in my home.",
+            "People would come over to talk to my grandparents,  and after they would leave, my mother would come over to us,  and she'd say, \"Do you know who that was?"
+        ],
+        "rel_tgt": [
+            "ねえ、私は非常に有名な祖父と一緒に育ちましたが、家庭には一種の儀式がありました。",
+            "人々は祖父母と話すためにやって来て、その後、彼らが去った後、母が私たちのところにやって来て、「あの人が誰だか知ってる？」と言った。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ",
+            "Stephen Covey": "スティーブン・コヴィー",
+            "grandfather": "祖父",
+            "Miss America": "ミス・アメリカ",
+            "Sacramento": "サクラメント"
+        }
+    },
+    {
+        "idx": 127,
+        "src": "She won a Pulitzer Prize. He's a Russian ballet dancer.\"",
+        "ref": "彼女はピュリッツァー賞受賞者 彼はロシア･バレエのダンサー",
+        "hyp": "彼女はピュリッツァー賞を受賞しました。彼はロシアのバレエダンサーです。",
+        "rel_src": [
+            "When I'm talking, I'm in control.",
+            "He was the mayor of Sacramento."
+        ],
+        "rel_tgt": [
+            "私が話している時、私はコントロールしている。",
+            "彼はサクラメント市長でした。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ",
+            "Stephen Covey": "スティーブン・コヴィー",
+            "grandfather": "祖父",
+            "Miss America": "ミス・アメリカ",
+            "Sacramento": "サクラメント",
+            "She": "彼女",
+            "Pulitzer Prize": "ピュリッツァー賞",
+            "Russian": "ロシア",
+            "ballet dancer": "バレエダンサー"
+        }
+    },
+    {
+        "idx": 128,
+        "src": "And I kind of grew up assuming everyone has some hidden, amazing thing about them.",
+        "ref": "それで私は 誰でも何か隠れた すごいものを持っているものだと",
+        "hyp": "そして、私はどんな人にも隠れた素晴らしいものがあるという前提で育ちました。",
+        "rel_src": [
+            "You know, I grew up with a very famous grandfather,  and there was kind of a ritual in my home.",
+            "People would come over to talk to my grandparents,  and after they would leave, my mother would come over to us,  and she'd say, \"Do you know who that was?"
+        ],
+        "rel_tgt": [
+            "ねえ、私は非常に有名な祖父と一緒に育ちましたが、家庭には一種の儀式がありました。",
+            "人々は祖父母と話すためにやって来て、その後、彼らが去った後、母が私たちのところにやって来て、「あの人が誰だか知ってる？」と言った。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ",
+            "Stephen Covey": "スティーブン・コヴィー",
+            "grandfather": "祖父",
+            "Miss America": "ミス・アメリカ",
+            "Sacramento": "サクラメント",
+            "She": "彼女",
+            "Pulitzer Prize": "ピュリッツァー賞",
+            "Russian": "ロシア",
+            "ballet dancer": "バレエダンサー"
+        }
+    },
+    {
+        "idx": 129,
+        "src": "And honestly, I think it's what makes me a better host.",
+        "ref": "信じるようになりました このことが 私を良い司会者に しているのだと思います",
+        "hyp": "正直に言うと、それが私をより良いホストにしていると思います。",
+        "rel_src": [
+            "[A good conversation is like a miniskirt; short enough to retain interest,  but long enough to cover the subject. -- My Sister]      All of this boils down to the same basic concept, and it is this one:  Be interested in other people.",
+            "And I kind of grew up assuming everyone has some hidden, amazing thing about them."
+        ],
+        "rel_tgt": [
+            "[良い会話はミニスカートのようなものです；興味を引くほど短く、しかし話題をカバーするほど長く。-- 私の姉]  すべては同じ基本的なコンセプトに帰着し、それは次の通りです：他人に興味を持つことです。",
+            "そして、私はどんな人にも隠れた素晴らしいものがあるという前提で育ちました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ",
+            "Stephen Covey": "スティーブン・コヴィー",
+            "grandfather": "祖父",
+            "Miss America": "ミス・アメリカ",
+            "Sacramento": "サクラメント",
+            "She": "彼女",
+            "Pulitzer Prize": "ピュリッツァー賞",
+            "Russian": "ロシア",
+            "ballet dancer": "バレエダンサー"
+        }
+    },
+    {
+        "idx": 130,
+        "src": "I keep my mouth shut as often as I possibly can,  I keep my mind open,  and I'm always prepared to be amazed,  and I'm never disappointed.",
+        "ref": "できる限り口を閉じ 心を開いて 感心させられるのを 期待しています これまで それでがっかりしたことは 一度もありません",
+        "hyp": "口をできるだけ閉じておき、心を開いておくことを心がけ、常に驚く準備をしており、決して失望しないようにしています。",
+        "rel_src": [
+            "He said, \"Most of us don't listen with the intent to understand.",
+            "[A good conversation is like a miniskirt; short enough to retain interest,  but long enough to cover the subject. -- My Sister]      All of this boils down to the same basic concept, and it is this one:  Be interested in other people."
+        ],
+        "rel_tgt": [
+            "彼は、「私たちのほとんどは理解する意図で聞いていない」と言いました。",
+            "[良い会話はミニスカートのようなものです；興味を引くほど短く、しかし話題をカバーするほど長く。-- 私の姉]  すべては同じ基本的なコンセプトに帰着し、それは次の通りです：他人に興味を持つことです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ",
+            "Stephen Covey": "スティーブン・コヴィー",
+            "grandfather": "祖父",
+            "Miss America": "ミス・アメリカ",
+            "Sacramento": "サクラメント",
+            "She": "彼女",
+            "Pulitzer Prize": "ピュリッツァー賞",
+            "Russian": "ロシア",
+            "ballet dancer": "バレエダンサー"
+        }
+    },
+    {
+        "idx": 131,
+        "src": "You do the same thing.",
+        "ref": "みなさんも同じことを してください",
+        "hyp": "同じことをしています。",
+        "rel_src": [
+            "We listen with the intent to reply.\"",
+            "I keep my mouth shut as often as I possibly can,  I keep my mind open,  and I'm always prepared to be amazed,  and I'm never disappointed."
+        ],
+        "rel_tgt": [
+            "私たちは返信する意図で聞いています。",
+            "口をできるだけ閉じておき、心を開いておくことを心がけ、常に驚く準備をしており、決して失望しないようにしています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ",
+            "Stephen Covey": "スティーブン・コヴィー",
+            "grandfather": "祖父",
+            "Miss America": "ミス・アメリカ",
+            "Sacramento": "サクラメント",
+            "She": "彼女",
+            "Pulitzer Prize": "ピュリッツァー賞",
+            "Russian": "ロシア",
+            "ballet dancer": "バレエダンサー"
+        }
+    },
+    {
+        "idx": 132,
+        "src": "Go out, talk to people,  listen to people,  and, most importantly, be prepared to be amazed.",
+        "ref": "出かけていって 人と話し 耳を傾けること そして何より大切なのは 感心させられるのを期待することです",
+        "hyp": "外に出て、人々と話し、人々の話を聞き、そして何よりも、驚く準備をしておいてください。",
+        "rel_src": [
+            "You have to listen to one another.",
+            "I keep my mouth shut as often as I possibly can,  I keep my mind open,  and I'm always prepared to be amazed,  and I'm never disappointed."
+        ],
+        "rel_tgt": [
+            "お互いに耳を傾けなければなりません。",
+            "口をできるだけ閉じておき、心を開いておくことを心がけ、常に驚く準備をしており、決して失望しないようにしています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ",
+            "Stephen Covey": "スティーブン・コヴィー",
+            "grandfather": "祖父",
+            "Miss America": "ミス・アメリカ",
+            "Sacramento": "サクラメント",
+            "She": "彼女",
+            "Pulitzer Prize": "ピュリッツァー賞",
+            "Russian": "ロシア",
+            "ballet dancer": "バレエダンサー"
+        }
+    },
+    {
+        "idx": 133,
+        "src": "Thanks.",
+        "ref": "ご静聴 ありがとうございました",
+        "hyp": "ありがとうございます。",
+        "rel_src": [
+            "You do the same thing.",
+            "Go out, talk to people,  listen to people,  and, most importantly, be prepared to be amazed."
+        ],
+        "rel_tgt": [
+            "同じことをしています。",
+            "外に出て、人々と話し、人々の話を聞き、そして何よりも、驚く準備をしておいてください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My Fair Lady": "マイ・フェア・レディ",
+            "Henry Higgins": "ヘンリー・ヒギンズ",
+            "Pew Research": "ピュー・リサーチ",
+            "American": "アメリカ人",
+            "The Atlantic": "アトランティック誌",
+            "Paul Barnwell": "ポール・バーンウェル",
+            "Nobel Prize": "ノーベル賞",
+            "N/A": "N/A",
+            "Obama": "オバマ",
+            "Dick Cheney": "ディック・チェイニー",
+            "M. Scott Peck": "M.スコット・ペック",
+            "Bill Nye": "ビル・ナイ",
+            "Hugh Jackman": "ヒュー・ジャックマン",
+            "NPR": "NPR",
+            "Stephen Hawking": "スティーブン・ホーキング",
+            "Buddha": "ブッダ",
+            "Calvin Coolidge": "カルビン・クーリッジ",
+            "Stephen Covey": "スティーブン・コヴィー",
+            "grandfather": "祖父",
+            "Miss America": "ミス・アメリカ",
+            "Sacramento": "サクラメント",
+            "She": "彼女",
+            "Pulitzer Prize": "ピュリッツァー賞",
+            "Russian": "ロシア",
+            "ballet dancer": "バレエダンサー"
+        }
+    }
+]

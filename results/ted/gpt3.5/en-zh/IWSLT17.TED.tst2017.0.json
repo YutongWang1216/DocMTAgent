@@ -1,0 +1,3946 @@
+[
+    {
+        "idx": 0,
+        "src": "So, this is a story  about how we know what we know.",
+        "ref": "好吧，我要讲个故事， 是关于我们如何了解自己所知的事物。",
+        "hyp": "所以，这是一个关于我们如何知道我们所知道的故事。",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 1,
+        "src": "It's a story about this woman,  Natalia Rybczynski.",
+        "ref": "这个故事是关于这位女性， 娜塔莉娅·丽琴斯基。",
+        "hyp": "这是关于这位女士娜塔莉娅·里布钦斯基的故事。",
+        "rel_src": [
+            "So, this is a story  about how we know what we know."
+        ],
+        "rel_tgt": [
+            "所以，这是一个关于我们如何知道我们所知道的故事。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基"
+        }
+    },
+    {
+        "idx": 2,
+        "src": "She's a paleobiologist,  which means she specializes in digging up really old dead stuff.",
+        "ref": "她是一位古生物学家， 她的专长就是到处挖掘古老的东西。",
+        "hyp": "她是一位古生物学家，意味着她专门挖掘非常古老的死亡物质。",
+        "rel_src": [
+            "So, this is a story  about how we know what we know.",
+            "It's a story about this woman,  Natalia Rybczynski."
+        ],
+        "rel_tgt": [
+            "所以，这是一个关于我们如何知道我们所知道的故事。",
+            "这是关于这位女士娜塔莉娅·里布钦斯基的故事。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基"
+        }
+    },
+    {
+        "idx": 3,
+        "src": "Natalia Rybczynski: Yeah, I had someone call me \"Dr. Dead Things.\"",
+        "ref": "娜塔莉娅·丽琴斯基： “是的，有些人叫我'死东西'博士。\"",
+        "hyp": "娜塔莉娅·里布钦斯基：是的，有人称呼我为“死物博士”。",
+        "rel_src": [
+            "It's a story about this woman,  Natalia Rybczynski.",
+            "She's a paleobiologist,  which means she specializes in digging up really old dead stuff."
+        ],
+        "rel_tgt": [
+            "这是关于这位女士娜塔莉娅·里布钦斯基的故事。",
+            "她是一位古生物学家，意味着她专门挖掘非常古老的死亡物质。"
+        ],
+        "hist_info": "\"Natalia Rybczynski\" - \"娜塔莉娅·里布钦斯基\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士"
+        }
+    },
+    {
+        "idx": 4,
+        "src": "Latif Nasser: And I think she's particularly interesting  because of where she digs that stuff up,  way above the Arctic Circle in the remote Canadian tundra.",
+        "ref": "我觉得她特别有意思， 因为她挖东西的地方， 都是在高纬度的北极圈， 遥远的加拿大冻土带里。",
+        "hyp": "拉蒂夫·纳瑟：我认为她特别有趣的地方在于她挖掘这些东西的地点，远在偏远的加拿大苔原圈之上。",
+        "rel_src": [
+            "It's a story about this woman,  Natalia Rybczynski.",
+            "She's a paleobiologist,  which means she specializes in digging up really old dead stuff."
+        ],
+        "rel_tgt": [
+            "这是关于这位女士娜塔莉娅·里布钦斯基的故事。",
+            "她是一位古生物学家，意味着她专门挖掘非常古老的死亡物质。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大"
+        }
+    },
+    {
+        "idx": 5,
+        "src": "Now, one summer day in 2006,  she was at a dig site called the Fyles Leaf Bed,  which is less than 10 degrees latitude away from the magnetic north pole.",
+        "ref": "2006年夏季的一天， 她在一个叫做法尔斯叶床的考古挖掘场， 那里离地磁北极 只有不到10纬度的距离。",
+        "hyp": "现在，2006年的一个夏天，她在一个名为费尔斯叶层的挖掘现场，该地距磁北极不到10度纬度。",
+        "rel_src": [
+            "It's a story about this woman,  Natalia Rybczynski.",
+            "Latif Nasser: And I think she's particularly interesting  because of where she digs that stuff up,  way above the Arctic Circle in the remote Canadian tundra."
+        ],
+        "rel_tgt": [
+            "这是关于这位女士娜塔莉娅·里布钦斯基的故事。",
+            "拉蒂夫·纳瑟：我认为她特别有趣的地方在于她挖掘这些东西的地点，远在偏远的加拿大苔原圈之上。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极"
+        }
+    },
+    {
+        "idx": 6,
+        "src": "NR: Really, it's not going to sound very exciting,  because it was a day of walking with your backpack and your GPS  and notebook and just picking up anything that might be a fossil.",
+        "ref": "NR: “说真的， 这听起来其实没什么意思。” “你一整天都要背着包， 带着GPS导航仪和笔记本，” “一直长途跋涉， 见到可能是化石的东西就捡起来。”",
+        "hyp": "NR：实际上，这听起来并不会很令人兴奋，因为那天只是背着背包、GPS和笔记本走路，随便捡起可能是化石的东西。",
+        "rel_src": [
+            "Latif Nasser: And I think she's particularly interesting  because of where she digs that stuff up,  way above the Arctic Circle in the remote Canadian tundra.",
+            "Now, one summer day in 2006,  she was at a dig site called the Fyles Leaf Bed,  which is less than 10 degrees latitude away from the magnetic north pole."
+        ],
+        "rel_tgt": [
+            "拉蒂夫·纳瑟：我认为她特别有趣的地方在于她挖掘这些东西的地点，远在偏远的加拿大苔原圈之上。",
+            "现在，2006年的一个夏天，她在一个名为费尔斯叶层的挖掘现场，该地距磁北极不到10度纬度。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS"
+        }
+    },
+    {
+        "idx": 7,
+        "src": "LN: And at some point, she noticed something.",
+        "ref": "然而在某一刻，她注意到了些东西。",
+        "hyp": "LN：在某个时候，她注意到了一些东西。",
+        "rel_src": [
+            "Now, one summer day in 2006,  she was at a dig site called the Fyles Leaf Bed,  which is less than 10 degrees latitude away from the magnetic north pole.",
+            "NR: Really, it's not going to sound very exciting,  because it was a day of walking with your backpack and your GPS  and notebook and just picking up anything that might be a fossil."
+        ],
+        "rel_tgt": [
+            "现在，2006年的一个夏天，她在一个名为费尔斯叶层的挖掘现场，该地距磁北极不到10度纬度。",
+            "NR：实际上，这听起来并不会很令人兴奋，因为那天只是背着背包、GPS和笔记本走路，随便捡起可能是化石的东西。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS"
+        }
+    },
+    {
+        "idx": 8,
+        "src": "NR: Rusty, kind of rust-colored,  about the size of the palm of my hand.",
+        "ref": "“一片铁锈色的小东西，’ ”大概有我的手掌心那么大。“",
+        "hyp": "NR：生锈的，有点像生锈的颜色，大约是我手掌大小的。",
+        "rel_src": [
+            "Now, one summer day in 2006,  she was at a dig site called the Fyles Leaf Bed,  which is less than 10 degrees latitude away from the magnetic north pole.",
+            "NR: Really, it's not going to sound very exciting,  because it was a day of walking with your backpack and your GPS  and notebook and just picking up anything that might be a fossil."
+        ],
+        "rel_tgt": [
+            "现在，2006年的一个夏天，她在一个名为费尔斯叶层的挖掘现场，该地距磁北极不到10度纬度。",
+            "NR：实际上，这听起来并不会很令人兴奋，因为那天只是背着背包、GPS和笔记本走路，随便捡起可能是化石的东西。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS"
+        }
+    },
+    {
+        "idx": 9,
+        "src": "It was just lying on the surface.",
+        "ref": "‘它就躺在地面上。”",
+        "hyp": "它就躺在地表上。",
+        "rel_src": [
+            "LN: And at some point, she noticed something.",
+            "NR: Rusty, kind of rust-colored,  about the size of the palm of my hand."
+        ],
+        "rel_tgt": [
+            "LN：在某个时候，她注意到了一些东西。",
+            "NR：生锈的，有点像生锈的颜色，大约是我手掌大小的。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS"
+        }
+    },
+    {
+        "idx": 10,
+        "src": "LN: And at first she thought it was just a splinter of wood,  because that's the sort of thing people had found  at the Fyles Leaf Bed before -- prehistoric plant parts.",
+        "ref": "她第一反应是，这只不过是木头碎片罢了， 因为这是人们在法尔斯叶床曾经发现过的东西—— 史前的植物体。",
+        "hyp": "LN: 起初，她以为那只是一小片木头，因为在费尔斯叶层之前人们发现的东西就是这种类型的东西——史前植物部分。",
+        "rel_src": [
+            "LN: And at some point, she noticed something.",
+            "NR: Rusty, kind of rust-colored,  about the size of the palm of my hand."
+        ],
+        "rel_tgt": [
+            "LN：在某个时候，她注意到了一些东西。",
+            "NR：生锈的，有点像生锈的颜色，大约是我手掌大小的。"
+        ],
+        "hist_info": "\"Fyles Leaf Bed\" - \"费尔斯叶层\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS"
+        }
+    },
+    {
+        "idx": 11,
+        "src": "But that night, back at camp ...",
+        "ref": "但是那天晚上，回到营地……",
+        "hyp": "但是那天晚上回到营地时...",
+        "rel_src": [
+            "NR: Really, it's not going to sound very exciting,  because it was a day of walking with your backpack and your GPS  and notebook and just picking up anything that might be a fossil.",
+            "LN: And at some point, she noticed something."
+        ],
+        "rel_tgt": [
+            "NR：实际上，这听起来并不会很令人兴奋，因为那天只是背着背包、GPS和笔记本走路，随便捡起可能是化石的东西。",
+            "LN：在某个时候，她注意到了一些东西。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS"
+        }
+    },
+    {
+        "idx": 12,
+        "src": "NR: ... I get out the hand lens,  I'm looking a little bit more closely and realizing  it doesn't quite look like this has tree rings.",
+        "ref": "NR: “……我拿出手持显微镜，” ’我观察得更仔细了，我突然发现，“ ‘这东西看上去好像没有年轮啊。”",
+        "hyp": "NR：...我拿出手镜，仔细看了一下，意识到它看起来并不像是有树木年轮。",
+        "rel_src": [
+            "NR: Rusty, kind of rust-colored,  about the size of the palm of my hand.",
+            "LN: And at first she thought it was just a splinter of wood,  because that's the sort of thing people had found  at the Fyles Leaf Bed before -- prehistoric plant parts."
+        ],
+        "rel_tgt": [
+            "NR：生锈的，有点像生锈的颜色，大约是我手掌大小的。",
+            "LN: 起初，她以为那只是一小片木头，因为在费尔斯叶层之前人们发现的东西就是这种类型的东西——史前植物部分。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR"
+        }
+    },
+    {
+        "idx": 13,
+        "src": "Maybe it's a preservation thing,  but it looks really like ...",
+        "ref": "\"有可能是因为保存的问题，\" \"但是它看起来真的好像……\"",
+        "hyp": "也许是保存的原因，但它看起来真的像是...",
+        "rel_src": [
+            "NR: Rusty, kind of rust-colored,  about the size of the palm of my hand.",
+            "NR: ... I get out the hand lens,  I'm looking a little bit more closely and realizing  it doesn't quite look like this has tree rings."
+        ],
+        "rel_tgt": [
+            "NR：生锈的，有点像生锈的颜色，大约是我手掌大小的。",
+            "NR：...我拿出手镜，仔细看了一下，意识到它看起来并不像是有树木年轮。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR"
+        }
+    },
+    {
+        "idx": 14,
+        "src": "bone.",
+        "ref": "\"骨头。\"",
+        "hyp": "骨头。",
+        "rel_src": [
+            "She's a paleobiologist,  which means she specializes in digging up really old dead stuff.",
+            "Natalia Rybczynski: Yeah, I had someone call me \"Dr. Dead Things.\""
+        ],
+        "rel_tgt": [
+            "她是一位古生物学家，意味着她专门挖掘非常古老的死亡物质。",
+            "娜塔莉娅·里布钦斯基：是的，有人称呼我为“死物博士”。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR"
+        }
+    },
+    {
+        "idx": 15,
+        "src": "LN: Huh. So over the next four years,  she went to that spot over and over,  and eventually collected 30 fragments of that exact same bone,  most of them really tiny.",
+        "ref": "于是在接下来的四年里， 她反反复复去到那个地点， 最终收集到了30片碎片， 都是来自同一块骨头， 其中很多碎片都非常微小。",
+        "hyp": "LN：哦。所以在接下来的四年里，她一次又一次地去那个地方，最终收集了30块完全相同的骨头碎片，其中大部分都非常小。",
+        "rel_src": [
+            "Now, one summer day in 2006,  she was at a dig site called the Fyles Leaf Bed,  which is less than 10 degrees latitude away from the magnetic north pole.",
+            "NR: Rusty, kind of rust-colored,  about the size of the palm of my hand."
+        ],
+        "rel_tgt": [
+            "现在，2006年的一个夏天，她在一个名为费尔斯叶层的挖掘现场，该地距磁北极不到10度纬度。",
+            "NR：生锈的，有点像生锈的颜色，大约是我手掌大小的。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR"
+        }
+    },
+    {
+        "idx": 16,
+        "src": "NR: It's not a whole lot. It fits in a small Ziploc bag.",
+        "ref": "\"其实并不算很多。 一个小拉链袋就装得下。\"",
+        "hyp": "NR：并不是很多。它可以放进一个小的拉链袋里。",
+        "rel_src": [
+            "NR: ... I get out the hand lens,  I'm looking a little bit more closely and realizing  it doesn't quite look like this has tree rings.",
+            "Maybe it's a preservation thing,  but it looks really like ..."
+        ],
+        "rel_tgt": [
+            "NR：...我拿出手镜，仔细看了一下，意识到它看起来并不像是有树木年轮。",
+            "也许是保存的原因，但它看起来真的像是..."
+        ],
+        "hist_info": "\"NR\" - \"NR\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR"
+        }
+    },
+    {
+        "idx": 17,
+        "src": "LN: And she tried to piece them together like a jigsaw puzzle.",
+        "ref": "然后她尝试像拼拼图一样把碎片都拼在一起。",
+        "hyp": "LN：她试图像拼图一样把它们拼凑在一起。",
+        "rel_src": [
+            "LN: Huh. So over the next four years,  she went to that spot over and over,  and eventually collected 30 fragments of that exact same bone,  most of them really tiny.",
+            "NR: It's not a whole lot. It fits in a small Ziploc bag."
+        ],
+        "rel_tgt": [
+            "LN：哦。所以在接下来的四年里，她一次又一次地去那个地方，最终收集了30块完全相同的骨头碎片，其中大部分都非常小。",
+            "NR：并不是很多。它可以放进一个小的拉链袋里。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR"
+        }
+    },
+    {
+        "idx": 18,
+        "src": "But it was challenging.",
+        "ref": "但是这非常的有挑战性。",
+        "hyp": "但这很具挑战性。",
+        "rel_src": [
+            "NR: ... I get out the hand lens,  I'm looking a little bit more closely and realizing  it doesn't quite look like this has tree rings.",
+            "LN: Huh. So over the next four years,  she went to that spot over and over,  and eventually collected 30 fragments of that exact same bone,  most of them really tiny."
+        ],
+        "rel_tgt": [
+            "NR：...我拿出手镜，仔细看了一下，意识到它看起来并不像是有树木年轮。",
+            "LN：哦。所以在接下来的四年里，她一次又一次地去那个地方，最终收集了30块完全相同的骨头碎片，其中大部分都非常小。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR"
+        }
+    },
+    {
+        "idx": 19,
+        "src": "NR: It's broken up into so many little tiny pieces,  I'm trying to use sand and putty, and it's not looking good.",
+        "ref": "\"它碎裂成 好多细小的碎片，\" \"我们尝试用沙土和油灰复原， 但是看上去很糟糕。\"",
+        "hyp": "NR：它被打碎成了许多小小的碎片，我试图使用沙子和填料，但效果不太好。",
+        "new_src_summary": "This paragraph is about a paleobiologist named Natalia Rybczynski who discovered a bone fragment in the remote Canadian tundra near the Arctic Circle. Initially mistaking it for wood, she later realized it was bone and collected 30 fragments over four years. She struggled to piece them together like a jigsaw puzzle. The tone is informative and the style is narrative, focusing on the process of discovery and analysis in paleobiology.",
+        "new_tgt_summary": "这个文段讲述了古生物学家娜塔莉娅·里布钦斯基在加拿大苔原圈挖掘化石的故事。在一个名为费尔斯叶层的挖掘现场，她发现了一些看起来像骨头的东西。经过四年的努力，她收集了30块骨头碎片，并尝试将它们拼凑在一起，但面临着挑战。",
+        "rel_src": [
+            "LN: Huh. So over the next four years,  she went to that spot over and over,  and eventually collected 30 fragments of that exact same bone,  most of them really tiny.",
+            "LN: And she tried to piece them together like a jigsaw puzzle."
+        ],
+        "rel_tgt": [
+            "LN：哦。所以在接下来的四年里，她一次又一次地去那个地方，最终收集了30块完全相同的骨头碎片，其中大部分都非常小。",
+            "LN：她试图像拼图一样把它们拼凑在一起。"
+        ],
+        "hist_info": "\"NR\" - \"NR\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR"
+        }
+    },
+    {
+        "idx": 20,
+        "src": "So finally, we used a 3D surface scanner.",
+        "ref": "\"最后，我们就用了一个三维表面扫描仪。\"",
+        "hyp": "所以最后，我们使用了3D表面扫描仪。",
+        "rel_src": [
+            "Now, one summer day in 2006,  she was at a dig site called the Fyles Leaf Bed,  which is less than 10 degrees latitude away from the magnetic north pole.",
+            "NR: Rusty, kind of rust-colored,  about the size of the palm of my hand."
+        ],
+        "rel_tgt": [
+            "现在，2006年的一个夏天，她在一个名为费尔斯叶层的挖掘现场，该地距磁北极不到10度纬度。",
+            "NR：生锈的，有点像生锈的颜色，大约是我手掌大小的。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR"
+        }
+    },
+    {
+        "idx": 21,
+        "src": "LN: Ooh! NR: Yeah, right?",
+        "ref": "喔喔！ \"很帅，对吧？\"",
+        "hyp": "LN：哦！NR：是的，对吧？",
+        "rel_src": [
+            "Now, one summer day in 2006,  she was at a dig site called the Fyles Leaf Bed,  which is less than 10 degrees latitude away from the magnetic north pole.",
+            "NR: Really, it's not going to sound very exciting,  because it was a day of walking with your backpack and your GPS  and notebook and just picking up anything that might be a fossil."
+        ],
+        "rel_tgt": [
+            "现在，2006年的一个夏天，她在一个名为费尔斯叶层的挖掘现场，该地距磁北极不到10度纬度。",
+            "NR：实际上，这听起来并不会很令人兴奋，因为那天只是背着背包、GPS和笔记本走路，随便捡起可能是化石的东西。"
+        ],
+        "hist_info": "\"NR\" - \"NR\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR"
+        }
+    },
+    {
+        "idx": 22,
+        "src": "LN: It turns out it was way easier to do it virtually.",
+        "ref": "最后发现， 用虚拟的方式复原要简单多了。",
+        "hyp": "LN：事实证明，用虚拟方式做这件事要容易得多。",
+        "rel_src": [
+            "So finally, we used a 3D surface scanner.",
+            "LN: Ooh! NR: Yeah, right?"
+        ],
+        "rel_tgt": [
+            "所以最后，我们使用了3D表面扫描仪。",
+            "LN：哦！NR：是的，对吧？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN"
+        }
+    },
+    {
+        "idx": 23,
+        "src": "NR: It's kind of magical when it all fits together.",
+        "ref": "\"当它们全部拼在一起时， 感觉真的好神奇。\"",
+        "hyp": "NR：当一切拼凑在一起时，这种感觉有点神奇。",
+        "rel_src": [
+            "NR: It's broken up into so many little tiny pieces,  I'm trying to use sand and putty, and it's not looking good.",
+            "So finally, we used a 3D surface scanner."
+        ],
+        "rel_tgt": [
+            "NR：它被打碎成了许多小小的碎片，我试图使用沙子和填料，但效果不太好。",
+            "所以最后，我们使用了3D表面扫描仪。"
+        ],
+        "hist_info": "\"NR\" - \"NR\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN"
+        }
+    },
+    {
+        "idx": 24,
+        "src": "LN: How certain were you that you had it right,  that you had put it together in the right way?",
+        "ref": "你有多大把握把它拼对了， 就是拼成它原本的样子？",
+        "hyp": "LN：你有多确定你是对的，你是正确地将它拼凑在一起的？",
+        "rel_src": [
+            "NR: It's broken up into so many little tiny pieces,  I'm trying to use sand and putty, and it's not looking good.",
+            "NR: It's kind of magical when it all fits together."
+        ],
+        "rel_tgt": [
+            "NR：它被打碎成了许多小小的碎片，我试图使用沙子和填料，但效果不太好。",
+            "NR：当一切拼凑在一起时，这种感觉有点神奇。"
+        ],
+        "hist_info": "\"LN\" - \"LN\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN"
+        }
+    },
+    {
+        "idx": 25,
+        "src": "Was there a potential that you'd put it together a different way  and have, like, a parakeet or something?",
+        "ref": "有没有可能你按照另一种方式去拼， 最后拼出来……一个小鹦鹉什么的？",
+        "hyp": "你有没有可能以不同的方式将它拼凑在一起，然后像一只鹦鹉或其他什么东西一样？",
+        "rel_src": [
+            "But that night, back at camp ...",
+            "LN: How certain were you that you had it right,  that you had put it together in the right way?"
+        ],
+        "rel_tgt": [
+            "但是那天晚上回到营地时...",
+            "LN：你有多确定你是对的，你是正确地将它拼凑在一起的？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN"
+        }
+    },
+    {
+        "idx": 26,
+        "src": "NR:  Um, no. No, we got this.",
+        "ref": "\"呃，不会啦。我们肯定拼对了。\"",
+        "hyp": "NR：嗯，不。不，我们搞定了。",
+        "rel_src": [
+            "Maybe it's a preservation thing,  but it looks really like ...",
+            "bone."
+        ],
+        "rel_tgt": [
+            "也许是保存的原因，但它看起来真的像是...",
+            "骨头。"
+        ],
+        "hist_info": "\"NR\" - \"NR\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN"
+        }
+    },
+    {
+        "idx": 27,
+        "src": "LN: What she had, she discovered, was a tibia, a leg bone,  and specifically, one that belonged to a cloven-hoofed mammal,  so something like a cow or a sheep.",
+        "ref": "她发现她拼出来的，是一根胫骨，也就是小腿骨， 而且这根胫骨来自一种偶蹄目的哺乳动物， 例如说牛、羊之类的。",
+        "hyp": "LN：她发现的是一根胫骨，一根腿骨，具体来说，是属于有蹄哺乳动物的，类似于牛或羊之类的动物。",
+        "rel_src": [
+            "bone.",
+            "LN: Huh. So over the next four years,  she went to that spot over and over,  and eventually collected 30 fragments of that exact same bone,  most of them really tiny."
+        ],
+        "rel_tgt": [
+            "骨头。",
+            "LN：哦。所以在接下来的四年里，她一次又一次地去那个地方，最终收集了30块完全相同的骨头碎片，其中大部分都非常小。"
+        ],
+        "hist_info": "\"LN\" - \"LN\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN"
+        }
+    },
+    {
+        "idx": 28,
+        "src": "But it couldn't have been either of those.",
+        "ref": "但是这绝对不可能是牛或羊。",
+        "hyp": "但它不可能是那两种动物中的任何一种。",
+        "rel_src": [
+            "Was there a potential that you'd put it together a different way  and have, like, a parakeet or something?",
+            "LN: What she had, she discovered, was a tibia, a leg bone,  and specifically, one that belonged to a cloven-hoofed mammal,  so something like a cow or a sheep."
+        ],
+        "rel_tgt": [
+            "你有没有可能以不同的方式将它拼凑在一起，然后像一只鹦鹉或其他什么东西一样？",
+            "LN：她发现的是一根胫骨，一根腿骨，具体来说，是属于有蹄哺乳动物的，类似于牛或羊之类的动物。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN"
+        }
+    },
+    {
+        "idx": 29,
+        "src": "It was just too big.",
+        "ref": "它实在是太大了。",
+        "hyp": "它只是太大了。",
+        "rel_src": [
+            "bone.",
+            "But it couldn't have been either of those."
+        ],
+        "rel_tgt": [
+            "骨头。",
+            "但它不可能是那两种动物中的任何一种。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN"
+        }
+    },
+    {
+        "idx": 30,
+        "src": "NR: The size of this thing, it was huge. It's a really big animal.",
+        "ref": "“这东西的尺寸真的太大了。 这是个庞大的动物。“",
+        "hyp": "NR：这个东西的尺寸，太大了。这是一只非常大的动物。",
+        "rel_src": [
+            "LN: What she had, she discovered, was a tibia, a leg bone,  and specifically, one that belonged to a cloven-hoofed mammal,  so something like a cow or a sheep.",
+            "It was just too big."
+        ],
+        "rel_tgt": [
+            "LN：她发现的是一根胫骨，一根腿骨，具体来说，是属于有蹄哺乳动物的，类似于牛或羊之类的动物。",
+            "它只是太大了。"
+        ],
+        "hist_info": "\"NR\" - \"NR\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN"
+        }
+    },
+    {
+        "idx": 31,
+        "src": "LN: So what animal could it be?",
+        "ref": "所以它会是什么动物呢？",
+        "hyp": "LN：那么这到底是什么动物呢？",
+        "rel_src": [
+            "LN: What she had, she discovered, was a tibia, a leg bone,  and specifically, one that belonged to a cloven-hoofed mammal,  so something like a cow or a sheep.",
+            "It was just too big."
+        ],
+        "rel_tgt": [
+            "LN：她发现的是一根胫骨，一根腿骨，具体来说，是属于有蹄哺乳动物的，类似于牛或羊之类的动物。",
+            "它只是太大了。"
+        ],
+        "hist_info": "\"LN\" - \"LN\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN"
+        }
+    },
+    {
+        "idx": 32,
+        "src": "Having hit a wall, she showed one of the fragments  to some colleagues of hers in Colorado,  and they had an idea.",
+        "ref": "现在遇到了瓶颈，于是她把其中一片碎片 展示给她在科罗拉多州的一些同事， 然后他们有了想法。",
+        "hyp": "在遇到困难后，她把其中一块碎片展示给了她在科罗拉多的一些同事，他们想到了一个主意。",
+        "rel_src": [
+            "LN: Huh. So over the next four years,  she went to that spot over and over,  and eventually collected 30 fragments of that exact same bone,  most of them really tiny.",
+            "LN: What she had, she discovered, was a tibia, a leg bone,  and specifically, one that belonged to a cloven-hoofed mammal,  so something like a cow or a sheep."
+        ],
+        "rel_tgt": [
+            "LN：哦。所以在接下来的四年里，她一次又一次地去那个地方，最终收集了30块完全相同的骨头碎片，其中大部分都非常小。",
+            "LN：她发现的是一根胫骨，一根腿骨，具体来说，是属于有蹄哺乳动物的，类似于牛或羊之类的动物。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多"
+        }
+    },
+    {
+        "idx": 33,
+        "src": "NR: We took a saw, and we nicked just the edge of it,  and there was this really interesting smell that comes from it.",
+        "ref": "“我们用了把小锯子， 然后在碎片边角刮了一点点，“ ”然后从那里传出了一些非常神奇的气味。“",
+        "hyp": "NR：我们用了一把锯，只是在边缘切了一下，然后就有一种非常有趣的气味从中散发出来。",
+        "rel_src": [
+            "NR: It's not a whole lot. It fits in a small Ziploc bag.",
+            "LN: And she tried to piece them together like a jigsaw puzzle."
+        ],
+        "rel_tgt": [
+            "NR：并不是很多。它可以放进一个小的拉链袋里。",
+            "LN：她试图像拼图一样把它们拼凑在一起。"
+        ],
+        "hist_info": "\"NR\" - \"NR\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多"
+        }
+    },
+    {
+        "idx": 34,
+        "src": "LN: It smelled kind of like singed flesh.",
+        "ref": "它闻起来有点像烧焦的皮肤。",
+        "hyp": "LN：它闻起来有点像烧焦的肉。",
+        "rel_src": [
+            "Having hit a wall, she showed one of the fragments  to some colleagues of hers in Colorado,  and they had an idea.",
+            "NR: We took a saw, and we nicked just the edge of it,  and there was this really interesting smell that comes from it."
+        ],
+        "rel_tgt": [
+            "在遇到困难后，她把其中一块碎片展示给了她在科罗拉多的一些同事，他们想到了一个主意。",
+            "NR：我们用了一把锯，只是在边缘切了一下，然后就有一种非常有趣的气味从中散发出来。"
+        ],
+        "hist_info": "\"LN\" - \"LN\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多"
+        }
+    },
+    {
+        "idx": 35,
+        "src": "It was a smell that Natalia recognized  from cutting up skulls in her gross anatomy lab:  collagen.",
+        "ref": "这是一个娜塔莉娅认识的气味， 她在大体解剖实验室切割头骨时闻过， 那就是胶原蛋白。",
+        "hyp": "这是娜塔莉娅在她的解剖实验室切割头骨时认出的气味：胶原蛋白。",
+        "rel_src": [
+            "NR: We took a saw, and we nicked just the edge of it,  and there was this really interesting smell that comes from it.",
+            "LN: It smelled kind of like singed flesh."
+        ],
+        "rel_tgt": [
+            "NR：我们用了一把锯，只是在边缘切了一下，然后就有一种非常有趣的气味从中散发出来。",
+            "LN：它闻起来有点像烧焦的肉。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅"
+        }
+    },
+    {
+        "idx": 36,
+        "src": "Collagen is what gives structure to our bones.",
+        "ref": "胶原蛋白让我们的骨头具有硬度。",
+        "hyp": "胶原蛋白赋予我们的骨骼结构。",
+        "rel_src": [
+            "LN: What she had, she discovered, was a tibia, a leg bone,  and specifically, one that belonged to a cloven-hoofed mammal,  so something like a cow or a sheep.",
+            "It was a smell that Natalia recognized  from cutting up skulls in her gross anatomy lab:  collagen."
+        ],
+        "rel_tgt": [
+            "LN：她发现的是一根胫骨，一根腿骨，具体来说，是属于有蹄哺乳动物的，类似于牛或羊之类的动物。",
+            "这是娜塔莉娅在她的解剖实验室切割头骨时认出的气味：胶原蛋白。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅"
+        }
+    },
+    {
+        "idx": 37,
+        "src": "And usually, after so many years,  it breaks down.",
+        "ref": "一般来说，经过了那么多年， 它会自然分解。",
+        "hyp": "通常，在这么多年之后，它就会瓦解。",
+        "rel_src": [
+            "NR: It's broken up into so many little tiny pieces,  I'm trying to use sand and putty, and it's not looking good.",
+            "NR:  Um, no. No, we got this."
+        ],
+        "rel_tgt": [
+            "NR：它被打碎成了许多小小的碎片，我试图使用沙子和填料，但效果不太好。",
+            "NR：嗯，不。不，我们搞定了。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅"
+        }
+    },
+    {
+        "idx": 38,
+        "src": "But in this case, the Arctic had acted like a natural freezer and preserved it.",
+        "ref": "然而对这个情况， 北极好像一个天然冰柜将其保存。",
+        "hyp": "但在这种情况下，北极就像一个天然冷冻器，将其保存了下来。",
+        "rel_src": [
+            "Having hit a wall, she showed one of the fragments  to some colleagues of hers in Colorado,  and they had an idea.",
+            "Collagen is what gives structure to our bones."
+        ],
+        "rel_tgt": [
+            "在遇到困难后，她把其中一块碎片展示给了她在科罗拉多的一些同事，他们想到了一个主意。",
+            "胶原蛋白赋予我们的骨骼结构。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅"
+        }
+    },
+    {
+        "idx": 39,
+        "src": "Then a year or two later, Natalia was at a conference in Bristol,  and she saw that a colleague of hers named Mike Buckley  was demoing this new process that he called \"collagen fingerprinting.\"",
+        "ref": "过了一两年时间， 娜塔莉娅去布里斯托参加一个大会， 她看到她的一个同事， 名叫麦克·巴克利， 在演示一种新技术， 他称之为“胶原蛋白指纹技术”。",
+        "hyp": "然后一两年后，娜塔莉娅在布里斯托尔的一个会议上看到，她的同事迈克·巴克利正在演示他所称之为“胶原蛋白指纹技术”的新过程。",
+        "new_src_summary": "Paleobiologist Natalia Rybczynski discovered a bone fragment in the remote Canadian tundra near the Arctic Circle, initially mistaking it for wood. Over four years, she collected 30 fragments and struggled to piece them together like a jigsaw puzzle. Using a 3D surface scanner, she virtually reconstructed the bone, which belonged to a cloven-hoofed mammal too large to be a cow or sheep. The unique smell from the bone led to the identification of preserved collagen, thanks to the Arctic acting as a natural freezer. The tone is informative and the style is narrative, focusing on the process of discovery and analysis in paleobiology.",
+        "new_tgt_summary": "古生物学家娜塔莉娅·里布钦斯基在加拿大苔原圈挖掘化石时，在费尔斯叶层发现了一些看起来像骨头的东西，经过四年努力收集了30块骨头碎片。通过使用3D表面扫描仪重建这些骨骼，她确认了这是一只非常大的有蹄哺乳动物的骨骼，含有胶原蛋白使其能够保存在北极的天然冷冻器中。",
+        "rel_src": [
+            "It was a smell that Natalia recognized  from cutting up skulls in her gross anatomy lab:  collagen.",
+            "Collagen is what gives structure to our bones."
+        ],
+        "rel_tgt": [
+            "这是娜塔莉娅在她的解剖实验室切割头骨时认出的气味：胶原蛋白。",
+            "胶原蛋白赋予我们的骨骼结构。"
+        ],
+        "hist_info": "\"Natalia\" - \"娜塔莉娅\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利"
+        }
+    },
+    {
+        "idx": 40,
+        "src": "It turns out that different species have slightly different structures of collagen,  so if you get a collagen profile of an unknown bone,  you can compare it to those of known species,  and, who knows, maybe you get a match.",
+        "ref": "事实上，不同物种的胶原蛋白， 其结构有微小的差异， 所以如果你有 一个未知骨头的胶原蛋白信息， 你可以跟已知物种的 胶原蛋白信息进行比对， 所以谁知道呢， 也许你就找到了匹配的的信息。",
+        "hyp": "原来，不同物种的胶原蛋白结构略有不同，因此，如果你得到一个未知骨骼的胶原蛋白谱，你可以将其与已知物种的对比，也许你会找到匹配的结果。",
+        "rel_src": [
+            "And usually, after so many years,  it breaks down.",
+            "Then a year or two later, Natalia was at a conference in Bristol,  and she saw that a colleague of hers named Mike Buckley  was demoing this new process that he called \"collagen fingerprinting.\""
+        ],
+        "rel_tgt": [
+            "通常，在这么多年之后，它就会瓦解。",
+            "然后一两年后，娜塔莉娅在布里斯托尔的一个会议上看到，她的同事迈克·巴克利正在演示他所称之为“胶原蛋白指纹技术”的新过程。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利"
+        }
+    },
+    {
+        "idx": 41,
+        "src": "So she shipped him one of the fragments,  FedEx.",
+        "ref": "所以她给麦克寄了一片碎片， 用联邦快递。",
+        "hyp": "于是她通过联邦快递给他寄送了其中一块碎片。",
+        "rel_src": [
+            "Having hit a wall, she showed one of the fragments  to some colleagues of hers in Colorado,  and they had an idea.",
+            "NR: We took a saw, and we nicked just the edge of it,  and there was this really interesting smell that comes from it."
+        ],
+        "rel_tgt": [
+            "在遇到困难后，她把其中一块碎片展示给了她在科罗拉多的一些同事，他们想到了一个主意。",
+            "NR：我们用了一把锯，只是在边缘切了一下，然后就有一种非常有趣的气味从中散发出来。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递"
+        }
+    },
+    {
+        "idx": 42,
+        "src": "NR: Yeah, you want to track it. It's kind of important.",
+        "ref": "“当然啊， 你要紧盯配送进度。它很重要的啊。”",
+        "hyp": "NR：是的，你想要追踪它。这有点重要。",
+        "rel_src": [
+            "NR: It's kind of magical when it all fits together.",
+            "NR: The size of this thing, it was huge. It's a really big animal."
+        ],
+        "rel_tgt": [
+            "NR：当一切拼凑在一起时，这种感觉有点神奇。",
+            "NR：这个东西的尺寸，太大了。这是一只非常大的动物。"
+        ],
+        "hist_info": "\"NR\" - \"NR\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递"
+        }
+    },
+    {
+        "idx": 43,
+        "src": "LN: And he processed it,  and compared it to 37 known and modern-day mammal species.",
+        "ref": "然后他处理了样本， 把它与37个当代已知的 哺乳动物物种相比较。",
+        "hyp": "LN：他对其进行处理，并将其与37种已知的现代哺乳动物物种进行比较。",
+        "rel_src": [
+            "It turns out that different species have slightly different structures of collagen,  so if you get a collagen profile of an unknown bone,  you can compare it to those of known species,  and, who knows, maybe you get a match.",
+            "NR: Yeah, you want to track it. It's kind of important."
+        ],
+        "rel_tgt": [
+            "原来，不同物种的胶原蛋白结构略有不同，因此，如果你得到一个未知骨骼的胶原蛋白谱，你可以将其与已知物种的对比，也许你会找到匹配的结果。",
+            "NR：是的，你想要追踪它。这有点重要。"
+        ],
+        "hist_info": "\"LN\" - \"LN\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递"
+        }
+    },
+    {
+        "idx": 44,
+        "src": "And he found a match.",
+        "ref": "结果找到了一个配对！",
+        "hyp": "他找到了匹配的物种。",
+        "rel_src": [
+            "So she shipped him one of the fragments,  FedEx.",
+            "LN: And he processed it,  and compared it to 37 known and modern-day mammal species."
+        ],
+        "rel_tgt": [
+            "于是她通过联邦快递给他寄送了其中一块碎片。",
+            "LN：他对其进行处理，并将其与37种已知的现代哺乳动物物种进行比较。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递"
+        }
+    },
+    {
+        "idx": 45,
+        "src": "that Natalia had dug out of the High Arctic  belonged to ...",
+        "ref": "最后的结论是，娜塔莉娅 在高纬北极圈发现的 这块具有350万年历史的骨头， 是来自……",
+        "hyp": "娜塔莉娅在高北极挖掘出来的...",
+        "rel_src": [
+            "But in this case, the Arctic had acted like a natural freezer and preserved it.",
+            "And he found a match."
+        ],
+        "rel_tgt": [
+            "但在这种情况下，北极就像一个天然冷冻器，将其保存了下来。",
+            "他找到了匹配的物种。"
+        ],
+        "hist_info": "\"Natalia\" - \"娜塔莉娅\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极"
+        }
+    },
+    {
+        "idx": 46,
+        "src": "a camel.",
+        "ref": "一匹骆驼。",
+        "hyp": "骆驼。",
+        "rel_src": [
+            "LN: What she had, she discovered, was a tibia, a leg bone,  and specifically, one that belonged to a cloven-hoofed mammal,  so something like a cow or a sheep.",
+            "It turns out that different species have slightly different structures of collagen,  so if you get a collagen profile of an unknown bone,  you can compare it to those of known species,  and, who knows, maybe you get a match."
+        ],
+        "rel_tgt": [
+            "LN：她发现的是一根胫骨，一根腿骨，具体来说，是属于有蹄哺乳动物的，类似于牛或羊之类的动物。",
+            "原来，不同物种的胶原蛋白结构略有不同，因此，如果你得到一个未知骨骼的胶原蛋白谱，你可以将其与已知物种的对比，也许你会找到匹配的结果。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极"
+        }
+    },
+    {
+        "idx": 47,
+        "src": "NR: And I'm thinking, what? That's amazing -- if it's true.",
+        "ref": "”我就在想了， 开什么玩笑啊？“ “如果我们没搞错，这真是太神奇了。”",
+        "hyp": "NR：我当时在想，什么？如果这是真的，那太神奇了。",
+        "rel_src": [
+            "NR: The size of this thing, it was huge. It's a really big animal.",
+            "And he found a match."
+        ],
+        "rel_tgt": [
+            "NR：这个东西的尺寸，太大了。这是一只非常大的动物。",
+            "他找到了匹配的物种。"
+        ],
+        "hist_info": "\"NR\" - \"NR\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极"
+        },
+        "conflict": [
+            "\"NR\" - \"NR\"/\"N/A\""
+        ]
+    },
+    {
+        "idx": 48,
+        "src": "LN: So they tested a bunch of the fragments,  and they got the same result for each one.",
+        "ref": "所以他们测试了一大堆碎片， 对每个碎片都得到了相同的结果。",
+        "hyp": "LN：所以他们测试了一堆碎片，每一个都得到了相同的结果。",
+        "rel_src": [
+            "LN: And he processed it,  and compared it to 37 known and modern-day mammal species.",
+            "And he found a match."
+        ],
+        "rel_tgt": [
+            "LN：他对其进行处理，并将其与37种已知的现代哺乳动物物种进行比较。",
+            "他找到了匹配的物种。"
+        ],
+        "hist_info": "\"LN\" - \"LN\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极"
+        }
+    },
+    {
+        "idx": 49,
+        "src": "However, based on the size of the bone that they found,  it meant that this camel was 30 percent larger than modern-day camels.",
+        "ref": "然而，根据他们发现的 那块骨头的大小来判断， 这意味着这匹骆驼比现代骆驼大了30%。",
+        "hyp": "然而，根据他们发现的骨头尺寸，这意味着这只骆驼比现代骆驼大30％。",
+        "rel_src": [
+            "NR: The size of this thing, it was huge. It's a really big animal.",
+            "a camel."
+        ],
+        "rel_tgt": [
+            "NR：这个东西的尺寸，太大了。这是一只非常大的动物。",
+            "骆驼。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极"
+        }
+    },
+    {
+        "idx": 50,
+        "src": "So this camel would have been about nine feet tall,  weighed around a ton.",
+        "ref": "那么这匹骆驼大概2.7米那么高， 而且重达一吨。",
+        "hyp": "这只骆驼大约有九英尺高，重约一吨。",
+        "rel_src": [
+            "a camel.",
+            "However, based on the size of the bone that they found,  it meant that this camel was 30 percent larger than modern-day camels."
+        ],
+        "rel_tgt": [
+            "骆驼。",
+            "然而，根据他们发现的骨头尺寸，这意味着这只骆驼比现代骆驼大30％。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极"
+        }
+    },
+    {
+        "idx": 51,
+        "src": "Yeah.",
+        "ref": "（惊呼） 对啊。",
+        "hyp": "是的。",
+        "rel_src": [
+            "NR: And I'm thinking, what? That's amazing -- if it's true.",
+            "LN: So they tested a bunch of the fragments,  and they got the same result for each one."
+        ],
+        "rel_tgt": [
+            "NR：我当时在想，什么？如果这是真的，那太神奇了。",
+            "LN：所以他们测试了一堆碎片，每一个都得到了相同的结果。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极"
+        }
+    },
+    {
+        "idx": 52,
+        "src": "Natalia had found a Giant Arctic camel.",
+        "ref": "娜塔莉娅发现了一匹“北极巨驼”。",
+        "hyp": "娜塔莉娅发现了一只巨型北极骆驼。",
+        "rel_src": [
+            "LN: So they tested a bunch of the fragments,  and they got the same result for each one.",
+            "However, based on the size of the bone that they found,  it meant that this camel was 30 percent larger than modern-day camels."
+        ],
+        "rel_tgt": [
+            "LN：所以他们测试了一堆碎片，每一个都得到了相同的结果。",
+            "然而，根据他们发现的骨头尺寸，这意味着这只骆驼比现代骆驼大30％。"
+        ],
+        "hist_info": "\"Natalia\" - \"娜塔莉娅\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极"
+        }
+    },
+    {
+        "idx": 53,
+        "src": "Now, when you hear the word \"camel,\"  what may come to mind is one of these,  the Bactrian camel of East and Central Asia.",
+        "ref": "现在你听到“骆驼”一词， 脑海里浮现的是这样的画面： 东亚和中亚地区的双峰驼。",
+        "hyp": "现在，当你听到“骆驼”这个词时，脑海中可能会浮现出其中一种，即东亚和中亚的双峰骆驼。",
+        "rel_src": [
+            "that Natalia had dug out of the High Arctic  belonged to ...",
+            "a camel."
+        ],
+        "rel_tgt": [
+            "娜塔莉娅在高北极挖掘出来的...",
+            "骆驼。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极"
+        }
+    },
+    {
+        "idx": 54,
+        "src": "But chances are the postcard image you have in your brain  is one of these, the dromedary,  quintessential desert creature --  hangs out in sandy, hot places like the Middle East and the Sahara,  has a big old hump on its back  for storing water for those long desert treks,  has big, broad feet to help it tromp over sand dunes.",
+        "ref": "但更有可能的是，你脑海里的图像 画风更像这样：单峰骆驼， 典型的沙漠动物， 常常出没在炎热沙漠地带， 例如说中东或撒哈拉地区， 背上有一个超大的驼峰， 让它为沙漠中的长途跋涉储存水分， 还有宽大的脚掌，帮助他们踏过沙丘。",
+        "hyp": "但你脑海中可能想到的明信片图像是这种，单峰骆驼，作为典型的沙漠生物 - 喜欢待在沙漠、炎热的地方，如中东和撒哈拉，背上有一个大大的驼峰，用来储存水以供漫长的沙漠跋涉，有宽大的脚掌，帮助它跨越沙丘。",
+        "rel_src": [
+            "It was a smell that Natalia recognized  from cutting up skulls in her gross anatomy lab:  collagen.",
+            "Now, when you hear the word \"camel,\"  what may come to mind is one of these,  the Bactrian camel of East and Central Asia."
+        ],
+        "rel_tgt": [
+            "这是娜塔莉娅在她的解剖实验室切割头骨时认出的气味：胶原蛋白。",
+            "现在，当你听到“骆驼”这个词时，脑海中可能会浮现出其中一种，即东亚和中亚的双峰骆驼。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极"
+        }
+    },
+    {
+        "idx": 55,
+        "src": "So how on earth would one of these guys end up in the High Arctic?",
+        "ref": "所以这些家伙们到底是怎么 跑到高纬北极圈去的呢？",
+        "hyp": "那么，这些家伙中的一个怎么会出现在高北极呢？",
+        "rel_src": [
+            "Natalia had found a Giant Arctic camel.",
+            "Now, when you hear the word \"camel,\"  what may come to mind is one of these,  the Bactrian camel of East and Central Asia."
+        ],
+        "rel_tgt": [
+            "娜塔莉娅发现了一只巨型北极骆驼。",
+            "现在，当你听到“骆驼”这个词时，脑海中可能会浮现出其中一种，即东亚和中亚的双峰骆驼。"
+        ],
+        "hist_info": "\"High Arctic\" - \"高北极\", \"Arctic\" - \"北极\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极"
+        }
+    },
+    {
+        "idx": 56,
+        "src": "Well, scientists have known for a long time, turns out,  even before Natalia's discovery,  that camels are actually originally American.",
+        "ref": "其实科学家早就知道了， 在娜塔莉娅的发现之前就知道， 骆驼最早是从美洲发源的。",
+        "hyp": "科学家们很久以前就知道，事实证明，甚至在娜塔莉娅的发现之前，骆驼实际上起源于美洲。",
+        "rel_src": [
+            "that Natalia had dug out of the High Arctic  belonged to ...",
+            "Natalia had found a Giant Arctic camel."
+        ],
+        "rel_tgt": [
+            "娜塔莉娅在高北极挖掘出来的...",
+            "娜塔莉娅发现了一只巨型北极骆驼。"
+        ],
+        "hist_info": "\"Natalia\" - \"娜塔莉娅\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲"
+        }
+    },
+    {
+        "idx": 57,
+        "src": "They started here.",
+        "ref": "（音乐：美国国歌《星条旗之歌》）  他们发源于这里。",
+        "hyp": "它们起源于这里。",
+        "rel_src": [
+            "But chances are the postcard image you have in your brain  is one of these, the dromedary,  quintessential desert creature --  hangs out in sandy, hot places like the Middle East and the Sahara,  has a big old hump on its back  for storing water for those long desert treks,  has big, broad feet to help it tromp over sand dunes.",
+            "Well, scientists have known for a long time, turns out,  even before Natalia's discovery,  that camels are actually originally American."
+        ],
+        "rel_tgt": [
+            "但你脑海中可能想到的明信片图像是这种，单峰骆驼，作为典型的沙漠生物 - 喜欢待在沙漠、炎热的地方，如中东和撒哈拉，背上有一个大大的驼峰，用来储存水以供漫长的沙漠跋涉，有宽大的脚掌，帮助它跨越沙丘。",
+            "科学家们很久以前就知道，事实证明，甚至在娜塔莉娅的发现之前，骆驼实际上起源于美洲。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲"
+        }
+    },
+    {
+        "idx": 58,
+        "src": "For nearly 40 of the 45 million years that camels have been around,  you could only find them in North America,  around 20 different species, maybe more.",
+        "ref": "骆驼们所存在的4500万年里，有4000万年的时间 你只可能在北美洲找到它们， 总共有20种不同的物种，或许比这更多。",
+        "hyp": "在骆驼存在的大约4500万年中的近40年，你只能在北美找到它们，大约有20种不同的物种，也许还有更多。",
+        "rel_src": [
+            "Well, scientists have known for a long time, turns out,  even before Natalia's discovery,  that camels are actually originally American.",
+            "They started here."
+        ],
+        "rel_tgt": [
+            "科学家们很久以前就知道，事实证明，甚至在娜塔莉娅的发现之前，骆驼实际上起源于美洲。",
+            "它们起源于这里。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美"
+        }
+    },
+    {
+        "idx": 59,
+        "src": "LN: If I put them all in a lineup, would they look different?",
+        "ref": "“如果我们把它们排成一列， 它们看上去会有不同吗？”",
+        "hyp": "LN：如果我把它们都排成一排，它们会看起来不同吗？",
+        "new_src_summary": "Paleobiologist Natalia Rybczynski discovered a bone fragment in the remote Canadian tundra near the Arctic Circle, initially mistaking it for wood. Over four years, she collected 30 fragments and struggled to piece them together like a jigsaw puzzle. Using a 3D surface scanner, she virtually reconstructed the bone, which belonged to a cloven-hoofed mammal too large to be a cow or sheep. The unique smell from the bone led to the identification of preserved collagen, thanks to the Arctic acting as a natural freezer. Through collagen fingerprinting, Natalia identified the bone as belonging to a Giant Arctic camel, which was 30 percent larger than modern-day camels, standing at nine feet tall and weighing around a ton. This unexpected discovery sheds light on the history of camels, originally from America, and their migration to other parts of the world. The tone is informative and scientific, focusing on the process of discovery and analysis in paleobiology and the unexpected finding of a camel in an unusual location.",
+        "new_tgt_summary": "古生物学家娜塔莉娅·里布钦斯基在加拿大苔原圈挖掘化石时，在费尔斯叶层发现了一些看起来像骨头的东西，经过四年努力收集了30块骨头碎片。通过使用3D表面扫描仪重建这些骨骼，她确认了这是一只非常大的有蹄哺乳动物的骨骼，含有胶原蛋白使其能够保存在北极的天然冷冻器中。在布里斯托尔的一个会议上，娜塔莉娅看到同事迈克·巴克利展示了一项名为“胶原蛋白指纹技术”的新过程，该技术可以通过比较胶原蛋白谱来识别未知骨骼的物种。娜塔莉娅通过联邦快递给他寄送了一块碎片，结果发现是一只比现代骆驼大30％的巨型北极骆驼。这种发现令人惊讶，因为骆驼实际上起源于美洲，在北美存在了大约4500万年。",
+        "rel_src": [
+            "LN: And he processed it,  and compared it to 37 known and modern-day mammal species.",
+            "But chances are the postcard image you have in your brain  is one of these, the dromedary,  quintessential desert creature --  hangs out in sandy, hot places like the Middle East and the Sahara,  has a big old hump on its back  for storing water for those long desert treks,  has big, broad feet to help it tromp over sand dunes."
+        ],
+        "rel_tgt": [
+            "LN：他对其进行处理，并将其与37种已知的现代哺乳动物物种进行比较。",
+            "但你脑海中可能想到的明信片图像是这种，单峰骆驼，作为典型的沙漠生物 - 喜欢待在沙漠、炎热的地方，如中东和撒哈拉，背上有一个大大的驼峰，用来储存水以供漫长的沙漠跋涉，有宽大的脚掌，帮助它跨越沙丘。"
+        ],
+        "hist_info": "\"LN\" - \"LN\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美"
+        }
+    },
+    {
+        "idx": 60,
+        "src": "NR: Yeah, you're going to have different body sizes.",
+        "ref": "“会啊，他们的身体大小差异很大。”",
+        "hyp": "NR：是的，你会看到不同的体型大小。",
+        "rel_src": [
+            "However, based on the size of the bone that they found,  it meant that this camel was 30 percent larger than modern-day camels.",
+            "So this camel would have been about nine feet tall,  weighed around a ton."
+        ],
+        "rel_tgt": [
+            "然而，根据他们发现的骨头尺寸，这意味着这只骆驼比现代骆驼大30％。",
+            "这只骆驼大约有九英尺高，重约一吨。"
+        ],
+        "hist_info": "\"NR\" - \"NR\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美"
+        }
+    },
+    {
+        "idx": 61,
+        "src": "You'll have some with really long necks,  so they're actually functionally like giraffes.",
+        "ref": "”有一些的脖子特别长，“ ”所以它们功能上很像长颈鹿。“",
+        "hyp": "你会看到一些拥有非常长脖子的，实际上在功能上就像长颈鹿一样。",
+        "rel_src": [
+            "LN: And he processed it,  and compared it to 37 known and modern-day mammal species.",
+            "For nearly 40 of the 45 million years that camels have been around,  you could only find them in North America,  around 20 different species, maybe more."
+        ],
+        "rel_tgt": [
+            "LN：他对其进行处理，并将其与37种已知的现代哺乳动物物种进行比较。",
+            "在骆驼存在的大约4500万年中的近40年，你只能在北美找到它们，大约有20种不同的物种，也许还有更多。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美"
+        }
+    },
+    {
+        "idx": 62,
+        "src": "LN: Some had snouts, like crocodiles.",
+        "ref": "有些还有长鼻子，像鳄鱼一样。",
+        "hyp": "LN：有些像鳄鱼一样有长吻。",
+        "rel_src": [
+            "LN: And he processed it,  and compared it to 37 known and modern-day mammal species.",
+            "And he found a match."
+        ],
+        "rel_tgt": [
+            "LN：他对其进行处理，并将其与37种已知的现代哺乳动物物种进行比较。",
+            "他找到了匹配的物种。"
+        ],
+        "hist_info": "\"LN\" - \"LN\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美"
+        }
+    },
+    {
+        "idx": 63,
+        "src": "NR: The really primitive, early ones would have been really small,  almost like rabbits.",
+        "ref": "“它们特别原始， 最早的一些可能非常小，” ”几乎像一只小兔子了。“",
+        "hyp": "NR：那些非常原始的早期物种可能会非常小，几乎像兔子一样。",
+        "rel_src": [
+            "For nearly 40 of the 45 million years that camels have been around,  you could only find them in North America,  around 20 different species, maybe more.",
+            "You'll have some with really long necks,  so they're actually functionally like giraffes."
+        ],
+        "rel_tgt": [
+            "在骆驼存在的大约4500万年中的近40年，你只能在北美找到它们，大约有20种不同的物种，也许还有更多。",
+            "你会看到一些拥有非常长脖子的，实际上在功能上就像长颈鹿一样。"
+        ],
+        "hist_info": "\"NR\" - \"NR\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美"
+        }
+    },
+    {
+        "idx": 64,
+        "src": "LN: What? Rabbit-sized camels?",
+        "ref": "什么？兔子大小的骆驼？",
+        "hyp": "LN：什么？像兔子那么小的骆驼？",
+        "rel_src": [
+            "For nearly 40 of the 45 million years that camels have been around,  you could only find them in North America,  around 20 different species, maybe more.",
+            "NR: The really primitive, early ones would have been really small,  almost like rabbits."
+        ],
+        "rel_tgt": [
+            "在骆驼存在的大约4500万年中的近40年，你只能在北美找到它们，大约有20种不同的物种，也许还有更多。",
+            "NR：那些非常原始的早期物种可能会非常小，几乎像兔子一样。"
+        ],
+        "hist_info": "\"LN\" - \"LN\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美"
+        }
+    },
+    {
+        "idx": 65,
+        "src": "NR: The earliest ones.",
+        "ref": "“最早的一些是的。”",
+        "hyp": "NR：最早的物种。",
+        "rel_src": [
+            "They started here.",
+            "For nearly 40 of the 45 million years that camels have been around,  you could only find them in North America,  around 20 different species, maybe more."
+        ],
+        "rel_tgt": [
+            "它们起源于这里。",
+            "在骆驼存在的大约4500万年中的近40年，你只能在北美找到它们，大约有20种不同的物种，也许还有更多。"
+        ],
+        "hist_info": "\"NR\" - \"NR\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美"
+        }
+    },
+    {
+        "idx": 66,
+        "src": "So those ones you probably would not recognize.",
+        "ref": "”那些你可能都认不出来了。“",
+        "hyp": "所以你可能认不出那些早期物种。",
+        "rel_src": [
+            "Now, when you hear the word \"camel,\"  what may come to mind is one of these,  the Bactrian camel of East and Central Asia.",
+            "But chances are the postcard image you have in your brain  is one of these, the dromedary,  quintessential desert creature --  hangs out in sandy, hot places like the Middle East and the Sahara,  has a big old hump on its back  for storing water for those long desert treks,  has big, broad feet to help it tromp over sand dunes."
+        ],
+        "rel_tgt": [
+            "现在，当你听到“骆驼”这个词时，脑海中可能会浮现出其中一种，即东亚和中亚的双峰骆驼。",
+            "但你脑海中可能想到的明信片图像是这种，单峰骆驼，作为典型的沙漠生物 - 喜欢待在沙漠、炎热的地方，如中东和撒哈拉，背上有一个大大的驼峰，用来储存水以供漫长的沙漠跋涉，有宽大的脚掌，帮助它跨越沙丘。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美"
+        }
+    },
+    {
+        "idx": 67,
+        "src": "LN: Oh my God, I want a pet rabbit-camel.",
+        "ref": "我的天啊， 我好想要只“兔骆驼”做宠物！",
+        "hyp": "LN：天哪，我想要一只兔子骆驼作为宠物。",
+        "rel_src": [
+            "LN: What? Rabbit-sized camels?",
+            "NR: The earliest ones."
+        ],
+        "rel_tgt": [
+            "LN：什么？像兔子那么小的骆驼？",
+            "NR：最早的物种。"
+        ],
+        "hist_info": "\"LN\" - \"LN\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美"
+        }
+    },
+    {
+        "idx": 68,
+        "src": "NR: I know, wouldn't that be great?",
+        "ref": "“我知道啊， 这一定会很棒的吧？”",
+        "hyp": "NR：我知道，那不是很棒吗？",
+        "rel_src": [
+            "NR: Yeah, you're going to have different body sizes.",
+            "You'll have some with really long necks,  so they're actually functionally like giraffes."
+        ],
+        "rel_tgt": [
+            "NR：是的，你会看到不同的体型大小。",
+            "你会看到一些拥有非常长脖子的，实际上在功能上就像长颈鹿一样。"
+        ],
+        "hist_info": "\"NR\" - \"NR\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美"
+        }
+    },
+    {
+        "idx": 69,
+        "src": "LN: And then about three to seven million years ago,  one branch of camels went down to South America,  where they became llamas and alpacas,  and another branch crossed over the Bering Land Bridge  into Asia and Africa.",
+        "ref": "然后大约300万到700万年前， 骆驼的一个分支 向南迁徙到了南美洲， 它们在那里演化成美洲驼或者羊驼， 另外一个分支跨过了白令陆桥， 到达了亚洲与非洲。",
+        "hyp": "LN：然后大约三到七百万年前，骆驼的一个分支进入南美洲，变成了羊驼和羊马，另一个分支穿过白令地峡进入亚洲和非洲。",
+        "rel_src": [
+            "Well, scientists have known for a long time, turns out,  even before Natalia's discovery,  that camels are actually originally American.",
+            "For nearly 40 of the 45 million years that camels have been around,  you could only find them in North America,  around 20 different species, maybe more."
+        ],
+        "rel_tgt": [
+            "科学家们很久以前就知道，事实证明，甚至在娜塔莉娅的发现之前，骆驼实际上起源于美洲。",
+            "在骆驼存在的大约4500万年中的近40年，你只能在北美找到它们，大约有20种不同的物种，也许还有更多。"
+        ],
+        "hist_info": "\"LN\" - \"LN\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美"
+        }
+    },
+    {
+        "idx": 70,
+        "src": "And then around the end of the last ice age,  North American camels went extinct.",
+        "ref": "大概在最后一个冰川纪的末尾， 北美的骆驼彻底灭绝了。",
+        "hyp": "然后在最后一次冰河时代结束时，北美骆驼灭绝了。",
+        "rel_src": [
+            "Well, scientists have known for a long time, turns out,  even before Natalia's discovery,  that camels are actually originally American.",
+            "For nearly 40 of the 45 million years that camels have been around,  you could only find them in North America,  around 20 different species, maybe more."
+        ],
+        "rel_tgt": [
+            "科学家们很久以前就知道，事实证明，甚至在娜塔莉娅的发现之前，骆驼实际上起源于美洲。",
+            "在骆驼存在的大约4500万年中的近40年，你只能在北美找到它们，大约有20种不同的物种，也许还有更多。"
+        ],
+        "hist_info": "\"American\" - \"美洲\", \"North America\" - \"北美\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美"
+        }
+    },
+    {
+        "idx": 71,
+        "src": "So, scientists knew all of that already,  but it still doesn't fully explain how Natalia found one so far north.",
+        "ref": "那么，科学家早都知道这些了， 但是这并不能完全解释娜塔莉娅 怎么在那么北的地方发现骆驼的。",
+        "hyp": "科学家们已经知道这一切，但这仍然无法完全解释娜塔莉娅是如何在如此北方地区找到这种化石的。",
+        "rel_src": [
+            "So how on earth would one of these guys end up in the High Arctic?",
+            "Well, scientists have known for a long time, turns out,  even before Natalia's discovery,  that camels are actually originally American."
+        ],
+        "rel_tgt": [
+            "那么，这些家伙中的一个怎么会出现在高北极呢？",
+            "科学家们很久以前就知道，事实证明，甚至在娜塔莉娅的发现之前，骆驼实际上起源于美洲。"
+        ],
+        "hist_info": "\"Natalia\" - \"娜塔莉娅\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美"
+        }
+    },
+    {
+        "idx": 72,
+        "src": "Like, this is, temperature-wise, the polar opposite of the Sahara.",
+        "ref": "这里，从温度的角度来说， 简直就是撒哈拉的反义词。",
+        "hyp": "就像，从温度上讲，这里是撒哈拉的天极相反。",
+        "rel_src": [
+            "But chances are the postcard image you have in your brain  is one of these, the dromedary,  quintessential desert creature --  hangs out in sandy, hot places like the Middle East and the Sahara,  has a big old hump on its back  for storing water for those long desert treks,  has big, broad feet to help it tromp over sand dunes.",
+            "So how on earth would one of these guys end up in the High Arctic?"
+        ],
+        "rel_tgt": [
+            "但你脑海中可能想到的明信片图像是这种，单峰骆驼，作为典型的沙漠生物 - 喜欢待在沙漠、炎热的地方，如中东和撒哈拉，背上有一个大大的驼峰，用来储存水以供漫长的沙漠跋涉，有宽大的脚掌，帮助它跨越沙丘。",
+            "那么，这些家伙中的一个怎么会出现在高北极呢？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美"
+        }
+    },
+    {
+        "idx": 73,
+        "src": "Now to be fair,  three and a half million years ago,  it was on average 22 degrees Celsius warmer than it is now.",
+        "ref": "实话实说， 350万年以前的时候， 当时平均气温比现在高了22摄氏度。",
+        "hyp": "现在公平地说，三百五十万年前，平均气温比现在高出二十二摄氏度。",
+        "rel_src": [
+            "LN: And then about three to seven million years ago,  one branch of camels went down to South America,  where they became llamas and alpacas,  and another branch crossed over the Bering Land Bridge  into Asia and Africa.",
+            "Like, this is, temperature-wise, the polar opposite of the Sahara."
+        ],
+        "rel_tgt": [
+            "LN：然后大约三到七百万年前，骆驼的一个分支进入南美洲，变成了羊驼和羊马，另一个分支穿过白令地峡进入亚洲和非洲。",
+            "就像，从温度上讲，这里是撒哈拉的天极相反。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美"
+        }
+    },
+    {
+        "idx": 74,
+        "src": "So it would have been boreal forest,  so more like the Yukon or Siberia today.",
+        "ref": "所以那里可以算是一个北部森林， 有点像今天的育空河流域 或者是西伯利亚。",
+        "hyp": "因此，那里本来是北方森林，更像是今天的育空或西伯利亚。",
+        "rel_src": [
+            "LN: And then about three to seven million years ago,  one branch of camels went down to South America,  where they became llamas and alpacas,  and another branch crossed over the Bering Land Bridge  into Asia and Africa.",
+            "And then around the end of the last ice age,  North American camels went extinct."
+        ],
+        "rel_tgt": [
+            "LN：然后大约三到七百万年前，骆驼的一个分支进入南美洲，变成了羊驼和羊马，另一个分支穿过白令地峡进入亚洲和非洲。",
+            "然后在最后一次冰河时代结束时，北美骆驼灭绝了。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美"
+        }
+    },
+    {
+        "idx": 75,
+        "src": "But still, like, they would have six-month-long winters  where the ponds would freeze over.",
+        "ref": "但是，它们还是有六个月长的冬天， 所有的池塘都会被冰封。",
+        "hyp": "但是，就像他们会有六个月的冬天，池塘会结冰一样。",
+        "rel_src": [
+            "Like, this is, temperature-wise, the polar opposite of the Sahara.",
+            "Now to be fair,  three and a half million years ago,  it was on average 22 degrees Celsius warmer than it is now."
+        ],
+        "rel_tgt": [
+            "就像，从温度上讲，这里是撒哈拉的天极相反。",
+            "现在公平地说，三百五十万年前，平均气温比现在高出二十二摄氏度。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美"
+        }
+    },
+    {
+        "idx": 76,
+        "src": "You'd have blizzards.",
+        "ref": "你会遇到暴风雪。",
+        "hyp": "你会遭遇暴风雪。",
+        "rel_src": [
+            "And then around the end of the last ice age,  North American camels went extinct.",
+            "But still, like, they would have six-month-long winters  where the ponds would freeze over."
+        ],
+        "rel_tgt": [
+            "然后在最后一次冰河时代结束时，北美骆驼灭绝了。",
+            "但是，就像他们会有六个月的冬天，池塘会结冰一样。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美"
+        }
+    },
+    {
+        "idx": 77,
+        "src": "You'd have 24 hours a day of straight darkness.",
+        "ref": "你会遇到连续24小时的黑夜。",
+        "hyp": "你会有24小时的持续黑暗。",
+        "rel_src": [
+            "But still, like, they would have six-month-long winters  where the ponds would freeze over.",
+            "You'd have blizzards."
+        ],
+        "rel_tgt": [
+            "但是，就像他们会有六个月的冬天，池塘会结冰一样。",
+            "你会遭遇暴风雪。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美"
+        }
+    },
+    {
+        "idx": 78,
+        "src": "Like, how ... How?",
+        "ref": "到底……到底怎么回事？",
+        "hyp": "就像，怎么...怎么样？",
+        "rel_src": [
+            "Like, this is, temperature-wise, the polar opposite of the Sahara.",
+            "Now to be fair,  three and a half million years ago,  it was on average 22 degrees Celsius warmer than it is now."
+        ],
+        "rel_tgt": [
+            "就像，从温度上讲，这里是撒哈拉的天极相反。",
+            "现在公平地说，三百五十万年前，平均气温比现在高出二十二摄氏度。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美"
+        }
+    },
+    {
+        "idx": 79,
+        "src": "How is it that one of these Saharan superstars  could ever have survived those arctic conditions?",
+        "ref": "这些撒哈拉沙漠的超级明星 怎么可能在这种严寒条件存活的？",
+        "hyp": "这些撒哈拉超级明星中的一员是如何在那种北极条件下存活下来的呢？",
+        "new_src_summary": "Paleobiologist Natalia Rybczynski discovered a bone fragment in the remote Canadian tundra near the Arctic Circle, initially mistaking it for wood. Over four years, she collected 30 fragments and virtually reconstructed the bone using a 3D surface scanner, identifying it as belonging to a Giant Arctic camel, 30 percent larger than modern-day camels. This unexpected discovery sheds light on the history of camels, originally from America, and their migration to other parts of the world. In a conversation with LN, they discuss the evolution of camels, including their different characteristics and habitats, and express disbelief at the extreme climate differences between the fossil's location and the Sahara desert. The tone is informative and scientific, focusing on the process of discovery and analysis in paleobiology and the evolution and adaptation of camels over time.",
+        "new_tgt_summary": "古生物学家娜塔莉娅·里布钦斯基在加拿大苔原圈挖掘化石时，在费尔斯叶层发现了一些看起来像骨头的东西，经过四年努力收集了30块骨头碎片。通过使用3D表面扫描仪重建这些骨骼，她确认了这是一只非常大的有蹄哺乳动物的骨骼，含有胶原蛋白使其能够保存在北极的天然冷冻器中。在布里斯托尔的一个会议上，娜塔莉娅看到同事迈克·巴克利展示了一项名为“胶原蛋白指纹技术”的新过程，该技术可以通过比较胶原蛋白谱来识别未知骨骼的物种。娜塔莉娅通过联邦快递给他寄送了一块碎片，结果发现是一只比现代骆驼大30％的巨型北极骆驼。这种发现令人惊讶，因为骆驼实际上起源于美洲，在北美存在了大约4500万年。这段对话讨论了骆驼的演化历史，包括早期物种的体型大小和特征，以及骆驼分支进入南美洲和北美洲的情况。科学家已经研究了这些情况，但仍无法解释在北方地区发现骆驼化石的原因。文中提到，三百五十万年前的气温比现在高出二十二摄氏度，那里本来是北方森林，类似于今天的育空或西伯利亚。",
+        "rel_src": [
+            "So, scientists knew all of that already,  but it still doesn't fully explain how Natalia found one so far north.",
+            "Like, this is, temperature-wise, the polar opposite of the Sahara."
+        ],
+        "rel_tgt": [
+            "科学家们已经知道这一切，但这仍然无法完全解释娜塔莉娅是如何在如此北方地区找到这种化石的。",
+            "就像，从温度上讲，这里是撒哈拉的天极相反。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉"
+        }
+    },
+    {
+        "idx": 80,
+        "src": "Natalia and her colleagues think they have an answer.",
+        "ref": "娜塔莉娅和她的同事们 觉得他们找到了答案。",
+        "hyp": "娜塔莉娅和她的同事认为他们已经找到了答案。",
+        "rel_src": [
+            "So, scientists knew all of that already,  but it still doesn't fully explain how Natalia found one so far north.",
+            "How is it that one of these Saharan superstars  could ever have survived those arctic conditions?"
+        ],
+        "rel_tgt": [
+            "科学家们已经知道这一切，但这仍然无法完全解释娜塔莉娅是如何在如此北方地区找到这种化石的。",
+            "这些撒哈拉超级明星中的一员是如何在那种北极条件下存活下来的呢？"
+        ],
+        "hist_info": "\"Natalia\" - \"娜塔莉娅\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉"
+        }
+    },
+    {
+        "idx": 81,
+        "src": "And it's kind of brilliant.",
+        "ref": "而且这个答案相当机智。",
+        "hyp": "这有点太精彩了。",
+        "rel_src": [
+            "LN: And then about three to seven million years ago,  one branch of camels went down to South America,  where they became llamas and alpacas,  and another branch crossed over the Bering Land Bridge  into Asia and Africa.",
+            "Natalia and her colleagues think they have an answer."
+        ],
+        "rel_tgt": [
+            "LN：然后大约三到七百万年前，骆驼的一个分支进入南美洲，变成了羊驼和羊马，另一个分支穿过白令地峡进入亚洲和非洲。",
+            "娜塔莉娅和她的同事认为他们已经找到了答案。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉"
+        }
+    },
+    {
+        "idx": 82,
+        "src": "What if the very features that we imagine make the camel so well-suited  to places like the Sahara,  actually evolved to help it get through the winter?",
+        "ref": "假如说骆驼的这些特性 不像我们所认为的那样， 是为了适应撒哈拉 那样的环境而产生， 而是因为要度过严冬 才演化出来的呢？",
+        "hyp": "如果我们想象的让骆驼在撒哈拉等地方适应良好的特征，实际上是为了帮助它度过冬季的进化而来呢？",
+        "rel_src": [
+            "How is it that one of these Saharan superstars  could ever have survived those arctic conditions?",
+            "Natalia and her colleagues think they have an answer."
+        ],
+        "rel_tgt": [
+            "这些撒哈拉超级明星中的一员是如何在那种北极条件下存活下来的呢？",
+            "娜塔莉娅和她的同事认为他们已经找到了答案。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉"
+        }
+    },
+    {
+        "idx": 83,
+        "src": "What if those broad feet were meant to tromp not over sand,  but over snow, like a pair of snowshoes?",
+        "ref": "假如说那些宽大的脚掌 不是为了踏过沙丘， 而是像雪地靴一样，踏过雪原呢？",
+        "hyp": "如果那些宽大的脚掌不是为了在沙漠上行走，而是为了在雪地上行走，就像一双雪鞋一样呢？",
+        "rel_src": [
+            "Natalia and her colleagues think they have an answer.",
+            "What if the very features that we imagine make the camel so well-suited  to places like the Sahara,  actually evolved to help it get through the winter?"
+        ],
+        "rel_tgt": [
+            "娜塔莉娅和她的同事认为他们已经找到了答案。",
+            "如果我们想象的让骆驼在撒哈拉等地方适应良好的特征，实际上是为了帮助它度过冬季的进化而来呢？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉"
+        }
+    },
+    {
+        "idx": 84,
+        "src": "What if that hump -- which, huge news to me,  does not contain water, it contains fat --    was there to help the camel get through that six-month-long winter,  when food was scarce?",
+        "ref": "假如说那些驼峰—— 这简直是天大的新闻！ 储存的不是水分而是脂肪，  驼峰实际上是为了让骆驼 度过食物稀缺的、 六个月长的寒冬？",
+        "hyp": "如果那个驼峰 - 对我来说是一个巨大的新闻，里面不含水，而是含有脂肪 - 是为了帮助骆驼度过那个六个月的冬季，当时食物稀缺的呢？",
+        "rel_src": [
+            "What if the very features that we imagine make the camel so well-suited  to places like the Sahara,  actually evolved to help it get through the winter?",
+            "What if those broad feet were meant to tromp not over sand,  but over snow, like a pair of snowshoes?"
+        ],
+        "rel_tgt": [
+            "如果我们想象的让骆驼在撒哈拉等地方适应良好的特征，实际上是为了帮助它度过冬季的进化而来呢？",
+            "如果那些宽大的脚掌不是为了在沙漠上行走，而是为了在雪地上行走，就像一双雪鞋一样呢？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉"
+        }
+    },
+    {
+        "idx": 85,
+        "src": "And then, only later, long after it crossed over the land bridge  did it retrofit those winter features for a hot desert environment?",
+        "ref": "假如说远在那以后， 它们跨越大陆桥之后， 才将这些冬季特性改造， 使其适应炎热的沙漠环境？",
+        "hyp": "然后，只有在穿过陆地桥后很久，它才将那些冬季特征改造成适应炎热沙漠环境的？",
+        "rel_src": [
+            "LN: And then about three to seven million years ago,  one branch of camels went down to South America,  where they became llamas and alpacas,  and another branch crossed over the Bering Land Bridge  into Asia and Africa.",
+            "What if the very features that we imagine make the camel so well-suited  to places like the Sahara,  actually evolved to help it get through the winter?"
+        ],
+        "rel_tgt": [
+            "LN：然后大约三到七百万年前，骆驼的一个分支进入南美洲，变成了羊驼和羊马，另一个分支穿过白令地峡进入亚洲和非洲。",
+            "如果我们想象的让骆驼在撒哈拉等地方适应良好的特征，实际上是为了帮助它度过冬季的进化而来呢？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉"
+        }
+    },
+    {
+        "idx": 86,
+        "src": "Like, for instance, the hump may be helpful to camels in hotter climes  because having all your fat in one place,  like a, you know, fat backpack,  means that you don't have to have that insulation  all over the rest of your body.",
+        "ref": "就比如说，那些驼峰 可能在炎热地带对骆驼有好处， 因为当你的脂肪堆积在同一处， 你懂的，像一个“脂肪背包”， 意味着你身体的隔热层 不必覆盖全身。",
+        "hyp": "比如说，驼峰可能对生活在更炎热气候的骆驼有帮助，因为将所有脂肪集中在一个地方，就像一个，你知道的，背负着脂肪的背包，意味着你不必在整个身体上都有那种绝缘层。",
+        "rel_src": [
+            "What if the very features that we imagine make the camel so well-suited  to places like the Sahara,  actually evolved to help it get through the winter?",
+            "What if that hump -- which, huge news to me,  does not contain water, it contains fat --    was there to help the camel get through that six-month-long winter,  when food was scarce?"
+        ],
+        "rel_tgt": [
+            "如果我们想象的让骆驼在撒哈拉等地方适应良好的特征，实际上是为了帮助它度过冬季的进化而来呢？",
+            "如果那个驼峰 - 对我来说是一个巨大的新闻，里面不含水，而是含有脂肪 - 是为了帮助骆驼度过那个六个月的冬季，当时食物稀缺的呢？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉"
+        }
+    },
+    {
+        "idx": 87,
+        "src": "So it helps heat dissipate easier.",
+        "ref": "于是这让散热更容易了。",
+        "hyp": "所以它有助于更容易地散发热量。",
+        "rel_src": [
+            "What if that hump -- which, huge news to me,  does not contain water, it contains fat --    was there to help the camel get through that six-month-long winter,  when food was scarce?",
+            "Like, for instance, the hump may be helpful to camels in hotter climes  because having all your fat in one place,  like a, you know, fat backpack,  means that you don't have to have that insulation  all over the rest of your body."
+        ],
+        "rel_tgt": [
+            "如果那个驼峰 - 对我来说是一个巨大的新闻，里面不含水，而是含有脂肪 - 是为了帮助骆驼度过那个六个月的冬季，当时食物稀缺的呢？",
+            "比如说，驼峰可能对生活在更炎热气候的骆驼有帮助，因为将所有脂肪集中在一个地方，就像一个，你知道的，背负着脂肪的背包，意味着你不必在整个身体上都有那种绝缘层。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉"
+        }
+    },
+    {
+        "idx": 88,
+        "src": "It's this crazy idea,  that what seems like proof of the camel's quintessential desert nature  could actually be proof of its High Arctic past.",
+        "ref": "就是这个疯狂的想法， 让骆驼身上看似典型的沙漠特性， 突然变成它们 起源于高纬北极的证据了。",
+        "hyp": "这是一个疯狂的想法，看似证明骆驼的沙漠本质实际上可能是证明其高北极过去的证据。",
+        "rel_src": [
+            "What if the very features that we imagine make the camel so well-suited  to places like the Sahara,  actually evolved to help it get through the winter?",
+            "What if that hump -- which, huge news to me,  does not contain water, it contains fat --    was there to help the camel get through that six-month-long winter,  when food was scarce?"
+        ],
+        "rel_tgt": [
+            "如果我们想象的让骆驼在撒哈拉等地方适应良好的特征，实际上是为了帮助它度过冬季的进化而来呢？",
+            "如果那个驼峰 - 对我来说是一个巨大的新闻，里面不含水，而是含有脂肪 - 是为了帮助骆驼度过那个六个月的冬季，当时食物稀缺的呢？"
+        ],
+        "hist_info": "\"High Arctic\" - \"高北极\", \"Arctic\" - \"北极\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉"
+        }
+    },
+    {
+        "idx": 89,
+        "src": "Now, I'm not the first person to tell this story.",
+        "ref": "其实我不是第一个讲这故事的人。",
+        "hyp": "现在，我并不是第一个讲述这个故事的人。",
+        "rel_src": [
+            "So, scientists knew all of that already,  but it still doesn't fully explain how Natalia found one so far north.",
+            "Natalia and her colleagues think they have an answer."
+        ],
+        "rel_tgt": [
+            "科学家们已经知道这一切，但这仍然无法完全解释娜塔莉娅是如何在如此北方地区找到这种化石的。",
+            "娜塔莉娅和她的同事认为他们已经找到了答案。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉"
+        }
+    },
+    {
+        "idx": 90,
+        "src": "Others have told it as a way to marvel at evolutionary biology  or as a keyhole into the future of climate change.",
+        "ref": "其他人已经讲过， 以此赞叹生物进化之神奇， 或者以此瞥一眼 未来的气候变化情况。",
+        "hyp": "其他人将其视为对进化生物学的奇迹之处，或者作为了解气候变化未来的窥视孔。",
+        "rel_src": [
+            "What if the very features that we imagine make the camel so well-suited  to places like the Sahara,  actually evolved to help it get through the winter?",
+            "It's this crazy idea,  that what seems like proof of the camel's quintessential desert nature  could actually be proof of its High Arctic past."
+        ],
+        "rel_tgt": [
+            "如果我们想象的让骆驼在撒哈拉等地方适应良好的特征，实际上是为了帮助它度过冬季的进化而来呢？",
+            "这是一个疯狂的想法，看似证明骆驼的沙漠本质实际上可能是证明其高北极过去的证据。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉"
+        }
+    },
+    {
+        "idx": 91,
+        "src": "But I love it for a totally different reason.",
+        "ref": "但我超爱这个故事 有另一个不同的原因。",
+        "hyp": "但我喜欢它出于完全不同的原因。",
+        "rel_src": [
+            "What if the very features that we imagine make the camel so well-suited  to places like the Sahara,  actually evolved to help it get through the winter?",
+            "What if those broad feet were meant to tromp not over sand,  but over snow, like a pair of snowshoes?"
+        ],
+        "rel_tgt": [
+            "如果我们想象的让骆驼在撒哈拉等地方适应良好的特征，实际上是为了帮助它度过冬季的进化而来呢？",
+            "如果那些宽大的脚掌不是为了在沙漠上行走，而是为了在雪地上行走，就像一双雪鞋一样呢？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉"
+        }
+    },
+    {
+        "idx": 92,
+        "src": "For me, it's a story about us,  about how we see the world  and about how that changes.",
+        "ref": "对我来说，这是一个关于我们的故事， 关于我们如何认知世界， 关于这种认知如何改变。",
+        "hyp": "对我来说，这是一个关于我们的故事，关于我们如何看待这个世界，以及这种看法如何改变。",
+        "rel_src": [
+            "It's this crazy idea,  that what seems like proof of the camel's quintessential desert nature  could actually be proof of its High Arctic past.",
+            "But I love it for a totally different reason."
+        ],
+        "rel_tgt": [
+            "这是一个疯狂的想法，看似证明骆驼的沙漠本质实际上可能是证明其高北极过去的证据。",
+            "但我喜欢它出于完全不同的原因。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉"
+        }
+    },
+    {
+        "idx": 93,
+        "src": "So I was trained as a historian.",
+        "ref": "我的职业是历史学家。",
+        "hyp": "所以我接受过历史学的训练。",
+        "rel_src": [
+            "Now, I'm not the first person to tell this story.",
+            "For me, it's a story about us,  about how we see the world  and about how that changes."
+        ],
+        "rel_tgt": [
+            "现在，我并不是第一个讲述这个故事的人。",
+            "对我来说，这是一个关于我们的故事，关于我们如何看待这个世界，以及这种看法如何改变。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉"
+        }
+    },
+    {
+        "idx": 94,
+        "src": "And I've learned that, actually, a lot of scientists are historians, too.",
+        "ref": "我发现，其实 很多科学家也是历史学家。",
+        "hyp": "而我发现，实际上，很多科学家也是历史学家。",
+        "rel_src": [
+            "Now, I'm not the first person to tell this story.",
+            "For me, it's a story about us,  about how we see the world  and about how that changes."
+        ],
+        "rel_tgt": [
+            "现在，我并不是第一个讲述这个故事的人。",
+            "对我来说，这是一个关于我们的故事，关于我们如何看待这个世界，以及这种看法如何改变。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉"
+        }
+    },
+    {
+        "idx": 95,
+        "src": "They make sense of the past.",
+        "ref": "他们把过去的事情搞明白。",
+        "hyp": "他们理解了过去。",
+        "rel_src": [
+            "Natalia and her colleagues think they have an answer.",
+            "What if those broad feet were meant to tromp not over sand,  but over snow, like a pair of snowshoes?"
+        ],
+        "rel_tgt": [
+            "娜塔莉娅和她的同事认为他们已经找到了答案。",
+            "如果那些宽大的脚掌不是为了在沙漠上行走，而是为了在雪地上行走，就像一双雪鞋一样呢？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉"
+        }
+    },
+    {
+        "idx": 96,
+        "src": "They tell the history of our universe, of our planet, of life on this planet.",
+        "ref": "他们讲述宇宙、 地球和地球生物的历史。",
+        "hyp": "他们讲述了我们宇宙的历史，我们星球的历史，以及这个星球上生命的历史。",
+        "rel_src": [
+            "Others have told it as a way to marvel at evolutionary biology  or as a keyhole into the future of climate change.",
+            "They make sense of the past."
+        ],
+        "rel_tgt": [
+            "其他人将其视为对进化生物学的奇迹之处，或者作为了解气候变化未来的窥视孔。",
+            "他们理解了过去。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉"
+        }
+    },
+    {
+        "idx": 97,
+        "src": "And as a historian,  you start with an idea in your mind of how the story goes.",
+        "ref": "作为一个历史学家， 你的脑海里要有个思路， 思考这个故事怎么进行下去的。",
+        "hyp": "作为一名历史学家，你心中一开始就有一个故事发展的想法。",
+        "rel_src": [
+            "So I was trained as a historian.",
+            "They make sense of the past."
+        ],
+        "rel_tgt": [
+            "所以我接受过历史学的训练。",
+            "他们理解了过去。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉"
+        }
+    },
+    {
+        "idx": 98,
+        "src": "NR: We make up stories and we stick with it,  like the camel in the desert, right?",
+        "ref": "“我们编故事， 然后我们就顺着思路说下去，” “就好像沙漠的骆驼，对吧？”",
+        "hyp": "NR：我们编造故事并坚持下去，就像沙漠中的骆驼一样，对吧？",
+        "rel_src": [
+            "What if the very features that we imagine make the camel so well-suited  to places like the Sahara,  actually evolved to help it get through the winter?",
+            "It's this crazy idea,  that what seems like proof of the camel's quintessential desert nature  could actually be proof of its High Arctic past."
+        ],
+        "rel_tgt": [
+            "如果我们想象的让骆驼在撒哈拉等地方适应良好的特征，实际上是为了帮助它度过冬季的进化而来呢？",
+            "这是一个疯狂的想法，看似证明骆驼的沙漠本质实际上可能是证明其高北极过去的证据。"
+        ],
+        "hist_info": "\"NR\" - \"NR\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉"
+        }
+    },
+    {
+        "idx": 99,
+        "src": "That's a great story! It's totally adapted for that.",
+        "ref": "“这是个超棒的故事！ 骆驼简直是非常适合沙漠。”",
+        "hyp": "这是一个很棒的故事！完全适合那个场合。",
+        "new_src_summary": "Paleobiologist Natalia Rybczynski discovered a bone fragment in the remote Canadian tundra near the Arctic Circle, eventually identifying it as belonging to a Giant Arctic camel, larger than modern-day camels. This unexpected discovery sheds light on the history of camels and their migration from America. In a conversation with LN, they discuss the evolution of camels, including their different characteristics and habitats, expressing disbelief at the extreme climate differences between the fossil's location and the Sahara desert. The paragraph also explores the theory that camel features may have evolved for arctic survival, challenging traditional views and highlighting the evolving nature of scientific understanding. The overall tone is informative, scientific, curious, and reflective, focusing on the process of discovery, analysis in paleobiology, and questioning established beliefs.",
+        "new_tgt_summary": "古生物学家娜塔莉娅·里布钦斯基在加拿大苔原圈挖掘化石时发现了一只非常大的有蹄哺乳动物的骨骼，经过使用3D表面扫描仪重建并确认含有胶原蛋白。她通过胶原蛋白指纹技术识别出这是一只比现代骆驼大30％的巨型北极骆驼，这种发现令人惊讶。讨论还涉及了骆驼的演化历史，包括早期物种的体型大小和特征，以及骆驼分支进入南美洲和北美洲的情况。另一方面，文中也提到了关于撒哈拉沙漠中骆驼如何适应极端环境的故事，认为骆驼的特征可能是为了度过冬季进化而来，可能是对其高北极过去的证据。最后，作者指出科学家与历史学家一样，都在讲述宇宙、地球和生命的历史故事。",
+        "rel_src": [
+            "It's this crazy idea,  that what seems like proof of the camel's quintessential desert nature  could actually be proof of its High Arctic past.",
+            "For me, it's a story about us,  about how we see the world  and about how that changes."
+        ],
+        "rel_tgt": [
+            "这是一个疯狂的想法，看似证明骆驼的沙漠本质实际上可能是证明其高北极过去的证据。",
+            "对我来说，这是一个关于我们的故事，关于我们如何看待这个世界，以及这种看法如何改变。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉"
+        }
+    },
+    {
+        "idx": 100,
+        "src": "Clearly, it always lived there.",
+        "ref": "”显然，骆驼一直就住那里。“",
+        "hyp": "显然，它一直生活在那里。",
+        "rel_src": [
+            "It's this crazy idea,  that what seems like proof of the camel's quintessential desert nature  could actually be proof of its High Arctic past.",
+            "That's a great story! It's totally adapted for that."
+        ],
+        "rel_tgt": [
+            "这是一个疯狂的想法，看似证明骆驼的沙漠本质实际上可能是证明其高北极过去的证据。",
+            "这是一个很棒的故事！完全适合那个场合。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉"
+        }
+    },
+    {
+        "idx": 101,
+        "src": "LN: But at any moment, you could uncover some tiny bit of evidence.",
+        "ref": "但是在任何时候， 你都可能发现些细小的线索。",
+        "hyp": "LN：但在任何时刻，你都可能发现一些微小的证据。",
+        "rel_src": [
+            "But I love it for a totally different reason.",
+            "For me, it's a story about us,  about how we see the world  and about how that changes."
+        ],
+        "rel_tgt": [
+            "但我喜欢它出于完全不同的原因。",
+            "对我来说，这是一个关于我们的故事，关于我们如何看待这个世界，以及这种看法如何改变。"
+        ],
+        "hist_info": "\"LN\" - \"LN\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉"
+        },
+        "conflict": [
+            "\"LN\" - \"LN\"/\"N/A\""
+        ]
+    },
+    {
+        "idx": 102,
+        "src": "You could learn some tiny thing  that forces you to reframe everything you thought you knew.",
+        "ref": "你可能发现一些小东西， 迫使你重塑你自认为知道的一切。",
+        "hyp": "你可能会学到一些微小的东西，迫使你重新构思你所认为已知的一切。",
+        "rel_src": [
+            "For me, it's a story about us,  about how we see the world  and about how that changes.",
+            "LN: But at any moment, you could uncover some tiny bit of evidence."
+        ],
+        "rel_tgt": [
+            "对我来说，这是一个关于我们的故事，关于我们如何看待这个世界，以及这种看法如何改变。",
+            "LN：但在任何时刻，你都可能发现一些微小的证据。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉"
+        }
+    },
+    {
+        "idx": 103,
+        "src": "Like, in this case, this one scientist finds this one shard  of what she thought was wood,  and because of that, science has a totally new and totally counterintuitive theory  about why this absurd Dr. Seuss-looking creature  looks the way it does.",
+        "ref": "就像这个例子， 这一个科学家发现这一片碎片， 她还以为这是木头， 正因为这个发现，科学界诞生了 一个全新的、反直觉的理论， 解释为什么这个奇怪的、长得像 长毛怪的生物， 长成现在的样子。",
+        "hyp": "就像在这种情况下，这位科学家发现了一块她认为是木头的碎片，正是因为这个，科学界对这个看起来像荒谬的苏斯博士形象的生物为何如此外貌完全新颖且完全违反直觉的理论。",
+        "rel_src": [
+            "LN: But at any moment, you could uncover some tiny bit of evidence.",
+            "You could learn some tiny thing  that forces you to reframe everything you thought you knew."
+        ],
+        "rel_tgt": [
+            "LN：但在任何时刻，你都可能发现一些微小的证据。",
+            "你可能会学到一些微小的东西，迫使你重新构思你所认为已知的一切。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉",
+            "Dr. Seuss": "苏斯博士"
+        }
+    },
+    {
+        "idx": 104,
+        "src": "And for me, it completely upended the way I think of the camel.",
+        "ref": "对我来说，这彻底颠覆了 我对骆驼的看法。",
+        "hyp": "对我来说，这完全颠覆了我对骆驼的看法。",
+        "rel_src": [
+            "But I love it for a totally different reason.",
+            "For me, it's a story about us,  about how we see the world  and about how that changes."
+        ],
+        "rel_tgt": [
+            "但我喜欢它出于完全不同的原因。",
+            "对我来说，这是一个关于我们的故事，关于我们如何看待这个世界，以及这种看法如何改变。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉",
+            "Dr. Seuss": "苏斯博士"
+        }
+    },
+    {
+        "idx": 105,
+        "src": "It went from being this ridiculously niche creature  suited only to this one specific environment,  to being this world traveler that just happens to be in the Sahara,  and could end up virtually anywhere.",
+        "ref": "它从一种只针对这一特定环境 而存在的生物 变成了一个环球旅行家， 只是恰好出现在了撒哈拉沙漠， 而且随时可能出现在任何地方。",
+        "hyp": "它从一个仅适应于特定环境的荒谬小众生物，变成了一个世界旅行者，偶然出现在撒哈拉沙漠，可能最终到达任何地方。",
+        "rel_src": [
+            "It's this crazy idea,  that what seems like proof of the camel's quintessential desert nature  could actually be proof of its High Arctic past.",
+            "That's a great story! It's totally adapted for that."
+        ],
+        "rel_tgt": [
+            "这是一个疯狂的想法，看似证明骆驼的沙漠本质实际上可能是证明其高北极过去的证据。",
+            "这是一个很棒的故事！完全适合那个场合。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉",
+            "Dr. Seuss": "苏斯博士"
+        }
+    },
+    {
+        "idx": 106,
+        "src": "This is Azuri.",
+        "ref": "这是阿祖力。",
+        "hyp": "这是阿祖里。",
+        "rel_src": [
+            "NR: We make up stories and we stick with it,  like the camel in the desert, right?",
+            "That's a great story! It's totally adapted for that."
+        ],
+        "rel_tgt": [
+            "NR：我们编造故事并坚持下去，就像沙漠中的骆驼一样，对吧？",
+            "这是一个很棒的故事！完全适合那个场合。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉",
+            "Dr. Seuss": "苏斯博士",
+            "Azuri": "阿祖里"
+        }
+    },
+    {
+        "idx": 107,
+        "src": "Azuri, hi, how are you doing?",
+        "ref": "嗨，阿祖力！你还好吗？",
+        "hyp": "阿祖里，嗨，你好吗？",
+        "rel_src": [
+            "It went from being this ridiculously niche creature  suited only to this one specific environment,  to being this world traveler that just happens to be in the Sahara,  and could end up virtually anywhere.",
+            "This is Azuri."
+        ],
+        "rel_tgt": [
+            "它从一个仅适应于特定环境的荒谬小众生物，变成了一个世界旅行者，偶然出现在撒哈拉沙漠，可能最终到达任何地方。",
+            "这是阿祖里。"
+        ],
+        "hist_info": "\"Azuri\" - \"阿祖里\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉",
+            "Dr. Seuss": "苏斯博士",
+            "Azuri": "阿祖里"
+        }
+    },
+    {
+        "idx": 108,
+        "src": "OK, here, I've got one of these for you here.",
+        "ref": "来，我给你带了点吃的。",
+        "hyp": "好的，在这里，我给你拿一个。",
+        "rel_src": [
+            "Now, I'm not the first person to tell this story.",
+            "But I love it for a totally different reason."
+        ],
+        "rel_tgt": [
+            "现在，我并不是第一个讲述这个故事的人。",
+            "但我喜欢它出于完全不同的原因。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉",
+            "Dr. Seuss": "苏斯博士",
+            "Azuri": "阿祖里"
+        }
+    },
+    {
+        "idx": 109,
+        "src": "So Azuri is on a break from her regular gig  at the Radio City Music Hall.",
+        "ref": "阿祖力刚刚完成她的特约演出， 从纽约无线电城音乐厅过来。",
+        "hyp": "阿祖里正在从她在拉扎斯城音乐厅的常规演出中休息。",
+        "rel_src": [
+            "This is Azuri.",
+            "Azuri, hi, how are you doing?"
+        ],
+        "rel_tgt": [
+            "这是阿祖里。",
+            "阿祖里，嗨，你好吗？"
+        ],
+        "hist_info": "\"Azuri\" - \"阿祖里\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉",
+            "Dr. Seuss": "苏斯博士",
+            "Azuri": "阿祖里",
+            "Radio City Music Hall": "拉扎斯城音乐厅"
+        }
+    },
+    {
+        "idx": 110,
+        "src": "That's not even a joke.",
+        "ref": "这可不是说笑的。",
+        "hyp": "这甚至不是一个笑话。",
+        "rel_src": [
+            "You could learn some tiny thing  that forces you to reframe everything you thought you knew.",
+            "Like, in this case, this one scientist finds this one shard  of what she thought was wood,  and because of that, science has a totally new and totally counterintuitive theory  about why this absurd Dr. Seuss-looking creature  looks the way it does."
+        ],
+        "rel_tgt": [
+            "你可能会学到一些微小的东西，迫使你重新构思你所认为已知的一切。",
+            "就像在这种情况下，这位科学家发现了一块她认为是木头的碎片，正是因为这个，科学界对这个看起来像荒谬的苏斯博士形象的生物为何如此外貌完全新颖且完全违反直觉的理论。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉",
+            "Dr. Seuss": "苏斯博士",
+            "Azuri": "阿祖里",
+            "Radio City Music Hall": "拉扎斯城音乐厅"
+        }
+    },
+    {
+        "idx": 111,
+        "src": "Anyway --  But really, Azuri is here as a living reminder  that the story of our world is a dynamic one.",
+        "ref": "随便啦…… 说真的，阿祖力在这里 作为一个鲜活的例子， 说明这个世界的故事是瞬息万变的。",
+        "hyp": "不管怎样 - 但真的，阿祖里在这里是一个活生生的提醒，我们世界的故事是一个充满活力的故事。",
+        "rel_src": [
+            "They tell the history of our universe, of our planet, of life on this planet.",
+            "That's a great story! It's totally adapted for that."
+        ],
+        "rel_tgt": [
+            "他们讲述了我们宇宙的历史，我们星球的历史，以及这个星球上生命的历史。",
+            "这是一个很棒的故事！完全适合那个场合。"
+        ],
+        "hist_info": "\"Azuri\" - \"阿祖里\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉",
+            "Dr. Seuss": "苏斯博士",
+            "Azuri": "阿祖里",
+            "Radio City Music Hall": "拉扎斯城音乐厅"
+        }
+    },
+    {
+        "idx": 112,
+        "src": "It requires our willingness to readjust, to reimagine.",
+        "ref": "我们要有主动性， 去大胆做出改变、重新想象。",
+        "hyp": "这需要我们愿意调整，重新想象。",
+        "rel_src": [
+            "You could learn some tiny thing  that forces you to reframe everything you thought you knew.",
+            "Like, in this case, this one scientist finds this one shard  of what she thought was wood,  and because of that, science has a totally new and totally counterintuitive theory  about why this absurd Dr. Seuss-looking creature  looks the way it does."
+        ],
+        "rel_tgt": [
+            "你可能会学到一些微小的东西，迫使你重新构思你所认为已知的一切。",
+            "就像在这种情况下，这位科学家发现了一块她认为是木头的碎片，正是因为这个，科学界对这个看起来像荒谬的苏斯博士形象的生物为何如此外貌完全新颖且完全违反直觉的理论。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉",
+            "Dr. Seuss": "苏斯博士",
+            "Azuri": "阿祖里",
+            "Radio City Music Hall": "拉扎斯城音乐厅"
+        }
+    },
+    {
+        "idx": 113,
+        "src": "Right, Azuri?",
+        "ref": "阿祖力，你说对不对啊？",
+        "hyp": "对吧，阿祖里？",
+        "rel_src": [
+            "Azuri, hi, how are you doing?",
+            "Anyway --  But really, Azuri is here as a living reminder  that the story of our world is a dynamic one."
+        ],
+        "rel_tgt": [
+            "阿祖里，嗨，你好吗？",
+            "不管怎样 - 但真的，阿祖里在这里是一个活生生的提醒，我们世界的故事是一个充满活力的故事。"
+        ],
+        "hist_info": "\"Azuri\" - \"阿祖里\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉",
+            "Dr. Seuss": "苏斯博士",
+            "Azuri": "阿祖里",
+            "Radio City Music Hall": "拉扎斯城音乐厅"
+        }
+    },
+    {
+        "idx": 114,
+        "src": "And, really, that we're all just one shard of bone away  from seeing the world anew.",
+        "ref": "真的，我们与看待世界的全新视角， 只有一片碎骨头的距离罢了。",
+        "hyp": "而且，实际上，我们离重新看待世界只有一块骨头碎片的距离。",
+        "rel_src": [
+            "You could learn some tiny thing  that forces you to reframe everything you thought you knew.",
+            "Like, in this case, this one scientist finds this one shard  of what she thought was wood,  and because of that, science has a totally new and totally counterintuitive theory  about why this absurd Dr. Seuss-looking creature  looks the way it does."
+        ],
+        "rel_tgt": [
+            "你可能会学到一些微小的东西，迫使你重新构思你所认为已知的一切。",
+            "就像在这种情况下，这位科学家发现了一块她认为是木头的碎片，正是因为这个，科学界对这个看起来像荒谬的苏斯博士形象的生物为何如此外貌完全新颖且完全违反直觉的理论。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉",
+            "Dr. Seuss": "苏斯博士",
+            "Azuri": "阿祖里",
+            "Radio City Music Hall": "拉扎斯城音乐厅"
+        }
+    },
+    {
+        "idx": 115,
+        "src": "Thank you very much.",
+        "ref": "感谢各位。",
+        "hyp": "非常感谢。",
+        "rel_src": [
+            "Azuri, hi, how are you doing?",
+            "Right, Azuri?"
+        ],
+        "rel_tgt": [
+            "阿祖里，嗨，你好吗？",
+            "对吧，阿祖里？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "娜塔莉娅·里布钦斯基",
+            "Dr. Dead Things": "死物博士",
+            "Latif Nasser": "拉蒂夫·纳瑟",
+            "Arctic Circle": "北极圈",
+            "Canadian": "加拿大",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "费尔斯叶层",
+            "magnetic north pole": "磁北极",
+            "GPS": "GPS",
+            "NR": "NR",
+            "LN": "LN",
+            "Colorado": "科罗拉多",
+            "Natalia": "娜塔莉娅",
+            "Bristol": "布里斯托尔",
+            "Mike Buckley": "迈克·巴克利",
+            "FedEx": "联邦快递",
+            "High Arctic": "高北极",
+            "Arctic": "北极",
+            "American": "美洲",
+            "North America": "北美",
+            "North American": "北美",
+            "Saharan": "撒哈拉",
+            "Dr. Seuss": "苏斯博士",
+            "Azuri": "阿祖里",
+            "Radio City Music Hall": "拉扎斯城音乐厅"
+        }
+    }
+]

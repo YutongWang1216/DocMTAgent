@@ -1,0 +1,3806 @@
+[
+    {
+        "idx": 0,
+        "src": "C'est une histoire à propos de comment on sait ce qu'on sait.",
+        "ref": "So, this is a story  about how we know what we know.",
+        "hyp": "It's a story about how we know what we know.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 1,
+        "src": "C'est une histoire à propos de cette femme Natalia Rybczynski.",
+        "ref": "It's a story about this woman,  Natalia Rybczynski.",
+        "hyp": "It's a story about this woman Natalia Rybczynski.",
+        "rel_src": [
+            "C'est une histoire à propos de comment on sait ce qu'on sait."
+        ],
+        "rel_tgt": [
+            "It's a story about how we know what we know."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski"
+        }
+    },
+    {
+        "idx": 2,
+        "src": "Elle est paléobiologiste, ce qui veut dire qu'elle est spécialiste en déterrage de vieux trucs morts.",
+        "ref": "She's a paleobiologist,  which means she specializes in digging up really old dead stuff.",
+        "hyp": "She is a paleobiologist, which means she is an expert in digging up old dead stuff.",
+        "rel_src": [
+            "C'est une histoire à propos de comment on sait ce qu'on sait.",
+            "C'est une histoire à propos de cette femme Natalia Rybczynski."
+        ],
+        "rel_tgt": [
+            "It's a story about how we know what we know.",
+            "It's a story about this woman Natalia Rybczynski."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski"
+        }
+    },
+    {
+        "idx": 3,
+        "src": "Natalia Rybczynski : Oui, parfois, on m'a appelée « Dr Choses Mortes ».",
+        "ref": "Natalia Rybczynski: Yeah, I had someone call me \"Dr. Dead Things.\"",
+        "hyp": "Natalia Rybczynski: Yes, sometimes I have been called \"Dr. Dead Things\".",
+        "rel_src": [
+            "C'est une histoire à propos de cette femme Natalia Rybczynski.",
+            "Elle est paléobiologiste, ce qui veut dire qu'elle est spécialiste en déterrage de vieux trucs morts."
+        ],
+        "rel_tgt": [
+            "It's a story about this woman Natalia Rybczynski.",
+            "She is a paleobiologist, which means she is an expert in digging up old dead stuff."
+        ],
+        "hist_info": "\"Natalia Rybczynski\" - \"Natalia Rybczynski\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski"
+        }
+    },
+    {
+        "idx": 4,
+        "src": "Latif Nasser : Je pense qu'elle soit intéressante à cause de l'endroit où elle travaille, bien au-dessus du Cercle Arctique dans la toundra isolée du Canada.",
+        "ref": "Latif Nasser: And I think she's particularly interesting  because of where she digs that stuff up,  way above the Arctic Circle in the remote Canadian tundra.",
+        "hyp": "Latif Nasser: I think she is interesting because of the place where she works, high above the Arctic Circle in the isolated tundra of Canada.",
+        "rel_src": [
+            "C'est une histoire à propos de cette femme Natalia Rybczynski.",
+            "Elle est paléobiologiste, ce qui veut dire qu'elle est spécialiste en déterrage de vieux trucs morts."
+        ],
+        "rel_tgt": [
+            "It's a story about this woman Natalia Rybczynski.",
+            "She is a paleobiologist, which means she is an expert in digging up old dead stuff."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada"
+        }
+    },
+    {
+        "idx": 5,
+        "src": "Un jour d'été en 2006, elle était sur un site de fouille qui s'appelle Fyles Leaf Bed, qui est à moins de 10 degrés de latitude du pôle nord magnétique.",
+        "ref": "Now, one summer day in 2006,  she was at a dig site called the Fyles Leaf Bed,  which is less than 10 degrees latitude away from the magnetic north pole.",
+        "hyp": "One summer day in 2006, she was at a dig site called Fyles Leaf Bed, which is less than 10 degrees of latitude from the magnetic North Pole.",
+        "rel_src": [
+            "Natalia Rybczynski : Oui, parfois, on m'a appelée « Dr Choses Mortes ».",
+            "Latif Nasser : Je pense qu'elle soit intéressante à cause de l'endroit où elle travaille, bien au-dessus du Cercle Arctique dans la toundra isolée du Canada."
+        ],
+        "rel_tgt": [
+            "Natalia Rybczynski: Yes, sometimes I have been called \"Dr. Dead Things\".",
+            "Latif Nasser: I think she is interesting because of the place where she works, high above the Arctic Circle in the isolated tundra of Canada."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 6,
+        "src": "NR : Franchement ça n'a pas l'air passionnant, parce que c'était une journée de marche avec un sac à dos, un GPS et un carnet, et on ramassait tout ce qui pouvait être un fossile.",
+        "ref": "NR: Really, it's not going to sound very exciting,  because it was a day of walking with your backpack and your GPS  and notebook and just picking up anything that might be a fossil.",
+        "hyp": "NR: Honestly, it doesn't seem exciting, because it was a day of walking with a backpack, a GPS, and a notebook, and we were picking up anything that could be a fossil.",
+        "rel_src": [
+            "Latif Nasser : Je pense qu'elle soit intéressante à cause de l'endroit où elle travaille, bien au-dessus du Cercle Arctique dans la toundra isolée du Canada.",
+            "Un jour d'été en 2006, elle était sur un site de fouille qui s'appelle Fyles Leaf Bed, qui est à moins de 10 degrés de latitude du pôle nord magnétique."
+        ],
+        "rel_tgt": [
+            "Latif Nasser: I think she is interesting because of the place where she works, high above the Arctic Circle in the isolated tundra of Canada.",
+            "One summer day in 2006, she was at a dig site called Fyles Leaf Bed, which is less than 10 degrees of latitude from the magnetic North Pole."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 7,
+        "src": "LN : Et à un moment donné, elle a remarqué quelque chose.",
+        "ref": "LN: And at some point, she noticed something.",
+        "hyp": "LN: And at one point, she noticed something.",
+        "rel_src": [
+            "Un jour d'été en 2006, elle était sur un site de fouille qui s'appelle Fyles Leaf Bed, qui est à moins de 10 degrés de latitude du pôle nord magnétique.",
+            "NR : Franchement ça n'a pas l'air passionnant, parce que c'était une journée de marche avec un sac à dos, un GPS et un carnet, et on ramassait tout ce qui pouvait être un fossile."
+        ],
+        "rel_tgt": [
+            "One summer day in 2006, she was at a dig site called Fyles Leaf Bed, which is less than 10 degrees of latitude from the magnetic North Pole.",
+            "NR: Honestly, it doesn't seem exciting, because it was a day of walking with a backpack, a GPS, and a notebook, and we were picking up anything that could be a fossil."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 8,
+        "src": "NR : Rouillé, de couleur rouge-rouille, grand comme la paume de ma main.",
+        "ref": "NR: Rusty, kind of rust-colored,  about the size of the palm of my hand.",
+        "hyp": "NR: Rusty, rust-red in color, as big as the palm of my hand.",
+        "rel_src": [
+            "Un jour d'été en 2006, elle était sur un site de fouille qui s'appelle Fyles Leaf Bed, qui est à moins de 10 degrés de latitude du pôle nord magnétique.",
+            "NR : Franchement ça n'a pas l'air passionnant, parce que c'était une journée de marche avec un sac à dos, un GPS et un carnet, et on ramassait tout ce qui pouvait être un fossile."
+        ],
+        "rel_tgt": [
+            "One summer day in 2006, she was at a dig site called Fyles Leaf Bed, which is less than 10 degrees of latitude from the magnetic North Pole.",
+            "NR: Honestly, it doesn't seem exciting, because it was a day of walking with a backpack, a GPS, and a notebook, and we were picking up anything that could be a fossil."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 9,
+        "src": "Il était juste posé sur le sol.",
+        "ref": "It was just lying on the surface.",
+        "hyp": "It was just lying on the ground.",
+        "rel_src": [
+            "Un jour d'été en 2006, elle était sur un site de fouille qui s'appelle Fyles Leaf Bed, qui est à moins de 10 degrés de latitude du pôle nord magnétique.",
+            "NR : Rouillé, de couleur rouge-rouille, grand comme la paume de ma main."
+        ],
+        "rel_tgt": [
+            "One summer day in 2006, she was at a dig site called Fyles Leaf Bed, which is less than 10 degrees of latitude from the magnetic North Pole.",
+            "NR: Rusty, rust-red in color, as big as the palm of my hand."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 10,
+        "src": "LN : Et au début, elle pensait que ce n'était qu'une écharde, comme celles trouvées au Fyles Leaf Bed auparavant- bouts de plantes préhistoriques.",
+        "ref": "LN: And at first she thought it was just a splinter of wood,  because that's the sort of thing people had found  at the Fyles Leaf Bed before -- prehistoric plant parts.",
+        "hyp": "LN: And at first, she thought it was just a splinter, like those found at the Fyles Leaf Bed before - pieces of prehistoric plants.",
+        "rel_src": [
+            "Un jour d'été en 2006, elle était sur un site de fouille qui s'appelle Fyles Leaf Bed, qui est à moins de 10 degrés de latitude du pôle nord magnétique.",
+            "NR : Rouillé, de couleur rouge-rouille, grand comme la paume de ma main."
+        ],
+        "rel_tgt": [
+            "One summer day in 2006, she was at a dig site called Fyles Leaf Bed, which is less than 10 degrees of latitude from the magnetic North Pole.",
+            "NR: Rusty, rust-red in color, as big as the palm of my hand."
+        ],
+        "hist_info": "\"Fyles Leaf Bed\" - \"Fyles Leaf Bed\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 11,
+        "src": "Mais ce soir-là, de retour au camp, ...",
+        "ref": "But that night, back at camp ...",
+        "hyp": "But that evening, back at the camp, ...",
+        "rel_src": [
+            "NR : Franchement ça n'a pas l'air passionnant, parce que c'était une journée de marche avec un sac à dos, un GPS et un carnet, et on ramassait tout ce qui pouvait être un fossile.",
+            "LN : Et à un moment donné, elle a remarqué quelque chose."
+        ],
+        "rel_tgt": [
+            "NR: Honestly, it doesn't seem exciting, because it was a day of walking with a backpack, a GPS, and a notebook, and we were picking up anything that could be a fossil.",
+            "LN: And at one point, she noticed something."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 12,
+        "src": "NR : ... Je sors une loupe, je le regarde de plus près et je me rends compte que ça n'a pas les anneaux de croissance d'un arbre.",
+        "ref": "NR: ... I get out the hand lens,  I'm looking a little bit more closely and realizing  it doesn't quite look like this has tree rings.",
+        "hyp": "NR: ... I take out a magnifying glass, I look at it more closely and I realize that it doesn't have the growth rings of a tree.",
+        "rel_src": [
+            "NR : Rouillé, de couleur rouge-rouille, grand comme la paume de ma main.",
+            "LN : Et au début, elle pensait que ce n'était qu'une écharde, comme celles trouvées au Fyles Leaf Bed auparavant- bouts de plantes préhistoriques."
+        ],
+        "rel_tgt": [
+            "NR: Rusty, rust-red in color, as big as the palm of my hand.",
+            "LN: And at first, she thought it was just a splinter, like those found at the Fyles Leaf Bed before - pieces of prehistoric plants."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 13,
+        "src": "C'est peut-être sa conservation, mais ça ressemble vraiment à...",
+        "ref": "Maybe it's a preservation thing,  but it looks really like ...",
+        "hyp": "It might be its preservation, but it really looks like...",
+        "rel_src": [
+            "NR : Rouillé, de couleur rouge-rouille, grand comme la paume de ma main.",
+            "NR : ... Je sors une loupe, je le regarde de plus près et je me rends compte que ça n'a pas les anneaux de croissance d'un arbre."
+        ],
+        "rel_tgt": [
+            "NR: Rusty, rust-red in color, as big as the palm of my hand.",
+            "NR: ... I take out a magnifying glass, I look at it more closely and I realize that it doesn't have the growth rings of a tree."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 14,
+        "src": "un os.",
+        "ref": "bone.",
+        "hyp": "a bone.",
+        "rel_src": [
+            "NR : Rouillé, de couleur rouge-rouille, grand comme la paume de ma main.",
+            "Il était juste posé sur le sol."
+        ],
+        "rel_tgt": [
+            "NR: Rusty, rust-red in color, as big as the palm of my hand.",
+            "It was just lying on the ground."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 15,
+        "src": "LN : Ainsi, durant les quatre années qui suivirent, elle retourna à maintes reprises à cet endroit, et au final elle a collecté 30 fragments du même os, la plupart très petits.",
+        "ref": "LN: Huh. So over the next four years,  she went to that spot over and over,  and eventually collected 30 fragments of that exact same bone,  most of them really tiny.",
+        "hyp": "LN: Thus, over the next four years, she returned to this place many times, and in the end she collected 30 fragments of the same bone, most of them very small.",
+        "rel_src": [
+            "Un jour d'été en 2006, elle était sur un site de fouille qui s'appelle Fyles Leaf Bed, qui est à moins de 10 degrés de latitude du pôle nord magnétique.",
+            "NR : Rouillé, de couleur rouge-rouille, grand comme la paume de ma main."
+        ],
+        "rel_tgt": [
+            "One summer day in 2006, she was at a dig site called Fyles Leaf Bed, which is less than 10 degrees of latitude from the magnetic North Pole.",
+            "NR: Rusty, rust-red in color, as big as the palm of my hand."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 16,
+        "src": "NR : Ce n'est pas tant que ça. Ça rentre dans un petit sachet plastique.",
+        "ref": "NR: It's not a whole lot. It fits in a small Ziploc bag.",
+        "hyp": "NR: It's not that much. It fits in a small plastic bag.",
+        "rel_src": [
+            "NR : Franchement ça n'a pas l'air passionnant, parce que c'était une journée de marche avec un sac à dos, un GPS et un carnet, et on ramassait tout ce qui pouvait être un fossile.",
+            "NR : Rouillé, de couleur rouge-rouille, grand comme la paume de ma main."
+        ],
+        "rel_tgt": [
+            "NR: Honestly, it doesn't seem exciting, because it was a day of walking with a backpack, a GPS, and a notebook, and we were picking up anything that could be a fossil.",
+            "NR: Rusty, rust-red in color, as big as the palm of my hand."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 17,
+        "src": "LN : Et elle a essayé de les assembler comme un puzzle.",
+        "ref": "LN: And she tried to piece them together like a jigsaw puzzle.",
+        "hyp": "LN: And she tried to assemble them like a puzzle.",
+        "rel_src": [
+            "LN : Ainsi, durant les quatre années qui suivirent, elle retourna à maintes reprises à cet endroit, et au final elle a collecté 30 fragments du même os, la plupart très petits.",
+            "NR : Ce n'est pas tant que ça. Ça rentre dans un petit sachet plastique."
+        ],
+        "rel_tgt": [
+            "LN: Thus, over the next four years, she returned to this place many times, and in the end she collected 30 fragments of the same bone, most of them very small.",
+            "NR: It's not that much. It fits in a small plastic bag."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 18,
+        "src": "Mais c'était stimulant.",
+        "ref": "But it was challenging.",
+        "hyp": "But it was stimulating.",
+        "rel_src": [
+            "NR : Franchement ça n'a pas l'air passionnant, parce que c'était une journée de marche avec un sac à dos, un GPS et un carnet, et on ramassait tout ce qui pouvait être un fossile.",
+            "NR : Ce n'est pas tant que ça. Ça rentre dans un petit sachet plastique."
+        ],
+        "rel_tgt": [
+            "NR: Honestly, it doesn't seem exciting, because it was a day of walking with a backpack, a GPS, and a notebook, and we were picking up anything that could be a fossil.",
+            "NR: It's not that much. It fits in a small plastic bag."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 19,
+        "src": "NR : C'est tout cassé en tellement de petites pièces, j'essaye avec sable et mastic, mais en vain.",
+        "ref": "NR: It's broken up into so many little tiny pieces,  I'm trying to use sand and putty, and it's not looking good.",
+        "hyp": "NR: It's all broken into so many small pieces, I try with sand and putty, but in vain.",
+        "new_src_summary": "Cet extrait raconte l'histoire de Natalia Rybczynski, une paléobiologiste travaillant dans la toundra isolée du Canada. Un jour, elle découvre un os fossilisé sur un site de fouille, ce qui la pousse à collecter 30 fragments de cet os au fil des années. Malgré les difficultés, elle tente de les assembler comme un puzzle, ce qui se révèle être un défi stimulant pour elle. Le ton est informatif et captivant, mettant en lumière le processus de découverte et de recherche en paléobiologie.",
+        "new_tgt_summary": "The paragraph discusses a story about paleobiologist Natalia Rybczynski, who works in the isolated tundra of Canada. While at a dig site near the North Pole, she discovered what she initially thought was a fossilized plant, but later realized was a bone. Over the next four years, she collected 30 fragments of the bone and attempted to assemble them like a puzzle, finding the process stimulating.",
+        "rel_src": [
+            "LN : Ainsi, durant les quatre années qui suivirent, elle retourna à maintes reprises à cet endroit, et au final elle a collecté 30 fragments du même os, la plupart très petits.",
+            "NR : Ce n'est pas tant que ça. Ça rentre dans un petit sachet plastique."
+        ],
+        "rel_tgt": [
+            "LN: Thus, over the next four years, she returned to this place many times, and in the end she collected 30 fragments of the same bone, most of them very small.",
+            "NR: It's not that much. It fits in a small plastic bag."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 20,
+        "src": "Donc finalement, on a utilisé un scanner de surface 3D.",
+        "ref": "So finally, we used a 3D surface scanner.",
+        "hyp": "So finally, a 3D surface scanner was used.",
+        "rel_src": [
+            "LN : Ainsi, durant les quatre années qui suivirent, elle retourna à maintes reprises à cet endroit, et au final elle a collecté 30 fragments du même os, la plupart très petits.",
+            "NR : C'est tout cassé en tellement de petites pièces, j'essaye avec sable et mastic, mais en vain."
+        ],
+        "rel_tgt": [
+            "LN: Thus, over the next four years, she returned to this place many times, and in the end she collected 30 fragments of the same bone, most of them very small.",
+            "NR: It's all broken into so many small pieces, I try with sand and putty, but in vain."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 21,
+        "src": "LN : Ooh!  NR : Oui, exactement.",
+        "ref": "LN: Ooh! NR: Yeah, right?",
+        "hyp": "LN: Ooh! NR: Yes, exactly.",
+        "rel_src": [
+            "Natalia Rybczynski : Oui, parfois, on m'a appelée « Dr Choses Mortes ».",
+            "LN : Et au début, elle pensait que ce n'était qu'une écharde, comme celles trouvées au Fyles Leaf Bed auparavant- bouts de plantes préhistoriques."
+        ],
+        "rel_tgt": [
+            "Natalia Rybczynski: Yes, sometimes I have been called \"Dr. Dead Things\".",
+            "LN: And at first, she thought it was just a splinter, like those found at the Fyles Leaf Bed before - pieces of prehistoric plants."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 22,
+        "src": "LN : Mais c'était plus facile de le faire virtuellement.",
+        "ref": "LN: It turns out it was way easier to do it virtually.",
+        "hyp": "LN: But it was easier to do it virtually.",
+        "rel_src": [
+            "Donc finalement, on a utilisé un scanner de surface 3D.",
+            "LN : Ooh!  NR : Oui, exactement."
+        ],
+        "rel_tgt": [
+            "So finally, a 3D surface scanner was used.",
+            "LN: Ooh! NR: Yes, exactly."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 23,
+        "src": "NR : C'est un peu magique quand tout s'assemble.",
+        "ref": "NR: It's kind of magical when it all fits together.",
+        "hyp": "NR: It's a bit magical when everything comes together.",
+        "rel_src": [
+            "Mais c'était stimulant.",
+            "LN : Mais c'était plus facile de le faire virtuellement."
+        ],
+        "rel_tgt": [
+            "But it was stimulating.",
+            "LN: But it was easier to do it virtually."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 24,
+        "src": "LN : Comment saviez-vous que c'était bon, qu'ils étaient assemblés comme il fallait ?",
+        "ref": "LN: How certain were you that you had it right,  that you had put it together in the right way?",
+        "hyp": "LN: How did you know it was right, that they were assembled correctly?",
+        "rel_src": [
+            "Donc finalement, on a utilisé un scanner de surface 3D.",
+            "LN : Mais c'était plus facile de le faire virtuellement."
+        ],
+        "rel_tgt": [
+            "So finally, a 3D surface scanner was used.",
+            "LN: But it was easier to do it virtually."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 25,
+        "src": "Est-ce qu'il aurait était possible de les assembler autrement pour avoir une perruche ou autre chose ?",
+        "ref": "Was there a potential that you'd put it together a different way  and have, like, a parakeet or something?",
+        "hyp": "Would it have been possible to assemble them differently to have a parakeet or something else?",
+        "rel_src": [
+            "LN : Et elle a essayé de les assembler comme un puzzle.",
+            "NR : C'est tout cassé en tellement de petites pièces, j'essaye avec sable et mastic, mais en vain."
+        ],
+        "rel_tgt": [
+            "LN: And she tried to assemble them like a puzzle.",
+            "NR: It's all broken into so many small pieces, I try with sand and putty, but in vain."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 26,
+        "src": "NR: Heu, non.  Non, ce ne pouvait êre que ça.",
+        "ref": "NR:  Um, no. No, we got this.",
+        "hyp": "NR: Um, no. No, it could only be that.",
+        "rel_src": [
+            "NR : Franchement ça n'a pas l'air passionnant, parce que c'était une journée de marche avec un sac à dos, un GPS et un carnet, et on ramassait tout ce qui pouvait être un fossile.",
+            "NR : ... Je sors une loupe, je le regarde de plus près et je me rends compte que ça n'a pas les anneaux de croissance d'un arbre."
+        ],
+        "rel_tgt": [
+            "NR: Honestly, it doesn't seem exciting, because it was a day of walking with a backpack, a GPS, and a notebook, and we were picking up anything that could be a fossil.",
+            "NR: ... I take out a magnifying glass, I look at it more closely and I realize that it doesn't have the growth rings of a tree."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 27,
+        "src": "LN: Elle a découvert que ce qu'elle avait, c'était un tibia, un os de la jambe, et précisément, l'os à un mammifère à sabots fourchus, donc quelque chose comme une vache ou un mouton.",
+        "ref": "LN: What she had, she discovered, was a tibia, a leg bone,  and specifically, one that belonged to a cloven-hoofed mammal,  so something like a cow or a sheep.",
+        "hyp": "LN: She discovered that what she had was a tibia, a leg bone, and specifically, the bone of a cloven-hoofed mammal, so something like a cow or a sheep.",
+        "rel_src": [
+            "un os.",
+            "LN : Ainsi, durant les quatre années qui suivirent, elle retourna à maintes reprises à cet endroit, et au final elle a collecté 30 fragments du même os, la plupart très petits."
+        ],
+        "rel_tgt": [
+            "a bone.",
+            "LN: Thus, over the next four years, she returned to this place many times, and in the end she collected 30 fragments of the same bone, most of them very small."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 28,
+        "src": "Mais ça ne pouvait pas être un de ceux-là.",
+        "ref": "But it couldn't have been either of those.",
+        "hyp": "But it couldn't be one of those.",
+        "rel_src": [
+            "NR: Heu, non.  Non, ce ne pouvait êre que ça.",
+            "LN: Elle a découvert que ce qu'elle avait, c'était un tibia, un os de la jambe, et précisément, l'os à un mammifère à sabots fourchus, donc quelque chose comme une vache ou un mouton."
+        ],
+        "rel_tgt": [
+            "NR: Um, no. No, it could only be that.",
+            "LN: She discovered that what she had was a tibia, a leg bone, and specifically, the bone of a cloven-hoofed mammal, so something like a cow or a sheep."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 29,
+        "src": "C'était juste trop grand.",
+        "ref": "It was just too big.",
+        "hyp": "It was just too big.",
+        "rel_src": [
+            "Il était juste posé sur le sol.",
+            "Mais ça ne pouvait pas être un de ceux-là."
+        ],
+        "rel_tgt": [
+            "It was just lying on the ground.",
+            "But it couldn't be one of those."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 30,
+        "src": "NR: La taille de ce truc était énorme. C'est un très grand animal.",
+        "ref": "NR: The size of this thing, it was huge. It's a really big animal.",
+        "hyp": "NR: The size of this thing was enormous. It's a very large animal.",
+        "rel_src": [
+            "LN: Elle a découvert que ce qu'elle avait, c'était un tibia, un os de la jambe, et précisément, l'os à un mammifère à sabots fourchus, donc quelque chose comme une vache ou un mouton.",
+            "C'était juste trop grand."
+        ],
+        "rel_tgt": [
+            "LN: She discovered that what she had was a tibia, a leg bone, and specifically, the bone of a cloven-hoofed mammal, so something like a cow or a sheep.",
+            "It was just too big."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 31,
+        "src": "LN: Donc, quel animal pouvait-il être ?",
+        "ref": "LN: So what animal could it be?",
+        "hyp": "LN: So, what animal could it be?",
+        "rel_src": [
+            "LN: Elle a découvert que ce qu'elle avait, c'était un tibia, un os de la jambe, et précisément, l'os à un mammifère à sabots fourchus, donc quelque chose comme une vache ou un mouton.",
+            "NR: La taille de ce truc était énorme. C'est un très grand animal."
+        ],
+        "rel_tgt": [
+            "LN: She discovered that what she had was a tibia, a leg bone, and specifically, the bone of a cloven-hoofed mammal, so something like a cow or a sheep.",
+            "NR: The size of this thing was enormous. It's a very large animal."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 32,
+        "src": "Dans l'impasse, elle a montré un des fragments à ses collègues dans le Colorado, et ils ont eu une idée.",
+        "ref": "Having hit a wall, she showed one of the fragments  to some colleagues of hers in Colorado,  and they had an idea.",
+        "hyp": "At a dead end, she showed one of the fragments to her colleagues in Colorado, and they had an idea.",
+        "rel_src": [
+            "LN : Ainsi, durant les quatre années qui suivirent, elle retourna à maintes reprises à cet endroit, et au final elle a collecté 30 fragments du même os, la plupart très petits.",
+            "LN: Elle a découvert que ce qu'elle avait, c'était un tibia, un os de la jambe, et précisément, l'os à un mammifère à sabots fourchus, donc quelque chose comme une vache ou un mouton."
+        ],
+        "rel_tgt": [
+            "LN: Thus, over the next four years, she returned to this place many times, and in the end she collected 30 fragments of the same bone, most of them very small.",
+            "LN: She discovered that what she had was a tibia, a leg bone, and specifically, the bone of a cloven-hoofed mammal, so something like a cow or a sheep."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado"
+        }
+    },
+    {
+        "idx": 33,
+        "src": "NR: On a pris une scie, et on a juste fait une entaille sur le bord, et il y avait cette odeur très intéressante qui s'en échappait.",
+        "ref": "NR: We took a saw, and we nicked just the edge of it,  and there was this really interesting smell that comes from it.",
+        "hyp": "NR: We took a saw, and just made a cut on the edge, and there was this very interesting smell coming out of it.",
+        "rel_src": [
+            "NR : Ce n'est pas tant que ça. Ça rentre dans un petit sachet plastique.",
+            "NR : C'est tout cassé en tellement de petites pièces, j'essaye avec sable et mastic, mais en vain."
+        ],
+        "rel_tgt": [
+            "NR: It's not that much. It fits in a small plastic bag.",
+            "NR: It's all broken into so many small pieces, I try with sand and putty, but in vain."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado"
+        }
+    },
+    {
+        "idx": 34,
+        "src": "LN: Ça sentait comme de la chair roussie.",
+        "ref": "LN: It smelled kind of like singed flesh.",
+        "hyp": "LN: It smelled like burnt flesh.",
+        "rel_src": [
+            "LN: Elle a découvert que ce qu'elle avait, c'était un tibia, un os de la jambe, et précisément, l'os à un mammifère à sabots fourchus, donc quelque chose comme une vache ou un mouton.",
+            "NR: On a pris une scie, et on a juste fait une entaille sur le bord, et il y avait cette odeur très intéressante qui s'en échappait."
+        ],
+        "rel_tgt": [
+            "LN: She discovered that what she had was a tibia, a leg bone, and specifically, the bone of a cloven-hoofed mammal, so something like a cow or a sheep.",
+            "NR: We took a saw, and just made a cut on the edge, and there was this very interesting smell coming out of it."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado"
+        }
+    },
+    {
+        "idx": 35,
+        "src": "C'était une odeur que Natalia a reconnue après avoir découpé pas mal de crânes dans son dégoûtant labo d'anatomie : collagène.",
+        "ref": "It was a smell that Natalia recognized  from cutting up skulls in her gross anatomy lab:  collagen.",
+        "hyp": "It was a smell that Natalia recognized after cutting a lot of skulls in her disgusting anatomy lab: collagen.",
+        "rel_src": [
+            "NR: On a pris une scie, et on a juste fait une entaille sur le bord, et il y avait cette odeur très intéressante qui s'en échappait.",
+            "LN: Ça sentait comme de la chair roussie."
+        ],
+        "rel_tgt": [
+            "NR: We took a saw, and just made a cut on the edge, and there was this very interesting smell coming out of it.",
+            "LN: It smelled like burnt flesh."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia"
+        }
+    },
+    {
+        "idx": 36,
+        "src": "Le collagène, c'est ce qui donne à nos os leur structure.",
+        "ref": "Collagen is what gives structure to our bones.",
+        "hyp": "Collagen is what gives our bones their structure.",
+        "rel_src": [
+            "LN: Elle a découvert que ce qu'elle avait, c'était un tibia, un os de la jambe, et précisément, l'os à un mammifère à sabots fourchus, donc quelque chose comme une vache ou un mouton.",
+            "LN: Ça sentait comme de la chair roussie."
+        ],
+        "rel_tgt": [
+            "LN: She discovered that what she had was a tibia, a leg bone, and specifically, the bone of a cloven-hoofed mammal, so something like a cow or a sheep.",
+            "LN: It smelled like burnt flesh."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia"
+        }
+    },
+    {
+        "idx": 37,
+        "src": "Et en général, après autant d'années, il se décompose.",
+        "ref": "And usually, after so many years,  it breaks down.",
+        "hyp": "And generally, after so many years, it decomposes.",
+        "rel_src": [
+            "NR : C'est tout cassé en tellement de petites pièces, j'essaye avec sable et mastic, mais en vain.",
+            "Le collagène, c'est ce qui donne à nos os leur structure."
+        ],
+        "rel_tgt": [
+            "NR: It's all broken into so many small pieces, I try with sand and putty, but in vain.",
+            "Collagen is what gives our bones their structure."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia"
+        }
+    },
+    {
+        "idx": 38,
+        "src": "Mais dans ce cas, l'Arctique avait agi comme un congélateur naturel et l'avait conservé.",
+        "ref": "But in this case, the Arctic had acted like a natural freezer and preserved it.",
+        "hyp": "But in this case, the Arctic had acted like a natural freezer and preserved it.",
+        "rel_src": [
+            "NR: On a pris une scie, et on a juste fait une entaille sur le bord, et il y avait cette odeur très intéressante qui s'en échappait.",
+            "C'était une odeur que Natalia a reconnue après avoir découpé pas mal de crânes dans son dégoûtant labo d'anatomie : collagène."
+        ],
+        "rel_tgt": [
+            "NR: We took a saw, and just made a cut on the edge, and there was this very interesting smell coming out of it.",
+            "It was a smell that Natalia recognized after cutting a lot of skulls in her disgusting anatomy lab: collagen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia"
+        }
+    },
+    {
+        "idx": 39,
+        "src": "Ensuite, un an ou deux plus tard, Natalia était à une conférence à Bristol, et elle a vu qu'un de ses collègues, Mike Buckley, était en train de présenter une nouvelle méthode appelée « l'empreinte collagène ».",
+        "ref": "Then a year or two later, Natalia was at a conference in Bristol,  and she saw that a colleague of hers named Mike Buckley  was demoing this new process that he called \"collagen fingerprinting.\"",
+        "hyp": "Then, a year or two later, Natalia was at a conference in Bristol, and she saw that one of her colleagues, Mike Buckley, was presenting a new method called \"collagen fingerprinting.\"",
+        "new_src_summary": "L'histoire de Natalia Rybczynski, paléobiologiste travaillant dans la toundra isolée du Canada, est racontée. Elle découvre un os fossilisé sur un site de fouille, collectant 30 fragments au fil des années pour les assembler comme un puzzle. Après avoir scanné en 3D un tibia d'un mammifère à sabots fourchus, probablement de grande taille, une odeur de collagène est dégagée, indiquant une conservation naturelle par l'Arctique. Le ton informatif et captivant met en lumière le processus de découverte et de recherche en paléobiologie.",
+        "new_tgt_summary": "Paleobiologist Natalia Rybczynski discovered a bone at a dig site near the North Pole, initially mistaking it for a fossilized plant. Over four years, she collected 30 bone fragments and used a 3D surface scanner to piece them together, identifying it as a tibia from a cloven-hoofed mammal. The bone, preserved in the Arctic, had a distinct smell of burnt flesh due to the presence of collagen, preserved in the natural freezer-like conditions of the Arctic. Rybczynski found the process of assembling the bone fragments like a puzzle to be stimulating.",
+        "rel_src": [
+            "C'était une odeur que Natalia a reconnue après avoir découpé pas mal de crânes dans son dégoûtant labo d'anatomie : collagène.",
+            "Le collagène, c'est ce qui donne à nos os leur structure."
+        ],
+        "rel_tgt": [
+            "It was a smell that Natalia recognized after cutting a lot of skulls in her disgusting anatomy lab: collagen.",
+            "Collagen is what gives our bones their structure."
+        ],
+        "hist_info": "\"Natalia\" - \"Natalia\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley"
+        }
+    },
+    {
+        "idx": 40,
+        "src": "Il s'avère que toutes les espèces ont des structures de collagène légèrement différentes, donc si on a le profil du collagène d'un os inconnu, on peut le comparer à celui d'espèces connues, et, qui sait, peut-être qu'ils correspondent.",
+        "ref": "It turns out that different species have slightly different structures  of collagen,  so if you get a collagen profile of an unknown bone,  you can compare it to those of known species,  and, who knows, maybe you get a match.",
+        "hyp": "It turns out that all species have slightly different collagen structures, so if we have the collagen profile of an unknown bone, we can compare it to that of known species, and, who knows, maybe they match.",
+        "rel_src": [
+            "C'était une odeur que Natalia a reconnue après avoir découpé pas mal de crânes dans son dégoûtant labo d'anatomie : collagène.",
+            "Le collagène, c'est ce qui donne à nos os leur structure."
+        ],
+        "rel_tgt": [
+            "It was a smell that Natalia recognized after cutting a lot of skulls in her disgusting anatomy lab: collagen.",
+            "Collagen is what gives our bones their structure."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley"
+        }
+    },
+    {
+        "idx": 41,
+        "src": "Donc elle lui a envoyé un des fragments, par FedEx.",
+        "ref": "So she shipped him one of the fragments,  FedEx.",
+        "hyp": "So she sent him one of the fragments, via FedEx.",
+        "rel_src": [
+            "Dans l'impasse, elle a montré un des fragments à ses collègues dans le Colorado, et ils ont eu une idée.",
+            "NR: On a pris une scie, et on a juste fait une entaille sur le bord, et il y avait cette odeur très intéressante qui s'en échappait."
+        ],
+        "rel_tgt": [
+            "At a dead end, she showed one of the fragments to her colleagues in Colorado, and they had an idea.",
+            "NR: We took a saw, and just made a cut on the edge, and there was this very interesting smell coming out of it."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley"
+        }
+    },
+    {
+        "idx": 42,
+        "src": "NR : Oui, on voulait le suivre. C'était assez important",
+        "ref": "NR: Yeah, you want to track it. It's kind of important.",
+        "hyp": "NR: Yes, we wanted to follow it. It was quite important.",
+        "rel_src": [
+            "NR: On a pris une scie, et on a juste fait une entaille sur le bord, et il y avait cette odeur très intéressante qui s'en échappait.",
+            "Ensuite, un an ou deux plus tard, Natalia était à une conférence à Bristol, et elle a vu qu'un de ses collègues, Mike Buckley, était en train de présenter une nouvelle méthode appelée « l'empreinte collagène »."
+        ],
+        "rel_tgt": [
+            "NR: We took a saw, and just made a cut on the edge, and there was this very interesting smell coming out of it.",
+            "Then, a year or two later, Natalia was at a conference in Bristol, and she saw that one of her colleagues, Mike Buckley, was presenting a new method called \"collagen fingerprinting.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley"
+        }
+    },
+    {
+        "idx": 43,
+        "src": "LN: Il l'a étudié, et il l'a comparé à 37 espèces de mammifères modernes connues.",
+        "ref": "LN: And he processed it,  and compared it to 37 known and modern-day mammal species.",
+        "hyp": "LN: He studied it, and compared it to 37 known modern mammal species.",
+        "rel_src": [
+            "Ensuite, un an ou deux plus tard, Natalia était à une conférence à Bristol, et elle a vu qu'un de ses collègues, Mike Buckley, était en train de présenter une nouvelle méthode appelée « l'empreinte collagène ».",
+            "Il s'avère que toutes les espèces ont des structures de collagène légèrement différentes, donc si on a le profil du collagène d'un os inconnu, on peut le comparer à celui d'espèces connues, et, qui sait, peut-être qu'ils correspondent."
+        ],
+        "rel_tgt": [
+            "Then, a year or two later, Natalia was at a conference in Bristol, and she saw that one of her colleagues, Mike Buckley, was presenting a new method called \"collagen fingerprinting.\"",
+            "It turns out that all species have slightly different collagen structures, so if we have the collagen profile of an unknown bone, we can compare it to that of known species, and, who knows, maybe they match."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley"
+        }
+    },
+    {
+        "idx": 44,
+        "src": "Et il a trouvé une correspondance.",
+        "ref": "And he found a match.",
+        "hyp": "And he found a match.",
+        "rel_src": [
+            "Ensuite, un an ou deux plus tard, Natalia était à une conférence à Bristol, et elle a vu qu'un de ses collègues, Mike Buckley, était en train de présenter une nouvelle méthode appelée « l'empreinte collagène ».",
+            "Il s'avère que toutes les espèces ont des structures de collagène légèrement différentes, donc si on a le profil du collagène d'un os inconnu, on peut le comparer à celui d'espèces connues, et, qui sait, peut-être qu'ils correspondent."
+        ],
+        "rel_tgt": [
+            "Then, a year or two later, Natalia was at a conference in Bristol, and she saw that one of her colleagues, Mike Buckley, was presenting a new method called \"collagen fingerprinting.\"",
+            "It turns out that all species have slightly different collagen structures, so if we have the collagen profile of an unknown bone, we can compare it to that of known species, and, who knows, maybe they match."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley"
+        }
+    },
+    {
+        "idx": 45,
+        "src": "Il se trouve que l'os vieux de 3,5 millions d'années que Natalia a déterré du Haut-Arctique appartenait à...",
+        "ref": "It turns out that the 3.5 million-year-old bone  that Natalia had dug out of the High Arctic  belonged to ...",
+        "hyp": "It turns out that the 3.5 million-year-old bone that Natalia unearthed from the High Arctic belonged to...",
+        "rel_src": [
+            "Ensuite, un an ou deux plus tard, Natalia était à une conférence à Bristol, et elle a vu qu'un de ses collègues, Mike Buckley, était en train de présenter une nouvelle méthode appelée « l'empreinte collagène ».",
+            "Il s'avère que toutes les espèces ont des structures de collagène légèrement différentes, donc si on a le profil du collagène d'un os inconnu, on peut le comparer à celui d'espèces connues, et, qui sait, peut-être qu'ils correspondent."
+        ],
+        "rel_tgt": [
+            "Then, a year or two later, Natalia was at a conference in Bristol, and she saw that one of her colleagues, Mike Buckley, was presenting a new method called \"collagen fingerprinting.\"",
+            "It turns out that all species have slightly different collagen structures, so if we have the collagen profile of an unknown bone, we can compare it to that of known species, and, who knows, maybe they match."
+        ],
+        "hist_info": "\"Natalia\" - \"Natalia\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic"
+        }
+    },
+    {
+        "idx": 46,
+        "src": "un chameau.",
+        "ref": "a camel.",
+        "hyp": "a camel.",
+        "rel_src": [
+            "LN: Elle a découvert que ce qu'elle avait, c'était un tibia, un os de la jambe, et précisément, l'os à un mammifère à sabots fourchus, donc quelque chose comme une vache ou un mouton.",
+            "Mais ça ne pouvait pas être un de ceux-là."
+        ],
+        "rel_tgt": [
+            "LN: She discovered that what she had was a tibia, a leg bone, and specifically, the bone of a cloven-hoofed mammal, so something like a cow or a sheep.",
+            "But it couldn't be one of those."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic"
+        }
+    },
+    {
+        "idx": 47,
+        "src": "NR : Et je me disais : « C'est génial -- si c'est vrai. »",
+        "ref": "NR: And I'm thinking, what? That's amazing -- if it's true.",
+        "hyp": "NR: And I was thinking, \"This is great - if it's true.\"",
+        "rel_src": [
+            "NR : Oui, on voulait le suivre. C'était assez important",
+            "Il se trouve que l'os vieux de 3,5 millions d'années que Natalia a déterré du Haut-Arctique appartenait à..."
+        ],
+        "rel_tgt": [
+            "NR: Yes, we wanted to follow it. It was quite important.",
+            "It turns out that the 3.5 million-year-old bone that Natalia unearthed from the High Arctic belonged to..."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic"
+        }
+    },
+    {
+        "idx": 48,
+        "src": "LN : Ils ont testé plusieurs fragments et ils ont eu le même résultat à chaque fois.",
+        "ref": "LN: So they tested a bunch of the fragments,  and they got the same result for each one.",
+        "hyp": "LN: They tested several fragments and got the same result each time.",
+        "rel_src": [
+            "LN: Il l'a étudié, et il l'a comparé à 37 espèces de mammifères modernes connues.",
+            "Et il a trouvé une correspondance."
+        ],
+        "rel_tgt": [
+            "LN: He studied it, and compared it to 37 known modern mammal species.",
+            "And he found a match."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic"
+        }
+    },
+    {
+        "idx": 49,
+        "src": "Toutefois, en se basant sur la taille de l'os qu'ils avaient trouvé, ce chameau semblait être 30% plus grand que les chameaux modernes.",
+        "ref": "However, based on the size of the bone that they found,  it meant that this camel was 30 percent larger than modern-day camels.",
+        "hyp": "However, based on the size of the bone they had found, this camel appeared to be 30% larger than modern camels.",
+        "rel_src": [
+            "NR: La taille de ce truc était énorme. C'est un très grand animal.",
+            "Il se trouve que l'os vieux de 3,5 millions d'années que Natalia a déterré du Haut-Arctique appartenait à..."
+        ],
+        "rel_tgt": [
+            "NR: The size of this thing was enormous. It's a very large animal.",
+            "It turns out that the 3.5 million-year-old bone that Natalia unearthed from the High Arctic belonged to..."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic"
+        }
+    },
+    {
+        "idx": 50,
+        "src": "Donc ce chameau aurait fait presque 2,80 mètres, et pesé près d'une tonne.",
+        "ref": "So this camel would have been about nine feet tall,  weighed around a ton.",
+        "hyp": "So this camel would have been almost 2.80 meters tall and weighed nearly a ton.",
+        "rel_src": [
+            "LN : Ils ont testé plusieurs fragments et ils ont eu le même résultat à chaque fois.",
+            "Toutefois, en se basant sur la taille de l'os qu'ils avaient trouvé, ce chameau semblait être 30% plus grand que les chameaux modernes."
+        ],
+        "rel_tgt": [
+            "LN: They tested several fragments and got the same result each time.",
+            "However, based on the size of the bone they had found, this camel appeared to be 30% larger than modern camels."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic"
+        }
+    },
+    {
+        "idx": 51,
+        "src": "Et oui.",
+        "ref": "Yeah.",
+        "hyp": "And yes.",
+        "rel_src": [
+            "un chameau.",
+            "NR : Et je me disais : « C'est génial -- si c'est vrai. »"
+        ],
+        "rel_tgt": [
+            "a camel.",
+            "NR: And I was thinking, \"This is great - if it's true.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic"
+        }
+    },
+    {
+        "idx": 52,
+        "src": "Natalia avait trouvé un chameau arctique géant.",
+        "ref": "Natalia had found a Giant Arctic camel.",
+        "hyp": "Natalia had found a giant Arctic camel.",
+        "rel_src": [
+            "Il se trouve que l'os vieux de 3,5 millions d'années que Natalia a déterré du Haut-Arctique appartenait à...",
+            "Toutefois, en se basant sur la taille de l'os qu'ils avaient trouvé, ce chameau semblait être 30% plus grand que les chameaux modernes."
+        ],
+        "rel_tgt": [
+            "It turns out that the 3.5 million-year-old bone that Natalia unearthed from the High Arctic belonged to...",
+            "However, based on the size of the bone they had found, this camel appeared to be 30% larger than modern camels."
+        ],
+        "hist_info": "\"Natalia\" - \"Natalia\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic"
+        }
+    },
+    {
+        "idx": 53,
+        "src": "Bon, quand vous entendez le mot « chameau », ce qui devrait vous venir à l'esprit, c'est un de ceux-là, le chameau de Bactriane de l'Est et du Centre de l'Asie.",
+        "ref": "Now, when you hear the word \"camel,\"  what may come to mind is one of these,  the Bactrian camel of East and Central Asia.",
+        "hyp": "Well, when you hear the word \"camel,\" what should come to mind is one of those, the East and Central Asian Bactrian camel.",
+        "rel_src": [
+            "Il se trouve que l'os vieux de 3,5 millions d'années que Natalia a déterré du Haut-Arctique appartenait à...",
+            "Natalia avait trouvé un chameau arctique géant."
+        ],
+        "rel_tgt": [
+            "It turns out that the 3.5 million-year-old bone that Natalia unearthed from the High Arctic belonged to...",
+            "Natalia had found a giant Arctic camel."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia"
+        }
+    },
+    {
+        "idx": 54,
+        "src": "Mais il est possible que vous ayez en tête une image de carte postale comme celle-là, le dromadaire, l'animal typique du désert -- qui vit dans le sable des endroits chauds, comme le Moyen-Orient ou le Sahara, avec une grosse bosse sur le dos où il stocke l'eau pour ses méharées, et avec des pieds gros et larges qui l'aident à gravir les dunes de sable.",
+        "ref": "But chances are the postcard image you have in your brain  is one of these, the dromedary,  quintessential desert creature --  hangs out in sandy, hot places like the Middle East and the Sahara,  has a big old hump on its back  for storing water for those long desert treks,  has big, broad feet to help it tromp over sand dunes.",
+        "hyp": "But it is possible that you have in mind a postcard-like image like this one, the dromedary, the typical animal of the desert - which lives in the sand of hot places, like the Middle East or the Sahara, with a large hump on its back where it stores water for its caravans, and with big, wide feet that help it climb sand dunes.",
+        "rel_src": [
+            "Natalia avait trouvé un chameau arctique géant.",
+            "Bon, quand vous entendez le mot « chameau », ce qui devrait vous venir à l'esprit, c'est un de ceux-là, le chameau de Bactriane de l'Est et du Centre de l'Asie."
+        ],
+        "rel_tgt": [
+            "Natalia had found a giant Arctic camel.",
+            "Well, when you hear the word \"camel,\" what should come to mind is one of those, the East and Central Asian Bactrian camel."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara"
+        }
+    },
+    {
+        "idx": 55,
+        "src": "Donc, comment s’explique-t-on que l'un d'eux ait fini dans l'Extrême Arctique ?",
+        "ref": "So how on earth would one of these guys end up in the High Arctic?",
+        "hyp": "So, how do we explain that one of them ended up in the Far Arctic?",
+        "rel_src": [
+            "Mais dans ce cas, l'Arctique avait agi comme un congélateur naturel et l'avait conservé.",
+            "Natalia avait trouvé un chameau arctique géant."
+        ],
+        "rel_tgt": [
+            "But in this case, the Arctic had acted like a natural freezer and preserved it.",
+            "Natalia had found a giant Arctic camel."
+        ],
+        "hist_info": "\"Arctique\" - \"Arctic\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara"
+        }
+    },
+    {
+        "idx": 56,
+        "src": "En fait, les scientifiques savaient depuis longtemps, même avant la découverte de Natalia, qu'à l'origine les chameaux sont Américains.",
+        "ref": "Well, scientists have known for a long time, turns out,  even before Natalia's discovery,  that camels are actually originally American.",
+        "hyp": "In fact, scientists had known for a long time, even before Natalia's discovery, that camels are originally American.",
+        "rel_src": [
+            "Bon, quand vous entendez le mot « chameau », ce qui devrait vous venir à l'esprit, c'est un de ceux-là, le chameau de Bactriane de l'Est et du Centre de l'Asie.",
+            "Donc, comment s’explique-t-on que l'un d'eux ait fini dans l'Extrême Arctique ?"
+        ],
+        "rel_tgt": [
+            "Well, when you hear the word \"camel,\" what should come to mind is one of those, the East and Central Asian Bactrian camel.",
+            "So, how do we explain that one of them ended up in the Far Arctic?"
+        ],
+        "hist_info": "\"Natalia\" - \"Natalia\", \"chameau\" - \"camel\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American"
+        }
+    },
+    {
+        "idx": 57,
+        "src": "Ils ont commencé ici.",
+        "ref": "They started here.",
+        "hyp": "They started here.",
+        "rel_src": [
+            "Il se trouve que l'os vieux de 3,5 millions d'années que Natalia a déterré du Haut-Arctique appartenait à...",
+            "En fait, les scientifiques savaient depuis longtemps, même avant la découverte de Natalia, qu'à l'origine les chameaux sont Américains."
+        ],
+        "rel_tgt": [
+            "It turns out that the 3.5 million-year-old bone that Natalia unearthed from the High Arctic belonged to...",
+            "In fact, scientists had known for a long time, even before Natalia's discovery, that camels are originally American."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American"
+        }
+    },
+    {
+        "idx": 58,
+        "src": "Pendant 40 des 45 millions d'années depuis que les chameaux existent, on pouvait en trouver qu'en Amérique du Nord, environ 20 espèces différentes, peut-être plus.",
+        "ref": "For nearly 40 of the 45 million years that camels have been around,  you could only find them in North America,  around 20 different species, maybe more.",
+        "hyp": "For 40 of the 45 million years since camels have existed, they could only be found in North America, with around 20 different species, perhaps more.",
+        "rel_src": [
+            "En fait, les scientifiques savaient depuis longtemps, même avant la découverte de Natalia, qu'à l'origine les chameaux sont Américains.",
+            "Ils ont commencé ici."
+        ],
+        "rel_tgt": [
+            "In fact, scientists had known for a long time, even before Natalia's discovery, that camels are originally American.",
+            "They started here."
+        ],
+        "hist_info": "\"chameau\" - \"camel\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American"
+        }
+    },
+    {
+        "idx": 59,
+        "src": "Si on les alignait toutes, verrait-on des différences ?",
+        "ref": "LN: If I put them all in a lineup, would they look different?",
+        "hyp": "If we lined them all up, would we see any differences?",
+        "new_src_summary": "Natalia Rybczynski, une paléobiologiste travaillant dans la toundra isolée du Canada, découvre un os fossilisé de chameau géant vieux de 3,5 millions d'années. En utilisant une méthode innovante appelée « l'empreinte collagène », elle confirme l'identification de l'espèce. Le processus de découverte et de recherche en paléobiologie est mis en lumière, avec une odeur de collagène dégagée du tibia d'un mammifère à sabots fourchus, indiquant une conservation naturelle par l'Arctique. Les chameaux étaient originellement américains et ont évolué en Amérique du Nord avant de se disperser dans d'autres régions du monde. Le ton informatif et captivant souligne l'importance de ces découvertes dans notre compréhension de l'évolution des espèces.",
+        "new_tgt_summary": "Paleobiologist Natalia Rybczynski discovered a 3.5 million-year-old camel bone in the High Arctic, initially mistaking it for a fossilized plant. Over four years, she collected and assembled 30 bone fragments using a 3D surface scanner, identifying it as a tibia from a cloven-hoofed mammal. Through collagen fingerprinting, she confirmed it belonged to a camel, which was 30% larger than modern camels. The bone, preserved in the Arctic, had a distinct smell of burnt flesh due to the presence of collagen, challenging the common perception of camels as desert animals and revealing their North American origin.",
+        "rel_src": [
+            "Il s'avère que toutes les espèces ont des structures de collagène légèrement différentes, donc si on a le profil du collagène d'un os inconnu, on peut le comparer à celui d'espèces connues, et, qui sait, peut-être qu'ils correspondent.",
+            "LN: Il l'a étudié, et il l'a comparé à 37 espèces de mammifères modernes connues."
+        ],
+        "rel_tgt": [
+            "It turns out that all species have slightly different collagen structures, so if we have the collagen profile of an unknown bone, we can compare it to that of known species, and, who knows, maybe they match.",
+            "LN: He studied it, and compared it to 37 known modern mammal species."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American"
+        }
+    },
+    {
+        "idx": 60,
+        "src": "NR : Oui, les corps auront des tailles différentes.",
+        "ref": "NR: Yeah, you're going to have different body sizes.",
+        "hyp": "NR: Yes, the bodies will have different sizes.",
+        "rel_src": [
+            "Toutefois, en se basant sur la taille de l'os qu'ils avaient trouvé, ce chameau semblait être 30% plus grand que les chameaux modernes.",
+            "Donc ce chameau aurait fait presque 2,80 mètres, et pesé près d'une tonne."
+        ],
+        "rel_tgt": [
+            "However, based on the size of the bone they had found, this camel appeared to be 30% larger than modern camels.",
+            "So this camel would have been almost 2.80 meters tall and weighed nearly a ton."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American"
+        }
+    },
+    {
+        "idx": 61,
+        "src": "Tu vas en avoir avec de très longs cous, qui seront en fait comme des girafes.",
+        "ref": "You'll have some with really long necks,  so they're actually functionally like giraffes.",
+        "hyp": "You will have some with very long necks, which will actually be like giraffes.",
+        "rel_src": [
+            "Natalia avait trouvé un chameau arctique géant.",
+            "Bon, quand vous entendez le mot « chameau », ce qui devrait vous venir à l'esprit, c'est un de ceux-là, le chameau de Bactriane de l'Est et du Centre de l'Asie."
+        ],
+        "rel_tgt": [
+            "Natalia had found a giant Arctic camel.",
+            "Well, when you hear the word \"camel,\" what should come to mind is one of those, the East and Central Asian Bactrian camel."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American"
+        }
+    },
+    {
+        "idx": 62,
+        "src": "LN : Certains avaient des gueules, comme des crocodiles.",
+        "ref": "LN: Some had snouts, like crocodiles.",
+        "hyp": "LN: Some had jaws, like crocodiles.",
+        "rel_src": [
+            "Mais il est possible que vous ayez en tête une image de carte postale comme celle-là, le dromadaire, l'animal typique du désert -- qui vit dans le sable des endroits chauds, comme le Moyen-Orient ou le Sahara, avec une grosse bosse sur le dos où il stocke l'eau pour ses méharées, et avec des pieds gros et larges qui l'aident à gravir les dunes de sable.",
+            "Pendant 40 des 45 millions d'années depuis que les chameaux existent, on pouvait en trouver qu'en Amérique du Nord, environ 20 espèces différentes, peut-être plus."
+        ],
+        "rel_tgt": [
+            "But it is possible that you have in mind a postcard-like image like this one, the dromedary, the typical animal of the desert - which lives in the sand of hot places, like the Middle East or the Sahara, with a large hump on its back where it stores water for its caravans, and with big, wide feet that help it climb sand dunes.",
+            "For 40 of the 45 million years since camels have existed, they could only be found in North America, with around 20 different species, perhaps more."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American"
+        }
+    },
+    {
+        "idx": 63,
+        "src": "NR : Les plus primitifs auraient été très petits, presque comme des lapins.",
+        "ref": "NR: The really primitive, early ones would have been really small,  almost like rabbits.",
+        "hyp": "NR: The most primitive ones would have been very small, almost like rabbits.",
+        "rel_src": [
+            "En fait, les scientifiques savaient depuis longtemps, même avant la découverte de Natalia, qu'à l'origine les chameaux sont Américains.",
+            "Pendant 40 des 45 millions d'années depuis que les chameaux existent, on pouvait en trouver qu'en Amérique du Nord, environ 20 espèces différentes, peut-être plus."
+        ],
+        "rel_tgt": [
+            "In fact, scientists had known for a long time, even before Natalia's discovery, that camels are originally American.",
+            "For 40 of the 45 million years since camels have existed, they could only be found in North America, with around 20 different species, perhaps more."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American"
+        }
+    },
+    {
+        "idx": 64,
+        "src": "LN : Quoi ? Des chameaux de la taille d'un lapin ?",
+        "ref": "LN: What? Rabbit-sized camels?",
+        "hyp": "LN: What? Camels the size of a rabbit?",
+        "rel_src": [
+            "LN : Certains avaient des gueules, comme des crocodiles.",
+            "NR : Les plus primitifs auraient été très petits, presque comme des lapins."
+        ],
+        "rel_tgt": [
+            "LN: Some had jaws, like crocodiles.",
+            "NR: The most primitive ones would have been very small, almost like rabbits."
+        ],
+        "hist_info": "\"chameau\" - \"camel\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American"
+        }
+    },
+    {
+        "idx": 65,
+        "src": "NR : Les plus anciens.",
+        "ref": "NR: The earliest ones.",
+        "hyp": "NR: The oldest.",
+        "rel_src": [
+            "En fait, les scientifiques savaient depuis longtemps, même avant la découverte de Natalia, qu'à l'origine les chameaux sont Américains.",
+            "Ils ont commencé ici."
+        ],
+        "rel_tgt": [
+            "In fact, scientists had known for a long time, even before Natalia's discovery, that camels are originally American.",
+            "They started here."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American"
+        }
+    },
+    {
+        "idx": 66,
+        "src": "Donc probablement tu ne les reconnaîtrais pas.",
+        "ref": "So those ones you probably would not recognize.",
+        "hyp": "So you probably wouldn't recognize them.",
+        "rel_src": [
+            "Mais il est possible que vous ayez en tête une image de carte postale comme celle-là, le dromadaire, l'animal typique du désert -- qui vit dans le sable des endroits chauds, comme le Moyen-Orient ou le Sahara, avec une grosse bosse sur le dos où il stocke l'eau pour ses méharées, et avec des pieds gros et larges qui l'aident à gravir les dunes de sable.",
+            "Donc, comment s’explique-t-on que l'un d'eux ait fini dans l'Extrême Arctique ?"
+        ],
+        "rel_tgt": [
+            "But it is possible that you have in mind a postcard-like image like this one, the dromedary, the typical animal of the desert - which lives in the sand of hot places, like the Middle East or the Sahara, with a large hump on its back where it stores water for its caravans, and with big, wide feet that help it climb sand dunes.",
+            "So, how do we explain that one of them ended up in the Far Arctic?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American"
+        }
+    },
+    {
+        "idx": 67,
+        "src": "LN : Bon sang, je veux un lapin-chameau.",
+        "ref": "LN: Oh my God, I want a pet rabbit-camel.",
+        "hyp": "LN: Good Lord, I want a rabbit-camel.",
+        "rel_src": [
+            "LN : Quoi ? Des chameaux de la taille d'un lapin ?",
+            "Donc probablement tu ne les reconnaîtrais pas."
+        ],
+        "rel_tgt": [
+            "LN: What? Camels the size of a rabbit?",
+            "So you probably wouldn't recognize them."
+        ],
+        "hist_info": "\"chameau\" - \"camel\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American"
+        }
+    },
+    {
+        "idx": 68,
+        "src": "NR : Je sais, ça serait génial.",
+        "ref": "NR: I know, wouldn't that be great?",
+        "hyp": "NR: I know, that would be great.",
+        "rel_src": [
+            "NR : Oui, les corps auront des tailles différentes.",
+            "Tu vas en avoir avec de très longs cous, qui seront en fait comme des girafes."
+        ],
+        "rel_tgt": [
+            "NR: Yes, the bodies will have different sizes.",
+            "You will have some with very long necks, which will actually be like giraffes."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American"
+        }
+    },
+    {
+        "idx": 69,
+        "src": "LN : Et il y a trois à sept millions d'années, une branche de chameaux est descendue en Amérique du Sud, où ils sont devenus les lamas et les alpagas, et une autre branche a traversé la langue de terre du Bering jusqu'en Asie et en Afrique.",
+        "ref": "LN: And then about three to seven million years ago,  one branch of camels went down to South America,  where they became llamas and alpacas,  and another branch crossed over the Bering Land Bridge  into Asia and Africa.",
+        "hyp": "LN: And three to seven million years ago, a branch of camels descended into South America, where they became llamas and alpacas, and another branch crossed the Bering land bridge to Asia and Africa.",
+        "rel_src": [
+            "En fait, les scientifiques savaient depuis longtemps, même avant la découverte de Natalia, qu'à l'origine les chameaux sont Américains.",
+            "Pendant 40 des 45 millions d'années depuis que les chameaux existent, on pouvait en trouver qu'en Amérique du Nord, environ 20 espèces différentes, peut-être plus."
+        ],
+        "rel_tgt": [
+            "In fact, scientists had known for a long time, even before Natalia's discovery, that camels are originally American.",
+            "For 40 of the 45 million years since camels have existed, they could only be found in North America, with around 20 different species, perhaps more."
+        ],
+        "hist_info": "\"chameau\" - \"camel\", \"Asie\" - \"Asia\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa"
+        }
+    },
+    {
+        "idx": 70,
+        "src": "Et à la fin de la dernière période glaciaire, les chameaux nord-américains se sont éteints.",
+        "ref": "And then around the end of the last ice age,  North American camels went extinct.",
+        "hyp": "And at the end of the last glacial period, North American camels became extinct.",
+        "rel_src": [
+            "En fait, les scientifiques savaient depuis longtemps, même avant la découverte de Natalia, qu'à l'origine les chameaux sont Américains.",
+            "LN : Et il y a trois à sept millions d'années, une branche de chameaux est descendue en Amérique du Sud, où ils sont devenus les lamas et les alpagas, et une autre branche a traversé la langue de terre du Bering jusqu'en Asie et en Afrique."
+        ],
+        "rel_tgt": [
+            "In fact, scientists had known for a long time, even before Natalia's discovery, that camels are originally American.",
+            "LN: And three to seven million years ago, a branch of camels descended into South America, where they became llamas and alpacas, and another branch crossed the Bering land bridge to Asia and Africa."
+        ],
+        "hist_info": "\"chameau\" - \"camel\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels"
+        }
+    },
+    {
+        "idx": 71,
+        "src": "Donc les scientifiques savaient déjà tout cela, mais ça n'explique pas vraiment pourquoi Natalia en ait trouvé un si loin au Nord.",
+        "ref": "So, scientists knew all of that already,  but it still doesn't fully explain how Natalia found one so far north.",
+        "hyp": "So scientists already knew all of this, but that doesn't really explain why Natalia found one so far north.",
+        "rel_src": [
+            "Donc, comment s’explique-t-on que l'un d'eux ait fini dans l'Extrême Arctique ?",
+            "En fait, les scientifiques savaient depuis longtemps, même avant la découverte de Natalia, qu'à l'origine les chameaux sont Américains."
+        ],
+        "rel_tgt": [
+            "So, how do we explain that one of them ended up in the Far Arctic?",
+            "In fact, scientists had known for a long time, even before Natalia's discovery, that camels are originally American."
+        ],
+        "hist_info": "\"Natalia\" - \"Natalia\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels"
+        }
+    },
+    {
+        "idx": 72,
+        "src": "Parce que, au plan de la température, c'est exactement l'opposé du Sahara.",
+        "ref": "Like, this is, temperature-wise, the polar opposite of the Sahara.",
+        "hyp": "Because, in terms of temperature, it is exactly the opposite of the Sahara.",
+        "rel_src": [
+            "Mais il est possible que vous ayez en tête une image de carte postale comme celle-là, le dromadaire, l'animal typique du désert -- qui vit dans le sable des endroits chauds, comme le Moyen-Orient ou le Sahara, avec une grosse bosse sur le dos où il stocke l'eau pour ses méharées, et avec des pieds gros et larges qui l'aident à gravir les dunes de sable.",
+            "Donc, comment s’explique-t-on que l'un d'eux ait fini dans l'Extrême Arctique ?"
+        ],
+        "rel_tgt": [
+            "But it is possible that you have in mind a postcard-like image like this one, the dromedary, the typical animal of the desert - which lives in the sand of hot places, like the Middle East or the Sahara, with a large hump on its back where it stores water for its caravans, and with big, wide feet that help it climb sand dunes.",
+            "So, how do we explain that one of them ended up in the Far Arctic?"
+        ],
+        "hist_info": "\"Sahara\" - \"Sahara\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels"
+        }
+    },
+    {
+        "idx": 73,
+        "src": "Pour être franc, il y a 3 millions et demi d'années, la température moyenne était 22°C plus chaude qu'aujourdh'hui.",
+        "ref": "Now to be fair,  three and a half million years ago,  it was on average 22 degrees Celsius warmer than it is now.",
+        "hyp": "To be frank, 3.5 million years ago, the average temperature was 22°C warmer than today.",
+        "rel_src": [
+            "LN : Et il y a trois à sept millions d'années, une branche de chameaux est descendue en Amérique du Sud, où ils sont devenus les lamas et les alpagas, et une autre branche a traversé la langue de terre du Bering jusqu'en Asie et en Afrique.",
+            "Parce que, au plan de la température, c'est exactement l'opposé du Sahara."
+        ],
+        "rel_tgt": [
+            "LN: And three to seven million years ago, a branch of camels descended into South America, where they became llamas and alpacas, and another branch crossed the Bering land bridge to Asia and Africa.",
+            "Because, in terms of temperature, it is exactly the opposite of the Sahara."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels"
+        }
+    },
+    {
+        "idx": 74,
+        "src": "Donc il y aurait eu une forêt boréale, plus comme le Yukon ou la Sibérie d'aujourd'hui.",
+        "ref": "So it would have been boreal forest,  so more like the Yukon or Siberia today.",
+        "hyp": "So there would have been a boreal forest, more like the Yukon or Siberia today.",
+        "rel_src": [
+            "LN : Et il y a trois à sept millions d'années, une branche de chameaux est descendue en Amérique du Sud, où ils sont devenus les lamas et les alpagas, et une autre branche a traversé la langue de terre du Bering jusqu'en Asie et en Afrique.",
+            "Parce que, au plan de la température, c'est exactement l'opposé du Sahara."
+        ],
+        "rel_tgt": [
+            "LN: And three to seven million years ago, a branch of camels descended into South America, where they became llamas and alpacas, and another branch crossed the Bering land bridge to Asia and Africa.",
+            "Because, in terms of temperature, it is exactly the opposite of the Sahara."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 75,
+        "src": "Mais quand même, ils auraient eu des hivers qui duraient 6 mois pendant lesquels les étangs étaient gelés.",
+        "ref": "But still, like, they would have six-month-long winters  where the ponds would freeze over.",
+        "hyp": "But still, they would have had winters that lasted 6 months during which the ponds were frozen.",
+        "rel_src": [
+            "Parce que, au plan de la température, c'est exactement l'opposé du Sahara.",
+            "Donc il y aurait eu une forêt boréale, plus comme le Yukon ou la Sibérie d'aujourd'hui."
+        ],
+        "rel_tgt": [
+            "Because, in terms of temperature, it is exactly the opposite of the Sahara.",
+            "So there would have been a boreal forest, more like the Yukon or Siberia today."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 76,
+        "src": "Il y aurait eu des blizzards.",
+        "ref": "You'd have blizzards.",
+        "hyp": "There would have been blizzards.",
+        "rel_src": [
+            "Donc il y aurait eu une forêt boréale, plus comme le Yukon ou la Sibérie d'aujourd'hui.",
+            "Mais quand même, ils auraient eu des hivers qui duraient 6 mois pendant lesquels les étangs étaient gelés."
+        ],
+        "rel_tgt": [
+            "So there would have been a boreal forest, more like the Yukon or Siberia today.",
+            "But still, they would have had winters that lasted 6 months during which the ponds were frozen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 77,
+        "src": "Il y aurait eu des journées de 24 heures complètement plongées dans l'obscurité.",
+        "ref": "You'd have 24 hours a day of straight darkness.",
+        "hyp": "There would have been 24-hour days completely immersed in darkness.",
+        "rel_src": [
+            "Mais quand même, ils auraient eu des hivers qui duraient 6 mois pendant lesquels les étangs étaient gelés.",
+            "Il y aurait eu des blizzards."
+        ],
+        "rel_tgt": [
+            "But still, they would have had winters that lasted 6 months during which the ponds were frozen.",
+            "There would have been blizzards."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 78,
+        "src": "Donc, comment... Comment ?",
+        "ref": "Like, how ... How?",
+        "hyp": "So, how... How?",
+        "rel_src": [
+            "Donc les scientifiques savaient déjà tout cela, mais ça n'explique pas vraiment pourquoi Natalia en ait trouvé un si loin au Nord.",
+            "Parce que, au plan de la température, c'est exactement l'opposé du Sahara."
+        ],
+        "rel_tgt": [
+            "So scientists already knew all of this, but that doesn't really explain why Natalia found one so far north.",
+            "Because, in terms of temperature, it is exactly the opposite of the Sahara."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 79,
+        "src": "Comment est-il possible qu'une de ces super-stars du Sahara puisse survivre dans cet environnement arctique ?",
+        "ref": "How is it that one of these Saharan superstars  could ever have survived those arctic conditions?",
+        "hyp": "How is it possible for one of these superstars of the Sahara to survive in this Arctic environment?",
+        "new_src_summary": "Natalia Rybczynski, paléobiologiste travaillant dans la toundra isolée du Canada, découvre un os fossilisé de chameau géant vieux de 3,5 millions d'années grâce à la méthode innovante de l'empreinte collagène. Cette découverte met en lumière le processus de recherche en paléobiologie et l'évolution des chameaux, originaires d'Amérique du Nord et ayant migré vers d'autres régions du monde. Dans un dialogue, NR et LN discutent des différentes tailles et caractéristiques des chameaux à travers l'histoire, ainsi que de la migration des chameaux en Amérique du Sud et en Asie/Afrique, tout en se demandant comment les chameaux ont pu survivre dans des conditions climatiques passées plus chaudes et des hivers rigoureux.",
+        "new_tgt_summary": "Paleobiologist Natalia Rybczynski discovered a 3.5 million-year-old camel bone in the High Arctic, initially mistaking it for a fossilized plant. Over four years, she collected and assembled 30 bone fragments using a 3D surface scanner, identifying it as a tibia from a cloven-hoofed mammal. Through collagen fingerprinting, she confirmed it belonged to a camel, which was 30% larger than modern camels. The bone, preserved in the Arctic, had a distinct smell of burnt flesh due to the presence of collagen, challenging the common perception of camels as desert animals and revealing their North American origin. The paragraph also discusses the different sizes and characteristics of ancient camels, including some with long necks like giraffes and others with jaws like crocodiles. It mentions the evolution of camels into llamas and alpacas in South America and their extinction in North America, ending with a discussion on the discovery of a camel fossil in a northern region, highlighting the drastic climate changes that occurred millions of years ago.",
+        "rel_src": [
+            "Parce que, au plan de la température, c'est exactement l'opposé du Sahara.",
+            "Pour être franc, il y a 3 millions et demi d'années, la température moyenne était 22°C plus chaude qu'aujourdh'hui."
+        ],
+        "rel_tgt": [
+            "Because, in terms of temperature, it is exactly the opposite of the Sahara.",
+            "To be frank, 3.5 million years ago, the average temperature was 22°C warmer than today."
+        ],
+        "hist_info": "\"Sahara\" - \"Sahara\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 80,
+        "src": "Natalia et ses collègues pensent avoir une réponse.",
+        "ref": "Natalia and her colleagues think they have an answer.",
+        "hyp": "Natalia and her colleagues believe they have an answer.",
+        "rel_src": [
+            "Donc les scientifiques savaient déjà tout cela, mais ça n'explique pas vraiment pourquoi Natalia en ait trouvé un si loin au Nord.",
+            "Parce que, au plan de la température, c'est exactement l'opposé du Sahara."
+        ],
+        "rel_tgt": [
+            "So scientists already knew all of this, but that doesn't really explain why Natalia found one so far north.",
+            "Because, in terms of temperature, it is exactly the opposite of the Sahara."
+        ],
+        "hist_info": "\"Natalia\" - \"Natalia\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 81,
+        "src": "Et c'est plutôt génial.",
+        "ref": "And it's kind of brilliant.",
+        "hyp": "And it's pretty great.",
+        "rel_src": [
+            "NR : Je sais, ça serait génial.",
+            "LN : Et il y a trois à sept millions d'années, une branche de chameaux est descendue en Amérique du Sud, où ils sont devenus les lamas et les alpagas, et une autre branche a traversé la langue de terre du Bering jusqu'en Asie et en Afrique."
+        ],
+        "rel_tgt": [
+            "NR: I know, that would be great.",
+            "LN: And three to seven million years ago, a branch of camels descended into South America, where they became llamas and alpacas, and another branch crossed the Bering land bridge to Asia and Africa."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 82,
+        "src": "Et si les caractéristiques qui font que le chameau se soit si bien adapté à des endroits comme le Sahara, avaient en fait évolué pour l'aider à supporter l'hiver ?",
+        "ref": "What if the very features that we imagine make the camel so well-suited  to places like the Sahara,  actually evolved to help it get through the winter?",
+        "hyp": "What if the characteristics that make the camel so well adapted to places like the Sahara had actually evolved to help it withstand the winter?",
+        "rel_src": [
+            "Comment est-il possible qu'une de ces super-stars du Sahara puisse survivre dans cet environnement arctique ?",
+            "Natalia et ses collègues pensent avoir une réponse."
+        ],
+        "rel_tgt": [
+            "How is it possible for one of these superstars of the Sahara to survive in this Arctic environment?",
+            "Natalia and her colleagues believe they have an answer."
+        ],
+        "hist_info": "\"chameau\" - \"camel\", \"Sahara\" - \"Sahara\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 83,
+        "src": "Et si ces larges pieds étaient faits, non pas pour marcher sur du sable, mais dans la neige, comme une paire de raquettes ?",
+        "ref": "What if those broad feet were meant to tromp not over sand,  but over snow, like a pair of snowshoes?",
+        "hyp": "What if these wide feet were made, not to walk on sand, but in the snow, like a pair of snowshoes?",
+        "rel_src": [
+            "Comment est-il possible qu'une de ces super-stars du Sahara puisse survivre dans cet environnement arctique ?",
+            "Et si les caractéristiques qui font que le chameau se soit si bien adapté à des endroits comme le Sahara, avaient en fait évolué pour l'aider à supporter l'hiver ?"
+        ],
+        "rel_tgt": [
+            "How is it possible for one of these superstars of the Sahara to survive in this Arctic environment?",
+            "What if the characteristics that make the camel so well adapted to places like the Sahara had actually evolved to help it withstand the winter?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 84,
+        "src": "Et si cette bosse -- qui d'ailleurs, grosse nouvelle pour moi, ne contient pas d'eau, mais de la graisse --  était là pour aider le chameau à supporter ces hivers de six mois, quand la nourriture est rare ?",
+        "ref": "What if that hump -- which, huge news to me,  does not contain water, it contains fat --    was there to help the camel get through that six-month-long winter,  when food was scarce?",
+        "hyp": "And what if this hump - which, by the way, big news for me, does not contain water, but fat - was there to help the camel withstand those six-month winters, when food is scarce?",
+        "rel_src": [
+            "Et si les caractéristiques qui font que le chameau se soit si bien adapté à des endroits comme le Sahara, avaient en fait évolué pour l'aider à supporter l'hiver ?",
+            "Et si ces larges pieds étaient faits, non pas pour marcher sur du sable, mais dans la neige, comme une paire de raquettes ?"
+        ],
+        "rel_tgt": [
+            "What if the characteristics that make the camel so well adapted to places like the Sahara had actually evolved to help it withstand the winter?",
+            "What if these wide feet were made, not to walk on sand, but in the snow, like a pair of snowshoes?"
+        ],
+        "hist_info": "\"chameau\" - \"camel\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 85,
+        "src": "Et puis, seulement plus tard, après avoir traversé le pont terrestre il a utilisé ces caractéristiques pour les adapter aux déserts brûlants ?",
+        "ref": "And then, only later, long after it crossed over the land bridge  did it retrofit those winter features for a hot desert environment?",
+        "hyp": "And then, only later, after crossing the land bridge, did it use these characteristics to adapt to the scorching deserts?",
+        "rel_src": [
+            "Et si les caractéristiques qui font que le chameau se soit si bien adapté à des endroits comme le Sahara, avaient en fait évolué pour l'aider à supporter l'hiver ?",
+            "Et si ces larges pieds étaient faits, non pas pour marcher sur du sable, mais dans la neige, comme une paire de raquettes ?"
+        ],
+        "rel_tgt": [
+            "What if the characteristics that make the camel so well adapted to places like the Sahara had actually evolved to help it withstand the winter?",
+            "What if these wide feet were made, not to walk on sand, but in the snow, like a pair of snowshoes?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 86,
+        "src": "Par exemple, la bosse peut être utile aux chameaux pour les climats désertiques parce qu'avoir toute leur graisse au même endroit, comme un sac à dos de graisse, ça veut dire qu'ils n'ont pas cette couche isolante sur le reste du corps.",
+        "ref": "Like, for instance, the hump may be helpful to camels in hotter climes  because having all your fat in one place,  like a, you know, fat backpack,  means that you don't have to have that insulation  all over the rest of your body.",
+        "hyp": "For example, the hump may be useful for camels in desert climates because having all their fat in one place, like a fat backpack, means they don't have that insulating layer on the rest of the body.",
+        "rel_src": [
+            "Et si cette bosse -- qui d'ailleurs, grosse nouvelle pour moi, ne contient pas d'eau, mais de la graisse --  était là pour aider le chameau à supporter ces hivers de six mois, quand la nourriture est rare ?",
+            "Et puis, seulement plus tard, après avoir traversé le pont terrestre il a utilisé ces caractéristiques pour les adapter aux déserts brûlants ?"
+        ],
+        "rel_tgt": [
+            "And what if this hump - which, by the way, big news for me, does not contain water, but fat - was there to help the camel withstand those six-month winters, when food is scarce?",
+            "And then, only later, after crossing the land bridge, did it use these characteristics to adapt to the scorching deserts?"
+        ],
+        "hist_info": "\"chameau\" - \"camel\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 87,
+        "src": "Donc la chaleur se dissipe plus facilement.",
+        "ref": "So it helps heat dissipate easier.",
+        "hyp": "So the heat dissipates more easily.",
+        "rel_src": [
+            "Pour être franc, il y a 3 millions et demi d'années, la température moyenne était 22°C plus chaude qu'aujourdh'hui.",
+            "Donc il y aurait eu une forêt boréale, plus comme le Yukon ou la Sibérie d'aujourd'hui."
+        ],
+        "rel_tgt": [
+            "To be frank, 3.5 million years ago, the average temperature was 22°C warmer than today.",
+            "So there would have been a boreal forest, more like the Yukon or Siberia today."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 88,
+        "src": "C'est cette idée folle, que les attributs du chameau qui prouvent, d'après nous, sa nature désertique puissent en fait être la preuve de son passé dans l'Arctique.",
+        "ref": "It's this crazy idea,  that what seems like proof of the camel's quintessential desert nature  could actually be proof of its High Arctic past.",
+        "hyp": "It's this crazy idea that the camel's attributes, which prove, according to us, its desert nature, could actually be evidence of its past in the Arctic.",
+        "rel_src": [
+            "Et si les caractéristiques qui font que le chameau se soit si bien adapté à des endroits comme le Sahara, avaient en fait évolué pour l'aider à supporter l'hiver ?",
+            "Et si cette bosse -- qui d'ailleurs, grosse nouvelle pour moi, ne contient pas d'eau, mais de la graisse --  était là pour aider le chameau à supporter ces hivers de six mois, quand la nourriture est rare ?"
+        ],
+        "rel_tgt": [
+            "What if the characteristics that make the camel so well adapted to places like the Sahara had actually evolved to help it withstand the winter?",
+            "And what if this hump - which, by the way, big news for me, does not contain water, but fat - was there to help the camel withstand those six-month winters, when food is scarce?"
+        ],
+        "hist_info": "\"Arctique\" - \"Arctic\", \"chameau\" - \"camel\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 89,
+        "src": "Alors, je ne suis pas le premier à raconter cette histoire.",
+        "ref": "Now, I'm not the first person to tell this story.",
+        "hyp": "So, I am not the first to tell this story.",
+        "rel_src": [
+            "Donc les scientifiques savaient déjà tout cela, mais ça n'explique pas vraiment pourquoi Natalia en ait trouvé un si loin au Nord.",
+            "Natalia et ses collègues pensent avoir une réponse."
+        ],
+        "rel_tgt": [
+            "So scientists already knew all of this, but that doesn't really explain why Natalia found one so far north.",
+            "Natalia and her colleagues believe they have an answer."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 90,
+        "src": "Certains en ont parlé pour embellir la biologie de l'évolution ou pour donner un aperçu sur l'avenir du changement climatique.",
+        "ref": "Others have told it as a way to marvel at evolutionary biology  or as a keyhole into the future of climate change.",
+        "hyp": "Some have mentioned it to embellish the biology of evolution or to provide insight into the future of climate change.",
+        "rel_src": [
+            "Et si les caractéristiques qui font que le chameau se soit si bien adapté à des endroits comme le Sahara, avaient en fait évolué pour l'aider à supporter l'hiver ?",
+            "C'est cette idée folle, que les attributs du chameau qui prouvent, d'après nous, sa nature désertique puissent en fait être la preuve de son passé dans l'Arctique."
+        ],
+        "rel_tgt": [
+            "What if the characteristics that make the camel so well adapted to places like the Sahara had actually evolved to help it withstand the winter?",
+            "It's this crazy idea that the camel's attributes, which prove, according to us, its desert nature, could actually be evidence of its past in the Arctic."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 91,
+        "src": "Mais je l'aime pour toute autre raison.",
+        "ref": "But I love it for a totally different reason.",
+        "hyp": "But I love it for an entirely different reason.",
+        "rel_src": [
+            "Et si les caractéristiques qui font que le chameau se soit si bien adapté à des endroits comme le Sahara, avaient en fait évolué pour l'aider à supporter l'hiver ?",
+            "Et si ces larges pieds étaient faits, non pas pour marcher sur du sable, mais dans la neige, comme une paire de raquettes ?"
+        ],
+        "rel_tgt": [
+            "What if the characteristics that make the camel so well adapted to places like the Sahara had actually evolved to help it withstand the winter?",
+            "What if these wide feet were made, not to walk on sand, but in the snow, like a pair of snowshoes?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 92,
+        "src": "Pour moi, c'est une histoire qui parle de nous, de la façon dont nous voyons le monde et de comment cela change.",
+        "ref": "For me, it's a story about us,  about how we see the world  and about how that changes.",
+        "hyp": "For me, it's a story that speaks about us, about how we see the world and how that changes.",
+        "rel_src": [
+            "C'est cette idée folle, que les attributs du chameau qui prouvent, d'après nous, sa nature désertique puissent en fait être la preuve de son passé dans l'Arctique.",
+            "Mais je l'aime pour toute autre raison."
+        ],
+        "rel_tgt": [
+            "It's this crazy idea that the camel's attributes, which prove, according to us, its desert nature, could actually be evidence of its past in the Arctic.",
+            "But I love it for an entirely different reason."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 93,
+        "src": "J'ai un diplôme d'histoire.",
+        "ref": "So I was trained as a historian.",
+        "hyp": "I have a degree in history.",
+        "rel_src": [
+            "Mais je l'aime pour toute autre raison.",
+            "Pour moi, c'est une histoire qui parle de nous, de la façon dont nous voyons le monde et de comment cela change."
+        ],
+        "rel_tgt": [
+            "But I love it for an entirely different reason.",
+            "For me, it's a story that speaks about us, about how we see the world and how that changes."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 94,
+        "src": "Et j'ai appris qu'en fait beaucoup de scientifiques sont aussi historiens.",
+        "ref": "And I've learned that, actually, a lot of scientists are historians, too.",
+        "hyp": "And I learned that in fact many scientists are also historians.",
+        "rel_src": [
+            "Pour moi, c'est une histoire qui parle de nous, de la façon dont nous voyons le monde et de comment cela change.",
+            "J'ai un diplôme d'histoire."
+        ],
+        "rel_tgt": [
+            "For me, it's a story that speaks about us, about how we see the world and how that changes.",
+            "I have a degree in history."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 95,
+        "src": "Ils donnent un sens au passé.",
+        "ref": "They make sense of the past.",
+        "hyp": "They give meaning to the past.",
+        "rel_src": [
+            "C'est cette idée folle, que les attributs du chameau qui prouvent, d'après nous, sa nature désertique puissent en fait être la preuve de son passé dans l'Arctique.",
+            "Pour moi, c'est une histoire qui parle de nous, de la façon dont nous voyons le monde et de comment cela change."
+        ],
+        "rel_tgt": [
+            "It's this crazy idea that the camel's attributes, which prove, according to us, its desert nature, could actually be evidence of its past in the Arctic.",
+            "For me, it's a story that speaks about us, about how we see the world and how that changes."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 96,
+        "src": "Ils racontent l'histoire de notre univers, de notre planète, de la vie sur celle-ci.",
+        "ref": "They tell the history of our universe, of our planet, of life on this planet.",
+        "hyp": "They tell the story of our universe, of our planet, of life on it.",
+        "rel_src": [
+            "C'est cette idée folle, que les attributs du chameau qui prouvent, d'après nous, sa nature désertique puissent en fait être la preuve de son passé dans l'Arctique.",
+            "Pour moi, c'est une histoire qui parle de nous, de la façon dont nous voyons le monde et de comment cela change."
+        ],
+        "rel_tgt": [
+            "It's this crazy idea that the camel's attributes, which prove, according to us, its desert nature, could actually be evidence of its past in the Arctic.",
+            "For me, it's a story that speaks about us, about how we see the world and how that changes."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 97,
+        "src": "Et en tant qu'historien, on commence avec une certaine idée du déroulement de l'histoire.",
+        "ref": "And as a historian,  you start with an idea in your mind of how the story goes.",
+        "hyp": "And as a historian, we start with a certain idea of how history unfolds.",
+        "rel_src": [
+            "C'est cette idée folle, que les attributs du chameau qui prouvent, d'après nous, sa nature désertique puissent en fait être la preuve de son passé dans l'Arctique.",
+            "Ils donnent un sens au passé."
+        ],
+        "rel_tgt": [
+            "It's this crazy idea that the camel's attributes, which prove, according to us, its desert nature, could actually be evidence of its past in the Arctic.",
+            "They give meaning to the past."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 98,
+        "src": "NR : On fabrique des histoires et c'est tout, comme le chameau dans le désert.",
+        "ref": "NR: We make up stories and we stick with it,  like the camel in the desert, right?",
+        "hyp": "NR: We create stories, that's all, like the camel in the desert.",
+        "rel_src": [
+            "Et si les caractéristiques qui font que le chameau se soit si bien adapté à des endroits comme le Sahara, avaient en fait évolué pour l'aider à supporter l'hiver ?",
+            "Par exemple, la bosse peut être utile aux chameaux pour les climats désertiques parce qu'avoir toute leur graisse au même endroit, comme un sac à dos de graisse, ça veut dire qu'ils n'ont pas cette couche isolante sur le reste du corps."
+        ],
+        "rel_tgt": [
+            "What if the characteristics that make the camel so well adapted to places like the Sahara had actually evolved to help it withstand the winter?",
+            "For example, the hump may be useful for camels in desert climates because having all their fat in one place, like a fat backpack, means they don't have that insulating layer on the rest of the body."
+        ],
+        "hist_info": "\"chameau\" - \"camel\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 99,
+        "src": "C'est une super histoire ! Elle colle bien à l'idée.",
+        "ref": "That's a great story! It's totally adapted for that.",
+        "hyp": "It's a great story! It fits well with the idea.",
+        "new_src_summary": "Natalia Rybczynski, paléobiologiste travaillant dans la toundra isolée du Canada, découvre un os fossilisé de chameau géant vieux de 3,5 millions d'années grâce à la méthode innovante de l'empreinte collagène, mettant en lumière le processus de recherche en paléobiologie et l'évolution des chameaux. Dans un dialogue, NR et LN discutent des différentes tailles et caractéristiques des chameaux à travers l'histoire, ainsi que de la migration des chameaux en Amérique du Sud et en Asie/Afrique, tout en se demandant comment les chameaux ont pu survivre dans des conditions climatiques passées plus chaudes et des hivers rigoureux. L'article explore également la capacité des chameaux à survivre dans des environnements différents en raison de leurs caractéristiques physiques, suggérant que leurs adaptations pour prospérer dans le désert pourraient les avoir aidés à survivre dans des climats arctiques, soulignant ainsi l'évolution et la perception changeante de notre monde.",
+        "new_tgt_summary": "Paleobiologist Natalia Rybczynski discovered a 3.5 million-year-old camel bone in the High Arctic, initially mistaking it for a fossilized plant. Over four years, she collected and assembled 30 bone fragments using a 3D surface scanner, identifying it as a tibia from a cloven-hoofed mammal. Through collagen fingerprinting, she confirmed it belonged to a camel, which was 30% larger than modern camels. The bone, preserved in the Arctic, had a distinct smell of burnt flesh due to the presence of collagen, challenging the common perception of camels as desert animals and revealing their North American origin. The paragraph also discusses the different sizes and characteristics of ancient camels, including some with long necks like giraffes and others with jaws like crocodiles. It mentions the evolution of camels into llamas and alpacas in South America and their extinction in North America, ending with a discussion on the discovery of a camel fossil in a northern region, highlighting the drastic climate changes that occurred millions of years ago. Natalia and her colleagues suggest that the camel's adaptations for surviving in the Sahara may have actually evolved to help it survive in the Arctic. They propose that features such as wide feet and a fat hump may have originally been used to withstand winter conditions. This idea challenges the traditional view of the camel as a desert animal and highlights the importance of historical context in understanding evolution.",
+        "rel_src": [
+            "C'est cette idée folle, que les attributs du chameau qui prouvent, d'après nous, sa nature désertique puissent en fait être la preuve de son passé dans l'Arctique.",
+            "Pour moi, c'est une histoire qui parle de nous, de la façon dont nous voyons le monde et de comment cela change."
+        ],
+        "rel_tgt": [
+            "It's this crazy idea that the camel's attributes, which prove, according to us, its desert nature, could actually be evidence of its past in the Arctic.",
+            "For me, it's a story that speaks about us, about how we see the world and how that changes."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 100,
+        "src": "Ils ont apparemment toujours habité là.",
+        "ref": "Clearly, it always lived there.",
+        "hyp": "They apparently have always lived there.",
+        "rel_src": [
+            "Et si les caractéristiques qui font que le chameau se soit si bien adapté à des endroits comme le Sahara, avaient en fait évolué pour l'aider à supporter l'hiver ?",
+            "Et si cette bosse -- qui d'ailleurs, grosse nouvelle pour moi, ne contient pas d'eau, mais de la graisse --  était là pour aider le chameau à supporter ces hivers de six mois, quand la nourriture est rare ?"
+        ],
+        "rel_tgt": [
+            "What if the characteristics that make the camel so well adapted to places like the Sahara had actually evolved to help it withstand the winter?",
+            "And what if this hump - which, by the way, big news for me, does not contain water, but fat - was there to help the camel withstand those six-month winters, when food is scarce?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 101,
+        "src": "LN : Mais à n'importe quel moment, on peut découvrir un tout petit bout de preuve.",
+        "ref": "LN: But at any moment, you could uncover some tiny bit of evidence.",
+        "hyp": "LN: But at any moment, we can discover a tiny piece of evidence.",
+        "rel_src": [
+            "Pour moi, c'est une histoire qui parle de nous, de la façon dont nous voyons le monde et de comment cela change.",
+            "NR : On fabrique des histoires et c'est tout, comme le chameau dans le désert."
+        ],
+        "rel_tgt": [
+            "For me, it's a story that speaks about us, about how we see the world and how that changes.",
+            "NR: We create stories, that's all, like the camel in the desert."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 102,
+        "src": "On peut apprendre un tout petit truc qui va nous forcer à revoir tout ce qu'on pensait savoir.",
+        "ref": "You could learn some tiny thing  that forces you to reframe everything you thought you knew.",
+        "hyp": "We can learn a tiny thing that will force us to reconsider everything we thought we knew.",
+        "rel_src": [
+            "Pour moi, c'est une histoire qui parle de nous, de la façon dont nous voyons le monde et de comment cela change.",
+            "LN : Mais à n'importe quel moment, on peut découvrir un tout petit bout de preuve."
+        ],
+        "rel_tgt": [
+            "For me, it's a story that speaks about us, about how we see the world and how that changes.",
+            "LN: But at any moment, we can discover a tiny piece of evidence."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia"
+        }
+    },
+    {
+        "idx": 103,
+        "src": "Par exemple, dans ce cas, il y a une scientifique qui trouve cet éclat pensant qu'il soit un bout de bois, et à cause de ça, la science a une théorie totalement nouvelle et vraiment contre-intuitive qui montre pourquoi cette créature, semblant sortir des dessins du Dr Seuss, est comme elle est.",
+        "ref": "Like, in this case, this one scientist finds this one shard  of what she thought was wood,  and because of that, science has a totally new and totally counterintuitive theory  about why this absurd Dr. Seuss-looking creature  looks the way it does.",
+        "hyp": "For example, in this case, there is a scientist who finds this shard thinking it's a piece of wood, and because of that, science has a completely new and truly counter-intuitive theory that shows why this creature, seemingly from Dr. Seuss' drawings, is the way it is.",
+        "rel_src": [
+            "C'est cette idée folle, que les attributs du chameau qui prouvent, d'après nous, sa nature désertique puissent en fait être la preuve de son passé dans l'Arctique.",
+            "Mais je l'aime pour toute autre raison."
+        ],
+        "rel_tgt": [
+            "It's this crazy idea that the camel's attributes, which prove, according to us, its desert nature, could actually be evidence of its past in the Arctic.",
+            "But I love it for an entirely different reason."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia",
+            "Dr Seuss": "Dr. Seuss"
+        }
+    },
+    {
+        "idx": 104,
+        "src": "Et pour moi, ça a completement changé la façon dont je vois le chameau.",
+        "ref": "And for me, it completely upended the way I think of the camel.",
+        "hyp": "And for me, it completely changed the way I see the camel.",
+        "rel_src": [
+            "Pour moi, c'est une histoire qui parle de nous, de la façon dont nous voyons le monde et de comment cela change.",
+            "NR : On fabrique des histoires et c'est tout, comme le chameau dans le désert."
+        ],
+        "rel_tgt": [
+            "For me, it's a story that speaks about us, about how we see the world and how that changes.",
+            "NR: We create stories, that's all, like the camel in the desert."
+        ],
+        "hist_info": "\"chameau\" - \"camel\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia",
+            "Dr Seuss": "Dr. Seuss"
+        }
+    },
+    {
+        "idx": 105,
+        "src": "Il est passé d'être cette créature ridicule seulement adaptée à un environnement spécifique, à ce grand voyageur qui vient juste d'arriver au Sahara, et qui pourrait théoriquement arriver n'importe où.",
+        "ref": "It went from being this ridiculously niche creature  suited only to this one specific environment,  to being this world traveler that just happens to be in the Sahara,  and could end up virtually anywhere.",
+        "hyp": "It has gone from being this ridiculous creature only adapted to a specific environment, to this great traveler who has just arrived in the Sahara, and who could theoretically arrive anywhere.",
+        "rel_src": [
+            "Par exemple, la bosse peut être utile aux chameaux pour les climats désertiques parce qu'avoir toute leur graisse au même endroit, comme un sac à dos de graisse, ça veut dire qu'ils n'ont pas cette couche isolante sur le reste du corps.",
+            "C'est cette idée folle, que les attributs du chameau qui prouvent, d'après nous, sa nature désertique puissent en fait être la preuve de son passé dans l'Arctique."
+        ],
+        "rel_tgt": [
+            "For example, the hump may be useful for camels in desert climates because having all their fat in one place, like a fat backpack, means they don't have that insulating layer on the rest of the body.",
+            "It's this crazy idea that the camel's attributes, which prove, according to us, its desert nature, could actually be evidence of its past in the Arctic."
+        ],
+        "hist_info": "\"Sahara\" - \"Sahara\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia",
+            "Dr Seuss": "Dr. Seuss"
+        }
+    },
+    {
+        "idx": 106,
+        "src": "Voici Azuri.",
+        "ref": "This is Azuri.",
+        "hyp": "Here is Azuri.",
+        "rel_src": [
+            "NR : On fabrique des histoires et c'est tout, comme le chameau dans le désert.",
+            "C'est une super histoire ! Elle colle bien à l'idée."
+        ],
+        "rel_tgt": [
+            "NR: We create stories, that's all, like the camel in the desert.",
+            "It's a great story! It fits well with the idea."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia",
+            "Dr Seuss": "Dr. Seuss",
+            "Azuri": "Azuri"
+        }
+    },
+    {
+        "idx": 107,
+        "src": "Azuri, salut, comment ça va ?",
+        "ref": "Azuri, hi, how are you doing?",
+        "hyp": "Azuri, hi, how are you?",
+        "rel_src": [
+            "Il est passé d'être cette créature ridicule seulement adaptée à un environnement spécifique, à ce grand voyageur qui vient juste d'arriver au Sahara, et qui pourrait théoriquement arriver n'importe où.",
+            "Voici Azuri."
+        ],
+        "rel_tgt": [
+            "It has gone from being this ridiculous creature only adapted to a specific environment, to this great traveler who has just arrived in the Sahara, and who could theoretically arrive anywhere.",
+            "Here is Azuri."
+        ],
+        "hist_info": "\"Azuri\" - \"Azuri\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia",
+            "Dr Seuss": "Dr. Seuss",
+            "Azuri": "Azuri"
+        }
+    },
+    {
+        "idx": 108,
+        "src": "Ok, tiens, j'ai ça pour toi.",
+        "ref": "OK, here, I've got one of these for you here.",
+        "hyp": "Ok, here, I have this for you.",
+        "rel_src": [
+            "C'est une super histoire ! Elle colle bien à l'idée.",
+            "Et pour moi, ça a completement changé la façon dont je vois le chameau."
+        ],
+        "rel_tgt": [
+            "It's a great story! It fits well with the idea.",
+            "And for me, it completely changed the way I see the camel."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia",
+            "Dr Seuss": "Dr. Seuss",
+            "Azuri": "Azuri"
+        }
+    },
+    {
+        "idx": 109,
+        "src": "Azuri est en vacances, d'habitude il est à ses concerts au Radio City Music Hall.",
+        "ref": "So Azuri is on a break from her regular gig  at the Radio City Music Hall.",
+        "hyp": "Azuri is on vacation, usually he is at his concerts at the Radio City Music Hall.",
+        "rel_src": [
+            "Voici Azuri.",
+            "Azuri, salut, comment ça va ?"
+        ],
+        "rel_tgt": [
+            "Here is Azuri.",
+            "Azuri, hi, how are you?"
+        ],
+        "hist_info": "\"Azuri\" - \"Azuri\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia",
+            "Dr Seuss": "Dr. Seuss",
+            "Azuri": "Azuri",
+            "Radio City Music Hall": "Radio City Music Hall"
+        }
+    },
+    {
+        "idx": 110,
+        "src": "C'est même pas une blague.",
+        "ref": "That's not even a joke.",
+        "hyp": "It's not even a joke.",
+        "rel_src": [
+            "NR : On fabrique des histoires et c'est tout, comme le chameau dans le désert.",
+            "C'est une super histoire ! Elle colle bien à l'idée."
+        ],
+        "rel_tgt": [
+            "NR: We create stories, that's all, like the camel in the desert.",
+            "It's a great story! It fits well with the idea."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia",
+            "Dr Seuss": "Dr. Seuss",
+            "Azuri": "Azuri",
+            "Radio City Music Hall": "Radio City Music Hall"
+        }
+    },
+    {
+        "idx": 111,
+        "src": "Bref -- Azuri est ici en tant que preuve vivante, pour nous rappeler que l'histoire de notre monde est dynamique.",
+        "ref": "Anyway --  But really, Azuri is here as a living reminder  that the story of our world is a dynamic one.",
+        "hyp": "In short -- Azuri is here as living proof, to remind us that the history of our world is dynamic.",
+        "rel_src": [
+            "Il est passé d'être cette créature ridicule seulement adaptée à un environnement spécifique, à ce grand voyageur qui vient juste d'arriver au Sahara, et qui pourrait théoriquement arriver n'importe où.",
+            "Azuri est en vacances, d'habitude il est à ses concerts au Radio City Music Hall."
+        ],
+        "rel_tgt": [
+            "It has gone from being this ridiculous creature only adapted to a specific environment, to this great traveler who has just arrived in the Sahara, and who could theoretically arrive anywhere.",
+            "Azuri is on vacation, usually he is at his concerts at the Radio City Music Hall."
+        ],
+        "hist_info": "\"Azuri\" - \"Azuri\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia",
+            "Dr Seuss": "Dr. Seuss",
+            "Azuri": "Azuri",
+            "Radio City Music Hall": "Radio City Music Hall"
+        }
+    },
+    {
+        "idx": 112,
+        "src": "Uniquement notre volonté peut nous aider à la réajuster, à la réinventer.",
+        "ref": "It requires our willingness to readjust, to reimagine.",
+        "hyp": "Only our will can help us readjust, reinvent ourselves.",
+        "rel_src": [
+            "On peut apprendre un tout petit truc qui va nous forcer à revoir tout ce qu'on pensait savoir.",
+            "Par exemple, dans ce cas, il y a une scientifique qui trouve cet éclat pensant qu'il soit un bout de bois, et à cause de ça, la science a une théorie totalement nouvelle et vraiment contre-intuitive qui montre pourquoi cette créature, semblant sortir des dessins du Dr Seuss, est comme elle est."
+        ],
+        "rel_tgt": [
+            "We can learn a tiny thing that will force us to reconsider everything we thought we knew.",
+            "For example, in this case, there is a scientist who finds this shard thinking it's a piece of wood, and because of that, science has a completely new and truly counter-intuitive theory that shows why this creature, seemingly from Dr. Seuss' drawings, is the way it is."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia",
+            "Dr Seuss": "Dr. Seuss",
+            "Azuri": "Azuri",
+            "Radio City Music Hall": "Radio City Music Hall"
+        }
+    },
+    {
+        "idx": 113,
+        "src": "N'est-ce pas, Azuri ?",
+        "ref": "Right, Azuri?",
+        "hyp": "Isn't it, Azuri?",
+        "rel_src": [
+            "Azuri, salut, comment ça va ?",
+            "Bref -- Azuri est ici en tant que preuve vivante, pour nous rappeler que l'histoire de notre monde est dynamique."
+        ],
+        "rel_tgt": [
+            "Azuri, hi, how are you?",
+            "In short -- Azuri is here as living proof, to remind us that the history of our world is dynamic."
+        ],
+        "hist_info": "\"Azuri\" - \"Azuri\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia",
+            "Dr Seuss": "Dr. Seuss",
+            "Azuri": "Azuri",
+            "Radio City Music Hall": "Radio City Music Hall"
+        }
+    },
+    {
+        "idx": 114,
+        "src": "Et vraiment, on est tous à un bout d'os de voir le monde différemment.",
+        "ref": "And, really, that we're all just one shard of bone away  from seeing the world anew.",
+        "hyp": "And truly, we are all just a bone's length away from seeing the world differently.",
+        "rel_src": [
+            "Par exemple, dans ce cas, il y a une scientifique qui trouve cet éclat pensant qu'il soit un bout de bois, et à cause de ça, la science a une théorie totalement nouvelle et vraiment contre-intuitive qui montre pourquoi cette créature, semblant sortir des dessins du Dr Seuss, est comme elle est.",
+            "Et pour moi, ça a completement changé la façon dont je vois le chameau."
+        ],
+        "rel_tgt": [
+            "For example, in this case, there is a scientist who finds this shard thinking it's a piece of wood, and because of that, science has a completely new and truly counter-intuitive theory that shows why this creature, seemingly from Dr. Seuss' drawings, is the way it is.",
+            "And for me, it completely changed the way I see the camel."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia",
+            "Dr Seuss": "Dr. Seuss",
+            "Azuri": "Azuri",
+            "Radio City Music Hall": "Radio City Music Hall"
+        }
+    },
+    {
+        "idx": 115,
+        "src": "Merci beaucoup.",
+        "ref": "Thank you very much.",
+        "hyp": "Thank you very much.",
+        "rel_src": [
+            "Azuri, salut, comment ça va ?",
+            "C'est même pas une blague."
+        ],
+        "rel_tgt": [
+            "Azuri, hi, how are you?",
+            "It's not even a joke."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "Natalia Rybczynski",
+            "Latif Nasser": "Latif Nasser",
+            "Cercle Arctique": "Arctic Circle",
+            "Canada": "Canada",
+            "Fyles Leaf Bed": "Fyles Leaf Bed",
+            "pôle nord magnétique": "magnetic North Pole",
+            "Colorado": "Colorado",
+            "Natalia": "Natalia",
+            "Bristol": "Bristol",
+            "Mike Buckley": "Mike Buckley",
+            "Arctique": "Arctic",
+            "chameau": "camel",
+            "Bactriane": "Bactrian",
+            "Asie": "Asia",
+            "Moyen-Orient": "Middle East",
+            "Sahara": "Sahara",
+            "Américains": "American",
+            "Amérique du Sud": "South America",
+            "llamas": "llamas",
+            "alpagas": "alpacas",
+            "Bering": "Bering",
+            "Afrique": "Africa",
+            "chameaux nord-américains": "North American camels",
+            "Yukon": "Yukon",
+            "Sibérie": "Siberia",
+            "Dr Seuss": "Dr. Seuss",
+            "Azuri": "Azuri",
+            "Radio City Music Hall": "Radio City Music Hall"
+        }
+    }
+]

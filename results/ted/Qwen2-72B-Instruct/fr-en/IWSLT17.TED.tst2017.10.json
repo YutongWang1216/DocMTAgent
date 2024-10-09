@@ -1,0 +1,2611 @@
+[
+    {
+        "idx": 0,
+        "src": "Bonjour.",
+        "ref": "Hello.",
+        "hyp": "Hello.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 1,
+        "src": "Mon nom est Matthew Williams, et je suis un champion.",
+        "ref": "My name is Matthew Williams,  and I am a champion.",
+        "hyp": "My name is Matthew Williams, and I am a champion.",
+        "rel_src": [
+            "Bonjour."
+        ],
+        "rel_tgt": [
+            "Hello."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams"
+        }
+    },
+    {
+        "idx": 2,
+        "src": "J'ai remporté des médailles dans trois sports différents et des championnats nationaux au Canada, joué à un niveau international au basketball et j'étais fier de représenter le Canada sur la scène mondiale.",
+        "ref": "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage.",
+        "hyp": "I have won medals in three different sports and national championships in Canada, played at an international level in basketball, and I was proud to represent Canada on the world stage.",
+        "rel_src": [
+            "Bonjour.",
+            "Mon nom est Matthew Williams, et je suis un champion."
+        ],
+        "rel_tgt": [
+            "Hello.",
+            "My name is Matthew Williams, and I am a champion."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun."
+        }
+    },
+    {
+        "idx": 3,
+        "src": "Je m'entraîne 5 jours par semaine au basketball et au patinage de vitesse, travaille avec des entraîneurs de grande qualité et des consultants en performance mentale pour être le meilleur dans mon sport.",
+        "ref": "I train five days a week for basketball and speed skating,  work with top quality coaches  and mental performance consultants  to be at my best in my sport.",
+        "hyp": "I train 5 days a week in basketball and speed skating, work with high-quality coaches and mental performance consultants to be the best in my sport.",
+        "rel_src": [
+            "Mon nom est Matthew Williams, et je suis un champion.",
+            "J'ai remporté des médailles dans trois sports différents et des championnats nationaux au Canada, joué à un niveau international au basketball et j'étais fier de représenter le Canada sur la scène mondiale."
+        ],
+        "rel_tgt": [
+            "My name is Matthew Williams, and I am a champion.",
+            "I have won medals in three different sports and national championships in Canada, played at an international level in basketball, and I was proud to represent Canada on the world stage."
+        ],
+        "hist_info": "\"basketball\" - \"basketball Note: Although basketball is capitalized in the English translation\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun."
+        }
+    },
+    {
+        "idx": 4,
+        "src": "Par ailleurs, je fais tout cela avec les Jeux Olympiques Spéciaux.",
+        "ref": "By the way, all that is through Special Olympics.",
+        "hyp": "Furthermore, I do all this with the Special Olympics.",
+        "rel_src": [
+            "J'ai remporté des médailles dans trois sports différents et des championnats nationaux au Canada, joué à un niveau international au basketball et j'étais fier de représenter le Canada sur la scène mondiale.",
+            "Je m'entraîne 5 jours par semaine au basketball et au patinage de vitesse, travaille avec des entraîneurs de grande qualité et des consultants en performance mentale pour être le meilleur dans mon sport."
+        ],
+        "rel_tgt": [
+            "I have won medals in three different sports and national championships in Canada, played at an international level in basketball, and I was proud to represent Canada on the world stage.",
+            "I train 5 days a week in basketball and speed skating, work with high-quality coaches and mental performance consultants to be the best in my sport."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics"
+        }
+    },
+    {
+        "idx": 5,
+        "src": "Est-ce que cela change la manière dont vous percevez ma personne et mes réussites ?",
+        "ref": "Does that change the way you think of me  and my accomplishments?",
+        "hyp": "Does this change the way you perceive me and my achievements?",
+        "rel_src": [
+            "Mon nom est Matthew Williams, et je suis un champion.",
+            "J'ai remporté des médailles dans trois sports différents et des championnats nationaux au Canada, joué à un niveau international au basketball et j'étais fier de représenter le Canada sur la scène mondiale."
+        ],
+        "rel_tgt": [
+            "My name is Matthew Williams, and I am a champion.",
+            "I have won medals in three different sports and national championships in Canada, played at an international level in basketball, and I was proud to represent Canada on the world stage."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics"
+        }
+    },
+    {
+        "idx": 6,
+        "src": "Le monde ne voit pas les personnes comme moi comme des champions.",
+        "ref": "The world does not see all people like me as champions.",
+        "hyp": "The world does not see people like me as champions.",
+        "rel_src": [
+            "Mon nom est Matthew Williams, et je suis un champion.",
+            "J'ai remporté des médailles dans trois sports différents et des championnats nationaux au Canada, joué à un niveau international au basketball et j'étais fier de représenter le Canada sur la scène mondiale."
+        ],
+        "rel_tgt": [
+            "My name is Matthew Williams, and I am a champion.",
+            "I have won medals in three different sports and national championships in Canada, played at an international level in basketball, and I was proud to represent Canada on the world stage."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics"
+        }
+    },
+    {
+        "idx": 7,
+        "src": "Il n'y a pas si longtemps, les gens comme moi étaient fuis et cachés.",
+        "ref": "Not long ago, people like me were shunned and hidden away.",
+        "hyp": "Not so long ago, people like me were shunned and hidden.",
+        "rel_src": [
+            "Par ailleurs, je fais tout cela avec les Jeux Olympiques Spéciaux.",
+            "Le monde ne voit pas les personnes comme moi comme des champions."
+        ],
+        "rel_tgt": [
+            "Furthermore, I do all this with the Special Olympics.",
+            "The world does not see people like me as champions."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics"
+        }
+    },
+    {
+        "idx": 8,
+        "src": "Les Jeux Olympiques Spéciaux ont beaucoup évolué depuis le début en 1968, mais trop souvent, les personnes avec des handicaps intellectuels sont invisibles du grand public.",
+        "ref": "There has been lots of change since Special Olympics began in 1968,  but in too many cases,  people with intellectual disabilities  are invisible to the wider population.",
+        "hyp": "The Special Olympics have come a long way since their inception in 1968, but all too often, individuals with intellectual disabilities remain invisible to the general public.",
+        "rel_src": [
+            "Je m'entraîne 5 jours par semaine au basketball et au patinage de vitesse, travaille avec des entraîneurs de grande qualité et des consultants en performance mentale pour être le meilleur dans mon sport.",
+            "Par ailleurs, je fais tout cela avec les Jeux Olympiques Spéciaux."
+        ],
+        "rel_tgt": [
+            "I train 5 days a week in basketball and speed skating, work with high-quality coaches and mental performance consultants to be the best in my sport.",
+            "Furthermore, I do all this with the Special Olympics."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics"
+        }
+    },
+    {
+        "idx": 9,
+        "src": "Les gens utilisent le mot « R » avec moi, et ils pensent que ça n'est pas grave.",
+        "ref": "People use the r-word in front of me, and they think it doesn't matter.",
+        "hyp": "People use the \"R\" word with me, and they think it's not a big deal.",
+        "rel_src": [
+            "Le monde ne voit pas les personnes comme moi comme des champions.",
+            "Il n'y a pas si longtemps, les gens comme moi étaient fuis et cachés."
+        ],
+        "rel_tgt": [
+            "The world does not see people like me as champions.",
+            "Not so long ago, people like me were shunned and hidden."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics"
+        }
+    },
+    {
+        "idx": 10,
+        "src": "C'est le mot « retardé » ou « arriéré » utilisé de manière désobligeante.",
+        "ref": "That's the word \"retard\" or \"retarded\"  used in a derogatory manner.",
+        "hyp": "It's the word \"retarded\" or \"backward\" used in a derogatory manner.",
+        "rel_src": [
+            "Il n'y a pas si longtemps, les gens comme moi étaient fuis et cachés.",
+            "Les gens utilisent le mot « R » avec moi, et ils pensent que ça n'est pas grave."
+        ],
+        "rel_tgt": [
+            "Not so long ago, people like me were shunned and hidden.",
+            "People use the \"R\" word with me, and they think it's not a big deal."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics"
+        }
+    },
+    {
+        "idx": 11,
+        "src": "Ils ne s'imaginent pas à quel point cela nous blesse, moi et mes amis.",
+        "ref": "They're not thinking about how much it hurts me and my friends.",
+        "hyp": "They don't realize how much it hurts us, me and my friends.",
+        "rel_src": [
+            "Les gens utilisent le mot « R » avec moi, et ils pensent que ça n'est pas grave.",
+            "C'est le mot « retardé » ou « arriéré » utilisé de manière désobligeante."
+        ],
+        "rel_tgt": [
+            "People use the \"R\" word with me, and they think it's not a big deal.",
+            "It's the word \"retarded\" or \"backward\" used in a derogatory manner."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics"
+        }
+    },
+    {
+        "idx": 12,
+        "src": "Je ne veux pas que vous pensiez que je suis là pour une œuvre de charité.",
+        "ref": "I don't want you to think I'm here because I'm a charity case.",
+        "hyp": "I don't want you to think that I'm here for a charity case.",
+        "rel_src": [
+            "Mon nom est Matthew Williams, et je suis un champion.",
+            "J'ai remporté des médailles dans trois sports différents et des championnats nationaux au Canada, joué à un niveau international au basketball et j'étais fier de représenter le Canada sur la scène mondiale."
+        ],
+        "rel_tgt": [
+            "My name is Matthew Williams, and I am a champion.",
+            "I have won medals in three different sports and national championships in Canada, played at an international level in basketball, and I was proud to represent Canada on the world stage."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics"
+        }
+    },
+    {
+        "idx": 13,
+        "src": "Je suis ici parce qu'il y a toujours un gros problème avec la manière dont beaucoup de personnes perçoivent les individus à déficiences intellectuelles, ou, trop souvent, la manière dont ils ne les voient pas du tout.",
+        "ref": "I am here because there is still a big problem with the way  many people see individuals with intellectual disabilities,  or, too often,  how they don't see them at all.",
+        "hyp": "I am here because there is still a major issue with how many people perceive individuals with intellectual disabilities, or, all too often, the way they do not see them at all.",
+        "rel_src": [
+            "Le monde ne voit pas les personnes comme moi comme des champions.",
+            "Les Jeux Olympiques Spéciaux ont beaucoup évolué depuis le début en 1968, mais trop souvent, les personnes avec des handicaps intellectuels sont invisibles du grand public."
+        ],
+        "rel_tgt": [
+            "The world does not see people like me as champions.",
+            "The Special Olympics have come a long way since their inception in 1968, but all too often, individuals with intellectual disabilities remain invisible to the general public."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics"
+        }
+    },
+    {
+        "idx": 14,
+        "src": "Saviez-vous que les championnats du monde s'étaient déroulés cette année ?",
+        "ref": "Did you know the World Games happened this year?",
+        "hyp": "Did you know that the world championships took place this year?",
+        "rel_src": [
+            "Mon nom est Matthew Williams, et je suis un champion.",
+            "J'ai remporté des médailles dans trois sports différents et des championnats nationaux au Canada, joué à un niveau international au basketball et j'étais fier de représenter le Canada sur la scène mondiale."
+        ],
+        "rel_tgt": [
+            "My name is Matthew Williams, and I am a champion.",
+            "I have won medals in three different sports and national championships in Canada, played at an international level in basketball, and I was proud to represent Canada on the world stage."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics"
+        }
+    },
+    {
+        "idx": 15,
+        "src": "J'étais parmi les plus de 6 500 athlètes ayant des déficiences intellectuelles venus de 165 pays et concourant à Los Angeles.",
+        "ref": "I was one of over 6,500 athletes with intellectual disabilities  from 165 countries who competed in LA.",
+        "hyp": "I was among the more than 6,500 athletes with intellectual disabilities from 165 countries competing in Los Angeles.",
+        "rel_src": [
+            "Par ailleurs, je fais tout cela avec les Jeux Olympiques Spéciaux.",
+            "Je suis ici parce qu'il y a toujours un gros problème avec la manière dont beaucoup de personnes perçoivent les individus à déficiences intellectuelles, ou, trop souvent, la manière dont ils ne les voient pas du tout."
+        ],
+        "rel_tgt": [
+            "Furthermore, I do all this with the Special Olympics.",
+            "I am here because there is still a major issue with how many people perceive individuals with intellectual disabilities, or, all too often, the way they do not see them at all."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles"
+        }
+    },
+    {
+        "idx": 16,
+        "src": "Il y avait plus de 62 000 spectateurs aux cérémonies d'ouverture, et il y avait TSN et ESPN pour couvrir l'évènement.",
+        "ref": "There was over 62,000 spectators watching opening ceremonies,  and there was live coverage on TSN and ESPN.",
+        "hyp": "There were over 62,000 spectators at the opening ceremonies, and there was TSN and ESPN to cover the event.",
+        "rel_src": [
+            "Saviez-vous que les championnats du monde s'étaient déroulés cette année ?",
+            "J'étais parmi les plus de 6 500 athlètes ayant des déficiences intellectuelles venus de 165 pays et concourant à Los Angeles."
+        ],
+        "rel_tgt": [
+            "Did you know that the world championships took place this year?",
+            "I was among the more than 6,500 athletes with intellectual disabilities from 165 countries competing in Los Angeles."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 17,
+        "src": "Saviez-vous que cet événement s'était déroulé ?",
+        "ref": "Did you even know that happened?",
+        "hyp": "Did you know that this event had taken place?",
+        "rel_src": [
+            "Saviez-vous que les championnats du monde s'étaient déroulés cette année ?",
+            "Il y avait plus de 62 000 spectateurs aux cérémonies d'ouverture, et il y avait TSN et ESPN pour couvrir l'évènement."
+        ],
+        "rel_tgt": [
+            "Did you know that the world championships took place this year?",
+            "There were over 62,000 spectators at the opening ceremonies, and there was TSN and ESPN to cover the event."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 18,
+        "src": "Que pensez-vous lorsque vous rencontrez quelqu'un comme moi ?",
+        "ref": "What do you think of when you see someone like me?",
+        "hyp": "What do you think when you meet someone like me?",
+        "rel_src": [
+            "Est-ce que cela change la manière dont vous percevez ma personne et mes réussites ?",
+            "Le monde ne voit pas les personnes comme moi comme des champions."
+        ],
+        "rel_tgt": [
+            "Does this change the way you perceive me and my achievements?",
+            "The world does not see people like me as champions."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 19,
+        "src": "Je suis ici aujourd'hui pour vous défier de nous considérer comme égaux.",
+        "ref": "I am here today to challenge you  to look at us as equals.",
+        "hyp": "I am here today to challenge you to consider us as equals.",
+        "new_src_summary": "Matthew Williams, un athlète accompli, partage son parcours en tant que champion multi-sport au Canada et à l'international, spécifiquement mentionnant le basketball et le patinage de vitesse. Il souligne son intense régime d'entraînement et son travail avec des professionnels de haut niveau. Son discours porte sur le contexte des Jeux Olympiques Spéciaux, mettant en lumière le préjugé persistant contre les personnes ayant des handicaps intellectuels. Il exprime sa déception face à l'utilisation du langage offensant, notant comment cela affecte lui et ses pairs. Williams critique la perception publique erronée des personnes à déficiences intellectuelles, insistant sur le fait qu'il ne cherche pas la charité mais le respect. Il signale aussi l'ampleur des Championnats du Monde des Jeux Olympiques Spéciaux qui a eu lieu cette année à Los Angeles, soulignant la participation massive d'athlètes venus de divers pays. Son ton est sérieux et passionné, reflétant un désir d'éveiller la conscience et le changement. Le style est personnel et direct, avec un appel à la réflexion personnelle de l'auditeur. \n\nDomaine: Sport, Handicap, Sensibilisation sociale.\n\nStyle: Persuasif, Direct.\n\nTonalité: Sérieuse, Passionnée.",
+        "new_tgt_summary": "Matthew Williams, a Special Olympics athlete, has won medals in three sports and national championships in Canada, representing his country on the international stage. He trains five days a week in basketball and speed skating and works with top coaches and mental performance consultants to excel in his sport. Despite his achievements, people with intellectual disabilities, like him, are often overlooked by society, and the use of derogatory language, such as the \"R\" word, continues to hurt him and his peers. Williams participated in the recent Special Olympics World Championships, where over 6,500 athletes from 165 countries competed, attracting over 62,000 spectators and coverage from TSN and ESPN. Williams aims to raise awareness about the perception of individuals with intellectual disabilities and the need for greater visibility and respect.",
+        "rel_src": [
+            "Je suis ici parce qu'il y a toujours un gros problème avec la manière dont beaucoup de personnes perçoivent les individus à déficiences intellectuelles, ou, trop souvent, la manière dont ils ne les voient pas du tout.",
+            "Il y avait plus de 62 000 spectateurs aux cérémonies d'ouverture, et il y avait TSN et ESPN pour couvrir l'évènement."
+        ],
+        "rel_tgt": [
+            "I am here because there is still a major issue with how many people perceive individuals with intellectual disabilities, or, all too often, the way they do not see them at all.",
+            "There were over 62,000 spectators at the opening ceremonies, and there was TSN and ESPN to cover the event."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 20,
+        "src": "Les Jeux Olympiques Spéciaux transforment l'identité propre des athlètes ayant des déficiences intellectuelles et la perception de quiconque regardant la compétition.",
+        "ref": "Special Olympics transforms the self-identity of athletes  with intellectual disabilities  and the perceptions of everyone watching.",
+        "hyp": "The Special Olympics transform the identity of athletes with intellectual disabilities and the perception of anyone watching the competition.",
+        "rel_src": [
+            "Par ailleurs, je fais tout cela avec les Jeux Olympiques Spéciaux.",
+            "Je suis ici parce qu'il y a toujours un gros problème avec la manière dont beaucoup de personnes perçoivent les individus à déficiences intellectuelles, ou, trop souvent, la manière dont ils ne les voient pas du tout."
+        ],
+        "rel_tgt": [
+            "Furthermore, I do all this with the Special Olympics.",
+            "I am here because there is still a major issue with how many people perceive individuals with intellectual disabilities, or, all too often, the way they do not see them at all."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 21,
+        "src": "Pour ceux d'entre vous qui ne le savent pas, les Jeux Olympiques Spéciaux s'adressent aux sportifs ayant des déficiences intellectuelles.",
+        "ref": "For those of you who aren't familiar,  Special Olympics is for athletes with intellectual disabilities.",
+        "hyp": "For those of you who may not know, the Special Olympics is for athletes with intellectual disabilities.",
+        "rel_src": [
+            "Par ailleurs, je fais tout cela avec les Jeux Olympiques Spéciaux.",
+            "Les Jeux Olympiques Spéciaux transforment l'identité propre des athlètes ayant des déficiences intellectuelles et la perception de quiconque regardant la compétition."
+        ],
+        "rel_tgt": [
+            "Furthermore, I do all this with the Special Olympics.",
+            "The Special Olympics transform the identity of athletes with intellectual disabilities and the perception of anyone watching the competition."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 22,
+        "src": "Les Jeux Olympiques Spéciaux sont séparés des Jeux Paralympiques et Olympiques.",
+        "ref": "Special Olympics is separate from the Paralympics and Olympics.",
+        "hyp": "The Special Olympics are separate from the Paralympic and Olympic Games.",
+        "rel_src": [
+            "Par ailleurs, je fais tout cela avec les Jeux Olympiques Spéciaux.",
+            "Les Jeux Olympiques Spéciaux transforment l'identité propre des athlètes ayant des déficiences intellectuelles et la perception de quiconque regardant la compétition."
+        ],
+        "rel_tgt": [
+            "Furthermore, I do all this with the Special Olympics.",
+            "The Special Olympics transform the identity of athletes with intellectual disabilities and the perception of anyone watching the competition."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games"
+        }
+    },
+    {
+        "idx": 23,
+        "src": "Nous offrons des programmes sportifs de haute qualité, toute l'année pour les personnes ayant des déficiences intellectuelles, ce qui change des vies et la perception.",
+        "ref": "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions.",
+        "hyp": "We offer high-quality year-round sports programs for individuals with intellectual disabilities, which changes lives and perceptions.",
+        "rel_src": [
+            "Je m'entraîne 5 jours par semaine au basketball et au patinage de vitesse, travaille avec des entraîneurs de grande qualité et des consultants en performance mentale pour être le meilleur dans mon sport.",
+            "Les Jeux Olympiques Spéciaux transforment l'identité propre des athlètes ayant des déficiences intellectuelles et la perception de quiconque regardant la compétition."
+        ],
+        "rel_tgt": [
+            "I train 5 days a week in basketball and speed skating, work with high-quality coaches and mental performance consultants to be the best in my sport.",
+            "The Special Olympics transform the identity of athletes with intellectual disabilities and the perception of anyone watching the competition."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games"
+        }
+    },
+    {
+        "idx": 24,
+        "src": "Ce mouvement a changé ma vie et celle de tellement d'autres personnes.",
+        "ref": "This movement has changed my life  and those of so many others.",
+        "hyp": "This movement has changed my life and that of so many others.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux transforment l'identité propre des athlètes ayant des déficiences intellectuelles et la perception de quiconque regardant la compétition.",
+            "Nous offrons des programmes sportifs de haute qualité, toute l'année pour les personnes ayant des déficiences intellectuelles, ce qui change des vies et la perception."
+        ],
+        "rel_tgt": [
+            "The Special Olympics transform the identity of athletes with intellectual disabilities and the perception of anyone watching the competition.",
+            "We offer high-quality year-round sports programs for individuals with intellectual disabilities, which changes lives and perceptions."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games"
+        }
+    },
+    {
+        "idx": 25,
+        "src": "Et cela a changé la manière dont le monde voit les personnes ayant des déficiences intellectuelles.",
+        "ref": "And it has changed the way  the world sees people with intellectual disabilities.",
+        "hyp": "And it has changed the way the world sees individuals with intellectual disabilities.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux ont beaucoup évolué depuis le début en 1968, mais trop souvent, les personnes avec des handicaps intellectuels sont invisibles du grand public.",
+            "Nous offrons des programmes sportifs de haute qualité, toute l'année pour les personnes ayant des déficiences intellectuelles, ce qui change des vies et la perception."
+        ],
+        "rel_tgt": [
+            "The Special Olympics have come a long way since their inception in 1968, but all too often, individuals with intellectual disabilities remain invisible to the general public.",
+            "We offer high-quality year-round sports programs for individuals with intellectual disabilities, which changes lives and perceptions."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games"
+        }
+    },
+    {
+        "idx": 26,
+        "src": "Je suis né épileptique et avec une déficience intellectuelle.",
+        "ref": "I was born with epilepsy and an intellectual disability.",
+        "hyp": "I was born epileptic and with an intellectual disability.",
+        "rel_src": [
+            "Il n'y a pas si longtemps, les gens comme moi étaient fuis et cachés.",
+            "Les Jeux Olympiques Spéciaux ont beaucoup évolué depuis le début en 1968, mais trop souvent, les personnes avec des handicaps intellectuels sont invisibles du grand public."
+        ],
+        "rel_tgt": [
+            "Not so long ago, people like me were shunned and hidden.",
+            "The Special Olympics have come a long way since their inception in 1968, but all too often, individuals with intellectual disabilities remain invisible to the general public."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games"
+        }
+    },
+    {
+        "idx": 27,
+        "src": "En grandissant, j'ai joué au hockey jusqu'à mes 12 ans.",
+        "ref": "Growing up, I played hockey until I was 12 years old.",
+        "hyp": "Growing up, I played hockey until I was 12 years old.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games"
+        }
+    },
+    {
+        "idx": 28,
+        "src": "Plus je grandissais, plus je ressentais qu'il était plus difficile de se maintenir à la hauteur des autres, et j'étais énervé et frustré.",
+        "ref": "The older I got, the more I felt  it was harder to keep up with everyone else,  and I was angry and frustrated.",
+        "hyp": "The more I grew, the more I felt it was harder to keep up with others, and I was getting annoyed and frustrated.",
+        "rel_src": [
+            "Je suis né épileptique et avec une déficience intellectuelle.",
+            "En grandissant, j'ai joué au hockey jusqu'à mes 12 ans."
+        ],
+        "rel_tgt": [
+            "I was born epileptic and with an intellectual disability.",
+            "Growing up, I played hockey until I was 12 years old."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games"
+        }
+    },
+    {
+        "idx": 29,
+        "src": "Pendant un certain temps, je n'ai plus pratiqué aucun sport, n'avais plus aucun ami, et me sentais oublié et triste.",
+        "ref": "For a while, I did not play any sports,  didn't have many friends  and felt left out and sad.",
+        "hyp": "For a while, I didn't play any sports, had no friends, and felt forgotten and sad.",
+        "rel_src": [
+            "Ils ne s'imaginent pas à quel point cela nous blesse, moi et mes amis.",
+            "Plus je grandissais, plus je ressentais qu'il était plus difficile de se maintenir à la hauteur des autres, et j'étais énervé et frustré."
+        ],
+        "rel_tgt": [
+            "They don't realize how much it hurts us, me and my friends.",
+            "The more I grew, the more I felt it was harder to keep up with others, and I was getting annoyed and frustrated."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games"
+        }
+    },
+    {
+        "idx": 30,
+        "src": "Il fut un temps où les personnes ayant des déficiences intellectuelles étaient cachées de la société.",
+        "ref": "There was a time when people with intellectual disabilities  were hidden away from society.",
+        "hyp": "There was a time when individuals with intellectual disabilities were hidden from society.",
+        "rel_src": [
+            "Je suis ici parce qu'il y a toujours un gros problème avec la manière dont beaucoup de personnes perçoivent les individus à déficiences intellectuelles, ou, trop souvent, la manière dont ils ne les voient pas du tout.",
+            "Et cela a changé la manière dont le monde voit les personnes ayant des déficiences intellectuelles."
+        ],
+        "rel_tgt": [
+            "I am here because there is still a major issue with how many people perceive individuals with intellectual disabilities, or, all too often, the way they do not see them at all.",
+            "And it has changed the way the world sees individuals with intellectual disabilities."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games"
+        }
+    },
+    {
+        "idx": 31,
+        "src": "Personne ne pensait qu'ils pouvaient pratiquer un sport, et encore moins être un membre important pour la société.",
+        "ref": "No one thought they could participate in sports,  let alone be a valued member of society.",
+        "hyp": "No one thought they could play a sport, let alone be a valuable member of society.",
+        "rel_src": [
+            "J'étais parmi les plus de 6 500 athlètes ayant des déficiences intellectuelles venus de 165 pays et concourant à Los Angeles.",
+            "Et cela a changé la manière dont le monde voit les personnes ayant des déficiences intellectuelles."
+        ],
+        "rel_tgt": [
+            "I was among the more than 6,500 athletes with intellectual disabilities from 165 countries competing in Los Angeles.",
+            "And it has changed the way the world sees individuals with intellectual disabilities."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games"
+        }
+    },
+    {
+        "idx": 32,
+        "src": "Dans les années 60, Dr. Frank Hayden, un scientifique à l'Université de Toronto, étudiait les effets de l'exercice régulier sur la condition physique des enfants ayant des déficiences intellectuelles.",
+        "ref": "In the 1960s, Dr. Frank Hayden,  a scientist at the University of Toronto,  was studying the effects of regular exercise  on the fitness levels of children with intellectual disabilities.",
+        "hyp": "In the 1960s, Dr. Frank Hayden, a scientist at the University of Toronto, studied the effects of regular exercise on the physical condition of children with intellectual disabilities.",
+        "rel_src": [
+            "J'étais parmi les plus de 6 500 athlètes ayant des déficiences intellectuelles venus de 165 pays et concourant à Los Angeles.",
+            "Pour ceux d'entre vous qui ne le savent pas, les Jeux Olympiques Spéciaux s'adressent aux sportifs ayant des déficiences intellectuelles."
+        ],
+        "rel_tgt": [
+            "I was among the more than 6,500 athletes with intellectual disabilities from 165 countries competing in Los Angeles.",
+            "For those of you who may not know, the Special Olympics is for athletes with intellectual disabilities."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto"
+        }
+    },
+    {
+        "idx": 33,
+        "src": "Utilisant des recherches scientifiques rigoureuses, Dr. Hayden et d'autres chercheurs ont conclu que c'était simplement le manque d'opportunité à participer qui entraînait des problèmes de condition physique.",
+        "ref": "Using rigorous scientific research,  Dr. Hayden and other researchers  came to the conclusion  that it was simply the lack of opportunity to participate  that caused their fitness levels to suffer.",
+        "hyp": "Using rigorous scientific research, Dr. Hayden and other researchers concluded that it was simply the lack of opportunity to participate that led to issues of physical condition.",
+        "rel_src": [
+            "Personne ne pensait qu'ils pouvaient pratiquer un sport, et encore moins être un membre important pour la société.",
+            "Dans les années 60, Dr. Frank Hayden, un scientifique à l'Université de Toronto, étudiait les effets de l'exercice régulier sur la condition physique des enfants ayant des déficiences intellectuelles."
+        ],
+        "rel_tgt": [
+            "No one thought they could play a sport, let alone be a valuable member of society.",
+            "In the 1960s, Dr. Frank Hayden, a scientist at the University of Toronto, studied the effects of regular exercise on the physical condition of children with intellectual disabilities."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden"
+        }
+    },
+    {
+        "idx": 34,
+        "src": "Beaucoup de gens doutaient que les personnes ayant des déficience intellectuelles pouvaient bénéficier des programmes de mise en forme et des compétitions sportives.",
+        "ref": "Lots of people doubted that people with intellectual disabilities  could benefit from fitness programs  and sports competition opportunities.",
+        "hyp": "Many people doubted that individuals with intellectual disabilities could benefit from fitness programs and sports competitions.",
+        "rel_src": [
+            "Personne ne pensait qu'ils pouvaient pratiquer un sport, et encore moins être un membre important pour la société.",
+            "Dans les années 60, Dr. Frank Hayden, un scientifique à l'Université de Toronto, étudiait les effets de l'exercice régulier sur la condition physique des enfants ayant des déficiences intellectuelles."
+        ],
+        "rel_tgt": [
+            "No one thought they could play a sport, let alone be a valuable member of society.",
+            "In the 1960s, Dr. Frank Hayden, a scientist at the University of Toronto, studied the effects of regular exercise on the physical condition of children with intellectual disabilities."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden"
+        }
+    },
+    {
+        "idx": 35,
+        "src": "Mais des pionniers comme Dr. Hayden et Eunice Kennedy Shriver, le fondateur des Jeux Olympiques Spéciaux, ont persévéré, et les athlètes des Jeux Olympiques Spéciaux leur ont donné raison quatre millions et demi de fois.",
+        "ref": "But pioneers like Dr. Hayden and Eunice Kennedy Shriver,  the founder of Special Olympics,  persevered,  and Special Olympics athletes have proved them right  four and a half million times over.",
+        "hyp": "But pioneers like Dr. Hayden and Eunice Kennedy Shriver, the founder of the Special Olympics, persisted, and the Special Olympics athletes have proven them right four and a half million times over.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux transforment l'identité propre des athlètes ayant des déficiences intellectuelles et la perception de quiconque regardant la compétition.",
+            "Pour ceux d'entre vous qui ne le savent pas, les Jeux Olympiques Spéciaux s'adressent aux sportifs ayant des déficiences intellectuelles."
+        ],
+        "rel_tgt": [
+            "The Special Olympics transform the identity of athletes with intellectual disabilities and the perception of anyone watching the competition.",
+            "For those of you who may not know, the Special Olympics is for athletes with intellectual disabilities."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\", \"Dr. Hayden\" - \"Dr. Hayden\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver"
+        }
+    },
+    {
+        "idx": 36,
+        "src": "Avant que je rejoigne les Jeux Olympiques Spéciaux, j'étais nerveux car j'étais jeune, timide, et avais peu de confiance en moi et je n'avais pas beaucoup d'amis.",
+        "ref": "Before I joined Special Olympics,  I was nervous  because I was young, shy, not confident  and didn't have many friends.",
+        "hyp": "Before I joined the Special Olympics, I was nervous because I was young, shy, and lacked self-confidence and I didn't have many friends.",
+        "rel_src": [
+            "En grandissant, j'ai joué au hockey jusqu'à mes 12 ans.",
+            "Pendant un certain temps, je n'ai plus pratiqué aucun sport, n'avais plus aucun ami, et me sentais oublié et triste."
+        ],
+        "rel_tgt": [
+            "Growing up, I played hockey until I was 12 years old.",
+            "For a while, I didn't play any sports, had no friends, and felt forgotten and sad."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver"
+        }
+    },
+    {
+        "idx": 37,
+        "src": "Lorsque je suis arrivé, pourtant, tout le monde m'a beaucoup encouragé, m'a supporté et m'a laissé être moi-même sans être jugé.",
+        "ref": "When I got there, though, everyone was very encouraging,  supportive, and let me be myself  without being judged.",
+        "hyp": "When I arrived, however, everyone encouraged me a lot, supported me, and let me be myself without being judged.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux transforment l'identité propre des athlètes ayant des déficiences intellectuelles et la perception de quiconque regardant la compétition.",
+            "Pour ceux d'entre vous qui ne le savent pas, les Jeux Olympiques Spéciaux s'adressent aux sportifs ayant des déficiences intellectuelles."
+        ],
+        "rel_tgt": [
+            "The Special Olympics transform the identity of athletes with intellectual disabilities and the perception of anyone watching the competition.",
+            "For those of you who may not know, the Special Olympics is for athletes with intellectual disabilities."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver"
+        }
+    },
+    {
+        "idx": 38,
+        "src": "A présent, je suis un joueur de basketball et un patineur de vitesse qui a concouru aux jeux régionaux, nationaux, et cette année, a fini aux Jeux Mondiaux d’Été à Los Angeles, où j'ai fait partie de la toute première équipe canadienne de basketball à participer aux Jeux Mondiaux.",
+        "ref": "Now, I am a basketball player and speed skater  who has competed at provincial, national games,  and this year made it all the way to the World Summer Games in LA,  where I was part of the first ever Canadian basketball team  to compete at World Games.",
+        "hyp": "Now, I am a basketball player and a speed skater who has competed in regional and national games, and this year, I ended up at the Summer World Games in Los Angeles, where I was part of the very first Canadian basketball team to participate in the World Games.",
+        "rel_src": [
+            "Nous offrons des programmes sportifs de haute qualité, toute l'année pour les personnes ayant des déficiences intellectuelles, ce qui change des vies et la perception.",
+            "Lorsque je suis arrivé, pourtant, tout le monde m'a beaucoup encouragé, m'a supporté et m'a laissé être moi-même sans être jugé."
+        ],
+        "rel_tgt": [
+            "We offer high-quality year-round sports programs for individuals with intellectual disabilities, which changes lives and perceptions.",
+            "When I arrived, however, everyone encouraged me a lot, supported me, and let me be myself without being judged."
+        ],
+        "hist_info": "\"basketball\" - \"basketball Note: Although basketball is capitalized in the English translation\", \"Los Angeles\" - \"Los Angeles\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games"
+        }
+    },
+    {
+        "idx": 39,
+        "src": "Je suis l'un des plus de quatre millions et demi d'athlètes du monde entier, et j'ai entendu tellement d'histoires similaires.",
+        "ref": "I am one of more than four and a half million athletes around the globe,  and I've heard so many similar stories.",
+        "hyp": "I am one of the more than four and a half million athletes worldwide, and I have heard so many similar stories.",
+        "new_src_summary": "Matthew Williams, un athlète distingué ayant une déficience intellectuelle et de l'épilepsie, raconte son parcours vers le succès dans le basketball et le patinage de vitesse au niveau national et international, particulièrement lors des Jeux Olympiques Spéciaux. Avec un ton passionné et sérieux, il met en lumière le stigmate persistant associé aux déficiences intellectuelles et exprime sa déception face à l'utilisation fréquente de langage offensant. Williams, qui cherche le respect plutôt que la charité, souligne l'impact significatif des Jeux Olympiques Spéciaux sur son estime de soi et son intégration sociale. Il partage son sentiment d'isolement antérieur à sa découverte de ces jeux, et comment ils ont transformé sa vie, comme ils l'ont fait pour d'autres, grâce à des programmes sportifs de haute qualité tout au long de l'année. En hommage aux pionniers comme Dr. Frank Hayden et Eunice Kennedy Shriver, Williams se souvient de sa participation aux Championnats du Monde des Jeux Olympiques Spéciaux à Los Angeles, un événement de grande envergure qui rassemble des athlètes de divers pays. Son discours direct et persuasif invite à une introspection et à un changement, illustrant l'influence positive des Jeux Olympiques Spéciaux sur l'amélioration de la condition physique et morale des participants, tout en contribuant à une meilleure compréhension et acceptation de la société à l'égard des personnes ayant des déficiences intellectuelles.",
+        "new_tgt_summary": "Matthew Williams, a Special Olympics athlete with an intellectual disability and epilepsy, has achieved national championships and international recognition in basketball and speed skating, training rigorously while working with top coaches and mental performance consultants. Despite facing societal neglect and offensive language, Williams actively competes in events like the Special Olympics World Championships, which recently featured over 6,500 athletes from 165 countries and attracted significant media attention. Through his participation, Williams seeks to challenge misconceptions about individuals with intellectual disabilities and advocate for greater visibility and respect. The Special Olympics, founded by pioneers like Dr. Frank Hayden and Eunice Kennedy Shriver, offers year-round sports programs that have transformed Williams' life, boosting his confidence, providing competitive opportunities, and enabling him to represent Canada at the Summer World Games. By sharing his story, Williams highlights the organization's impact on altering societal perceptions and showcasing the abilities of athletes with intellectual disabilities.",
+        "rel_src": [
+            "Mais des pionniers comme Dr. Hayden et Eunice Kennedy Shriver, le fondateur des Jeux Olympiques Spéciaux, ont persévéré, et les athlètes des Jeux Olympiques Spéciaux leur ont donné raison quatre millions et demi de fois.",
+            "A présent, je suis un joueur de basketball et un patineur de vitesse qui a concouru aux jeux régionaux, nationaux, et cette année, a fini aux Jeux Mondiaux d’Été à Los Angeles, où j'ai fait partie de la toute première équipe canadienne de basketball à participer aux Jeux Mondiaux."
+        ],
+        "rel_tgt": [
+            "But pioneers like Dr. Hayden and Eunice Kennedy Shriver, the founder of the Special Olympics, persisted, and the Special Olympics athletes have proven them right four and a half million times over.",
+            "Now, I am a basketball player and a speed skater who has competed in regional and national games, and this year, I ended up at the Summer World Games in Los Angeles, where I was part of the very first Canadian basketball team to participate in the World Games."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games"
+        }
+    },
+    {
+        "idx": 40,
+        "src": "Être un athlète des Jeux Olympiques Spéciaux redonne de la fierté et de la dignité.",
+        "ref": "Being Special Olympics athletes  restores our pride and dignity.",
+        "hyp": "Being a Special Olympics athlete restores pride and dignity.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux transforment l'identité propre des athlètes ayant des déficiences intellectuelles et la perception de quiconque regardant la compétition.",
+            "Nous offrons des programmes sportifs de haute qualité, toute l'année pour les personnes ayant des déficiences intellectuelles, ce qui change des vies et la perception."
+        ],
+        "rel_tgt": [
+            "The Special Olympics transform the identity of athletes with intellectual disabilities and the perception of anyone watching the competition.",
+            "We offer high-quality year-round sports programs for individuals with intellectual disabilities, which changes lives and perceptions."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games"
+        }
+    },
+    {
+        "idx": 41,
+        "src": "Les Jeux Olympiques Spéciaux adressent également des besoins de santé importants.",
+        "ref": "Special Olympics also addresses critical health needs.",
+        "hyp": "The Special Olympics also address significant health needs.",
+        "rel_src": [
+            "Nous offrons des programmes sportifs de haute qualité, toute l'année pour les personnes ayant des déficiences intellectuelles, ce qui change des vies et la perception.",
+            "Beaucoup de gens doutaient que les personnes ayant des déficience intellectuelles pouvaient bénéficier des programmes de mise en forme et des compétitions sportives."
+        ],
+        "rel_tgt": [
+            "We offer high-quality year-round sports programs for individuals with intellectual disabilities, which changes lives and perceptions.",
+            "Many people doubted that individuals with intellectual disabilities could benefit from fitness programs and sports competitions."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games"
+        }
+    },
+    {
+        "idx": 42,
+        "src": "Des études ont indiqué qu'en moyenne les hommes ayant des déficiences intellectuelles meurent 13 ans plus jeune que les hommes sans, et les femmes ayant des déficiences intellectuelles meurent 20 ans plus jeune que les femmes sans.",
+        "ref": "Studies have shown that, on average,  men with intellectual disabilities  die 13 years younger than men without,  and women with intellectual disabilities  die 20 years younger than women without.",
+        "hyp": "Studies have shown that on average, men with intellectual disabilities die 13 years younger than those without, and women with intellectual disabilities die 20 years younger than those without.",
+        "rel_src": [
+            "Dans les années 60, Dr. Frank Hayden, un scientifique à l'Université de Toronto, étudiait les effets de l'exercice régulier sur la condition physique des enfants ayant des déficiences intellectuelles.",
+            "Les Jeux Olympiques Spéciaux adressent également des besoins de santé importants."
+        ],
+        "rel_tgt": [
+            "In the 1960s, Dr. Frank Hayden, a scientist at the University of Toronto, studied the effects of regular exercise on the physical condition of children with intellectual disabilities.",
+            "The Special Olympics also address significant health needs."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games"
+        }
+    },
+    {
+        "idx": 43,
+        "src": "Le Jeux Olympiques Spéciaux nous gardent en bonne santé en nous rendant actifs et en nous faisant participer à un sport.",
+        "ref": "Special Olympics keeps us healthy  by getting us active  and participating in sport.",
+        "hyp": "The Special Olympics keep us healthy by keeping us active and involved in a sport.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux adressent également des besoins de santé importants.",
+            "Des études ont indiqué qu'en moyenne les hommes ayant des déficiences intellectuelles meurent 13 ans plus jeune que les hommes sans, et les femmes ayant des déficiences intellectuelles meurent 20 ans plus jeune que les femmes sans."
+        ],
+        "rel_tgt": [
+            "The Special Olympics also address significant health needs.",
+            "Studies have shown that on average, men with intellectual disabilities die 13 years younger than those without, and women with intellectual disabilities die 20 years younger than those without."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games"
+        }
+    },
+    {
+        "idx": 44,
+        "src": "Par ailleurs, nos entraîneurs nous enseignent la nutrition et la santé.",
+        "ref": "Also, our coaches teach us about nutrition and health.",
+        "hyp": "Furthermore, our coaches teach us about nutrition and health.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux adressent également des besoins de santé importants.",
+            "Le Jeux Olympiques Spéciaux nous gardent en bonne santé en nous rendant actifs et en nous faisant participer à un sport."
+        ],
+        "rel_tgt": [
+            "The Special Olympics also address significant health needs.",
+            "The Special Olympics keep us healthy by keeping us active and involved in a sport."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games"
+        }
+    },
+    {
+        "idx": 45,
+        "src": "Les Jeux Olympiques Spéciaux fournissent également des tests de dépistage gratuits pour les athlètes qui ont des difficultés à communiquer avec leur docteur ou à accéder aux soins médiaux.",
+        "ref": "Special Olympics also provides free health screening  for athletes who have difficulty communicating with their doctor  or accessing health care.",
+        "hyp": "The Special Olympics also provide free health screenings for athletes who struggle to communicate with their doctor or access medical care.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux adressent également des besoins de santé importants.",
+            "Le Jeux Olympiques Spéciaux nous gardent en bonne santé en nous rendant actifs et en nous faisant participer à un sport."
+        ],
+        "rel_tgt": [
+            "The Special Olympics also address significant health needs.",
+            "The Special Olympics keep us healthy by keeping us active and involved in a sport."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games"
+        }
+    },
+    {
+        "idx": 46,
+        "src": "Aux Jeux d’Été Mondiaux 2015, mes coéquipiers de l'équipe Canada et moi jouions contre l'équipe du Nigeria.",
+        "ref": "At the 2015 World Summer Games,  my Team Canada teammates and I played the Nigerian basketball team.",
+        "hyp": "At the 2015 Summer World Games, my teammates from Team Canada and I were playing against the Nigerian team.",
+        "rel_src": [
+            "A présent, je suis un joueur de basketball et un patineur de vitesse qui a concouru aux jeux régionaux, nationaux, et cette année, a fini aux Jeux Mondiaux d’Été à Los Angeles, où j'ai fait partie de la toute première équipe canadienne de basketball à participer aux Jeux Mondiaux.",
+            "Je suis l'un des plus de quatre millions et demi d'athlètes du monde entier, et j'ai entendu tellement d'histoires similaires."
+        ],
+        "rel_tgt": [
+            "Now, I am a basketball player and a speed skater who has competed in regional and national games, and this year, I ended up at the Summer World Games in Los Angeles, where I was part of the very first Canadian basketball team to participate in the World Games.",
+            "I am one of the more than four and a half million athletes worldwide, and I have heard so many similar stories."
+        ],
+        "hist_info": "\"Canada\" - \"Canada\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian"
+        }
+    },
+    {
+        "idx": 47,
+        "src": "Le jour précédent notre match, l'équipe nigériane de basket était venue au dépistage des Athlètes des Jeux Mondiaux ont été distribués gratuitement à sept membres sur dix et ont eu l'occasion d'entendre clairement pour la première fois.",
+        "ref": "The day before our game,  the Nigerian basketball team went to the World Games Healthy Athlete screening,  where seven of 10 members  were given hearing aids for free  and got to hear clearly for the first time.",
+        "hyp": "The day before our game, the Nigerian basketball team came for the athlete health screenings; hearing devices were freely distributed to seven out of ten members, giving them the opportunity to hear clearly for the first time.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux fournissent également des tests de dépistage gratuits pour les athlètes qui ont des difficultés à communiquer avec leur docteur ou à accéder aux soins médiaux.",
+            "Aux Jeux d’Été Mondiaux 2015, mes coéquipiers de l'équipe Canada et moi jouions contre l'équipe du Nigeria."
+        ],
+        "rel_tgt": [
+            "The Special Olympics also provide free health screenings for athletes who struggle to communicate with their doctor or access medical care.",
+            "At the 2015 Summer World Games, my teammates from Team Canada and I were playing against the Nigerian team."
+        ],
+        "hist_info": "\"Jeux Mondiaux\" - \"World Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian"
+        }
+    },
+    {
+        "idx": 48,
+        "src": "Ce changement pour eux était incroyable.",
+        "ref": "The change in them was amazing.",
+        "hyp": "This change for them was incredible.",
+        "rel_src": [
+            "Je suis l'un des plus de quatre millions et demi d'athlètes du monde entier, et j'ai entendu tellement d'histoires similaires.",
+            "Être un athlète des Jeux Olympiques Spéciaux redonne de la fierté et de la dignité."
+        ],
+        "rel_tgt": [
+            "I am one of the more than four and a half million athletes worldwide, and I have heard so many similar stories.",
+            "Being a Special Olympics athlete restores pride and dignity."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian"
+        }
+    },
+    {
+        "idx": 49,
+        "src": "Ils étaient très excités, contents et confiants, car leurs entraîneurs pouvaient communiquer oralement avec eux.",
+        "ref": "They were more excited, happy and confident,  because their coach could vocally communicate with them.",
+        "hyp": "They were very excited, happy, and confident because their coaches could now communicate verbally with them.",
+        "rel_src": [
+            "Par ailleurs, nos entraîneurs nous enseignent la nutrition et la santé.",
+            "Les Jeux Olympiques Spéciaux fournissent également des tests de dépistage gratuits pour les athlètes qui ont des difficultés à communiquer avec leur docteur ou à accéder aux soins médiaux."
+        ],
+        "rel_tgt": [
+            "Furthermore, our coaches teach us about nutrition and health.",
+            "The Special Olympics also provide free health screenings for athletes who struggle to communicate with their doctor or access medical care."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian"
+        }
+    },
+    {
+        "idx": 50,
+        "src": "Et ils étaient très émus car ils pouvaient entendre les sons du ballon de basket, les sons du sifflet et les fans enthousiastes dans les tribunes — des sons que nous tenons pour acquis.",
+        "ref": "And they were emotional  because they could hear the sounds of the basketball,  the sounds of the whistle  and the cheering fans in the stands --  sounds that we take for granted.",
+        "hyp": "And they were deeply moved because they could hear the sounds of the basketball, the sounds of the whistle, and the enthusiastic fans in the stands - sounds that we take for granted.",
+        "rel_src": [
+            "Le jour précédent notre match, l'équipe nigériane de basket était venue au dépistage des Athlètes des Jeux Mondiaux ont été distribués gratuitement à sept membres sur dix et ont eu l'occasion d'entendre clairement pour la première fois.",
+            "Ce changement pour eux était incroyable."
+        ],
+        "rel_tgt": [
+            "The day before our game, the Nigerian basketball team came for the athlete health screenings; hearing devices were freely distributed to seven out of ten members, giving them the opportunity to hear clearly for the first time.",
+            "This change for them was incredible."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian"
+        }
+    },
+    {
+        "idx": 51,
+        "src": "Le Jeux Olympiques Spéciaux font plus que transformer les athlètes dans le sport.",
+        "ref": "Special Olympics is transforming more than just the athlete in their sport.",
+        "hyp": "The Special Olympics do more than transform athletes in sports.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux adressent également des besoins de santé importants.",
+            "Le Jeux Olympiques Spéciaux nous gardent en bonne santé en nous rendant actifs et en nous faisant participer à un sport."
+        ],
+        "rel_tgt": [
+            "The Special Olympics also address significant health needs.",
+            "The Special Olympics keep us healthy by keeping us active and involved in a sport."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian"
+        }
+    },
+    {
+        "idx": 52,
+        "src": "Le Jeux Olympiques Spéciaux transforment leur vie en dehors des terrains.",
+        "ref": "Special Olympics is transforming their lives off the field.",
+        "hyp": "The Special Olympics transform their lives beyond the playing fields.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux adressent également des besoins de santé importants.",
+            "Le Jeux Olympiques Spéciaux font plus que transformer les athlètes dans le sport."
+        ],
+        "rel_tgt": [
+            "The Special Olympics also address significant health needs.",
+            "The Special Olympics do more than transform athletes in sports."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian"
+        }
+    },
+    {
+        "idx": 53,
+        "src": "Cette année, une recherche a démontré que presque la moitié des adultes aux États-Unis ne connaissent pas une seule personne ayant une déficience intellectuelle, et les 44% des Américains qui n'ont pas de contact personnel avec des déficiences intellectuelles sont significativement moins tolérants et positifs.",
+        "ref": "This year, research findings showed  that nearly half of the adults in the US  don't know a single person with an intellectual disability,  and the 44 percent of Americans  who don't have personal contact with intellectual disabilities  are significantly less accepting and positive.",
+        "hyp": "This year, a study showed that nearly half of adults in the United States do not know a single person with an intellectual disability, and the 44% of Americans who have no personal contact with intellectual disabilities are significantly less tolerant and positive.",
+        "rel_src": [
+            "Beaucoup de gens doutaient que les personnes ayant des déficience intellectuelles pouvaient bénéficier des programmes de mise en forme et des compétitions sportives.",
+            "Des études ont indiqué qu'en moyenne les hommes ayant des déficiences intellectuelles meurent 13 ans plus jeune que les hommes sans, et les femmes ayant des déficiences intellectuelles meurent 20 ans plus jeune que les femmes sans."
+        ],
+        "rel_tgt": [
+            "Many people doubted that individuals with intellectual disabilities could benefit from fitness programs and sports competitions.",
+            "Studies have shown that on average, men with intellectual disabilities die 13 years younger than those without, and women with intellectual disabilities die 20 years younger than those without."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian",
+            "États-Unis": "United States",
+            "Américains": "Americans"
+        }
+    },
+    {
+        "idx": 54,
+        "src": "Puis il y a le mot en « R », démontrant que les personnes ayant des déficiences intellectuelles sont encore invisibles pour beaucoup trop de monde.",
+        "ref": "Then there's the r-word,  proving that people with intellectual disabilities  are still invisible  to far too many people.",
+        "hyp": "Then there is the \"R\" word, demonstrating that individuals with intellectual disabilities are still invisible to far too many people.",
+        "rel_src": [
+            "Beaucoup de gens doutaient que les personnes ayant des déficience intellectuelles pouvaient bénéficier des programmes de mise en forme et des compétitions sportives.",
+            "Cette année, une recherche a démontré que presque la moitié des adultes aux États-Unis ne connaissent pas une seule personne ayant une déficience intellectuelle, et les 44% des Américains qui n'ont pas de contact personnel avec des déficiences intellectuelles sont significativement moins tolérants et positifs."
+        ],
+        "rel_tgt": [
+            "Many people doubted that individuals with intellectual disabilities could benefit from fitness programs and sports competitions.",
+            "This year, a study showed that nearly half of adults in the United States do not know a single person with an intellectual disability, and the 44% of Americans who have no personal contact with intellectual disabilities are significantly less tolerant and positive."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian",
+            "États-Unis": "United States",
+            "Américains": "Americans"
+        }
+    },
+    {
+        "idx": 55,
+        "src": "Les gens l'utilisent comme un terme habituel ou une insulte.",
+        "ref": "People use it as a casual term or an insult.",
+        "hyp": "People use it as a common term or an insult.",
+        "rel_src": [
+            "Cette année, une recherche a démontré que presque la moitié des adultes aux États-Unis ne connaissent pas une seule personne ayant une déficience intellectuelle, et les 44% des Américains qui n'ont pas de contact personnel avec des déficiences intellectuelles sont significativement moins tolérants et positifs.",
+            "Puis il y a le mot en « R », démontrant que les personnes ayant des déficiences intellectuelles sont encore invisibles pour beaucoup trop de monde."
+        ],
+        "rel_tgt": [
+            "This year, a study showed that nearly half of adults in the United States do not know a single person with an intellectual disability, and the 44% of Americans who have no personal contact with intellectual disabilities are significantly less tolerant and positive.",
+            "Then there is the \"R\" word, demonstrating that individuals with intellectual disabilities are still invisible to far too many people."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian",
+            "États-Unis": "United States",
+            "Américains": "Americans"
+        }
+    },
+    {
+        "idx": 56,
+        "src": "Il a été tweeté plus de neuf millions de fois l'année dernière, et c'est profondément blessant pour moi et mes quatre millions et demi de camarades athlètes dans le monde.",
+        "ref": "It was tweeted more than nine million times last year,  and it is deeply hurtful  to me and my four and a half million fellow athletes around the planet.",
+        "hyp": "It was tweeted over nine million times last year, and it is deeply hurtful to me and my four and a half million fellow athletes around the world.",
+        "rel_src": [
+            "Je suis l'un des plus de quatre millions et demi d'athlètes du monde entier, et j'ai entendu tellement d'histoires similaires.",
+            "Les gens l'utilisent comme un terme habituel ou une insulte."
+        ],
+        "rel_tgt": [
+            "I am one of the more than four and a half million athletes worldwide, and I have heard so many similar stories.",
+            "People use it as a common term or an insult."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian",
+            "États-Unis": "United States",
+            "Américains": "Americans"
+        }
+    },
+    {
+        "idx": 57,
+        "src": "Les gens ne s'imaginent pas que c'est insultant, mais ça l'est.",
+        "ref": "People don't think it's insulting,  but it is.",
+        "hyp": "People don't realize how insulting it is, but it truly is.",
+        "rel_src": [
+            "Puis il y a le mot en « R », démontrant que les personnes ayant des déficiences intellectuelles sont encore invisibles pour beaucoup trop de monde.",
+            "Les gens l'utilisent comme un terme habituel ou une insulte."
+        ],
+        "rel_tgt": [
+            "Then there is the \"R\" word, demonstrating that individuals with intellectual disabilities are still invisible to far too many people.",
+            "People use it as a common term or an insult."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian",
+            "États-Unis": "United States",
+            "Américains": "Americans"
+        }
+    },
+    {
+        "idx": 58,
+        "src": "Comme mon camarade athlète et porte-parole mondial John Franklin Stephens l'a écrit dans une lettre ouverte à un commentateur politique qui avait utilisé le mot en « R » comme insulte, « Venez nous rejoindre un jour aux Jeux Olympiques Spéciaux.",
+        "ref": "As my fellow athlete and global messenger John Franklin Stephens wrote  in an open letter to a political pundit  who used the r-word as an insult,  \"Come join us someday at Special Olympics.",
+        "hyp": "As my fellow athlete and Global Messenger John Franklin Stephens wrote in an open letter to a political commentator who had used the R-word as an insult, \"Come join us one day at the Special Olympics.",
+        "rel_src": [
+            "Le Jeux Olympiques Spéciaux font plus que transformer les athlètes dans le sport.",
+            "Le Jeux Olympiques Spéciaux transforment leur vie en dehors des terrains."
+        ],
+        "rel_tgt": [
+            "The Special Olympics do more than transform athletes in sports.",
+            "The Special Olympics transform their lives beyond the playing fields."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian",
+            "États-Unis": "United States",
+            "Américains": "Americans",
+            "John Franklin Stephens": "John Franklin Stephens"
+        }
+    },
+    {
+        "idx": 59,
+        "src": "Vous verrez si vous repartez avec le cœur inchangé. »",
+        "ref": "See if you walk away with your heart unchanged.\"",
+        "hyp": "You'll see if you leave with an unchanged heart.\"",
+        "new_src_summary": "Matthew Williams, un remarquable athlète vivant avec une déficience intellectuelle et de l'épilepsie, partage son voyage inspirant vers le succès dans le basketball et le patinage de vitesse, particulièrement lors des Jeux Olympiques Spéciaux. Avec un discours direct et passionné, il dénonce le stigmate entourant les déficiences intellectuelles et exprime sa déception face à l'utilisation répandue de langage offensant, en particulier le terme \"retardé\". Williams, qui aspire au respect plus qu'à la charité, met en exergue l'importance des Jeux Olympiques Spéciaux pour son estime de soi et son intégration sociale. Avant de découvrir ces jeux, il se sentait isolé, mais ils ont radicalement transformé sa vie, tout comme pour d'autres, grâce à leurs programmes sportifs de qualité tout au long de l'année. Il rend hommage aux visionnaires comme Dr. Frank Hayden et Eunice Kennedy Shriver, en évoquant son expérience aux Championnats du Monde des Jeux Olympiques Spéciaux à Los Angeles, un événement mondial rassemblant des athlètes de divers pays. Les Jeux Olympiques Spéciaux ne sont pas seulement un moyen de promouvoir la fierté et la dignité, mais aussi d'améliorer la santé physique et mentale. Ils fournissent des formations en nutrition et en santé, ainsi que des tests médicaux gratuits, ce qui a été particulièrement bénéfique pour les athlètes ayant des difficultés de communication, comme l'illustre l'exemple de plusieurs membres de l'équipe nigériane ayant reçu des appareils auditifs. En outre, ils favorisent la tolérance et la sensibilisation à l'égard des déficiences intellectuelles, contribuant à une meilleure compréhension et acceptation de ces individus par la société. Son récit, narratif et persuasif, est à la fois sérieux et émouvant, invitant à la prise de conscience et à l'empathie.",
+        "new_tgt_summary": "Matthew Williams, a Special Olympics athlete with an intellectual disability and epilepsy, has gained national championships and international acclaim in basketball and speed skating, defying societal neglect and offensive language. Training under top coaches and mental performance consultants, Williams actively participates in events like the Special Olympics World Championships, which recently featured over 6,500 athletes from 165 countries and garnered substantial media coverage. By sharing his experiences, Williams challenges misconceptions about individuals with intellectual disabilities and advocates for increased visibility and respect. The Special Olympics, established by visionaries like Dr. Frank Hayden and Eunice Kennedy Shriver, provides year-round sports programs that have transformed Williams' life, boosting his confidence, offering competitive opportunities, and enabling him to represent Canada at the Summer World Games. The organization not only restores pride and dignity but also addresses critical health needs, as studies indicate that individuals with intellectual disabilities have shorter lifespans than those without. The program benefits athletes worldwide by keeping them active, teaching nutrition and health, and providing free health screenings. For instance, the Nigerian basketball team received hearing devices during the 2015 Summer World Games, improving communication and enhancing their experience. Beyond sports, the Special Olympics combats social isolation and ignorance surrounding intellectual disabilities, as evidenced by a study revealing that nearly half of U.S. adults lack personal contact with individuals with such disabilities, leading to reduced tolerance and positivity. The paragraph also addresses the use of the derogatory \"R\" word, which is profoundly hurtful to athletes and underscores the invisibility of people with intellectual disabilities in society. The author encourages others to join the Special Olympics to gain a deeper understanding and appreciation of the community's contributions.",
+        "rel_src": [
+            "Le Jeux Olympiques Spéciaux font plus que transformer les athlètes dans le sport.",
+            "Comme mon camarade athlète et porte-parole mondial John Franklin Stephens l'a écrit dans une lettre ouverte à un commentateur politique qui avait utilisé le mot en « R » comme insulte, « Venez nous rejoindre un jour aux Jeux Olympiques Spéciaux."
+        ],
+        "rel_tgt": [
+            "The Special Olympics do more than transform athletes in sports.",
+            "As my fellow athlete and Global Messenger John Franklin Stephens wrote in an open letter to a political commentator who had used the R-word as an insult, \"Come join us one day at the Special Olympics."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian",
+            "États-Unis": "United States",
+            "Américains": "Americans",
+            "John Franklin Stephens": "John Franklin Stephens"
+        }
+    },
+    {
+        "idx": 60,
+        "src": "Cette année, aux Jeux d’Été Mondiaux 2015, les gens se sont alignés pendant des heures avant de plonger dans la dernière nuit de compétition d'haltérophilie.",
+        "ref": "This year, at the 2015 World Summer Games,  people lined up for hours  to get into the final night of powerlifting competition.",
+        "hyp": "This year, at the 2015 Summer World Games, people lined up for hours before diving into the final night of weightlifting competition.",
+        "rel_src": [
+            "Aux Jeux d’Été Mondiaux 2015, mes coéquipiers de l'équipe Canada et moi jouions contre l'équipe du Nigeria.",
+            "Le jour précédent notre match, l'équipe nigériane de basket était venue au dépistage des Athlètes des Jeux Mondiaux ont été distribués gratuitement à sept membres sur dix et ont eu l'occasion d'entendre clairement pour la première fois."
+        ],
+        "rel_tgt": [
+            "At the 2015 Summer World Games, my teammates from Team Canada and I were playing against the Nigerian team.",
+            "The day before our game, the Nigerian basketball team came for the athlete health screenings; hearing devices were freely distributed to seven out of ten members, giving them the opportunity to hear clearly for the first time."
+        ],
+        "hist_info": "\"Jeux d’Été Mondiaux 2015\" - \"2015 Summer World Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian",
+            "États-Unis": "United States",
+            "Américains": "Americans",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "haltérophilie": "weightlifting \n\n(Note: haltérophilie can be considered a proper noun in this context as it refers to a specific sport"
+        }
+    },
+    {
+        "idx": 61,
+        "src": "Cette soirée a fait salle comble lorsque mon coéquipier Jackie Barrett, l’Élan de Terre-Neuve, a soulevé 297 kg et 277 kg en squats —  établissant d'énormes nouveaux records aux Jeux Olympiques Spéciaux.",
+        "ref": "So it was standing room only when my teammate Jackie Barrett,  the Newfoundland Moose,  deadlifted 655 pounds  and lifted 611 pounds in the squat --    setting huge new records for Special Olympics.",
+        "hyp": "That evening saw a packed house when my teammate Jackie Barrett, the Newfoundland Lancer, lifted 297 kg and 277 kg in squats—setting huge new records at the Special Olympics.",
+        "rel_src": [
+            "Aux Jeux d’Été Mondiaux 2015, mes coéquipiers de l'équipe Canada et moi jouions contre l'équipe du Nigeria.",
+            "Cette année, aux Jeux d’Été Mondiaux 2015, les gens se sont alignés pendant des heures avant de plonger dans la dernière nuit de compétition d'haltérophilie."
+        ],
+        "rel_tgt": [
+            "At the 2015 Summer World Games, my teammates from Team Canada and I were playing against the Nigerian team.",
+            "This year, at the 2015 Summer World Games, people lined up for hours before diving into the final night of weightlifting competition."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian",
+            "États-Unis": "United States",
+            "Américains": "Americans",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "haltérophilie": "weightlifting \n\n(Note: haltérophilie can be considered a proper noun in this context as it refers to a specific sport",
+            "Jackie Barrett": "Jackie Barrett",
+            "Élan de Terre-Neuve": "Newfoundland Lancer"
+        }
+    },
+    {
+        "idx": 62,
+        "src": "Jackie est l'un détenteur de record parmi tous les haltérophiles de Terre-Neuve — pas seulement aux Jeux Olympiques Spéciaux mais tous les haltérophiles.",
+        "ref": "Jackie is a record holder among all powerlifters in Newfoundland --  not just Special Olympics, all powerlifters.",
+        "hyp": "Jackie is one of the record holders among all weightlifters in Newfoundland—not just at the Special Olympics but among all weightlifters.",
+        "rel_src": [
+            "Cette année, aux Jeux d’Été Mondiaux 2015, les gens se sont alignés pendant des heures avant de plonger dans la dernière nuit de compétition d'haltérophilie.",
+            "Cette soirée a fait salle comble lorsque mon coéquipier Jackie Barrett, l’Élan de Terre-Neuve, a soulevé 297 kg et 277 kg en squats —  établissant d'énormes nouveaux records aux Jeux Olympiques Spéciaux."
+        ],
+        "rel_tgt": [
+            "This year, at the 2015 Summer World Games, people lined up for hours before diving into the final night of weightlifting competition.",
+            "That evening saw a packed house when my teammate Jackie Barrett, the Newfoundland Lancer, lifted 297 kg and 277 kg in squats—setting huge new records at the Special Olympics."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian",
+            "États-Unis": "United States",
+            "Américains": "Americans",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "haltérophilie": "weightlifting \n\n(Note: haltérophilie can be considered a proper noun in this context as it refers to a specific sport",
+            "Jackie Barrett": "Jackie Barrett",
+            "Élan de Terre-Neuve": "Newfoundland Lancer",
+            "Jackie": "Jackie",
+            "Terre-Neuve": "Newfoundland"
+        }
+    },
+    {
+        "idx": 63,
+        "src": "Jackie était une énorme célébrité à Los Angeles, et ESPN a tweeté en direct son nouveau record et était impressionné par sa performance.",
+        "ref": "Jackie was a huge star in LA,  and ESPN live-tweeted his record-breaking lifts  and were wowed by his performance.",
+        "hyp": "Jackie was a huge celebrity in Los Angeles, and ESPN live-tweeted his new record, being impressed by his performance.",
+        "rel_src": [
+            "Cette année, aux Jeux d’Été Mondiaux 2015, les gens se sont alignés pendant des heures avant de plonger dans la dernière nuit de compétition d'haltérophilie.",
+            "Cette soirée a fait salle comble lorsque mon coéquipier Jackie Barrett, l’Élan de Terre-Neuve, a soulevé 297 kg et 277 kg en squats —  établissant d'énormes nouveaux records aux Jeux Olympiques Spéciaux."
+        ],
+        "rel_tgt": [
+            "This year, at the 2015 Summer World Games, people lined up for hours before diving into the final night of weightlifting competition.",
+            "That evening saw a packed house when my teammate Jackie Barrett, the Newfoundland Lancer, lifted 297 kg and 277 kg in squats—setting huge new records at the Special Olympics."
+        ],
+        "hist_info": "\"Los Angeles\" - \"Los Angeles\", \"ESPN\" - \"ESPN\", \"Jackie\" - \"Jackie\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian",
+            "États-Unis": "United States",
+            "Américains": "Americans",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "haltérophilie": "weightlifting \n\n(Note: haltérophilie can be considered a proper noun in this context as it refers to a specific sport",
+            "Jackie Barrett": "Jackie Barrett",
+            "Élan de Terre-Neuve": "Newfoundland Lancer",
+            "Jackie": "Jackie",
+            "Terre-Neuve": "Newfoundland"
+        }
+    },
+    {
+        "idx": 64,
+        "src": "Il y a 50 ans, peu de gens imaginaient des personnes déficientes mentales capables de faire quelque chose comme ça.",
+        "ref": "Fifty years ago, few imagined individuals with intellectual disabilities  could do anything like that.",
+        "hyp": "Fifty years ago, few people imagined that individuals with intellectual disabilities were capable of doing something like this.",
+        "rel_src": [
+            "Le Jeux Olympiques Spéciaux font plus que transformer les athlètes dans le sport.",
+            "Le Jeux Olympiques Spéciaux transforment leur vie en dehors des terrains."
+        ],
+        "rel_tgt": [
+            "The Special Olympics do more than transform athletes in sports.",
+            "The Special Olympics transform their lives beyond the playing fields."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian",
+            "États-Unis": "United States",
+            "Américains": "Americans",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "haltérophilie": "weightlifting \n\n(Note: haltérophilie can be considered a proper noun in this context as it refers to a specific sport",
+            "Jackie Barrett": "Jackie Barrett",
+            "Élan de Terre-Neuve": "Newfoundland Lancer",
+            "Jackie": "Jackie",
+            "Terre-Neuve": "Newfoundland"
+        }
+    },
+    {
+        "idx": 65,
+        "src": "Cette année, 60 000 spectateurs ont rempli le célèbre LA Memorial Coliseum pour regarder les cérémonies d'ouverture des Jeux Mondiaux et applaudir les athlètes de 165 pays venant du monde entier.",
+        "ref": "This year, 60,000 spectators filled the famous LA Memorial Coliseum  to watch the opening ceremonies of World Games  and cheer athletes from 165 countries  around the world.",
+        "hyp": "This year, 60,000 spectators filled the iconic LA Memorial Coliseum to watch the opening ceremonies of the World Games and cheer on athletes from 165 countries coming from around the world.",
+        "rel_src": [
+            "Cette année, aux Jeux d’Été Mondiaux 2015, les gens se sont alignés pendant des heures avant de plonger dans la dernière nuit de compétition d'haltérophilie.",
+            "Cette soirée a fait salle comble lorsque mon coéquipier Jackie Barrett, l’Élan de Terre-Neuve, a soulevé 297 kg et 277 kg en squats —  établissant d'énormes nouveaux records aux Jeux Olympiques Spéciaux."
+        ],
+        "rel_tgt": [
+            "This year, at the 2015 Summer World Games, people lined up for hours before diving into the final night of weightlifting competition.",
+            "That evening saw a packed house when my teammate Jackie Barrett, the Newfoundland Lancer, lifted 297 kg and 277 kg in squats—setting huge new records at the Special Olympics."
+        ],
+        "hist_info": "\"Jeux Mondiaux\" - \"World Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian",
+            "États-Unis": "United States",
+            "Américains": "Americans",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "haltérophilie": "weightlifting \n\n(Note: haltérophilie can be considered a proper noun in this context as it refers to a specific sport",
+            "Jackie Barrett": "Jackie Barrett",
+            "Élan de Terre-Neuve": "Newfoundland Lancer",
+            "Jackie": "Jackie",
+            "Terre-Neuve": "Newfoundland",
+            "LA Memorial Coliseum": "LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 66,
+        "src": "Loin d'être cachés, nous avons été applaudis et célébrés.",
+        "ref": "Far from being hidden away,  we were cheered and celebrated.",
+        "hyp": "Far from being hidden, we were cheered and celebrated.",
+        "rel_src": [
+            "Cette soirée a fait salle comble lorsque mon coéquipier Jackie Barrett, l’Élan de Terre-Neuve, a soulevé 297 kg et 277 kg en squats —  établissant d'énormes nouveaux records aux Jeux Olympiques Spéciaux.",
+            "Cette année, 60 000 spectateurs ont rempli le célèbre LA Memorial Coliseum pour regarder les cérémonies d'ouverture des Jeux Mondiaux et applaudir les athlètes de 165 pays venant du monde entier."
+        ],
+        "rel_tgt": [
+            "That evening saw a packed house when my teammate Jackie Barrett, the Newfoundland Lancer, lifted 297 kg and 277 kg in squats—setting huge new records at the Special Olympics.",
+            "This year, 60,000 spectators filled the iconic LA Memorial Coliseum to watch the opening ceremonies of the World Games and cheer on athletes from 165 countries coming from around the world."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian",
+            "États-Unis": "United States",
+            "Américains": "Americans",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "haltérophilie": "weightlifting \n\n(Note: haltérophilie can be considered a proper noun in this context as it refers to a specific sport",
+            "Jackie Barrett": "Jackie Barrett",
+            "Élan de Terre-Neuve": "Newfoundland Lancer",
+            "Jackie": "Jackie",
+            "Terre-Neuve": "Newfoundland",
+            "LA Memorial Coliseum": "LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 67,
+        "src": "Les Jeux Olympiques Spéciaux apprennent aux athlètes à être confiants et fiers d'eux-mêmes.",
+        "ref": "Special Olympics teaches athletes  to be confident and proud of themselves.",
+        "hyp": "The Special Olympics teach athletes to be confident and proud of themselves.",
+        "rel_src": [
+            "Ils étaient très excités, contents et confiants, car leurs entraîneurs pouvaient communiquer oralement avec eux.",
+            "Le Jeux Olympiques Spéciaux font plus que transformer les athlètes dans le sport."
+        ],
+        "rel_tgt": [
+            "They were very excited, happy, and confident because their coaches could now communicate verbally with them.",
+            "The Special Olympics do more than transform athletes in sports."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian",
+            "États-Unis": "United States",
+            "Américains": "Americans",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "haltérophilie": "weightlifting \n\n(Note: haltérophilie can be considered a proper noun in this context as it refers to a specific sport",
+            "Jackie Barrett": "Jackie Barrett",
+            "Élan de Terre-Neuve": "Newfoundland Lancer",
+            "Jackie": "Jackie",
+            "Terre-Neuve": "Newfoundland",
+            "LA Memorial Coliseum": "LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 68,
+        "src": "Les Jeux Olympiques Spéciaux apprennent au monde que les gens ayant des déficiences intellectuelles méritent le respect et la considération.",
+        "ref": "Special Olympics teaches the world  that people with intellectual disabilities  deserve respect and inclusion.",
+        "hyp": "The Special Olympics teach the world that individuals with intellectual disabilities deserve respect and consideration.",
+        "rel_src": [
+            "Le Jeux Olympiques Spéciaux transforment leur vie en dehors des terrains.",
+            "Loin d'être cachés, nous avons été applaudis et célébrés."
+        ],
+        "rel_tgt": [
+            "The Special Olympics transform their lives beyond the playing fields.",
+            "Far from being hidden, we were cheered and celebrated."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian",
+            "États-Unis": "United States",
+            "Américains": "Americans",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "haltérophilie": "weightlifting \n\n(Note: haltérophilie can be considered a proper noun in this context as it refers to a specific sport",
+            "Jackie Barrett": "Jackie Barrett",
+            "Élan de Terre-Neuve": "Newfoundland Lancer",
+            "Jackie": "Jackie",
+            "Terre-Neuve": "Newfoundland",
+            "LA Memorial Coliseum": "LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 69,
+        "src": "A présent, j'ai des rêves et des succès dans mon sport, des entraîneurs formidables, du respect et de la dignité, une meilleure santé, et je poursuis une carrière d'entraîneur personnel.",
+        "ref": "Now, I have dreams and achievements in my sport,  great coaches,  respect and dignity,  better health,  and I am pursuing a career as a personal trainer.",
+        "hyp": "Now, I have dreams and achievements in my sport, amazing coaches, respect and dignity, better health, and I am pursuing a career as a personal trainer.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux apprennent aux athlètes à être confiants et fiers d'eux-mêmes.",
+            "Les Jeux Olympiques Spéciaux apprennent au monde que les gens ayant des déficiences intellectuelles méritent le respect et la considération."
+        ],
+        "rel_tgt": [
+            "The Special Olympics teach athletes to be confident and proud of themselves.",
+            "The Special Olympics teach the world that individuals with intellectual disabilities deserve respect and consideration."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian",
+            "États-Unis": "United States",
+            "Américains": "Americans",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "haltérophilie": "weightlifting \n\n(Note: haltérophilie can be considered a proper noun in this context as it refers to a specific sport",
+            "Jackie Barrett": "Jackie Barrett",
+            "Élan de Terre-Neuve": "Newfoundland Lancer",
+            "Jackie": "Jackie",
+            "Terre-Neuve": "Newfoundland",
+            "LA Memorial Coliseum": "LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 70,
+        "src": "Je ne suis plus caché, moqué, et je suis ici en train de donner une conférence TED.",
+        "ref": "I am no longer hidden, bullied  and I am here doing a TED Talk.",
+        "hyp": "I am no longer hidden, ridiculed, and I am here giving a TED talk.",
+        "rel_src": [
+            "Loin d'être cachés, nous avons été applaudis et célébrés.",
+            "Les Jeux Olympiques Spéciaux apprennent au monde que les gens ayant des déficiences intellectuelles méritent le respect et la considération."
+        ],
+        "rel_tgt": [
+            "Far from being hidden, we were cheered and celebrated.",
+            "The Special Olympics teach the world that individuals with intellectual disabilities deserve respect and consideration."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian",
+            "États-Unis": "United States",
+            "Américains": "Americans",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "haltérophilie": "weightlifting \n\n(Note: haltérophilie can be considered a proper noun in this context as it refers to a specific sport",
+            "Jackie Barrett": "Jackie Barrett",
+            "Élan de Terre-Neuve": "Newfoundland Lancer",
+            "Jackie": "Jackie",
+            "Terre-Neuve": "Newfoundland",
+            "LA Memorial Coliseum": "LA Memorial Coliseum",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 71,
+        "src": "Le monde est un endroit différent grâce aux Jeux Olympiques Spéciaux, mais il y a encore du travail.",
+        "ref": "The world is a different place because of Special Olympics,  but there is still farther to go.",
+        "hyp": "The world is a different place thanks to the Special Olympics, but there is still work to be done.",
+        "rel_src": [
+            "Puis il y a le mot en « R », démontrant que les personnes ayant des déficiences intellectuelles sont encore invisibles pour beaucoup trop de monde.",
+            "Les Jeux Olympiques Spéciaux apprennent au monde que les gens ayant des déficiences intellectuelles méritent le respect et la considération."
+        ],
+        "rel_tgt": [
+            "Then there is the \"R\" word, demonstrating that individuals with intellectual disabilities are still invisible to far too many people.",
+            "The Special Olympics teach the world that individuals with intellectual disabilities deserve respect and consideration."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian",
+            "États-Unis": "United States",
+            "Américains": "Americans",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "haltérophilie": "weightlifting \n\n(Note: haltérophilie can be considered a proper noun in this context as it refers to a specific sport",
+            "Jackie Barrett": "Jackie Barrett",
+            "Élan de Terre-Neuve": "Newfoundland Lancer",
+            "Jackie": "Jackie",
+            "Terre-Neuve": "Newfoundland",
+            "LA Memorial Coliseum": "LA Memorial Coliseum",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 72,
+        "src": "Donc la prochaine fois que vous verrez quelqu'un ayant des déficiences intellectuelles, j'espère que vous verrez son talent.",
+        "ref": "So the next time you see someone with an intellectual disability,  I hope you will see their ability.",
+        "hyp": "So the next time you see someone with intellectual disabilities, I hope you see their talent.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux apprennent aux athlètes à être confiants et fiers d'eux-mêmes.",
+            "Les Jeux Olympiques Spéciaux apprennent au monde que les gens ayant des déficiences intellectuelles méritent le respect et la considération."
+        ],
+        "rel_tgt": [
+            "The Special Olympics teach athletes to be confident and proud of themselves.",
+            "The Special Olympics teach the world that individuals with intellectual disabilities deserve respect and consideration."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian",
+            "États-Unis": "United States",
+            "Américains": "Americans",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "haltérophilie": "weightlifting \n\n(Note: haltérophilie can be considered a proper noun in this context as it refers to a specific sport",
+            "Jackie Barrett": "Jackie Barrett",
+            "Élan de Terre-Neuve": "Newfoundland Lancer",
+            "Jackie": "Jackie",
+            "Terre-Neuve": "Newfoundland",
+            "LA Memorial Coliseum": "LA Memorial Coliseum",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 73,
+        "src": "La prochaine fois que quelqu'un utilise le mot en « R » à coté de vous, j'espère que vous leur direz à quel point c'est blessant.",
+        "ref": "The next time someone uses the r-word near you,  I hope you will tell them how much it hurts.",
+        "hyp": "The next time someone uses the R-word around you, I hope you'll tell them just how hurtful it is.",
+        "rel_src": [
+            "Les gens l'utilisent comme un terme habituel ou une insulte.",
+            "Comme mon camarade athlète et porte-parole mondial John Franklin Stephens l'a écrit dans une lettre ouverte à un commentateur politique qui avait utilisé le mot en « R » comme insulte, « Venez nous rejoindre un jour aux Jeux Olympiques Spéciaux."
+        ],
+        "rel_tgt": [
+            "People use it as a common term or an insult.",
+            "As my fellow athlete and Global Messenger John Franklin Stephens wrote in an open letter to a political commentator who had used the R-word as an insult, \"Come join us one day at the Special Olympics."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian",
+            "États-Unis": "United States",
+            "Américains": "Americans",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "haltérophilie": "weightlifting \n\n(Note: haltérophilie can be considered a proper noun in this context as it refers to a specific sport",
+            "Jackie Barrett": "Jackie Barrett",
+            "Élan de Terre-Neuve": "Newfoundland Lancer",
+            "Jackie": "Jackie",
+            "Terre-Neuve": "Newfoundland",
+            "LA Memorial Coliseum": "LA Memorial Coliseum",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 74,
+        "src": "J'espère que vous songerez à vous impliquer dans les Jeux Olympiques Spéciaux.",
+        "ref": "I hope you will think about getting involved with Special Olympics.",
+        "hyp": "I hope you will consider getting involved with the Special Olympics.",
+        "rel_src": [
+            "Comme mon camarade athlète et porte-parole mondial John Franklin Stephens l'a écrit dans une lettre ouverte à un commentateur politique qui avait utilisé le mot en « R » comme insulte, « Venez nous rejoindre un jour aux Jeux Olympiques Spéciaux.",
+            "Les Jeux Olympiques Spéciaux apprennent aux athlètes à être confiants et fiers d'eux-mêmes."
+        ],
+        "rel_tgt": [
+            "As my fellow athlete and Global Messenger John Franklin Stephens wrote in an open letter to a political commentator who had used the R-word as an insult, \"Come join us one day at the Special Olympics.",
+            "The Special Olympics teach athletes to be confident and proud of themselves."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian",
+            "États-Unis": "United States",
+            "Américains": "Americans",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "haltérophilie": "weightlifting \n\n(Note: haltérophilie can be considered a proper noun in this context as it refers to a specific sport",
+            "Jackie Barrett": "Jackie Barrett",
+            "Élan de Terre-Neuve": "Newfoundland Lancer",
+            "Jackie": "Jackie",
+            "Terre-Neuve": "Newfoundland",
+            "LA Memorial Coliseum": "LA Memorial Coliseum",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 75,
+        "src": "J'aimerais vous quitter avec une toute dernière pensée.",
+        "ref": "I would like to leave you with one final thought.",
+        "hyp": "I would like to leave you with one final thought.",
+        "rel_src": [
+            "Le monde est un endroit différent grâce aux Jeux Olympiques Spéciaux, mais il y a encore du travail.",
+            "Donc la prochaine fois que vous verrez quelqu'un ayant des déficiences intellectuelles, j'espère que vous verrez son talent."
+        ],
+        "rel_tgt": [
+            "The world is a different place thanks to the Special Olympics, but there is still work to be done.",
+            "So the next time you see someone with intellectual disabilities, I hope you see their talent."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian",
+            "États-Unis": "United States",
+            "Américains": "Americans",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "haltérophilie": "weightlifting \n\n(Note: haltérophilie can be considered a proper noun in this context as it refers to a specific sport",
+            "Jackie Barrett": "Jackie Barrett",
+            "Élan de Terre-Neuve": "Newfoundland Lancer",
+            "Jackie": "Jackie",
+            "Terre-Neuve": "Newfoundland",
+            "LA Memorial Coliseum": "LA Memorial Coliseum",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 76,
+        "src": "Nelson Mandela disait : « Le sport a le pouvoir de changer le monde. »",
+        "ref": "Nelson Mandela said,  \"Sports has the power to change the world.\"",
+        "hyp": "Nelson Mandela said, \"Sport has the power to change the world.\"",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux apprennent aux athlètes à être confiants et fiers d'eux-mêmes.",
+            "Les Jeux Olympiques Spéciaux apprennent au monde que les gens ayant des déficiences intellectuelles méritent le respect et la considération."
+        ],
+        "rel_tgt": [
+            "The Special Olympics teach athletes to be confident and proud of themselves.",
+            "The Special Olympics teach the world that individuals with intellectual disabilities deserve respect and consideration."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian",
+            "États-Unis": "United States",
+            "Américains": "Americans",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "haltérophilie": "weightlifting \n\n(Note: haltérophilie can be considered a proper noun in this context as it refers to a specific sport",
+            "Jackie Barrett": "Jackie Barrett",
+            "Élan de Terre-Neuve": "Newfoundland Lancer",
+            "Jackie": "Jackie",
+            "Terre-Neuve": "Newfoundland",
+            "LA Memorial Coliseum": "LA Memorial Coliseum",
+            "TED": "TED",
+            "Nelson Mandela": "Nelson Mandela"
+        }
+    },
+    {
+        "idx": 77,
+        "src": "Les Jeux Olympiques Spéciaux changent le monde en transformant quatre millions et demi d'athlètes et en nous donnant un endroit où avoir confiance, rencontrer des amis, ne pas être jugés et se sentir et être des champions.",
+        "ref": "Special Olympics is changing the world  by transforming four and a half million athletes  and giving us a place to be confident,  meet friends,  not be judged  and get to feel like and be champions.",
+        "hyp": "The Special Olympics change the world by transforming four and a half million athletes and by giving us a place where we can have confidence, meet friends, not be judged, and feel and be champions.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux apprennent aux athlètes à être confiants et fiers d'eux-mêmes.",
+            "Les Jeux Olympiques Spéciaux apprennent au monde que les gens ayant des déficiences intellectuelles méritent le respect et la considération."
+        ],
+        "rel_tgt": [
+            "The Special Olympics teach athletes to be confident and proud of themselves.",
+            "The Special Olympics teach the world that individuals with intellectual disabilities deserve respect and consideration."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian",
+            "États-Unis": "United States",
+            "Américains": "Americans",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "haltérophilie": "weightlifting \n\n(Note: haltérophilie can be considered a proper noun in this context as it refers to a specific sport",
+            "Jackie Barrett": "Jackie Barrett",
+            "Élan de Terre-Neuve": "Newfoundland Lancer",
+            "Jackie": "Jackie",
+            "Terre-Neuve": "Newfoundland",
+            "LA Memorial Coliseum": "LA Memorial Coliseum",
+            "TED": "TED",
+            "Nelson Mandela": "Nelson Mandela"
+        }
+    },
+    {
+        "idx": 78,
+        "src": "Merci beaucoup.",
+        "ref": "Thank you very much.",
+        "hyp": "Thank you very much.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "basketball": "basketball Note: Although basketball is capitalized in the English translation",
+            "then only Canada": "Canada would be the proper noun.",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "Los Angeles": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "canadienne": "Canadian",
+            "Jeux Mondiaux": "World Games",
+            "Jeux d’Été Mondiaux 2015": "2015 Summer World Games",
+            "Nigeria": "Nigerian",
+            "Nigériane": "Nigerian",
+            "États-Unis": "United States",
+            "Américains": "Americans",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "haltérophilie": "weightlifting \n\n(Note: haltérophilie can be considered a proper noun in this context as it refers to a specific sport",
+            "Jackie Barrett": "Jackie Barrett",
+            "Élan de Terre-Neuve": "Newfoundland Lancer",
+            "Jackie": "Jackie",
+            "Terre-Neuve": "Newfoundland",
+            "LA Memorial Coliseum": "LA Memorial Coliseum",
+            "TED": "TED",
+            "Nelson Mandela": "Nelson Mandela"
+        }
+    }
+]

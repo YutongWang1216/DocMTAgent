@@ -1,0 +1,2334 @@
+[
+    {
+        "idx": 0,
+        "src": "こんにちは",
+        "ref": "Hello.",
+        "hyp": "Hello.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 1,
+        "src": "マシュー・ウィリアムズと申します 僕はチャンピオンです",
+        "ref": "My name is Matthew Williams,  and I am a champion.",
+        "hyp": "My name is Matthew Williams, and I am a champion.",
+        "rel_src": [
+            "こんにちは"
+        ],
+        "rel_tgt": [
+            "Hello."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams"
+        }
+    },
+    {
+        "idx": 2,
+        "src": "３種目のスポーツ競技のメダルを カナダの全国大会で取っています バスケットボールでは 世界レベルの試合に参加し 光栄なことに カナダ代表として 世界大会に出場しました",
+        "ref": "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage.",
+        "hyp": "I have won medals in three sports competitions at the national level in Canada. In basketball, I have participated in world-level games and had the honor of representing Canada in the world championships.",
+        "rel_src": [
+            "こんにちは",
+            "マシュー・ウィリアムズと申します 僕はチャンピオンです"
+        ],
+        "rel_tgt": [
+            "Hello.",
+            "My name is Matthew Williams, and I am a champion."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada"
+        }
+    },
+    {
+        "idx": 3,
+        "src": "（拍手） 週５日 バスケットボールと スピードスケートの練習に出て トップクラスのコーチ陣と メンタル・パフォーマンスの コンサルタントが 試合でベストを出せるように 支えてくれています",
+        "ref": "I train five days a week for basketball and speed skating,  work with top quality coaches  and mental performance consultants  to be at my best in my sport.",
+        "hyp": "(Applause) I practice basketball and speed skating five days a week, supported by top-class coaches and a mental performance consultant to help me perform at my best in competitions.",
+        "rel_src": [
+            "マシュー・ウィリアムズと申します 僕はチャンピオンです",
+            "３種目のスポーツ競技のメダルを カナダの全国大会で取っています バスケットボールでは 世界レベルの試合に参加し 光栄なことに カナダ代表として 世界大会に出場しました"
+        ],
+        "rel_tgt": [
+            "My name is Matthew Williams, and I am a champion.",
+            "I have won medals in three sports competitions at the national level in Canada. In basketball, I have participated in world-level games and had the honor of representing Canada in the world championships."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada"
+        }
+    },
+    {
+        "idx": 4,
+        "src": "ところで これは すべて スペシャルオリンピックスのことです",
+        "ref": "By the way, all that is through Special Olympics.",
+        "hyp": "By the way, all of this is about the Special Olympics.",
+        "rel_src": [
+            "３種目のスポーツ競技のメダルを カナダの全国大会で取っています バスケットボールでは 世界レベルの試合に参加し 光栄なことに カナダ代表として 世界大会に出場しました",
+            "（拍手） 週５日 バスケットボールと スピードスケートの練習に出て トップクラスのコーチ陣と メンタル・パフォーマンスの コンサルタントが 試合でベストを出せるように 支えてくれています"
+        ],
+        "rel_tgt": [
+            "I have won medals in three sports competitions at the national level in Canada. In basketball, I have participated in world-level games and had the honor of representing Canada in the world championships.",
+            "(Applause) I practice basketball and speed skating five days a week, supported by top-class coaches and a mental performance consultant to help me perform at my best in competitions."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 5,
+        "src": "それを聞いて 僕や僕の成果を 見る目が変わりますか？",
+        "ref": "Does that change the way you think of me  and my accomplishments?",
+        "hyp": "Does hearing that change the way you see me or my accomplishments?",
+        "rel_src": [
+            "マシュー・ウィリアムズと申します 僕はチャンピオンです",
+            "３種目のスポーツ競技のメダルを カナダの全国大会で取っています バスケットボールでは 世界レベルの試合に参加し 光栄なことに カナダ代表として 世界大会に出場しました"
+        ],
+        "rel_tgt": [
+            "My name is Matthew Williams, and I am a champion.",
+            "I have won medals in three sports competitions at the national level in Canada. In basketball, I have participated in world-level games and had the honor of representing Canada in the world championships."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 6,
+        "src": "世の中は 僕のような人々を 必ずしも チャンピオンとは見なしません",
+        "ref": "The world does not see all people like me as champions.",
+        "hyp": "The world does not necessarily see people like me as champions.",
+        "rel_src": [
+            "マシュー・ウィリアムズと申します 僕はチャンピオンです",
+            "ところで これは すべて スペシャルオリンピックスのことです"
+        ],
+        "rel_tgt": [
+            "My name is Matthew Williams, and I am a champion.",
+            "By the way, all of this is about the Special Olympics."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 7,
+        "src": "最近まで 僕みたいな人は 疎外され 人前には出ないものでした",
+        "ref": "Not long ago, people like me were shunned and hidden away.",
+        "hyp": "Until recently, people like me were alienated and did not appear in public.",
+        "rel_src": [
+            "ところで これは すべて スペシャルオリンピックスのことです",
+            "世の中は 僕のような人々を 必ずしも チャンピオンとは見なしません"
+        ],
+        "rel_tgt": [
+            "By the way, all of this is about the Special Olympics.",
+            "The world does not necessarily see people like me as champions."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 8,
+        "src": "1968年にスペシャルオリンピックスが 始まってから 大きく変わりましたが あまりに多くの場合において 知的障害のある人々は 広い世の中にとって 見えない存在です",
+        "ref": "There has been lots of change since Special Olympics began in 1968,  but in too many cases,  people with intellectual disabilities  are invisible to the wider population.",
+        "hyp": "Since the beginning of the Special Olympics in 1968, things have changed significantly, but in many cases, people with intellectual disabilities are invisible to the wider world.",
+        "rel_src": [
+            "ところで これは すべて スペシャルオリンピックスのことです",
+            "最近まで 僕みたいな人は 疎外され 人前には出ないものでした"
+        ],
+        "rel_tgt": [
+            "By the way, all of this is about the Special Olympics.",
+            "Until recently, people like me were alienated and did not appear in public."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 9,
+        "src": "皆 僕の目の前で差別用語を使うのを 悪いことだと思っていません",
+        "ref": "People use the r-word in front of me, and they think it doesn't matter.",
+        "hyp": "Everyone does not think it is wrong to use discriminatory language in front of me.",
+        "rel_src": [
+            "世の中は 僕のような人々を 必ずしも チャンピオンとは見なしません",
+            "最近まで 僕みたいな人は 疎外され 人前には出ないものでした"
+        ],
+        "rel_tgt": [
+            "The world does not necessarily see people like me as champions.",
+            "Until recently, people like me were alienated and did not appear in public."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 10,
+        "src": "「知恵遅れ」という言葉を 侮蔑的に使うのです",
+        "ref": "That's the word \"retard\" or \"retarded\"  used in a derogatory manner.",
+        "hyp": "They use the word \"retarded\" in a derogatory manner.",
+        "rel_src": [
+            "1968年にスペシャルオリンピックスが 始まってから 大きく変わりましたが あまりに多くの場合において 知的障害のある人々は 広い世の中にとって 見えない存在です",
+            "皆 僕の目の前で差別用語を使うのを 悪いことだと思っていません"
+        ],
+        "rel_tgt": [
+            "Since the beginning of the Special Olympics in 1968, things have changed significantly, but in many cases, people with intellectual disabilities are invisible to the wider world.",
+            "Everyone does not think it is wrong to use discriminatory language in front of me."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 11,
+        "src": "それで 僕や仲間が どれだけ傷つくか 考えていないのです",
+        "ref": "They're not thinking about how much it hurts me and my friends.",
+        "hyp": "They do not consider how much my friends and I are hurt by that.",
+        "rel_src": [
+            "皆 僕の目の前で差別用語を使うのを 悪いことだと思っていません",
+            "「知恵遅れ」という言葉を 侮蔑的に使うのです"
+        ],
+        "rel_tgt": [
+            "Everyone does not think it is wrong to use discriminatory language in front of me.",
+            "They use the word \"retarded\" in a derogatory manner."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 12,
+        "src": "僕が 哀れみの対象として ここにいると思わないでください",
+        "ref": "I don't want you to think I'm here because I'm a charity case.",
+        "hyp": "Please do not think of me as an object of pity here.",
+        "rel_src": [
+            "それを聞いて 僕や僕の成果を 見る目が変わりますか？",
+            "1968年にスペシャルオリンピックスが 始まってから 大きく変わりましたが あまりに多くの場合において 知的障害のある人々は 広い世の中にとって 見えない存在です"
+        ],
+        "rel_tgt": [
+            "Does hearing that change the way you see me or my accomplishments?",
+            "Since the beginning of the Special Olympics in 1968, things have changed significantly, but in many cases, people with intellectual disabilities are invisible to the wider world."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 13,
+        "src": "僕がここにいるのは 世間の 知的障害者に対する見方に 未だに深刻な問題が残っているからであり いや あまりに多くのケースで 何も見えていないことが問題だからです",
+        "ref": "I am here because there is still a big problem with the way  many people see individuals with intellectual disabilities,  or, too often,  how they don't see them at all.",
+        "hyp": "The reason I am here is because there are still serious issues in society's perception of people with intellectual disabilities, or rather, the problem lies in the fact that in too many cases, nothing is being seen.",
+        "rel_src": [
+            "1968年にスペシャルオリンピックスが 始まってから 大きく変わりましたが あまりに多くの場合において 知的障害のある人々は 広い世の中にとって 見えない存在です",
+            "「知恵遅れ」という言葉を 侮蔑的に使うのです"
+        ],
+        "rel_tgt": [
+            "Since the beginning of the Special Olympics in 1968, things have changed significantly, but in many cases, people with intellectual disabilities are invisible to the wider world.",
+            "They use the word \"retarded\" in a derogatory manner."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 14,
+        "src": "今年 世界大会があったこと 知ってましたか？",
+        "ref": "Did you know the World Games happened this year?",
+        "hyp": "Did you know that there was a world championship this year?",
+        "rel_src": [
+            "３種目のスポーツ競技のメダルを カナダの全国大会で取っています バスケットボールでは 世界レベルの試合に参加し 光栄なことに カナダ代表として 世界大会に出場しました",
+            "1968年にスペシャルオリンピックスが 始まってから 大きく変わりましたが あまりに多くの場合において 知的障害のある人々は 広い世の中にとって 見えない存在です"
+        ],
+        "rel_tgt": [
+            "I have won medals in three sports competitions at the national level in Canada. In basketball, I have participated in world-level games and had the honor of representing Canada in the world championships.",
+            "Since the beginning of the Special Olympics in 1968, things have changed significantly, but in many cases, people with intellectual disabilities are invisible to the wider world."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics"
+        }
+    },
+    {
+        "idx": 15,
+        "src": "僕は 知的障害を持つアスリート ６千５百人の１人でした 165か国からの選手が LAに集まり 競い合ったのです",
+        "ref": "I was one of over 6,500 athletes with intellectual disabilities  from 165 countries who competed in LA.",
+        "hyp": "I was one of the 6,500 athletes with intellectual disabilities who gathered in LA to compete, with participants from 165 countries.",
+        "rel_src": [
+            "1968年にスペシャルオリンピックスが 始まってから 大きく変わりましたが あまりに多くの場合において 知的障害のある人々は 広い世の中にとって 見えない存在です",
+            "僕がここにいるのは 世間の 知的障害者に対する見方に 未だに深刻な問題が残っているからであり いや あまりに多くのケースで 何も見えていないことが問題だからです"
+        ],
+        "rel_tgt": [
+            "Since the beginning of the Special Olympics in 1968, things have changed significantly, but in many cases, people with intellectual disabilities are invisible to the wider world.",
+            "The reason I am here is because there are still serious issues in society's perception of people with intellectual disabilities, or rather, the problem lies in the fact that in too many cases, nothing is being seen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries"
+        }
+    },
+    {
+        "idx": 16,
+        "src": "６万２千人以上の観客が 開会式を観ていて スポーツテレビ局のTSNとESPNが 生放送していました",
+        "ref": "There was over 62,000 spectators watching opening ceremonies,  and there was live coverage on TSN and ESPN.",
+        "hyp": "Over 62,000 spectators watched the opening ceremony, which was broadcast live by the sports television networks TSN and ESPN.",
+        "rel_src": [
+            "ところで これは すべて スペシャルオリンピックスのことです",
+            "僕は 知的障害を持つアスリート ６千５百人の１人でした 165か国からの選手が LAに集まり 競い合ったのです"
+        ],
+        "rel_tgt": [
+            "By the way, all of this is about the Special Olympics.",
+            "I was one of the 6,500 athletes with intellectual disabilities who gathered in LA to compete, with participants from 165 countries."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 17,
+        "src": "そんな大会 知らなかったでしょう？",
+        "ref": "Did you even know that happened?",
+        "hyp": "You didn't know about such a tournament, did you?",
+        "rel_src": [
+            "今年 世界大会があったこと 知ってましたか？",
+            "僕は 知的障害を持つアスリート ６千５百人の１人でした 165か国からの選手が LAに集まり 競い合ったのです"
+        ],
+        "rel_tgt": [
+            "Did you know that there was a world championship this year?",
+            "I was one of the 6,500 athletes with intellectual disabilities who gathered in LA to compete, with participants from 165 countries."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 18,
+        "src": "僕みたいな人を見たとき どう思いますか？",
+        "ref": "What do you think of when you see someone like me?",
+        "hyp": "What do you think when you see someone like me?",
+        "rel_src": [
+            "それを聞いて 僕や僕の成果を 見る目が変わりますか？",
+            "1968年にスペシャルオリンピックスが 始まってから 大きく変わりましたが あまりに多くの場合において 知的障害のある人々は 広い世の中にとって 見えない存在です"
+        ],
+        "rel_tgt": [
+            "Does hearing that change the way you see me or my accomplishments?",
+            "Since the beginning of the Special Olympics in 1968, things have changed significantly, but in many cases, people with intellectual disabilities are invisible to the wider world."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 19,
+        "src": "皆さんへの挑戦です 僕たちを 対等に見られるでしょうか",
+        "ref": "I am here today to challenge you  to look at us as equals.",
+        "hyp": "This is a challenge to everyone. Will you be able to see us as equals?",
+        "new_src_summary": "マシュー・ウィリアムズは、カナダの全国大会で3つのスポーツ競技でメダルを取り、バスケットボールでは世界レベルの試合に参加し、カナダ代表として世界大会に出場したチャンピオンである。彼はスペシャルオリンピックスのアスリートであり、知的障害を持つ人々に対する偏見や差別について訴えている。彼は知的障害を持つアスリートの一人として、世界大会に参加し、165か国からの選手が競い合ったことを誇りに思っている。彼は、知的障害を持つ人々に対する見方が未だに深刻な問題であり、偏見や差別をなくすために啓発活動を行っている。",
+        "new_tgt_summary": "Matthew Williams is a champion in three sports competitions at the national level in Canada, including basketball and speed skating. He has represented Canada in world-level games and championships. Despite his accomplishments in the Special Olympics, people with intellectual disabilities are often overlooked and face discrimination, such as the use of derogatory language. Matthew highlights the importance of changing society's perception of people with intellectual disabilities and bringing awareness to events like the world championships, where thousands of athletes compete from around the world.",
+        "rel_src": [
+            "僕がここにいるのは 世間の 知的障害者に対する見方に 未だに深刻な問題が残っているからであり いや あまりに多くのケースで 何も見えていないことが問題だからです",
+            "僕みたいな人を見たとき どう思いますか？"
+        ],
+        "rel_tgt": [
+            "The reason I am here is because there are still serious issues in society's perception of people with intellectual disabilities, or rather, the problem lies in the fact that in too many cases, nothing is being seen.",
+            "What do you think when you see someone like me?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 20,
+        "src": "スペシャルオリンピックスは 知的障害を持つアスリートたちの 自己アイデンティティも 観る人すべての価値観をも 一変させます",
+        "ref": "Special Olympics transforms the self-identity of athletes  with intellectual disabilities  and the perceptions of everyone watching.",
+        "hyp": "The Special Olympics also change the self-identity of athletes with intellectual disabilities, as well as the values of all spectators.",
+        "rel_src": [
+            "それを聞いて 僕や僕の成果を 見る目が変わりますか？",
+            "1968年にスペシャルオリンピックスが 始まってから 大きく変わりましたが あまりに多くの場合において 知的障害のある人々は 広い世の中にとって 見えない存在です"
+        ],
+        "rel_tgt": [
+            "Does hearing that change the way you see me or my accomplishments?",
+            "Since the beginning of the Special Olympics in 1968, things have changed significantly, but in many cases, people with intellectual disabilities are invisible to the wider world."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 21,
+        "src": "知らない人のために説明すると スペシャルオリンピックスとは 知的障害を持つアスリートが対象です",
+        "ref": "For those of you who aren't familiar,  Special Olympics is for athletes with intellectual disabilities.",
+        "hyp": "For those who are unfamiliar, the Special Olympics is targeted towards athletes with intellectual disabilities.",
+        "rel_src": [
+            "ところで これは すべて スペシャルオリンピックスのことです",
+            "スペシャルオリンピックスは 知的障害を持つアスリートたちの 自己アイデンティティも 観る人すべての価値観をも 一変させます"
+        ],
+        "rel_tgt": [
+            "By the way, all of this is about the Special Olympics.",
+            "The Special Olympics also change the self-identity of athletes with intellectual disabilities, as well as the values of all spectators."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 22,
+        "src": "パラリンピックや オリンピックとは別物です",
+        "ref": "Special Olympics is separate from the Paralympics and Olympics.",
+        "hyp": "The Paralympics are completely different from the Olympics.",
+        "rel_src": [
+            "ところで これは すべて スペシャルオリンピックスのことです",
+            "知らない人のために説明すると スペシャルオリンピックスとは 知的障害を持つアスリートが対象です"
+        ],
+        "rel_tgt": [
+            "By the way, all of this is about the Special Olympics.",
+            "For those who are unfamiliar, the Special Olympics is targeted towards athletes with intellectual disabilities."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 23,
+        "src": "レベルの高いスポーツ競技が 年間を通じて 知的障害者のために開催され 関わる人の 人生や価値観が変わります",
+        "ref": "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions.",
+        "hyp": "High-level sports competitions held throughout the year for individuals with intellectual disabilities will change the lives and values of those involved.",
+        "rel_src": [
+            "スペシャルオリンピックスは 知的障害を持つアスリートたちの 自己アイデンティティも 観る人すべての価値観をも 一変させます",
+            "知らない人のために説明すると スペシャルオリンピックスとは 知的障害を持つアスリートが対象です"
+        ],
+        "rel_tgt": [
+            "The Special Olympics also change the self-identity of athletes with intellectual disabilities, as well as the values of all spectators.",
+            "For those who are unfamiliar, the Special Olympics is targeted towards athletes with intellectual disabilities."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 24,
+        "src": "これで 僕の人生も 他の本当に大勢の人々の 人生も変わりました",
+        "ref": "This movement has changed my life  and those of so many others.",
+        "hyp": "With this, my life and the lives of many other people have changed.",
+        "rel_src": [
+            "最近まで 僕みたいな人は 疎外され 人前には出ないものでした",
+            "僕は 知的障害を持つアスリート ６千５百人の１人でした 165か国からの選手が LAに集まり 競い合ったのです"
+        ],
+        "rel_tgt": [
+            "Until recently, people like me were alienated and did not appear in public.",
+            "I was one of the 6,500 athletes with intellectual disabilities who gathered in LA to compete, with participants from 165 countries."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 25,
+        "src": "そして 知的障害者を見る 世間の目も変わりました",
+        "ref": "And it has changed the way the world sees people with intellectual disabilities.",
+        "hyp": "And society's perception of people with intellectual disabilities has also changed.",
+        "rel_src": [
+            "スペシャルオリンピックスは 知的障害を持つアスリートたちの 自己アイデンティティも 観る人すべての価値観をも 一変させます",
+            "レベルの高いスポーツ競技が 年間を通じて 知的障害者のために開催され 関わる人の 人生や価値観が変わります"
+        ],
+        "rel_tgt": [
+            "The Special Olympics also change the self-identity of athletes with intellectual disabilities, as well as the values of all spectators.",
+            "High-level sports competitions held throughout the year for individuals with intellectual disabilities will change the lives and values of those involved."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 26,
+        "src": "僕は 生まれつき てんかんと 知的障害があります",
+        "ref": "I was born with epilepsy and an intellectual disability.",
+        "hyp": "I was born with epilepsy and intellectual disabilities.",
+        "rel_src": [
+            "僕がここにいるのは 世間の 知的障害者に対する見方に 未だに深刻な問題が残っているからであり いや あまりに多くのケースで 何も見えていないことが問題だからです",
+            "僕は 知的障害を持つアスリート ６千５百人の１人でした 165か国からの選手が LAに集まり 競い合ったのです"
+        ],
+        "rel_tgt": [
+            "The reason I am here is because there are still serious issues in society's perception of people with intellectual disabilities, or rather, the problem lies in the fact that in too many cases, nothing is being seen.",
+            "I was one of the 6,500 athletes with intellectual disabilities who gathered in LA to compete, with participants from 165 countries."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 27,
+        "src": "小さい頃から 12歳まで ホッケーをしていました",
+        "ref": "Growing up, I played hockey until I was 12 years old.",
+        "hyp": "I played hockey from a young age until I was 12 years old.",
+        "rel_src": [
+            "僕は 知的障害を持つアスリート ６千５百人の１人でした 165か国からの選手が LAに集まり 競い合ったのです",
+            "６万２千人以上の観客が 開会式を観ていて スポーツテレビ局のTSNとESPNが 生放送していました"
+        ],
+        "rel_tgt": [
+            "I was one of the 6,500 athletes with intellectual disabilities who gathered in LA to compete, with participants from 165 countries.",
+            "Over 62,000 spectators watched the opening ceremony, which was broadcast live by the sports television networks TSN and ESPN."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 28,
+        "src": "成長するにつれて どんどん みんなについていくのが 難しくなってきて もどかしく 腹立たしかったです",
+        "ref": "The older I got, the more I felt  it was harder to keep up with everyone else,  and I was angry and frustrated.",
+        "hyp": "As I grew older, it became increasingly difficult to keep up with everyone, which was frustrating and infuriating.",
+        "rel_src": [
+            "僕がここにいるのは 世間の 知的障害者に対する見方に 未だに深刻な問題が残っているからであり いや あまりに多くのケースで 何も見えていないことが問題だからです",
+            "６万２千人以上の観客が 開会式を観ていて スポーツテレビ局のTSNとESPNが 生放送していました"
+        ],
+        "rel_tgt": [
+            "The reason I am here is because there are still serious issues in society's perception of people with intellectual disabilities, or rather, the problem lies in the fact that in too many cases, nothing is being seen.",
+            "Over 62,000 spectators watched the opening ceremony, which was broadcast live by the sports television networks TSN and ESPN."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 29,
+        "src": "しばらくの間 スポーツから完全に離れていました 友達も あまりいなかったし 取り残された気がして 悲しかったです",
+        "ref": "For a while, I did not play any sports,  didn't have many friends  and felt left out and sad.",
+        "hyp": "I was completely away from sports for a while, didn't have many friends, and felt sad and left behind.",
+        "rel_src": [
+            "これで 僕の人生も 他の本当に大勢の人々の 人生も変わりました",
+            "成長するにつれて どんどん みんなについていくのが 難しくなってきて もどかしく 腹立たしかったです"
+        ],
+        "rel_tgt": [
+            "With this, my life and the lives of many other people have changed.",
+            "As I grew older, it became increasingly difficult to keep up with everyone, which was frustrating and infuriating."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 30,
+        "src": "その昔 知的障害のある人々は 社会から覆い隠された存在でした",
+        "ref": "There was a time when people with intellectual disabilities  were hidden away from society.",
+        "hyp": "In ancient times, people with intellectual disabilities were hidden from society.",
+        "rel_src": [
+            "僕がここにいるのは 世間の 知的障害者に対する見方に 未だに深刻な問題が残っているからであり いや あまりに多くのケースで 何も見えていないことが問題だからです",
+            "そして 知的障害者を見る 世間の目も変わりました"
+        ],
+        "rel_tgt": [
+            "The reason I am here is because there are still serious issues in society's perception of people with intellectual disabilities, or rather, the problem lies in the fact that in too many cases, nothing is being seen.",
+            "And society's perception of people with intellectual disabilities has also changed."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 31,
+        "src": "スポーツに参加できるとか ましてや 社会の貴重な一員だなんて 誰も思いませんでした",
+        "ref": "No one thought they could participate in sports,  let alone be a valued member of society.",
+        "hyp": "No one ever thought that I could participate in sports, let alone be a valuable member of society.",
+        "rel_src": [
+            "僕は 知的障害を持つアスリート ６千５百人の１人でした 165か国からの選手が LAに集まり 競い合ったのです",
+            "スペシャルオリンピックスは 知的障害を持つアスリートたちの 自己アイデンティティも 観る人すべての価値観をも 一変させます"
+        ],
+        "rel_tgt": [
+            "I was one of the 6,500 athletes with intellectual disabilities who gathered in LA to compete, with participants from 165 countries.",
+            "The Special Olympics also change the self-identity of athletes with intellectual disabilities, as well as the values of all spectators."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 32,
+        "src": "1960年代になって トロント大学の科学者 フランク・ヘイデン博士が 定期的な運動が 知的障害児の 運動能力に与える影響を 研究しました",
+        "ref": "In the 1960s, Dr. Frank Hayden,  a scientist at the University of Toronto,  was studying the effects of regular exercise  on the fitness levels of children with intellectual disabilities.",
+        "hyp": "In the 1960s, Dr. Frank Hayden, a scientist at the University of Toronto, studied the impact of regular exercise on the motor abilities of children with intellectual disabilities.",
+        "rel_src": [
+            "僕は 知的障害を持つアスリート ６千５百人の１人でした 165か国からの選手が LAに集まり 競い合ったのです",
+            "スペシャルオリンピックスは 知的障害を持つアスリートたちの 自己アイデンティティも 観る人すべての価値観をも 一変させます"
+        ],
+        "rel_tgt": [
+            "I was one of the 6,500 athletes with intellectual disabilities who gathered in LA to compete, with participants from 165 countries.",
+            "The Special Olympics also change the self-identity of athletes with intellectual disabilities, as well as the values of all spectators."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden"
+        }
+    },
+    {
+        "idx": 33,
+        "src": "厳密に科学的な 研究方法によって ヘイデン博士と他の研究者たちが 出した結論はこうです 「知的障害児の運動能力が低いのは 単に 運動に参加する機会が 不足しているからに過ぎない」",
+        "ref": "Using rigorous scientific research,  Dr. Hayden and other researchers  came to the conclusion  that it was simply the lack of opportunity to participate  that caused their fitness levels to suffer.",
+        "hyp": "Through rigorous scientific research methods, Dr. Hayden and other researchers concluded that \"the low motor abilities of children with intellectual disabilities are simply due to a lack of opportunities to participate in physical activities.\"",
+        "rel_src": [
+            "僕がここにいるのは 世間の 知的障害者に対する見方に 未だに深刻な問題が残っているからであり いや あまりに多くのケースで 何も見えていないことが問題だからです",
+            "1960年代になって トロント大学の科学者 フランク・ヘイデン博士が 定期的な運動が 知的障害児の 運動能力に与える影響を 研究しました"
+        ],
+        "rel_tgt": [
+            "The reason I am here is because there are still serious issues in society's perception of people with intellectual disabilities, or rather, the problem lies in the fact that in too many cases, nothing is being seen.",
+            "In the 1960s, Dr. Frank Hayden, a scientist at the University of Toronto, studied the impact of regular exercise on the motor abilities of children with intellectual disabilities."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden"
+        }
+    },
+    {
+        "idx": 34,
+        "src": "知的障害を持つ人にとって 運動プログラムや スポーツ競技参加が有益だと",
+        "ref": "Lots of people doubted that people with intellectual disabilities  could benefit from fitness programs and sports competition opportunities.",
+        "hyp": "For individuals with intellectual disabilities, participation in exercise programs and sports competitions is beneficial.",
+        "rel_src": [
+            "レベルの高いスポーツ競技が 年間を通じて 知的障害者のために開催され 関わる人の 人生や価値観が変わります",
+            "厳密に科学的な 研究方法によって ヘイデン博士と他の研究者たちが 出した結論はこうです 「知的障害児の運動能力が低いのは 単に 運動に参加する機会が 不足しているからに過ぎない」"
+        ],
+        "rel_tgt": [
+            "High-level sports competitions held throughout the year for individuals with intellectual disabilities will change the lives and values of those involved.",
+            "Through rigorous scientific research methods, Dr. Hayden and other researchers concluded that \"the low motor abilities of children with intellectual disabilities are simply due to a lack of opportunities to participate in physical activities.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden"
+        }
+    },
+    {
+        "idx": 35,
+        "src": "信じる人は あまりいませんでした しかし 先駆者たち―ヘイデン博士や スペシャルオリンピックスの創始者 ユーニス・ケネディ・シュライバーは 諦めませんでした そして 選手たちも 彼らが正しかったのだと 450万回以上も 証明してきました",
+        "ref": "But pioneers like Dr. Hayden and Eunice Kennedy Shriver,  the founder of Special Olympics,  persevered,  and Special Olympics athletes have proved them right  four and a half million times over.",
+        "hyp": "Few people believed, but pioneers like Dr. Hayden and the founder of the Special Olympics, Eunice Kennedy Shriver, did not give up. And the athletes have proven over 4.5 million times that they were right.",
+        "rel_src": [
+            "1960年代になって トロント大学の科学者 フランク・ヘイデン博士が 定期的な運動が 知的障害児の 運動能力に与える影響を 研究しました",
+            "厳密に科学的な 研究方法によって ヘイデン博士と他の研究者たちが 出した結論はこうです 「知的障害児の運動能力が低いのは 単に 運動に参加する機会が 不足しているからに過ぎない」"
+        ],
+        "rel_tgt": [
+            "In the 1960s, Dr. Frank Hayden, a scientist at the University of Toronto, studied the impact of regular exercise on the motor abilities of children with intellectual disabilities.",
+            "Through rigorous scientific research methods, Dr. Hayden and other researchers concluded that \"the low motor abilities of children with intellectual disabilities are simply due to a lack of opportunities to participate in physical activities.\""
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\", \"ヘイデン博士\" - \"Dr. Hayden\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver"
+        }
+    },
+    {
+        "idx": 36,
+        "src": "（拍手） スペシャルオリンピックスに 参加する前 僕は不安でした 歳若く 人見知りで 自信もなかったし 友達も少なかったからです",
+        "ref": "Before I joined Special Olympics,  I was nervous  because I was young, shy, not confident  and didn't have many friends.",
+        "hyp": "(Applause) Before participating in the Special Olympics, I was anxious. I was young, shy, lacked confidence, and had few friends.",
+        "rel_src": [
+            "しばらくの間 スポーツから完全に離れていました 友達も あまりいなかったし 取り残された気がして 悲しかったです",
+            "その昔 知的障害のある人々は 社会から覆い隠された存在でした"
+        ],
+        "rel_tgt": [
+            "I was completely away from sports for a while, didn't have many friends, and felt sad and left behind.",
+            "In ancient times, people with intellectual disabilities were hidden from society."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver"
+        }
+    },
+    {
+        "idx": 37,
+        "src": "でも 行ってみたら 誰もが 皆 励ましてくれたり 支えてくれて そこでは 人の目を気にせず 自分らしく いられたのです",
+        "ref": "When I got there, though, everyone was very encouraging,  supportive, and let me be myself  without being judged.",
+        "hyp": "But when I tried it, everyone encouraged and supported me, and there, I could be myself without worrying about other people's eyes.",
+        "rel_src": [
+            "そして 知的障害者を見る 世間の目も変わりました",
+            "（拍手） スペシャルオリンピックスに 参加する前 僕は不安でした 歳若く 人見知りで 自信もなかったし 友達も少なかったからです"
+        ],
+        "rel_tgt": [
+            "And society's perception of people with intellectual disabilities has also changed.",
+            "(Applause) Before participating in the Special Olympics, I was anxious. I was young, shy, lacked confidence, and had few friends."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver"
+        }
+    },
+    {
+        "idx": 38,
+        "src": "今では僕は バスケットボールと スピードスケートの選手です 州大会や 全国大会に 出場してきました そして今年は LAで開催された 夏の世界大会出場を果たしました カナダ代表として 初めて 世界大会まで進んだ— バスケチームの一員でした",
+        "ref": "Now, I am a basketball player and speed skater  who has competed at provincial, national games,  and this year made it all the way to the World Summer Games in LA,  where I was part of the first ever Canadian basketball team  to compete at World Games.",
+        "hyp": "Now I am a player in basketball and speed skating, having participated in state and national competitions. This year, I achieved the opportunity to compete in the summer World Championships held in LA. I advanced to the world championships for the first time as a member of the Canadian team.",
+        "rel_src": [
+            "小さい頃から 12歳まで ホッケーをしていました",
+            "でも 行ってみたら 誰もが 皆 励ましてくれたり 支えてくれて そこでは 人の目を気にせず 自分らしく いられたのです"
+        ],
+        "rel_tgt": [
+            "I played hockey from a young age until I was 12 years old.",
+            "But when I tried it, everyone encouraged and supported me, and there, I could be myself without worrying about other people's eyes."
+        ],
+        "hist_info": "\"カナダ\" - \"Canada\", \"LA\" - \"LA\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver"
+        },
+        "conflict": [
+            "\"カナダ\" - \"Canada\"/\"Canadian\""
+        ]
+    },
+    {
+        "idx": 39,
+        "src": "（拍手） 僕は 世界で450万人を超える アスリートの１人です 似たような話を 本当に たくさん聞いてきました",
+        "ref": "I am one of more than four and a half million athletes around the globe,  and I've heard so many similar stories.",
+        "hyp": "(Applause) I am one of over 4.5 million athletes in the world. I have heard many similar stories.",
+        "new_src_summary": "マシュー・ウィリアムズは、カナダの全国大会で3つのスポーツ競技でメダルを獲得し、バスケットボールでは世界レベルの試合に出場し、カナダ代表として世界大会に参加した経験を持つスペシャルオリンピックスのアスリートである。彼は知的障害を持つ人々に対する偏見や差別について訴え、啓発活動を行っている。スペシャルオリンピックスは、知的障害者向けのスポーツ競技大会であり、参加者や関係者の人生や価値観を変える可能性があり、自己実現を果たす機会が増えていることが示されている。",
+        "new_tgt_summary": "Matthew Williams, a champion in multiple sports at the national level in Canada, including basketball and speed skating, has represented Canada in world-level games and championships. Despite facing discrimination and derogatory language, he emphasizes the importance of changing society's perception of individuals with intellectual disabilities. The Special Olympics have had a profound impact on individuals with intellectual disabilities, changing their self-identity and values of spectators. Dr. Frank Hayden's research on the benefits of exercise for those with intellectual disabilities has been instrumental in showcasing the abilities of athletes who have overcome challenges and found success through participation in state, national, and world championships.",
+        "rel_src": [
+            "（拍手） スペシャルオリンピックスに 参加する前 僕は不安でした 歳若く 人見知りで 自信もなかったし 友達も少なかったからです",
+            "今では僕は バスケットボールと スピードスケートの選手です 州大会や 全国大会に 出場してきました そして今年は LAで開催された 夏の世界大会出場を果たしました カナダ代表として 初めて 世界大会まで進んだ— バスケチームの一員でした"
+        ],
+        "rel_tgt": [
+            "(Applause) Before participating in the Special Olympics, I was anxious. I was young, shy, lacked confidence, and had few friends.",
+            "Now I am a player in basketball and speed skating, having participated in state and national competitions. This year, I achieved the opportunity to compete in the summer World Championships held in LA. I advanced to the world championships for the first time as a member of the Canadian team."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver"
+        }
+    },
+    {
+        "idx": 40,
+        "src": "スペシャルオリンピックスの 選手であることで 僕たちは 誇りと尊厳を 取り戻すのです",
+        "ref": "Being Special Olympics athletes  restores our pride and dignity.",
+        "hyp": "By being athletes in the Special Olympics, we regain our pride and dignity.",
+        "rel_src": [
+            "（拍手） スペシャルオリンピックスに 参加する前 僕は不安でした 歳若く 人見知りで 自信もなかったし 友達も少なかったからです",
+            "でも 行ってみたら 誰もが 皆 励ましてくれたり 支えてくれて そこでは 人の目を気にせず 自分らしく いられたのです"
+        ],
+        "rel_tgt": [
+            "(Applause) Before participating in the Special Olympics, I was anxious. I was young, shy, lacked confidence, and had few friends.",
+            "But when I tried it, everyone encouraged and supported me, and there, I could be myself without worrying about other people's eyes."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver"
+        }
+    },
+    {
+        "idx": 41,
+        "src": "スペシャルオリンピックスは 選手にとって 重要な健康のニーズにも 応えます",
+        "ref": "Special Olympics also addresses critical health needs.",
+        "hyp": "The Special Olympics also meet the important health needs of athletes.",
+        "rel_src": [
+            "知的障害を持つ人にとって 運動プログラムや スポーツ競技参加が有益だと",
+            "スペシャルオリンピックスの 選手であることで 僕たちは 誇りと尊厳を 取り戻すのです"
+        ],
+        "rel_tgt": [
+            "For individuals with intellectual disabilities, participation in exercise programs and sports competitions is beneficial.",
+            "By being athletes in the Special Olympics, we regain our pride and dignity."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver"
+        }
+    },
+    {
+        "idx": 42,
+        "src": "研究によれば 知的障害を持つ男性の平均寿命は 健常者より13年短く 女性の場合は 20年短いそうです",
+        "ref": "Studies have shown that, on average,  men with intellectual disabilities  die 13 years younger than men without,  and women with intellectual disabilities  die 20 years younger than women without.",
+        "hyp": "According to research, the average life expectancy of men with intellectual disabilities is 13 years shorter than that of non-disabled individuals, while for women, it is 20 years shorter.",
+        "rel_src": [
+            "厳密に科学的な 研究方法によって ヘイデン博士と他の研究者たちが 出した結論はこうです 「知的障害児の運動能力が低いのは 単に 運動に参加する機会が 不足しているからに過ぎない」",
+            "知的障害を持つ人にとって 運動プログラムや スポーツ競技参加が有益だと"
+        ],
+        "rel_tgt": [
+            "Through rigorous scientific research methods, Dr. Hayden and other researchers concluded that \"the low motor abilities of children with intellectual disabilities are simply due to a lack of opportunities to participate in physical activities.\"",
+            "For individuals with intellectual disabilities, participation in exercise programs and sports competitions is beneficial."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver"
+        }
+    },
+    {
+        "idx": 43,
+        "src": "でも スペシャルオリンピックスで 体を動かし 競技参加することで 健康を保つことができます",
+        "ref": "Special Olympics keeps us healthy  by getting us active and participating in sport.",
+        "hyp": "However, by moving your body and participating in sports competitions at the Special Olympics, you can maintain your health.",
+        "rel_src": [
+            "知的障害を持つ人にとって 運動プログラムや スポーツ競技参加が有益だと",
+            "スペシャルオリンピックスは 選手にとって 重要な健康のニーズにも 応えます"
+        ],
+        "rel_tgt": [
+            "For individuals with intellectual disabilities, participation in exercise programs and sports competitions is beneficial.",
+            "The Special Olympics also meet the important health needs of athletes."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver"
+        }
+    },
+    {
+        "idx": 44,
+        "src": "また コーチ陣が 栄養や健康について教えてくれます",
+        "ref": "Also, our coaches teach us about nutrition and health.",
+        "hyp": "Furthermore, the coaching staff will provide guidance on nutrition and health.",
+        "rel_src": [
+            "スペシャルオリンピックスは 選手にとって 重要な健康のニーズにも 応えます",
+            "でも スペシャルオリンピックスで 体を動かし 競技参加することで 健康を保つことができます"
+        ],
+        "rel_tgt": [
+            "The Special Olympics also meet the important health needs of athletes.",
+            "However, by moving your body and participating in sports competitions at the Special Olympics, you can maintain your health."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver"
+        }
+    },
+    {
+        "idx": 45,
+        "src": "スペシャルオリンピックスでは 無料健康診断を提供しています 対象となるのは 医師との意思疎通が困難だったり 医療に手が届きにくい選手です",
+        "ref": "Special Olympics also provides free health screening  for athletes who have difficulty communicating with their doctor  or accessing health care.",
+        "hyp": "At the Special Olympics, free health check-ups are provided for athletes who have difficulty communicating with doctors or have limited access to medical care.",
+        "rel_src": [
+            "スペシャルオリンピックスは 選手にとって 重要な健康のニーズにも 応えます",
+            "でも スペシャルオリンピックスで 体を動かし 競技参加することで 健康を保つことができます"
+        ],
+        "rel_tgt": [
+            "The Special Olympics also meet the important health needs of athletes.",
+            "However, by moving your body and participating in sports competitions at the Special Olympics, you can maintain your health."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver"
+        }
+    },
+    {
+        "idx": 46,
+        "src": "2015年夏の世界大会で 僕のいたチームカナダは ナイジェリアの バスケチームと対戦しました",
+        "ref": "At the 2015 World Summer Games,  my Team Canada teammates and I played the Nigerian basketball team.",
+        "hyp": "At the 2015 Summer World Championships, my team Canada competed against the basketball team from Nigeria.",
+        "rel_src": [
+            "今では僕は バスケットボールと スピードスケートの選手です 州大会や 全国大会に 出場してきました そして今年は LAで開催された 夏の世界大会出場を果たしました カナダ代表として 初めて 世界大会まで進んだ— バスケチームの一員でした",
+            "（拍手） 僕は 世界で450万人を超える アスリートの１人です 似たような話を 本当に たくさん聞いてきました"
+        ],
+        "rel_tgt": [
+            "Now I am a player in basketball and speed skating, having participated in state and national competitions. This year, I achieved the opportunity to compete in the summer World Championships held in LA. I advanced to the world championships for the first time as a member of the Canadian team.",
+            "(Applause) I am one of over 4.5 million athletes in the world. I have heard many similar stories."
+        ],
+        "hist_info": "\"カナダ\" - \"Canada\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team"
+        }
+    },
+    {
+        "idx": 47,
+        "src": "試合の前日に ナイジェリアチームは 会場で実施される健康診断を受け 10名のメンバーのうち ７名が 補聴器の無料支給を受け おかげで 生まれて初めて はっきりと 耳が聞こえたのです",
+        "ref": "The day before our game,  the Nigerian basketball team went to the World Games Healthy Athlete screening,  where seven of 10 members  were given hearing aids for free  and got to hear clearly for the first time.",
+        "hyp": "On the day before the game, the Nigerian team underwent a health check-up at the venue, with seven out of ten members receiving free hearing aids. Thanks to this, they were able to hear clearly for the first time in their lives.",
+        "rel_src": [
+            "スペシャルオリンピックスでは 無料健康診断を提供しています 対象となるのは 医師との意思疎通が困難だったり 医療に手が届きにくい選手です",
+            "2015年夏の世界大会で 僕のいたチームカナダは ナイジェリアの バスケチームと対戦しました"
+        ],
+        "rel_tgt": [
+            "At the Special Olympics, free health check-ups are provided for athletes who have difficulty communicating with doctors or have limited access to medical care.",
+            "At the 2015 Summer World Championships, my team Canada competed against the basketball team from Nigeria."
+        ],
+        "hist_info": "\"ナイジェリア\" - \"Nigeria\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team"
+        }
+    },
+    {
+        "idx": 48,
+        "src": "（拍手） 選手たちには 見違えるほどの変化が起こりました",
+        "ref": "The change in them was amazing.",
+        "hyp": "(Applause) The athletes underwent remarkable transformations.",
+        "rel_src": [
+            "（拍手） 僕は 世界で450万人を超える アスリートの１人です 似たような話を 本当に たくさん聞いてきました",
+            "スペシャルオリンピックスの 選手であることで 僕たちは 誇りと尊厳を 取り戻すのです"
+        ],
+        "rel_tgt": [
+            "(Applause) I am one of over 4.5 million athletes in the world. I have heard many similar stories.",
+            "By being athletes in the Special Olympics, we regain our pride and dignity."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team"
+        }
+    },
+    {
+        "idx": 49,
+        "src": "より生き生きと 試合を楽しみ 自信を持ってプレイしていました コーチと肉声で意思疎通が できるようになったからです",
+        "ref": "They were more excited, happy and confident,  because their coach could vocally communicate with them.",
+        "hyp": "I was able to enjoy the game more vividly and play with confidence because I could communicate with the coach in person.",
+        "rel_src": [
+            "でも 行ってみたら 誰もが 皆 励ましてくれたり 支えてくれて そこでは 人の目を気にせず 自分らしく いられたのです",
+            "また コーチ陣が 栄養や健康について教えてくれます"
+        ],
+        "rel_tgt": [
+            "But when I tried it, everyone encouraged and supported me, and there, I could be myself without worrying about other people's eyes.",
+            "Furthermore, the coaching staff will provide guidance on nutrition and health."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team"
+        }
+    },
+    {
+        "idx": 50,
+        "src": "感情も昂ぶっていました ボールの音が 聞こえるようにようになったからです そして 笛の音や スタンドに立つファンの歓声もです 皆にとっては 聞こえて当然の音です",
+        "ref": "And they were emotional  because they could hear the sounds of the basketball,  the sounds of the whistle  and the cheering fans in the stands --  sounds that we take for granted.",
+        "hyp": "Emotions were also running high because they could hear the sound of the ball, as well as the whistle and the cheers of the fans in the stands. These sounds, which are natural to everyone, became audible.",
+        "rel_src": [
+            "試合の前日に ナイジェリアチームは 会場で実施される健康診断を受け 10名のメンバーのうち ７名が 補聴器の無料支給を受け おかげで 生まれて初めて はっきりと 耳が聞こえたのです",
+            "より生き生きと 試合を楽しみ 自信を持ってプレイしていました コーチと肉声で意思疎通が できるようになったからです"
+        ],
+        "rel_tgt": [
+            "On the day before the game, the Nigerian team underwent a health check-up at the venue, with seven out of ten members receiving free hearing aids. Thanks to this, they were able to hear clearly for the first time in their lives.",
+            "I was able to enjoy the game more vividly and play with confidence because I could communicate with the coach in person."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team"
+        }
+    },
+    {
+        "idx": 51,
+        "src": "スペシャルオリンピックスの 選手たちは 競技中だけでなく",
+        "ref": "Special Olympics is transforming more than just the athlete in their sport.",
+        "hyp": "Special Olympics athletes not only during competition but",
+        "rel_src": [
+            "より生き生きと 試合を楽しみ 自信を持ってプレイしていました コーチと肉声で意思疎通が できるようになったからです",
+            "感情も昂ぶっていました ボールの音が 聞こえるようにようになったからです そして 笛の音や スタンドに立つファンの歓声もです 皆にとっては 聞こえて当然の音です"
+        ],
+        "rel_tgt": [
+            "I was able to enjoy the game more vividly and play with confidence because I could communicate with the coach in person.",
+            "Emotions were also running high because they could hear the sound of the ball, as well as the whistle and the cheers of the fans in the stands. These sounds, which are natural to everyone, became audible."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team"
+        }
+    },
+    {
+        "idx": 52,
+        "src": "競技場の外での人生も変わります",
+        "ref": "Special Olympics is transforming their lives off the field.",
+        "hyp": "Life outside the competition venue will also change.",
+        "rel_src": [
+            "でも 行ってみたら 誰もが 皆 励ましてくれたり 支えてくれて そこでは 人の目を気にせず 自分らしく いられたのです",
+            "スペシャルオリンピックスの 選手であることで 僕たちは 誇りと尊厳を 取り戻すのです"
+        ],
+        "rel_tgt": [
+            "But when I tried it, everyone encouraged and supported me, and there, I could be myself without worrying about other people's eyes.",
+            "By being athletes in the Special Olympics, we regain our pride and dignity."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team"
+        }
+    },
+    {
+        "idx": 53,
+        "src": "今年出た調査の結果によれば アメリカの成人の半数近くは 知的障害の知り合いが １人もいないそうです アメリカ人の44%にあたる そういった人々は 障害者に対し 受容性が非常に低く 著しくネガティブな 見方をしているそうです",
+        "ref": "This year, research findings showed  that nearly half of the adults in the US  don't know a single person with an intellectual disability,  and the 44 percent of Americans  who don't have personal contact with intellectual disabilities  are significantly less accepting and positive.",
+        "hyp": "According to the results of a survey conducted this year, nearly half of American adults reportedly do not know anyone with an intellectual disability. These individuals, amounting to 44% of Americans, are said to have very low levels of acceptance towards individuals with disabilities and hold significantly negative views.",
+        "rel_src": [
+            "研究によれば 知的障害を持つ男性の平均寿命は 健常者より13年短く 女性の場合は 20年短いそうです",
+            "でも スペシャルオリンピックスで 体を動かし 競技参加することで 健康を保つことができます"
+        ],
+        "rel_tgt": [
+            "According to research, the average life expectancy of men with intellectual disabilities is 13 years shorter than that of non-disabled individuals, while for women, it is 20 years shorter.",
+            "However, by moving your body and participating in sports competitions at the Special Olympics, you can maintain your health."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team",
+            "アメリカ": "America"
+        }
+    },
+    {
+        "idx": 54,
+        "src": "さらに 例の差別語使用の多さが 知的障害者が あまりの多くの人にとって 未だに見えない存在である という証拠です",
+        "ref": "Then there's the r-word,  proving that people with intellectual disabilities  are still invisible to far too many people.",
+        "hyp": "Furthermore, the prevalence of the use of discriminatory language is evidence that individuals with intellectual disabilities are still invisible to a significant number of people.",
+        "rel_src": [
+            "研究によれば 知的障害を持つ男性の平均寿命は 健常者より13年短く 女性の場合は 20年短いそうです",
+            "今年出た調査の結果によれば アメリカの成人の半数近くは 知的障害の知り合いが １人もいないそうです アメリカ人の44%にあたる そういった人々は 障害者に対し 受容性が非常に低く 著しくネガティブな 見方をしているそうです"
+        ],
+        "rel_tgt": [
+            "According to research, the average life expectancy of men with intellectual disabilities is 13 years shorter than that of non-disabled individuals, while for women, it is 20 years shorter.",
+            "According to the results of a survey conducted this year, nearly half of American adults reportedly do not know anyone with an intellectual disability. These individuals, amounting to 44% of Americans, are said to have very low levels of acceptance towards individuals with disabilities and hold significantly negative views."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team",
+            "アメリカ": "America"
+        }
+    },
+    {
+        "idx": 55,
+        "src": "皆 気軽な表現や けなし言葉として 使ったりします",
+        "ref": "People use it as a casual term or an insult.",
+        "hyp": "Everyone uses casual expressions and derogatory language.",
+        "rel_src": [
+            "でも 行ってみたら 誰もが 皆 励ましてくれたり 支えてくれて そこでは 人の目を気にせず 自分らしく いられたのです",
+            "さらに 例の差別語使用の多さが 知的障害者が あまりの多くの人にとって 未だに見えない存在である という証拠です"
+        ],
+        "rel_tgt": [
+            "But when I tried it, everyone encouraged and supported me, and there, I could be myself without worrying about other people's eyes.",
+            "Furthermore, the prevalence of the use of discriminatory language is evidence that individuals with intellectual disabilities are still invisible to a significant number of people."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team",
+            "アメリカ": "America"
+        }
+    },
+    {
+        "idx": 56,
+        "src": "「知恵遅れ」という言葉の 去年のツイート回数は900万回以上 でもそれは 僕や 世界中にいる― 450万人のアスリート仲間を ものすごく傷つける言葉なのです",
+        "ref": "It was tweeted more than nine million times last year,  and it is deeply hurtful  to me and my four and a half million fellow athletes around the planet.",
+        "hyp": "The number of tweets using the term \"retard\" last year exceeded 9 million, but it is a word that deeply hurts me and my 4.5 million athlete friends around the world.",
+        "rel_src": [
+            "今年出た調査の結果によれば アメリカの成人の半数近くは 知的障害の知り合いが １人もいないそうです アメリカ人の44%にあたる そういった人々は 障害者に対し 受容性が非常に低く 著しくネガティブな 見方をしているそうです",
+            "皆 気軽な表現や けなし言葉として 使ったりします"
+        ],
+        "rel_tgt": [
+            "According to the results of a survey conducted this year, nearly half of American adults reportedly do not know anyone with an intellectual disability. These individuals, amounting to 44% of Americans, are said to have very low levels of acceptance towards individuals with disabilities and hold significantly negative views.",
+            "Everyone uses casual expressions and derogatory language."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team",
+            "アメリカ": "America"
+        }
+    },
+    {
+        "idx": 57,
+        "src": "皆 侮辱に当たると 思っていないのですが それは間違いです",
+        "ref": "People don't think it's insulting,  but it is.",
+        "hyp": "Everyone does not realize that it constitutes an insult, but that is a mistake.",
+        "rel_src": [
+            "さらに 例の差別語使用の多さが 知的障害者が あまりの多くの人にとって 未だに見えない存在である という証拠です",
+            "「知恵遅れ」という言葉の 去年のツイート回数は900万回以上 でもそれは 僕や 世界中にいる― 450万人のアスリート仲間を ものすごく傷つける言葉なのです"
+        ],
+        "rel_tgt": [
+            "Furthermore, the prevalence of the use of discriminatory language is evidence that individuals with intellectual disabilities are still invisible to a significant number of people.",
+            "The number of tweets using the term \"retard\" last year exceeded 9 million, but it is a word that deeply hurts me and my 4.5 million athlete friends around the world."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team",
+            "アメリカ": "America"
+        }
+    },
+    {
+        "idx": 58,
+        "src": "僕の仲間で グローバルメッセンジャーの ジョン・フランクリン・スティーヴンズが 公開書簡を書きました 例の差別語で人をけなす 政治評論家に宛てたものです 「いつか スペシャルオリンピックスに 来てください",
+        "ref": "As my fellow athlete and global messenger John Franklin Stephens wrote  in an open letter to a political pundit  who used the r-word as an insult,  \"Come join us someday at Special Olympics.",
+        "hyp": "My colleague, John Franklin Stevens, a Global Messenger, wrote an open letter addressed to a political commentator who uses derogatory language towards people. \"Please come to the Special Olympics someday.\"",
+        "rel_src": [
+            "今年出た調査の結果によれば アメリカの成人の半数近くは 知的障害の知り合いが １人もいないそうです アメリカ人の44%にあたる そういった人々は 障害者に対し 受容性が非常に低く 著しくネガティブな 見方をしているそうです",
+            "「知恵遅れ」という言葉の 去年のツイート回数は900万回以上 でもそれは 僕や 世界中にいる― 450万人のアスリート仲間を ものすごく傷つける言葉なのです"
+        ],
+        "rel_tgt": [
+            "According to the results of a survey conducted this year, nearly half of American adults reportedly do not know anyone with an intellectual disability. These individuals, amounting to 44% of Americans, are said to have very low levels of acceptance towards individuals with disabilities and hold significantly negative views.",
+            "The number of tweets using the term \"retard\" last year exceeded 9 million, but it is a word that deeply hurts me and my 4.5 million athlete friends around the world."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team",
+            "アメリカ": "America",
+            "グローバルメッセンジャー": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens"
+        }
+    },
+    {
+        "idx": 59,
+        "src": "心を動かされずに帰れるかどうか どうぞ試してみてください」",
+        "ref": "See if you walk away with your heart unchanged.\"",
+        "hyp": "Please try to see if you can leave without being moved in your heart.\"",
+        "new_src_summary": "マシュー・ウィリアムズは、スペシャルオリンピックスのアスリートであり、カナダの全国大会で3つのスポーツ競技でメダルを獲得し、バスケットボールでは世界レベルの試合にも出場した経験を持つ。彼は知的障害を持つ人々に対する偏見や差別について訴え、啓発活動を行っている。スペシャルオリンピックスは、知的障害者向けのスポーツ競技大会であり、参加者や関係者の人生や価値観を変える可能性があり、自己実現を果たす機会が増えている。著者は、スペシャルオリンピックスが選手たちに誇りと尊厳を取り戻す機会を提供し、健康診断や指導を行っていることを強調している。また、競技中だけでなく競技場の外でも人生が変わることを指摘し、知的障害者に対する差別や侮辱に対して警告を発している。グローバルメッセンジャーのジョン・フランクリン・スティーヴンズは、差別語を使う人々に向けて公開書簡を書き、スペシャルオリンピックスに参加するように呼びかけている。",
+        "new_tgt_summary": "Matthew Williams, a champion in various sports at the national level in Canada, including basketball and speed skating, has represented Canada in world-level games and championships. Despite facing discrimination and derogatory language, he emphasizes the importance of changing society's perception of individuals with intellectual disabilities. The Special Olympics have had a profound impact on individuals with intellectual disabilities, changing their self-identity and values of spectators. Dr. Frank Hayden's research on the benefits of exercise for those with intellectual disabilities has been instrumental in showcasing the abilities of athletes who have overcome challenges and found success through participation in state, national, and world championships. The paragraph also discusses the importance of the Special Olympics in providing pride, dignity, and essential health services to athletes with intellectual disabilities, highlighting the significant impact of sports participation on the health and well-being of athletes. It addresses the positive transformations experienced by athletes, such as improved communication and emotional experiences, while also highlighting the lack of acceptance and discrimination faced by individuals with intellectual disabilities in society and the need for greater awareness and understanding.",
+        "rel_src": [
+            "感情も昂ぶっていました ボールの音が 聞こえるようにようになったからです そして 笛の音や スタンドに立つファンの歓声もです 皆にとっては 聞こえて当然の音です",
+            "皆 侮辱に当たると 思っていないのですが それは間違いです"
+        ],
+        "rel_tgt": [
+            "Emotions were also running high because they could hear the sound of the ball, as well as the whistle and the cheers of the fans in the stands. These sounds, which are natural to everyone, became audible.",
+            "Everyone does not realize that it constitutes an insult, but that is a mistake."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team",
+            "アメリカ": "America",
+            "グローバルメッセンジャー": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens"
+        }
+    },
+    {
+        "idx": 60,
+        "src": "（拍手） 今年2015年夏の 世界大会では 人々は 何時間も並んで 重量挙げ競技の 最終日を 見に来ました",
+        "ref": "This year, at the 2015 World Summer Games,  people lined up for hours  to get into the final night of powerlifting competition.",
+        "hyp": "(Applause) At this year's 2015 Summer World Championships, people lined up for hours to come and watch the final day of the weightlifting competition.",
+        "rel_src": [
+            "2015年夏の世界大会で 僕のいたチームカナダは ナイジェリアの バスケチームと対戦しました",
+            "試合の前日に ナイジェリアチームは 会場で実施される健康診断を受け 10名のメンバーのうち ７名が 補聴器の無料支給を受け おかげで 生まれて初めて はっきりと 耳が聞こえたのです"
+        ],
+        "rel_tgt": [
+            "At the 2015 Summer World Championships, my team Canada competed against the basketball team from Nigeria.",
+            "On the day before the game, the Nigerian team underwent a health check-up at the venue, with seven out of ten members receiving free hearing aids. Thanks to this, they were able to hear clearly for the first time in their lives."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team",
+            "アメリカ": "America",
+            "グローバルメッセンジャー": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "2015年夏の 世界大会": "2015 Summer World Championships"
+        }
+    },
+    {
+        "idx": 61,
+        "src": "全員立ち見の中 僕のチームメイト ジャッキー・バレット 通称「ニューファンドランドの大鹿」が デッドリフトで297kgを スクワットで277kgを持ち上げ― （拍手） スペシャルオリンピックスでの 最高記録を大幅に更新しました",
+        "ref": "So it was standing room only when my teammate Jackie Barrett,  the Newfoundland Moose,  deadlifted 655 pounds  and lifted 611 pounds in the squat --    setting huge new records for Special Olympics.",
+        "hyp": "Among the standing-room-only crowd, my teammate Jackie Barrett, also known as \"The Moose of Newfoundland,\" lifted 297kg in the deadlift and 277kg in the squat - (applause) setting a new personal best record at the Special Olympics.",
+        "rel_src": [
+            "でも スペシャルオリンピックスで 体を動かし 競技参加することで 健康を保つことができます",
+            "（拍手） 今年2015年夏の 世界大会では 人々は 何時間も並んで 重量挙げ競技の 最終日を 見に来ました"
+        ],
+        "rel_tgt": [
+            "However, by moving your body and participating in sports competitions at the Special Olympics, you can maintain your health.",
+            "(Applause) At this year's 2015 Summer World Championships, people lined up for hours to come and watch the final day of the weightlifting competition."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team",
+            "アメリカ": "America",
+            "グローバルメッセンジャー": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "2015年夏の 世界大会": "2015 Summer World Championships",
+            "ジャッキー・バレット": "Jackie Barrett",
+            "ニューファンドランド": "Newfoundland"
+        }
+    },
+    {
+        "idx": 62,
+        "src": "ジャッキーは ニューファンドランド島での 重量挙げの記録保持者です スペシャルオリンピックスに限らず 全重量挙げ選手の中で です",
+        "ref": "Jackie is a record holder among all powerlifters in Newfoundland --  not just Special Olympics, all powerlifters.",
+        "hyp": "Jackie is the record holder for weightlifting on Newfoundland Island, not just in the Special Olympics, but among all weightlifters.",
+        "rel_src": [
+            "試合の前日に ナイジェリアチームは 会場で実施される健康診断を受け 10名のメンバーのうち ７名が 補聴器の無料支給を受け おかげで 生まれて初めて はっきりと 耳が聞こえたのです",
+            "全員立ち見の中 僕のチームメイト ジャッキー・バレット 通称「ニューファンドランドの大鹿」が デッドリフトで297kgを スクワットで277kgを持ち上げ― （拍手） スペシャルオリンピックスでの 最高記録を大幅に更新しました"
+        ],
+        "rel_tgt": [
+            "On the day before the game, the Nigerian team underwent a health check-up at the venue, with seven out of ten members receiving free hearing aids. Thanks to this, they were able to hear clearly for the first time in their lives.",
+            "Among the standing-room-only crowd, my teammate Jackie Barrett, also known as \"The Moose of Newfoundland,\" lifted 297kg in the deadlift and 277kg in the squat - (applause) setting a new personal best record at the Special Olympics."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\", \"ニューファンドランド\" - \"Newfoundland\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team",
+            "アメリカ": "America",
+            "グローバルメッセンジャー": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "2015年夏の 世界大会": "2015 Summer World Championships",
+            "ジャッキー・バレット": "Jackie Barrett",
+            "ニューファンドランド": "Newfoundland",
+            "ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland Island"
+        }
+    },
+    {
+        "idx": 63,
+        "src": "LAでは大スターになり ESPN局が彼の新記録を 生でツイートしました ジャッキーの成績に感動したのです",
+        "ref": "Jackie was a huge star in LA,  and ESPN live-tweeted his record-breaking lifts  and were wowed by his performance.",
+        "hyp": "In LA, he became a big star, and ESPN tweeted his new record live. They were impressed by Jackie's performance.",
+        "rel_src": [
+            "全員立ち見の中 僕のチームメイト ジャッキー・バレット 通称「ニューファンドランドの大鹿」が デッドリフトで297kgを スクワットで277kgを持ち上げ― （拍手） スペシャルオリンピックスでの 最高記録を大幅に更新しました",
+            "ジャッキーは ニューファンドランド島での 重量挙げの記録保持者です スペシャルオリンピックスに限らず 全重量挙げ選手の中で です"
+        ],
+        "rel_tgt": [
+            "Among the standing-room-only crowd, my teammate Jackie Barrett, also known as \"The Moose of Newfoundland,\" lifted 297kg in the deadlift and 277kg in the squat - (applause) setting a new personal best record at the Special Olympics.",
+            "Jackie is the record holder for weightlifting on Newfoundland Island, not just in the Special Olympics, but among all weightlifters."
+        ],
+        "hist_info": "\"LA\" - \"LA\", \"ESPN\" - \"ESPN\", \"ジャッキー\" - \"Jackie\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team",
+            "アメリカ": "America",
+            "グローバルメッセンジャー": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "2015年夏の 世界大会": "2015 Summer World Championships",
+            "ジャッキー・バレット": "Jackie Barrett",
+            "ニューファンドランド": "Newfoundland",
+            "ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland Island",
+            "ESPN局": "ESPN"
+        }
+    },
+    {
+        "idx": 64,
+        "src": "50年前 知的障害者が そんなことをできるなんて ほとんど誰も考えませんでした",
+        "ref": "Fifty years ago, few imagined individuals with intellectual disabilities  could do anything like that.",
+        "hyp": "Fifty years ago, almost no one thought that individuals with intellectual disabilities could do such things.",
+        "rel_src": [
+            "「知恵遅れ」という言葉の 去年のツイート回数は900万回以上 でもそれは 僕や 世界中にいる― 450万人のアスリート仲間を ものすごく傷つける言葉なのです",
+            "僕の仲間で グローバルメッセンジャーの ジョン・フランクリン・スティーヴンズが 公開書簡を書きました 例の差別語で人をけなす 政治評論家に宛てたものです 「いつか スペシャルオリンピックスに 来てください"
+        ],
+        "rel_tgt": [
+            "The number of tweets using the term \"retard\" last year exceeded 9 million, but it is a word that deeply hurts me and my 4.5 million athlete friends around the world.",
+            "My colleague, John Franklin Stevens, a Global Messenger, wrote an open letter addressed to a political commentator who uses derogatory language towards people. \"Please come to the Special Olympics someday.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team",
+            "アメリカ": "America",
+            "グローバルメッセンジャー": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "2015年夏の 世界大会": "2015 Summer World Championships",
+            "ジャッキー・バレット": "Jackie Barrett",
+            "ニューファンドランド": "Newfoundland",
+            "ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland Island",
+            "ESPN局": "ESPN"
+        }
+    },
+    {
+        "idx": 65,
+        "src": "今年 ６万人の観客が あの有名な LAメモリアル・コロシアムを埋めました 世界大会の開会式を観るため そして 世界165か国から集まる 選手たちを応援するため 詰めかけたのです",
+        "ref": "This year, 60,000 spectators filled the famous LA Memorial Coliseum  to watch the opening ceremonies of World Games  and cheer athletes from 165 countries  around the world.",
+        "hyp": "This year, 60,000 spectators filled the famous LA Memorial Coliseum to watch the opening ceremony of the world championships and to cheer on the athletes gathered from 165 countries around the world.",
+        "rel_src": [
+            "LAでは大スターになり ESPN局が彼の新記録を 生でツイートしました ジャッキーの成績に感動したのです",
+            "50年前 知的障害者が そんなことをできるなんて ほとんど誰も考えませんでした"
+        ],
+        "rel_tgt": [
+            "In LA, he became a big star, and ESPN tweeted his new record live. They were impressed by Jackie's performance.",
+            "Fifty years ago, almost no one thought that individuals with intellectual disabilities could do such things."
+        ],
+        "hist_info": "\"LA\" - \"LA\", \"165か国\" - \"165 countries\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team",
+            "アメリカ": "America",
+            "グローバルメッセンジャー": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "2015年夏の 世界大会": "2015 Summer World Championships",
+            "ジャッキー・バレット": "Jackie Barrett",
+            "ニューファンドランド": "Newfoundland",
+            "ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland Island",
+            "ESPN局": "ESPN",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 66,
+        "src": "僕たちは 隠れた存在であるどころか 声援を浴び 称えられました",
+        "ref": "Far from being hidden away,  we were cheered and celebrated.",
+        "hyp": "We were not just hidden figures, but received cheers and praise.",
+        "rel_src": [
+            "全員立ち見の中 僕のチームメイト ジャッキー・バレット 通称「ニューファンドランドの大鹿」が デッドリフトで297kgを スクワットで277kgを持ち上げ― （拍手） スペシャルオリンピックスでの 最高記録を大幅に更新しました",
+            "ジャッキーは ニューファンドランド島での 重量挙げの記録保持者です スペシャルオリンピックスに限らず 全重量挙げ選手の中で です"
+        ],
+        "rel_tgt": [
+            "Among the standing-room-only crowd, my teammate Jackie Barrett, also known as \"The Moose of Newfoundland,\" lifted 297kg in the deadlift and 277kg in the squat - (applause) setting a new personal best record at the Special Olympics.",
+            "Jackie is the record holder for weightlifting on Newfoundland Island, not just in the Special Olympics, but among all weightlifters."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team",
+            "アメリカ": "America",
+            "グローバルメッセンジャー": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "2015年夏の 世界大会": "2015 Summer World Championships",
+            "ジャッキー・バレット": "Jackie Barrett",
+            "ニューファンドランド": "Newfoundland",
+            "ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland Island",
+            "ESPN局": "ESPN",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 67,
+        "src": "スペシャルオリンピックスは アスリートたちに 自信と誇りを持つことを 教えてくれます",
+        "ref": "Special Olympics teaches athletes  to be confident and proud of themselves.",
+        "hyp": "The Special Olympics teaches athletes to have confidence and pride.",
+        "rel_src": [
+            "スペシャルオリンピックスの 選手たちは 競技中だけでなく",
+            "競技場の外での人生も変わります"
+        ],
+        "rel_tgt": [
+            "Special Olympics athletes not only during competition but",
+            "Life outside the competition venue will also change."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team",
+            "アメリカ": "America",
+            "グローバルメッセンジャー": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "2015年夏の 世界大会": "2015 Summer World Championships",
+            "ジャッキー・バレット": "Jackie Barrett",
+            "ニューファンドランド": "Newfoundland",
+            "ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland Island",
+            "ESPN局": "ESPN",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 68,
+        "src": "世の中の人々には 知的障害者は 敬意を払い 受け入れるに値すると 教えてくれます",
+        "ref": "Special Olympics teaches the world  that people with intellectual disabilities  deserve respect and inclusion.",
+        "hyp": "The people of the world are taught to respect and accept individuals with intellectual disabilities.",
+        "rel_src": [
+            "今年出た調査の結果によれば アメリカの成人の半数近くは 知的障害の知り合いが １人もいないそうです アメリカ人の44%にあたる そういった人々は 障害者に対し 受容性が非常に低く 著しくネガティブな 見方をしているそうです",
+            "「知恵遅れ」という言葉の 去年のツイート回数は900万回以上 でもそれは 僕や 世界中にいる― 450万人のアスリート仲間を ものすごく傷つける言葉なのです"
+        ],
+        "rel_tgt": [
+            "According to the results of a survey conducted this year, nearly half of American adults reportedly do not know anyone with an intellectual disability. These individuals, amounting to 44% of Americans, are said to have very low levels of acceptance towards individuals with disabilities and hold significantly negative views.",
+            "The number of tweets using the term \"retard\" last year exceeded 9 million, but it is a word that deeply hurts me and my 4.5 million athlete friends around the world."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team",
+            "アメリカ": "America",
+            "グローバルメッセンジャー": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "2015年夏の 世界大会": "2015 Summer World Championships",
+            "ジャッキー・バレット": "Jackie Barrett",
+            "ニューファンドランド": "Newfoundland",
+            "ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland Island",
+            "ESPN局": "ESPN",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 69,
+        "src": "（拍手） 僕には今 競技での実績や夢があり 素晴らしいコーチに恵まれ 尊敬と尊厳を持ち 前より健康で そして パーソナルトレーナーを 目指しています",
+        "ref": "Now, I have dreams and achievements in my sport,  great coaches,  respect and dignity,  better health,  and I am pursuing a career as a personal trainer.",
+        "hyp": "(Applause) I now have achievements and dreams in sports, blessed with a wonderful coach, and aiming to become a personal trainer with respect and dignity, healthier than before.",
+        "rel_src": [
+            "より生き生きと 試合を楽しみ 自信を持ってプレイしていました コーチと肉声で意思疎通が できるようになったからです",
+            "感情も昂ぶっていました ボールの音が 聞こえるようにようになったからです そして 笛の音や スタンドに立つファンの歓声もです 皆にとっては 聞こえて当然の音です"
+        ],
+        "rel_tgt": [
+            "I was able to enjoy the game more vividly and play with confidence because I could communicate with the coach in person.",
+            "Emotions were also running high because they could hear the sound of the ball, as well as the whistle and the cheers of the fans in the stands. These sounds, which are natural to everyone, became audible."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team",
+            "アメリカ": "America",
+            "グローバルメッセンジャー": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "2015年夏の 世界大会": "2015 Summer World Championships",
+            "ジャッキー・バレット": "Jackie Barrett",
+            "ニューファンドランド": "Newfoundland",
+            "ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland Island",
+            "ESPN局": "ESPN",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 70,
+        "src": "（拍手） 僕はもう 隠れたり いじめられる存在じゃない 今ここで TEDトークを しているのです",
+        "ref": "I am no longer hidden, bullied  and I am here doing a TED Talk.",
+        "hyp": "(Applause) I am no longer a hidden or bullied presence. I am here now, giving a TED talk.",
+        "rel_src": [
+            "「知恵遅れ」という言葉の 去年のツイート回数は900万回以上 でもそれは 僕や 世界中にいる― 450万人のアスリート仲間を ものすごく傷つける言葉なのです",
+            "スペシャルオリンピックスは アスリートたちに 自信と誇りを持つことを 教えてくれます"
+        ],
+        "rel_tgt": [
+            "The number of tweets using the term \"retard\" last year exceeded 9 million, but it is a word that deeply hurts me and my 4.5 million athlete friends around the world.",
+            "The Special Olympics teaches athletes to have confidence and pride."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team",
+            "アメリカ": "America",
+            "グローバルメッセンジャー": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "2015年夏の 世界大会": "2015 Summer World Championships",
+            "ジャッキー・バレット": "Jackie Barrett",
+            "ニューファンドランド": "Newfoundland",
+            "ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland Island",
+            "ESPN局": "ESPN",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 71,
+        "src": "（拍手） スペシャルオリンピックスのおかげで 世界は変わりました でも まだ道のりは遠いです",
+        "ref": "The world is a different place because of Special Olympics,  but there is still farther to go.",
+        "hyp": "(Applause) Thanks to the Special Olympics, the world has changed. But we still have a long way to go.",
+        "rel_src": [
+            "競技場の外での人生も変わります",
+            "僕たちは 隠れた存在であるどころか 声援を浴び 称えられました"
+        ],
+        "rel_tgt": [
+            "Life outside the competition venue will also change.",
+            "We were not just hidden figures, but received cheers and praise."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team",
+            "アメリカ": "America",
+            "グローバルメッセンジャー": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "2015年夏の 世界大会": "2015 Summer World Championships",
+            "ジャッキー・バレット": "Jackie Barrett",
+            "ニューファンドランド": "Newfoundland",
+            "ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland Island",
+            "ESPN局": "ESPN",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 72,
+        "src": "あなたが この次に 知的障害を持つ人を見かけたら その人の能力を 見てあげて欲しい",
+        "ref": "So the next time you see someone with an intellectual disability,  I hope you will see their ability.",
+        "hyp": "When you next encounter someone with an intellectual disability, I hope you will see their abilities.",
+        "rel_src": [
+            "世の中の人々には 知的障害者は 敬意を払い 受け入れるに値すると 教えてくれます",
+            "（拍手） スペシャルオリンピックスのおかげで 世界は変わりました でも まだ道のりは遠いです"
+        ],
+        "rel_tgt": [
+            "The people of the world are taught to respect and accept individuals with intellectual disabilities.",
+            "(Applause) Thanks to the Special Olympics, the world has changed. But we still have a long way to go."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team",
+            "アメリカ": "America",
+            "グローバルメッセンジャー": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "2015年夏の 世界大会": "2015 Summer World Championships",
+            "ジャッキー・バレット": "Jackie Barrett",
+            "ニューファンドランド": "Newfoundland",
+            "ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland Island",
+            "ESPN局": "ESPN",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 73,
+        "src": "差別語を使う人を見かけたら どれだけひどい言葉なのか 教えてあげて欲しい",
+        "ref": "The next time someone uses the r-word near you,  I hope you will tell them how much it hurts.",
+        "hyp": "If you see someone using discriminatory language, I hope you will educate them on how hurtful those words can be.",
+        "rel_src": [
+            "「知恵遅れ」という言葉の 去年のツイート回数は900万回以上 でもそれは 僕や 世界中にいる― 450万人のアスリート仲間を ものすごく傷つける言葉なのです",
+            "僕の仲間で グローバルメッセンジャーの ジョン・フランクリン・スティーヴンズが 公開書簡を書きました 例の差別語で人をけなす 政治評論家に宛てたものです 「いつか スペシャルオリンピックスに 来てください"
+        ],
+        "rel_tgt": [
+            "The number of tweets using the term \"retard\" last year exceeded 9 million, but it is a word that deeply hurts me and my 4.5 million athlete friends around the world.",
+            "My colleague, John Franklin Stevens, a Global Messenger, wrote an open letter addressed to a political commentator who uses derogatory language towards people. \"Please come to the Special Olympics someday.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team",
+            "アメリカ": "America",
+            "グローバルメッセンジャー": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "2015年夏の 世界大会": "2015 Summer World Championships",
+            "ジャッキー・バレット": "Jackie Barrett",
+            "ニューファンドランド": "Newfoundland",
+            "ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland Island",
+            "ESPN局": "ESPN",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 74,
+        "src": "そして スペシャルオリンピックスに 関わることを考えて欲しい",
+        "ref": "I hope you will think about getting involved with Special Olympics.",
+        "hyp": "And I hope you will consider getting involved with the Special Olympics.",
+        "rel_src": [
+            "スペシャルオリンピックスは アスリートたちに 自信と誇りを持つことを 教えてくれます",
+            "（拍手） スペシャルオリンピックスのおかげで 世界は変わりました でも まだ道のりは遠いです"
+        ],
+        "rel_tgt": [
+            "The Special Olympics teaches athletes to have confidence and pride.",
+            "(Applause) Thanks to the Special Olympics, the world has changed. But we still have a long way to go."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team",
+            "アメリカ": "America",
+            "グローバルメッセンジャー": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "2015年夏の 世界大会": "2015 Summer World Championships",
+            "ジャッキー・バレット": "Jackie Barrett",
+            "ニューファンドランド": "Newfoundland",
+            "ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland Island",
+            "ESPN局": "ESPN",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 75,
+        "src": "（拍手） 最後に 一言だけ言います",
+        "ref": "I would like to leave you with one final thought.",
+        "hyp": "(Applause) Finally, I will say just one thing.",
+        "rel_src": [
+            "（拍手） 僕には今 競技での実績や夢があり 素晴らしいコーチに恵まれ 尊敬と尊厳を持ち 前より健康で そして パーソナルトレーナーを 目指しています",
+            "（拍手） 僕はもう 隠れたり いじめられる存在じゃない 今ここで TEDトークを しているのです"
+        ],
+        "rel_tgt": [
+            "(Applause) I now have achievements and dreams in sports, blessed with a wonderful coach, and aiming to become a personal trainer with respect and dignity, healthier than before.",
+            "(Applause) I am no longer a hidden or bullied presence. I am here now, giving a TED talk."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team",
+            "アメリカ": "America",
+            "グローバルメッセンジャー": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "2015年夏の 世界大会": "2015 Summer World Championships",
+            "ジャッキー・バレット": "Jackie Barrett",
+            "ニューファンドランド": "Newfoundland",
+            "ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland Island",
+            "ESPN局": "ESPN",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 76,
+        "src": "ネルソン・マンデラは 「スポーツには世界を変える力がある」 と言いました",
+        "ref": "Nelson Mandela said,  \"Sports has the power to change the world.\"",
+        "hyp": "Nelson Mandela said, \"Sports have the power to change the world.\"",
+        "rel_src": [
+            "（拍手） スペシャルオリンピックスのおかげで 世界は変わりました でも まだ道のりは遠いです",
+            "（拍手） 最後に 一言だけ言います"
+        ],
+        "rel_tgt": [
+            "(Applause) Thanks to the Special Olympics, the world has changed. But we still have a long way to go.",
+            "(Applause) Finally, I will say just one thing."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team",
+            "アメリカ": "America",
+            "グローバルメッセンジャー": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "2015年夏の 世界大会": "2015 Summer World Championships",
+            "ジャッキー・バレット": "Jackie Barrett",
+            "ニューファンドランド": "Newfoundland",
+            "ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland Island",
+            "ESPN局": "ESPN",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum",
+            "ネルソン・マンデラ": "Nelson Mandela"
+        }
+    },
+    {
+        "idx": 77,
+        "src": "スペシャルオリンピックスは まさに 世界を変えています 450万人のアスリートたちが 生まれ変わり 自信を持てる場を持ち 友達を作り 偏見の目で見られず チャンピオンの気分を味わい 実際にチャンピオンになれるのです",
+        "ref": "Special Olympics is changing the world  by transforming four and a half million athletes  and giving us a place to be confident,  meet friends,  not be judged  and get to feel like and be champions.",
+        "hyp": "The Special Olympics is truly changing the world. With 4.5 million athletes being reborn, they have a place to gain confidence, make friends, not be judged with prejudice, experience the feeling of being a champion, and actually become champions.",
+        "rel_src": [
+            "スペシャルオリンピックスは アスリートたちに 自信と誇りを持つことを 教えてくれます",
+            "（拍手） スペシャルオリンピックスのおかげで 世界は変わりました でも まだ道のりは遠いです"
+        ],
+        "rel_tgt": [
+            "The Special Olympics teaches athletes to have confidence and pride.",
+            "(Applause) Thanks to the Special Olympics, the world has changed. But we still have a long way to go."
+        ],
+        "hist_info": "\"スペシャルオリンピックス\" - \"Special Olympics\"",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team",
+            "アメリカ": "America",
+            "グローバルメッセンジャー": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "2015年夏の 世界大会": "2015 Summer World Championships",
+            "ジャッキー・バレット": "Jackie Barrett",
+            "ニューファンドランド": "Newfoundland",
+            "ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland Island",
+            "ESPN局": "ESPN",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum",
+            "ネルソン・マンデラ": "Nelson Mandela"
+        }
+    },
+    {
+        "idx": 78,
+        "src": "ありがとうございました",
+        "ref": "Thank you very much.",
+        "hyp": "Thank you very much.",
+        "rel_src": [
+            "あなたが この次に 知的障害を持つ人を見かけたら その人の能力を 見てあげて欲しい",
+            "差別語を使う人を見かけたら どれだけひどい言葉なのか 教えてあげて欲しい"
+        ],
+        "rel_tgt": [
+            "When you next encounter someone with an intellectual disability, I hope you will see their abilities.",
+            "If you see someone using discriminatory language, I hope you will educate them on how hurtful those words can be."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "マシュー・ウィリアムズ": "Matthew Williams",
+            "カナダ": "Canada",
+            "スペシャルオリンピックス": "Special Olympics",
+            "LA": "LA",
+            "165か国": "165 countries",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "トロント大学": "University of Toronto",
+            "フランク・ヘイデン博士": "Dr. Frank Hayden",
+            "ヘイデン博士": "Dr. Hayden",
+            "ユーニス・ケネディ・シュライバー": "Eunice Kennedy Shriver",
+            "2015年夏の世界大会": "2015 Summer World Championships",
+            "ナイジェリア": "Nigeria",
+            "バスケチーム": "basketball team",
+            "ナイジェリアチーム": "Nigerian team",
+            "アメリカ": "America",
+            "グローバルメッセンジャー": "Global Messenger",
+            "ジョン・フランクリン・スティーヴンズ": "John Franklin Stevens",
+            "2015年夏の 世界大会": "2015 Summer World Championships",
+            "ジャッキー・バレット": "Jackie Barrett",
+            "ニューファンドランド": "Newfoundland",
+            "ジャッキー": "Jackie",
+            "ニューファンドランド島": "Newfoundland Island",
+            "ESPN局": "ESPN",
+            "LAメモリアル・コロシアム": "LA Memorial Coliseum",
+            "ネルソン・マンデラ": "Nelson Mandela"
+        }
+    }
+]

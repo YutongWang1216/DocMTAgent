@@ -1,0 +1,1353 @@
+[
+    {
+        "idx": 0,
+        "src": "So this is James Risen.",
+        "ref": "Das ist James Risen.",
+        "hyp": "Das ist also James Risen.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen"
+        }
+    },
+    {
+        "idx": 1,
+        "src": "You may know him as the Pulitzer Prize-winning reporter  for The New York Times.",
+        "ref": "Sie kennen ihn vielleicht, weil er als New-York-Times-Reporter den Pulitzer-Preis gewann.",
+        "hyp": "Vielleicht kennen Sie ihn als den Pulitzer-Preisträger für die New York Times.",
+        "rel_src": [
+            "So this is James Risen."
+        ],
+        "rel_tgt": [
+            "Das ist also James Risen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger"
+        }
+    },
+    {
+        "idx": 2,
+        "src": "Long before anybody knew Edward Snowden's name,  Risen wrote a book in which he famously exposed  that the NSA was illegally wiretapping the phone calls of Americans.",
+        "ref": "Lange bevor je jemand von Edward Snowden gehört hatte, schrieb Risen ein Buch, in dem er spektakulär veröffentlichte, dass die NSA illegal Telefone von Amerikanern abgehört habe.",
+        "hyp": "Lange bevor jemand den Namen Edward Snowden kannte, schrieb Risen ein Buch, in dem er berühmt machte, dass die NSA illegal die Telefongespräche von Amerikanern abhörte.",
+        "rel_src": [
+            "So this is James Risen.",
+            "You may know him as the Pulitzer Prize-winning reporter  for The New York Times."
+        ],
+        "rel_tgt": [
+            "Das ist also James Risen.",
+            "Vielleicht kennen Sie ihn als den Pulitzer-Preisträger für die New York Times."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern"
+        }
+    },
+    {
+        "idx": 3,
+        "src": "But it's another chapter in that book  that may have an even more lasting impact.",
+        "ref": "Es ist aber ein anderes Kapitel, das einen bleibenden Eindruck hinterlassen sollte.",
+        "hyp": "Aber es ist ein weiteres Kapitel in diesem Buch, das möglicherweise einen noch nachhaltigen Einfluss hat.",
+        "rel_src": [
+            "You may know him as the Pulitzer Prize-winning reporter  for The New York Times.",
+            "Long before anybody knew Edward Snowden's name,  Risen wrote a book in which he famously exposed  that the NSA was illegally wiretapping the phone calls of Americans."
+        ],
+        "rel_tgt": [
+            "Vielleicht kennen Sie ihn als den Pulitzer-Preisträger für die New York Times.",
+            "Lange bevor jemand den Namen Edward Snowden kannte, schrieb Risen ein Buch, in dem er berühmt machte, dass die NSA illegal die Telefongespräche von Amerikanern abhörte."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern"
+        }
+    },
+    {
+        "idx": 4,
+        "src": "In it, he describes a catastrophic US intelligence operation  in which the CIA quite literally handed over blueprints  of a nuclear bomb to Iran.",
+        "ref": "Darin beschreibt er eine katastrophale US-Geheimdienstoperation, in der die CIA dem Iran buchstäblich Entwürfe für eine Atombombe übergab.",
+        "hyp": "In dem Buch beschreibt er eine katastrophale US-Geheimdienstoperation, bei der die CIA ganz wörtlich die Pläne einer Atombombe an den Iran übergab.",
+        "rel_src": [
+            "Long before anybody knew Edward Snowden's name,  Risen wrote a book in which he famously exposed  that the NSA was illegally wiretapping the phone calls of Americans.",
+            "But it's another chapter in that book  that may have an even more lasting impact."
+        ],
+        "rel_tgt": [
+            "Lange bevor jemand den Namen Edward Snowden kannte, schrieb Risen ein Buch, in dem er berühmt machte, dass die NSA illegal die Telefongespräche von Amerikanern abhörte.",
+            "Aber es ist ein weiteres Kapitel in diesem Buch, das möglicherweise einen noch nachhaltigen Einfluss hat."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran"
+        }
+    },
+    {
+        "idx": 5,
+        "src": "If that sounds crazy, go read it.",
+        "ref": "Falls das verrückt klingt, lesen Sie es.",
+        "hyp": "Wenn das verrückt klingt, dann lies es.",
+        "rel_src": [
+            "Long before anybody knew Edward Snowden's name,  Risen wrote a book in which he famously exposed  that the NSA was illegally wiretapping the phone calls of Americans.",
+            "In it, he describes a catastrophic US intelligence operation  in which the CIA quite literally handed over blueprints  of a nuclear bomb to Iran."
+        ],
+        "rel_tgt": [
+            "Lange bevor jemand den Namen Edward Snowden kannte, schrieb Risen ein Buch, in dem er berühmt machte, dass die NSA illegal die Telefongespräche von Amerikanern abhörte.",
+            "In dem Buch beschreibt er eine katastrophale US-Geheimdienstoperation, bei der die CIA ganz wörtlich die Pläne einer Atombombe an den Iran übergab."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran"
+        }
+    },
+    {
+        "idx": 6,
+        "src": "It's an incredible story.",
+        "ref": "Es ist eine unglaubliche Geschichte.",
+        "hyp": "Es ist eine unglaubliche Geschichte.",
+        "rel_src": [
+            "But it's another chapter in that book  that may have an even more lasting impact.",
+            "In it, he describes a catastrophic US intelligence operation  in which the CIA quite literally handed over blueprints  of a nuclear bomb to Iran."
+        ],
+        "rel_tgt": [
+            "Aber es ist ein weiteres Kapitel in diesem Buch, das möglicherweise einen noch nachhaltigen Einfluss hat.",
+            "In dem Buch beschreibt er eine katastrophale US-Geheimdienstoperation, bei der die CIA ganz wörtlich die Pläne einer Atombombe an den Iran übergab."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran"
+        }
+    },
+    {
+        "idx": 7,
+        "src": "But you know who didn't like that chapter?",
+        "ref": "Aber wissen Sie, wem das Kapitel gar nicht gefiel?",
+        "hyp": "Aber weißt du, wer dieses Kapitel nicht mochte?",
+        "rel_src": [
+            "But it's another chapter in that book  that may have an even more lasting impact.",
+            "In it, he describes a catastrophic US intelligence operation  in which the CIA quite literally handed over blueprints  of a nuclear bomb to Iran."
+        ],
+        "rel_tgt": [
+            "Aber es ist ein weiteres Kapitel in diesem Buch, das möglicherweise einen noch nachhaltigen Einfluss hat.",
+            "In dem Buch beschreibt er eine katastrophale US-Geheimdienstoperation, bei der die CIA ganz wörtlich die Pläne einer Atombombe an den Iran übergab."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran"
+        }
+    },
+    {
+        "idx": 8,
+        "src": "The US government.",
+        "ref": "Der US-Regierung.",
+        "hyp": "Die US-Regierung.",
+        "rel_src": [
+            "In it, he describes a catastrophic US intelligence operation  in which the CIA quite literally handed over blueprints  of a nuclear bomb to Iran.",
+            "But you know who didn't like that chapter?"
+        ],
+        "rel_tgt": [
+            "In dem Buch beschreibt er eine katastrophale US-Geheimdienstoperation, bei der die CIA ganz wörtlich die Pläne einer Atombombe an den Iran übergab.",
+            "Aber weißt du, wer dieses Kapitel nicht mochte?"
+        ],
+        "hist_info": "\"US\" - \"US\"",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung"
+        }
+    },
+    {
+        "idx": 9,
+        "src": "For nearly a decade afterwards,  Risen was the subject of a US government investigation  in which prosecutors demanded that he testify  against one of his alleged sources.",
+        "ref": "Fast 10 Jahre lang hat die Regierung gegen Risen ermittelt und ihn aufgefordert, seine angeblichen Quellen zu nennen.",
+        "hyp": "Fast ein Jahrzehnt lang war Risen danach Gegenstand einer Untersuchung der US-Regierung, in der die Staatsanwälte verlangten, dass er gegen eine seiner angeblichen Quellen aussagt.",
+        "rel_src": [
+            "Long before anybody knew Edward Snowden's name,  Risen wrote a book in which he famously exposed  that the NSA was illegally wiretapping the phone calls of Americans.",
+            "The US government."
+        ],
+        "rel_tgt": [
+            "Lange bevor jemand den Namen Edward Snowden kannte, schrieb Risen ein Buch, in dem er berühmt machte, dass die NSA illegal die Telefongespräche von Amerikanern abhörte.",
+            "Die US-Regierung."
+        ],
+        "hist_info": "\"Risen\" - \"Risen\", \"US\" - \"US\", \"US government\" - \"US-Regierung\"",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung"
+        },
+        "conflict": [
+            "\"US\" - \"US\"/\"US-Regierung\""
+        ]
+    },
+    {
+        "idx": 10,
+        "src": "And along the way, he became the face for the US government's recent pattern  of prosecuting whistleblowers and spying on journalists.",
+        "ref": "In diesem Zug wurde er zum Symbol für das Muster der Regierung, Whistleblower zu verurteilen und Journalisten zu bespitzeln.",
+        "hyp": "Und auf dem Weg dorthin wurde er zum Gesicht für das jüngste Muster der US-Regierung, Whistleblower zu verfolgen und Journalisten auszuspionieren.",
+        "rel_src": [
+            "Long before anybody knew Edward Snowden's name,  Risen wrote a book in which he famously exposed  that the NSA was illegally wiretapping the phone calls of Americans.",
+            "For nearly a decade afterwards,  Risen was the subject of a US government investigation  in which prosecutors demanded that he testify  against one of his alleged sources."
+        ],
+        "rel_tgt": [
+            "Lange bevor jemand den Namen Edward Snowden kannte, schrieb Risen ein Buch, in dem er berühmt machte, dass die NSA illegal die Telefongespräche von Amerikanern abhörte.",
+            "Fast ein Jahrzehnt lang war Risen danach Gegenstand einer Untersuchung der US-Regierung, in der die Staatsanwälte verlangten, dass er gegen eine seiner angeblichen Quellen aussagt."
+        ],
+        "hist_info": "\"US\" - \"US\", \"US government\" - \"US-Regierung\"",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung"
+        },
+        "conflict": [
+            "\"US\" - \"US\"/\"US-Regierung\""
+        ]
+    },
+    {
+        "idx": 11,
+        "src": "You see, under the First Amendment,  the press has the right to publish secret information in the public interest.",
+        "ref": "Laut Ersten Verfassungszusatz haben die Medien das Recht, geheime Informationen zu veröffentlichen.",
+        "hyp": "Sie sehen, gemäß dem Ersten Verfassungszusatz hat die Presse das Recht, geheime Informationen im öffentlichen Interesse zu veröffentlichen.",
+        "rel_src": [
+            "For nearly a decade afterwards,  Risen was the subject of a US government investigation  in which prosecutors demanded that he testify  against one of his alleged sources.",
+            "And along the way, he became the face for the US government's recent pattern  of prosecuting whistleblowers and spying on journalists."
+        ],
+        "rel_tgt": [
+            "Fast ein Jahrzehnt lang war Risen danach Gegenstand einer Untersuchung der US-Regierung, in der die Staatsanwälte verlangten, dass er gegen eine seiner angeblichen Quellen aussagt.",
+            "Und auf dem Weg dorthin wurde er zum Gesicht für das jüngste Muster der US-Regierung, Whistleblower zu verfolgen und Journalisten auszuspionieren."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz"
+        }
+    },
+    {
+        "idx": 12,
+        "src": "But it's impossible to exercise that right if the media can't also gather that news  and protect the identities of the brave men and women  who get it to them.",
+        "ref": "Aber es ist unmöglich, dieses Recht zu anwenden, wenn Medien diese Informationen nicht bekommen und wenn sie Identität der Mutigen nicht schützen können, die sie preisgeben.",
+        "hyp": "Aber es ist unmöglich, dieses Recht auszuüben, wenn die Medien nicht auch diese Nachrichten sammeln und die Identitäten der mutigen Männer und Frauen schützen können, die sie ihnen überbringen.",
+        "rel_src": [
+            "For nearly a decade afterwards,  Risen was the subject of a US government investigation  in which prosecutors demanded that he testify  against one of his alleged sources.",
+            "And along the way, he became the face for the US government's recent pattern  of prosecuting whistleblowers and spying on journalists."
+        ],
+        "rel_tgt": [
+            "Fast ein Jahrzehnt lang war Risen danach Gegenstand einer Untersuchung der US-Regierung, in der die Staatsanwälte verlangten, dass er gegen eine seiner angeblichen Quellen aussagt.",
+            "Und auf dem Weg dorthin wurde er zum Gesicht für das jüngste Muster der US-Regierung, Whistleblower zu verfolgen und Journalisten auszuspionieren."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz"
+        }
+    },
+    {
+        "idx": 13,
+        "src": "So when the government came knocking,  Risen did what many brave reporters have done before him:  he refused  and said he'd rather go to jail.",
+        "ref": "Also als die Regierung bei Risen anklopfte, tat er etwas, was viele mutige Reporter bereits vor ihm taten: er weigerte sich und sagte, dass er lieber ins Gefängnis gehen würde.",
+        "hyp": "So als die Regierung anklopfte, tat Risen, was viele mutige Reporter vor ihm getan haben: Er weigerte sich und sagte, er würde lieber ins Gefängnis gehen.",
+        "rel_src": [
+            "For nearly a decade afterwards,  Risen was the subject of a US government investigation  in which prosecutors demanded that he testify  against one of his alleged sources.",
+            "And along the way, he became the face for the US government's recent pattern  of prosecuting whistleblowers and spying on journalists."
+        ],
+        "rel_tgt": [
+            "Fast ein Jahrzehnt lang war Risen danach Gegenstand einer Untersuchung der US-Regierung, in der die Staatsanwälte verlangten, dass er gegen eine seiner angeblichen Quellen aussagt.",
+            "Und auf dem Weg dorthin wurde er zum Gesicht für das jüngste Muster der US-Regierung, Whistleblower zu verfolgen und Journalisten auszuspionieren."
+        ],
+        "hist_info": "\"Risen\" - \"Risen\"",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz"
+        }
+    },
+    {
+        "idx": 14,
+        "src": "So from 2007 to 2015,  Risen lived under the specter of going to federal prison.",
+        "ref": "Von 2007 bis 2015 lebte Risen also mit dem Risiko, ins Gefängnis zu gehen.",
+        "hyp": "So lebte Risen von 2007 bis 2015 unter dem Gespenst, ins Bundesgefängnis zu gehen.",
+        "rel_src": [
+            "For nearly a decade afterwards,  Risen was the subject of a US government investigation  in which prosecutors demanded that he testify  against one of his alleged sources.",
+            "And along the way, he became the face for the US government's recent pattern  of prosecuting whistleblowers and spying on journalists."
+        ],
+        "rel_tgt": [
+            "Fast ein Jahrzehnt lang war Risen danach Gegenstand einer Untersuchung der US-Regierung, in der die Staatsanwälte verlangten, dass er gegen eine seiner angeblichen Quellen aussagt.",
+            "Und auf dem Weg dorthin wurde er zum Gesicht für das jüngste Muster der US-Regierung, Whistleblower zu verfolgen und Journalisten auszuspionieren."
+        ],
+        "hist_info": "\"Risen\" - \"Risen\"",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015"
+        }
+    },
+    {
+        "idx": 15,
+        "src": "That is, until just days before the trial, when a curious thing happened.",
+        "ref": "Doch dann, nur Tage vor dem Prozess, passierte etwas Außergewöhnliches.",
+        "hyp": "Das heißt, bis nur wenige Tage vor dem Prozess, als etwas Merkwürdiges geschah.",
+        "rel_src": [
+            "For nearly a decade afterwards,  Risen was the subject of a US government investigation  in which prosecutors demanded that he testify  against one of his alleged sources.",
+            "So from 2007 to 2015,  Risen lived under the specter of going to federal prison."
+        ],
+        "rel_tgt": [
+            "Fast ein Jahrzehnt lang war Risen danach Gegenstand einer Untersuchung der US-Regierung, in der die Staatsanwälte verlangten, dass er gegen eine seiner angeblichen Quellen aussagt.",
+            "So lebte Risen von 2007 bis 2015 unter dem Gespenst, ins Bundesgefängnis zu gehen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015"
+        }
+    },
+    {
+        "idx": 16,
+        "src": "Suddenly, after years of claiming it was vital to their case,  the government dropped their demands to Risen altogether.",
+        "ref": "Plötzlich, obwohl sie jahrelang angaben, dass es unerlässlich für ihren Fall wäre, wurden die Forderungen der Regierung an Risen fallen gelassen.",
+        "hyp": "Plötzlich, nach Jahren, in denen sie behaupteten, es sei entscheidend für ihren Fall, ließ die Regierung ihre Forderungen an Risen ganz fallen.",
+        "rel_src": [
+            "For nearly a decade afterwards,  Risen was the subject of a US government investigation  in which prosecutors demanded that he testify  against one of his alleged sources.",
+            "So from 2007 to 2015,  Risen lived under the specter of going to federal prison."
+        ],
+        "rel_tgt": [
+            "Fast ein Jahrzehnt lang war Risen danach Gegenstand einer Untersuchung der US-Regierung, in der die Staatsanwälte verlangten, dass er gegen eine seiner angeblichen Quellen aussagt.",
+            "So lebte Risen von 2007 bis 2015 unter dem Gespenst, ins Bundesgefängnis zu gehen."
+        ],
+        "hist_info": "\"Risen\" - \"Risen\"",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015"
+        }
+    },
+    {
+        "idx": 17,
+        "src": "It turns out, in the age of electronic surveillance,  there are very few places reporters and sources can hide.",
+        "ref": "Der Grund: In der Zeit elektronischer Überwachung können die Reporter und Quellen sich immer weniger verstecken.",
+        "hyp": "Es stellt sich heraus, dass es im Zeitalter der elektronischen Überwachung nur sehr wenige Orte gibt, an denen Reporter und Quellen sich verstecken können.",
+        "rel_src": [
+            "And along the way, he became the face for the US government's recent pattern  of prosecuting whistleblowers and spying on journalists.",
+            "You see, under the First Amendment,  the press has the right to publish secret information in the public interest."
+        ],
+        "rel_tgt": [
+            "Und auf dem Weg dorthin wurde er zum Gesicht für das jüngste Muster der US-Regierung, Whistleblower zu verfolgen und Journalisten auszuspionieren.",
+            "Sie sehen, gemäß dem Ersten Verfassungszusatz hat die Presse das Recht, geheime Informationen im öffentlichen Interesse zu veröffentlichen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015"
+        }
+    },
+    {
+        "idx": 18,
+        "src": "And instead of trying and failing to have Risen testify,  they could have his digital trail testify against him instead.",
+        "ref": "Anstatt zu scheitern und Risen zum Aussagen zu bringen, könnten das auch seine digitalen Fußspuren für ihn erledigen.",
+        "hyp": "Und anstatt zu versuchen und zu scheitern, Risen zum Aussage zu bringen, hätten sie seine digitale Spur gegen ihn aussagen lassen können.",
+        "rel_src": [
+            "For nearly a decade afterwards,  Risen was the subject of a US government investigation  in which prosecutors demanded that he testify  against one of his alleged sources.",
+            "It turns out, in the age of electronic surveillance,  there are very few places reporters and sources can hide."
+        ],
+        "rel_tgt": [
+            "Fast ein Jahrzehnt lang war Risen danach Gegenstand einer Untersuchung der US-Regierung, in der die Staatsanwälte verlangten, dass er gegen eine seiner angeblichen Quellen aussagt.",
+            "Es stellt sich heraus, dass es im Zeitalter der elektronischen Überwachung nur sehr wenige Orte gibt, an denen Reporter und Quellen sich verstecken können."
+        ],
+        "hist_info": "\"Risen\" - \"Risen\"",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015"
+        }
+    },
+    {
+        "idx": 19,
+        "src": "So completely in secret and without his consent,  prosecutors got Risen's phone records.",
+        "ref": "Und so haben sich die Ermittler, ohne sein Einverständnis, seine Telefonnachweise geheim besorgt,",
+        "hyp": "So ganz im Geheimen und ohne seine Zustimmung erhielten die Staatsanwälte Risen's Telefonaufzeichnungen.",
+        "new_src_summary": "The paragraph discusses James Risen, a Pulitzer Prize-winning journalist known for his work with The New York Times, particularly for exposing illegal NSA wiretapping of American citizens before Edward Snowden's revelations. It highlights a significant chapter in Risen's book that details a disastrous CIA operation involving the transfer of nuclear bomb blueprints to Iran, which drew the ire of the U.S. government. Following the book's publication, Risen faced nearly a decade of government investigation, where he was pressured to reveal his sources. The paragraph emphasizes the conflict between the First Amendment rights of the press to publish information in the public interest and the government's attempts to stifle that right by targeting journalists. Risen's refusal to testify, even at the risk of imprisonment, exemplifies the challenges reporters face in protecting their sources. Ultimately, the government dropped its demands just before Risen's trial, suggesting that modern electronic surveillance could expose journalists more effectively than direct testimony. The overall domain is journalism and government accountability, with a serious and critical tone reflecting on press freedom and the implications of government actions on investigative reporting.",
+        "new_tgt_summary": "James Risen, Pulitzer-Preisträger der New York Times, deckte in einem Buch auf, dass die NSA illegal Telefongespräche von Amerikanern abhörte und beschrieb eine katastrophale CIA-Operation, bei der Atompläne an den Iran übergeben wurden. Die US-Regierung war mit diesen Enthüllungen unzufrieden und untersuchte Risen fast ein Jahrzehnt lang, wobei sie von ihm verlangte, gegen eine Quelle auszusagen. Risen weigerte sich und riskierte eine Gefängnisstrafe, was ihn zum Symbol für die Verfolgung von Whistleblowern und Journalisten machte. Von 2007 bis 2015 lebte er unter dem Druck einer möglichen Inhaftierung, bis die Regierung kurz vor dem Prozess ihre Forderungen fallen ließ, da sie möglicherweise keine effektiven Mittel hatten, um Risen zur Aussage zu zwingen.",
+        "rel_src": [
+            "It turns out, in the age of electronic surveillance,  there are very few places reporters and sources can hide.",
+            "And instead of trying and failing to have Risen testify,  they could have his digital trail testify against him instead."
+        ],
+        "rel_tgt": [
+            "Es stellt sich heraus, dass es im Zeitalter der elektronischen Überwachung nur sehr wenige Orte gibt, an denen Reporter und Quellen sich verstecken können.",
+            "Und anstatt zu versuchen und zu scheitern, Risen zum Aussage zu bringen, hätten sie seine digitale Spur gegen ihn aussagen lassen können."
+        ],
+        "hist_info": "\"Risen\" - \"Risen\"",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015"
+        }
+    },
+    {
+        "idx": 20,
+        "src": "They got his email records, his financial and banking information,  his credit reports,  even travel records with a list of flights he had taken.",
+        "ref": "genauso wie seine E-Mail-Daten, Finanz- und Bankinformationen, seine Kreditauskunft, und sogar Reisenachweise mit der Liste seiner Flüge.",
+        "hyp": "Sie erhielten seine E-Mail-Aufzeichnungen, seine finanziellen und Bankinformationen, seine Kreditberichte, sogar Reiseunterlagen mit einer Liste der Flüge, die er unternommen hatte.",
+        "rel_src": [
+            "It turns out, in the age of electronic surveillance,  there are very few places reporters and sources can hide.",
+            "So completely in secret and without his consent,  prosecutors got Risen's phone records."
+        ],
+        "rel_tgt": [
+            "Es stellt sich heraus, dass es im Zeitalter der elektronischen Überwachung nur sehr wenige Orte gibt, an denen Reporter und Quellen sich verstecken können.",
+            "So ganz im Geheimen und ohne seine Zustimmung erhielten die Staatsanwälte Risen's Telefonaufzeichnungen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015"
+        }
+    },
+    {
+        "idx": 21,
+        "src": "And it was among this information that they used to convict Jeffrey Sterling,  Risen's alleged source and CIA whistleblower.",
+        "ref": "Inmitten dieser Informationen fanden sie Beweise, die sie nutzten, um Jeffrey Sterling, einen CIA-Whistleblower und Risens vermeintliche Quelle, zu verurteilen.",
+        "hyp": "Und es war unter diesen Informationen, die sie verwendeten, um Jeffrey Sterling, Risens angebliche Quelle und CIA-Whistleblower, zu verurteilen.",
+        "rel_src": [
+            "For nearly a decade afterwards,  Risen was the subject of a US government investigation  in which prosecutors demanded that he testify  against one of his alleged sources.",
+            "And instead of trying and failing to have Risen testify,  they could have his digital trail testify against him instead."
+        ],
+        "rel_tgt": [
+            "Fast ein Jahrzehnt lang war Risen danach Gegenstand einer Untersuchung der US-Regierung, in der die Staatsanwälte verlangten, dass er gegen eine seiner angeblichen Quellen aussagt.",
+            "Und anstatt zu versuchen und zu scheitern, Risen zum Aussage zu bringen, hätten sie seine digitale Spur gegen ihn aussagen lassen können."
+        ],
+        "hist_info": "\"Risen\" - \"Risen\", \"CIA\" - \"CIA\"",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015",
+            "Jeffrey Sterling": "Jeffrey Sterling"
+        },
+        "conflict": [
+            "\"Risen\" - \"Risen\"/\"Risens\""
+        ]
+    },
+    {
+        "idx": 22,
+        "src": "Sadly, this is only one case of many.",
+        "ref": "Leider ist das nur einer von vielen Fällen.",
+        "hyp": "Leider ist dies nur ein Fall von vielen.",
+        "rel_src": [
+            "And along the way, he became the face for the US government's recent pattern  of prosecuting whistleblowers and spying on journalists.",
+            "So when the government came knocking,  Risen did what many brave reporters have done before him:  he refused  and said he'd rather go to jail."
+        ],
+        "rel_tgt": [
+            "Und auf dem Weg dorthin wurde er zum Gesicht für das jüngste Muster der US-Regierung, Whistleblower zu verfolgen und Journalisten auszuspionieren.",
+            "So als die Regierung anklopfte, tat Risen, was viele mutige Reporter vor ihm getan haben: Er weigerte sich und sagte, er würde lieber ins Gefängnis gehen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015",
+            "Jeffrey Sterling": "Jeffrey Sterling"
+        }
+    },
+    {
+        "idx": 23,
+        "src": "President Obama ran on a promise to protect whistleblowers,  and instead, his Justice Department has prosecuted more  than all other administrations combined.",
+        "ref": "Präsident Obama versprach bei seinem Antritt, Whistleblower zu schützen. Aber stattdessen hat die Justiz mehr verurteilt als alle US-Regierungen vor ihm zusammen.",
+        "hyp": "Präsident Obama trat mit dem Versprechen an, Whistleblower zu schützen, und stattdessen hat sein Justizministerium mehr verfolgt als alle anderen Verwaltungen zusammen.",
+        "rel_src": [
+            "And along the way, he became the face for the US government's recent pattern  of prosecuting whistleblowers and spying on journalists.",
+            "So when the government came knocking,  Risen did what many brave reporters have done before him:  he refused  and said he'd rather go to jail."
+        ],
+        "rel_tgt": [
+            "Und auf dem Weg dorthin wurde er zum Gesicht für das jüngste Muster der US-Regierung, Whistleblower zu verfolgen und Journalisten auszuspionieren.",
+            "So als die Regierung anklopfte, tat Risen, was viele mutige Reporter vor ihm getan haben: Er weigerte sich und sagte, er würde lieber ins Gefängnis gehen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015",
+            "Jeffrey Sterling": "Jeffrey Sterling",
+            "President Obama": "Präsident Obama",
+            "Justice Department": "Justizministerium"
+        }
+    },
+    {
+        "idx": 24,
+        "src": "Now, you can see how this could be a problem,  especially because the government considers so much of what it does secret.",
+        "ref": "Jetzt können Sie sich vorstellen, wie das ein Problem sein kann, besonders weil die Regierung zu viel von ihrer Arbeit als geheim einstuft.",
+        "hyp": "Jetzt können Sie sehen, wie dies ein Problem sein könnte, insbesondere weil die Regierung so vieles von dem, was sie tut, als geheim betrachtet.",
+        "rel_src": [
+            "You see, under the First Amendment,  the press has the right to publish secret information in the public interest.",
+            "But it's impossible to exercise that right if the media can't also gather that news  and protect the identities of the brave men and women  who get it to them."
+        ],
+        "rel_tgt": [
+            "Sie sehen, gemäß dem Ersten Verfassungszusatz hat die Presse das Recht, geheime Informationen im öffentlichen Interesse zu veröffentlichen.",
+            "Aber es ist unmöglich, dieses Recht auszuüben, wenn die Medien nicht auch diese Nachrichten sammeln und die Identitäten der mutigen Männer und Frauen schützen können, die sie ihnen überbringen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015",
+            "Jeffrey Sterling": "Jeffrey Sterling",
+            "President Obama": "Präsident Obama",
+            "Justice Department": "Justizministerium"
+        }
+    },
+    {
+        "idx": 25,
+        "src": "Since 9/11, virtually every important story about national security  has been the result of a whistleblower coming to a journalist.",
+        "ref": "Seit dem 11. September war fast jeder Artikel über nationale Sicherheit das Ergebnis davon, dass ein Whistleblower zu einem Journalisten ging.",
+        "hyp": "Seit dem 11. September ist praktisch jede wichtige Geschichte über nationale Sicherheit das Ergebnis eines Whistleblowers, der sich an einen Journalisten gewandt hat.",
+        "rel_src": [
+            "And along the way, he became the face for the US government's recent pattern  of prosecuting whistleblowers and spying on journalists.",
+            "President Obama ran on a promise to protect whistleblowers,  and instead, his Justice Department has prosecuted more  than all other administrations combined."
+        ],
+        "rel_tgt": [
+            "Und auf dem Weg dorthin wurde er zum Gesicht für das jüngste Muster der US-Regierung, Whistleblower zu verfolgen und Journalisten auszuspionieren.",
+            "Präsident Obama trat mit dem Versprechen an, Whistleblower zu schützen, und stattdessen hat sein Justizministerium mehr verfolgt als alle anderen Verwaltungen zusammen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015",
+            "Jeffrey Sterling": "Jeffrey Sterling",
+            "President Obama": "Präsident Obama",
+            "Justice Department": "Justizministerium",
+            "9/11": "11. September"
+        }
+    },
+    {
+        "idx": 26,
+        "src": "So we risk seeing the press unable to do their job  that the First Amendment is supposed to protect  because of the government's expanded ability to spy on everyone.",
+        "ref": "Wir setzen also die Pressearbeit aufs Spiel, die durch den ersten Verfassungszusatz geschützt werden soll, weil die Regierung immer mehr Möglichkeiten hat, alle auszuspionieren.",
+        "hyp": "So riskieren wir, dass die Presse nicht in der Lage ist, ihre Arbeit zu tun, die der Erste Verfassungszusatz schützen soll, aufgrund der erweiterten Fähigkeit der Regierung, jeden auszuspionieren.",
+        "rel_src": [
+            "You see, under the First Amendment,  the press has the right to publish secret information in the public interest.",
+            "Now, you can see how this could be a problem,  especially because the government considers so much of what it does secret."
+        ],
+        "rel_tgt": [
+            "Sie sehen, gemäß dem Ersten Verfassungszusatz hat die Presse das Recht, geheime Informationen im öffentlichen Interesse zu veröffentlichen.",
+            "Jetzt können Sie sehen, wie dies ein Problem sein könnte, insbesondere weil die Regierung so vieles von dem, was sie tut, als geheim betrachtet."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015",
+            "Jeffrey Sterling": "Jeffrey Sterling",
+            "President Obama": "Präsident Obama",
+            "Justice Department": "Justizministerium",
+            "9/11": "11. September",
+            "First Amendment": "Erste Verfassungszusatz"
+        }
+    },
+    {
+        "idx": 27,
+        "src": "But just as technology has allowed the government  to circumvent reporters' rights,  the press can also use technology  to protect their sources even better than before.",
+        "ref": "Aber genauso wie Technologie der Regierung erlaubt, die Rechte von Reportern zu umgehen, kann die Presse auch Technologien nutzen, um ihre Quellen besser zu schützen.",
+        "hyp": "Aber ebenso wie die Technologie der Regierung ermöglicht hat, die Rechte der Reporter zu umgehen, kann die Presse auch Technologie nutzen, um ihre Quellen sogar besser zu schützen als zuvor.",
+        "rel_src": [
+            "But it's impossible to exercise that right if the media can't also gather that news  and protect the identities of the brave men and women  who get it to them.",
+            "So we risk seeing the press unable to do their job  that the First Amendment is supposed to protect  because of the government's expanded ability to spy on everyone."
+        ],
+        "rel_tgt": [
+            "Aber es ist unmöglich, dieses Recht auszuüben, wenn die Medien nicht auch diese Nachrichten sammeln und die Identitäten der mutigen Männer und Frauen schützen können, die sie ihnen überbringen.",
+            "So riskieren wir, dass die Presse nicht in der Lage ist, ihre Arbeit zu tun, die der Erste Verfassungszusatz schützen soll, aufgrund der erweiterten Fähigkeit der Regierung, jeden auszuspionieren."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015",
+            "Jeffrey Sterling": "Jeffrey Sterling",
+            "President Obama": "Präsident Obama",
+            "Justice Department": "Justizministerium",
+            "9/11": "11. September",
+            "First Amendment": "Erste Verfassungszusatz"
+        }
+    },
+    {
+        "idx": 28,
+        "src": "And they can start from the moment they begin speaking with them,  rather than on the witness stand after the fact.",
+        "ref": "Und zwar können sie das von dem Moment an, in dem sie Kontakt aufnehmen, anstatt im Nachhinein, im Zeugenstand.",
+        "hyp": "Und sie können damit beginnen, in dem Moment, in dem sie mit ihnen sprechen, anstatt auf der Zeugenbank nach der Tatsache.",
+        "rel_src": [
+            "You see, under the First Amendment,  the press has the right to publish secret information in the public interest.",
+            "But it's impossible to exercise that right if the media can't also gather that news  and protect the identities of the brave men and women  who get it to them."
+        ],
+        "rel_tgt": [
+            "Sie sehen, gemäß dem Ersten Verfassungszusatz hat die Presse das Recht, geheime Informationen im öffentlichen Interesse zu veröffentlichen.",
+            "Aber es ist unmöglich, dieses Recht auszuüben, wenn die Medien nicht auch diese Nachrichten sammeln und die Identitäten der mutigen Männer und Frauen schützen können, die sie ihnen überbringen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015",
+            "Jeffrey Sterling": "Jeffrey Sterling",
+            "President Obama": "Präsident Obama",
+            "Justice Department": "Justizministerium",
+            "9/11": "11. September",
+            "First Amendment": "Erste Verfassungszusatz"
+        }
+    },
+    {
+        "idx": 29,
+        "src": "Communications software now exists  that wasn't available when Risen was writing his book,  and is much more surveillance-resistant than regular emails or phone calls.",
+        "ref": "Heute gibt es Kommunikationssoftware, die es noch nicht gab, als Risen sein Buch geschrieben hatte, und es ist wesentlich sicherer als normale E-Mails oder Telefonanrufe.",
+        "hyp": "Kommunikationssoftware existiert jetzt, die nicht verfügbar war, als Risen sein Buch schrieb, und die viel widerstandsfähiger gegen Überwachung ist als normale E-Mails oder Telefonate.",
+        "rel_src": [
+            "But just as technology has allowed the government  to circumvent reporters' rights,  the press can also use technology  to protect their sources even better than before.",
+            "And they can start from the moment they begin speaking with them,  rather than on the witness stand after the fact."
+        ],
+        "rel_tgt": [
+            "Aber ebenso wie die Technologie der Regierung ermöglicht hat, die Rechte der Reporter zu umgehen, kann die Presse auch Technologie nutzen, um ihre Quellen sogar besser zu schützen als zuvor.",
+            "Und sie können damit beginnen, in dem Moment, in dem sie mit ihnen sprechen, anstatt auf der Zeugenbank nach der Tatsache."
+        ],
+        "hist_info": "\"Risen\" - \"Risen\"",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015",
+            "Jeffrey Sterling": "Jeffrey Sterling",
+            "President Obama": "Präsident Obama",
+            "Justice Department": "Justizministerium",
+            "9/11": "11. September",
+            "First Amendment": "Erste Verfassungszusatz"
+        }
+    },
+    {
+        "idx": 30,
+        "src": "For example, one such tool is SecureDrop,  an open-source whistleblower submission system  that was originally created by the late Internet luminary Aaron Swartz,  and is now developed at the non-profit where I work,  Freedom of the Press Foundation.",
+        "ref": "Eine solche Technologie ist SecureDrop, ein Open-Source-Übermittlungssystem für Whistleblower, das ursprünglich von der Internetberühmheit, dem von uns gegangenen Aaron Swartz, entwickelt wurde, und ist heute von der Freedom of the Press Foundation, bei der ich arbeite, weiterentwickelt worden.",
+        "hyp": "Zum Beispiel ist eines dieser Werkzeuge SecureDrop, ein Open-Source-System zur Einreichung von Hinweisen, das ursprünglich von dem verstorbenen Internet-Pionier Aaron Swartz entwickelt wurde und jetzt bei der gemeinnützigen Organisation, bei der ich arbeite, der Freedom of the Press Foundation, weiterentwickelt wird.",
+        "rel_src": [
+            "But just as technology has allowed the government  to circumvent reporters' rights,  the press can also use technology  to protect their sources even better than before.",
+            "Communications software now exists  that wasn't available when Risen was writing his book,  and is much more surveillance-resistant than regular emails or phone calls."
+        ],
+        "rel_tgt": [
+            "Aber ebenso wie die Technologie der Regierung ermöglicht hat, die Rechte der Reporter zu umgehen, kann die Presse auch Technologie nutzen, um ihre Quellen sogar besser zu schützen als zuvor.",
+            "Kommunikationssoftware existiert jetzt, die nicht verfügbar war, als Risen sein Buch schrieb, und die viel widerstandsfähiger gegen Überwachung ist als normale E-Mails oder Telefonate."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015",
+            "Jeffrey Sterling": "Jeffrey Sterling",
+            "President Obama": "Präsident Obama",
+            "Justice Department": "Justizministerium",
+            "9/11": "11. September",
+            "First Amendment": "Erste Verfassungszusatz",
+            "SecureDrop": "SecureDrop",
+            "Aaron Swartz": "Aaron Swartz",
+            "Freedom of the Press Foundation": "Freedom of the Press Foundation"
+        }
+    },
+    {
+        "idx": 31,
+        "src": "Instead of sending an email,  you go to a news organization's website,  like this one here on The Washington Post.",
+        "ref": "Anstatt eine E-Mail zu verschicken, gehen Sie auf eine Nachrichten-Website, so wie die hier der Washington Post.",
+        "hyp": "Anstatt eine E-Mail zu senden, gehen Sie auf die Website einer Nachrichtenorganisation, wie diese hier bei der Washington Post.",
+        "rel_src": [
+            "But just as technology has allowed the government  to circumvent reporters' rights,  the press can also use technology  to protect their sources even better than before.",
+            "For example, one such tool is SecureDrop,  an open-source whistleblower submission system  that was originally created by the late Internet luminary Aaron Swartz,  and is now developed at the non-profit where I work,  Freedom of the Press Foundation."
+        ],
+        "rel_tgt": [
+            "Aber ebenso wie die Technologie der Regierung ermöglicht hat, die Rechte der Reporter zu umgehen, kann die Presse auch Technologie nutzen, um ihre Quellen sogar besser zu schützen als zuvor.",
+            "Zum Beispiel ist eines dieser Werkzeuge SecureDrop, ein Open-Source-System zur Einreichung von Hinweisen, das ursprünglich von dem verstorbenen Internet-Pionier Aaron Swartz entwickelt wurde und jetzt bei der gemeinnützigen Organisation, bei der ich arbeite, der Freedom of the Press Foundation, weiterentwickelt wird."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015",
+            "Jeffrey Sterling": "Jeffrey Sterling",
+            "President Obama": "Präsident Obama",
+            "Justice Department": "Justizministerium",
+            "9/11": "11. September",
+            "First Amendment": "Erste Verfassungszusatz",
+            "SecureDrop": "SecureDrop",
+            "Aaron Swartz": "Aaron Swartz",
+            "Freedom of the Press Foundation": "Freedom of the Press Foundation",
+            "The Washington Post": "Washington Post"
+        }
+    },
+    {
+        "idx": 32,
+        "src": "From there, you can upload a document or send information  much like you would on any other contact form.",
+        "ref": "Dort können Sie Dokumente hochladen oder Informationen verschicken, so wie bei jedem gewöhnlichen Kontaktformular.",
+        "hyp": "Von dort aus können Sie ein Dokument hochladen oder Informationen senden, ganz ähnlich wie bei jedem anderen Kontaktformular.",
+        "rel_src": [
+            "For example, one such tool is SecureDrop,  an open-source whistleblower submission system  that was originally created by the late Internet luminary Aaron Swartz,  and is now developed at the non-profit where I work,  Freedom of the Press Foundation.",
+            "Instead of sending an email,  you go to a news organization's website,  like this one here on The Washington Post."
+        ],
+        "rel_tgt": [
+            "Zum Beispiel ist eines dieser Werkzeuge SecureDrop, ein Open-Source-System zur Einreichung von Hinweisen, das ursprünglich von dem verstorbenen Internet-Pionier Aaron Swartz entwickelt wurde und jetzt bei der gemeinnützigen Organisation, bei der ich arbeite, der Freedom of the Press Foundation, weiterentwickelt wird.",
+            "Anstatt eine E-Mail zu senden, gehen Sie auf die Website einer Nachrichtenorganisation, wie diese hier bei der Washington Post."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015",
+            "Jeffrey Sterling": "Jeffrey Sterling",
+            "President Obama": "Präsident Obama",
+            "Justice Department": "Justizministerium",
+            "9/11": "11. September",
+            "First Amendment": "Erste Verfassungszusatz",
+            "SecureDrop": "SecureDrop",
+            "Aaron Swartz": "Aaron Swartz",
+            "Freedom of the Press Foundation": "Freedom of the Press Foundation",
+            "The Washington Post": "Washington Post"
+        }
+    },
+    {
+        "idx": 33,
+        "src": "It'll then be encrypted and stored on a server  that only the news organization has access to.",
+        "ref": "Diese werden dann verschlüsselt und auf einem Server gespeichert, zu dem nur die jeweilige Nachrichtenagentur Zugang hat.",
+        "hyp": "Es wird dann verschlüsselt und auf einem Server gespeichert, auf den nur die Nachrichtenorganisation Zugriff hat.",
+        "rel_src": [
+            "For example, one such tool is SecureDrop,  an open-source whistleblower submission system  that was originally created by the late Internet luminary Aaron Swartz,  and is now developed at the non-profit where I work,  Freedom of the Press Foundation.",
+            "Instead of sending an email,  you go to a news organization's website,  like this one here on The Washington Post."
+        ],
+        "rel_tgt": [
+            "Zum Beispiel ist eines dieser Werkzeuge SecureDrop, ein Open-Source-System zur Einreichung von Hinweisen, das ursprünglich von dem verstorbenen Internet-Pionier Aaron Swartz entwickelt wurde und jetzt bei der gemeinnützigen Organisation, bei der ich arbeite, der Freedom of the Press Foundation, weiterentwickelt wird.",
+            "Anstatt eine E-Mail zu senden, gehen Sie auf die Website einer Nachrichtenorganisation, wie diese hier bei der Washington Post."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015",
+            "Jeffrey Sterling": "Jeffrey Sterling",
+            "President Obama": "Präsident Obama",
+            "Justice Department": "Justizministerium",
+            "9/11": "11. September",
+            "First Amendment": "Erste Verfassungszusatz",
+            "SecureDrop": "SecureDrop",
+            "Aaron Swartz": "Aaron Swartz",
+            "Freedom of the Press Foundation": "Freedom of the Press Foundation",
+            "The Washington Post": "Washington Post"
+        }
+    },
+    {
+        "idx": 34,
+        "src": "So the government can no longer secretly demand the information,  and much of the information they would demand  wouldn't be available in the first place.",
+        "ref": "Also kann die Regierung nicht mehr Informationen heimlich beschaffen, und viele der Informationen, die sie anfordern würde, wäre von vornherein nicht verfügbar.",
+        "hyp": "So kann die Regierung nicht mehr heimlich die Informationen verlangen, und viele der Informationen, die sie verlangen würde, wären ohnehin nicht verfügbar.",
+        "rel_src": [
+            "It turns out, in the age of electronic surveillance,  there are very few places reporters and sources can hide.",
+            "But just as technology has allowed the government  to circumvent reporters' rights,  the press can also use technology  to protect their sources even better than before."
+        ],
+        "rel_tgt": [
+            "Es stellt sich heraus, dass es im Zeitalter der elektronischen Überwachung nur sehr wenige Orte gibt, an denen Reporter und Quellen sich verstecken können.",
+            "Aber ebenso wie die Technologie der Regierung ermöglicht hat, die Rechte der Reporter zu umgehen, kann die Presse auch Technologie nutzen, um ihre Quellen sogar besser zu schützen als zuvor."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015",
+            "Jeffrey Sterling": "Jeffrey Sterling",
+            "President Obama": "Präsident Obama",
+            "Justice Department": "Justizministerium",
+            "9/11": "11. September",
+            "First Amendment": "Erste Verfassungszusatz",
+            "SecureDrop": "SecureDrop",
+            "Aaron Swartz": "Aaron Swartz",
+            "Freedom of the Press Foundation": "Freedom of the Press Foundation",
+            "The Washington Post": "Washington Post"
+        }
+    },
+    {
+        "idx": 35,
+        "src": "SecureDrop, though, is really only a small part of the puzzle  for protecting press freedom in the 21st century.",
+        "ref": "SecureDrop ist aber nur ein kleiner Teil des Ganzen, um die Pressefreiheit im 21. Jahrhundert zu schützen.",
+        "hyp": "SecureDrop ist jedoch nur ein kleiner Teil des Puzzles zum Schutz der Pressefreiheit im 21. Jahrhundert.",
+        "rel_src": [
+            "Communications software now exists  that wasn't available when Risen was writing his book,  and is much more surveillance-resistant than regular emails or phone calls.",
+            "For example, one such tool is SecureDrop,  an open-source whistleblower submission system  that was originally created by the late Internet luminary Aaron Swartz,  and is now developed at the non-profit where I work,  Freedom of the Press Foundation."
+        ],
+        "rel_tgt": [
+            "Kommunikationssoftware existiert jetzt, die nicht verfügbar war, als Risen sein Buch schrieb, und die viel widerstandsfähiger gegen Überwachung ist als normale E-Mails oder Telefonate.",
+            "Zum Beispiel ist eines dieser Werkzeuge SecureDrop, ein Open-Source-System zur Einreichung von Hinweisen, das ursprünglich von dem verstorbenen Internet-Pionier Aaron Swartz entwickelt wurde und jetzt bei der gemeinnützigen Organisation, bei der ich arbeite, der Freedom of the Press Foundation, weiterentwickelt wird."
+        ],
+        "hist_info": "\"SecureDrop\" - \"SecureDrop\"",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015",
+            "Jeffrey Sterling": "Jeffrey Sterling",
+            "President Obama": "Präsident Obama",
+            "Justice Department": "Justizministerium",
+            "9/11": "11. September",
+            "First Amendment": "Erste Verfassungszusatz",
+            "SecureDrop": "SecureDrop",
+            "Aaron Swartz": "Aaron Swartz",
+            "Freedom of the Press Foundation": "Freedom of the Press Foundation",
+            "The Washington Post": "Washington Post",
+            "21st century": "21. Jahrhundert"
+        }
+    },
+    {
+        "idx": 36,
+        "src": "Unfortunately, governments all over the world  are constantly developing new spying techniques  that put us all at risk.",
+        "ref": "Leider entwickeln Regierungen auf der ganzen Welt immer neue Spionagetechnologien, die uns alle gefährden.",
+        "hyp": "Leider entwickeln Regierungen auf der ganzen Welt ständig neue Spionagetechniken, die uns alle in Gefahr bringen.",
+        "rel_src": [
+            "So we risk seeing the press unable to do their job  that the First Amendment is supposed to protect  because of the government's expanded ability to spy on everyone.",
+            "So the government can no longer secretly demand the information,  and much of the information they would demand  wouldn't be available in the first place."
+        ],
+        "rel_tgt": [
+            "So riskieren wir, dass die Presse nicht in der Lage ist, ihre Arbeit zu tun, die der Erste Verfassungszusatz schützen soll, aufgrund der erweiterten Fähigkeit der Regierung, jeden auszuspionieren.",
+            "So kann die Regierung nicht mehr heimlich die Informationen verlangen, und viele der Informationen, die sie verlangen würde, wären ohnehin nicht verfügbar."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015",
+            "Jeffrey Sterling": "Jeffrey Sterling",
+            "President Obama": "Präsident Obama",
+            "Justice Department": "Justizministerium",
+            "9/11": "11. September",
+            "First Amendment": "Erste Verfassungszusatz",
+            "SecureDrop": "SecureDrop",
+            "Aaron Swartz": "Aaron Swartz",
+            "Freedom of the Press Foundation": "Freedom of the Press Foundation",
+            "The Washington Post": "Washington Post",
+            "21st century": "21. Jahrhundert"
+        }
+    },
+    {
+        "idx": 37,
+        "src": "And it's up to us going forward to make sure  that it's not just the tech-savvy whistleblowers,  like Edward Snowden, who have an avenue for exposing wrongdoing.",
+        "ref": "Es ist an uns sicherzustellen, dass nicht nur Technologiekenner wie Edward Snowden einen Möglichkeit haben, Missetaten zutage bringen. Es ist genauso wichtig, dass wir den nächsten Whistleblower schützen,",
+        "hyp": "Und es liegt an uns, dafür zu sorgen, dass es nicht nur die technikaffinen Whistleblower wie Edward Snowden sind, die einen Weg haben, Fehlverhalten aufzudecken.",
+        "rel_src": [
+            "But just as technology has allowed the government  to circumvent reporters' rights,  the press can also use technology  to protect their sources even better than before.",
+            "For example, one such tool is SecureDrop,  an open-source whistleblower submission system  that was originally created by the late Internet luminary Aaron Swartz,  and is now developed at the non-profit where I work,  Freedom of the Press Foundation."
+        ],
+        "rel_tgt": [
+            "Aber ebenso wie die Technologie der Regierung ermöglicht hat, die Rechte der Reporter zu umgehen, kann die Presse auch Technologie nutzen, um ihre Quellen sogar besser zu schützen als zuvor.",
+            "Zum Beispiel ist eines dieser Werkzeuge SecureDrop, ein Open-Source-System zur Einreichung von Hinweisen, das ursprünglich von dem verstorbenen Internet-Pionier Aaron Swartz entwickelt wurde und jetzt bei der gemeinnützigen Organisation, bei der ich arbeite, der Freedom of the Press Foundation, weiterentwickelt wird."
+        ],
+        "hist_info": "\"Edward Snowden\" - \"Edward Snowden\"",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015",
+            "Jeffrey Sterling": "Jeffrey Sterling",
+            "President Obama": "Präsident Obama",
+            "Justice Department": "Justizministerium",
+            "9/11": "11. September",
+            "First Amendment": "Erste Verfassungszusatz",
+            "SecureDrop": "SecureDrop",
+            "Aaron Swartz": "Aaron Swartz",
+            "Freedom of the Press Foundation": "Freedom of the Press Foundation",
+            "The Washington Post": "Washington Post",
+            "21st century": "21. Jahrhundert"
+        }
+    },
+    {
+        "idx": 38,
+        "src": "It's just as vital that we protect the next veteran's health care whistleblower  alerting us to overcrowded hospitals,  or the next environmental worker  sounding the alarm about Flint's dirty water,  or a Wall Street insider  warning us of the next financial crisis.",
+        "ref": "der über Missstände bei der Versorgung von Soldaten bescheid weiß und von überfüllten Krankenhäusern berichten will. Oder den nächsten Umweltmitarbeiter, der Alarm zum verseuchten Wasser von Flint schlägt. Oder einen Wallstreet-Insider, der uns vor der nächsten Finanzkrise warnt.",
+        "hyp": "Es ist ebenso wichtig, dass wir den nächsten Whistleblower im Gesundheitswesen, der uns auf überfüllte Krankenhäuser aufmerksam macht, oder den nächsten Umweltschützer, der Alarm über das verschmutzte Wasser in Flint schlägt, oder einen Insider von Wall Street, der uns vor der nächsten Finanzkrise warnt, schützen.",
+        "rel_src": [
+            "Since 9/11, virtually every important story about national security  has been the result of a whistleblower coming to a journalist.",
+            "Unfortunately, governments all over the world  are constantly developing new spying techniques  that put us all at risk."
+        ],
+        "rel_tgt": [
+            "Seit dem 11. September ist praktisch jede wichtige Geschichte über nationale Sicherheit das Ergebnis eines Whistleblowers, der sich an einen Journalisten gewandt hat.",
+            "Leider entwickeln Regierungen auf der ganzen Welt ständig neue Spionagetechniken, die uns alle in Gefahr bringen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015",
+            "Jeffrey Sterling": "Jeffrey Sterling",
+            "President Obama": "Präsident Obama",
+            "Justice Department": "Justizministerium",
+            "9/11": "11. September",
+            "First Amendment": "Erste Verfassungszusatz",
+            "SecureDrop": "SecureDrop",
+            "Aaron Swartz": "Aaron Swartz",
+            "Freedom of the Press Foundation": "Freedom of the Press Foundation",
+            "The Washington Post": "Washington Post",
+            "21st century": "21. Jahrhundert",
+            "Flint": "Flint",
+            "Wall Street": "Wall Street"
+        }
+    },
+    {
+        "idx": 39,
+        "src": "After all, these tools weren't just built to help the brave men and women  who expose crimes,  but are meant to protect all of our rights under the Constitution.",
+        "ref": "Immerhin wurden diese Technologien nicht nur für diejenigen gemacht, die Verbrechen aufdecken wollen, sondern um unser aller Verfassungsrechte zu schützen.",
+        "hyp": "Immerhin wurden diese Werkzeuge nicht nur entwickelt, um den mutigen Männern und Frauen, die Verbrechen aufdecken, zu helfen, sondern sie sollen auch alle unsere Rechte gemäß der Verfassung schützen.",
+        "new_src_summary": "The merged summary discusses the challenges faced by Pulitzer Prize-winning journalist James Risen, known for his investigative work with The New York Times, particularly in exposing illegal NSA wiretapping before Edward Snowden's revelations. A significant chapter in Risen's book details a disastrous CIA operation involving the transfer of nuclear bomb blueprints to Iran, which angered the U.S. government. Following the book's publication, Risen endured nearly a decade of government investigation and pressure to reveal his sources, underscoring the conflict between First Amendment rights and government attempts to suppress journalistic freedoms. His refusal to testify, even at the risk of imprisonment, exemplifies the difficulties reporters face in protecting their sources. The government ultimately dropped its demands just before Risen's trial, indicating that modern electronic surveillance could potentially expose journalists more effectively than direct testimony. Additionally, the summary critiques President Obama's administration for prosecuting more whistleblowers than any previous administration, despite his campaign promise to protect them, highlighting the essential role of whistleblowers in national security journalism. It emphasizes the risks posed by government surveillance to press freedom and introduces technologies like SecureDrop as vital tools for journalists to safeguard their sources and communicate securely with whistleblowers. The tone is serious and critical, reflecting on issues of press freedom, government overreach, and the importance of protecting whistleblower rights, while advocating for ongoing efforts to ensure that all whistleblowers have the means to expose wrongdoing.",
+        "new_tgt_summary": "James Risen, Pulitzer-Preisträger der New York Times, deckte in einem Buch auf, dass die NSA illegal Telefongespräche von Amerikanern abhörte und beschrieb eine katastrophale CIA-Operation, bei der Atompläne an den Iran übergeben wurden. Diese Enthüllungen führten zu fast einem Jahrzehnt an Ermittlungen gegen Risen durch die US-Regierung, die von ihm verlangte, gegen eine Quelle auszusagen. Risen weigerte sich und riskierte eine Gefängnisstrafe, wodurch er zum Symbol für die Verfolgung von Whistleblowern und Journalisten wurde. Währenddessen erlangten Staatsanwälte heimlich die Telefon- und E-Mail-Aufzeichnungen von Journalisten, um Jeffrey Sterling, einen CIA-Whistleblower, zu verurteilen. Trotz der Versprechen von Präsident Obama, Whistleblower zu schützen, hat sein Justizministerium mehr Whistleblower verfolgt als alle vorherigen Regierungen zusammen, was die Pressefreiheit gefährdet und die Geheimhaltung von Informationen durch die Regierung erleichtert. Whistleblower sind entscheidend für die Aufdeckung von Missständen, insbesondere im Bereich der nationalen Sicherheit. Um die Quellen besser zu schützen, können Journalisten Technologien wie SecureDrop nutzen, doch Regierungen entwickeln kontinuierlich neue Spionagetechniken, die die Sicherheit von Whistleblowern bedrohen. Es ist wichtig, alle Arten von Whistleblowern zu unterstützen, um Missstände in verschiedenen Bereichen aufzudecken.",
+        "rel_src": [
+            "But just as technology has allowed the government  to circumvent reporters' rights,  the press can also use technology  to protect their sources even better than before.",
+            "It's just as vital that we protect the next veteran's health care whistleblower  alerting us to overcrowded hospitals,  or the next environmental worker  sounding the alarm about Flint's dirty water,  or a Wall Street insider  warning us of the next financial crisis."
+        ],
+        "rel_tgt": [
+            "Aber ebenso wie die Technologie der Regierung ermöglicht hat, die Rechte der Reporter zu umgehen, kann die Presse auch Technologie nutzen, um ihre Quellen sogar besser zu schützen als zuvor.",
+            "Es ist ebenso wichtig, dass wir den nächsten Whistleblower im Gesundheitswesen, der uns auf überfüllte Krankenhäuser aufmerksam macht, oder den nächsten Umweltschützer, der Alarm über das verschmutzte Wasser in Flint schlägt, oder einen Insider von Wall Street, der uns vor der nächsten Finanzkrise warnt, schützen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015",
+            "Jeffrey Sterling": "Jeffrey Sterling",
+            "President Obama": "Präsident Obama",
+            "Justice Department": "Justizministerium",
+            "9/11": "11. September",
+            "First Amendment": "Erste Verfassungszusatz",
+            "SecureDrop": "SecureDrop",
+            "Aaron Swartz": "Aaron Swartz",
+            "Freedom of the Press Foundation": "Freedom of the Press Foundation",
+            "The Washington Post": "Washington Post",
+            "21st century": "21. Jahrhundert",
+            "Flint": "Flint",
+            "Wall Street": "Wall Street",
+            "<Proper nouns> Constitution": "Verfassung"
+        }
+    },
+    {
+        "idx": 40,
+        "src": "Thank you.",
+        "ref": "Danke.",
+        "hyp": "Danke.",
+        "rel_src": [
+            "President Obama ran on a promise to protect whistleblowers,  and instead, his Justice Department has prosecuted more  than all other administrations combined.",
+            "It's just as vital that we protect the next veteran's health care whistleblower  alerting us to overcrowded hospitals,  or the next environmental worker  sounding the alarm about Flint's dirty water,  or a Wall Street insider  warning us of the next financial crisis."
+        ],
+        "rel_tgt": [
+            "Präsident Obama trat mit dem Versprechen an, Whistleblower zu schützen, und stattdessen hat sein Justizministerium mehr verfolgt als alle anderen Verwaltungen zusammen.",
+            "Es ist ebenso wichtig, dass wir den nächsten Whistleblower im Gesundheitswesen, der uns auf überfüllte Krankenhäuser aufmerksam macht, oder den nächsten Umweltschützer, der Alarm über das verschmutzte Wasser in Flint schlägt, oder einen Insider von Wall Street, der uns vor der nächsten Finanzkrise warnt, schützen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "James Risen": "James Risen",
+            "The New York Times": "die New York Times",
+            "Pulitzer Prize": "Pulitzer-Preisträger",
+            "Edward Snowden": "Edward Snowden",
+            "Risen": "Risen",
+            "NSA": "NSA",
+            "Americans": "Amerikanern",
+            "US": "US",
+            "CIA": "CIA",
+            "Iran": "Iran",
+            "US government": "US-Regierung",
+            "<Proper nouns> First Amendment": "Ersten Verfassungszusatz",
+            "2007": "2007",
+            "2015": "2015",
+            "Jeffrey Sterling": "Jeffrey Sterling",
+            "President Obama": "Präsident Obama",
+            "Justice Department": "Justizministerium",
+            "9/11": "11. September",
+            "First Amendment": "Erste Verfassungszusatz",
+            "SecureDrop": "SecureDrop",
+            "Aaron Swartz": "Aaron Swartz",
+            "Freedom of the Press Foundation": "Freedom of the Press Foundation",
+            "The Washington Post": "Washington Post",
+            "21st century": "21. Jahrhundert",
+            "Flint": "Flint",
+            "Wall Street": "Wall Street",
+            "<Proper nouns> Constitution": "Verfassung"
+        }
+    }
+]

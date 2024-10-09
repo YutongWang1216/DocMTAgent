@@ -1,0 +1,2852 @@
+[
+    {
+        "idx": 0,
+        "src": "Today's computers are so amazing  that we fail to notice how terrible they really are.",
+        "ref": "现今的电脑是如此的神奇， 我们甚至忽略了 它们实际上有多么糟糕。",
+        "hyp": "今天的计算机如此惊人，以至于我们没有注意到它们实际上有多糟糕。",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 1,
+        "src": "I'd like to talk to you today about this problem,  and how we can fix it with neuroscience.",
+        "ref": "今天我要和你们讨论一下这个问题， 以及我们如何用神经科学来解决它。",
+        "hyp": "我想今天和你谈谈这个问题，以及我们如何利用神经科学来解决它。",
+        "rel_src": [
+            "Today's computers are so amazing  that we fail to notice how terrible they really are."
+        ],
+        "rel_tgt": [
+            "今天的计算机如此惊人，以至于我们没有注意到它们实际上有多糟糕。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 2,
+        "src": "First, I'd like to take you back to a frosty night in Harlem in 2011  that had a profound impact on me.",
+        "ref": "首先，我要将你们带回2011年哈莱姆的 一个寒冷的夜晚， 那个夜晚对我有着深远的意义。",
+        "hyp": "首先，我想带你回到2011年哈莱姆一个寒冷的夜晚，这个夜晚对我产生了深远的影响。",
+        "rel_src": [
+            "Today's computers are so amazing  that we fail to notice how terrible they really are.",
+            "I'd like to talk to you today about this problem,  and how we can fix it with neuroscience."
+        ],
+        "rel_tgt": [
+            "今天的计算机如此惊人，以至于我们没有注意到它们实际上有多糟糕。",
+            "我想今天和你谈谈这个问题，以及我们如何利用神经科学来解决它。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆"
+        }
+    },
+    {
+        "idx": 3,
+        "src": "I was sitting in a dive bar outside of Columbia University,  where I studied computer science and neuroscience,  and I was having this great conversation with a fellow student  about the power of holograms to one day replace computers.",
+        "ref": "我坐在哥伦比亚大学旁边的一个酒吧里， 在那里我主修计算机和神经科学， 我正和一个同学进行一段很有趣的对话， 关于全息摄影的力量， 会在某一天取代电脑。",
+        "hyp": "我当时坐在哥伦比亚大学外的一家小酒吧里，我在那里学习计算机科学和神经科学，我正在和一位同学进行一场很棒的对话，谈论全息图像有朝一日能够取代计算机的力量。",
+        "rel_src": [
+            "Today's computers are so amazing  that we fail to notice how terrible they really are.",
+            "I'd like to talk to you today about this problem,  and how we can fix it with neuroscience."
+        ],
+        "rel_tgt": [
+            "今天的计算机如此惊人，以至于我们没有注意到它们实际上有多糟糕。",
+            "我想今天和你谈谈这个问题，以及我们如何利用神经科学来解决它。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学"
+        }
+    },
+    {
+        "idx": 4,
+        "src": "And just as we were getting to the best part of the conversation,  of course, his phone lights up.",
+        "ref": "就在我们的对话达到精彩之处时， 不出所料，他的电话响了。",
+        "hyp": "就在我们谈话的最精彩部分时，当然，他的手机响了起来。",
+        "rel_src": [
+            "I'd like to talk to you today about this problem,  and how we can fix it with neuroscience.",
+            "I was sitting in a dive bar outside of Columbia University,  where I studied computer science and neuroscience,  and I was having this great conversation with a fellow student  about the power of holograms to one day replace computers."
+        ],
+        "rel_tgt": [
+            "我想今天和你谈谈这个问题，以及我们如何利用神经科学来解决它。",
+            "我当时坐在哥伦比亚大学外的一家小酒吧里，我在那里学习计算机科学和神经科学，我正在和一位同学进行一场很棒的对话，谈论全息图像有朝一日能够取代计算机的力量。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学"
+        }
+    },
+    {
+        "idx": 5,
+        "src": "And he pulls it towards himself, and he looks down and he starts typing.",
+        "ref": "他拿起手机，低头开始打字。",
+        "hyp": "然后他把手机拉到自己面前，低头开始输入。",
+        "rel_src": [
+            "I was sitting in a dive bar outside of Columbia University,  where I studied computer science and neuroscience,  and I was having this great conversation with a fellow student  about the power of holograms to one day replace computers.",
+            "And just as we were getting to the best part of the conversation,  of course, his phone lights up."
+        ],
+        "rel_tgt": [
+            "我当时坐在哥伦比亚大学外的一家小酒吧里，我在那里学习计算机科学和神经科学，我正在和一位同学进行一场很棒的对话，谈论全息图像有朝一日能够取代计算机的力量。",
+            "就在我们谈话的最精彩部分时，当然，他的手机响了起来。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学"
+        }
+    },
+    {
+        "idx": 6,
+        "src": "And then he forces his eyeballs back up to mine and he goes,  \"Keep going. I'm with you.\"",
+        "ref": "然后他时不时抬头瞄着我说， “继续说啊，我听着呢。”",
+        "hyp": "然后他强迫自己的眼球回到我的眼睛，说道：“继续说，我在听着。”",
+        "rel_src": [
+            "I was sitting in a dive bar outside of Columbia University,  where I studied computer science and neuroscience,  and I was having this great conversation with a fellow student  about the power of holograms to one day replace computers.",
+            "And he pulls it towards himself, and he looks down and he starts typing."
+        ],
+        "rel_tgt": [
+            "我当时坐在哥伦比亚大学外的一家小酒吧里，我在那里学习计算机科学和神经科学，我正在和一位同学进行一场很棒的对话，谈论全息图像有朝一日能够取代计算机的力量。",
+            "然后他把手机拉到自己面前，低头开始输入。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学"
+        }
+    },
+    {
+        "idx": 7,
+        "src": "But of course his eyes were glazed over,  and the moment was dead.",
+        "ref": "但是很明显他的眼神并没有集中， 一个绝妙的时刻就这么转瞬即逝了。",
+        "hyp": "但当然，他的眼睛呆滞了，这一刻已经过去了。",
+        "rel_src": [
+            "And just as we were getting to the best part of the conversation,  of course, his phone lights up.",
+            "And he pulls it towards himself, and he looks down and he starts typing."
+        ],
+        "rel_tgt": [
+            "就在我们谈话的最精彩部分时，当然，他的手机响了起来。",
+            "然后他把手机拉到自己面前，低头开始输入。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学"
+        }
+    },
+    {
+        "idx": 8,
+        "src": "Meanwhile across the bar,  I noticed another student holding his phone,  this time towards a group.",
+        "ref": "同时，在吧台的对面， 我注意到另一个学生 正在拿着他的手机， 这次屏幕前围着一群人。",
+        "hyp": "与此同时，在酒吧的另一边，我注意到另一个学生拿着手机，这次是对着一群人。",
+        "rel_src": [
+            "And just as we were getting to the best part of the conversation,  of course, his phone lights up.",
+            "And he pulls it towards himself, and he looks down and he starts typing."
+        ],
+        "rel_tgt": [
+            "就在我们谈话的最精彩部分时，当然，他的手机响了起来。",
+            "然后他把手机拉到自己面前，低头开始输入。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学"
+        }
+    },
+    {
+        "idx": 9,
+        "src": "He was swiping through pictures on Instagram,  and these kids were laughing hysterically.",
+        "ref": "他正在翻看着 Instagram上的照片， 这些孩子们正在放声大笑着。",
+        "hyp": "他正在浏览Instagram上的照片，而这些孩子们在歇斯底里地笑着。",
+        "rel_src": [
+            "And he pulls it towards himself, and he looks down and he starts typing.",
+            "Meanwhile across the bar,  I noticed another student holding his phone,  this time towards a group."
+        ],
+        "rel_tgt": [
+            "然后他把手机拉到自己面前，低头开始输入。",
+            "与此同时，在酒吧的另一边，我注意到另一个学生拿着手机，这次是对着一群人。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 10,
+        "src": "And that dichotomy between how crappy I was feeling  and how happy they were feeling about the same technology,  really got me thinking.",
+        "ref": "面对同样的技术，他们感到如此开心， 而我却觉得无比沮丧，这种强烈的对比 立刻引起了我的思考。",
+        "hyp": "而我感到糟糕的心情与他们对同样的技术感到快乐之间的对立，让我开始思考起来。",
+        "rel_src": [
+            "But of course his eyes were glazed over,  and the moment was dead.",
+            "Meanwhile across the bar,  I noticed another student holding his phone,  this time towards a group."
+        ],
+        "rel_tgt": [
+            "但当然，他的眼睛呆滞了，这一刻已经过去了。",
+            "与此同时，在酒吧的另一边，我注意到另一个学生拿着手机，这次是对着一群人。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 11,
+        "src": "And the more I thought of it, the more I realized  it was clearly not the digital information that was the bad guy here,  it was simply the display position that was separating me from my friend  and that was binding those kids together.",
+        "ref": "随着我更加深入地思考， 我越来越意识到 很明显这里的问题 不是电子信息， 而仅仅是展现信息的位置 把我和我的朋友隔开了， 却使这些孩子团聚在了一起。",
+        "hyp": "随着我越想越明白，我意识到问题显然不在于数字信息本身，而是在于分离我和朋友的显示位置，以及将那些孩子们联系在一起的方式。",
+        "rel_src": [
+            "But of course his eyes were glazed over,  and the moment was dead.",
+            "And that dichotomy between how crappy I was feeling  and how happy they were feeling about the same technology,  really got me thinking."
+        ],
+        "rel_tgt": [
+            "但当然，他的眼睛呆滞了，这一刻已经过去了。",
+            "而我感到糟糕的心情与他们对同样的技术感到快乐之间的对立，让我开始思考起来。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 12,
+        "src": "See, they were connected around something,  just like our ancestors who evolved their social cognitions  telling stories around the campfire.",
+        "ref": "很明显他们正被某种事联系在一起， 就像我们的祖先进化了他们的社会认知， 比如围绕着篝火讲故事。",
+        "hyp": "看，他们围绕着某件事物联系在一起，就像我们的祖先在篝火边讲故事时演化出社会认知一样。",
+        "rel_src": [
+            "And that dichotomy between how crappy I was feeling  and how happy they were feeling about the same technology,  really got me thinking.",
+            "And the more I thought of it, the more I realized  it was clearly not the digital information that was the bad guy here,  it was simply the display position that was separating me from my friend  and that was binding those kids together."
+        ],
+        "rel_tgt": [
+            "而我感到糟糕的心情与他们对同样的技术感到快乐之间的对立，让我开始思考起来。",
+            "随着我越想越明白，我意识到问题显然不在于数字信息本身，而是在于分离我和朋友的显示位置，以及将那些孩子们联系在一起的方式。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 13,
+        "src": "And that's exactly what tools should do, I think.",
+        "ref": "我认为，这正是工具应该做的。",
+        "hyp": "我认为这正是工具应该做的。",
+        "rel_src": [
+            "And the more I thought of it, the more I realized  it was clearly not the digital information that was the bad guy here,  it was simply the display position that was separating me from my friend  and that was binding those kids together.",
+            "See, they were connected around something,  just like our ancestors who evolved their social cognitions  telling stories around the campfire."
+        ],
+        "rel_tgt": [
+            "随着我越想越明白，我意识到问题显然不在于数字信息本身，而是在于分离我和朋友的显示位置，以及将那些孩子们联系在一起的方式。",
+            "看，他们围绕着某件事物联系在一起，就像我们的祖先在篝火边讲故事时演化出社会认知一样。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 14,
+        "src": "They should extend our bodies.",
+        "ref": "它们应该延伸我们的身体功能。",
+        "hyp": "它们应该延伸我们的身体。",
+        "rel_src": [
+            "And the more I thought of it, the more I realized  it was clearly not the digital information that was the bad guy here,  it was simply the display position that was separating me from my friend  and that was binding those kids together.",
+            "See, they were connected around something,  just like our ancestors who evolved their social cognitions  telling stories around the campfire."
+        ],
+        "rel_tgt": [
+            "随着我越想越明白，我意识到问题显然不在于数字信息本身，而是在于分离我和朋友的显示位置，以及将那些孩子们联系在一起的方式。",
+            "看，他们围绕着某件事物联系在一起，就像我们的祖先在篝火边讲故事时演化出社会认知一样。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 15,
+        "src": "And I think computers today are doing quite the opposite.",
+        "ref": "我认为在当今，电脑 正在做着截然相反的事情。",
+        "hyp": "我认为今天的计算机正是在做相反的事情。",
+        "rel_src": [
+            "Today's computers are so amazing  that we fail to notice how terrible they really are.",
+            "And that dichotomy between how crappy I was feeling  and how happy they were feeling about the same technology,  really got me thinking."
+        ],
+        "rel_tgt": [
+            "今天的计算机如此惊人，以至于我们没有注意到它们实际上有多糟糕。",
+            "而我感到糟糕的心情与他们对同样的技术感到快乐之间的对立，让我开始思考起来。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 16,
+        "src": "Whether you're sending an email to your wife  or you're composing a symphony  or just consoling a friend,  you're doing it in pretty much the same way.",
+        "ref": "无论你是发一封邮件给你的太太， 还是在给交响乐谱曲， 或者仅仅是安慰一个朋友， 你几乎都是在用同样的方式。",
+        "hyp": "无论是给妻子发电子邮件，还是创作交响乐，或者只是安慰朋友，你都是用基本相同的方式在做这些事情。",
+        "rel_src": [
+            "And the more I thought of it, the more I realized  it was clearly not the digital information that was the bad guy here,  it was simply the display position that was separating me from my friend  and that was binding those kids together.",
+            "See, they were connected around something,  just like our ancestors who evolved their social cognitions  telling stories around the campfire."
+        ],
+        "rel_tgt": [
+            "随着我越想越明白，我意识到问题显然不在于数字信息本身，而是在于分离我和朋友的显示位置，以及将那些孩子们联系在一起的方式。",
+            "看，他们围绕着某件事物联系在一起，就像我们的祖先在篝火边讲故事时演化出社会认知一样。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 17,
+        "src": "You're hunched over these rectangles,  fumbling with buttons and menus and more rectangles.",
+        "ref": "你弯腰对着这些方块， 玩弄着按钮和菜单， 更多的方块出现了。",
+        "hyp": "你驼背在这些矩形面前，摸索着按钮和菜单，还有更多的矩形。",
+        "rel_src": [
+            "And the more I thought of it, the more I realized  it was clearly not the digital information that was the bad guy here,  it was simply the display position that was separating me from my friend  and that was binding those kids together.",
+            "And I think computers today are doing quite the opposite."
+        ],
+        "rel_tgt": [
+            "随着我越想越明白，我意识到问题显然不在于数字信息本身，而是在于分离我和朋友的显示位置，以及将那些孩子们联系在一起的方式。",
+            "我认为今天的计算机正是在做相反的事情。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 18,
+        "src": "And I think this is the wrong way,  I think we can start using a much more natural machine.",
+        "ref": "我觉得这是一个错误的方式， 我觉得我们可以开始使用 一个更加自然的机器。",
+        "hyp": "我认为这是错误的方式，我认为我们可以开始使用更加自然的机器。",
+        "rel_src": [
+            "And I think computers today are doing quite the opposite.",
+            "You're hunched over these rectangles,  fumbling with buttons and menus and more rectangles."
+        ],
+        "rel_tgt": [
+            "我认为今天的计算机正是在做相反的事情。",
+            "你驼背在这些矩形面前，摸索着按钮和菜单，还有更多的矩形。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 19,
+        "src": "We should use machines that bring our work back into the world.",
+        "ref": "我们使用的机器应该能将 我们的工作带回到现实生活中。",
+        "hyp": "我们应该使用能将我们的工作带回现实世界的机器。",
+        "new_src_summary": "The paragraph discusses the author's observation of how modern computers are amazing but also terrible in their impact on human interaction. The author recalls a moment in a bar where a friend's phone interrupted a conversation and another group was engrossed in social media, highlighting the disconnect caused by technology. The author argues that technology should bring people together like storytelling around a campfire, but instead, computers isolate individuals. The author advocates for a more natural and human-centered approach to technology. The overall domain is technology and human interaction, the style is reflective and narrative, and the tone is critical and introspective.",
+        "new_tgt_summary": "这段文段讲述了作者在哈莱姆一个寒冷的夜晚对计算机和神经科学的思考。作者认为现代计算机虽然令人惊叹，但实际上存在一些问题，如数字信息的分离和技术的过度使用。作者认为计算机应该是延伸我们身体的工具，而不是让我们驼背在矩形面前操作。因此，作者呼吁开始使用更加自然的机器来解决这些问题。",
+        "rel_src": [
+            "And I think computers today are doing quite the opposite.",
+            "And I think this is the wrong way,  I think we can start using a much more natural machine."
+        ],
+        "rel_tgt": [
+            "我认为今天的计算机正是在做相反的事情。",
+            "我认为这是错误的方式，我认为我们可以开始使用更加自然的机器。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 20,
+        "src": "We should use machines that use the principles of neuroscience  to extend our senses versus going against them.",
+        "ref": "我们应该用那些能够 使用神经科学原理的机器， 去延伸我们的感官， 而不是起限制作用。",
+        "hyp": "我们应该使用运用神经科学原理的机器，来延伸我们的感官，而不是违背它们。",
+        "rel_src": [
+            "I'd like to talk to you today about this problem,  and how we can fix it with neuroscience.",
+            "And I think this is the wrong way,  I think we can start using a much more natural machine."
+        ],
+        "rel_tgt": [
+            "我想今天和你谈谈这个问题，以及我们如何利用神经科学来解决它。",
+            "我认为这是错误的方式，我认为我们可以开始使用更加自然的机器。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 21,
+        "src": "Now it just so happens that I have such a machine here.",
+        "ref": "现在我这里正好有一个这样的机器。",
+        "hyp": "现在碰巧我这里有这样一台机器。",
+        "rel_src": [
+            "And I think this is the wrong way,  I think we can start using a much more natural machine.",
+            "We should use machines that bring our work back into the world."
+        ],
+        "rel_tgt": [
+            "我认为这是错误的方式，我认为我们可以开始使用更加自然的机器。",
+            "我们应该使用能将我们的工作带回现实世界的机器。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 22,
+        "src": "It's called the Meta 2.",
+        "ref": "它叫做 Meta 2。",
+        "hyp": "它被称为Meta 2。",
+        "rel_src": [
+            "I was sitting in a dive bar outside of Columbia University,  where I studied computer science and neuroscience,  and I was having this great conversation with a fellow student  about the power of holograms to one day replace computers.",
+            "Now it just so happens that I have such a machine here."
+        ],
+        "rel_tgt": [
+            "我当时坐在哥伦比亚大学外的一家小酒吧里，我在那里学习计算机科学和神经科学，我正在和一位同学进行一场很棒的对话，谈论全息图像有朝一日能够取代计算机的力量。",
+            "现在碰巧我这里有这样一台机器。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2"
+        }
+    },
+    {
+        "idx": 23,
+        "src": "Let's try it out.",
+        "ref": "让我们来试试。",
+        "hyp": "让我们试一试吧。",
+        "rel_src": [
+            "Now it just so happens that I have such a machine here.",
+            "It's called the Meta 2."
+        ],
+        "rel_tgt": [
+            "现在碰巧我这里有这样一台机器。",
+            "它被称为Meta 2。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2"
+        }
+    },
+    {
+        "idx": 24,
+        "src": "Now in front of me right now, I can see the audience,  and I can see my very hands.",
+        "ref": "现在我可以看到观众， 还可以看见我的手。",
+        "hyp": "现在就在我面前，我可以看到观众，也可以看到我的双手。",
+        "rel_src": [
+            "We should use machines that use the principles of neuroscience  to extend our senses versus going against them.",
+            "Now it just so happens that I have such a machine here."
+        ],
+        "rel_tgt": [
+            "我们应该使用运用神经科学原理的机器，来延伸我们的感官，而不是违背它们。",
+            "现在碰巧我这里有这样一台机器。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2"
+        }
+    },
+    {
+        "idx": 25,
+        "src": "And in three, two, one,  we're going to see an immersive hologram appear,  a very realistic hologram appear in front of me,  of our very glasses I'm wearing on my head right now.",
+        "ref": "在数到3，2，1， 我们将看到一个 全息摄影的影像出现， 一个非常真实的全息摄影 出现在我面前， 出现在我现在戴着的眼镜面前。",
+        "hyp": "在三、二、一的时候，我们将看到一个沉浸式全息图像出现，在我面前出现一个非常逼真的全息图像，展示我现在戴在头上的眼镜。",
+        "rel_src": [
+            "We should use machines that use the principles of neuroscience  to extend our senses versus going against them.",
+            "Now it just so happens that I have such a machine here."
+        ],
+        "rel_tgt": [
+            "我们应该使用运用神经科学原理的机器，来延伸我们的感官，而不是违背它们。",
+            "现在碰巧我这里有这样一台机器。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2"
+        }
+    },
+    {
+        "idx": 26,
+        "src": "And of course this could be anything that we're shopping for  or learning from,  and I can use my hands  to very nicely kind of move it around with fine control.",
+        "ref": "当然这个可以是 任何我们正打算购买的， 或者要学习的东西， 而且我可以用我的手 很轻松地控制它的移动。",
+        "hyp": "当然，这可以是我们购物或学习的任何东西，我可以用我的手来很好地控制移动。",
+        "rel_src": [
+            "And I think this is the wrong way,  I think we can start using a much more natural machine.",
+            "We should use machines that bring our work back into the world."
+        ],
+        "rel_tgt": [
+            "我认为这是错误的方式，我认为我们可以开始使用更加自然的机器。",
+            "我们应该使用能将我们的工作带回现实世界的机器。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2"
+        }
+    },
+    {
+        "idx": 27,
+        "src": "And I think Iron Man would be proud.",
+        "ref": "而且我认为钢铁侠会很自豪。",
+        "hyp": "我认为钢铁侠会感到自豪。",
+        "rel_src": [
+            "And I think this is the wrong way,  I think we can start using a much more natural machine.",
+            "We should use machines that use the principles of neuroscience  to extend our senses versus going against them."
+        ],
+        "rel_tgt": [
+            "我认为这是错误的方式，我认为我们可以开始使用更加自然的机器。",
+            "我们应该使用运用神经科学原理的机器，来延伸我们的感官，而不是违背它们。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠"
+        }
+    },
+    {
+        "idx": 28,
+        "src": "We're going to come back to this in just a bit.",
+        "ref": "我们待会儿再回来。",
+        "hyp": "我们马上就会回到这个问题。",
+        "rel_src": [
+            "And I think this is the wrong way,  I think we can start using a much more natural machine.",
+            "We should use machines that bring our work back into the world."
+        ],
+        "rel_tgt": [
+            "我认为这是错误的方式，我认为我们可以开始使用更加自然的机器。",
+            "我们应该使用能将我们的工作带回现实世界的机器。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠"
+        }
+    },
+    {
+        "idx": 29,
+        "src": "Now if you're anything like me, your mind is already reeling  with the possibilities of what we can do with this kind of technology,  so let's look at a few.",
+        "ref": "（观众鼓掌） 如果你们跟我想的一样， 就应该已经在想着 用这种技术都能干点儿什么， 我们来看看一些例子吧。",
+        "hyp": "现在，如果你和我一样，你的思绪已经在激动地探讨我们可以用这种技术做些什么的可能性，所让我们看看其中的一些。",
+        "rel_src": [
+            "And that dichotomy between how crappy I was feeling  and how happy they were feeling about the same technology,  really got me thinking.",
+            "And the more I thought of it, the more I realized  it was clearly not the digital information that was the bad guy here,  it was simply the display position that was separating me from my friend  and that was binding those kids together."
+        ],
+        "rel_tgt": [
+            "而我感到糟糕的心情与他们对同样的技术感到快乐之间的对立，让我开始思考起来。",
+            "随着我越想越明白，我意识到问题显然不在于数字信息本身，而是在于分离我和朋友的显示位置，以及将那些孩子们联系在一起的方式。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠"
+        }
+    },
+    {
+        "idx": 30,
+        "src": "My mom is an architect,  so naturally the first thing I imagined  was laying out a building in 3D space  instead of having to use these 2D floor plans.",
+        "ref": "我妈妈是一个建筑师， 所以很自然的我想象的第一件事 是绘出一个立体的建筑， 而不是用这些平面的楼层规划图。",
+        "hyp": "我妈妈是一名建筑师，所以我自然而然地想到的第一件事情是在三维空间中布局一栋建筑，而不是必须使用这些二维平面图。",
+        "rel_src": [
+            "We should use machines that bring our work back into the world.",
+            "We should use machines that use the principles of neuroscience  to extend our senses versus going against them."
+        ],
+        "rel_tgt": [
+            "我们应该使用能将我们的工作带回现实世界的机器。",
+            "我们应该使用运用神经科学原理的机器，来延伸我们的感官，而不是违背它们。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠"
+        }
+    },
+    {
+        "idx": 31,
+        "src": "She's actually touching graphics right now  and selecting an interior decor.",
+        "ref": "事实上她现在正在触摸着设计图 想选择一个内部的装饰。",
+        "hyp": "她实际上正在触摸图形并选择室内装饰。",
+        "rel_src": [
+            "And in three, two, one,  we're going to see an immersive hologram appear,  a very realistic hologram appear in front of me,  of our very glasses I'm wearing on my head right now.",
+            "And of course this could be anything that we're shopping for  or learning from,  and I can use my hands  to very nicely kind of move it around with fine control."
+        ],
+        "rel_tgt": [
+            "在三、二、一的时候，我们将看到一个沉浸式全息图像出现，在我面前出现一个非常逼真的全息图像，展示我现在戴在头上的眼镜。",
+            "当然，这可以是我们购物或学习的任何东西，我可以用我的手来很好地控制移动。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠"
+        }
+    },
+    {
+        "idx": 32,
+        "src": "This was all shot through a GoPro through our very glasses.",
+        "ref": "这些都被我眼镜中的GoPro拍摄下来了。",
+        "hyp": "这一切都是通过我们现在戴在头上的眼镜中的GoPro摄取的。",
+        "rel_src": [
+            "And in three, two, one,  we're going to see an immersive hologram appear,  a very realistic hologram appear in front of me,  of our very glasses I'm wearing on my head right now.",
+            "And of course this could be anything that we're shopping for  or learning from,  and I can use my hands  to very nicely kind of move it around with fine control."
+        ],
+        "rel_tgt": [
+            "在三、二、一的时候，我们将看到一个沉浸式全息图像出现，在我面前出现一个非常逼真的全息图像，展示我现在戴在头上的眼镜。",
+            "当然，这可以是我们购物或学习的任何东西，我可以用我的手来很好地控制移动。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠"
+        }
+    },
+    {
+        "idx": 33,
+        "src": "And this next use case is very personal to me,  it's Professor Adam Gazzaley's glass brain project,  courtesy of UCSF.",
+        "ref": "下一个使用案例对我来说很私人化， 是亚当·哥泽雷教授的玻璃大脑项目， 在此感谢UCSF的授权。",
+        "hyp": "这个接下来的使用案例对我来说非常个人化，这是亚当·加扎利教授的“玻璃大脑”项目，由加州大学旧金山分校提供。",
+        "rel_src": [
+            "We should use machines that use the principles of neuroscience  to extend our senses versus going against them.",
+            "And in three, two, one,  we're going to see an immersive hologram appear,  a very realistic hologram appear in front of me,  of our very glasses I'm wearing on my head right now."
+        ],
+        "rel_tgt": [
+            "我们应该使用运用神经科学原理的机器，来延伸我们的感官，而不是违背它们。",
+            "在三、二、一的时候，我们将看到一个沉浸式全息图像出现，在我面前出现一个非常逼真的全息图像，展示我现在戴在头上的眼镜。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校"
+        }
+    },
+    {
+        "idx": 34,
+        "src": "As a neuroscience student,  I would always fantasize  about the ability to learn and memorize these complex brain structures  with an actual machine,  where I could touch and play with the various brain structures.",
+        "ref": "作为一个神经科学专业的学生， 我总会为 能够用一个真实的机器来学习和记忆这些 复杂大脑结构的 能力而感到惊叹， 这样我就可以触摸和摆弄 不同的大脑结构了。",
+        "hyp": "作为一名神经科学学生，我总是幻想着用一台真正的机器学习和记忆这些复杂的脑结构，我可以触摸和玩弄各种脑结构。",
+        "rel_src": [
+            "We should use machines that use the principles of neuroscience  to extend our senses versus going against them.",
+            "And this next use case is very personal to me,  it's Professor Adam Gazzaley's glass brain project,  courtesy of UCSF."
+        ],
+        "rel_tgt": [
+            "我们应该使用运用神经科学原理的机器，来延伸我们的感官，而不是违背它们。",
+            "这个接下来的使用案例对我来说非常个人化，这是亚当·加扎利教授的“玻璃大脑”项目，由加州大学旧金山分校提供。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校"
+        }
+    },
+    {
+        "idx": 35,
+        "src": "Now what you're seeing is called augmented reality,  but to me, it's part of a much more important story --  a story of how we can begin to extend our bodies with digital devices,  instead of the other way around.",
+        "ref": "现在你们正看到的叫做增强现实， 但是对我来说，这只是 一个更重要故事的一部分—— 这个故事是关于我们如何开始 使用数码装置来延伸我们的身体， 而不是限制我们的身体机能。",
+        "hyp": "现在你所看到的被称为增强现实，但对我来说，这是一个更重要的故事的一部分 - 一个关于我们如何开始用数字设备延伸我们的身体的故事，而不是相反。",
+        "rel_src": [
+            "We should use machines that use the principles of neuroscience  to extend our senses versus going against them.",
+            "It's called the Meta 2."
+        ],
+        "rel_tgt": [
+            "我们应该使用运用神经科学原理的机器，来延伸我们的感官，而不是违背它们。",
+            "它被称为Meta 2。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校"
+        }
+    },
+    {
+        "idx": 36,
+        "src": "Now ...",
+        "ref": "那么——",
+        "hyp": "现在...",
+        "rel_src": [
+            "It's called the Meta 2.",
+            "Let's try it out."
+        ],
+        "rel_tgt": [
+            "它被称为Meta 2。",
+            "让我们试一试吧。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校"
+        }
+    },
+    {
+        "idx": 37,
+        "src": "in the next few years, humanity's going to go through a shift, I think.",
+        "ref": "在接下来的几年， 人类将经历一个转变，我认为。",
+        "hyp": "在接下来的几年里，我认为人类将经历一场转变。",
+        "rel_src": [
+            "And I think this is the wrong way,  I think we can start using a much more natural machine.",
+            "And I think Iron Man would be proud."
+        ],
+        "rel_tgt": [
+            "我认为这是错误的方式，我认为我们可以开始使用更加自然的机器。",
+            "我认为钢铁侠会感到自豪。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类"
+        }
+    },
+    {
+        "idx": 38,
+        "src": "We're going to start putting an entire layer of digital information  on the real world.",
+        "ref": "我们将开始在真实的世界中覆盖上 一整片数码信息层。",
+        "hyp": "我们将开始在现实世界上放置整个数字信息层。",
+        "rel_src": [
+            "And in three, two, one,  we're going to see an immersive hologram appear,  a very realistic hologram appear in front of me,  of our very glasses I'm wearing on my head right now.",
+            "Now what you're seeing is called augmented reality,  but to me, it's part of a much more important story --  a story of how we can begin to extend our bodies with digital devices,  instead of the other way around."
+        ],
+        "rel_tgt": [
+            "在三、二、一的时候，我们将看到一个沉浸式全息图像出现，在我面前出现一个非常逼真的全息图像，展示我现在戴在头上的眼镜。",
+            "现在你所看到的被称为增强现实，但对我来说，这是一个更重要的故事的一部分 - 一个关于我们如何开始用数字设备延伸我们的身体的故事，而不是相反。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类"
+        }
+    },
+    {
+        "idx": 39,
+        "src": "Just imagine for a moment  what this could mean for storytellers,  for painters,  for brain surgeons,  for interior decorators  and maybe for all of us here today.",
+        "ref": "花点时间想象一下， 这对于讲故事的人来说意味着什么， 对于画家来说， 对于脑外科医生来说， 对于室内装饰者来说， 也许对于我们今天在这里的所有人来说， 到底意味着什么。",
+        "hyp": "想象一下，这对讲故事的人、画家、脑外科医生、室内装饰师，甚至对我们今天在座的每个人都意味着什么。",
+        "new_src_summary": "The author reflects on the impact of modern computers on human interaction, noting how technology can both amaze and isolate individuals. A moment in a bar illustrates this disconnect, with one group engrossed in social media and another interrupted by a friend's phone. The author advocates for a more human-centered approach to technology, emphasizing the importance of bringing people together like storytelling around a campfire. In a separate discussion, the use of machines like the Meta 2 is explored for enhancing human senses and abilities through neuroscience principles. The Meta 2 is shown projecting immersive holograms with potential applications in architectural design and neuroscience research, highlighting the exciting possibilities of technology to merge the digital and physical worlds. The overall domain is technology and human interaction, with a reflective and narrative style that is critical, introspective, enthusiastic, and forward-thinking.",
+        "new_tgt_summary": "这段文段讨论了作者在哈莱姆一个寒冷的夜晚对计算机和神经科学的思考。作者认为现代计算机虽然令人惊叹，但存在问题，如数字信息的分离和技术的过度使用。作者呼吁开始使用更加自然的机器来解决这些问题，并介绍了Meta 2这台机器在创造沉浸式全息图像方面的应用。作者探讨了使用神经科学原理的机器如何延伸我们的感官，体现了数字设备如何延伸我们的身体，并在建筑设计和神经科学研究中的应用。",
+        "rel_src": [
+            "My mom is an architect,  so naturally the first thing I imagined  was laying out a building in 3D space  instead of having to use these 2D floor plans.",
+            "She's actually touching graphics right now  and selecting an interior decor."
+        ],
+        "rel_tgt": [
+            "我妈妈是一名建筑师，所以我自然而然地想到的第一件事情是在三维空间中布局一栋建筑，而不是必须使用这些二维平面图。",
+            "她实际上正在触摸图形并选择室内装饰。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类"
+        }
+    },
+    {
+        "idx": 40,
+        "src": "And what I think we need to do as a community,  is really try and make an effort  to imagine how we can create this new reality  in a way that extends the human experience,  instead of gamifying our reality  or cluttering it with digital information.",
+        "ref": "我认为我们作为一个团体 所要做的事， 是真正去尝试以及努力 去想象我们如何创造这个新的现实， 以一种延伸人类体验的方式， 而不是把我们的现实游戏化， 或者使现实和数码信息搅在一起。",
+        "hyp": "我认为我们作为一个社区需要做的是真正努力想象如何创造这种能够延伸人类体验的新现实，而不是将我们的现实变成游戏化，或者用数字信息使其混乱不堪。",
+        "rel_src": [
+            "Now what you're seeing is called augmented reality,  but to me, it's part of a much more important story --  a story of how we can begin to extend our bodies with digital devices,  instead of the other way around.",
+            "Just imagine for a moment  what this could mean for storytellers,  for painters,  for brain surgeons,  for interior decorators  and maybe for all of us here today."
+        ],
+        "rel_tgt": [
+            "现在你所看到的被称为增强现实，但对我来说，这是一个更重要的故事的一部分 - 一个关于我们如何开始用数字设备延伸我们的身体的故事，而不是相反。",
+            "想象一下，这对讲故事的人、画家、脑外科医生、室内装饰师，甚至对我们今天在座的每个人都意味着什么。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类"
+        }
+    },
+    {
+        "idx": 41,
+        "src": "And that's what I'm very passionate about.",
+        "ref": "那就是我非常有兴趣做的。",
+        "hyp": "这就是我非常热衷的事情。",
+        "rel_src": [
+            "Now what you're seeing is called augmented reality,  but to me, it's part of a much more important story --  a story of how we can begin to extend our bodies with digital devices,  instead of the other way around.",
+            "And what I think we need to do as a community,  is really try and make an effort  to imagine how we can create this new reality  in a way that extends the human experience,  instead of gamifying our reality  or cluttering it with digital information."
+        ],
+        "rel_tgt": [
+            "现在你所看到的被称为增强现实，但对我来说，这是一个更重要的故事的一部分 - 一个关于我们如何开始用数字设备延伸我们的身体的故事，而不是相反。",
+            "我认为我们作为一个社区需要做的是真正努力想象如何创造这种能够延伸人类体验的新现实，而不是将我们的现实变成游戏化，或者用数字信息使其混乱不堪。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类"
+        }
+    },
+    {
+        "idx": 42,
+        "src": "Now, I want to tell you a little secret.",
+        "ref": "现在，我想要告诉你们一个小秘密。",
+        "hyp": "现在，我想告诉你一个小秘密。",
+        "rel_src": [
+            "And I think Iron Man would be proud.",
+            "My mom is an architect,  so naturally the first thing I imagined  was laying out a building in 3D space  instead of having to use these 2D floor plans."
+        ],
+        "rel_tgt": [
+            "我认为钢铁侠会感到自豪。",
+            "我妈妈是一名建筑师，所以我自然而然地想到的第一件事情是在三维空间中布局一栋建筑，而不是必须使用这些二维平面图。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类"
+        }
+    },
+    {
+        "idx": 43,
+        "src": "In about five years --  this is not the smallest device --  in about five years,  these are all going to look like strips of glass on our eyes  that project holograms.",
+        "ref": "在大约五年之内—— 这个不会是最小的设备—— 在大约五年之内， 这些都会看起来像 放置在眼前的条状眼镜， 能够投射全息摄影图像。",
+        "hyp": "大约五年后 - 这不是最小的设备 - 大约五年后，这些都会看起来像我们眼睛上的玻璃条，投射全息图像。",
+        "rel_src": [
+            "We're going to start putting an entire layer of digital information  on the real world.",
+            "Just imagine for a moment  what this could mean for storytellers,  for painters,  for brain surgeons,  for interior decorators  and maybe for all of us here today."
+        ],
+        "rel_tgt": [
+            "我们将开始在现实世界上放置整个数字信息层。",
+            "想象一下，这对讲故事的人、画家、脑外科医生、室内装饰师，甚至对我们今天在座的每个人都意味着什么。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类"
+        }
+    },
+    {
+        "idx": 44,
+        "src": "And just like we don't care so much about which phone we buy  in terms of the hardware -- we buy it for the operating system --  as a neuroscientist,  I always dreamt of building the iOS of the mind, if you will.",
+        "ref": "就像我们不怎么关心不同手机的 硬件参数一样——我们买哪一款手机 考虑的是操作系统—— 作为一个神经科学家， 我总是希望建造一种基于大脑的iOS， 如果可以的话。",
+        "hyp": "就像我们在硬件方面并不太关心买哪种手机一样 - 我们购买它是为了操作系统 - 作为一名神经科学家，我总是梦想着构建心智的iOS，如果你愿意的话。",
+        "rel_src": [
+            "And this next use case is very personal to me,  it's Professor Adam Gazzaley's glass brain project,  courtesy of UCSF.",
+            "As a neuroscience student,  I would always fantasize  about the ability to learn and memorize these complex brain structures  with an actual machine,  where I could touch and play with the various brain structures."
+        ],
+        "rel_tgt": [
+            "这个接下来的使用案例对我来说非常个人化，这是亚当·加扎利教授的“玻璃大脑”项目，由加州大学旧金山分校提供。",
+            "作为一名神经科学学生，我总是幻想着用一台真正的机器学习和记忆这些复杂的脑结构，我可以触摸和玩弄各种脑结构。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类"
+        }
+    },
+    {
+        "idx": 45,
+        "src": "And it's very, very important that we get this right,  because we might be living inside of these things  for at least as long as we've lived  with the Windows graphical user interface.",
+        "ref": "非常非常重要的 是我们要保证它能正常运行， 因为这些东西陪伴我们的时间也许不会比 我们接触Windows 图像用户界面的时间更短。",
+        "hyp": "这一点非常非常重要，因为我们可能会在这些设备内生活，至少与我们使用Windows图形用户界面的时间一样长。",
+        "rel_src": [
+            "in the next few years, humanity's going to go through a shift, I think.",
+            "We're going to start putting an entire layer of digital information  on the real world."
+        ],
+        "rel_tgt": [
+            "在接下来的几年里，我认为人类将经历一场转变。",
+            "我们将开始在现实世界上放置整个数字信息层。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows"
+        }
+    },
+    {
+        "idx": 46,
+        "src": "And I don't know about you,  but living inside of Windows scares me.",
+        "ref": "我不知道你们怎么想， 但是住在Windows系统里面这种事儿 使我觉得有点儿吓人。",
+        "hyp": "我不知道你怎么想，但是生活在Windows内让我感到恐惧。",
+        "rel_src": [
+            "And what I think we need to do as a community,  is really try and make an effort  to imagine how we can create this new reality  in a way that extends the human experience,  instead of gamifying our reality  or cluttering it with digital information.",
+            "And it's very, very important that we get this right,  because we might be living inside of these things  for at least as long as we've lived  with the Windows graphical user interface."
+        ],
+        "rel_tgt": [
+            "我认为我们作为一个社区需要做的是真正努力想象如何创造这种能够延伸人类体验的新现实，而不是将我们的现实变成游戏化，或者用数字信息使其混乱不堪。",
+            "这一点非常非常重要，因为我们可能会在这些设备内生活，至少与我们使用Windows图形用户界面的时间一样长。"
+        ],
+        "hist_info": "\"Windows\" - \"Windows\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows"
+        }
+    },
+    {
+        "idx": 47,
+        "src": "To isolate the single most intuitive interface out of infinity,  we use neuroscience to drive our design guidelines,  instead of letting a bunch of designers fight it out in the boardroom.",
+        "ref": "为了把单个最直觉性的 接触界面隔离到无限远处， 我们用神经科学来指导我们的设计， 而不是让一帮设计师 在设计室里争论不休。",
+        "hyp": "为了从无限中孤立出最直观的界面，我们使用神经科学来驱动我们的设计准则，而不是让一群设计师在会议室里争论。",
+        "rel_src": [
+            "As a neuroscience student,  I would always fantasize  about the ability to learn and memorize these complex brain structures  with an actual machine,  where I could touch and play with the various brain structures.",
+            "And just like we don't care so much about which phone we buy  in terms of the hardware -- we buy it for the operating system --  as a neuroscientist,  I always dreamt of building the iOS of the mind, if you will."
+        ],
+        "rel_tgt": [
+            "作为一名神经科学学生，我总是幻想着用一台真正的机器学习和记忆这些复杂的脑结构，我可以触摸和玩弄各种脑结构。",
+            "就像我们在硬件方面并不太关心买哪种手机一样 - 我们购买它是为了操作系统 - 作为一名神经科学家，我总是梦想着构建心智的iOS，如果你愿意的话。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows"
+        }
+    },
+    {
+        "idx": 48,
+        "src": "And the principle we all revolve around  is what's called the \"Neural Path of Least Resistance.\"",
+        "ref": "我们进化的原理 叫做“最小阻力神经管道”。",
+        "hyp": "我们所有人围绕的原则是所谓的“最小阻力神经通路”。",
+        "rel_src": [
+            "As a neuroscience student,  I would always fantasize  about the ability to learn and memorize these complex brain structures  with an actual machine,  where I could touch and play with the various brain structures.",
+            "And just like we don't care so much about which phone we buy  in terms of the hardware -- we buy it for the operating system --  as a neuroscientist,  I always dreamt of building the iOS of the mind, if you will."
+        ],
+        "rel_tgt": [
+            "作为一名神经科学学生，我总是幻想着用一台真正的机器学习和记忆这些复杂的脑结构，我可以触摸和玩弄各种脑结构。",
+            "就像我们在硬件方面并不太关心买哪种手机一样 - 我们购买它是为了操作系统 - 作为一名神经科学家，我总是梦想着构建心智的iOS，如果你愿意的话。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路"
+        }
+    },
+    {
+        "idx": 49,
+        "src": "At every turn, we're connecting the iOS of the brain with our brain  on, for the first time, our brain's terms.",
+        "ref": "在每个变化的时刻，我们把大脑iOS系统与 我们的大脑连接起来， 第一次的时候，用我们的大脑语言。",
+        "hyp": "在每一个转折点，我们都在首次以我们大脑的方式将大脑的iOS与我们的大脑连接起来。",
+        "rel_src": [
+            "As a neuroscience student,  I would always fantasize  about the ability to learn and memorize these complex brain structures  with an actual machine,  where I could touch and play with the various brain structures.",
+            "And just like we don't care so much about which phone we buy  in terms of the hardware -- we buy it for the operating system --  as a neuroscientist,  I always dreamt of building the iOS of the mind, if you will."
+        ],
+        "rel_tgt": [
+            "作为一名神经科学学生，我总是幻想着用一台真正的机器学习和记忆这些复杂的脑结构，我可以触摸和玩弄各种脑结构。",
+            "就像我们在硬件方面并不太关心买哪种手机一样 - 我们购买它是为了操作系统 - 作为一名神经科学家，我总是梦想着构建心智的iOS，如果你愿意的话。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS"
+        }
+    },
+    {
+        "idx": 50,
+        "src": "In other words, we're trying to create a zero learning-curve computer.",
+        "ref": "换句话说，我们在尝试着创造 一个零学习曲线的电脑。",
+        "hyp": "换句话说，我们正在努力创造一台零学习曲线的计算机。",
+        "rel_src": [
+            "And it's very, very important that we get this right,  because we might be living inside of these things  for at least as long as we've lived  with the Windows graphical user interface.",
+            "At every turn, we're connecting the iOS of the brain with our brain  on, for the first time, our brain's terms."
+        ],
+        "rel_tgt": [
+            "这一点非常非常重要，因为我们可能会在这些设备内生活，至少与我们使用Windows图形用户界面的时间一样长。",
+            "在每一个转折点，我们都在首次以我们大脑的方式将大脑的iOS与我们的大脑连接起来。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS"
+        }
+    },
+    {
+        "idx": 51,
+        "src": "We're building a system that you've always known how to use.",
+        "ref": "我们在建造一个你们一直都知道 怎么使用的系统。",
+        "hyp": "我们正在构建一个你一直都知道如何使用的系统。",
+        "rel_src": [
+            "To isolate the single most intuitive interface out of infinity,  we use neuroscience to drive our design guidelines,  instead of letting a bunch of designers fight it out in the boardroom.",
+            "At every turn, we're connecting the iOS of the brain with our brain  on, for the first time, our brain's terms."
+        ],
+        "rel_tgt": [
+            "为了从无限中孤立出最直观的界面，我们使用神经科学来驱动我们的设计准则，而不是让一群设计师在会议室里争论。",
+            "在每一个转折点，我们都在首次以我们大脑的方式将大脑的iOS与我们的大脑连接起来。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS"
+        }
+    },
+    {
+        "idx": 52,
+        "src": "Here are the first three design guidelines that we employ  in this brand-new form of user experience.",
+        "ref": "这些是我们用在这个新的 用户体验形式中的 最早的三个设计指南。",
+        "hyp": "这是我们在这种全新用户体验形式中采用的前三条设计准则。",
+        "rel_src": [
+            "To isolate the single most intuitive interface out of infinity,  we use neuroscience to drive our design guidelines,  instead of letting a bunch of designers fight it out in the boardroom.",
+            "In other words, we're trying to create a zero learning-curve computer."
+        ],
+        "rel_tgt": [
+            "为了从无限中孤立出最直观的界面，我们使用神经科学来驱动我们的设计准则，而不是让一群设计师在会议室里争论。",
+            "换句话说，我们正在努力创造一台零学习曲线的计算机。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS"
+        }
+    },
+    {
+        "idx": 53,
+        "src": "First and foremost, you are the operating system.",
+        "ref": "第一，你们是操作系统。",
+        "hyp": "首先，你就是操作系统。",
+        "rel_src": [
+            "And just like we don't care so much about which phone we buy  in terms of the hardware -- we buy it for the operating system --  as a neuroscientist,  I always dreamt of building the iOS of the mind, if you will.",
+            "And it's very, very important that we get this right,  because we might be living inside of these things  for at least as long as we've lived  with the Windows graphical user interface."
+        ],
+        "rel_tgt": [
+            "就像我们在硬件方面并不太关心买哪种手机一样 - 我们购买它是为了操作系统 - 作为一名神经科学家，我总是梦想着构建心智的iOS，如果你愿意的话。",
+            "这一点非常非常重要，因为我们可能会在这些设备内生活，至少与我们使用Windows图形用户界面的时间一样长。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS"
+        }
+    },
+    {
+        "idx": 54,
+        "src": "Traditional file systems are complex and abstract,  and they take your brain extra steps to decode them.",
+        "ref": "传统文件系统是复杂和抽象的， 它们使你们的大脑要 多绕几道弯才能解码它们。",
+        "hyp": "传统的文件系统复杂而抽象，需要你的大脑额外的步骤来解码它们。",
+        "rel_src": [
+            "To isolate the single most intuitive interface out of infinity,  we use neuroscience to drive our design guidelines,  instead of letting a bunch of designers fight it out in the boardroom.",
+            "In other words, we're trying to create a zero learning-curve computer."
+        ],
+        "rel_tgt": [
+            "为了从无限中孤立出最直观的界面，我们使用神经科学来驱动我们的设计准则，而不是让一群设计师在会议室里争论。",
+            "换句话说，我们正在努力创造一台零学习曲线的计算机。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS"
+        }
+    },
+    {
+        "idx": 55,
+        "src": "We're going against the Neural Path of Least Resistance.",
+        "ref": "我们走的是与 “最小阻力神经管道”相反的路线。",
+        "hyp": "我们正在抗拒“最小阻力神经通路”。",
+        "rel_src": [
+            "To isolate the single most intuitive interface out of infinity,  we use neuroscience to drive our design guidelines,  instead of letting a bunch of designers fight it out in the boardroom.",
+            "And the principle we all revolve around  is what's called the \"Neural Path of Least Resistance.\""
+        ],
+        "rel_tgt": [
+            "为了从无限中孤立出最直观的界面，我们使用神经科学来驱动我们的设计准则，而不是让一群设计师在会议室里争论。",
+            "我们所有人围绕的原则是所谓的“最小阻力神经通路”。"
+        ],
+        "hist_info": "\"Neural Path of Least Resistance\" - \"最小阻力神经通路\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS"
+        }
+    },
+    {
+        "idx": 56,
+        "src": "Meanwhile, in augmented reality,  you can of course place your holographic TED panel over here,  and your holographic email on the other side of the desk,  and your spatial memory evolved just fine to go ahead and retrieve them.",
+        "ref": "同时，在增强现实中， 你当然可以把你的全息摄影的 TED显示屏放到这里， 把你全息摄影的邮件 放在桌子的另一侧， 你的空间记忆力进化得正好可以 准确地提取这些信息。",
+        "hyp": "与此同时，在增强现实中，你当然可以将你的全息TED面板放在这里，将你的全息电子邮件放在桌子的另一边，你的空间记忆已经很好地发展，可以前去检索它们。",
+        "rel_src": [
+            "In about five years --  this is not the smallest device --  in about five years,  these are all going to look like strips of glass on our eyes  that project holograms.",
+            "And just like we don't care so much about which phone we buy  in terms of the hardware -- we buy it for the operating system --  as a neuroscientist,  I always dreamt of building the iOS of the mind, if you will."
+        ],
+        "rel_tgt": [
+            "大约五年后 - 这不是最小的设备 - 大约五年后，这些都会看起来像我们眼睛上的玻璃条，投射全息图像。",
+            "就像我们在硬件方面并不太关心买哪种手机一样 - 我们购买它是为了操作系统 - 作为一名神经科学家，我总是梦想着构建心智的iOS，如果你愿意的话。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS"
+        }
+    },
+    {
+        "idx": 57,
+        "src": "You could put your holographic Tesla that you're shopping for --  or whatever model my legal team told me to put in right before the show.",
+        "ref": "你可以把正在网购中的Tesla的 全息摄影放在这里—— 或者我的合法团队 在上台之前告诉我的任何模式。",
+        "hyp": "你可以把你正在购物的全息特斯拉放在这里 - 或者是在节目开始前我的法律团队告诉我要放进去的任何型号。",
+        "rel_src": [
+            "In about five years --  this is not the smallest device --  in about five years,  these are all going to look like strips of glass on our eyes  that project holograms.",
+            "Meanwhile, in augmented reality,  you can of course place your holographic TED panel over here,  and your holographic email on the other side of the desk,  and your spatial memory evolved just fine to go ahead and retrieve them."
+        ],
+        "rel_tgt": [
+            "大约五年后 - 这不是最小的设备 - 大约五年后，这些都会看起来像我们眼睛上的玻璃条，投射全息图像。",
+            "与此同时，在增强现实中，你当然可以将你的全息TED面板放在这里，将你的全息电子邮件放在桌子的另一边，你的空间记忆已经很好地发展，可以前去检索它们。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉"
+        }
+    },
+    {
+        "idx": 58,
+        "src": "Perfect. And your brain knows exactly how to get it back.",
+        "ref": "（观众笑声） 很好，你们的大脑确实知道 如何回到现实中来。",
+        "hyp": "完美。而你的大脑知道如何把它拿回来。",
+        "rel_src": [
+            "In other words, we're trying to create a zero learning-curve computer.",
+            "First and foremost, you are the operating system."
+        ],
+        "rel_tgt": [
+            "换句话说，我们正在努力创造一台零学习曲线的计算机。",
+            "首先，你就是操作系统。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉"
+        }
+    },
+    {
+        "idx": 59,
+        "src": "The second interface guideline we call \"touch to see.\"",
+        "ref": "第二个界面指南 被我们称做“接触可视”。",
+        "hyp": "我们称之为“触摸即可查看”的第二个界面指南。",
+        "new_src_summary": "The author reflects on the impact of modern computers on human interaction, noting how technology can both amaze and isolate individuals. A moment in a bar illustrates this disconnect, with one group engrossed in social media and another interrupted by a friend's phone. The author advocates for a more human-centered approach to technology, emphasizing the importance of bringing people together like storytelling around a campfire. In a separate discussion, the use of machines like the Meta 2 is explored for enhancing human senses and abilities through neuroscience principles. The Meta 2 is shown projecting immersive holograms with potential applications in architectural design and neuroscience research, highlighting the exciting possibilities of technology to merge the digital and physical worlds. The paragraph also discusses the potential impact of technology on various professions and individuals, emphasizing the importance of creating a new reality that enhances the human experience. The speaker predicts that in five years, devices will project holograms, revolutionizing user interfaces. The focus is on developing a zero learning-curve computer system based on neuroscience principles, with the goal of making technology intuitive and easy to use. The overall domain is technology and human interaction, with a reflective and narrative style that is critical, introspective, enthusiastic, and forward-thinking, while maintaining an optimistic outlook on the possibilities of technology.",
+        "new_tgt_summary": "这段文段讨论了作者在哈莱姆一个寒冷的夜晚对计算机和神经科学的思考。作者认为现代计算机虽然令人惊叹，但存在问题，如数字信息的分离和技术的过度使用。作者呼吁开始使用更加自然的机器来解决这些问题，并介绍了Meta 2这台机器在创造沉浸式全息图像方面的应用。他强调了通过神经科学驱动设计准则来创造零学习曲线的计算机系统的重要性，探讨了使用神经科学原理的机器如何延伸我们的感官，体现了数字设备如何延伸我们的身体，并在建筑设计和神经科学研究中的应用。最终目标是建立一个用户友好、直观的操作系统，使用户能够轻松地使用和理解系统的功能。",
+        "rel_src": [
+            "Traditional file systems are complex and abstract,  and they take your brain extra steps to decode them.",
+            "We're going against the Neural Path of Least Resistance."
+        ],
+        "rel_tgt": [
+            "传统的文件系统复杂而抽象，需要你的大脑额外的步骤来解码它们。",
+            "我们正在抗拒“最小阻力神经通路”。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉"
+        }
+    },
+    {
+        "idx": 60,
+        "src": "What do babies do when they see something that grabs their interest?",
+        "ref": "当婴儿看到它们感兴趣的事的时候 它们会怎么做？",
+        "hyp": "当婴儿看到吸引他们注意的东西时会做什么？",
+        "rel_src": [
+            "We're going against the Neural Path of Least Resistance.",
+            "Meanwhile, in augmented reality,  you can of course place your holographic TED panel over here,  and your holographic email on the other side of the desk,  and your spatial memory evolved just fine to go ahead and retrieve them."
+        ],
+        "rel_tgt": [
+            "我们正在抗拒“最小阻力神经通路”。",
+            "与此同时，在增强现实中，你当然可以将你的全息TED面板放在这里，将你的全息电子邮件放在桌子的另一边，你的空间记忆已经很好地发展，可以前去检索它们。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉"
+        }
+    },
+    {
+        "idx": 61,
+        "src": "They try and reach out and touch it.",
+        "ref": "它们会试着伸手去抓它。",
+        "hyp": "他们试图伸出手去触摸它。",
+        "rel_src": [
+            "The second interface guideline we call \"touch to see.\"",
+            "What do babies do when they see something that grabs their interest?"
+        ],
+        "rel_tgt": [
+            "我们称之为“触摸即可查看”的第二个界面指南。",
+            "当婴儿看到吸引他们注意的东西时会做什么？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉"
+        }
+    },
+    {
+        "idx": 62,
+        "src": "And that's exactly how the natural machine should work as well.",
+        "ref": "自然机器也是这样工作的。",
+        "hyp": "这正是自然机器应该运作的方式。",
+        "rel_src": [
+            "In other words, we're trying to create a zero learning-curve computer.",
+            "We're building a system that you've always known how to use."
+        ],
+        "rel_tgt": [
+            "换句话说，我们正在努力创造一台零学习曲线的计算机。",
+            "我们正在构建一个你一直都知道如何使用的系统。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉"
+        }
+    },
+    {
+        "idx": 63,
+        "src": "Turns out the visual system gets a fundamental boost  from a sense we call proprioception --  that's the sense of our body parts in space.",
+        "ref": "实际上视觉系统 得到一个很基本的推动力， 我们可以称作本体感觉—— 那是一种我们的身体各部分 处于空间里的感觉。",
+        "hyp": "事实证明，视觉系统从我们称之为本体感的感觉中获得了基本的提升 - 这是我们在空间中感知我们身体部位的感觉。",
+        "rel_src": [
+            "Traditional file systems are complex and abstract,  and they take your brain extra steps to decode them.",
+            "And that's exactly how the natural machine should work as well."
+        ],
+        "rel_tgt": [
+            "传统的文件系统复杂而抽象，需要你的大脑额外的步骤来解码它们。",
+            "这正是自然机器应该运作的方式。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉"
+        }
+    },
+    {
+        "idx": 64,
+        "src": "So by touching our work directly, we're not only going to control it better,  we're also going to understand it much more deeply.",
+        "ref": "通过直接接触我们的工作对象， 我们不仅仅将它控制得更好， 也能更深层次地了解它。",
+        "hyp": "因此，通过直接触摸我们的工作，我们不仅能更好地控制它，还能更深入地理解它。",
+        "rel_src": [
+            "The second interface guideline we call \"touch to see.\"",
+            "They try and reach out and touch it."
+        ],
+        "rel_tgt": [
+            "我们称之为“触摸即可查看”的第二个界面指南。",
+            "他们试图伸出手去触摸它。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉"
+        }
+    },
+    {
+        "idx": 65,
+        "src": "Hence, touch to see.",
+        "ref": "这就是“接触可视”。",
+        "hyp": "因此，触摸即可查看。",
+        "rel_src": [
+            "The second interface guideline we call \"touch to see.\"",
+            "So by touching our work directly, we're not only going to control it better,  we're also going to understand it much more deeply."
+        ],
+        "rel_tgt": [
+            "我们称之为“触摸即可查看”的第二个界面指南。",
+            "因此，通过直接触摸我们的工作，我们不仅能更好地控制它，还能更深入地理解它。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉"
+        }
+    },
+    {
+        "idx": 66,
+        "src": "But it's not enough to experience things ourselves.",
+        "ref": "但是我们自己去体验事情 是不够的。",
+        "hyp": "但仅仅自己体验还不够。",
+        "rel_src": [
+            "To isolate the single most intuitive interface out of infinity,  we use neuroscience to drive our design guidelines,  instead of letting a bunch of designers fight it out in the boardroom.",
+            "Here are the first three design guidelines that we employ  in this brand-new form of user experience."
+        ],
+        "rel_tgt": [
+            "为了从无限中孤立出最直观的界面，我们使用神经科学来驱动我们的设计准则，而不是让一群设计师在会议室里争论。",
+            "这是我们在这种全新用户体验形式中采用的前三条设计准则。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉"
+        }
+    },
+    {
+        "idx": 67,
+        "src": "We're inherently these social primates.",
+        "ref": "我们是社会灵长目动物。",
+        "hyp": "我们本质上就是这些社交灵长类动物。",
+        "rel_src": [
+            "Meanwhile, in augmented reality,  you can of course place your holographic TED panel over here,  and your holographic email on the other side of the desk,  and your spatial memory evolved just fine to go ahead and retrieve them.",
+            "What do babies do when they see something that grabs their interest?"
+        ],
+        "rel_tgt": [
+            "与此同时，在增强现实中，你当然可以将你的全息TED面板放在这里，将你的全息电子邮件放在桌子的另一边，你的空间记忆已经很好地发展，可以前去检索它们。",
+            "当婴儿看到吸引他们注意的东西时会做什么？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉"
+        }
+    },
+    {
+        "idx": 68,
+        "src": "And this leads me to our third guideline,  the holographic campfire from our first story.",
+        "ref": "这一点让我想起了我们的第三个指南， 来自于我们第一个故事的 “全息摄影的篝火”：",
+        "hyp": "这将我带到我们第三条准则，即第一个故事中的全息篝火。",
+        "rel_src": [
+            "Meanwhile, in augmented reality,  you can of course place your holographic TED panel over here,  and your holographic email on the other side of the desk,  and your spatial memory evolved just fine to go ahead and retrieve them.",
+            "You could put your holographic Tesla that you're shopping for --  or whatever model my legal team told me to put in right before the show."
+        ],
+        "rel_tgt": [
+            "与此同时，在增强现实中，你当然可以将你的全息TED面板放在这里，将你的全息电子邮件放在桌子的另一边，你的空间记忆已经很好地发展，可以前去检索它们。",
+            "你可以把你正在购物的全息特斯拉放在这里 - 或者是在节目开始前我的法律团队告诉我要放进去的任何型号。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None"
+        }
+    },
+    {
+        "idx": 69,
+        "src": "Our mirror-neuron subsystem suggests  that we can connect with each other and with our work much better  if we can see each other's faces and hands in 3D.",
+        "ref": "我们的镜子——神经分系统显示 我们可以更好地和每一个人 以及我们的工作联系在一起， 如果我们可以看到每个人的 脸和手的立体图像的话。",
+        "hyp": "我们的镜像神经元子系统表明，如果我们能在3D中看到彼此的脸和手，我们可以更好地与彼此和我们的工作建立联系。",
+        "rel_src": [
+            "Turns out the visual system gets a fundamental boost  from a sense we call proprioception --  that's the sense of our body parts in space.",
+            "So by touching our work directly, we're not only going to control it better,  we're also going to understand it much more deeply."
+        ],
+        "rel_tgt": [
+            "事实证明，视觉系统从我们称之为本体感的感觉中获得了基本的提升 - 这是我们在空间中感知我们身体部位的感觉。",
+            "因此，通过直接触摸我们的工作，我们不仅能更好地控制它，还能更深入地理解它。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None"
+        }
+    },
+    {
+        "idx": 70,
+        "src": "So if you look at the video behind me,  you can see two Meta users playing around with the same hologram,  making eye contact, connected around this thing,  instead of being distracted by external devices.",
+        "ref": "所以， 如果你看着我身后的录像， 就能看到两个Meta使用者 正在操作着同一个全息摄影图像， 建立了眼神的接触， 聚焦在这个东西上， 而不是被外界的设备分散了注意力。",
+        "hyp": "所以，如果你看我身后的视频，你会看到两个Meta用户在玩同一个全息图像，他们进行眼神交流，围绕着这个东西建立联系，而不是被外部设备分散注意力。",
+        "rel_src": [
+            "And this leads me to our third guideline,  the holographic campfire from our first story.",
+            "Our mirror-neuron subsystem suggests  that we can connect with each other and with our work much better  if we can see each other's faces and hands in 3D."
+        ],
+        "rel_tgt": [
+            "这将我带到我们第三条准则，即第一个故事中的全息篝火。",
+            "我们的镜像神经元子系统表明，如果我们能在3D中看到彼此的脸和手，我们可以更好地与彼此和我们的工作建立联系。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 71,
+        "src": "Let's go ahead and try this again with neuroscience in mind.",
+        "ref": "让我们带着神经科学的概念再试一次。",
+        "hyp": "让我们继续并考虑神经科学，再次尝试这个。",
+        "rel_src": [
+            "Turns out the visual system gets a fundamental boost  from a sense we call proprioception --  that's the sense of our body parts in space.",
+            "So by touching our work directly, we're not only going to control it better,  we're also going to understand it much more deeply."
+        ],
+        "rel_tgt": [
+            "事实证明，视觉系统从我们称之为本体感的感觉中获得了基本的提升 - 这是我们在空间中感知我们身体部位的感觉。",
+            "因此，通过直接触摸我们的工作，我们不仅能更好地控制它，还能更深入地理解它。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 72,
+        "src": "So again, our favorite interface, the iOS of the mind.",
+        "ref": "再来一次，我们最喜欢的界面， 大脑的iOS系统。",
+        "hyp": "所以，再次，我们最喜欢的界面，思维的iOS。",
+        "rel_src": [
+            "First and foremost, you are the operating system.",
+            "And that's exactly how the natural machine should work as well."
+        ],
+        "rel_tgt": [
+            "首先，你就是操作系统。",
+            "这正是自然机器应该运作的方式。"
+        ],
+        "hist_info": "\"iOS\" - \"iOS\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 73,
+        "src": "I'm going to now take a step further  and go ahead and grab this pair of glasses  and leave it right here by the desk.",
+        "ref": "我现在将往前一步， 走到前面抓起这对眼镜。 然后就放在桌子这里。",
+        "hyp": "我现在要更进一步，拿起这副眼镜，放在桌子旁边。",
+        "rel_src": [
+            "Meanwhile, in augmented reality,  you can of course place your holographic TED panel over here,  and your holographic email on the other side of the desk,  and your spatial memory evolved just fine to go ahead and retrieve them.",
+            "So by touching our work directly, we're not only going to control it better,  we're also going to understand it much more deeply."
+        ],
+        "rel_tgt": [
+            "与此同时，在增强现实中，你当然可以将你的全息TED面板放在这里，将你的全息电子邮件放在桌子的另一边，你的空间记忆已经很好地发展，可以前去检索它们。",
+            "因此，通过直接触摸我们的工作，我们不仅能更好地控制它，还能更深入地理解它。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 74,
+        "src": "I'm now with you, I'm in the moment,  we're connecting.",
+        "ref": "我现在是和你们处在一个时刻， 我们正连接在一起。",
+        "hyp": "我现在和你在一起，我在这一刻，我们正在连接。",
+        "rel_src": [
+            "Our mirror-neuron subsystem suggests  that we can connect with each other and with our work much better  if we can see each other's faces and hands in 3D.",
+            "So if you look at the video behind me,  you can see two Meta users playing around with the same hologram,  making eye contact, connected around this thing,  instead of being distracted by external devices."
+        ],
+        "rel_tgt": [
+            "我们的镜像神经元子系统表明，如果我们能在3D中看到彼此的脸和手，我们可以更好地与彼此和我们的工作建立联系。",
+            "所以，如果你看我身后的视频，你会看到两个Meta用户在玩同一个全息图像，他们进行眼神交流，围绕着这个东西建立联系，而不是被外部设备分散注意力。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 75,
+        "src": "My spatial memory kicks in, and I can go ahead and grab it  and bring it right back here, reminding me  that I am the operating system.",
+        "ref": "我的空间记忆正在运作， 我可以过去抓住它， 然后把它带回到这里，提醒我自己 我是一个操作系统。",
+        "hyp": "我的空间记忆启动了，我可以继续拿起它，把它带回这里，提醒我我就是操作系统。",
+        "rel_src": [
+            "Perfect. And your brain knows exactly how to get it back.",
+            "I'm going to now take a step further  and go ahead and grab this pair of glasses  and leave it right here by the desk."
+        ],
+        "rel_tgt": [
+            "完美。而你的大脑知道如何把它拿回来。",
+            "我现在要更进一步，拿起这副眼镜，放在桌子旁边。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 76,
+        "src": "And now my proprioception is working,  and I can go ahead and explode these glasses into a thousand parts  and touch the very sensor that is currently scanning my hand.",
+        "ref": "现在我的本体感觉正在工作， 我可以过去使这些 玻璃爆裂成上千块碎片， 然后触摸此时此刻正在扫描 我的手的传感器。",
+        "hyp": "现在我的本体感正在起作用，我可以继续将这副眼镜爆炸成一千个部分，并触摸正在扫描我的手的传感器。",
+        "rel_src": [
+            "Turns out the visual system gets a fundamental boost  from a sense we call proprioception --  that's the sense of our body parts in space.",
+            "My spatial memory kicks in, and I can go ahead and grab it  and bring it right back here, reminding me  that I am the operating system."
+        ],
+        "rel_tgt": [
+            "事实证明，视觉系统从我们称之为本体感的感觉中获得了基本的提升 - 这是我们在空间中感知我们身体部位的感觉。",
+            "我的空间记忆启动了，我可以继续拿起它，把它带回这里，提醒我我就是操作系统。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 77,
+        "src": "But it's not enough to see things alone,  so in a second, my co-founder Ray is going to make a 3D call --  Ray?",
+        "ref": "但是仅仅看到这些是不够的， 所以很快，我的合作创始人瑞恩 将会打一个3D电话给我—— 瑞恩？",
+        "hyp": "但仅仅自己看到还不够，所以在接下来的一秒钟，我的联合创始人雷将进行一个3D电话——雷？",
+        "rel_src": [
+            "But it's not enough to experience things ourselves.",
+            "And this leads me to our third guideline,  the holographic campfire from our first story."
+        ],
+        "rel_tgt": [
+            "但仅仅自己体验还不够。",
+            "这将我带到我们第三条准则，即第一个故事中的全息篝火。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷"
+        }
+    },
+    {
+        "idx": 78,
+        "src": "Hey Ray, how's it going?",
+        "ref": "嗨，瑞恩，你怎么样？",
+        "hyp": "嘿，雷，最近怎么样？",
+        "rel_src": [
+            "So if you look at the video behind me,  you can see two Meta users playing around with the same hologram,  making eye contact, connected around this thing,  instead of being distracted by external devices.",
+            "But it's not enough to see things alone,  so in a second, my co-founder Ray is going to make a 3D call --  Ray?"
+        ],
+        "rel_tgt": [
+            "所以，如果你看我身后的视频，你会看到两个Meta用户在玩同一个全息图像，他们进行眼神交流，围绕着这个东西建立联系，而不是被外部设备分散注意力。",
+            "但仅仅自己看到还不够，所以在接下来的一秒钟，我的联合创始人雷将进行一个3D电话——雷？"
+        ],
+        "hist_info": "\"Ray\" - \"雷\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷"
+        }
+    },
+    {
+        "idx": 79,
+        "src": "Guys, I can see this guy in front me in full 3D.",
+        "ref": "各位，我可以看到这个人 以三维投影的形式出现在我面前。",
+        "hyp": "伙计们，我可以在全3D中看到我面前的这个人。",
+        "new_src_summary": "The author reflects on the impact of modern computers on human interaction, noting how technology can both amaze and isolate individuals. A moment in a bar illustrates this disconnect, with one group engrossed in social media and another interrupted by a friend's phone. The author advocates for a more human-centered approach to technology, emphasizing the importance of bringing people together like storytelling around a campfire. The use of machines like the Meta 2 is explored for enhancing human senses and abilities through neuroscience principles, projecting immersive holograms with potential applications in architectural design and neuroscience research. The paragraph also discusses the potential impact of technology on various professions and individuals, emphasizing the importance of creating a new reality that enhances the human experience. The focus is on developing a zero learning-curve computer system based on neuroscience principles to make technology intuitive and easy to use, with a prediction that devices will project holograms in five years. The discussion also touches on interface guidelines related to touch and social interaction in technology, emphasizing the importance of touch in understanding and controlling technology, as well as the benefits of social connection in enhancing collaboration and engagement. The tone is informative and enthusiastic, with a focus on the potential of incorporating neuroscience into interface design, within the overall domain of technology and human-computer interaction.",
+        "new_tgt_summary": "这段文段讨论了作者在哈莱姆一个寒冷的夜晚对计算机和神经科学的思考。作者认为现代计算机虽然令人惊叹，但存在问题，如数字信息的分离和技术的过度使用。他呼吁开始使用更加自然的机器来解决这些问题，并介绍了Meta 2这台机器在创造沉浸式全息图像方面的应用。同时强调了通过神经科学驱动设计准则来创造零学习曲线的计算机系统的重要性，探讨了使用神经科学原理的机器如何延伸我们的感官，体现了数字设备如何延伸我们的身体，并在建筑设计和神经科学研究中的应用。另外，文段还提到了“触摸即可查看”的第二个界面指南，强调了通过触摸和直接体验工作来更好地控制和理解它，以及本体感和社交互动对于视觉系统和人际关系的重要性。最后，文段也提到了通过3D交互和全息图像来增强人与人之间的联系和注意力集中，以及神经科学和思维的iOS界面的重要性，以及作者和雷之间的交流。最终目标是建立一个用户友好、直观的操作系统，使用户能够轻松地使用和理解系统的功能。",
+        "rel_src": [
+            "Our mirror-neuron subsystem suggests  that we can connect with each other and with our work much better  if we can see each other's faces and hands in 3D.",
+            "So if you look at the video behind me,  you can see two Meta users playing around with the same hologram,  making eye contact, connected around this thing,  instead of being distracted by external devices."
+        ],
+        "rel_tgt": [
+            "我们的镜像神经元子系统表明，如果我们能在3D中看到彼此的脸和手，我们可以更好地与彼此和我们的工作建立联系。",
+            "所以，如果你看我身后的视频，你会看到两个Meta用户在玩同一个全息图像，他们进行眼神交流，围绕着这个东西建立联系，而不是被外部设备分散注意力。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷"
+        }
+    },
+    {
+        "idx": 80,
+        "src": "And he is photo-realistic.",
+        "ref": "而且他的影像非常真实。",
+        "hyp": "而且他看起来栩栩如生。",
+        "rel_src": [
+            "Our mirror-neuron subsystem suggests  that we can connect with each other and with our work much better  if we can see each other's faces and hands in 3D.",
+            "Guys, I can see this guy in front me in full 3D."
+        ],
+        "rel_tgt": [
+            "我们的镜像神经元子系统表明，如果我们能在3D中看到彼此的脸和手，我们可以更好地与彼此和我们的工作建立联系。",
+            "伙计们，我可以在全3D中看到我面前的这个人。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷"
+        }
+    },
+    {
+        "idx": 81,
+        "src": "Thank you.",
+        "ref": "（观众鼓掌） 谢谢。",
+        "hyp": "谢谢。",
+        "rel_src": [
+            "I'm now with you, I'm in the moment,  we're connecting.",
+            "And now my proprioception is working,  and I can go ahead and explode these glasses into a thousand parts  and touch the very sensor that is currently scanning my hand."
+        ],
+        "rel_tgt": [
+            "我现在和你在一起，我在这一刻，我们正在连接。",
+            "现在我的本体感正在起作用，我可以继续将这副眼镜爆炸成一千个部分，并触摸正在扫描我的手的传感器。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷"
+        }
+    },
+    {
+        "idx": 82,
+        "src": "My mirror-neuron subsystem suggests that this is going to replace phones  in not too long.",
+        "ref": "我的镜子—神经分系统显示 这将在不久的将来 替代电话。",
+        "hyp": "我的镜像神经元子系统暗示着这很快将取代手机。",
+        "rel_src": [
+            "Our mirror-neuron subsystem suggests  that we can connect with each other and with our work much better  if we can see each other's faces and hands in 3D.",
+            "So if you look at the video behind me,  you can see two Meta users playing around with the same hologram,  making eye contact, connected around this thing,  instead of being distracted by external devices."
+        ],
+        "rel_tgt": [
+            "我们的镜像神经元子系统表明，如果我们能在3D中看到彼此的脸和手，我们可以更好地与彼此和我们的工作建立联系。",
+            "所以，如果你看我身后的视频，你会看到两个Meta用户在玩同一个全息图像，他们进行眼神交流，围绕着这个东西建立联系，而不是被外部设备分散注意力。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷"
+        }
+    },
+    {
+        "idx": 83,
+        "src": "Ray, how's it going?",
+        "ref": "瑞恩，你怎么样？",
+        "hyp": "雷，最近怎么样？",
+        "rel_src": [
+            "Hey Ray, how's it going?",
+            "Guys, I can see this guy in front me in full 3D."
+        ],
+        "rel_tgt": [
+            "嘿，雷，最近怎么样？",
+            "伙计们，我可以在全3D中看到我面前的这个人。"
+        ],
+        "hist_info": "\"Ray\" - \"雷\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷"
+        }
+    },
+    {
+        "idx": 84,
+        "src": "Ray: Great. We're live today.",
+        "ref": "瑞恩：我很好。 我们终于可以现场演示了。",
+        "hyp": "雷：太棒了。我们今天直播。",
+        "rel_src": [
+            "But it's not enough to see things alone,  so in a second, my co-founder Ray is going to make a 3D call --  Ray?",
+            "Guys, I can see this guy in front me in full 3D."
+        ],
+        "rel_tgt": [
+            "但仅仅自己看到还不够，所以在接下来的一秒钟，我的联合创始人雷将进行一个3D电话——雷？",
+            "伙计们，我可以在全3D中看到我面前的这个人。"
+        ],
+        "hist_info": "\"Ray\" - \"雷\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷"
+        }
+    },
+    {
+        "idx": 85,
+        "src": "MG: Ray, give the crowd a gift  of the holographic brain we saw from the video earlier.",
+        "ref": "（观众鼓掌） 瑞恩，给大家一个我们之前 在短片看到的 全息摄影的脑作为小礼物。",
+        "hyp": "MG：雷，给观众们送上我们在之前视频中看到的全息大脑的礼物。",
+        "rel_src": [
+            "So if you look at the video behind me,  you can see two Meta users playing around with the same hologram,  making eye contact, connected around this thing,  instead of being distracted by external devices.",
+            "But it's not enough to see things alone,  so in a second, my co-founder Ray is going to make a 3D call --  Ray?"
+        ],
+        "rel_tgt": [
+            "所以，如果你看我身后的视频，你会看到两个Meta用户在玩同一个全息图像，他们进行眼神交流，围绕着这个东西建立联系，而不是被外部设备分散注意力。",
+            "但仅仅自己看到还不够，所以在接下来的一秒钟，我的联合创始人雷将进行一个3D电话——雷？"
+        ],
+        "hist_info": "\"Ray\" - \"雷\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷"
+        }
+    },
+    {
+        "idx": 86,
+        "src": "Guys, this is not only going to change phones,  it's also going to change the way we collaborate.",
+        "ref": "各位，这不仅将改变打电话的方式， 这也将改变我们合作的形式。",
+        "hyp": "伙计们，这不仅将改变手机，也将改变我们合作的方式。",
+        "rel_src": [
+            "My mirror-neuron subsystem suggests that this is going to replace phones  in not too long.",
+            "MG: Ray, give the crowd a gift  of the holographic brain we saw from the video earlier."
+        ],
+        "rel_tgt": [
+            "我的镜像神经元子系统暗示着这很快将取代手机。",
+            "MG：雷，给观众们送上我们在之前视频中看到的全息大脑的礼物。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷"
+        }
+    },
+    {
+        "idx": 87,
+        "src": "Thank you so much.",
+        "ref": "非常感谢。",
+        "hyp": "非常感谢。",
+        "rel_src": [
+            "Thank you.",
+            "Guys, this is not only going to change phones,  it's also going to change the way we collaborate."
+        ],
+        "rel_tgt": [
+            "谢谢。",
+            "伙计们，这不仅将改变手机，也将改变我们合作的方式。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷"
+        }
+    },
+    {
+        "idx": 88,
+        "src": "Thanks, Ray.",
+        "ref": "谢谢，瑞恩。",
+        "hyp": "谢谢，雷。",
+        "rel_src": [
+            "Ray, how's it going?",
+            "MG: Ray, give the crowd a gift  of the holographic brain we saw from the video earlier."
+        ],
+        "rel_tgt": [
+            "雷，最近怎么样？",
+            "MG：雷，给观众们送上我们在之前视频中看到的全息大脑的礼物。"
+        ],
+        "hist_info": "\"Ray\" - \"雷\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷"
+        }
+    },
+    {
+        "idx": 89,
+        "src": "Ray: You're welcome.",
+        "ref": "瑞恩：不客气。",
+        "hyp": "雷：不客气。",
+        "rel_src": [
+            "Ray: Great. We're live today.",
+            "Thanks, Ray."
+        ],
+        "rel_tgt": [
+            "雷：太棒了。我们今天直播。",
+            "谢谢，雷。"
+        ],
+        "hist_info": "\"Ray\" - \"雷\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷"
+        }
+    },
+    {
+        "idx": 90,
+        "src": "MG: So folks, this is the message that I discovered in that bar in 2011:  The future of computers is not locked inside one of these screens.",
+        "ref": "（观众鼓掌） 麦龙·格里贝兹：那么各位， 这是我2011年在那个酒吧里发现的信息： 电脑的未来不是锁在 这些屏幕的里面的。",
+        "hyp": "MG：所以，各位，这是我在2011年在酒吧里发现的信息：计算机的未来不会被锁定在这些屏幕中的任何一个。",
+        "rel_src": [
+            "My mirror-neuron subsystem suggests that this is going to replace phones  in not too long.",
+            "Guys, this is not only going to change phones,  it's also going to change the way we collaborate."
+        ],
+        "rel_tgt": [
+            "我的镜像神经元子系统暗示着这很快将取代手机。",
+            "伙计们，这不仅将改变手机，也将改变我们合作的方式。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG"
+        }
+    },
+    {
+        "idx": 91,
+        "src": "It's right here, inside of us.",
+        "ref": "而是在这里，在我们身体里。",
+        "hyp": "就在我们内心深处。",
+        "rel_src": [
+            "My spatial memory kicks in, and I can go ahead and grab it  and bring it right back here, reminding me  that I am the operating system.",
+            "My mirror-neuron subsystem suggests that this is going to replace phones  in not too long."
+        ],
+        "rel_tgt": [
+            "我的空间记忆启动了，我可以继续拿起它，把它带回这里，提醒我我就是操作系统。",
+            "我的镜像神经元子系统暗示着这很快将取代手机。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG"
+        }
+    },
+    {
+        "idx": 92,
+        "src": "So if there's one idea that I could leave you with here today,  it's that the natural machine is not some figment of the future,  it's right here in 2016.",
+        "ref": "（观众鼓掌） 所以如果我今天可以留给你们 一个想法， 那就是自然机器不是 只存在于未来的想象， 它就在这里，存在于2016年。",
+        "hyp": "所以，如果今天我能留给你们一个想法，那就是自然机器不是未来的幻想，而是就在2016年。",
+        "rel_src": [
+            "MG: So folks, this is the message that I discovered in that bar in 2011:  The future of computers is not locked inside one of these screens.",
+            "It's right here, inside of us."
+        ],
+        "rel_tgt": [
+            "MG：所以，各位，这是我在2011年在酒吧里发现的信息：计算机的未来不会被锁定在这些屏幕中的任何一个。",
+            "就在我们内心深处。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG"
+        }
+    },
+    {
+        "idx": 93,
+        "src": "Which is why all hundred of us at Meta,  including the administrative staff,  the executives,  the designers, the engineers --  before TED2017,  we're all going to be throwing away our external monitors  and replacing them with a truly and profoundly more natural machine.",
+        "ref": "这就是为什么在Meta的上百名员工， 包括行政管理人员， 执行人员， 设计师，工程师—— 在TED2017之前， 我们将会扔掉我们的外接显示设备， 然后用一个真正的 更加自然的机器代替它。",
+        "hyp": "这就是为什么在Meta的我们所有百人中，包括行政人员、高管、设计师、工程师——在TED2017之前，我们都将放弃我们的外部监视器，用一个真正而深刻更加自然的机器来取代它们。",
+        "rel_src": [
+            "MG: So folks, this is the message that I discovered in that bar in 2011:  The future of computers is not locked inside one of these screens.",
+            "So if there's one idea that I could leave you with here today,  it's that the natural machine is not some figment of the future,  it's right here in 2016."
+        ],
+        "rel_tgt": [
+            "MG：所以，各位，这是我在2011年在酒吧里发现的信息：计算机的未来不会被锁定在这些屏幕中的任何一个。",
+            "所以，如果今天我能留给你们一个想法，那就是自然机器不是未来的幻想，而是就在2016年。"
+        ],
+        "hist_info": "\"Meta\" - \"Meta\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG",
+            "TED2017": "TED2017"
+        }
+    },
+    {
+        "idx": 94,
+        "src": "Thank you very much.",
+        "ref": "非常感谢。",
+        "hyp": "非常感谢。",
+        "rel_src": [
+            "Thank you.",
+            "Thanks, Ray."
+        ],
+        "rel_tgt": [
+            "谢谢。",
+            "谢谢，雷。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG",
+            "TED2017": "TED2017"
+        }
+    },
+    {
+        "idx": 95,
+        "src": "Thank you, appreciate it.",
+        "ref": "（观众鼓掌） 谢谢。",
+        "hyp": "谢谢，感谢您。",
+        "rel_src": [
+            "Thank you so much.",
+            "Thanks, Ray."
+        ],
+        "rel_tgt": [
+            "非常感谢。",
+            "谢谢，雷。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG",
+            "TED2017": "TED2017"
+        }
+    },
+    {
+        "idx": 96,
+        "src": "Thanks, guys.",
+        "ref": "谢谢大家。",
+        "hyp": "谢谢，大家。",
+        "rel_src": [
+            "Thanks, Ray.",
+            "Ray: You're welcome."
+        ],
+        "rel_tgt": [
+            "谢谢，雷。",
+            "雷：不客气。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG",
+            "TED2017": "TED2017"
+        }
+    },
+    {
+        "idx": 97,
+        "src": "Chris Anderson: So help me out on one thing,  because there've been a few augmented reality demos  shown over the last year or so out there.",
+        "ref": "克里斯·安德森：我有个问题， 去年就已经出现了很多 关于全息摄影的展示。",
+        "hyp": "Chris Anderson：所以帮我解决一个问题，因为在过去一年左右，已经有一些增强现实演示展示出来了。",
+        "rel_src": [
+            "MG: So folks, this is the message that I discovered in that bar in 2011:  The future of computers is not locked inside one of these screens.",
+            "So if there's one idea that I could leave you with here today,  it's that the natural machine is not some figment of the future,  it's right here in 2016."
+        ],
+        "rel_tgt": [
+            "MG：所以，各位，这是我在2011年在酒吧里发现的信息：计算机的未来不会被锁定在这些屏幕中的任何一个。",
+            "所以，如果今天我能留给你们一个想法，那就是自然机器不是未来的幻想，而是就在2016年。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "Chris Anderson"
+        }
+    },
+    {
+        "idx": 98,
+        "src": "And there's sometimes a debate among technologists  about, are we really seeing the real thing on-screen?",
+        "ref": "有时候有在科技领域会出现一种争论， 关于我们是不是真的在屏幕上 看到了真实的事物？",
+        "hyp": "在技术人员中有时会有关于我们是否真的在屏幕上看到真实事物的辩论。",
+        "rel_src": [
+            "MG: So folks, this is the message that I discovered in that bar in 2011:  The future of computers is not locked inside one of these screens.",
+            "It's right here, inside of us."
+        ],
+        "rel_tgt": [
+            "MG：所以，各位，这是我在2011年在酒吧里发现的信息：计算机的未来不会被锁定在这些屏幕中的任何一个。",
+            "就在我们内心深处。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "Chris Anderson"
+        }
+    },
+    {
+        "idx": 99,
+        "src": "There's this issue of field of view,  that somehow the technology is showing a broader view  than you would actually see wearing the glasses.",
+        "ref": "这是这个领域存在的一个问题， 在某种程度上来说科技 正在展现一个比你实际上 戴着眼镜看到的更广阔的视角。",
+        "hyp": "这里存在一个视野问题，技术似乎展示了比戴眼镜实际看到的更广阔的视野。",
+        "new_src_summary": "The author reflects on the impact of modern computers on human interaction, noting both the amazement and isolation they can bring. A moment in a bar illustrates this disconnect, with one group engrossed in social media and another interrupted by a friend's phone. The author advocates for a more human-centered approach to technology, emphasizing the importance of bringing people together like storytelling around a campfire. The use of machines like the Meta 2 is explored for enhancing human senses and abilities through neuroscience principles, projecting immersive holograms with potential applications in architectural design and neuroscience research. The paragraph also discusses the potential impact of technology on various professions and individuals, emphasizing the importance of creating a new reality that enhances the human experience. The focus is on developing a zero learning-curve computer system based on neuroscience principles to make technology intuitive and easy to use, with a prediction that devices will project holograms in five years. The discussion also touches on interface guidelines related to touch and social interaction in technology, emphasizing the importance of touch in understanding and controlling technology, as well as the benefits of social connection in enhancing collaboration and engagement. The overall tone is informative, enthusiastic, and forward-thinking, with a focus on the potential of incorporating neuroscience into interface design and the future of technology, particularly in the realm of human-computer interaction.",
+        "new_tgt_summary": "这段文段讨论了作者在哈莱姆一个寒冷的夜晚对计算机和神经科学的思考。作者认为现代计算机虽然令人惊叹，但存在问题，如数字信息的分离和技术的过度使用。他呼吁开始使用更加自然的机器来解决这些问题，并介绍了Meta 2这台机器在创造沉浸式全息图像方面的应用。同时强调了通过神经科学驱动设计准则来创造零学习曲线的计算机系统的重要性，探讨了使用神经科学原理的机器如何延伸我们的感官，体现了数字设备如何延伸我们的身体，并在建筑设计和神经科学研究中的应用。另外，文段还提到了“触摸即可查看”的第二个界面指南，强调了通过触摸和直接体验工作来更好地控制和理解它，以及本体感和社交互动对于视觉系统和人际关系的重要性。最后，文段也提到了通过3D交互和全息图像来增强人与人之间的联系和注意力集中，以及神经科学和思维的iOS界面的重要性，以及作者和雷之间的交流。在未来，计算机不再局限于屏幕，而是内在于我们心中。全息技术将改变人们的合作方式，并在未来取代外部监视器。在技术领域，关于增强现实是否真实的讨论也逐渐增多。最终目标是建立一个用户友好、直观的操作系统，使用户能够轻松地使用和理解系统的功能。",
+        "rel_src": [
+            "Chris Anderson: So help me out on one thing,  because there've been a few augmented reality demos  shown over the last year or so out there.",
+            "And there's sometimes a debate among technologists  about, are we really seeing the real thing on-screen?"
+        ],
+        "rel_tgt": [
+            "Chris Anderson：所以帮我解决一个问题，因为在过去一年左右，已经有一些增强现实演示展示出来了。",
+            "在技术人员中有时会有关于我们是否真的在屏幕上看到真实事物的辩论。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "Chris Anderson"
+        }
+    },
+    {
+        "idx": 100,
+        "src": "Were we seeing the real deal there?",
+        "ref": "我们刚才是不是 看到了真实的效果？",
+        "hyp": "那里我们看到了真实的东西吗？",
+        "rel_src": [
+            "Chris Anderson: So help me out on one thing,  because there've been a few augmented reality demos  shown over the last year or so out there.",
+            "And there's sometimes a debate among technologists  about, are we really seeing the real thing on-screen?"
+        ],
+        "rel_tgt": [
+            "Chris Anderson：所以帮我解决一个问题，因为在过去一年左右，已经有一些增强现实演示展示出来了。",
+            "在技术人员中有时会有关于我们是否真的在屏幕上看到真实事物的辩论。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "Chris Anderson"
+        }
+    },
+    {
+        "idx": 101,
+        "src": "MG: Absolutely the real deal.",
+        "ref": "麦龙·格里贝兹： 绝对是真实的效果。",
+        "hyp": "MG：绝对是真实的。",
+        "rel_src": [
+            "And there's sometimes a debate among technologists  about, are we really seeing the real thing on-screen?",
+            "Were we seeing the real deal there?"
+        ],
+        "rel_tgt": [
+            "在技术人员中有时会有关于我们是否真的在屏幕上看到真实事物的辩论。",
+            "那里我们看到了真实的东西吗？"
+        ],
+        "hist_info": "\"MG\" - \"MG\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "Chris Anderson"
+        }
+    },
+    {
+        "idx": 102,
+        "src": "Not only that,  we took extra measures to shoot it with a GoPro through the actual lens  in the various videos that you've seen here.",
+        "ref": "不仅如此， 我们还使用了额外的测量技术，用GoPro 通过真正的镜片去拍摄， 就得到了你们在这里看到的 各种不同的短片。",
+        "hyp": "不仅如此，我们还采取了额外措施，在您在这里看到的各种视频中通过GoPro的实际镜头进行拍摄。",
+        "rel_src": [
+            "Chris Anderson: So help me out on one thing,  because there've been a few augmented reality demos  shown over the last year or so out there.",
+            "And there's sometimes a debate among technologists  about, are we really seeing the real thing on-screen?"
+        ],
+        "rel_tgt": [
+            "Chris Anderson：所以帮我解决一个问题，因为在过去一年左右，已经有一些增强现实演示展示出来了。",
+            "在技术人员中有时会有关于我们是否真的在屏幕上看到真实事物的辩论。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "Chris Anderson"
+        }
+    },
+    {
+        "idx": 103,
+        "src": "We want to try to simulate the experience for the world  that we're actually seeing through the glasses,  and not cut any corners.",
+        "ref": "我们想通过透着眼镜看到的事物 去试着真实化这个世界的体验， 而不仅仅是看到局部。",
+        "hyp": "我们希望尽力模拟我们实际通过眼镜看到的体验，而不偷懒。",
+        "rel_src": [
+            "MG: Absolutely the real deal.",
+            "Not only that,  we took extra measures to shoot it with a GoPro through the actual lens  in the various videos that you've seen here."
+        ],
+        "rel_tgt": [
+            "MG：绝对是真实的。",
+            "不仅如此，我们还采取了额外措施，在您在这里看到的各种视频中通过GoPro的实际镜头进行拍摄。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "Chris Anderson"
+        }
+    },
+    {
+        "idx": 104,
+        "src": "CA: Thank you so much for showing us that.",
+        "ref": "CA：非常感谢你的展示。",
+        "hyp": "CA：非常感谢您向我们展示这个。",
+        "rel_src": [
+            "Thank you very much.",
+            "Thank you, appreciate it."
+        ],
+        "rel_tgt": [
+            "非常感谢。",
+            "谢谢，感谢您。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "Chris Anderson"
+        }
+    },
+    {
+        "idx": 105,
+        "src": "MG: Thanks so much, I appreciate that.",
+        "ref": "MG：非常感谢。",
+        "hyp": "MG：非常感谢，我感激不尽。",
+        "rel_src": [
+            "Thank you very much.",
+            "Thank you, appreciate it."
+        ],
+        "rel_tgt": [
+            "非常感谢。",
+            "谢谢，感谢您。"
+        ],
+        "hist_info": "\"MG\" - \"MG\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆",
+            "Columbia University": "哥伦比亚大学",
+            "Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "UCSF": "加州大学旧金山分校",
+            "humanity": "人类",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小阻力神经通路",
+            "iOS": "iOS",
+            "Tesla": "特斯拉",
+            "None": "None",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "Chris Anderson"
+        }
+    }
+]

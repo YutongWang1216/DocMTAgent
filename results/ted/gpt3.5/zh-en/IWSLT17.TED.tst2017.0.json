@@ -1,0 +1,3664 @@
+[
+    {
+        "idx": 0,
+        "src": "好吧，我要讲个故事， 是关于我们如何了解自己所知的事物。",
+        "ref": "So, this is a story  about how we know what we know.",
+        "hyp": "Okay, I'm going to tell a story about how we come to understand the things we know.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 1,
+        "src": "这个故事是关于这位女性， 娜塔莉娅·丽琴斯基。",
+        "ref": "It's a story about this woman,  Natalia Rybczynski.",
+        "hyp": "This story is about the woman, Natalie Lichinski.",
+        "rel_src": [
+            "好吧，我要讲个故事， 是关于我们如何了解自己所知的事物。"
+        ],
+        "rel_tgt": [
+            "Okay, I'm going to tell a story about how we come to understand the things we know."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski"
+        }
+    },
+    {
+        "idx": 2,
+        "src": "她是一位古生物学家， 她的专长就是到处挖掘古老的东西。",
+        "ref": "She's a paleobiologist,  which means she specializes in digging up really old dead stuff.",
+        "hyp": "She is a paleontologist, and her specialty is excavating ancient artifacts everywhere.",
+        "rel_src": [
+            "好吧，我要讲个故事， 是关于我们如何了解自己所知的事物。",
+            "这个故事是关于这位女性， 娜塔莉娅·丽琴斯基。"
+        ],
+        "rel_tgt": [
+            "Okay, I'm going to tell a story about how we come to understand the things we know.",
+            "This story is about the woman, Natalie Lichinski."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski"
+        }
+    },
+    {
+        "idx": 3,
+        "src": "娜塔莉娅·丽琴斯基： “是的，有些人叫我'死东西'博士。\"",
+        "ref": "Natalia Rybczynski: Yeah, I had someone call me \"Dr. Dead Things.\"",
+        "hyp": "Natalie Lichinski: \"Yes, some people call me 'Dr. Dead Stuff'.\"",
+        "rel_src": [
+            "这个故事是关于这位女性， 娜塔莉娅·丽琴斯基。",
+            "她是一位古生物学家， 她的专长就是到处挖掘古老的东西。"
+        ],
+        "rel_tgt": [
+            "This story is about the woman, Natalie Lichinski.",
+            "She is a paleontologist, and her specialty is excavating ancient artifacts everywhere."
+        ],
+        "hist_info": "\"娜塔莉娅·丽琴斯基\" - \"Natalie Lichinski\"",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff"
+        }
+    },
+    {
+        "idx": 4,
+        "src": "我觉得她特别有意思， 因为她挖东西的地方， 都是在高纬度的北极圈， 遥远的加拿大冻土带里。",
+        "ref": "Latif Nasser: And I think she's particularly interesting  because of where she digs that stuff up,  way above the Arctic Circle in the remote Canadian tundra.",
+        "hyp": "I find her particularly interesting because the places she excavates are all in the high latitudes of the Arctic Circle, in the remote Canadian permafrost zone.",
+        "rel_src": [
+            "她是一位古生物学家， 她的专长就是到处挖掘古老的东西。",
+            "娜塔莉娅·丽琴斯基： “是的，有些人叫我'死东西'博士。\""
+        ],
+        "rel_tgt": [
+            "She is a paleontologist, and her specialty is excavating ancient artifacts everywhere.",
+            "Natalie Lichinski: \"Yes, some people call me 'Dr. Dead Stuff'.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian"
+        }
+    },
+    {
+        "idx": 5,
+        "src": "2006年夏季的一天， 她在一个叫做法尔斯叶床的考古挖掘场， 那里离地磁北极 只有不到10纬度的距离。",
+        "ref": "Now, one summer day in 2006,  she was at a dig site called the Fyles Leaf Bed,  which is less than 10 degrees latitude away from the magnetic north pole.",
+        "hyp": "One summer day in 2006, she was at an archaeological excavation site called the Fossil Bed, which was less than 10 degrees away from the magnetic North Pole.",
+        "rel_src": [
+            "她是一位古生物学家， 她的专长就是到处挖掘古老的东西。",
+            "我觉得她特别有意思， 因为她挖东西的地方， 都是在高纬度的北极圈， 遥远的加拿大冻土带里。"
+        ],
+        "rel_tgt": [
+            "She is a paleontologist, and her specialty is excavating ancient artifacts everywhere.",
+            "I find her particularly interesting because the places she excavates are all in the high latitudes of the Arctic Circle, in the remote Canadian permafrost zone."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 6,
+        "src": "NR: “说真的， 这听起来其实没什么意思。” “你一整天都要背着包， 带着GPS导航仪和笔记本，” “一直长途跋涉， 见到可能是化石的东西就捡起来。”",
+        "ref": "NR: Really, it's not going to sound very exciting,  because it was a day of walking with your backpack and your GPS  and notebook and just picking up anything that might be a fossil.",
+        "hyp": "NR: \"To be honest, this actually doesn't sound very exciting.\" \"You have to carry a backpack all day, with a GPS navigator and notebook,\" \"travelling long distances, picking up anything that might be a fossil.\"",
+        "rel_src": [
+            "我觉得她特别有意思， 因为她挖东西的地方， 都是在高纬度的北极圈， 遥远的加拿大冻土带里。",
+            "2006年夏季的一天， 她在一个叫做法尔斯叶床的考古挖掘场， 那里离地磁北极 只有不到10纬度的距离。"
+        ],
+        "rel_tgt": [
+            "I find her particularly interesting because the places she excavates are all in the high latitudes of the Arctic Circle, in the remote Canadian permafrost zone.",
+            "One summer day in 2006, she was at an archaeological excavation site called the Fossil Bed, which was less than 10 degrees away from the magnetic North Pole."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 7,
+        "src": "然而在某一刻，她注意到了些东西。",
+        "ref": "LN: And at some point, she noticed something.",
+        "hyp": "However, at a certain moment, she noticed something.",
+        "rel_src": [
+            "我觉得她特别有意思， 因为她挖东西的地方， 都是在高纬度的北极圈， 遥远的加拿大冻土带里。",
+            "NR: “说真的， 这听起来其实没什么意思。” “你一整天都要背着包， 带着GPS导航仪和笔记本，” “一直长途跋涉， 见到可能是化石的东西就捡起来。”"
+        ],
+        "rel_tgt": [
+            "I find her particularly interesting because the places she excavates are all in the high latitudes of the Arctic Circle, in the remote Canadian permafrost zone.",
+            "NR: \"To be honest, this actually doesn't sound very exciting.\" \"You have to carry a backpack all day, with a GPS navigator and notebook,\" \"travelling long distances, picking up anything that might be a fossil.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 8,
+        "src": "“一片铁锈色的小东西，’ ”大概有我的手掌心那么大。“",
+        "ref": "NR: Rusty, kind of rust-colored,  about the size of the palm of my hand.",
+        "hyp": "\"A small rusty piece,\" about the size of my palm.\"",
+        "rel_src": [
+            "娜塔莉娅·丽琴斯基： “是的，有些人叫我'死东西'博士。\"",
+            "然而在某一刻，她注意到了些东西。"
+        ],
+        "rel_tgt": [
+            "Natalie Lichinski: \"Yes, some people call me 'Dr. Dead Stuff'.\"",
+            "However, at a certain moment, she noticed something."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 9,
+        "src": "‘它就躺在地面上。”",
+        "ref": "It was just lying on the surface.",
+        "hyp": "\"It was just lying on the ground.\"",
+        "rel_src": [
+            "然而在某一刻，她注意到了些东西。",
+            "“一片铁锈色的小东西，’ ”大概有我的手掌心那么大。“"
+        ],
+        "rel_tgt": [
+            "However, at a certain moment, she noticed something.",
+            "\"A small rusty piece,\" about the size of my palm.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 10,
+        "src": "她第一反应是，这只不过是木头碎片罢了， 因为这是人们在法尔斯叶床曾经发现过的东西—— 史前的植物体。",
+        "ref": "LN: And at first she thought it was just a splinter of wood,  because that's the sort of thing people had found  at the Fyles Leaf Bed before -- prehistoric plant parts.",
+        "hyp": "Her first reaction was that this was just a piece of wood debris, because this was something that people had once discovered at the Fossil Bed - prehistoric plant matter.",
+        "rel_src": [
+            "然而在某一刻，她注意到了些东西。",
+            "“一片铁锈色的小东西，’ ”大概有我的手掌心那么大。“"
+        ],
+        "rel_tgt": [
+            "However, at a certain moment, she noticed something.",
+            "\"A small rusty piece,\" about the size of my palm.\""
+        ],
+        "hist_info": "\"法尔斯叶床\" - \"Fossil Bed\"",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 11,
+        "src": "但是那天晚上，回到营地……",
+        "ref": "But that night, back at camp ...",
+        "hyp": "But that night, when she returned to the camp...",
+        "rel_src": [
+            "2006年夏季的一天， 她在一个叫做法尔斯叶床的考古挖掘场， 那里离地磁北极 只有不到10纬度的距离。",
+            "“一片铁锈色的小东西，’ ”大概有我的手掌心那么大。“"
+        ],
+        "rel_tgt": [
+            "One summer day in 2006, she was at an archaeological excavation site called the Fossil Bed, which was less than 10 degrees away from the magnetic North Pole.",
+            "\"A small rusty piece,\" about the size of my palm.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 12,
+        "src": "NR: “……我拿出手持显微镜，” ’我观察得更仔细了，我突然发现，“ ‘这东西看上去好像没有年轮啊。”",
+        "ref": "NR: ... I get out the hand lens,  I'm looking a little bit more closely and realizing  it doesn't quite look like this has tree rings.",
+        "hyp": "NR: \"I took out a hand-held microscope,\" \"I observed more carefully, and suddenly I realized,\" \"this thing seems to have no growth rings.\"",
+        "rel_src": [
+            "“一片铁锈色的小东西，’ ”大概有我的手掌心那么大。“",
+            "她第一反应是，这只不过是木头碎片罢了， 因为这是人们在法尔斯叶床曾经发现过的东西—— 史前的植物体。"
+        ],
+        "rel_tgt": [
+            "\"A small rusty piece,\" about the size of my palm.\"",
+            "Her first reaction was that this was just a piece of wood debris, because this was something that people had once discovered at the Fossil Bed - prehistoric plant matter."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 13,
+        "src": "\"有可能是因为保存的问题，\" \"但是它看起来真的好像……\"",
+        "ref": "Maybe it's a preservation thing,  but it looks really like ...",
+        "hyp": "\"It might be due to preservation issues,\" \"but it really looks like...\"",
+        "rel_src": [
+            "她第一反应是，这只不过是木头碎片罢了， 因为这是人们在法尔斯叶床曾经发现过的东西—— 史前的植物体。",
+            "NR: “……我拿出手持显微镜，” ’我观察得更仔细了，我突然发现，“ ‘这东西看上去好像没有年轮啊。”"
+        ],
+        "rel_tgt": [
+            "Her first reaction was that this was just a piece of wood debris, because this was something that people had once discovered at the Fossil Bed - prehistoric plant matter.",
+            "NR: \"I took out a hand-held microscope,\" \"I observed more carefully, and suddenly I realized,\" \"this thing seems to have no growth rings.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 14,
+        "src": "\"骨头。\"",
+        "ref": "bone.",
+        "hyp": "\"Bones.\"",
+        "rel_src": [
+            "她第一反应是，这只不过是木头碎片罢了， 因为这是人们在法尔斯叶床曾经发现过的东西—— 史前的植物体。",
+            "NR: “……我拿出手持显微镜，” ’我观察得更仔细了，我突然发现，“ ‘这东西看上去好像没有年轮啊。”"
+        ],
+        "rel_tgt": [
+            "Her first reaction was that this was just a piece of wood debris, because this was something that people had once discovered at the Fossil Bed - prehistoric plant matter.",
+            "NR: \"I took out a hand-held microscope,\" \"I observed more carefully, and suddenly I realized,\" \"this thing seems to have no growth rings.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 15,
+        "src": "于是在接下来的四年里， 她反反复复去到那个地点， 最终收集到了30片碎片， 都是来自同一块骨头， 其中很多碎片都非常微小。",
+        "ref": "LN: Huh. So over the next four years,  she went to that spot over and over,  and eventually collected 30 fragments of that exact same bone,  most of them really tiny.",
+        "hyp": "So, over the next four years, she repeatedly went to that location and eventually collected 30 pieces of fragments, all from the same bone, many of which were very tiny.",
+        "rel_src": [
+            "然而在某一刻，她注意到了些东西。",
+            "“一片铁锈色的小东西，’ ”大概有我的手掌心那么大。“"
+        ],
+        "rel_tgt": [
+            "However, at a certain moment, she noticed something.",
+            "\"A small rusty piece,\" about the size of my palm.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 16,
+        "src": "\"其实并不算很多。 一个小拉链袋就装得下。\"",
+        "ref": "NR: It's not a whole lot. It fits in a small Ziploc bag.",
+        "hyp": "\"It's actually not that much. A small zipper bag can hold it all.\"",
+        "rel_src": [
+            "NR: “说真的， 这听起来其实没什么意思。” “你一整天都要背着包， 带着GPS导航仪和笔记本，” “一直长途跋涉， 见到可能是化石的东西就捡起来。”",
+            "然而在某一刻，她注意到了些东西。"
+        ],
+        "rel_tgt": [
+            "NR: \"To be honest, this actually doesn't sound very exciting.\" \"You have to carry a backpack all day, with a GPS navigator and notebook,\" \"travelling long distances, picking up anything that might be a fossil.\"",
+            "However, at a certain moment, she noticed something."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 17,
+        "src": "然后她尝试像拼拼图一样把碎片都拼在一起。",
+        "ref": "LN: And she tried to piece them together like a jigsaw puzzle.",
+        "hyp": "Then she tried to piece the fragments together like a puzzle.",
+        "rel_src": [
+            "然而在某一刻，她注意到了些东西。",
+            "于是在接下来的四年里， 她反反复复去到那个地点， 最终收集到了30片碎片， 都是来自同一块骨头， 其中很多碎片都非常微小。"
+        ],
+        "rel_tgt": [
+            "However, at a certain moment, she noticed something.",
+            "So, over the next four years, she repeatedly went to that location and eventually collected 30 pieces of fragments, all from the same bone, many of which were very tiny."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 18,
+        "src": "但是这非常的有挑战性。",
+        "ref": "But it was challenging.",
+        "hyp": "But this is very challenging.",
+        "rel_src": [
+            "于是在接下来的四年里， 她反反复复去到那个地点， 最终收集到了30片碎片， 都是来自同一块骨头， 其中很多碎片都非常微小。",
+            "\"其实并不算很多。 一个小拉链袋就装得下。\""
+        ],
+        "rel_tgt": [
+            "So, over the next four years, she repeatedly went to that location and eventually collected 30 pieces of fragments, all from the same bone, many of which were very tiny.",
+            "\"It's actually not that much. A small zipper bag can hold it all.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 19,
+        "src": "\"它碎裂成 好多细小的碎片，\" \"我们尝试用沙土和油灰复原， 但是看上去很糟糕。\"",
+        "ref": "NR: It's broken up into so many little tiny pieces,  I'm trying to use sand and putty, and it's not looking good.",
+        "hyp": "\"It shattered into many small fragments,\" \"We tried to reconstruct it with sand and oil paint, but it looked terrible.\"",
+        "new_src_summary": "这个文段讲述了古生物学家娜塔莉娅·丽琴斯基在北极圈挖掘化石的故事。她在一个叫做法尔斯叶床的考古挖掘场发现了一片铁锈色的小东西，最初以为是木头碎片，但经过观察后发现可能是骨头。在接下来的四年里，她收集了30片碎片，尝试拼接成完整的骨头，面临着挑战。整个文段风格轻松幽默，语气生动有趣。",
+        "new_tgt_summary": "The paragraph discusses the story of paleontologist Natalie Lichinski, who specializes in excavating ancient artifacts in the Arctic Circle. While at an excavation site near the North Pole, she discovered what appeared to be bone fragments, which she later confirmed through careful observation. Over the course of four years, she collected and pieced together 30 fragments of the same bone, facing challenges in the process.",
+        "rel_src": [
+            "于是在接下来的四年里， 她反反复复去到那个地点， 最终收集到了30片碎片， 都是来自同一块骨头， 其中很多碎片都非常微小。",
+            "然后她尝试像拼拼图一样把碎片都拼在一起。"
+        ],
+        "rel_tgt": [
+            "So, over the next four years, she repeatedly went to that location and eventually collected 30 pieces of fragments, all from the same bone, many of which were very tiny.",
+            "Then she tried to piece the fragments together like a puzzle."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 20,
+        "src": "\"最后，我们就用了一个三维表面扫描仪。\"",
+        "ref": "So finally, we used a 3D surface scanner.",
+        "hyp": "\"Finally, we used a 3D surface scanner.\"",
+        "rel_src": [
+            "于是在接下来的四年里， 她反反复复去到那个地点， 最终收集到了30片碎片， 都是来自同一块骨头， 其中很多碎片都非常微小。",
+            "\"其实并不算很多。 一个小拉链袋就装得下。\""
+        ],
+        "rel_tgt": [
+            "So, over the next four years, she repeatedly went to that location and eventually collected 30 pieces of fragments, all from the same bone, many of which were very tiny.",
+            "\"It's actually not that much. A small zipper bag can hold it all.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 21,
+        "src": "喔喔！ \"很帅，对吧？\"",
+        "ref": "LN: Ooh! NR: Yeah, right?",
+        "hyp": "\"Oh wow! \"Very handsome, right?\"",
+        "rel_src": [
+            "NR: “说真的， 这听起来其实没什么意思。” “你一整天都要背着包， 带着GPS导航仪和笔记本，” “一直长途跋涉， 见到可能是化石的东西就捡起来。”",
+            "‘它就躺在地面上。”"
+        ],
+        "rel_tgt": [
+            "NR: \"To be honest, this actually doesn't sound very exciting.\" \"You have to carry a backpack all day, with a GPS navigator and notebook,\" \"travelling long distances, picking up anything that might be a fossil.\"",
+            "\"It was just lying on the ground.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 22,
+        "src": "最后发现， 用虚拟的方式复原要简单多了。",
+        "ref": "LN: It turns out it was way easier to do it virtually.",
+        "hyp": "Finally, it was discovered that reconstructing it virtually was much simpler.",
+        "rel_src": [
+            "\"它碎裂成 好多细小的碎片，\" \"我们尝试用沙土和油灰复原， 但是看上去很糟糕。\"",
+            "\"最后，我们就用了一个三维表面扫描仪。\""
+        ],
+        "rel_tgt": [
+            "\"It shattered into many small fragments,\" \"We tried to reconstruct it with sand and oil paint, but it looked terrible.\"",
+            "\"Finally, we used a 3D surface scanner.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 23,
+        "src": "\"当它们全部拼在一起时， 感觉真的好神奇。\"",
+        "ref": "NR: It's kind of magical when it all fits together.",
+        "hyp": "\"When they were all pieced together, it felt truly miraculous.\"",
+        "rel_src": [
+            "然后她尝试像拼拼图一样把碎片都拼在一起。",
+            "但是这非常的有挑战性。"
+        ],
+        "rel_tgt": [
+            "Then she tried to piece the fragments together like a puzzle.",
+            "But this is very challenging."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 24,
+        "src": "你有多大把握把它拼对了， 就是拼成它原本的样子？",
+        "ref": "LN: How certain were you that you had it right,  that you had put it together in the right way?",
+        "hyp": "How confident are you in piecing it together correctly, to recreate its original form?",
+        "rel_src": [
+            "于是在接下来的四年里， 她反反复复去到那个地点， 最终收集到了30片碎片， 都是来自同一块骨头， 其中很多碎片都非常微小。",
+            "\"它碎裂成 好多细小的碎片，\" \"我们尝试用沙土和油灰复原， 但是看上去很糟糕。\""
+        ],
+        "rel_tgt": [
+            "So, over the next four years, she repeatedly went to that location and eventually collected 30 pieces of fragments, all from the same bone, many of which were very tiny.",
+            "\"It shattered into many small fragments,\" \"We tried to reconstruct it with sand and oil paint, but it looked terrible.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 25,
+        "src": "有没有可能你按照另一种方式去拼， 最后拼出来……一个小鹦鹉什么的？",
+        "ref": "Was there a potential that you'd put it together a different way  and have, like, a parakeet or something?",
+        "hyp": "Is it possible for you to try piecing it together in a different way, and end up piecing together... a little parrot or something?",
+        "rel_src": [
+            "然后她尝试像拼拼图一样把碎片都拼在一起。",
+            "\"它碎裂成 好多细小的碎片，\" \"我们尝试用沙土和油灰复原， 但是看上去很糟糕。\""
+        ],
+        "rel_tgt": [
+            "Then she tried to piece the fragments together like a puzzle.",
+            "\"It shattered into many small fragments,\" \"We tried to reconstruct it with sand and oil paint, but it looked terrible.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 26,
+        "src": "\"呃，不会啦。我们肯定拼对了。\"",
+        "ref": "NR:  Um, no. No, we got this.",
+        "hyp": "\"Oh, no way. We definitely pieced it together correctly.\"",
+        "rel_src": [
+            "\"它碎裂成 好多细小的碎片，\" \"我们尝试用沙土和油灰复原， 但是看上去很糟糕。\"",
+            "\"最后，我们就用了一个三维表面扫描仪。\""
+        ],
+        "rel_tgt": [
+            "\"It shattered into many small fragments,\" \"We tried to reconstruct it with sand and oil paint, but it looked terrible.\"",
+            "\"Finally, we used a 3D surface scanner.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 27,
+        "src": "她发现她拼出来的，是一根胫骨，也就是小腿骨， 而且这根胫骨来自一种偶蹄目的哺乳动物， 例如说牛、羊之类的。",
+        "ref": "LN: What she had, she discovered, was a tibia, a leg bone,  and specifically, one that belonged to a cloven-hoofed mammal,  so something like a cow or a sheep.",
+        "hyp": "She found that what she pieced together was a tibia, also known as the shinbone, and this tibia came from an artiodactyl mammal, such as cows, sheep, and the like.",
+        "rel_src": [
+            "于是在接下来的四年里， 她反反复复去到那个地点， 最终收集到了30片碎片， 都是来自同一块骨头， 其中很多碎片都非常微小。",
+            "但是这非常的有挑战性。"
+        ],
+        "rel_tgt": [
+            "So, over the next four years, she repeatedly went to that location and eventually collected 30 pieces of fragments, all from the same bone, many of which were very tiny.",
+            "But this is very challenging."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 28,
+        "src": "但是这绝对不可能是牛或羊。",
+        "ref": "But it couldn't have been either of those.",
+        "hyp": "But this definitely cannot be a cow or a sheep.",
+        "rel_src": [
+            "\"呃，不会啦。我们肯定拼对了。\"",
+            "她发现她拼出来的，是一根胫骨，也就是小腿骨， 而且这根胫骨来自一种偶蹄目的哺乳动物， 例如说牛、羊之类的。"
+        ],
+        "rel_tgt": [
+            "\"Oh, no way. We definitely pieced it together correctly.\"",
+            "She found that what she pieced together was a tibia, also known as the shinbone, and this tibia came from an artiodactyl mammal, such as cows, sheep, and the like."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 29,
+        "src": "它实在是太大了。",
+        "ref": "It was just too big.",
+        "hyp": "It is really too big.",
+        "rel_src": [
+            "她发现她拼出来的，是一根胫骨，也就是小腿骨， 而且这根胫骨来自一种偶蹄目的哺乳动物， 例如说牛、羊之类的。",
+            "但是这绝对不可能是牛或羊。"
+        ],
+        "rel_tgt": [
+            "She found that what she pieced together was a tibia, also known as the shinbone, and this tibia came from an artiodactyl mammal, such as cows, sheep, and the like.",
+            "But this definitely cannot be a cow or a sheep."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 30,
+        "src": "“这东西的尺寸真的太大了。 这是个庞大的动物。“",
+        "ref": "NR: The size of this thing, it was huge. It's a really big animal.",
+        "hyp": "\"The size of this thing is really too big. This is a massive animal.\"",
+        "rel_src": [
+            "她发现她拼出来的，是一根胫骨，也就是小腿骨， 而且这根胫骨来自一种偶蹄目的哺乳动物， 例如说牛、羊之类的。",
+            "它实在是太大了。"
+        ],
+        "rel_tgt": [
+            "She found that what she pieced together was a tibia, also known as the shinbone, and this tibia came from an artiodactyl mammal, such as cows, sheep, and the like.",
+            "It is really too big."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 31,
+        "src": "所以它会是什么动物呢？",
+        "ref": "LN: So what animal could it be?",
+        "hyp": "So what kind of animal could it be?",
+        "rel_src": [
+            "她发现她拼出来的，是一根胫骨，也就是小腿骨， 而且这根胫骨来自一种偶蹄目的哺乳动物， 例如说牛、羊之类的。",
+            "但是这绝对不可能是牛或羊。"
+        ],
+        "rel_tgt": [
+            "She found that what she pieced together was a tibia, also known as the shinbone, and this tibia came from an artiodactyl mammal, such as cows, sheep, and the like.",
+            "But this definitely cannot be a cow or a sheep."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole"
+        }
+    },
+    {
+        "idx": 32,
+        "src": "现在遇到了瓶颈，于是她把其中一片碎片 展示给她在科罗拉多州的一些同事， 然后他们有了想法。",
+        "ref": "Having hit a wall, she showed one of the fragments  to some colleagues of hers in Colorado,  and they had an idea.",
+        "hyp": "Now facing a bottleneck, she showed one of the fragments to some colleagues in Colorado, and they came up with an idea.",
+        "rel_src": [
+            "于是在接下来的四年里， 她反反复复去到那个地点， 最终收集到了30片碎片， 都是来自同一块骨头， 其中很多碎片都非常微小。",
+            "\"最后，我们就用了一个三维表面扫描仪。\""
+        ],
+        "rel_tgt": [
+            "So, over the next four years, she repeatedly went to that location and eventually collected 30 pieces of fragments, all from the same bone, many of which were very tiny.",
+            "\"Finally, we used a 3D surface scanner.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado"
+        }
+    },
+    {
+        "idx": 33,
+        "src": "“我们用了把小锯子， 然后在碎片边角刮了一点点，“ ”然后从那里传出了一些非常神奇的气味。“",
+        "ref": "NR: We took a saw, and we nicked just the edge of it,  and there was this really interesting smell that comes from it.",
+        "hyp": "\"We used a small saw and scraped a little on the edges of the fragments,\" \"and then some very peculiar smells came from there.\"",
+        "rel_src": [
+            "\"它碎裂成 好多细小的碎片，\" \"我们尝试用沙土和油灰复原， 但是看上去很糟糕。\"",
+            "她发现她拼出来的，是一根胫骨，也就是小腿骨， 而且这根胫骨来自一种偶蹄目的哺乳动物， 例如说牛、羊之类的。"
+        ],
+        "rel_tgt": [
+            "\"It shattered into many small fragments,\" \"We tried to reconstruct it with sand and oil paint, but it looked terrible.\"",
+            "She found that what she pieced together was a tibia, also known as the shinbone, and this tibia came from an artiodactyl mammal, such as cows, sheep, and the like."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado"
+        }
+    },
+    {
+        "idx": 34,
+        "src": "它闻起来有点像烧焦的皮肤。",
+        "ref": "LN: It smelled kind of like singed flesh.",
+        "hyp": "It smelled a bit like burnt skin.",
+        "rel_src": [
+            "于是在接下来的四年里， 她反反复复去到那个地点， 最终收集到了30片碎片， 都是来自同一块骨头， 其中很多碎片都非常微小。",
+            "“我们用了把小锯子， 然后在碎片边角刮了一点点，“ ”然后从那里传出了一些非常神奇的气味。“"
+        ],
+        "rel_tgt": [
+            "So, over the next four years, she repeatedly went to that location and eventually collected 30 pieces of fragments, all from the same bone, many of which were very tiny.",
+            "\"We used a small saw and scraped a little on the edges of the fragments,\" \"and then some very peculiar smells came from there.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado"
+        }
+    },
+    {
+        "idx": 35,
+        "src": "这是一个娜塔莉娅认识的气味， 她在大体解剖实验室切割头骨时闻过， 那就是胶原蛋白。",
+        "ref": "It was a smell that Natalia recognized  from cutting up skulls in her gross anatomy lab:  collagen.",
+        "hyp": "This is a smell that Natalie is familiar with, as she has smelled it while cutting skulls in the gross anatomy lab - it is collagen.",
+        "rel_src": [
+            "“我们用了把小锯子， 然后在碎片边角刮了一点点，“ ”然后从那里传出了一些非常神奇的气味。“",
+            "它闻起来有点像烧焦的皮肤。"
+        ],
+        "rel_tgt": [
+            "\"We used a small saw and scraped a little on the edges of the fragments,\" \"and then some very peculiar smells came from there.\"",
+            "It smelled a bit like burnt skin."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie"
+        }
+    },
+    {
+        "idx": 36,
+        "src": "胶原蛋白让我们的骨头具有硬度。",
+        "ref": "Collagen is what gives structure to our bones.",
+        "hyp": "Collagen gives our bones hardness.",
+        "rel_src": [
+            "她发现她拼出来的，是一根胫骨，也就是小腿骨， 而且这根胫骨来自一种偶蹄目的哺乳动物， 例如说牛、羊之类的。",
+            "这是一个娜塔莉娅认识的气味， 她在大体解剖实验室切割头骨时闻过， 那就是胶原蛋白。"
+        ],
+        "rel_tgt": [
+            "She found that what she pieced together was a tibia, also known as the shinbone, and this tibia came from an artiodactyl mammal, such as cows, sheep, and the like.",
+            "This is a smell that Natalie is familiar with, as she has smelled it while cutting skulls in the gross anatomy lab - it is collagen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie"
+        }
+    },
+    {
+        "idx": 37,
+        "src": "一般来说，经过了那么多年， 它会自然分解。",
+        "ref": "And usually, after so many years,  it breaks down.",
+        "hyp": "Generally speaking, after so many years, it will naturally decompose.",
+        "rel_src": [
+            "\"它碎裂成 好多细小的碎片，\" \"我们尝试用沙土和油灰复原， 但是看上去很糟糕。\"",
+            "它实在是太大了。"
+        ],
+        "rel_tgt": [
+            "\"It shattered into many small fragments,\" \"We tried to reconstruct it with sand and oil paint, but it looked terrible.\"",
+            "It is really too big."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie"
+        }
+    },
+    {
+        "idx": 38,
+        "src": "然而对这个情况， 北极好像一个天然冰柜将其保存。",
+        "ref": "But in this case, the Arctic had acted like a natural freezer and preserved it.",
+        "hyp": "However, in this situation, the Arctic seems to act as a natural freezer preserving it.",
+        "rel_src": [
+            "\"最后，我们就用了一个三维表面扫描仪。\"",
+            "现在遇到了瓶颈，于是她把其中一片碎片 展示给她在科罗拉多州的一些同事， 然后他们有了想法。"
+        ],
+        "rel_tgt": [
+            "\"Finally, we used a 3D surface scanner.\"",
+            "Now facing a bottleneck, she showed one of the fragments to some colleagues in Colorado, and they came up with an idea."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie"
+        }
+    },
+    {
+        "idx": 39,
+        "src": "过了一两年时间， 娜塔莉娅去布里斯托参加一个大会， 她看到她的一个同事， 名叫麦克·巴克利， 在演示一种新技术， 他称之为“胶原蛋白指纹技术”。",
+        "ref": "Then a year or two later, Natalia was at a conference in Bristol,  and she saw that a colleague of hers named Mike Buckley  was demoing this new process that he called \"collagen fingerprinting.\"",
+        "hyp": "After a year or two, Natalie went to Bristol to attend a conference and saw one of her colleagues, named Mike Buckley, demonstrating a new technique he called \"collagen fingerprinting technology.\"",
+        "new_src_summary": "这个文段讲述了古生物学家娜塔莉娅·丽琴斯基和作者在北极圈挖掘化石的故事。娜塔莉娅在法尔斯叶床挖掘场发现了一片铁锈色的小东西，最初以为是木头碎片，但后来发现可能是骨头，并花费四年时间收集并拼接30片碎片。作者尝试使用沙土和油灰复原化石，最终通过三维表面扫描仪成功完成。最终发现化石是一根异常巨大的偶蹄目动物胫骨，具有胶原蛋白气味，推测化石在北极被保存。整体风格轻松幽默，充满神秘感，语气乐观。",
+        "new_tgt_summary": "Paleontologist Natalie Lichinski discovered bone fragments at an excavation site near the North Pole, which she painstakingly collected and pieced together over four years. Using methods like a 3D surface scanner, she reconstructed the object to reveal it was a tibia from an artiodactyl mammal, too large to be from a cow or sheep. The well-preserved bone, found in the Arctic, contained collagen indicating its age and preservation.",
+        "rel_src": [
+            "这是一个娜塔莉娅认识的气味， 她在大体解剖实验室切割头骨时闻过， 那就是胶原蛋白。",
+            "胶原蛋白让我们的骨头具有硬度。"
+        ],
+        "rel_tgt": [
+            "This is a smell that Natalie is familiar with, as she has smelled it while cutting skulls in the gross anatomy lab - it is collagen.",
+            "Collagen gives our bones hardness."
+        ],
+        "hist_info": "\"娜塔莉娅\" - \"Natalie\"",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley"
+        }
+    },
+    {
+        "idx": 40,
+        "src": "事实上，不同物种的胶原蛋白， 其结构有微小的差异， 所以如果你有 一个未知骨头的胶原蛋白信息， 你可以跟已知物种的 胶原蛋白信息进行比对， 所以谁知道呢， 也许你就找到了匹配的的信息。",
+        "ref": "It turns out that different species have slightly different structures of collagen,  so if you get a collagen profile of an unknown bone,  you can compare it to those of known species,  and, who knows, maybe you get a match.",
+        "hyp": "In fact, the collagen of different species has minor differences in structure, so if you have collagen information from an unknown bone, you can compare it with the collagen information from known species. So who knows, maybe you will find a match.",
+        "rel_src": [
+            "这是一个娜塔莉娅认识的气味， 她在大体解剖实验室切割头骨时闻过， 那就是胶原蛋白。",
+            "胶原蛋白让我们的骨头具有硬度。"
+        ],
+        "rel_tgt": [
+            "This is a smell that Natalie is familiar with, as she has smelled it while cutting skulls in the gross anatomy lab - it is collagen.",
+            "Collagen gives our bones hardness."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley"
+        }
+    },
+    {
+        "idx": 41,
+        "src": "所以她给麦克寄了一片碎片， 用联邦快递。",
+        "ref": "So she shipped him one of the fragments,  FedEx.",
+        "hyp": "So she sent a fragment to Mike using FedEx.",
+        "rel_src": [
+            "现在遇到了瓶颈，于是她把其中一片碎片 展示给她在科罗拉多州的一些同事， 然后他们有了想法。",
+            "过了一两年时间， 娜塔莉娅去布里斯托参加一个大会， 她看到她的一个同事， 名叫麦克·巴克利， 在演示一种新技术， 他称之为“胶原蛋白指纹技术”。"
+        ],
+        "rel_tgt": [
+            "Now facing a bottleneck, she showed one of the fragments to some colleagues in Colorado, and they came up with an idea.",
+            "After a year or two, Natalie went to Bristol to attend a conference and saw one of her colleagues, named Mike Buckley, demonstrating a new technique he called \"collagen fingerprinting technology.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx"
+        }
+    },
+    {
+        "idx": 42,
+        "src": "“当然啊， 你要紧盯配送进度。它很重要的啊。”",
+        "ref": "NR: Yeah, you want to track it. It's kind of important.",
+        "hyp": "\"Of course, you need to closely monitor the delivery progress. It's very important.\"",
+        "rel_src": [
+            "过了一两年时间， 娜塔莉娅去布里斯托参加一个大会， 她看到她的一个同事， 名叫麦克·巴克利， 在演示一种新技术， 他称之为“胶原蛋白指纹技术”。",
+            "事实上，不同物种的胶原蛋白， 其结构有微小的差异， 所以如果你有 一个未知骨头的胶原蛋白信息， 你可以跟已知物种的 胶原蛋白信息进行比对， 所以谁知道呢， 也许你就找到了匹配的的信息。"
+        ],
+        "rel_tgt": [
+            "After a year or two, Natalie went to Bristol to attend a conference and saw one of her colleagues, named Mike Buckley, demonstrating a new technique he called \"collagen fingerprinting technology.\"",
+            "In fact, the collagen of different species has minor differences in structure, so if you have collagen information from an unknown bone, you can compare it with the collagen information from known species. So who knows, maybe you will find a match."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx"
+        }
+    },
+    {
+        "idx": 43,
+        "src": "然后他处理了样本， 把它与37个当代已知的 哺乳动物物种相比较。",
+        "ref": "LN: And he processed it,  and compared it to 37 known and modern-day mammal species.",
+        "hyp": "He then processed the sample, comparing it to 37 known contemporary mammal species.",
+        "rel_src": [
+            "过了一两年时间， 娜塔莉娅去布里斯托参加一个大会， 她看到她的一个同事， 名叫麦克·巴克利， 在演示一种新技术， 他称之为“胶原蛋白指纹技术”。",
+            "事实上，不同物种的胶原蛋白， 其结构有微小的差异， 所以如果你有 一个未知骨头的胶原蛋白信息， 你可以跟已知物种的 胶原蛋白信息进行比对， 所以谁知道呢， 也许你就找到了匹配的的信息。"
+        ],
+        "rel_tgt": [
+            "After a year or two, Natalie went to Bristol to attend a conference and saw one of her colleagues, named Mike Buckley, demonstrating a new technique he called \"collagen fingerprinting technology.\"",
+            "In fact, the collagen of different species has minor differences in structure, so if you have collagen information from an unknown bone, you can compare it with the collagen information from known species. So who knows, maybe you will find a match."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx"
+        }
+    },
+    {
+        "idx": 44,
+        "src": "结果找到了一个配对！",
+        "ref": "And he found a match.",
+        "hyp": "A match was found!",
+        "rel_src": [
+            "事实上，不同物种的胶原蛋白， 其结构有微小的差异， 所以如果你有 一个未知骨头的胶原蛋白信息， 你可以跟已知物种的 胶原蛋白信息进行比对， 所以谁知道呢， 也许你就找到了匹配的的信息。",
+            "所以她给麦克寄了一片碎片， 用联邦快递。"
+        ],
+        "rel_tgt": [
+            "In fact, the collagen of different species has minor differences in structure, so if you have collagen information from an unknown bone, you can compare it with the collagen information from known species. So who knows, maybe you will find a match.",
+            "So she sent a fragment to Mike using FedEx."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx"
+        }
+    },
+    {
+        "idx": 45,
+        "src": "最后的结论是，娜塔莉娅 在高纬北极圈发现的 这块具有350万年历史的骨头， 是来自……",
+        "ref": "that Natalia had dug out of the High Arctic  belonged to ...",
+        "hyp": "The final conclusion is that the bone with a history of 3.5 million years, discovered by Natalie in the high latitude Arctic Circle, is from...",
+        "rel_src": [
+            "她发现她拼出来的，是一根胫骨，也就是小腿骨， 而且这根胫骨来自一种偶蹄目的哺乳动物， 例如说牛、羊之类的。",
+            "然而对这个情况， 北极好像一个天然冰柜将其保存。"
+        ],
+        "rel_tgt": [
+            "She found that what she pieced together was a tibia, also known as the shinbone, and this tibia came from an artiodactyl mammal, such as cows, sheep, and the like.",
+            "However, in this situation, the Arctic seems to act as a natural freezer preserving it."
+        ],
+        "hist_info": "\"娜塔莉娅\" - \"Natalie\"",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle"
+        }
+    },
+    {
+        "idx": 46,
+        "src": "一匹骆驼。",
+        "ref": "a camel.",
+        "hyp": "A camel.",
+        "rel_src": [
+            "但是这绝对不可能是牛或羊。",
+            "所以它会是什么动物呢？"
+        ],
+        "rel_tgt": [
+            "But this definitely cannot be a cow or a sheep.",
+            "So what kind of animal could it be?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle"
+        }
+    },
+    {
+        "idx": 47,
+        "src": "”我就在想了， 开什么玩笑啊？“ “如果我们没搞错，这真是太神奇了。”",
+        "ref": "NR: And I'm thinking, what? That's amazing -- if it's true.",
+        "hyp": "\"I was thinking, are you kidding me?\" \"If we're not mistaken, this is truly amazing.\"",
+        "rel_src": [
+            "“我们用了把小锯子， 然后在碎片边角刮了一点点，“ ”然后从那里传出了一些非常神奇的气味。“",
+            "它闻起来有点像烧焦的皮肤。"
+        ],
+        "rel_tgt": [
+            "\"We used a small saw and scraped a little on the edges of the fragments,\" \"and then some very peculiar smells came from there.\"",
+            "It smelled a bit like burnt skin."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle"
+        }
+    },
+    {
+        "idx": 48,
+        "src": "所以他们测试了一大堆碎片， 对每个碎片都得到了相同的结果。",
+        "ref": "LN: So they tested a bunch of the fragments,  and they got the same result for each one.",
+        "hyp": "So they tested a large pile of fragments and got the same result for each one.",
+        "rel_src": [
+            "然后他处理了样本， 把它与37个当代已知的 哺乳动物物种相比较。",
+            "结果找到了一个配对！"
+        ],
+        "rel_tgt": [
+            "He then processed the sample, comparing it to 37 known contemporary mammal species.",
+            "A match was found!"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle"
+        }
+    },
+    {
+        "idx": 49,
+        "src": "然而，根据他们发现的 那块骨头的大小来判断， 这意味着这匹骆驼比现代骆驼大了30%。",
+        "ref": "However, based on the size of the bone that they found,  it meant that this camel was 30 percent larger than modern-day camels.",
+        "hyp": "However, based on the size of the bone they discovered, this means that this camel was 30% larger than modern camels.",
+        "rel_src": [
+            "最后的结论是，娜塔莉娅 在高纬北极圈发现的 这块具有350万年历史的骨头， 是来自……",
+            "一匹骆驼。"
+        ],
+        "rel_tgt": [
+            "The final conclusion is that the bone with a history of 3.5 million years, discovered by Natalie in the high latitude Arctic Circle, is from...",
+            "A camel."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle"
+        }
+    },
+    {
+        "idx": 50,
+        "src": "那么这匹骆驼大概2.7米那么高， 而且重达一吨。",
+        "ref": "So this camel would have been about nine feet tall,  weighed around a ton.",
+        "hyp": "So this camel was probably about 2.7 meters tall and weighed a ton.",
+        "rel_src": [
+            "最后的结论是，娜塔莉娅 在高纬北极圈发现的 这块具有350万年历史的骨头， 是来自……",
+            "然而，根据他们发现的 那块骨头的大小来判断， 这意味着这匹骆驼比现代骆驼大了30%。"
+        ],
+        "rel_tgt": [
+            "The final conclusion is that the bone with a history of 3.5 million years, discovered by Natalie in the high latitude Arctic Circle, is from...",
+            "However, based on the size of the bone they discovered, this means that this camel was 30% larger than modern camels."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle"
+        }
+    },
+    {
+        "idx": 51,
+        "src": "（惊呼） 对啊。",
+        "ref": "Yeah.",
+        "hyp": "(Exclaiming) Yes.",
+        "rel_src": [
+            "一匹骆驼。",
+            "”我就在想了， 开什么玩笑啊？“ “如果我们没搞错，这真是太神奇了。”"
+        ],
+        "rel_tgt": [
+            "A camel.",
+            "\"I was thinking, are you kidding me?\" \"If we're not mistaken, this is truly amazing.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle"
+        }
+    },
+    {
+        "idx": 52,
+        "src": "娜塔莉娅发现了一匹“北极巨驼”。",
+        "ref": "Natalia had found a Giant Arctic camel.",
+        "hyp": "Natalie discovered a \"giant Arctic camel\".",
+        "rel_src": [
+            "最后的结论是，娜塔莉娅 在高纬北极圈发现的 这块具有350万年历史的骨头， 是来自……",
+            "然而，根据他们发现的 那块骨头的大小来判断， 这意味着这匹骆驼比现代骆驼大了30%。"
+        ],
+        "rel_tgt": [
+            "The final conclusion is that the bone with a history of 3.5 million years, discovered by Natalie in the high latitude Arctic Circle, is from...",
+            "However, based on the size of the bone they discovered, this means that this camel was 30% larger than modern camels."
+        ],
+        "hist_info": "\"娜塔莉娅\" - \"Natalie\"",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle"
+        }
+    },
+    {
+        "idx": 53,
+        "src": "现在你听到“骆驼”一词， 脑海里浮现的是这样的画面： 东亚和中亚地区的双峰驼。",
+        "ref": "Now, when you hear the word \"camel,\"  what may come to mind is one of these,  the Bactrian camel of East and Central Asia.",
+        "hyp": "Now when you hear the word \"camel\", the image that comes to mind is the Bactrian camels from East Asia and Central Asia.",
+        "rel_src": [
+            "一匹骆驼。",
+            "娜塔莉娅发现了一匹“北极巨驼”。"
+        ],
+        "rel_tgt": [
+            "A camel.",
+            "Natalie discovered a \"giant Arctic camel\"."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle"
+        }
+    },
+    {
+        "idx": 54,
+        "src": "但更有可能的是，你脑海里的图像 画风更像这样：单峰骆驼， 典型的沙漠动物， 常常出没在炎热沙漠地带， 例如说中东或撒哈拉地区， 背上有一个超大的驼峰， 让它为沙漠中的长途跋涉储存水分， 还有宽大的脚掌，帮助他们踏过沙丘。",
+        "ref": "But chances are the postcard image you have in your brain  is one of these, the dromedary,  quintessential desert creature --  hangs out in sandy, hot places like the Middle East and the Sahara,  has a big old hump on its back  for storing water for those long desert treks,  has big, broad feet to help it tromp over sand dunes.",
+        "hyp": "But more likely, the image in your mind resembles this: a dromedary camel, a typical desert animal, often found in hot desert areas such as the Middle East or the Sahara, with a large hump on its back to store water for long desert journeys, and wide hooves to help them traverse sand dunes.",
+        "rel_src": [
+            "然而，根据他们发现的 那块骨头的大小来判断， 这意味着这匹骆驼比现代骆驼大了30%。",
+            "那么这匹骆驼大概2.7米那么高， 而且重达一吨。"
+        ],
+        "rel_tgt": [
+            "However, based on the size of the bone they discovered, this means that this camel was 30% larger than modern camels.",
+            "So this camel was probably about 2.7 meters tall and weighed a ton."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle"
+        }
+    },
+    {
+        "idx": 55,
+        "src": "所以这些家伙们到底是怎么 跑到高纬北极圈去的呢？",
+        "ref": "So how on earth would one of these guys end up in the High Arctic?",
+        "hyp": "So how did these guys end up running to the high latitude Arctic Circle?",
+        "rel_src": [
+            "最后的结论是，娜塔莉娅 在高纬北极圈发现的 这块具有350万年历史的骨头， 是来自……",
+            "娜塔莉娅发现了一匹“北极巨驼”。"
+        ],
+        "rel_tgt": [
+            "The final conclusion is that the bone with a history of 3.5 million years, discovered by Natalie in the high latitude Arctic Circle, is from...",
+            "Natalie discovered a \"giant Arctic camel\"."
+        ],
+        "hist_info": "\"高纬北极圈\" - \"high latitude Arctic Circle\"",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle"
+        }
+    },
+    {
+        "idx": 56,
+        "src": "其实科学家早就知道了， 在娜塔莉娅的发现之前就知道， 骆驼最早是从美洲发源的。",
+        "ref": "Well, scientists have known for a long time, turns out,  even before Natalia's discovery,  that camels are actually originally American.",
+        "hyp": "In fact, scientists have long known that camels originated from the Americas before Natalie's discovery.",
+        "rel_src": [
+            "然而，根据他们发现的 那块骨头的大小来判断， 这意味着这匹骆驼比现代骆驼大了30%。",
+            "娜塔莉娅发现了一匹“北极巨驼”。"
+        ],
+        "rel_tgt": [
+            "However, based on the size of the bone they discovered, this means that this camel was 30% larger than modern camels.",
+            "Natalie discovered a \"giant Arctic camel\"."
+        ],
+        "hist_info": "\"娜塔莉娅\" - \"Natalie\"",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas"
+        }
+    },
+    {
+        "idx": 57,
+        "src": "（音乐：美国国歌《星条旗之歌》）  他们发源于这里。",
+        "ref": "They started here.",
+        "hyp": "(Music: American national anthem \"The Star-Spangled Banner\") They originated from here.",
+        "rel_src": [
+            "娜塔莉娅发现了一匹“北极巨驼”。",
+            "其实科学家早就知道了， 在娜塔莉娅的发现之前就知道， 骆驼最早是从美洲发源的。"
+        ],
+        "rel_tgt": [
+            "Natalie discovered a \"giant Arctic camel\".",
+            "In fact, scientists have long known that camels originated from the Americas before Natalie's discovery."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner"
+        }
+    },
+    {
+        "idx": 58,
+        "src": "骆驼们所存在的4500万年里，有4000万年的时间 你只可能在北美洲找到它们， 总共有20种不同的物种，或许比这更多。",
+        "ref": "For nearly 40 of the 45 million years that camels have been around,  you could only find them in North America,  around 20 different species, maybe more.",
+        "hyp": "During the 45 million years of existence of camels, for 40 million years, you could only find them in North America, with a total of 20 different species, perhaps even more.",
+        "rel_src": [
+            "事实上，不同物种的胶原蛋白， 其结构有微小的差异， 所以如果你有 一个未知骨头的胶原蛋白信息， 你可以跟已知物种的 胶原蛋白信息进行比对， 所以谁知道呢， 也许你就找到了匹配的的信息。",
+            "其实科学家早就知道了， 在娜塔莉娅的发现之前就知道， 骆驼最早是从美洲发源的。"
+        ],
+        "rel_tgt": [
+            "In fact, the collagen of different species has minor differences in structure, so if you have collagen information from an unknown bone, you can compare it with the collagen information from known species. So who knows, maybe you will find a match.",
+            "In fact, scientists have long known that camels originated from the Americas before Natalie's discovery."
+        ],
+        "hist_info": "\"美洲\" - \"Americas\"",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America"
+        }
+    },
+    {
+        "idx": 59,
+        "src": "“如果我们把它们排成一列， 它们看上去会有不同吗？”",
+        "ref": "LN: If I put them all in a lineup, would they look different?",
+        "hyp": "\"If we line them up, will they look different?\"",
+        "new_src_summary": "古生物学家娜塔莉娅·丽琴斯基和作者在北极圈挖掘化石的故事。娜塔莉娅在法尔斯叶床挖掘场发现了一片铁锈色的小东西，最初以为是木头碎片，但后来发现可能是骨头，并花费四年时间收集并拼接30片碎片。作者尝试使用沙土和油灰复原化石，最终通过三维表面扫描仪成功完成。最终发现化石是一根异常巨大的偶蹄目动物胫骨，具有胶原蛋白气味，推测化石在北极被保存。娜塔莉娅在参加一个大会时，通过麦克·巴克利展示的“胶原蛋白指纹技术”发现了一块具有350万年历史的骨头，最终确认是来自一匹体型比现代骆驼大30%的“北极巨驼”。整体风格轻松幽默，充满神秘感，语气乐观，同时介绍了骆驼起源于美洲，存在了4500万年，且在北美洲有20种以上不同的物种。",
+        "new_tgt_summary": "Paleontologist Natalie Lichinski discovered bone fragments at an excavation site near the North Pole, which she painstakingly collected and pieced together over four years. Using methods like a 3D surface scanner, she reconstructed the object to reveal it was a tibia from an artiodactyl mammal, too large to be from a cow or sheep. The well-preserved bone, found in the Arctic, contained collagen indicating its age and preservation. After attending a conference in Bristol, Natalie learned about collagen fingerprinting technology from her colleague Mike Buckley. She sent him a bone fragment from the Arctic Circle, which was determined to be from a giant camel, larger than modern camels. Camels originated in North America before migrating to other parts of the world.",
+        "rel_src": [
+            "事实上，不同物种的胶原蛋白， 其结构有微小的差异， 所以如果你有 一个未知骨头的胶原蛋白信息， 你可以跟已知物种的 胶原蛋白信息进行比对， 所以谁知道呢， 也许你就找到了匹配的的信息。",
+            "所以他们测试了一大堆碎片， 对每个碎片都得到了相同的结果。"
+        ],
+        "rel_tgt": [
+            "In fact, the collagen of different species has minor differences in structure, so if you have collagen information from an unknown bone, you can compare it with the collagen information from known species. So who knows, maybe you will find a match.",
+            "So they tested a large pile of fragments and got the same result for each one."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America"
+        }
+    },
+    {
+        "idx": 60,
+        "src": "“会啊，他们的身体大小差异很大。”",
+        "ref": "NR: Yeah, you're going to have different body sizes.",
+        "hyp": "\"Yes, their body sizes vary greatly.\"",
+        "rel_src": [
+            "然而，根据他们发现的 那块骨头的大小来判断， 这意味着这匹骆驼比现代骆驼大了30%。",
+            "那么这匹骆驼大概2.7米那么高， 而且重达一吨。"
+        ],
+        "rel_tgt": [
+            "However, based on the size of the bone they discovered, this means that this camel was 30% larger than modern camels.",
+            "So this camel was probably about 2.7 meters tall and weighed a ton."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America"
+        }
+    },
+    {
+        "idx": 61,
+        "src": "”有一些的脖子特别长，“ ”所以它们功能上很像长颈鹿。“",
+        "ref": "You'll have some with really long necks,  so they're actually functionally like giraffes.",
+        "hyp": "\"Some of them have especially long necks,\" \"so functionally they are very similar to giraffes.\"",
+        "rel_src": [
+            "但更有可能的是，你脑海里的图像 画风更像这样：单峰骆驼， 典型的沙漠动物， 常常出没在炎热沙漠地带， 例如说中东或撒哈拉地区， 背上有一个超大的驼峰， 让它为沙漠中的长途跋涉储存水分， 还有宽大的脚掌，帮助他们踏过沙丘。",
+            "“会啊，他们的身体大小差异很大。”"
+        ],
+        "rel_tgt": [
+            "But more likely, the image in your mind resembles this: a dromedary camel, a typical desert animal, often found in hot desert areas such as the Middle East or the Sahara, with a large hump on its back to store water for long desert journeys, and wide hooves to help them traverse sand dunes.",
+            "\"Yes, their body sizes vary greatly.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America"
+        }
+    },
+    {
+        "idx": 62,
+        "src": "有些还有长鼻子，像鳄鱼一样。",
+        "ref": "LN: Some had snouts, like crocodiles.",
+        "hyp": "Some of them also have long noses, like crocodiles.",
+        "rel_src": [
+            "但更有可能的是，你脑海里的图像 画风更像这样：单峰骆驼， 典型的沙漠动物， 常常出没在炎热沙漠地带， 例如说中东或撒哈拉地区， 背上有一个超大的驼峰， 让它为沙漠中的长途跋涉储存水分， 还有宽大的脚掌，帮助他们踏过沙丘。",
+            "”有一些的脖子特别长，“ ”所以它们功能上很像长颈鹿。“"
+        ],
+        "rel_tgt": [
+            "But more likely, the image in your mind resembles this: a dromedary camel, a typical desert animal, often found in hot desert areas such as the Middle East or the Sahara, with a large hump on its back to store water for long desert journeys, and wide hooves to help them traverse sand dunes.",
+            "\"Some of them have especially long necks,\" \"so functionally they are very similar to giraffes.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America"
+        }
+    },
+    {
+        "idx": 63,
+        "src": "“它们特别原始， 最早的一些可能非常小，” ”几乎像一只小兔子了。“",
+        "ref": "NR: The really primitive, early ones would have been really small,  almost like rabbits.",
+        "hyp": "\"They are particularly primitive, with some of the earliest ones possibly very small,\" \"almost like a small rabbit.\"",
+        "rel_src": [
+            "骆驼们所存在的4500万年里，有4000万年的时间 你只可能在北美洲找到它们， 总共有20种不同的物种，或许比这更多。",
+            "有些还有长鼻子，像鳄鱼一样。"
+        ],
+        "rel_tgt": [
+            "During the 45 million years of existence of camels, for 40 million years, you could only find them in North America, with a total of 20 different species, perhaps even more.",
+            "Some of them also have long noses, like crocodiles."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America"
+        }
+    },
+    {
+        "idx": 64,
+        "src": "什么？兔子大小的骆驼？",
+        "ref": "LN: What? Rabbit-sized camels?",
+        "hyp": "What? A camel the size of a rabbit?",
+        "rel_src": [
+            "然而，根据他们发现的 那块骨头的大小来判断， 这意味着这匹骆驼比现代骆驼大了30%。",
+            "“它们特别原始， 最早的一些可能非常小，” ”几乎像一只小兔子了。“"
+        ],
+        "rel_tgt": [
+            "However, based on the size of the bone they discovered, this means that this camel was 30% larger than modern camels.",
+            "\"They are particularly primitive, with some of the earliest ones possibly very small,\" \"almost like a small rabbit.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America"
+        }
+    },
+    {
+        "idx": 65,
+        "src": "“最早的一些是的。”",
+        "ref": "NR: The earliest ones.",
+        "hyp": "\"Some of the earliest ones were.\"",
+        "rel_src": [
+            "“它们特别原始， 最早的一些可能非常小，” ”几乎像一只小兔子了。“",
+            "什么？兔子大小的骆驼？"
+        ],
+        "rel_tgt": [
+            "\"They are particularly primitive, with some of the earliest ones possibly very small,\" \"almost like a small rabbit.\"",
+            "What? A camel the size of a rabbit?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America"
+        }
+    },
+    {
+        "idx": 66,
+        "src": "”那些你可能都认不出来了。“",
+        "ref": "So those ones you probably would not recognize.",
+        "hyp": "\"You might not even recognize them anymore.\"",
+        "rel_src": [
+            "“如果我们把它们排成一列， 它们看上去会有不同吗？”",
+            "“会啊，他们的身体大小差异很大。”"
+        ],
+        "rel_tgt": [
+            "\"If we line them up, will they look different?\"",
+            "\"Yes, their body sizes vary greatly.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America"
+        }
+    },
+    {
+        "idx": 67,
+        "src": "我的天啊， 我好想要只“兔骆驼”做宠物！",
+        "ref": "LN: Oh my God, I want a pet rabbit-camel.",
+        "hyp": "Oh my goodness, I really want a \"rabbit camel\" as a pet!",
+        "rel_src": [
+            "“它们特别原始， 最早的一些可能非常小，” ”几乎像一只小兔子了。“",
+            "什么？兔子大小的骆驼？"
+        ],
+        "rel_tgt": [
+            "\"They are particularly primitive, with some of the earliest ones possibly very small,\" \"almost like a small rabbit.\"",
+            "What? A camel the size of a rabbit?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America"
+        }
+    },
+    {
+        "idx": 68,
+        "src": "“我知道啊， 这一定会很棒的吧？”",
+        "ref": "NR: I know, wouldn't that be great?",
+        "hyp": "\"I know, this must be great, right?\"",
+        "rel_src": [
+            "（惊呼） 对啊。",
+            "我的天啊， 我好想要只“兔骆驼”做宠物！"
+        ],
+        "rel_tgt": [
+            "(Exclaiming) Yes.",
+            "Oh my goodness, I really want a \"rabbit camel\" as a pet!"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America"
+        }
+    },
+    {
+        "idx": 69,
+        "src": "然后大约300万到700万年前， 骆驼的一个分支 向南迁徙到了南美洲， 它们在那里演化成美洲驼或者羊驼， 另外一个分支跨过了白令陆桥， 到达了亚洲与非洲。",
+        "ref": "LN: And then about three to seven million years ago,  one branch of camels went down to South America,  where they became llamas and alpacas,  and another branch crossed over the Bering Land Bridge  into Asia and Africa.",
+        "hyp": "Then, around 3 to 7 million years ago, a branch of camels migrated south to South America, where they evolved into llamas or alpacas, while another branch crossed the Bering Land Bridge to reach Asia and Africa.",
+        "rel_src": [
+            "其实科学家早就知道了， 在娜塔莉娅的发现之前就知道， 骆驼最早是从美洲发源的。",
+            "骆驼们所存在的4500万年里，有4000万年的时间 你只可能在北美洲找到它们， 总共有20种不同的物种，或许比这更多。"
+        ],
+        "rel_tgt": [
+            "In fact, scientists have long known that camels originated from the Americas before Natalie's discovery.",
+            "During the 45 million years of existence of camels, for 40 million years, you could only find them in North America, with a total of 20 different species, perhaps even more."
+        ],
+        "hist_info": "\"美洲\" - \"Americas\"",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge"
+        }
+    },
+    {
+        "idx": 70,
+        "src": "大概在最后一个冰川纪的末尾， 北美的骆驼彻底灭绝了。",
+        "ref": "And then around the end of the last ice age,  North American camels went extinct.",
+        "hyp": "By the end of the last Ice Age, camels in North America became completely extinct.",
+        "rel_src": [
+            "其实科学家早就知道了， 在娜塔莉娅的发现之前就知道， 骆驼最早是从美洲发源的。",
+            "然后大约300万到700万年前， 骆驼的一个分支 向南迁徙到了南美洲， 它们在那里演化成美洲驼或者羊驼， 另外一个分支跨过了白令陆桥， 到达了亚洲与非洲。"
+        ],
+        "rel_tgt": [
+            "In fact, scientists have long known that camels originated from the Americas before Natalie's discovery.",
+            "Then, around 3 to 7 million years ago, a branch of camels migrated south to South America, where they evolved into llamas or alpacas, while another branch crossed the Bering Land Bridge to reach Asia and Africa."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America"
+        }
+    },
+    {
+        "idx": 71,
+        "src": "那么，科学家早都知道这些了， 但是这并不能完全解释娜塔莉娅 怎么在那么北的地方发现骆驼的。",
+        "ref": "So, scientists knew all of that already,  but it still doesn't fully explain how Natalia found one so far north.",
+        "hyp": "So, scientists have long known about these, but this does not fully explain how Natalie found camels in such a northern location.",
+        "rel_src": [
+            "其实科学家早就知道了， 在娜塔莉娅的发现之前就知道， 骆驼最早是从美洲发源的。",
+            "然后大约300万到700万年前， 骆驼的一个分支 向南迁徙到了南美洲， 它们在那里演化成美洲驼或者羊驼， 另外一个分支跨过了白令陆桥， 到达了亚洲与非洲。"
+        ],
+        "rel_tgt": [
+            "In fact, scientists have long known that camels originated from the Americas before Natalie's discovery.",
+            "Then, around 3 to 7 million years ago, a branch of camels migrated south to South America, where they evolved into llamas or alpacas, while another branch crossed the Bering Land Bridge to reach Asia and Africa."
+        ],
+        "hist_info": "\"娜塔莉娅\" - \"Natalie\"",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America"
+        }
+    },
+    {
+        "idx": 72,
+        "src": "这里，从温度的角度来说， 简直就是撒哈拉的反义词。",
+        "ref": "Like, this is, temperature-wise, the polar opposite of the Sahara.",
+        "hyp": "Here, from a temperature perspective, it's basically the opposite of the Sahara.",
+        "rel_src": [
+            "但更有可能的是，你脑海里的图像 画风更像这样：单峰骆驼， 典型的沙漠动物， 常常出没在炎热沙漠地带， 例如说中东或撒哈拉地区， 背上有一个超大的驼峰， 让它为沙漠中的长途跋涉储存水分， 还有宽大的脚掌，帮助他们踏过沙丘。",
+            "所以这些家伙们到底是怎么 跑到高纬北极圈去的呢？"
+        ],
+        "rel_tgt": [
+            "But more likely, the image in your mind resembles this: a dromedary camel, a typical desert animal, often found in hot desert areas such as the Middle East or the Sahara, with a large hump on its back to store water for long desert journeys, and wide hooves to help them traverse sand dunes.",
+            "So how did these guys end up running to the high latitude Arctic Circle?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America"
+        }
+    },
+    {
+        "idx": 73,
+        "src": "实话实说， 350万年以前的时候， 当时平均气温比现在高了22摄氏度。",
+        "ref": "Now to be fair,  three and a half million years ago,  it was on average 22 degrees Celsius warmer than it is now.",
+        "hyp": "To tell the truth, 3.5 million years ago, the average temperature was 22 degrees Celsius higher than it is now.",
+        "rel_src": [
+            "然后大约300万到700万年前， 骆驼的一个分支 向南迁徙到了南美洲， 它们在那里演化成美洲驼或者羊驼， 另外一个分支跨过了白令陆桥， 到达了亚洲与非洲。",
+            "那么，科学家早都知道这些了， 但是这并不能完全解释娜塔莉娅 怎么在那么北的地方发现骆驼的。"
+        ],
+        "rel_tgt": [
+            "Then, around 3 to 7 million years ago, a branch of camels migrated south to South America, where they evolved into llamas or alpacas, while another branch crossed the Bering Land Bridge to reach Asia and Africa.",
+            "So, scientists have long known about these, but this does not fully explain how Natalie found camels in such a northern location."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America"
+        }
+    },
+    {
+        "idx": 74,
+        "src": "所以那里可以算是一个北部森林， 有点像今天的育空河流域 或者是西伯利亚。",
+        "ref": "So it would have been boreal forest,  so more like the Yukon or Siberia today.",
+        "hyp": "So that could be considered a northern forest, somewhat like today's Yukon River basin or Siberia.",
+        "rel_src": [
+            "所以这些家伙们到底是怎么 跑到高纬北极圈去的呢？",
+            "那么，科学家早都知道这些了， 但是这并不能完全解释娜塔莉娅 怎么在那么北的地方发现骆驼的。"
+        ],
+        "rel_tgt": [
+            "So how did these guys end up running to the high latitude Arctic Circle?",
+            "So, scientists have long known about these, but this does not fully explain how Natalie found camels in such a northern location."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America"
+        }
+    },
+    {
+        "idx": 75,
+        "src": "但是，它们还是有六个月长的冬天， 所有的池塘都会被冰封。",
+        "ref": "But still, like, they would have six-month-long winters  where the ponds would freeze over.",
+        "hyp": "However, they still have a six-month long winter, and all the ponds will be frozen.",
+        "rel_src": [
+            "这里，从温度的角度来说， 简直就是撒哈拉的反义词。",
+            "实话实说， 350万年以前的时候， 当时平均气温比现在高了22摄氏度。"
+        ],
+        "rel_tgt": [
+            "Here, from a temperature perspective, it's basically the opposite of the Sahara.",
+            "To tell the truth, 3.5 million years ago, the average temperature was 22 degrees Celsius higher than it is now."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America"
+        }
+    },
+    {
+        "idx": 76,
+        "src": "你会遇到暴风雪。",
+        "ref": "You'd have blizzards.",
+        "hyp": "You will encounter a snowstorm.",
+        "rel_src": [
+            "所以那里可以算是一个北部森林， 有点像今天的育空河流域 或者是西伯利亚。",
+            "但是，它们还是有六个月长的冬天， 所有的池塘都会被冰封。"
+        ],
+        "rel_tgt": [
+            "So that could be considered a northern forest, somewhat like today's Yukon River basin or Siberia.",
+            "However, they still have a six-month long winter, and all the ponds will be frozen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America"
+        }
+    },
+    {
+        "idx": 77,
+        "src": "你会遇到连续24小时的黑夜。",
+        "ref": "You'd have 24 hours a day of straight darkness.",
+        "hyp": "You will encounter 24 hours of continuous darkness.",
+        "rel_src": [
+            "但是，它们还是有六个月长的冬天， 所有的池塘都会被冰封。",
+            "你会遇到暴风雪。"
+        ],
+        "rel_tgt": [
+            "However, they still have a six-month long winter, and all the ponds will be frozen.",
+            "You will encounter a snowstorm."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America"
+        }
+    },
+    {
+        "idx": 78,
+        "src": "到底……到底怎么回事？",
+        "ref": "Like, how ... How?",
+        "hyp": "What on earth... what is going on?",
+        "rel_src": [
+            "那么，科学家早都知道这些了， 但是这并不能完全解释娜塔莉娅 怎么在那么北的地方发现骆驼的。",
+            "这里，从温度的角度来说， 简直就是撒哈拉的反义词。"
+        ],
+        "rel_tgt": [
+            "So, scientists have long known about these, but this does not fully explain how Natalie found camels in such a northern location.",
+            "Here, from a temperature perspective, it's basically the opposite of the Sahara."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America"
+        }
+    },
+    {
+        "idx": 79,
+        "src": "这些撒哈拉沙漠的超级明星 怎么可能在这种严寒条件存活的？",
+        "ref": "How is it that one of these Saharan superstars  could ever have survived those arctic conditions?",
+        "hyp": "How could these superstars of the Sahara Desert possibly survive in such harsh conditions?",
+        "new_src_summary": "古生物学家娜塔莉娅·丽琴斯基和作者在北极圈挖掘化石的故事。娜塔莉娅在法尔斯叶床挖掘场发现了一片铁锈色的小东西，最初以为是木头碎片，但后来发现可能是骨头，并花费四年时间收集并拼接30片碎片。作者尝试使用沙土和油灰复原化石，最终通过三维表面扫描仪成功完成。最终发现化石是一根异常巨大的偶蹄目动物胫骨，具有胶原蛋白气味，推测化石在北极被保存。娜塔莉娅在参加一个大会时，通过麦克·巴克利展示的“胶原蛋白指纹技术”发现了一块具有350万年历史的骨头，最终确认是来自一匹体型比现代骆驼大30%的“北极巨骆驼”。整体风格轻松幽默，充满神秘感，语气乐观，同时介绍了骆驼起源于美洲，存在了4500万年，且在北美洲有20种以上不同的物种。文中还描述了骆驼的演化历史和它们在不同地区的分布情况，揭示了骆驼种群的演化和迁徙过程。作者通过对北美地区气候环境的描述，探讨了骆驼在寒冷气候下生存的可能性，展示了对骆驼演化历史的浓厚兴趣。",
+        "new_tgt_summary": "Paleontologist Natalie Lichinski discovered bone fragments at an excavation site near the North Pole, which she painstakingly collected and pieced together over four years. Using methods like a 3D surface scanner, she reconstructed the object to reveal it was a tibia from an artiodactyl mammal, too large to be from a cow or sheep. The well-preserved bone, found in the Arctic, contained collagen indicating its age and preservation. After attending a conference in Bristol, Natalie learned about collagen fingerprinting technology from her colleague Mike Buckley. She sent him a bone fragment from the Arctic Circle, which was determined to be from a giant camel, larger than modern camels. Camels originated in North America before migrating to other parts of the world. The paragraph also discusses the variation in body sizes and features of camels, including long necks and noses, as well as their evolution into llamas and alpacas in South America. It mentions the extinction of camels in North America and the discovery of camels in a northern location, highlighting the extreme climate changes in the past and the challenging conditions camels faced in such environments.",
+        "rel_src": [
+            "这里，从温度的角度来说， 简直就是撒哈拉的反义词。",
+            "实话实说， 350万年以前的时候， 当时平均气温比现在高了22摄氏度。"
+        ],
+        "rel_tgt": [
+            "Here, from a temperature perspective, it's basically the opposite of the Sahara.",
+            "To tell the truth, 3.5 million years ago, the average temperature was 22 degrees Celsius higher than it is now."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 80,
+        "src": "娜塔莉娅和她的同事们 觉得他们找到了答案。",
+        "ref": "Natalia and her colleagues think they have an answer.",
+        "hyp": "Natalie and her colleagues felt they had found the answer.",
+        "rel_src": [
+            "那么，科学家早都知道这些了， 但是这并不能完全解释娜塔莉娅 怎么在那么北的地方发现骆驼的。",
+            "这里，从温度的角度来说， 简直就是撒哈拉的反义词。"
+        ],
+        "rel_tgt": [
+            "So, scientists have long known about these, but this does not fully explain how Natalie found camels in such a northern location.",
+            "Here, from a temperature perspective, it's basically the opposite of the Sahara."
+        ],
+        "hist_info": "\"娜塔莉娅\" - \"Natalie\"",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 81,
+        "src": "而且这个答案相当机智。",
+        "ref": "And it's kind of brilliant.",
+        "hyp": "And this answer is quite clever.",
+        "rel_src": [
+            "这些撒哈拉沙漠的超级明星 怎么可能在这种严寒条件存活的？",
+            "娜塔莉娅和她的同事们 觉得他们找到了答案。"
+        ],
+        "rel_tgt": [
+            "How could these superstars of the Sahara Desert possibly survive in such harsh conditions?",
+            "Natalie and her colleagues felt they had found the answer."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 82,
+        "src": "假如说骆驼的这些特性 不像我们所认为的那样， 是为了适应撒哈拉 那样的环境而产生， 而是因为要度过严冬 才演化出来的呢？",
+        "ref": "What if the very features that we imagine make the camel so well-suited  to places like the Sahara,  actually evolved to help it get through the winter?",
+        "hyp": "What if these characteristics of camels did not evolve to adapt to environments like the Sahara, as we originally thought, but rather developed to survive harsh winters?",
+        "rel_src": [
+            "实话实说， 350万年以前的时候， 当时平均气温比现在高了22摄氏度。",
+            "但是，它们还是有六个月长的冬天， 所有的池塘都会被冰封。"
+        ],
+        "rel_tgt": [
+            "To tell the truth, 3.5 million years ago, the average temperature was 22 degrees Celsius higher than it is now.",
+            "However, they still have a six-month long winter, and all the ponds will be frozen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 83,
+        "src": "假如说那些宽大的脚掌 不是为了踏过沙丘， 而是像雪地靴一样，踏过雪原呢？",
+        "ref": "What if those broad feet were meant to tromp not over sand,  but over snow, like a pair of snowshoes?",
+        "hyp": "What if those wide feet were not meant for crossing sand dunes, but instead, like snow boots, for traversing snowy plains?",
+        "rel_src": [
+            "那么，科学家早都知道这些了， 但是这并不能完全解释娜塔莉娅 怎么在那么北的地方发现骆驼的。",
+            "假如说骆驼的这些特性 不像我们所认为的那样， 是为了适应撒哈拉 那样的环境而产生， 而是因为要度过严冬 才演化出来的呢？"
+        ],
+        "rel_tgt": [
+            "So, scientists have long known about these, but this does not fully explain how Natalie found camels in such a northern location.",
+            "What if these characteristics of camels did not evolve to adapt to environments like the Sahara, as we originally thought, but rather developed to survive harsh winters?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 84,
+        "src": "假如说那些驼峰—— 这简直是天大的新闻！ 储存的不是水分而是脂肪，  驼峰实际上是为了让骆驼 度过食物稀缺的、 六个月长的寒冬？",
+        "ref": "What if that hump -- which, huge news to me,  does not contain water, it contains fat --    was there to help the camel get through that six-month-long winter,  when food was scarce?",
+        "hyp": "What if those humps - this is absolutely groundbreaking news! The stored content is not water but fat, the humps are actually to help camels survive the food scarcity during the six-month long harsh winter?",
+        "rel_src": [
+            "假如说骆驼的这些特性 不像我们所认为的那样， 是为了适应撒哈拉 那样的环境而产生， 而是因为要度过严冬 才演化出来的呢？",
+            "假如说那些宽大的脚掌 不是为了踏过沙丘， 而是像雪地靴一样，踏过雪原呢？"
+        ],
+        "rel_tgt": [
+            "What if these characteristics of camels did not evolve to adapt to environments like the Sahara, as we originally thought, but rather developed to survive harsh winters?",
+            "What if those wide feet were not meant for crossing sand dunes, but instead, like snow boots, for traversing snowy plains?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 85,
+        "src": "假如说远在那以后， 它们跨越大陆桥之后， 才将这些冬季特性改造， 使其适应炎热的沙漠环境？",
+        "ref": "And then, only later, long after it crossed over the land bridge  did it retrofit those winter features for a hot desert environment?",
+        "hyp": "What if, long after they crossed the land bridge, they then modified these winter characteristics to adapt to the hot desert environment?",
+        "rel_src": [
+            "假如说骆驼的这些特性 不像我们所认为的那样， 是为了适应撒哈拉 那样的环境而产生， 而是因为要度过严冬 才演化出来的呢？",
+            "假如说那些驼峰—— 这简直是天大的新闻！ 储存的不是水分而是脂肪，  驼峰实际上是为了让骆驼 度过食物稀缺的、 六个月长的寒冬？"
+        ],
+        "rel_tgt": [
+            "What if these characteristics of camels did not evolve to adapt to environments like the Sahara, as we originally thought, but rather developed to survive harsh winters?",
+            "What if those humps - this is absolutely groundbreaking news! The stored content is not water but fat, the humps are actually to help camels survive the food scarcity during the six-month long harsh winter?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 86,
+        "src": "就比如说，那些驼峰 可能在炎热地带对骆驼有好处， 因为当你的脂肪堆积在同一处， 你懂的，像一个“脂肪背包”， 意味着你身体的隔热层 不必覆盖全身。",
+        "ref": "Like, for instance, the hump may be helpful to camels in hotter climes  because having all your fat in one place,  like a, you know, fat backpack,  means that you don't have to have that insulation  all over the rest of your body.",
+        "hyp": "For example, those humps might be beneficial for camels in hot regions because when your fat accumulates in one place, you know, like a \"fat backpack,\" it means that the insulating layer of your body doesn't have to cover your whole body.",
+        "rel_src": [
+            "假如说那些驼峰—— 这简直是天大的新闻！ 储存的不是水分而是脂肪，  驼峰实际上是为了让骆驼 度过食物稀缺的、 六个月长的寒冬？",
+            "假如说远在那以后， 它们跨越大陆桥之后， 才将这些冬季特性改造， 使其适应炎热的沙漠环境？"
+        ],
+        "rel_tgt": [
+            "What if those humps - this is absolutely groundbreaking news! The stored content is not water but fat, the humps are actually to help camels survive the food scarcity during the six-month long harsh winter?",
+            "What if, long after they crossed the land bridge, they then modified these winter characteristics to adapt to the hot desert environment?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 87,
+        "src": "于是这让散热更容易了。",
+        "ref": "So it helps heat dissipate easier.",
+        "hyp": "So this makes heat dissipation easier.",
+        "rel_src": [
+            "假如说那些驼峰—— 这简直是天大的新闻！ 储存的不是水分而是脂肪，  驼峰实际上是为了让骆驼 度过食物稀缺的、 六个月长的寒冬？",
+            "就比如说，那些驼峰 可能在炎热地带对骆驼有好处， 因为当你的脂肪堆积在同一处， 你懂的，像一个“脂肪背包”， 意味着你身体的隔热层 不必覆盖全身。"
+        ],
+        "rel_tgt": [
+            "What if those humps - this is absolutely groundbreaking news! The stored content is not water but fat, the humps are actually to help camels survive the food scarcity during the six-month long harsh winter?",
+            "For example, those humps might be beneficial for camels in hot regions because when your fat accumulates in one place, you know, like a \"fat backpack,\" it means that the insulating layer of your body doesn't have to cover your whole body."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 88,
+        "src": "就是这个疯狂的想法， 让骆驼身上看似典型的沙漠特性， 突然变成它们 起源于高纬北极的证据了。",
+        "ref": "It's this crazy idea,  that what seems like proof of the camel's quintessential desert nature  could actually be proof of its High Arctic past.",
+        "hyp": "It is this crazy idea that turns the seemingly typical desert characteristics on camels into evidence of their origin from the high latitudes of the Arctic.",
+        "rel_src": [
+            "假如说那些驼峰—— 这简直是天大的新闻！ 储存的不是水分而是脂肪，  驼峰实际上是为了让骆驼 度过食物稀缺的、 六个月长的寒冬？",
+            "假如说远在那以后， 它们跨越大陆桥之后， 才将这些冬季特性改造， 使其适应炎热的沙漠环境？"
+        ],
+        "rel_tgt": [
+            "What if those humps - this is absolutely groundbreaking news! The stored content is not water but fat, the humps are actually to help camels survive the food scarcity during the six-month long harsh winter?",
+            "What if, long after they crossed the land bridge, they then modified these winter characteristics to adapt to the hot desert environment?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 89,
+        "src": "其实我不是第一个讲这故事的人。",
+        "ref": "Now, I'm not the first person to tell this story.",
+        "hyp": "Actually, I am not the first person to tell this story.",
+        "rel_src": [
+            "那么，科学家早都知道这些了， 但是这并不能完全解释娜塔莉娅 怎么在那么北的地方发现骆驼的。",
+            "娜塔莉娅和她的同事们 觉得他们找到了答案。"
+        ],
+        "rel_tgt": [
+            "So, scientists have long known about these, but this does not fully explain how Natalie found camels in such a northern location.",
+            "Natalie and her colleagues felt they had found the answer."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 90,
+        "src": "其他人已经讲过， 以此赞叹生物进化之神奇， 或者以此瞥一眼 未来的气候变化情况。",
+        "ref": "Others have told it as a way to marvel at evolutionary biology  or as a keyhole into the future of climate change.",
+        "hyp": "Others have already talked about this, praising the wonders of biological evolution or taking a glimpse at future climate change scenarios.",
+        "rel_src": [
+            "假如说骆驼的这些特性 不像我们所认为的那样， 是为了适应撒哈拉 那样的环境而产生， 而是因为要度过严冬 才演化出来的呢？",
+            "假如说那些驼峰—— 这简直是天大的新闻！ 储存的不是水分而是脂肪，  驼峰实际上是为了让骆驼 度过食物稀缺的、 六个月长的寒冬？"
+        ],
+        "rel_tgt": [
+            "What if these characteristics of camels did not evolve to adapt to environments like the Sahara, as we originally thought, but rather developed to survive harsh winters?",
+            "What if those humps - this is absolutely groundbreaking news! The stored content is not water but fat, the humps are actually to help camels survive the food scarcity during the six-month long harsh winter?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 91,
+        "src": "但我超爱这个故事 有另一个不同的原因。",
+        "ref": "But I love it for a totally different reason.",
+        "hyp": "But I love this story for a different reason.",
+        "rel_src": [
+            "其实我不是第一个讲这故事的人。",
+            "其他人已经讲过， 以此赞叹生物进化之神奇， 或者以此瞥一眼 未来的气候变化情况。"
+        ],
+        "rel_tgt": [
+            "Actually, I am not the first person to tell this story.",
+            "Others have already talked about this, praising the wonders of biological evolution or taking a glimpse at future climate change scenarios."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 92,
+        "src": "对我来说，这是一个关于我们的故事， 关于我们如何认知世界， 关于这种认知如何改变。",
+        "ref": "For me, it's a story about us,  about how we see the world  and about how that changes.",
+        "hyp": "For me, this is a story about us, about how we perceive the world, and about how this perception changes.",
+        "rel_src": [
+            "就是这个疯狂的想法， 让骆驼身上看似典型的沙漠特性， 突然变成它们 起源于高纬北极的证据了。",
+            "其实我不是第一个讲这故事的人。"
+        ],
+        "rel_tgt": [
+            "It is this crazy idea that turns the seemingly typical desert characteristics on camels into evidence of their origin from the high latitudes of the Arctic.",
+            "Actually, I am not the first person to tell this story."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 93,
+        "src": "我的职业是历史学家。",
+        "ref": "So I was trained as a historian.",
+        "hyp": "My profession is a historian.",
+        "rel_src": [
+            "其他人已经讲过， 以此赞叹生物进化之神奇， 或者以此瞥一眼 未来的气候变化情况。",
+            "但我超爱这个故事 有另一个不同的原因。"
+        ],
+        "rel_tgt": [
+            "Others have already talked about this, praising the wonders of biological evolution or taking a glimpse at future climate change scenarios.",
+            "But I love this story for a different reason."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 94,
+        "src": "我发现，其实 很多科学家也是历史学家。",
+        "ref": "And I've learned that, actually, a lot of scientists are historians, too.",
+        "hyp": "I found that actually many scientists are also historians.",
+        "rel_src": [
+            "对我来说，这是一个关于我们的故事， 关于我们如何认知世界， 关于这种认知如何改变。",
+            "我的职业是历史学家。"
+        ],
+        "rel_tgt": [
+            "For me, this is a story about us, about how we perceive the world, and about how this perception changes.",
+            "My profession is a historian."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 95,
+        "src": "他们把过去的事情搞明白。",
+        "ref": "They make sense of the past.",
+        "hyp": "They figured out what happened in the past.",
+        "rel_src": [
+            "娜塔莉娅和她的同事们 觉得他们找到了答案。",
+            "假如说那些宽大的脚掌 不是为了踏过沙丘， 而是像雪地靴一样，踏过雪原呢？"
+        ],
+        "rel_tgt": [
+            "Natalie and her colleagues felt they had found the answer.",
+            "What if those wide feet were not meant for crossing sand dunes, but instead, like snow boots, for traversing snowy plains?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 96,
+        "src": "他们讲述宇宙、 地球和地球生物的历史。",
+        "ref": "They tell the history of our universe, of our planet, of life on this planet.",
+        "hyp": "They tell the history of the universe, the Earth, and Earth's organisms.",
+        "rel_src": [
+            "就是这个疯狂的想法， 让骆驼身上看似典型的沙漠特性， 突然变成它们 起源于高纬北极的证据了。",
+            "对我来说，这是一个关于我们的故事， 关于我们如何认知世界， 关于这种认知如何改变。"
+        ],
+        "rel_tgt": [
+            "It is this crazy idea that turns the seemingly typical desert characteristics on camels into evidence of their origin from the high latitudes of the Arctic.",
+            "For me, this is a story about us, about how we perceive the world, and about how this perception changes."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 97,
+        "src": "作为一个历史学家， 你的脑海里要有个思路， 思考这个故事怎么进行下去的。",
+        "ref": "And as a historian,  you start with an idea in your mind of how the story goes.",
+        "hyp": "As a historian, you need to have a plan in your mind, thinking about how this story will continue.",
+        "rel_src": [
+            "对我来说，这是一个关于我们的故事， 关于我们如何认知世界， 关于这种认知如何改变。",
+            "他们讲述宇宙、 地球和地球生物的历史。"
+        ],
+        "rel_tgt": [
+            "For me, this is a story about us, about how we perceive the world, and about how this perception changes.",
+            "They tell the history of the universe, the Earth, and Earth's organisms."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 98,
+        "src": "“我们编故事， 然后我们就顺着思路说下去，” “就好像沙漠的骆驼，对吧？”",
+        "ref": "NR: We make up stories and we stick with it,  like the camel in the desert, right?",
+        "hyp": "\"We create stories, and then we continue along that line of thought,\" \"Just like the camels in the desert, right?\"",
+        "rel_src": [
+            "就是这个疯狂的想法， 让骆驼身上看似典型的沙漠特性， 突然变成它们 起源于高纬北极的证据了。",
+            "对我来说，这是一个关于我们的故事， 关于我们如何认知世界， 关于这种认知如何改变。"
+        ],
+        "rel_tgt": [
+            "It is this crazy idea that turns the seemingly typical desert characteristics on camels into evidence of their origin from the high latitudes of the Arctic.",
+            "For me, this is a story about us, about how we perceive the world, and about how this perception changes."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 99,
+        "src": "“这是个超棒的故事！ 骆驼简直是非常适合沙漠。”",
+        "ref": "That's a great story! It's totally adapted for that.",
+        "hyp": "\"This is a fantastic story! Camels are just perfect for the desert.\"",
+        "new_src_summary": "古生物学家娜塔莉娅·丽琴斯基和作者在北极圈挖掘化石的故事。娜塔莉娅在法尔斯叶床挖掘场发现了一片铁锈色的小东西，最初以为是木头碎片，但后来发现可能是骨头，并花费四年时间收集并拼接30片碎片。作者尝试使用沙土和油灰复原化石，最终通过三维表面扫描仪成功完成。最终发现化石是一根异常巨大的偶蹄目动物胫骨，具有胶原蛋白气味，推测化石在北极被保存。娜塔莉娅在参加一个大会时，通过麦克·巴克利展示的“胶原蛋白指纹技术”发现了一块具有350万年历史的骨头，最终确认是来自一匹体型比现代骆驼大30%的“北极巨骆驼”。整体风格轻松幽默，充满神秘感，语气乐观，同时介绍了骆驼起源于美洲，存在了4500万年，且在北美洲有20种以上不同的物种。文中还描述了骆驼的演化历史和它们在不同地区的分布情况，揭示了骆驼种群的演化和迁徙过程。作者通过对北美地区气候环境的描述，探讨了骆驼在寒冷气候下生存的可能性，展示了对骆驼演化历史的浓厚兴趣。同时，这个文段探讨了撒哈拉沙漠中骆驼身上的特殊特性可能是为了适应严冬条件而演化而来的猜想。作者认为这个疯狂的想法不仅改变了对骆驼的认知，也揭示了生物进化的奇妙之处。作者以历史学家的身份思考这个故事，强调了认知如何改变的重要性。整体风格较为科普性，语气较为探索和思考。",
+        "new_tgt_summary": "Paleontologist Natalie Lichinski discovered bone fragments at an excavation site near the North Pole, which she painstakingly collected and pieced together over four years. Using methods like a 3D surface scanner, she reconstructed the object to reveal it was a tibia from a giant camel, larger than modern camels. The well-preserved bone, found in the Arctic, contained collagen indicating its age and preservation. After attending a conference in Bristol, Natalie learned about collagen fingerprinting technology from her colleague Mike Buckley. She sent him a bone fragment from the Arctic Circle, which was determined to be from a giant camel. The paragraph also discusses the variation in body sizes and features of camels, including long necks and noses, as well as their evolution into llamas and alpacas in South America. Natalie and her colleagues propose a new theory that camels' characteristics evolved to survive harsh winters, not desert conditions, with humps storing fat for food scarcity during winter and potentially helping with heat dissipation. This theory suggests camels originated from the Arctic and adapted to desert environments, highlighting extreme climate changes in the past and the challenging conditions camels faced. The author sees this as a story about perception and how it changes over time, comparing it to the work of historians in understanding the past and predicting the future.",
+        "rel_src": [
+            "假如说那些驼峰—— 这简直是天大的新闻！ 储存的不是水分而是脂肪，  驼峰实际上是为了让骆驼 度过食物稀缺的、 六个月长的寒冬？",
+            "就是这个疯狂的想法， 让骆驼身上看似典型的沙漠特性， 突然变成它们 起源于高纬北极的证据了。"
+        ],
+        "rel_tgt": [
+            "What if those humps - this is absolutely groundbreaking news! The stored content is not water but fat, the humps are actually to help camels survive the food scarcity during the six-month long harsh winter?",
+            "It is this crazy idea that turns the seemingly typical desert characteristics on camels into evidence of their origin from the high latitudes of the Arctic."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 100,
+        "src": "”显然，骆驼一直就住那里。“",
+        "ref": "Clearly, it always lived there.",
+        "hyp": "\"Clearly, camels have always lived there.\"",
+        "rel_src": [
+            "假如说远在那以后， 它们跨越大陆桥之后， 才将这些冬季特性改造， 使其适应炎热的沙漠环境？",
+            "就是这个疯狂的想法， 让骆驼身上看似典型的沙漠特性， 突然变成它们 起源于高纬北极的证据了。"
+        ],
+        "rel_tgt": [
+            "What if, long after they crossed the land bridge, they then modified these winter characteristics to adapt to the hot desert environment?",
+            "It is this crazy idea that turns the seemingly typical desert characteristics on camels into evidence of their origin from the high latitudes of the Arctic."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 101,
+        "src": "但是在任何时候， 你都可能发现些细小的线索。",
+        "ref": "LN: But at any moment, you could uncover some tiny bit of evidence.",
+        "hyp": "But at any time, you may discover some small clues.",
+        "rel_src": [
+            "对我来说，这是一个关于我们的故事， 关于我们如何认知世界， 关于这种认知如何改变。",
+            "作为一个历史学家， 你的脑海里要有个思路， 思考这个故事怎么进行下去的。"
+        ],
+        "rel_tgt": [
+            "For me, this is a story about us, about how we perceive the world, and about how this perception changes.",
+            "As a historian, you need to have a plan in your mind, thinking about how this story will continue."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 102,
+        "src": "你可能发现一些小东西， 迫使你重塑你自认为知道的一切。",
+        "ref": "You could learn some tiny thing  that forces you to reframe everything you thought you knew.",
+        "hyp": "You may discover some small things that force you to reshape everything you thought you knew.",
+        "rel_src": [
+            "作为一个历史学家， 你的脑海里要有个思路， 思考这个故事怎么进行下去的。",
+            "“我们编故事， 然后我们就顺着思路说下去，” “就好像沙漠的骆驼，对吧？”"
+        ],
+        "rel_tgt": [
+            "As a historian, you need to have a plan in your mind, thinking about how this story will continue.",
+            "\"We create stories, and then we continue along that line of thought,\" \"Just like the camels in the desert, right?\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 103,
+        "src": "就像这个例子， 这一个科学家发现这一片碎片， 她还以为这是木头， 正因为这个发现，科学界诞生了 一个全新的、反直觉的理论， 解释为什么这个奇怪的、长得像 长毛怪的生物， 长成现在的样子。",
+        "ref": "Like, in this case, this one scientist finds this one shard  of what she thought was wood,  and because of that, science has a totally new and totally counterintuitive theory  about why this absurd Dr. Seuss-looking creature  looks the way it does.",
+        "hyp": "Just like in this example, this scientist discovered this fragment, initially thinking it was wood. It was this discovery that gave rise to a completely new, counterintuitive theory in the scientific community, explaining why this strange, creature resembling a hairy monster, evolved into its current form.",
+        "rel_src": [
+            "我发现，其实 很多科学家也是历史学家。",
+            "他们把过去的事情搞明白。"
+        ],
+        "rel_tgt": [
+            "I found that actually many scientists are also historians.",
+            "They figured out what happened in the past."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 104,
+        "src": "对我来说，这彻底颠覆了 我对骆驼的看法。",
+        "ref": "And for me, it completely upended the way I think of the camel.",
+        "hyp": "For me, this completely overturned my perception of camels.",
+        "rel_src": [
+            "对我来说，这是一个关于我们的故事， 关于我们如何认知世界， 关于这种认知如何改变。",
+            "“这是个超棒的故事！ 骆驼简直是非常适合沙漠。”"
+        ],
+        "rel_tgt": [
+            "For me, this is a story about us, about how we perceive the world, and about how this perception changes.",
+            "\"This is a fantastic story! Camels are just perfect for the desert.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 105,
+        "src": "它从一种只针对这一特定环境 而存在的生物 变成了一个环球旅行家， 只是恰好出现在了撒哈拉沙漠， 而且随时可能出现在任何地方。",
+        "ref": "It went from being this ridiculously niche creature  suited only to this one specific environment,  to being this world traveler that just happens to be in the Sahara,  and could end up virtually anywhere.",
+        "hyp": "It went from being a species that existed only for this specific environment to a global traveler, just happening to appear in the Sahara Desert and potentially anywhere else at any time.",
+        "rel_src": [
+            "就是这个疯狂的想法， 让骆驼身上看似典型的沙漠特性， 突然变成它们 起源于高纬北极的证据了。",
+            "对我来说，这彻底颠覆了 我对骆驼的看法。"
+        ],
+        "rel_tgt": [
+            "It is this crazy idea that turns the seemingly typical desert characteristics on camels into evidence of their origin from the high latitudes of the Arctic.",
+            "For me, this completely overturned my perception of camels."
+        ],
+        "hist_info": "\"撒哈拉沙漠\" - \"Sahara Desert\"",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert"
+        }
+    },
+    {
+        "idx": 106,
+        "src": "这是阿祖力。",
+        "ref": "This is Azuri.",
+        "hyp": "This is Azulie.",
+        "rel_src": [
+            "就是这个疯狂的想法， 让骆驼身上看似典型的沙漠特性， 突然变成它们 起源于高纬北极的证据了。",
+            "它从一种只针对这一特定环境 而存在的生物 变成了一个环球旅行家， 只是恰好出现在了撒哈拉沙漠， 而且随时可能出现在任何地方。"
+        ],
+        "rel_tgt": [
+            "It is this crazy idea that turns the seemingly typical desert characteristics on camels into evidence of their origin from the high latitudes of the Arctic.",
+            "It went from being a species that existed only for this specific environment to a global traveler, just happening to appear in the Sahara Desert and potentially anywhere else at any time."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert",
+            "阿祖力": "Azulie"
+        }
+    },
+    {
+        "idx": 107,
+        "src": "嗨，阿祖力！你还好吗？",
+        "ref": "Azuri, hi, how are you doing?",
+        "hyp": "Hi, Azulie! How are you doing?",
+        "rel_src": [
+            "它从一种只针对这一特定环境 而存在的生物 变成了一个环球旅行家， 只是恰好出现在了撒哈拉沙漠， 而且随时可能出现在任何地方。",
+            "这是阿祖力。"
+        ],
+        "rel_tgt": [
+            "It went from being a species that existed only for this specific environment to a global traveler, just happening to appear in the Sahara Desert and potentially anywhere else at any time.",
+            "This is Azulie."
+        ],
+        "hist_info": "\"阿祖力\" - \"Azulie\"",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert",
+            "阿祖力": "Azulie"
+        }
+    },
+    {
+        "idx": 108,
+        "src": "来，我给你带了点吃的。",
+        "ref": "OK, here, I've got one of these for you here.",
+        "hyp": "Come, I brought you something to eat.",
+        "rel_src": [
+            "“这是个超棒的故事！ 骆驼简直是非常适合沙漠。”",
+            "它从一种只针对这一特定环境 而存在的生物 变成了一个环球旅行家， 只是恰好出现在了撒哈拉沙漠， 而且随时可能出现在任何地方。"
+        ],
+        "rel_tgt": [
+            "\"This is a fantastic story! Camels are just perfect for the desert.\"",
+            "It went from being a species that existed only for this specific environment to a global traveler, just happening to appear in the Sahara Desert and potentially anywhere else at any time."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert",
+            "阿祖力": "Azulie"
+        }
+    },
+    {
+        "idx": 109,
+        "src": "阿祖力刚刚完成她的特约演出， 从纽约无线电城音乐厅过来。",
+        "ref": "So Azuri is on a break from her regular gig  at the Radio City Music Hall.",
+        "hyp": "Azulie has just finished her special performance and is coming over from the New York Radio City Music Hall.",
+        "rel_src": [
+            "就像这个例子， 这一个科学家发现这一片碎片， 她还以为这是木头， 正因为这个发现，科学界诞生了 一个全新的、反直觉的理论， 解释为什么这个奇怪的、长得像 长毛怪的生物， 长成现在的样子。",
+            "它从一种只针对这一特定环境 而存在的生物 变成了一个环球旅行家， 只是恰好出现在了撒哈拉沙漠， 而且随时可能出现在任何地方。"
+        ],
+        "rel_tgt": [
+            "Just like in this example, this scientist discovered this fragment, initially thinking it was wood. It was this discovery that gave rise to a completely new, counterintuitive theory in the scientific community, explaining why this strange, creature resembling a hairy monster, evolved into its current form.",
+            "It went from being a species that existed only for this specific environment to a global traveler, just happening to appear in the Sahara Desert and potentially anywhere else at any time."
+        ],
+        "hist_info": "\"阿祖力\" - \"Azulie\"",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert",
+            "阿祖力": "Azulie",
+            "纽约无线电城音乐厅": "New York Radio City Music Hall"
+        }
+    },
+    {
+        "idx": 110,
+        "src": "这可不是说笑的。",
+        "ref": "That's not even a joke.",
+        "hyp": "This is no joke.",
+        "rel_src": [
+            "你可能发现一些小东西， 迫使你重塑你自认为知道的一切。",
+            "就像这个例子， 这一个科学家发现这一片碎片， 她还以为这是木头， 正因为这个发现，科学界诞生了 一个全新的、反直觉的理论， 解释为什么这个奇怪的、长得像 长毛怪的生物， 长成现在的样子。"
+        ],
+        "rel_tgt": [
+            "You may discover some small things that force you to reshape everything you thought you knew.",
+            "Just like in this example, this scientist discovered this fragment, initially thinking it was wood. It was this discovery that gave rise to a completely new, counterintuitive theory in the scientific community, explaining why this strange, creature resembling a hairy monster, evolved into its current form."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert",
+            "阿祖力": "Azulie",
+            "纽约无线电城音乐厅": "New York Radio City Music Hall"
+        }
+    },
+    {
+        "idx": 111,
+        "src": "随便啦…… 说真的，阿祖力在这里 作为一个鲜活的例子， 说明这个世界的故事是瞬息万变的。",
+        "ref": "Anyway --  But really, Azuri is here as a living reminder  that the story of our world is a dynamic one.",
+        "hyp": "Whatever... Seriously, Azulie here serves as a vivid example, illustrating that the stories of this world are ever-changing.",
+        "rel_src": [
+            "就像这个例子， 这一个科学家发现这一片碎片， 她还以为这是木头， 正因为这个发现，科学界诞生了 一个全新的、反直觉的理论， 解释为什么这个奇怪的、长得像 长毛怪的生物， 长成现在的样子。",
+            "它从一种只针对这一特定环境 而存在的生物 变成了一个环球旅行家， 只是恰好出现在了撒哈拉沙漠， 而且随时可能出现在任何地方。"
+        ],
+        "rel_tgt": [
+            "Just like in this example, this scientist discovered this fragment, initially thinking it was wood. It was this discovery that gave rise to a completely new, counterintuitive theory in the scientific community, explaining why this strange, creature resembling a hairy monster, evolved into its current form.",
+            "It went from being a species that existed only for this specific environment to a global traveler, just happening to appear in the Sahara Desert and potentially anywhere else at any time."
+        ],
+        "hist_info": "\"阿祖力\" - \"Azulie\"",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert",
+            "阿祖力": "Azulie",
+            "纽约无线电城音乐厅": "New York Radio City Music Hall"
+        }
+    },
+    {
+        "idx": 112,
+        "src": "我们要有主动性， 去大胆做出改变、重新想象。",
+        "ref": "It requires our willingness to readjust, to reimagine.",
+        "hyp": "We need to be proactive, make bold changes, and reimagine things.",
+        "rel_src": [
+            "作为一个历史学家， 你的脑海里要有个思路， 思考这个故事怎么进行下去的。",
+            "你可能发现一些小东西， 迫使你重塑你自认为知道的一切。"
+        ],
+        "rel_tgt": [
+            "As a historian, you need to have a plan in your mind, thinking about how this story will continue.",
+            "You may discover some small things that force you to reshape everything you thought you knew."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert",
+            "阿祖力": "Azulie",
+            "纽约无线电城音乐厅": "New York Radio City Music Hall"
+        }
+    },
+    {
+        "idx": 113,
+        "src": "阿祖力，你说对不对啊？",
+        "ref": "Right, Azuri?",
+        "hyp": "Azulie, do you agree?",
+        "rel_src": [
+            "它从一种只针对这一特定环境 而存在的生物 变成了一个环球旅行家， 只是恰好出现在了撒哈拉沙漠， 而且随时可能出现在任何地方。",
+            "随便啦…… 说真的，阿祖力在这里 作为一个鲜活的例子， 说明这个世界的故事是瞬息万变的。"
+        ],
+        "rel_tgt": [
+            "It went from being a species that existed only for this specific environment to a global traveler, just happening to appear in the Sahara Desert and potentially anywhere else at any time.",
+            "Whatever... Seriously, Azulie here serves as a vivid example, illustrating that the stories of this world are ever-changing."
+        ],
+        "hist_info": "\"阿祖力\" - \"Azulie\"",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert",
+            "阿祖力": "Azulie",
+            "纽约无线电城音乐厅": "New York Radio City Music Hall"
+        }
+    },
+    {
+        "idx": 114,
+        "src": "真的，我们与看待世界的全新视角， 只有一片碎骨头的距离罢了。",
+        "ref": "And, really, that we're all just one shard of bone away  from seeing the world anew.",
+        "hyp": "Truly, the new perspective with which we view the world is just a fragment of bone away.",
+        "rel_src": [
+            "就像这个例子， 这一个科学家发现这一片碎片， 她还以为这是木头， 正因为这个发现，科学界诞生了 一个全新的、反直觉的理论， 解释为什么这个奇怪的、长得像 长毛怪的生物， 长成现在的样子。",
+            "对我来说，这彻底颠覆了 我对骆驼的看法。"
+        ],
+        "rel_tgt": [
+            "Just like in this example, this scientist discovered this fragment, initially thinking it was wood. It was this discovery that gave rise to a completely new, counterintuitive theory in the scientific community, explaining why this strange, creature resembling a hairy monster, evolved into its current form.",
+            "For me, this completely overturned my perception of camels."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert",
+            "阿祖力": "Azulie",
+            "纽约无线电城音乐厅": "New York Radio City Music Hall"
+        }
+    },
+    {
+        "idx": 115,
+        "src": "感谢各位。",
+        "ref": "Thank you very much.",
+        "hyp": "Thank you, everyone.",
+        "rel_src": [
+            "嗨，阿祖力！你还好吗？",
+            "来，我给你带了点吃的。"
+        ],
+        "rel_tgt": [
+            "Hi, Azulie! How are you doing?",
+            "Come, I brought you something to eat."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "娜塔莉娅·丽琴斯基": "Natalie Lichinski",
+            "死东西": "Dead Stuff",
+            "加拿大": "Canadian",
+            "2006年": "2006",
+            "法尔斯叶床": "Fossil Bed",
+            "地磁北极": "magnetic North Pole",
+            "科罗拉多州": "Colorado",
+            "娜塔莉娅": "Natalie",
+            "布里斯托": "Bristol",
+            "麦克·巴克利": "Mike Buckley",
+            "麦克": "Mike",
+            "联邦快递": "FedEx",
+            "高纬北极圈": "high latitude Arctic Circle",
+            "美洲": "Americas",
+            "美国国歌": "American national anthem",
+            "星条旗之歌": "The Star-Spangled Banner",
+            "北美洲": "North America",
+            "南美洲": "South America",
+            "白令陆桥": "Bering Land Bridge",
+            "冰川纪": "Ice Age",
+            "北美": "North America",
+            "撒哈拉沙漠": "Sahara Desert",
+            "阿祖力": "Azulie",
+            "纽约无线电城音乐厅": "New York Radio City Music Hall"
+        }
+    }
+]

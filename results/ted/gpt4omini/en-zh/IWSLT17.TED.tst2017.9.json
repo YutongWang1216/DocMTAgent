@@ -1,0 +1,4136 @@
+[
+    {
+        "idx": 0,
+        "src": "All right, I want to see a show of hands:  how many of you have unfriended someone on Facebook  because they said something offensive about politics or religion,  childcare, food?",
+        "ref": "好的，我想让大家举手示意一下， 有多少人曾经 在 Facebook 上拉黑过好友， 因为他们发表过关于政治，宗教， 儿童权益，或者食物等 不恰当的言论？",
+        "hyp": "好的，我想看看举手的人：你们中有多少人在 Facebook 上取消了对某人的好友，因为他们在政治、宗教、育儿或食物方面说了冒犯的话？",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook"
+        }
+    },
+    {
+        "idx": 1,
+        "src": "And how many of you know at least one person that you avoid  because you just don't want to talk to them?",
+        "ref": "有多少人至少 有一个不想见的人， 因为你就是不想 和对方说话？",
+        "hyp": "你们中有多少人知道至少一个你们会避免的人，因为你们根本不想和他们交谈？",
+        "rel_src": [
+            "All right, I want to see a show of hands:  how many of you have unfriended someone on Facebook  because they said something offensive about politics or religion,  childcare, food?"
+        ],
+        "rel_tgt": [
+            "好的，我想看看举手的人：你们中有多少人在 Facebook 上取消了对某人的好友，因为他们在政治、宗教、育儿或食物方面说了冒犯的话？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook"
+        }
+    },
+    {
+        "idx": 2,
+        "src": "You know, it used to be that in order to have a polite conversation,  we just had to follow the advice of Henry Higgins in \"My Fair Lady\":  Stick to the weather and your health.",
+        "ref": "要知道，在过去 想要一段礼貌的交谈， 我们只要遵循亨利·希金斯 在《窈窕淑女》中的忠告： 只谈论天气和你的健康状况就行了。",
+        "hyp": "你们知道，以前要进行礼貌的交谈，我们只需要遵循亨利·希金斯在《窈窕淑女》中的建议：谈谈天气和你的健康。",
+        "rel_src": [
+            "All right, I want to see a show of hands:  how many of you have unfriended someone on Facebook  because they said something offensive about politics or religion,  childcare, food?",
+            "And how many of you know at least one person that you avoid  because you just don't want to talk to them?"
+        ],
+        "rel_tgt": [
+            "好的，我想看看举手的人：你们中有多少人在 Facebook 上取消了对某人的好友，因为他们在政治、宗教、育儿或食物方面说了冒犯的话？",
+            "你们中有多少人知道至少一个你们会避免的人，因为你们根本不想和他们交谈？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》"
+        }
+    },
+    {
+        "idx": 3,
+        "src": "But these days, with climate change and anti-vaxxing, those subjects --    are not safe either.",
+        "ref": "但这些年随着气候变化 以及反对疫苗运动的开展 ——  这招也不怎么管用了。",
+        "hyp": "但如今，随着气候变化和反疫苗运动，这些话题——也变得不安全了。",
+        "rel_src": [
+            "All right, I want to see a show of hands:  how many of you have unfriended someone on Facebook  because they said something offensive about politics or religion,  childcare, food?",
+            "You know, it used to be that in order to have a polite conversation,  we just had to follow the advice of Henry Higgins in \"My Fair Lady\":  Stick to the weather and your health."
+        ],
+        "rel_tgt": [
+            "好的，我想看看举手的人：你们中有多少人在 Facebook 上取消了对某人的好友，因为他们在政治、宗教、育儿或食物方面说了冒犯的话？",
+            "你们知道，以前要进行礼貌的交谈，我们只需要遵循亨利·希金斯在《窈窕淑女》中的建议：谈谈天气和你的健康。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》"
+        }
+    },
+    {
+        "idx": 4,
+        "src": "So this world that we live in,  this world in which every conversation  has the potential to devolve into an argument,  where our politicians can't speak to one another  and where even the most trivial of issues  have someone fighting both passionately for it and against it, it's not normal.",
+        "ref": "因此，在我们生活的这个世界， 这个每一次交谈 都有可能发展为争论的世界， 政客无法彼此交谈， 甚至为那些鸡毛蒜皮的事情 都有人群情激昂地赞成或反对， 这太不正常了。",
+        "hyp": "所以我们所生活的这个世界，这个每次对话都有可能演变成争论的世界，我们的政治家无法相互交流，甚至连最琐碎的问题也有人为之 passionately 争论，反对，这并不正常。",
+        "rel_src": [
+            "All right, I want to see a show of hands:  how many of you have unfriended someone on Facebook  because they said something offensive about politics or religion,  childcare, food?",
+            "But these days, with climate change and anti-vaxxing, those subjects --    are not safe either."
+        ],
+        "rel_tgt": [
+            "好的，我想看看举手的人：你们中有多少人在 Facebook 上取消了对某人的好友，因为他们在政治、宗教、育儿或食物方面说了冒犯的话？",
+            "但如今，随着气候变化和反疫苗运动，这些话题——也变得不安全了。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》"
+        }
+    },
+    {
+        "idx": 5,
+        "src": "Pew Research did a study of 10,000 American adults,  and they found that at this moment, we are more polarized,  we are more divided,  than we ever have been in history.",
+        "ref": "皮尤研究中心对一万名 美国成年人做了一次调查， 发现此刻我们的偏激程度， 我们立场鲜明的程度， 比历史上任何时期都要高。",
+        "hyp": "皮尤研究中心对1万名美国成年人进行了研究，他们发现，在这一刻，我们的社会比历史上任何时候都更加极化，更加分裂。",
+        "rel_src": [
+            "But these days, with climate change and anti-vaxxing, those subjects --    are not safe either.",
+            "So this world that we live in,  this world in which every conversation  has the potential to devolve into an argument,  where our politicians can't speak to one another  and where even the most trivial of issues  have someone fighting both passionately for it and against it, it's not normal."
+        ],
+        "rel_tgt": [
+            "但如今，随着气候变化和反疫苗运动，这些话题——也变得不安全了。",
+            "所以我们所生活的这个世界，这个每次对话都有可能演变成争论的世界，我们的政治家无法相互交流，甚至连最琐碎的问题也有人为之 passionately 争论，反对，这并不正常。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国"
+        }
+    },
+    {
+        "idx": 6,
+        "src": "We're less likely to compromise,  which means we're not listening to each other.",
+        "ref": "我们更不倾向于妥协， 这意味着我们没有倾听彼此。",
+        "hyp": "我们更不容易妥协，这意味着我们没有在倾听彼此。",
+        "rel_src": [
+            "So this world that we live in,  this world in which every conversation  has the potential to devolve into an argument,  where our politicians can't speak to one another  and where even the most trivial of issues  have someone fighting both passionately for it and against it, it's not normal.",
+            "Pew Research did a study of 10,000 American adults,  and they found that at this moment, we are more polarized,  we are more divided,  than we ever have been in history."
+        ],
+        "rel_tgt": [
+            "所以我们所生活的这个世界，这个每次对话都有可能演变成争论的世界，我们的政治家无法相互交流，甚至连最琐碎的问题也有人为之 passionately 争论，反对，这并不正常。",
+            "皮尤研究中心对1万名美国成年人进行了研究，他们发现，在这一刻，我们的社会比历史上任何时候都更加极化，更加分裂。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国"
+        }
+    },
+    {
+        "idx": 7,
+        "src": "And we make decisions about where to live,  who to marry and even who our friends are going to be,  based on what we already believe.",
+        "ref": "我们做的各种决定， 选择生活在何处， 与谁结婚甚至和谁交朋友， 都只基于我们已有的信念。",
+        "hyp": "我们根据自己已经相信的东西来决定住在哪里、嫁给谁，甚至选择谁作为朋友。",
+        "rel_src": [
+            "So this world that we live in,  this world in which every conversation  has the potential to devolve into an argument,  where our politicians can't speak to one another  and where even the most trivial of issues  have someone fighting both passionately for it and against it, it's not normal.",
+            "Pew Research did a study of 10,000 American adults,  and they found that at this moment, we are more polarized,  we are more divided,  than we ever have been in history."
+        ],
+        "rel_tgt": [
+            "所以我们所生活的这个世界，这个每次对话都有可能演变成争论的世界，我们的政治家无法相互交流，甚至连最琐碎的问题也有人为之 passionately 争论，反对，这并不正常。",
+            "皮尤研究中心对1万名美国成年人进行了研究，他们发现，在这一刻，我们的社会比历史上任何时候都更加极化，更加分裂。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国"
+        }
+    },
+    {
+        "idx": 8,
+        "src": "Again, that means we're not listening to each other.",
+        "ref": "再重复一遍， 这说明我们没有倾听彼此。",
+        "hyp": "这再次意味着我们没有在倾听彼此。",
+        "rel_src": [
+            "Pew Research did a study of 10,000 American adults,  and they found that at this moment, we are more polarized,  we are more divided,  than we ever have been in history.",
+            "We're less likely to compromise,  which means we're not listening to each other."
+        ],
+        "rel_tgt": [
+            "皮尤研究中心对1万名美国成年人进行了研究，他们发现，在这一刻，我们的社会比历史上任何时候都更加极化，更加分裂。",
+            "我们更不容易妥协，这意味着我们没有在倾听彼此。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国"
+        }
+    },
+    {
+        "idx": 9,
+        "src": "A conversation requires a balance between talking and listening,  and somewhere along the way, we lost that balance.",
+        "ref": "交谈需要平衡讲述和倾听， 而不知怎么的， 我们却渐渐失掉了这种平衡。",
+        "hyp": "一次对话需要在说和听之间保持平衡，而在某个时刻，我们失去了这种平衡。",
+        "rel_src": [
+            "We're less likely to compromise,  which means we're not listening to each other.",
+            "Again, that means we're not listening to each other."
+        ],
+        "rel_tgt": [
+            "我们更不容易妥协，这意味着我们没有在倾听彼此。",
+            "这再次意味着我们没有在倾听彼此。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国"
+        }
+    },
+    {
+        "idx": 10,
+        "src": "Now, part of that is due to technology.",
+        "ref": "技术进步是部分原因。",
+        "hyp": "现在，部分原因归结于科技。",
+        "rel_src": [
+            "So this world that we live in,  this world in which every conversation  has the potential to devolve into an argument,  where our politicians can't speak to one another  and where even the most trivial of issues  have someone fighting both passionately for it and against it, it's not normal.",
+            "Pew Research did a study of 10,000 American adults,  and they found that at this moment, we are more polarized,  we are more divided,  than we ever have been in history."
+        ],
+        "rel_tgt": [
+            "所以我们所生活的这个世界，这个每次对话都有可能演变成争论的世界，我们的政治家无法相互交流，甚至连最琐碎的问题也有人为之 passionately 争论，反对，这并不正常。",
+            "皮尤研究中心对1万名美国成年人进行了研究，他们发现，在这一刻，我们的社会比历史上任何时候都更加极化，更加分裂。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国"
+        }
+    },
+    {
+        "idx": 11,
+        "src": "The smartphones that you all either have in your hands  or close enough that you could grab them really quickly.",
+        "ref": "比如智能手机， 现在就在你们手里， 或者就在旁边，随手就能拿到。",
+        "hyp": "你们手中拥有的智能手机，或者就在你们身边，可以迅速拿到的智能手机。",
+        "rel_src": [
+            "So this world that we live in,  this world in which every conversation  has the potential to devolve into an argument,  where our politicians can't speak to one another  and where even the most trivial of issues  have someone fighting both passionately for it and against it, it's not normal.",
+            "Now, part of that is due to technology."
+        ],
+        "rel_tgt": [
+            "所以我们所生活的这个世界，这个每次对话都有可能演变成争论的世界，我们的政治家无法相互交流，甚至连最琐碎的问题也有人为之 passionately 争论，反对，这并不正常。",
+            "现在，部分原因归结于科技。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国"
+        }
+    },
+    {
+        "idx": 12,
+        "src": "According to Pew Research,  about a third of American teenagers send more than a hundred texts a day.",
+        "ref": "据皮尤的研究称， 大约三分之一的美国青少年 每天发送超过一百条短信。",
+        "hyp": "根据皮尤研究中心的数据显示，大约三分之一的美国青少年每天发送超过一百条短信。",
+        "rel_src": [
+            "Pew Research did a study of 10,000 American adults,  and they found that at this moment, we are more polarized,  we are more divided,  than we ever have been in history.",
+            "Now, part of that is due to technology."
+        ],
+        "rel_tgt": [
+            "皮尤研究中心对1万名美国成年人进行了研究，他们发现，在这一刻，我们的社会比历史上任何时候都更加极化，更加分裂。",
+            "现在，部分原因归结于科技。"
+        ],
+        "hist_info": "\"Pew Research\" - \"皮尤研究中心\", \"American\" - \"美国\"",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国"
+        }
+    },
+    {
+        "idx": 13,
+        "src": "And many of them, almost most of them, are more likely to text their friends  than they are to talk to them face to face.",
+        "ref": "而这中间很多人，几乎是所有人， 更倾向于给朋友发短信， 而不是面对面的交谈。",
+        "hyp": "而他们中的许多人，几乎大多数人，更倾向于给朋友发短信，而不是面对面交谈。",
+        "rel_src": [
+            "Now, part of that is due to technology.",
+            "The smartphones that you all either have in your hands  or close enough that you could grab them really quickly."
+        ],
+        "rel_tgt": [
+            "现在，部分原因归结于科技。",
+            "你们手中拥有的智能手机，或者就在你们身边，可以迅速拿到的智能手机。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国"
+        }
+    },
+    {
+        "idx": 14,
+        "src": "There's this great piece in The Atlantic.",
+        "ref": "《大西洋》杂志 登过一篇很棒的文章，",
+        "hyp": "《大西洋月刊》上有一篇精彩的文章。",
+        "rel_src": [
+            "So this world that we live in,  this world in which every conversation  has the potential to devolve into an argument,  where our politicians can't speak to one another  and where even the most trivial of issues  have someone fighting both passionately for it and against it, it's not normal.",
+            "Pew Research did a study of 10,000 American adults,  and they found that at this moment, we are more polarized,  we are more divided,  than we ever have been in history."
+        ],
+        "rel_tgt": [
+            "所以我们所生活的这个世界，这个每次对话都有可能演变成争论的世界，我们的政治家无法相互交流，甚至连最琐碎的问题也有人为之 passionately 争论，反对，这并不正常。",
+            "皮尤研究中心对1万名美国成年人进行了研究，他们发现，在这一刻，我们的社会比历史上任何时候都更加极化，更加分裂。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》"
+        }
+    },
+    {
+        "idx": 15,
+        "src": "It was written by a high school teacher named Paul Barnwell.",
+        "ref": "作者是高中教师 保罗·巴恩韦尔。",
+        "hyp": "这篇文章是由一位名叫保罗·巴恩威尔的高中教师撰写的。",
+        "rel_src": [
+            "Now, part of that is due to technology.",
+            "There's this great piece in The Atlantic."
+        ],
+        "rel_tgt": [
+            "现在，部分原因归结于科技。",
+            "《大西洋月刊》上有一篇精彩的文章。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔"
+        }
+    },
+    {
+        "idx": 16,
+        "src": "And he gave his kids a communication project.",
+        "ref": "他给自己的学生一项交流任务，",
+        "hyp": "他给他的学生布置了一个沟通项目。",
+        "rel_src": [
+            "There's this great piece in The Atlantic.",
+            "It was written by a high school teacher named Paul Barnwell."
+        ],
+        "rel_tgt": [
+            "《大西洋月刊》上有一篇精彩的文章。",
+            "这篇文章是由一位名叫保罗·巴恩威尔的高中教师撰写的。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔"
+        }
+    },
+    {
+        "idx": 17,
+        "src": "He wanted to teach them how to speak on a specific subject without using notes.",
+        "ref": "希望教会他们如何不借助笔记 针对某一话题发表演讲。",
+        "hyp": "他想教他们如何在不使用笔记的情况下，就特定主题进行发言。",
+        "rel_src": [
+            "There's this great piece in The Atlantic.",
+            "It was written by a high school teacher named Paul Barnwell."
+        ],
+        "rel_tgt": [
+            "《大西洋月刊》上有一篇精彩的文章。",
+            "这篇文章是由一位名叫保罗·巴恩威尔的高中教师撰写的。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔"
+        }
+    },
+    {
+        "idx": 18,
+        "src": "And he said this: \"I came to realize...\"",
+        "ref": "然后他说：“我开始意识到……”",
+        "hyp": "他这样说：“我渐渐意识到……”",
+        "rel_src": [
+            "There's this great piece in The Atlantic.",
+            "It was written by a high school teacher named Paul Barnwell."
+        ],
+        "rel_tgt": [
+            "《大西洋月刊》上有一篇精彩的文章。",
+            "这篇文章是由一位名叫保罗·巴恩威尔的高中教师撰写的。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔"
+        }
+    },
+    {
+        "idx": 19,
+        "src": "\"I came to realize that conversational competence  might be the single most overlooked skill we fail to teach.",
+        "ref": "“我开始意识到交流能力 可能是最被我们忽视的， 没有好好教授的技能。",
+        "hyp": "“我渐渐意识到，交谈能力可能是我们最忽视的技能，而我们未能教授它。”",
+        "new_src_summary": "The paragraph discusses the increasing polarization and breakdown of polite conversation in contemporary society, particularly as influenced by technology and social media. The author prompts the audience to reflect on their experiences of unfriending people on Facebook or avoiding conversations due to differing opinions on sensitive topics like politics, religion, and health. Citing a Pew Research study, the author highlights that Americans are currently more divided than ever, leading to a lack of compromise and diminished listening skills. The narrative emphasizes that conversations should involve a balance of talking and listening, which has been disrupted by the prevalence of smartphones and texting among teenagers. The tone is conversational and reflective, aimed at raising awareness about societal changes in communication. Overall, the domain centers on social behavior, communication, and the impact of technology on interpersonal interactions.",
+        "new_tgt_summary": "本文探讨了现代社会中人际沟通的挑战，尤其是在政治、宗教和其他敏感话题上的分歧。许多人因对方的冒犯言论而取消好友或避免交流，反映出社会的极化和分裂。皮尤研究中心的研究显示，当前社会比历史上任何时候都更难以妥协，缺乏倾听他人的意愿。科技，特别是智能手机的普及，进一步加剧了这一问题，使得人们更倾向于通过短信而非面对面交流。文章引用了一位高中教师的项目，旨在教学生如何在不依赖笔记的情况下进行有效沟通，凸显了当今沟通方式的变化和面临的挑战。",
+        "rel_src": [
+            "A conversation requires a balance between talking and listening,  and somewhere along the way, we lost that balance.",
+            "He wanted to teach them how to speak on a specific subject without using notes."
+        ],
+        "rel_tgt": [
+            "一次对话需要在说和听之间保持平衡，而在某个时刻，我们失去了这种平衡。",
+            "他想教他们如何在不使用笔记的情况下，就特定主题进行发言。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔"
+        }
+    },
+    {
+        "idx": 20,
+        "src": "Kids spend hours each day engaging with ideas and each other through screens,  but rarely do they have an opportunity  to hone their interpersonal communications skills.",
+        "ref": "孩子每天花费数小时 通过屏幕接触创意和其他伙伴， 但很少有机会 去发掘自己的人际交往技能。”",
+        "hyp": "孩子们每天花数小时通过屏幕与思想和彼此互动，但他们很少有机会磨练人际沟通技巧。",
+        "rel_src": [
+            "Now, part of that is due to technology.",
+            "And many of them, almost most of them, are more likely to text their friends  than they are to talk to them face to face."
+        ],
+        "rel_tgt": [
+            "现在，部分原因归结于科技。",
+            "而他们中的许多人，几乎大多数人，更倾向于给朋友发短信，而不是面对面交谈。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔"
+        }
+    },
+    {
+        "idx": 21,
+        "src": "It might sound like a funny question, but we have to ask ourselves:  Is there any 21st-century skill  more important than being able to sustain coherent, confident conversation?\"",
+        "ref": "这听起来很好笑， 但我们必须问问自己： 21世纪，有什么技能 会比维持一段连贯、 自信的谈话更为重要？”",
+        "hyp": "这可能听起来是个有趣的问题，但我们必须问自己：有没有什么21世纪的技能比能够维持连贯、自信的对话更重要？",
+        "rel_src": [
+            "A conversation requires a balance between talking and listening,  and somewhere along the way, we lost that balance.",
+            "\"I came to realize that conversational competence  might be the single most overlooked skill we fail to teach."
+        ],
+        "rel_tgt": [
+            "一次对话需要在说和听之间保持平衡，而在某个时刻，我们失去了这种平衡。",
+            "“我渐渐意识到，交谈能力可能是我们最忽视的技能，而我们未能教授它。”"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪"
+        }
+    },
+    {
+        "idx": 22,
+        "src": "Now, I make my living talking to people:  Nobel Prize winners, truck drivers,  billionaires, kindergarten teachers,  heads of state, plumbers.",
+        "ref": "现在，我的职业就是跟别人谈话。 诺贝尔奖获得者、卡车司机、 亿万富翁、幼儿园老师， 州长、水管工。",
+        "hyp": "现在，我以与人交谈为生：诺贝尔奖获得者、卡车司机、亿万富翁、幼儿园教师、国家元首、管道工。",
+        "rel_src": [
+            "A conversation requires a balance between talking and listening,  and somewhere along the way, we lost that balance.",
+            "\"I came to realize that conversational competence  might be the single most overlooked skill we fail to teach."
+        ],
+        "rel_tgt": [
+            "一次对话需要在说和听之间保持平衡，而在某个时刻，我们失去了这种平衡。",
+            "“我渐渐意识到，交谈能力可能是我们最忽视的技能，而我们未能教授它。”"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖"
+        }
+    },
+    {
+        "idx": 23,
+        "src": "I talk to people that I like. I talk to people that I don't like.",
+        "ref": "我和我喜欢的人交谈， 也和我不喜欢的人交谈。",
+        "hyp": "我与我喜欢的人交谈，也与我不喜欢的人交谈。",
+        "rel_src": [
+            "We're less likely to compromise,  which means we're not listening to each other.",
+            "And we make decisions about where to live,  who to marry and even who our friends are going to be,  based on what we already believe."
+        ],
+        "rel_tgt": [
+            "我们更不容易妥协，这意味着我们没有在倾听彼此。",
+            "我们根据自己已经相信的东西来决定住在哪里、嫁给谁，甚至选择谁作为朋友。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖"
+        }
+    },
+    {
+        "idx": 24,
+        "src": "I talk to some people that I disagree with deeply on a personal level.",
+        "ref": "我和在个人层面 非常不认同的人交谈。",
+        "hyp": "我与一些在个人层面上深有分歧的人交谈。",
+        "rel_src": [
+            "So this world that we live in,  this world in which every conversation  has the potential to devolve into an argument,  where our politicians can't speak to one another  and where even the most trivial of issues  have someone fighting both passionately for it and against it, it's not normal.",
+            "I talk to people that I like. I talk to people that I don't like."
+        ],
+        "rel_tgt": [
+            "所以我们所生活的这个世界，这个每次对话都有可能演变成争论的世界，我们的政治家无法相互交流，甚至连最琐碎的问题也有人为之 passionately 争论，反对，这并不正常。",
+            "我与我喜欢的人交谈，也与我不喜欢的人交谈。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖"
+        }
+    },
+    {
+        "idx": 25,
+        "src": "But I still have a great conversation with them.",
+        "ref": "但我仍旧和他们有很好的交流。",
+        "hyp": "但我仍然与他们进行着精彩的对话。",
+        "rel_src": [
+            "Now, I make my living talking to people:  Nobel Prize winners, truck drivers,  billionaires, kindergarten teachers,  heads of state, plumbers.",
+            "I talk to some people that I disagree with deeply on a personal level."
+        ],
+        "rel_tgt": [
+            "现在，我以与人交谈为生：诺贝尔奖获得者、卡车司机、亿万富翁、幼儿园教师、国家元首、管道工。",
+            "我与一些在个人层面上深有分歧的人交谈。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖"
+        }
+    },
+    {
+        "idx": 26,
+        "src": "So I'd like to spend the next 10 minutes or so teaching you how to talk  and how to listen.",
+        "ref": "所以我希望用接下来的10分钟 教你们如何谈话， 以及如何倾听。",
+        "hyp": "所以我想花接下来的十分钟左右教你们如何交谈和倾听。",
+        "rel_src": [
+            "A conversation requires a balance between talking and listening,  and somewhere along the way, we lost that balance.",
+            "Kids spend hours each day engaging with ideas and each other through screens,  but rarely do they have an opportunity  to hone their interpersonal communications skills."
+        ],
+        "rel_tgt": [
+            "一次对话需要在说和听之间保持平衡，而在某个时刻，我们失去了这种平衡。",
+            "孩子们每天花数小时通过屏幕与思想和彼此互动，但他们很少有机会磨练人际沟通技巧。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖"
+        }
+    },
+    {
+        "idx": 27,
+        "src": "Many of you have already heard a lot of advice on this,  things like look the person in the eye,  think of interesting topics to discuss in advance,  look, nod and smile to show that you're paying attention,  repeat back what you just heard or summarize it.",
+        "ref": "你们中间很多人已经听过无数建议， 比如看着对方的眼睛， 提前想好可以讨论的有趣话题， 注视，点头并且微笑 来表明你的专注， 重复你刚才听到的，或者做总结。",
+        "hyp": "许多人已经听到过很多关于这方面的建议，比如要直视对方的眼睛，提前想好有趣的话题进行讨论，注视、点头和微笑以表示你在专心倾听，重复你刚刚听到的内容或对其进行总结。",
+        "rel_src": [
+            "A conversation requires a balance between talking and listening,  and somewhere along the way, we lost that balance.",
+            "Kids spend hours each day engaging with ideas and each other through screens,  but rarely do they have an opportunity  to hone their interpersonal communications skills."
+        ],
+        "rel_tgt": [
+            "一次对话需要在说和听之间保持平衡，而在某个时刻，我们失去了这种平衡。",
+            "孩子们每天花数小时通过屏幕与思想和彼此互动，但他们很少有机会磨练人际沟通技巧。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖"
+        }
+    },
+    {
+        "idx": 28,
+        "src": "So I want you to forget all of that.",
+        "ref": "我想让你们忘掉所有这些，",
+        "hyp": "所以我希望你们忘掉所有这些。",
+        "rel_src": [
+            "Again, that means we're not listening to each other.",
+            "A conversation requires a balance between talking and listening,  and somewhere along the way, we lost that balance."
+        ],
+        "rel_tgt": [
+            "这再次意味着我们没有在倾听彼此。",
+            "一次对话需要在说和听之间保持平衡，而在某个时刻，我们失去了这种平衡。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖"
+        }
+    },
+    {
+        "idx": 29,
+        "src": "It is crap.",
+        "ref": "全都没用。",
+        "hyp": "这真是废话。",
+        "rel_src": [
+            "A conversation requires a balance between talking and listening,  and somewhere along the way, we lost that balance.",
+            "Kids spend hours each day engaging with ideas and each other through screens,  but rarely do they have an opportunity  to hone their interpersonal communications skills."
+        ],
+        "rel_tgt": [
+            "一次对话需要在说和听之间保持平衡，而在某个时刻，我们失去了这种平衡。",
+            "孩子们每天花数小时通过屏幕与思想和彼此互动，但他们很少有机会磨练人际沟通技巧。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖"
+        }
+    },
+    {
+        "idx": 30,
+        "src": "There is no reason to learn how to show you're paying attention  if you are in fact paying attention.",
+        "ref": "根本没必要去学习 如何表现你很专心， 如果你确实很专心。",
+        "hyp": "如果你确实在专心倾听，就没有理由去学习如何表现出你在专心倾听。",
+        "rel_src": [
+            "Many of you have already heard a lot of advice on this,  things like look the person in the eye,  think of interesting topics to discuss in advance,  look, nod and smile to show that you're paying attention,  repeat back what you just heard or summarize it.",
+            "It is crap."
+        ],
+        "rel_tgt": [
+            "许多人已经听到过很多关于这方面的建议，比如要直视对方的眼睛，提前想好有趣的话题进行讨论，注视、点头和微笑以表示你在专心倾听，重复你刚刚听到的内容或对其进行总结。",
+            "这真是废话。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖"
+        }
+    },
+    {
+        "idx": 31,
+        "src": "Now, I actually use the exact same skills as a professional interviewer  that I do in regular life.",
+        "ref": "我其实是把作为职业访谈者 一模一样的技巧 用在了日常生活中。",
+        "hyp": "现在，我在日常生活中实际上使用与专业面试官完全相同的技能。",
+        "rel_src": [
+            "Now, I make my living talking to people:  Nobel Prize winners, truck drivers,  billionaires, kindergarten teachers,  heads of state, plumbers.",
+            "But I still have a great conversation with them."
+        ],
+        "rel_tgt": [
+            "现在，我以与人交谈为生：诺贝尔奖获得者、卡车司机、亿万富翁、幼儿园教师、国家元首、管道工。",
+            "但我仍然与他们进行着精彩的对话。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖"
+        }
+    },
+    {
+        "idx": 32,
+        "src": "So, I'm going to teach you how to interview people,  and that's actually going to help you learn how to be better conversationalists.",
+        "ref": "好，我要来教你们 如何采访他人， 这其实会帮助你们学习 如何成为更好的沟通者。",
+        "hyp": "所以，我将教你们如何面试他人，而这实际上将帮助你们成为更好的交谈者。",
+        "rel_src": [
+            "So I'd like to spend the next 10 minutes or so teaching you how to talk  and how to listen.",
+            "Now, I actually use the exact same skills as a professional interviewer  that I do in regular life."
+        ],
+        "rel_tgt": [
+            "所以我想花接下来的十分钟左右教你们如何交谈和倾听。",
+            "现在，我在日常生活中实际上使用与专业面试官完全相同的技能。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖"
+        }
+    },
+    {
+        "idx": 33,
+        "src": "Learn to have a conversation  without wasting your time, without getting bored,  and, please God, without offending anybody.",
+        "ref": "学习开始一段交谈， 不浪费时间，不感到无聊， 以及，最重要的是，不冒犯任何人。",
+        "hyp": "学会进行对话，做到不浪费时间、不感到无聊，并且，求上帝，不要冒犯任何人。",
+        "rel_src": [
+            "So I'd like to spend the next 10 minutes or so teaching you how to talk  and how to listen.",
+            "So, I'm going to teach you how to interview people,  and that's actually going to help you learn how to be better conversationalists."
+        ],
+        "rel_tgt": [
+            "所以我想花接下来的十分钟左右教你们如何交谈和倾听。",
+            "所以，我将教你们如何面试他人，而这实际上将帮助你们成为更好的交谈者。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝"
+        }
+    },
+    {
+        "idx": 34,
+        "src": "We've all had really great conversations.",
+        "ref": "我们都曾有过很棒的交谈。",
+        "hyp": "我们都进行过非常精彩的对话。",
+        "rel_src": [
+            "But I still have a great conversation with them.",
+            "So, I'm going to teach you how to interview people,  and that's actually going to help you learn how to be better conversationalists."
+        ],
+        "rel_tgt": [
+            "但我仍然与他们进行着精彩的对话。",
+            "所以，我将教你们如何面试他人，而这实际上将帮助你们成为更好的交谈者。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝"
+        }
+    },
+    {
+        "idx": 35,
+        "src": "We've had them before. We know what it's like.",
+        "ref": "我们都曾有过。 我们知道那是什么感觉。",
+        "hyp": "我们以前也有过这样的对话。我们知道那是什么样的。",
+        "rel_src": [
+            "But I still have a great conversation with them.",
+            "We've all had really great conversations."
+        ],
+        "rel_tgt": [
+            "但我仍然与他们进行着精彩的对话。",
+            "我们都进行过非常精彩的对话。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝"
+        }
+    },
+    {
+        "idx": 36,
+        "src": "The kind of conversation where you walk away feeling engaged and inspired,  or where you feel like you've made a real connection  or you've been perfectly understood.",
+        "ref": "那种结束之后令你感到 很享受，很受鼓舞的交谈， 或者令你觉得你和别人 建立了真实的连接， 或者让你完全得到了他人的理解。",
+        "hyp": "让你走开时感到投入和受启发的对话，或者让你觉得自己真正建立了联系，或者被完美理解的对话。",
+        "rel_src": [
+            "Kids spend hours each day engaging with ideas and each other through screens,  but rarely do they have an opportunity  to hone their interpersonal communications skills.",
+            "But I still have a great conversation with them."
+        ],
+        "rel_tgt": [
+            "孩子们每天花数小时通过屏幕与思想和彼此互动，但他们很少有机会磨练人际沟通技巧。",
+            "但我仍然与他们进行着精彩的对话。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝"
+        }
+    },
+    {
+        "idx": 37,
+        "src": "There is no reason  why most of your interactions can't be like that.",
+        "ref": "没有理由说 你大部分人际互动 不能成为那样。",
+        "hyp": "没有理由你大多数的互动不能像那样。",
+        "rel_src": [
+            "So I'd like to spend the next 10 minutes or so teaching you how to talk  and how to listen.",
+            "The kind of conversation where you walk away feeling engaged and inspired,  or where you feel like you've made a real connection  or you've been perfectly understood."
+        ],
+        "rel_tgt": [
+            "所以我想花接下来的十分钟左右教你们如何交谈和倾听。",
+            "让你走开时感到投入和受启发的对话，或者让你觉得自己真正建立了联系，或者被完美理解的对话。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝"
+        }
+    },
+    {
+        "idx": 38,
+        "src": "So I have 10 basic rules. I'm going to walk you through all of them,  but honestly, if you just choose one of them and master it,  you'll already enjoy better conversations.",
+        "ref": "我有10条基本规则。 我会一条条给你们解释， 但说真的，如果你 选择一条并且熟练掌握， 你就已经可以享受 更愉快的交谈了。",
+        "hyp": "所以我有十条基本规则。我将逐一带你们了解，但老实说，如果你们只选择其中一条并掌握它，你们就会享受到更好的对话。",
+        "rel_src": [
+            "So, I'm going to teach you how to interview people,  and that's actually going to help you learn how to be better conversationalists.",
+            "Learn to have a conversation  without wasting your time, without getting bored,  and, please God, without offending anybody."
+        ],
+        "rel_tgt": [
+            "所以，我将教你们如何面试他人，而这实际上将帮助你们成为更好的交谈者。",
+            "学会进行对话，做到不浪费时间、不感到无聊，并且，求上帝，不要冒犯任何人。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝"
+        }
+    },
+    {
+        "idx": 39,
+        "src": "Number one: Don't multitask.",
+        "ref": "第一条：不要三心二意。",
+        "hyp": "第一条：不要同时做多件事。",
+        "new_src_summary": "The paragraphs collectively address the challenges and significance of effective communication in contemporary society, highlighting the increasing polarization of polite conversation, largely influenced by technology and social media. The author reflects on personal experiences of unfriending individuals on platforms like Facebook and avoiding discussions on sensitive topics such as politics, religion, and health, citing a Pew Research study that underscores the heightened division among Americans. This division has led to a decline in compromise and listening skills, emphasizing the need for a balanced approach to conversation that includes both talking and listening—a balance disrupted by the prevalence of smartphones and texting, especially among teenagers. Additionally, the author stresses the importance of conversational competence as a crucial skill often overlooked in the 21st century, particularly for children who primarily interact through screens. They advocate for the ability to engage in coherent and confident conversations, regardless of diverse backgrounds, and share their intention to teach effective communication techniques. Dismissing conventional advice on conversation etiquette, the author proposes ten basic rules for meaningful interactions, suggesting that even mastering one can significantly improve the quality of conversations. The tone throughout is conversational and reflective, aimed at raising awareness about societal changes in communication while providing practical skills for enhancing interpersonal interactions. The overall domain encompasses social behavior, communication, and the impact of technology on how individuals connect with one another.",
+        "new_tgt_summary": "本文探讨了现代社会中人际沟通的挑战及其重要性，特别是在政治、宗教等敏感话题上的分歧。许多人因对方的冒犯言论而取消好友或避免交流，反映出社会的极化和分裂。皮尤研究中心的研究显示，当前社会比历史上任何时候都更难以妥协，缺乏倾听他人的意愿。科技，尤其是智能手机的普及，进一步加剧了这一问题，使人们更倾向于通过短信而非面对面交流。文章引用了一位高中教师的项目，旨在教学生如何在不依赖笔记的情况下进行有效沟通，凸显了当今沟通方式的变化和面临的挑战。同时，作者强调，连贯、自信的对话是21世纪必备的技能，并分享了与不同人群交流的经验，批评了一些常见的交谈技巧，认为真正的倾听无需刻意表现。文章最后提出了十条基本规则，以帮助人们提高交谈技巧，促进更有意义的对话，建议即使掌握其中一条也能显著改善沟通体验。",
+        "rel_src": [
+            "There is no reason to learn how to show you're paying attention  if you are in fact paying attention.",
+            "So I have 10 basic rules. I'm going to walk you through all of them,  but honestly, if you just choose one of them and master it,  you'll already enjoy better conversations."
+        ],
+        "rel_tgt": [
+            "如果你确实在专心倾听，就没有理由去学习如何表现出你在专心倾听。",
+            "所以我有十条基本规则。我将逐一带你们了解，但老实说，如果你们只选择其中一条并掌握它，你们就会享受到更好的对话。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝"
+        }
+    },
+    {
+        "idx": 40,
+        "src": "And I don't mean just set down your cell phone  or your tablet or your car keys or whatever is in your hand.",
+        "ref": "我不是说单纯放下你的手机、 平板电脑、车钥匙， 或者随便什么握在手里的东西。",
+        "hyp": "我不是说只要放下你的手机、平板电脑、车钥匙或你手中握着的任何东西。",
+        "rel_src": [
+            "There is no reason to learn how to show you're paying attention  if you are in fact paying attention.",
+            "Number one: Don't multitask."
+        ],
+        "rel_tgt": [
+            "如果你确实在专心倾听，就没有理由去学习如何表现出你在专心倾听。",
+            "第一条：不要同时做多件事。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝"
+        }
+    },
+    {
+        "idx": 41,
+        "src": "I mean, be present.",
+        "ref": "我的意思是，处在当下。",
+        "hyp": "我的意思是，要专注于当下。",
+        "rel_src": [
+            "There is no reason to learn how to show you're paying attention  if you are in fact paying attention.",
+            "So I have 10 basic rules. I'm going to walk you through all of them,  but honestly, if you just choose one of them and master it,  you'll already enjoy better conversations."
+        ],
+        "rel_tgt": [
+            "如果你确实在专心倾听，就没有理由去学习如何表现出你在专心倾听。",
+            "所以我有十条基本规则。我将逐一带你们了解，但老实说，如果你们只选择其中一条并掌握它，你们就会享受到更好的对话。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝"
+        }
+    },
+    {
+        "idx": 42,
+        "src": "Be in that moment.",
+        "ref": "进入那个情境中去。",
+        "hyp": "活在当下。",
+        "rel_src": [
+            "There is no reason to learn how to show you're paying attention  if you are in fact paying attention.",
+            "I mean, be present."
+        ],
+        "rel_tgt": [
+            "如果你确实在专心倾听，就没有理由去学习如何表现出你在专心倾听。",
+            "我的意思是，要专注于当下。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝"
+        }
+    },
+    {
+        "idx": 43,
+        "src": "Don't think about your argument you had with your boss.",
+        "ref": "不要想着你之前和老板的争吵。",
+        "hyp": "不要考虑你和老板之间的争论。",
+        "rel_src": [
+            "There is no reason to learn how to show you're paying attention  if you are in fact paying attention.",
+            "I mean, be present."
+        ],
+        "rel_tgt": [
+            "如果你确实在专心倾听，就没有理由去学习如何表现出你在专心倾听。",
+            "我的意思是，要专注于当下。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝"
+        }
+    },
+    {
+        "idx": 44,
+        "src": "Don't think about what you're going to have for dinner.",
+        "ref": "不要想着你晚饭吃什么。",
+        "hyp": "不要考虑你晚上要吃什么。",
+        "rel_src": [
+            "I mean, be present.",
+            "Don't think about your argument you had with your boss."
+        ],
+        "rel_tgt": [
+            "我的意思是，要专注于当下。",
+            "不要考虑你和老板之间的争论。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝"
+        }
+    },
+    {
+        "idx": 45,
+        "src": "If you want to get out of the conversation,  get out of the conversation,  but don't be half in it and half out of it.",
+        "ref": "如果你想退出交谈， 就退出交谈。 但不要身在曹营心在汉。",
+        "hyp": "如果你想退出对话，就退出对话，但不要半心半意地参与。",
+        "rel_src": [
+            "Number one: Don't multitask.",
+            "I mean, be present."
+        ],
+        "rel_tgt": [
+            "第一条：不要同时做多件事。",
+            "我的意思是，要专注于当下。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝"
+        }
+    },
+    {
+        "idx": 46,
+        "src": "Number two: Don't pontificate.",
+        "ref": "第二条：不要好为人师。",
+        "hyp": "第二条：不要高谈阔论。",
+        "rel_src": [
+            "So, I'm going to teach you how to interview people,  and that's actually going to help you learn how to be better conversationalists.",
+            "So I have 10 basic rules. I'm going to walk you through all of them,  but honestly, if you just choose one of them and master it,  you'll already enjoy better conversations."
+        ],
+        "rel_tgt": [
+            "所以，我将教你们如何面试他人，而这实际上将帮助你们成为更好的交谈者。",
+            "所以我有十条基本规则。我将逐一带你们了解，但老实说，如果你们只选择其中一条并掌握它，你们就会享受到更好的对话。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝"
+        }
+    },
+    {
+        "idx": 47,
+        "src": "If you want to state your opinion  without any opportunity for response or argument or pushback or growth,  write a blog.",
+        "ref": "如果你想要表达自己的看法， 又不想留下任何机会让人 回应、争论、反驳或阐发， 写博客去。",
+        "hyp": "如果你想表达自己的观点，而不想给别人回应、争论、反驳或成长的机会，那就写一篇博客。",
+        "rel_src": [
+            "So I want you to forget all of that.",
+            "It is crap."
+        ],
+        "rel_tgt": [
+            "所以我希望你们忘掉所有这些。",
+            "这真是废话。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝"
+        }
+    },
+    {
+        "idx": 48,
+        "src": "Now, there's a really good reason why I don't allow pundits on my show:  Because they're really boring.",
+        "ref": "有个很好的理由来说明 我的谈话里为什么不允许有“专家说教”： 因为真的很无聊。",
+        "hyp": "现在，我不允许评论员上我的节目是有很好的理由的：因为他们真的很无聊。",
+        "rel_src": [
+            "So, I'm going to teach you how to interview people,  and that's actually going to help you learn how to be better conversationalists.",
+            "Number two: Don't pontificate."
+        ],
+        "rel_tgt": [
+            "所以，我将教你们如何面试他人，而这实际上将帮助你们成为更好的交谈者。",
+            "第二条：不要高谈阔论。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝"
+        }
+    },
+    {
+        "idx": 49,
+        "src": "If they're conservative, they're going to hate Obama and food stamps and abortion.",
+        "ref": "如果对方是个保守派， 那一定讨厌奥巴马、食品券和堕胎。",
+        "hyp": "如果他们是保守派，他们会讨厌奥巴马、食品券和堕胎。",
+        "rel_src": [
+            "There is no reason to learn how to show you're paying attention  if you are in fact paying attention.",
+            "Now, there's a really good reason why I don't allow pundits on my show:  Because they're really boring."
+        ],
+        "rel_tgt": [
+            "如果你确实在专心倾听，就没有理由去学习如何表现出你在专心倾听。",
+            "现在，我不允许评论员上我的节目是有很好的理由的：因为他们真的很无聊。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马"
+        }
+    },
+    {
+        "idx": 50,
+        "src": "If they're liberal, they're going to hate  big banks and oil corporations and Dick Cheney.",
+        "ref": "如果对方是个自由派， 那一定会讨厌 大银行、石油公司和迪克·切尼。",
+        "hyp": "如果他们是自由派，他们会讨厌大银行、石油公司和迪克·切尼。",
+        "rel_src": [
+            "Now, there's a really good reason why I don't allow pundits on my show:  Because they're really boring.",
+            "If they're conservative, they're going to hate Obama and food stamps and abortion."
+        ],
+        "rel_tgt": [
+            "现在，我不允许评论员上我的节目是有很好的理由的：因为他们真的很无聊。",
+            "如果他们是保守派，他们会讨厌奥巴马、食品券和堕胎。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼"
+        }
+    },
+    {
+        "idx": 51,
+        "src": "Totally predictable.",
+        "ref": "完全可以预测的。",
+        "hyp": "完全可以预测。",
+        "rel_src": [
+            "Now, there's a really good reason why I don't allow pundits on my show:  Because they're really boring.",
+            "If they're liberal, they're going to hate  big banks and oil corporations and Dick Cheney."
+        ],
+        "rel_tgt": [
+            "现在，我不允许评论员上我的节目是有很好的理由的：因为他们真的很无聊。",
+            "如果他们是自由派，他们会讨厌大银行、石油公司和迪克·切尼。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼"
+        }
+    },
+    {
+        "idx": 52,
+        "src": "And you don't want to be like that.",
+        "ref": "你肯定不希望那样。",
+        "hyp": "你可不想变成那样。",
+        "rel_src": [
+            "Number two: Don't pontificate.",
+            "If you want to state your opinion  without any opportunity for response or argument or pushback or growth,  write a blog."
+        ],
+        "rel_tgt": [
+            "第二条：不要高谈阔论。",
+            "如果你想表达自己的观点，而不想给别人回应、争论、反驳或成长的机会，那就写一篇博客。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼"
+        }
+    },
+    {
+        "idx": 53,
+        "src": "You need to enter every conversation assuming that you have something to learn.",
+        "ref": "你需要在进入每一次交流时 都假定自己可以学习到一些东西。",
+        "hyp": "你需要在每次对话中假设自己有东西可以学习。",
+        "rel_src": [
+            "Number two: Don't pontificate.",
+            "If you want to state your opinion  without any opportunity for response or argument or pushback or growth,  write a blog."
+        ],
+        "rel_tgt": [
+            "第二条：不要高谈阔论。",
+            "如果你想表达自己的观点，而不想给别人回应、争论、反驳或成长的机会，那就写一篇博客。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼"
+        }
+    },
+    {
+        "idx": 54,
+        "src": "The famed therapist M. Scott Peck said  that true listening requires a setting aside of oneself.",
+        "ref": "著名的治疗师 M.斯科特·派克说过， 真正的倾听需要把自己放在一边。",
+        "hyp": "著名的治疗师M·斯科特·派克（M. Scott Peck）曾说，真正的倾听需要放下自我。",
+        "rel_src": [
+            "I mean, be present.",
+            "You need to enter every conversation assuming that you have something to learn."
+        ],
+        "rel_tgt": [
+            "我的意思是，要专注于当下。",
+            "你需要在每次对话中假设自己有东西可以学习。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克"
+        }
+    },
+    {
+        "idx": 55,
+        "src": "And sometimes that means setting aside your personal opinion.",
+        "ref": "有时候，这意味着 把你的个人观点放在一边。",
+        "hyp": "有时候，这意味着放下你的个人观点。",
+        "rel_src": [
+            "Number two: Don't pontificate.",
+            "You need to enter every conversation assuming that you have something to learn."
+        ],
+        "rel_tgt": [
+            "第二条：不要高谈阔论。",
+            "你需要在每次对话中假设自己有东西可以学习。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克"
+        }
+    },
+    {
+        "idx": 56,
+        "src": "He said that sensing this acceptance,  the speaker will become less and less vulnerable  and more and more likely to open up the inner recesses  of his or her mind to the listener.",
+        "ref": "他说感受到这种接纳， 说话的人会变得越来越不脆弱敏感， 因而越来越有可能 打开自己的内心世界， 呈现给倾听者。",
+        "hyp": "他说，感受到这种接纳后，讲话者将变得越来越不脆弱，越来越可能向听者敞开自己内心深处的想法。",
+        "rel_src": [
+            "The kind of conversation where you walk away feeling engaged and inspired,  or where you feel like you've made a real connection  or you've been perfectly understood.",
+            "You need to enter every conversation assuming that you have something to learn."
+        ],
+        "rel_tgt": [
+            "让你走开时感到投入和受启发的对话，或者让你觉得自己真正建立了联系，或者被完美理解的对话。",
+            "你需要在每次对话中假设自己有东西可以学习。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克"
+        }
+    },
+    {
+        "idx": 57,
+        "src": "Again, assume that you have something to learn.",
+        "ref": "再强调一遍， 假定你需要学习新东西。",
+        "hyp": "再次假设自己有东西可以学习。",
+        "rel_src": [
+            "You need to enter every conversation assuming that you have something to learn.",
+            "The famed therapist M. Scott Peck said  that true listening requires a setting aside of oneself."
+        ],
+        "rel_tgt": [
+            "你需要在每次对话中假设自己有东西可以学习。",
+            "著名的治疗师M·斯科特·派克（M. Scott Peck）曾说，真正的倾听需要放下自我。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克"
+        }
+    },
+    {
+        "idx": 58,
+        "src": "Bill Nye: \"Everyone you will ever meet knows something that you don't.\"",
+        "ref": "比尔·奈伊说：“每一个你将要 见到的人都有你不知道的东西。”",
+        "hyp": "比尔·奈： “你将遇到的每一个人都知道你不知道的事情。”",
+        "rel_src": [
+            "You need to enter every conversation assuming that you have something to learn.",
+            "Again, assume that you have something to learn."
+        ],
+        "rel_tgt": [
+            "你需要在每次对话中假设自己有东西可以学习。",
+            "再次假设自己有东西可以学习。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈"
+        }
+    },
+    {
+        "idx": 59,
+        "src": "I put it this way:  Everybody is an expert in something.",
+        "ref": "我来复述一下： 每个人都是某方面的专家。",
+        "hyp": "我这样说：每个人在某个领域都是专家。",
+        "new_src_summary": "The paragraphs collectively explore the challenges and significance of effective communication in contemporary society, emphasizing the increasing polarization of polite conversation, largely influenced by technology and social media. The author reflects on personal experiences, such as unfriending individuals on platforms like Facebook and avoiding discussions on sensitive topics like politics, religion, and health, supported by a Pew Research study that highlights the heightened division among Americans. This division has resulted in a decline in compromise and listening skills, underscoring the necessity for a balanced approach to conversation that incorporates both speaking and listening—an equilibrium disrupted by the prevalence of smartphones and texting, particularly among teenagers. \n\nThe author stresses the importance of conversational competence as a vital skill often overlooked in the 21st century, especially for children who predominantly interact through screens. They advocate for the ability to engage in coherent and confident conversations, regardless of diverse backgrounds, and express their intention to teach effective communication techniques. Dismissing conventional advice on conversation etiquette, the author proposes ten basic rules for meaningful interactions, asserting that mastering even one can significantly enhance the quality of conversations.\n\nFurthermore, the author emphasizes two key principles for effective communication: being fully present in conversations and valuing open-mindedness. They advise against multitasking during discussions, urging individuals to focus solely on the conversation without distractions. The critique of pontificating suggests that if one is only interested in expressing their opinion without engaging in meaningful dialogue, they should consider writing a blog instead. Drawing on insights from notable figures like M. Scott Peck and Bill Nye, the author reinforces that true listening requires setting aside personal biases and being open to learning from others. The tone throughout is both conversational and instructive, aimed at raising awareness about societal changes in communication while providing practical skills for enhancing interpersonal interactions. The overall domain encompasses social behavior, communication, and the impact of technology on how individuals connect with one another.",
+        "new_tgt_summary": "本文探讨了现代社会中人际沟通的挑战及其重要性，尤其是在政治、宗教等敏感话题上的分歧。许多人因对方的冒犯言论而取消好友或避免交流，反映出社会的极化和分裂。皮尤研究中心的研究显示，当前社会比历史上任何时候都更难以妥协，缺乏倾听他人的意愿。科技，特别是智能手机的普及，进一步加剧了这一问题，使人们更倾向于通过短信而非面对面交流。文章引用了一位高中教师的项目，旨在教学生如何在不依赖笔记的情况下进行有效沟通，凸显了当今沟通方式的变化和面临的挑战。作者强调，连贯、自信的对话是21世纪必备的技能，并分享了与不同人群交流的经验，批评了一些常见的交谈技巧，认为真正的倾听无需刻意表现。\n\n文章提出了十条基本规则，以帮助人们提高交谈技巧，促进更有意义的对话。其中两条重要的交流原则是：专注于当下，全心投入对话，而非半心半意；避免高谈阔论，保持开放的心态，假设自己可以从对方身上学习。引用著名治疗师M·斯科特·派克的话，强调真正的倾听需要放下自我，以促进更深层次的交流和理解。同时，比尔·奈的观点指出，每个人都有独特的知识和经验值得学习。",
+        "rel_src": [
+            "You need to enter every conversation assuming that you have something to learn.",
+            "Bill Nye: \"Everyone you will ever meet knows something that you don't.\""
+        ],
+        "rel_tgt": [
+            "你需要在每次对话中假设自己有东西可以学习。",
+            "比尔·奈： “你将遇到的每一个人都知道你不知道的事情。”"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈"
+        }
+    },
+    {
+        "idx": 60,
+        "src": "Number three: Use open-ended questions.",
+        "ref": "第三点：使用开放式问题。",
+        "hyp": "第三条：使用开放式问题。",
+        "rel_src": [
+            "You need to enter every conversation assuming that you have something to learn.",
+            "Again, assume that you have something to learn."
+        ],
+        "rel_tgt": [
+            "你需要在每次对话中假设自己有东西可以学习。",
+            "再次假设自己有东西可以学习。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈"
+        }
+    },
+    {
+        "idx": 61,
+        "src": "In this case, take a cue from journalists.",
+        "ref": "关于这一点， 请参考记者采访的提问方式。",
+        "hyp": "在这种情况下，可以向记者们学习。",
+        "rel_src": [
+            "You need to enter every conversation assuming that you have something to learn.",
+            "The famed therapist M. Scott Peck said  that true listening requires a setting aside of oneself."
+        ],
+        "rel_tgt": [
+            "你需要在每次对话中假设自己有东西可以学习。",
+            "著名的治疗师M·斯科特·派克（M. Scott Peck）曾说，真正的倾听需要放下自我。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈"
+        }
+    },
+    {
+        "idx": 62,
+        "src": "Start your questions with who, what, when, where, why or how.",
+        "ref": "以“谁”、“什么”、“何时”、“何地”、 “为什么”或“如何”开始提问。",
+        "hyp": "从“谁”、“什么”、“何时”、“哪里”、“为什么”或“如何”开始提问。",
+        "rel_src": [
+            "Number three: Use open-ended questions.",
+            "In this case, take a cue from journalists."
+        ],
+        "rel_tgt": [
+            "第三条：使用开放式问题。",
+            "在这种情况下，可以向记者们学习。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈"
+        }
+    },
+    {
+        "idx": 63,
+        "src": "If you put in a complicated question, you're going to get a simple answer out.",
+        "ref": "如果你询问一个复杂的问题 将会得到一个简单的回答。",
+        "hyp": "如果你提出一个复杂的问题，你得到的答案就会很简单。",
+        "rel_src": [
+            "Number three: Use open-ended questions.",
+            "Start your questions with who, what, when, where, why or how."
+        ],
+        "rel_tgt": [
+            "第三条：使用开放式问题。",
+            "从“谁”、“什么”、“何时”、“哪里”、“为什么”或“如何”开始提问。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈"
+        }
+    },
+    {
+        "idx": 64,
+        "src": "If I ask you, \"Were you terrified?\"",
+        "ref": "如果我问你：“你当时恐惧吗？”",
+        "hyp": "如果我问你：“你感到害怕吗？”",
+        "rel_src": [
+            "Number three: Use open-ended questions.",
+            "Start your questions with who, what, when, where, why or how."
+        ],
+        "rel_tgt": [
+            "第三条：使用开放式问题。",
+            "从“谁”、“什么”、“何时”、“哪里”、“为什么”或“如何”开始提问。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈"
+        }
+    },
+    {
+        "idx": 65,
+        "src": "you're going to respond to the most powerful word in that sentence,  which is \"terrified,\" and the answer is \"Yes, I was\" or \"No, I wasn't.\"",
+        "ref": "你会回应那句话中最有力的词， 即“恐惧”，而答案将是 “是的”或者“不是”。",
+        "hyp": "你将会对那个句子中最强有力的词作出反应，即“害怕”，答案是“是的，我感到害怕”或“不是，我没有”。",
+        "rel_src": [
+            "If you want to get out of the conversation,  get out of the conversation,  but don't be half in it and half out of it.",
+            "If I ask you, \"Were you terrified?\""
+        ],
+        "rel_tgt": [
+            "如果你想退出对话，就退出对话，但不要半心半意地参与。",
+            "如果我问你：“你感到害怕吗？”"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈"
+        }
+    },
+    {
+        "idx": 66,
+        "src": "\"Were you angry?\" \"Yes, I was very angry.\"",
+        "ref": "“你当时气愤吗？” “是的，我当时气得很。”",
+        "hyp": "“你感到生气吗？” “是的，我非常生气。”",
+        "rel_src": [
+            "If I ask you, \"Were you terrified?\"",
+            "you're going to respond to the most powerful word in that sentence,  which is \"terrified,\" and the answer is \"Yes, I was\" or \"No, I wasn't.\""
+        ],
+        "rel_tgt": [
+            "如果我问你：“你感到害怕吗？”",
+            "你将会对那个句子中最强有力的词作出反应，即“害怕”，答案是“是的，我感到害怕”或“不是，我没有”。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈"
+        }
+    },
+    {
+        "idx": 67,
+        "src": "Let them describe it. They're the ones that know.",
+        "ref": "让对方去描述， 对方才是了解情境的人。",
+        "hyp": "让他们来描述。知道的正是他们。",
+        "rel_src": [
+            "He said that sensing this acceptance,  the speaker will become less and less vulnerable  and more and more likely to open up the inner recesses  of his or her mind to the listener.",
+            "Bill Nye: \"Everyone you will ever meet knows something that you don't.\""
+        ],
+        "rel_tgt": [
+            "他说，感受到这种接纳后，讲话者将变得越来越不脆弱，越来越可能向听者敞开自己内心深处的想法。",
+            "比尔·奈： “你将遇到的每一个人都知道你不知道的事情。”"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈"
+        }
+    },
+    {
+        "idx": 68,
+        "src": "Try asking them things like, \"What was that like?\"",
+        "ref": "试着这样问对方： “那是什么样子？”",
+        "hyp": "试着问他们一些问题，比如：“那感觉怎么样？”",
+        "rel_src": [
+            "Number three: Use open-ended questions.",
+            "Let them describe it. They're the ones that know."
+        ],
+        "rel_tgt": [
+            "第三条：使用开放式问题。",
+            "让他们来描述。知道的正是他们。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈"
+        }
+    },
+    {
+        "idx": 69,
+        "src": "\"How did that feel?\"",
+        "ref": "“你感觉怎么样？”",
+        "hyp": "“那感觉怎么样？”",
+        "rel_src": [
+            "Let them describe it. They're the ones that know.",
+            "Try asking them things like, \"What was that like?\""
+        ],
+        "rel_tgt": [
+            "让他们来描述。知道的正是他们。",
+            "试着问他们一些问题，比如：“那感觉怎么样？”"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈"
+        }
+    },
+    {
+        "idx": 70,
+        "src": "Because then they might have to stop for a moment and think about it,  and you're going to get a much more interesting response.",
+        "ref": "因为这样一来，对方可能 需要停下来想一想， 而你会得到更有意思的回答。",
+        "hyp": "因为那样他们可能需要停下来思考一下，你会得到一个更有趣的回应。",
+        "rel_src": [
+            "Let them describe it. They're the ones that know.",
+            "Try asking them things like, \"What was that like?\""
+        ],
+        "rel_tgt": [
+            "让他们来描述。知道的正是他们。",
+            "试着问他们一些问题，比如：“那感觉怎么样？”"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈"
+        }
+    },
+    {
+        "idx": 71,
+        "src": "Number four: Go with the flow.",
+        "ref": "第四点：顺其自然。",
+        "hyp": "第四条：顺其自然。",
+        "rel_src": [
+            "You need to enter every conversation assuming that you have something to learn.",
+            "The famed therapist M. Scott Peck said  that true listening requires a setting aside of oneself."
+        ],
+        "rel_tgt": [
+            "你需要在每次对话中假设自己有东西可以学习。",
+            "著名的治疗师M·斯科特·派克（M. Scott Peck）曾说，真正的倾听需要放下自我。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈"
+        }
+    },
+    {
+        "idx": 72,
+        "src": "That means thoughts will come into your mind  and you need to let them go out of your mind.",
+        "ref": "也就是说，想法会 自然流入你的头脑， 而你需要将它们表达出来。",
+        "hyp": "这意味着思绪会进入你的脑海，而你需要让它们离开你的脑海。",
+        "rel_src": [
+            "And sometimes that means setting aside your personal opinion.",
+            "He said that sensing this acceptance,  the speaker will become less and less vulnerable  and more and more likely to open up the inner recesses  of his or her mind to the listener."
+        ],
+        "rel_tgt": [
+            "有时候，这意味着放下你的个人观点。",
+            "他说，感受到这种接纳后，讲话者将变得越来越不脆弱，越来越可能向听者敞开自己内心深处的想法。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈"
+        }
+    },
+    {
+        "idx": 73,
+        "src": "We've heard interviews often  in which a guest is talking for several minutes  and then the host comes back in and asks a question  which seems like it comes out of nowhere, or it's already been answered.",
+        "ref": "我们常听到采访中 嘉宾说了几分钟, 然后主持人回过来问问题, 这问题好像不知道从何而来 或者已经被回答过了。",
+        "hyp": "我们常常听到这样的采访，嘉宾谈了几分钟后，主持人突然插话提问，似乎问题毫无缘由，或者已经得到了回答。",
+        "rel_src": [
+            "Number three: Use open-ended questions.",
+            "Start your questions with who, what, when, where, why or how."
+        ],
+        "rel_tgt": [
+            "第三条：使用开放式问题。",
+            "从“谁”、“什么”、“何时”、“哪里”、“为什么”或“如何”开始提问。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈"
+        }
+    },
+    {
+        "idx": 74,
+        "src": "That means the host probably stopped listening two minutes ago  because he thought of this really clever question,  and he was just bound and determined to say that.",
+        "ref": "这说明主持人可能 两分钟前就没在听， 因为他想到了 这个非常机智的问题， 于是就心心念念 想着问这个问题。",
+        "hyp": "这意味着主持人大概在两分钟前就停止倾听，因为他想到了这个非常聪明的问题，并且他决心要说出来。",
+        "rel_src": [
+            "The famed therapist M. Scott Peck said  that true listening requires a setting aside of oneself.",
+            "We've heard interviews often  in which a guest is talking for several minutes  and then the host comes back in and asks a question  which seems like it comes out of nowhere, or it's already been answered."
+        ],
+        "rel_tgt": [
+            "著名的治疗师M·斯科特·派克（M. Scott Peck）曾说，真正的倾听需要放下自我。",
+            "我们常常听到这样的采访，嘉宾谈了几分钟后，主持人突然插话提问，似乎问题毫无缘由，或者已经得到了回答。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈"
+        }
+    },
+    {
+        "idx": 75,
+        "src": "And we do the exact same thing.",
+        "ref": "我们同样也会这么干。",
+        "hyp": "我们也做着完全相同的事情。",
+        "rel_src": [
+            "We've heard interviews often  in which a guest is talking for several minutes  and then the host comes back in and asks a question  which seems like it comes out of nowhere, or it's already been answered.",
+            "That means the host probably stopped listening two minutes ago  because he thought of this really clever question,  and he was just bound and determined to say that."
+        ],
+        "rel_tgt": [
+            "我们常常听到这样的采访，嘉宾谈了几分钟后，主持人突然插话提问，似乎问题毫无缘由，或者已经得到了回答。",
+            "这意味着主持人大概在两分钟前就停止倾听，因为他想到了这个非常聪明的问题，并且他决心要说出来。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈"
+        }
+    },
+    {
+        "idx": 76,
+        "src": "We're sitting there having a conversation with someone,  and then we remember that time that we met Hugh Jackman in a coffee shop.",
+        "ref": "当我们和某人坐在一起交谈时， 我们突然想起那次 和休·杰克曼在咖啡店的偶遇。",
+        "hyp": "我们坐在那里与某人交谈，然后我们想起了那次在咖啡店遇见休·杰克曼的经历。",
+        "rel_src": [
+            "We've heard interviews often  in which a guest is talking for several minutes  and then the host comes back in and asks a question  which seems like it comes out of nowhere, or it's already been answered.",
+            "That means the host probably stopped listening two minutes ago  because he thought of this really clever question,  and he was just bound and determined to say that."
+        ],
+        "rel_tgt": [
+            "我们常常听到这样的采访，嘉宾谈了几分钟后，主持人突然插话提问，似乎问题毫无缘由，或者已经得到了回答。",
+            "这意味着主持人大概在两分钟前就停止倾听，因为他想到了这个非常聪明的问题，并且他决心要说出来。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼"
+        }
+    },
+    {
+        "idx": 77,
+        "src": "And we stop listening.",
+        "ref": "然后我们就不再听了。",
+        "hyp": "我们也停止倾听。",
+        "rel_src": [
+            "That means the host probably stopped listening two minutes ago  because he thought of this really clever question,  and he was just bound and determined to say that.",
+            "And we do the exact same thing."
+        ],
+        "rel_tgt": [
+            "这意味着主持人大概在两分钟前就停止倾听，因为他想到了这个非常聪明的问题，并且他决心要说出来。",
+            "我们也做着完全相同的事情。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼"
+        }
+    },
+    {
+        "idx": 78,
+        "src": "Stories and ideas are going to come to you.",
+        "ref": "故事和想法总会不断向你涌来，",
+        "hyp": "故事和想法会涌现到你脑海中。",
+        "rel_src": [
+            "Number four: Go with the flow.",
+            "That means thoughts will come into your mind  and you need to let them go out of your mind."
+        ],
+        "rel_tgt": [
+            "第四条：顺其自然。",
+            "这意味着思绪会进入你的脑海，而你需要让它们离开你的脑海。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼"
+        }
+    },
+    {
+        "idx": 79,
+        "src": "You need to let them come and let them go.",
+        "ref": "但即便无法阻止， 也不要让它们过多地在头脑中逗留。",
+        "hyp": "你需要让它们来，也让它们去。",
+        "new_src_summary": "The combined summaries delve into the challenges and significance of effective communication in contemporary society, highlighting the increasing polarization of polite conversation, largely driven by technology and social media. The author shares personal experiences, such as unfriending individuals on platforms like Facebook and steering clear of sensitive topics like politics, religion, and health. This is supported by a Pew Research study indicating a growing division among Americans, which has led to a decline in compromise and listening skills. The author underscores the necessity for a balanced conversational approach that integrates both speaking and listening—an equilibrium disrupted by the omnipresence of smartphones and texting, especially among teenagers.\n\nEmphasizing conversational competence as a crucial yet often overlooked skill in the 21st century, the author advocates for the ability to engage in coherent and confident conversations across diverse backgrounds. They express a commitment to teaching effective communication techniques, proposing ten basic rules for meaningful interactions and asserting that mastering even one can significantly improve conversational quality. The text also highlights two essential principles for effective communication: being fully present and valuing open-mindedness. The author discourages multitasking during discussions, recommending a focused approach to conversations devoid of distractions. They critique the act of pontificating, suggesting that those solely interested in expressing opinions might consider writing a blog instead. Drawing insights from notable figures like M. Scott Peck and Bill Nye, the author emphasizes that true listening involves setting aside personal biases and being open to learning from others.\n\nIn addition, the text offers advice on effective interviewing techniques, suggesting that everyone possesses expertise in something. It advocates for the use of open-ended questions, akin to journalistic practices, to draw out more thoughtful responses, contrasting them with simple yes/no questions. Interviewers are encouraged to remain present and engaged, avoiding distractions that lead to irrelevant inquiries. The tone throughout is both conversational and instructive, aiming to raise awareness about societal shifts in communication while providing practical skills for enhancing interpersonal interactions. The overarching domain encompasses social behavior, communication, and the impact of technology on human connections, as well as specific interviewing skills.",
+        "new_tgt_summary": "本文探讨了现代社会中人际沟通的挑战及其重要性，尤其是在政治、宗教等敏感话题上的分歧。许多人因对方的冒犯言论而取消好友或避免交流，反映出社会的极化和分裂。皮尤研究中心的研究显示，当前社会比历史上任何时候都更难以妥协，缺乏倾听他人的意愿。科技，特别是智能手机的普及，进一步加剧了这一问题，使人们更倾向于通过短信而非面对面交流。文章引用了一位高中教师的项目，旨在教学生如何在不依赖笔记的情况下进行有效沟通，凸显了当今沟通方式的变化和面临的挑战。作者强调，连贯、自信的对话是21世纪必备的技能，并分享了与不同人群交流的经验，批评了一些常见的交谈技巧，认为真正的倾听无需刻意表现。\n\n为提高交谈技巧，文章提出了十条基本规则，强调专注于当下、全心投入对话的重要性，避免高谈阔论，保持开放心态，假设自己可以从对方身上学习。引用著名治疗师M·斯科特·派克的话，强调真正的倾听需要放下自我，以促进更深层次的交流和理解。同时，比尔·奈的观点指出，每个人在某个领域都是专家，提问时应使用开放式问题，如“谁”、“什么”、“何时”、“哪里”、“为什么”或“如何”，以获得更丰富的回答。复杂问题往往导致简单回答，而简单问题可以引导深入讨论，主持人在采访中应顺其自然，保持倾听，避免因思考自己的问题而错过嘉宾的重要信息和故事。",
+        "rel_src": [
+            "Number four: Go with the flow.",
+            "That means thoughts will come into your mind  and you need to let them go out of your mind."
+        ],
+        "rel_tgt": [
+            "第四条：顺其自然。",
+            "这意味着思绪会进入你的脑海，而你需要让它们离开你的脑海。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼"
+        }
+    },
+    {
+        "idx": 80,
+        "src": "Number five: If you don't know, say that you don't know.",
+        "ref": "第五点：如果你不知道， 就说你不知道。",
+        "hyp": "第五条：如果你不知道，就说你不知道。",
+        "rel_src": [
+            "In this case, take a cue from journalists.",
+            "Number four: Go with the flow."
+        ],
+        "rel_tgt": [
+            "在这种情况下，可以向记者们学习。",
+            "第四条：顺其自然。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼"
+        }
+    },
+    {
+        "idx": 81,
+        "src": "Now, people on the radio, especially on NPR,  are much more aware that they're going on the record,  and so they're more careful about what they claim to be an expert in  and what they claim to know for sure.",
+        "ref": "广播节目里的人，尤其在 全国公共广播电台中， 非常明白他们的谈话 会被播放出去。 所以他们对自己声称专业的地方 以及言之凿凿的东西会更加小心。",
+        "hyp": "现在，电台上的人们，尤其是在NPR（国家公共广播电台）上，更加意识到他们是在公开发言，因此他们在声称自己是某方面的专家以及声称自己确定知道的事情时，会更加谨慎。",
+        "rel_src": [
+            "We've heard interviews often  in which a guest is talking for several minutes  and then the host comes back in and asks a question  which seems like it comes out of nowhere, or it's already been answered.",
+            "That means the host probably stopped listening two minutes ago  because he thought of this really clever question,  and he was just bound and determined to say that."
+        ],
+        "rel_tgt": [
+            "我们常常听到这样的采访，嘉宾谈了几分钟后，主持人突然插话提问，似乎问题毫无缘由，或者已经得到了回答。",
+            "这意味着主持人大概在两分钟前就停止倾听，因为他想到了这个非常聪明的问题，并且他决心要说出来。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）"
+        }
+    },
+    {
+        "idx": 82,
+        "src": "Do that. Err on the side of caution.",
+        "ref": "要学着这样做。谨言慎行。",
+        "hyp": "这样做。倾向于谨慎行事。",
+        "rel_src": [
+            "Number five: If you don't know, say that you don't know.",
+            "Now, people on the radio, especially on NPR,  are much more aware that they're going on the record,  and so they're more careful about what they claim to be an expert in  and what they claim to know for sure."
+        ],
+        "rel_tgt": [
+            "第五条：如果你不知道，就说你不知道。",
+            "现在，电台上的人们，尤其是在NPR（国家公共广播电台）上，更加意识到他们是在公开发言，因此他们在声称自己是某方面的专家以及声称自己确定知道的事情时，会更加谨慎。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）"
+        }
+    },
+    {
+        "idx": 83,
+        "src": "Talk should not be cheap.",
+        "ref": "谈话应该是负责任的行为。",
+        "hyp": "对话不应该是廉价的。",
+        "rel_src": [
+            "We've heard interviews often  in which a guest is talking for several minutes  and then the host comes back in and asks a question  which seems like it comes out of nowhere, or it's already been answered.",
+            "That means the host probably stopped listening two minutes ago  because he thought of this really clever question,  and he was just bound and determined to say that."
+        ],
+        "rel_tgt": [
+            "我们常常听到这样的采访，嘉宾谈了几分钟后，主持人突然插话提问，似乎问题毫无缘由，或者已经得到了回答。",
+            "这意味着主持人大概在两分钟前就停止倾听，因为他想到了这个非常聪明的问题，并且他决心要说出来。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）"
+        }
+    },
+    {
+        "idx": 84,
+        "src": "Number six: Don't equate your experience with theirs.",
+        "ref": "第六条：不要把自己的 经历和他人比较。",
+        "hyp": "第六条：不要将你的经历与他们的经历等同起来。",
+        "rel_src": [
+            "Let them describe it. They're the ones that know.",
+            "Try asking them things like, \"What was that like?\""
+        ],
+        "rel_tgt": [
+            "让他们来描述。知道的正是他们。",
+            "试着问他们一些问题，比如：“那感觉怎么样？”"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）"
+        }
+    },
+    {
+        "idx": 85,
+        "src": "If they're talking about having lost a family member,  don't start talking about the time you lost a family member.",
+        "ref": "如果对方谈论失去了家人， 不要就势开始说你失去家人的事情。",
+        "hyp": "如果他们在谈论失去家人的事， 不要开始讲述你失去家人的经历。",
+        "rel_src": [
+            "That means the host probably stopped listening two minutes ago  because he thought of this really clever question,  and he was just bound and determined to say that.",
+            "Number six: Don't equate your experience with theirs."
+        ],
+        "rel_tgt": [
+            "这意味着主持人大概在两分钟前就停止倾听，因为他想到了这个非常聪明的问题，并且他决心要说出来。",
+            "第六条：不要将你的经历与他们的经历等同起来。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）"
+        }
+    },
+    {
+        "idx": 86,
+        "src": "If they're talking about the trouble they're having at work,  don't tell them about how much you hate your job.",
+        "ref": "如果对方在说工作上的困扰， 不要告诉他们 你多么讨厌你的工作。",
+        "hyp": "如果他们在谈论工作上的烦恼， 不要告诉他们你有多讨厌你的工作。",
+        "rel_src": [
+            "Number six: Don't equate your experience with theirs.",
+            "If they're talking about having lost a family member,  don't start talking about the time you lost a family member."
+        ],
+        "rel_tgt": [
+            "第六条：不要将你的经历与他们的经历等同起来。",
+            "如果他们在谈论失去家人的事， 不要开始讲述你失去家人的经历。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）"
+        }
+    },
+    {
+        "idx": 87,
+        "src": "It's not the same. It is never the same.",
+        "ref": "这不一样的， 永远不可能一样。",
+        "hyp": "这并不相同。永远不会相同。",
+        "rel_src": [
+            "Number six: Don't equate your experience with theirs.",
+            "If they're talking about the trouble they're having at work,  don't tell them about how much you hate your job."
+        ],
+        "rel_tgt": [
+            "第六条：不要将你的经历与他们的经历等同起来。",
+            "如果他们在谈论工作上的烦恼， 不要告诉他们你有多讨厌你的工作。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）"
+        }
+    },
+    {
+        "idx": 88,
+        "src": "All experiences are individual.",
+        "ref": "任何经历都是独一无二的。",
+        "hyp": "所有的经历都是个体的。",
+        "rel_src": [
+            "Number six: Don't equate your experience with theirs.",
+            "It's not the same. It is never the same."
+        ],
+        "rel_tgt": [
+            "第六条：不要将你的经历与他们的经历等同起来。",
+            "这并不相同。永远不会相同。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）"
+        }
+    },
+    {
+        "idx": 89,
+        "src": "And, more importantly, it is not about you.",
+        "ref": "而且，更重要的是， 这不是在谈论你的事。",
+        "hyp": "更重要的是，这并不是关于你的事。",
+        "rel_src": [
+            "Number six: Don't equate your experience with theirs.",
+            "If they're talking about the trouble they're having at work,  don't tell them about how much you hate your job."
+        ],
+        "rel_tgt": [
+            "第六条：不要将你的经历与他们的经历等同起来。",
+            "如果他们在谈论工作上的烦恼， 不要告诉他们你有多讨厌你的工作。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）"
+        }
+    },
+    {
+        "idx": 90,
+        "src": "You don't need to take that moment to prove how amazing you are  or how much you've suffered.",
+        "ref": "你不需要在此刻 证明你多么能干， 或者你经受了多少痛苦。",
+        "hyp": "你不需要利用那个时刻来证明你有多么了不起或者你经历了多少苦难。",
+        "rel_src": [
+            "Number six: Don't equate your experience with theirs.",
+            "And, more importantly, it is not about you."
+        ],
+        "rel_tgt": [
+            "第六条：不要将你的经历与他们的经历等同起来。",
+            "更重要的是，这并不是关于你的事。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）"
+        }
+    },
+    {
+        "idx": 91,
+        "src": "Somebody asked Stephen Hawking once what his IQ was, and he said,  \"I have no idea. People who brag about their IQs are losers.\"",
+        "ref": "有人曾问史蒂芬·霍金 他的智商是多少，他回答道： “我不知道。拿智商 吹牛的人都是屌丝。”",
+        "hyp": "有人曾问斯蒂芬·霍金他的智商是多少，他回答说：“我不知道。吹嘘自己智商的人都是失败者。”",
+        "rel_src": [
+            "Number five: If you don't know, say that you don't know.",
+            "Now, people on the radio, especially on NPR,  are much more aware that they're going on the record,  and so they're more careful about what they claim to be an expert in  and what they claim to know for sure."
+        ],
+        "rel_tgt": [
+            "第五条：如果你不知道，就说你不知道。",
+            "现在，电台上的人们，尤其是在NPR（国家公共广播电台）上，更加意识到他们是在公开发言，因此他们在声称自己是某方面的专家以及声称自己确定知道的事情时，会更加谨慎。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金"
+        }
+    },
+    {
+        "idx": 92,
+        "src": "Conversations are not a promotional opportunity.",
+        "ref": "交谈不是用来推销自己的。",
+        "hyp": "对话并不是一个宣传的机会。",
+        "rel_src": [
+            "And, more importantly, it is not about you.",
+            "You don't need to take that moment to prove how amazing you are  or how much you've suffered."
+        ],
+        "rel_tgt": [
+            "更重要的是，这并不是关于你的事。",
+            "你不需要利用那个时刻来证明你有多么了不起或者你经历了多少苦难。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金"
+        }
+    },
+    {
+        "idx": 93,
+        "src": "Number seven:  Try not to repeat yourself.",
+        "ref": "第七条： 尽量别重复自己的话。",
+        "hyp": "第七条：尽量不要重复自己。",
+        "rel_src": [
+            "We've heard interviews often  in which a guest is talking for several minutes  and then the host comes back in and asks a question  which seems like it comes out of nowhere, or it's already been answered.",
+            "That means the host probably stopped listening two minutes ago  because he thought of this really clever question,  and he was just bound and determined to say that."
+        ],
+        "rel_tgt": [
+            "我们常常听到这样的采访，嘉宾谈了几分钟后，主持人突然插话提问，似乎问题毫无缘由，或者已经得到了回答。",
+            "这意味着主持人大概在两分钟前就停止倾听，因为他想到了这个非常聪明的问题，并且他决心要说出来。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金"
+        }
+    },
+    {
+        "idx": 94,
+        "src": "It's condescending, and it's really boring,  and we tend to do it a lot.",
+        "ref": "这很咄咄逼人，也很无聊。 但我们很容易这样做。",
+        "hyp": "这很居高临下，而且真的很无聊，我们往往会这样做很多。",
+        "rel_src": [
+            "And we stop listening.",
+            "Conversations are not a promotional opportunity."
+        ],
+        "rel_tgt": [
+            "我们也停止倾听。",
+            "对话并不是一个宣传的机会。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金"
+        }
+    },
+    {
+        "idx": 95,
+        "src": "Especially in work conversations or in conversations with our kids,  we have a point to make,  so we just keep rephrasing it over and over.",
+        "ref": "尤其是在工作交谈中， 或者和孩子的交谈中。 我们想声明一个观点， 于是换着方式不停地说。",
+        "hyp": "尤其是在工作对话或与孩子的交流中，我们有一个观点要表达，因此我们不断地重复措辞。",
+        "rel_src": [
+            "Number seven:  Try not to repeat yourself.",
+            "It's condescending, and it's really boring,  and we tend to do it a lot."
+        ],
+        "rel_tgt": [
+            "第七条：尽量不要重复自己。",
+            "这很居高临下，而且真的很无聊，我们往往会这样做很多。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金"
+        }
+    },
+    {
+        "idx": 96,
+        "src": "Don't do that.",
+        "ref": "别这样。",
+        "hyp": "不要那样做。",
+        "rel_src": [
+            "Do that. Err on the side of caution.",
+            "Number seven:  Try not to repeat yourself."
+        ],
+        "rel_tgt": [
+            "这样做。倾向于谨慎行事。",
+            "第七条：尽量不要重复自己。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金"
+        }
+    },
+    {
+        "idx": 97,
+        "src": "Number eight: Stay out of the weeds.",
+        "ref": "第八条：少说废话。",
+        "hyp": "第八条：不要陷入细节之中。",
+        "rel_src": [
+            "Number six: Don't equate your experience with theirs.",
+            "Conversations are not a promotional opportunity."
+        ],
+        "rel_tgt": [
+            "第六条：不要将你的经历与他们的经历等同起来。",
+            "对话并不是一个宣传的机会。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金"
+        }
+    },
+    {
+        "idx": 98,
+        "src": "Frankly, people don't care  about the years, the names,  the dates, all those details  that you're struggling to come up with in your mind.",
+        "ref": "说白了，没人在乎 那些年份，名字， 日期等等这些 你努力试图 在脑中回想的种种细节。",
+        "hyp": "坦率地说，人们并不关心那些你在脑海中挣扎着想出来的年份、名字、日期，以及所有那些细节。",
+        "rel_src": [
+            "And, more importantly, it is not about you.",
+            "Conversations are not a promotional opportunity."
+        ],
+        "rel_tgt": [
+            "更重要的是，这并不是关于你的事。",
+            "对话并不是一个宣传的机会。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金"
+        }
+    },
+    {
+        "idx": 99,
+        "src": "They don't care. What they care about is you.",
+        "ref": "别人不在乎。 他们关注的是你。",
+        "hyp": "他们并不关心。他们关心的是你。",
+        "new_src_summary": "The merged summary explores the challenges and significance of effective communication in contemporary society, emphasizing the increasing polarization of polite conversation, largely driven by technology and social media. The author shares personal experiences, such as unfriending individuals on platforms like Facebook and avoiding sensitive topics like politics, religion, and health. This perspective is supported by a Pew Research study indicating a growing division among Americans, leading to a decline in compromise and listening skills. The necessity for a balanced conversational approach that integrates both speaking and listening is underscored, highlighting an equilibrium disrupted by the omnipresence of smartphones and texting, particularly among teenagers.\n\nConversational competence is framed as a crucial yet often overlooked skill in the 21st century, with the author advocating for the ability to engage in coherent and confident conversations across diverse backgrounds. They express a commitment to teaching effective communication techniques, proposing ten basic rules for meaningful interactions, asserting that mastering even one can significantly enhance conversational quality. Essential principles for effective communication, such as being fully present and valuing open-mindedness, are emphasized. The author discourages multitasking during discussions, recommending a focused approach devoid of distractions and critiquing the act of pontificating, suggesting that those solely interested in expressing opinions might consider writing a blog instead. Insights from notable figures like M. Scott Peck and Bill Nye reinforce the idea that true listening involves setting aside personal biases and being open to learning from others.\n\nAdditionally, the text offers practical advice on effective interviewing techniques, encouraging the use of open-ended questions to elicit thoughtful responses and contrasting them with simple yes/no questions. Interviewers are advised to remain present and engaged, avoiding distractions that lead to irrelevant inquiries. The instructional and reflective tone aims to enhance conversational skills while raising awareness about societal shifts in communication. The overarching domain encompasses social behavior, communication, the impact of technology on human connections, and specific interviewing skills, emphasizing empathy and clarity in conversations while cautioning against making broad claims or overshadowing unique individual experiences with personal anecdotes.",
+        "new_tgt_summary": "本文探讨了现代社会中人际沟通的挑战及其重要性，特别是在政治和宗教等敏感话题上的分歧。许多人因冒犯言论而取消好友或避免交流，反映出社会的极化和分裂。皮尤研究中心的研究显示，当前社会比历史上任何时候都更难以妥协，缺乏倾听他人的意愿。科技，特别是智能手机的普及，进一步加剧了这一问题，使人们更倾向于通过短信而非面对面交流。文章引用了一位高中教师的项目，旨在教学生如何在不依赖笔记的情况下进行有效沟通，强调连贯、自信的对话是21世纪必备的技能，并分享了与不同人群交流的经验。\n\n为提高交谈技巧，文章提出了十条基本规则，强调专注于当下、全心投入对话的重要性，避免高谈阔论，保持开放心态，假设自己可以从对方身上学习。引用著名治疗师M·斯科特·派克的话，强调真正的倾听需要放下自我，以促进更深层次的交流和理解。同时，比尔·奈指出，每个人在某个领域都是专家，提问时应使用开放式问题以获得更丰富的回答。对话中应遵循一些原则，如允许对方自由表达、谨慎发言、尊重他人的个体感受，避免重复自己以及过于关注细节，以促进有效沟通。",
+        "rel_src": [
+            "And, more importantly, it is not about you.",
+            "Conversations are not a promotional opportunity."
+        ],
+        "rel_tgt": [
+            "更重要的是，这并不是关于你的事。",
+            "对话并不是一个宣传的机会。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金"
+        }
+    },
+    {
+        "idx": 100,
+        "src": "They care about what you're like,  what you have in common.",
+        "ref": "对方关心你是什么样的人， 和你有什么共同点。",
+        "hyp": "他们关心的是你的性格，以及你们之间的共同点。",
+        "rel_src": [
+            "All experiences are individual.",
+            "And, more importantly, it is not about you."
+        ],
+        "rel_tgt": [
+            "所有的经历都是个体的。",
+            "更重要的是，这并不是关于你的事。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金"
+        }
+    },
+    {
+        "idx": 101,
+        "src": "So forget the details. Leave them out.",
+        "ref": "所以忘掉细节吧。 别管它们。",
+        "hyp": "所以忘掉那些细节吧。把它们省略掉。",
+        "rel_src": [
+            "Number eight: Stay out of the weeds.",
+            "Frankly, people don't care  about the years, the names,  the dates, all those details  that you're struggling to come up with in your mind."
+        ],
+        "rel_tgt": [
+            "第八条：不要陷入细节之中。",
+            "坦率地说，人们并不关心那些你在脑海中挣扎着想出来的年份、名字、日期，以及所有那些细节。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金"
+        }
+    },
+    {
+        "idx": 102,
+        "src": "Number nine:  This is not the last one, but it is the most important one.",
+        "ref": "第九条： 这不是最后一条， 但是最重要的一条。",
+        "hyp": "第九条：这不是最后一条，但它是最重要的一条。",
+        "rel_src": [
+            "And, more importantly, it is not about you.",
+            "You don't need to take that moment to prove how amazing you are  or how much you've suffered."
+        ],
+        "rel_tgt": [
+            "更重要的是，这并不是关于你的事。",
+            "你不需要利用那个时刻来证明你有多么了不起或者你经历了多少苦难。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金"
+        }
+    },
+    {
+        "idx": 103,
+        "src": "Listen.",
+        "ref": "认真倾听。",
+        "hyp": "倾听。",
+        "rel_src": [
+            "And, more importantly, it is not about you.",
+            "Conversations are not a promotional opportunity."
+        ],
+        "rel_tgt": [
+            "更重要的是，这并不是关于你的事。",
+            "对话并不是一个宣传的机会。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金"
+        }
+    },
+    {
+        "idx": 104,
+        "src": "I cannot tell you how many really important people have said  that listening is perhaps the most, the number one most important skill  that you could develop.",
+        "ref": "我说不上来到底有多少 重要人士都说过 倾听可能是最重要的， 第一重要的 你可以提升的技能。",
+        "hyp": "我无法告诉你有多少真正重要的人说过，倾听可能是你可以培养的最重要、第一重要的技能。",
+        "rel_src": [
+            "Conversations are not a promotional opportunity.",
+            "Listen."
+        ],
+        "rel_tgt": [
+            "对话并不是一个宣传的机会。",
+            "倾听。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金"
+        }
+    },
+    {
+        "idx": 105,
+        "src": "Buddha said, and I'm paraphrasing,  \"If your mouth is open, you're not learning.\"",
+        "ref": "佛曰——我转述一下， “如果你嘴不停， 你就学不到东西。”",
+        "hyp": "佛陀曾说过，我在此意译，“如果你的嘴巴是张开的，你就无法学习。”",
+        "rel_src": [
+            "Listen.",
+            "I cannot tell you how many really important people have said  that listening is perhaps the most, the number one most important skill  that you could develop."
+        ],
+        "rel_tgt": [
+            "倾听。",
+            "我无法告诉你有多少真正重要的人说过，倾听可能是你可以培养的最重要、第一重要的技能。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀"
+        }
+    },
+    {
+        "idx": 106,
+        "src": "And Calvin Coolidge said, \"No man ever listened his way out of a job.\"",
+        "ref": "卡尔文·柯立芝曾说： “从没有人是因为听太多而被开除的。”",
+        "hyp": "而卡尔文·柯立芝曾说过：“没有人能通过倾听而失去工作。”",
+        "rel_src": [
+            "Listen.",
+            "I cannot tell you how many really important people have said  that listening is perhaps the most, the number one most important skill  that you could develop."
+        ],
+        "rel_tgt": [
+            "倾听。",
+            "我无法告诉你有多少真正重要的人说过，倾听可能是你可以培养的最重要、第一重要的技能。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝"
+        }
+    },
+    {
+        "idx": 107,
+        "src": "Why do we not listen to each other?",
+        "ref": "为什么我们不愿倾听彼此？",
+        "hyp": "我们为什么不倾听彼此呢？",
+        "rel_src": [
+            "Listen.",
+            "I cannot tell you how many really important people have said  that listening is perhaps the most, the number one most important skill  that you could develop."
+        ],
+        "rel_tgt": [
+            "倾听。",
+            "我无法告诉你有多少真正重要的人说过，倾听可能是你可以培养的最重要、第一重要的技能。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝"
+        }
+    },
+    {
+        "idx": 108,
+        "src": "Number one, we'd rather talk.",
+        "ref": "首先，我们更喜欢说。",
+        "hyp": "第一，我们更愿意说话。",
+        "rel_src": [
+            "Listen.",
+            "Why do we not listen to each other?"
+        ],
+        "rel_tgt": [
+            "倾听。",
+            "我们为什么不倾听彼此呢？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝"
+        }
+    },
+    {
+        "idx": 109,
+        "src": "When I'm talking, I'm in control.",
+        "ref": "我在说话时 一切在我的掌控之中。",
+        "hyp": "当我在说话时，我掌控着局面。",
+        "rel_src": [
+            "And, more importantly, it is not about you.",
+            "Conversations are not a promotional opportunity."
+        ],
+        "rel_tgt": [
+            "更重要的是，这并不是关于你的事。",
+            "对话并不是一个宣传的机会。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝"
+        }
+    },
+    {
+        "idx": 110,
+        "src": "I don't have to hear anything I'm not interested in.",
+        "ref": "我不用去听任何 我不感兴趣的东西。",
+        "hyp": "我不需要听到我不感兴趣的任何事情。",
+        "rel_src": [
+            "Frankly, people don't care  about the years, the names,  the dates, all those details  that you're struggling to come up with in your mind.",
+            "They don't care. What they care about is you."
+        ],
+        "rel_tgt": [
+            "坦率地说，人们并不关心那些你在脑海中挣扎着想出来的年份、名字、日期，以及所有那些细节。",
+            "他们并不关心。他们关心的是你。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝"
+        }
+    },
+    {
+        "idx": 111,
+        "src": "I'm the center of attention.",
+        "ref": "我是焦点。",
+        "hyp": "我成为了关注的中心。",
+        "rel_src": [
+            "Number one, we'd rather talk.",
+            "When I'm talking, I'm in control."
+        ],
+        "rel_tgt": [
+            "第一，我们更愿意说话。",
+            "当我在说话时，我掌控着局面。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝"
+        }
+    },
+    {
+        "idx": 112,
+        "src": "I can bolster my own identity.",
+        "ref": "我可以强化自己的认同感。",
+        "hyp": "我可以增强我自己的身份认同。",
+        "rel_src": [
+            "They don't care. What they care about is you.",
+            "They care about what you're like,  what you have in common."
+        ],
+        "rel_tgt": [
+            "他们并不关心。他们关心的是你。",
+            "他们关心的是你的性格，以及你们之间的共同点。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝"
+        }
+    },
+    {
+        "idx": 113,
+        "src": "But there's another reason:  We get distracted.",
+        "ref": "但还有一个原因： 我们会受到干扰。",
+        "hyp": "但还有另一个原因：我们会分心。",
+        "rel_src": [
+            "Why do we not listen to each other?",
+            "Number one, we'd rather talk."
+        ],
+        "rel_tgt": [
+            "我们为什么不倾听彼此呢？",
+            "第一，我们更愿意说话。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝"
+        }
+    },
+    {
+        "idx": 114,
+        "src": "The average person talks at about 225 word per minute,  but we can listen at up to 500 words per minute.",
+        "ref": "人平均每分钟说 大约225个单词， 但我们每分钟可以 听将近500个单词。",
+        "hyp": "一般人说话的速度约为每分钟225个词，但我们可以以每分钟高达500个词的速度倾听。",
+        "rel_src": [
+            "Listen.",
+            "I cannot tell you how many really important people have said  that listening is perhaps the most, the number one most important skill  that you could develop."
+        ],
+        "rel_tgt": [
+            "倾听。",
+            "我无法告诉你有多少真正重要的人说过，倾听可能是你可以培养的最重要、第一重要的技能。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝"
+        }
+    },
+    {
+        "idx": 115,
+        "src": "So our minds are filling in those other 275 words.",
+        "ref": "所以我们的脑子 被这另外275个单词占据了。",
+        "hyp": "所以我们的思维在填补那其他的275个词。",
+        "rel_src": [
+            "Number one, we'd rather talk.",
+            "The average person talks at about 225 word per minute,  but we can listen at up to 500 words per minute."
+        ],
+        "rel_tgt": [
+            "第一，我们更愿意说话。",
+            "一般人说话的速度约为每分钟225个词，但我们可以以每分钟高达500个词的速度倾听。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝"
+        }
+    },
+    {
+        "idx": 116,
+        "src": "And look, I know, it takes effort and energy  to actually pay attention to someone,  but if you can't do that, you're not in a conversation.",
+        "ref": "我知道这很耗费精力 去真正注意听别人讲。 但如果你不这么做， 你们就不是在交谈。",
+        "hyp": "而且，我知道，真正关注某人需要付出努力和精力，但如果你做不到这一点，那你就不算在进行对话。",
+        "rel_src": [
+            "I cannot tell you how many really important people have said  that listening is perhaps the most, the number one most important skill  that you could develop.",
+            "Why do we not listen to each other?"
+        ],
+        "rel_tgt": [
+            "我无法告诉你有多少真正重要的人说过，倾听可能是你可以培养的最重要、第一重要的技能。",
+            "我们为什么不倾听彼此呢？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝"
+        }
+    },
+    {
+        "idx": 117,
+        "src": "You're just two people shouting out barely related sentences  in the same place.",
+        "ref": "你们只不过是两个人 在同一个地方 彼此嚷嚷毫不相关的话。",
+        "hyp": "你们只是两个在同一个地方大声喊出几乎无关的句子的人。",
+        "rel_src": [
+            "Frankly, people don't care  about the years, the names,  the dates, all those details  that you're struggling to come up with in your mind.",
+            "They don't care. What they care about is you."
+        ],
+        "rel_tgt": [
+            "坦率地说，人们并不关心那些你在脑海中挣扎着想出来的年份、名字、日期，以及所有那些细节。",
+            "他们并不关心。他们关心的是你。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝"
+        }
+    },
+    {
+        "idx": 118,
+        "src": "You have to listen to one another.",
+        "ref": "你们必须相互倾听。",
+        "hyp": "你们必须相互倾听。",
+        "rel_src": [
+            "I cannot tell you how many really important people have said  that listening is perhaps the most, the number one most important skill  that you could develop.",
+            "And look, I know, it takes effort and energy  to actually pay attention to someone,  but if you can't do that, you're not in a conversation."
+        ],
+        "rel_tgt": [
+            "我无法告诉你有多少真正重要的人说过，倾听可能是你可以培养的最重要、第一重要的技能。",
+            "而且，我知道，真正关注某人需要付出努力和精力，但如果你做不到这一点，那你就不算在进行对话。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝"
+        }
+    },
+    {
+        "idx": 119,
+        "src": "Stephen Covey said it very beautifully.",
+        "ref": "史蒂芬·柯维对此 有精彩的论述。",
+        "hyp": "史蒂芬·柯维说得非常好。",
+        "new_src_summary": "The merged summary explores the challenges and significance of effective communication in contemporary society, particularly emphasizing the increasing polarization of polite conversation driven by technology and social media. The author shares personal experiences, such as unfriending individuals on platforms like Facebook and avoiding sensitive topics like politics, religion, and health. Supported by a Pew Research study, the narrative highlights a growing division among Americans, leading to a decline in compromise and listening skills. The necessity for a balanced conversational approach that integrates both speaking and listening is underscored, with particular attention to how the omnipresence of smartphones and texting disrupts this equilibrium, especially among teenagers.\n\nConversational competence is framed as a crucial yet often overlooked skill in the 21st century. The author advocates for the ability to engage in coherent and confident conversations across diverse backgrounds, expressing a commitment to teaching effective communication techniques and proposing ten basic rules for meaningful interactions. Mastering even one of these rules can significantly enhance conversational quality. Essential principles for effective communication, such as being fully present and valuing open-mindedness, are emphasized. The author discourages multitasking during discussions, recommending a focused approach devoid of distractions and critiquing the act of pontificating. They suggest that those solely interested in expressing opinions might consider writing a blog instead. Insights from notable figures like M. Scott Peck and Bill Nye reinforce the idea that true listening involves setting aside personal biases and being open to learning from others.\n\nThe importance of listening in interpersonal communication is further highlighted, arguing that individuals are often more interested in understanding others rather than focusing on superficial details. The author explains common reasons for failure to listen, including the desire for control during conversations and distractions caused by the disparity in speaking and listening speeds. The tone remains conversational and instructive, aiming to encourage readers to improve their listening abilities for more meaningful interactions. Additionally, practical advice on effective interviewing techniques is offered, such as using open-ended questions to elicit thoughtful responses and remaining engaged to avoid distractions that lead to irrelevant inquiries. The overarching domain encompasses social behavior, communication, the impact of technology on human connections, and specific interviewing skills, emphasizing empathy and clarity while cautioning against making broad claims or overshadowing unique individual experiences with personal anecdotes.",
+        "new_tgt_summary": "本文探讨了现代社会中人际沟通的挑战及其重要性，尤其是在政治和宗教等敏感话题上的分歧。许多人因冒犯言论而取消好友或避免交流，反映出社会的极化和分裂。皮尤研究中心的研究显示，当前社会比历史上任何时候都更难以妥协，缺乏倾听他人的意愿。科技，特别是智能手机的普及，进一步加剧了这一问题，使人们更倾向于通过短信而非面对面交流。文章引用了一位高中教师的项目，旨在教学生如何在不依赖笔记的情况下进行有效沟通，强调连贯、自信的对话是21世纪必备的技能，并分享了与不同人群交流的经验。\n\n为提高交谈技巧，文章提出了十条基本规则，强调专注于当下、全心投入对话的重要性，避免高谈阔论，保持开放心态，假设自己可以从对方身上学习。同时，文章强调倾听的重要性，指出人们往往更倾向于说话而非倾听，导致沟通的缺失。引用著名治疗师M·斯科特·派克的话，强调真正的倾听需要放下自我，以促进更深层次的交流和理解。比尔·奈指出，每个人在某个领域都是专家，提问时应使用开放式问题以获得更丰富的回答。对话中应遵循一些原则，如允许对方自由表达、谨慎发言、尊重他人的个体感受，避免重复自己以及过于关注细节，以促进有效沟通。",
+        "rel_src": [
+            "I cannot tell you how many really important people have said  that listening is perhaps the most, the number one most important skill  that you could develop.",
+            "You have to listen to one another."
+        ],
+        "rel_tgt": [
+            "我无法告诉你有多少真正重要的人说过，倾听可能是你可以培养的最重要、第一重要的技能。",
+            "你们必须相互倾听。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝",
+            "Stephen Covey": "史蒂芬·柯维"
+        }
+    },
+    {
+        "idx": 120,
+        "src": "He said, \"Most of us don't listen with the intent to understand.",
+        "ref": "他说：“我们大多数人 都不是为了理解而倾听。",
+        "hyp": "他说：“我们大多数人并不是带着理解的意图去倾听。”",
+        "rel_src": [
+            "I cannot tell you how many really important people have said  that listening is perhaps the most, the number one most important skill  that you could develop.",
+            "You have to listen to one another."
+        ],
+        "rel_tgt": [
+            "我无法告诉你有多少真正重要的人说过，倾听可能是你可以培养的最重要、第一重要的技能。",
+            "你们必须相互倾听。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝",
+            "Stephen Covey": "史蒂芬·柯维"
+        }
+    },
+    {
+        "idx": 121,
+        "src": "We listen with the intent to reply.\"",
+        "ref": "我们为了回应而听。”",
+        "hyp": "我们倾听的目的是为了回应。”",
+        "rel_src": [
+            "You have to listen to one another.",
+            "He said, \"Most of us don't listen with the intent to understand."
+        ],
+        "rel_tgt": [
+            "你们必须相互倾听。",
+            "他说：“我们大多数人并不是带着理解的意图去倾听。”"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝",
+            "Stephen Covey": "史蒂芬·柯维"
+        }
+    },
+    {
+        "idx": 122,
+        "src": "One more rule, number 10, and it's this one: Be brief.",
+        "ref": "最后一条，第十条： 简明扼要。",
+        "hyp": "还有一条规则，第十条，就是这一条：简洁。",
+        "rel_src": [
+            "Number nine:  This is not the last one, but it is the most important one.",
+            "You have to listen to one another."
+        ],
+        "rel_tgt": [
+            "第九条：这不是最后一条，但它是最重要的一条。",
+            "你们必须相互倾听。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝",
+            "Stephen Covey": "史蒂芬·柯维"
+        }
+    },
+    {
+        "idx": 123,
+        "src": "[A good conversation is like a miniskirt; short enough to retain interest,  but long enough to cover the subject. -- My Sister]      All of this boils down to the same basic concept, and it is this one:  Be interested in other people.",
+        "ref": "“好的交谈就像恰到好处的迷你裙； 足够短，能够吸引人， 又足够长，能够包纳主体 ——我妹妹的比喻”   所有这些都浓缩成 同一个概念，那就是： 对他人产生兴趣。",
+        "hyp": "[一场好的对话就像一条迷你裙；短到足以引起兴趣，但长到足以涵盖主题。——我的姐姐] 所有这些归结为一个基本概念，那就是：对他人感兴趣。",
+        "rel_src": [
+            "You have to listen to one another.",
+            "He said, \"Most of us don't listen with the intent to understand."
+        ],
+        "rel_tgt": [
+            "你们必须相互倾听。",
+            "他说：“我们大多数人并不是带着理解的意图去倾听。”"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝",
+            "Stephen Covey": "史蒂芬·柯维",
+            "A Sister": "我的姐姐"
+        }
+    },
+    {
+        "idx": 124,
+        "src": "You know, I grew up with a very famous grandfather,  and there was kind of a ritual in my home.",
+        "ref": "我在一个名人外公的身边长大， 我家里宾客络绎不绝。",
+        "hyp": "你知道，我的祖父非常有名，我的家里有一种仪式。",
+        "rel_src": [
+            "Why do we not listen to each other?",
+            "You have to listen to one another."
+        ],
+        "rel_tgt": [
+            "我们为什么不倾听彼此呢？",
+            "你们必须相互倾听。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝",
+            "Stephen Covey": "史蒂芬·柯维",
+            "A Sister": "我的姐姐"
+        }
+    },
+    {
+        "idx": 125,
+        "src": "People would come over to talk to my grandparents,  and after they would leave, my mother would come over to us,  and she'd say, \"Do you know who that was?",
+        "ref": "访客会前来 和我的外祖父母交谈， 而那些人离开后， 我母亲会过来 对我们说： “你们知道那是谁吗？",
+        "hyp": "人们会过来和我的祖父母交谈，而在他们离开后，我母亲会走过来对我们说：“你们知道那是谁吗？”",
+        "rel_src": [
+            "You have to listen to one another.",
+            "You know, I grew up with a very famous grandfather,  and there was kind of a ritual in my home."
+        ],
+        "rel_tgt": [
+            "你们必须相互倾听。",
+            "你知道，我的祖父非常有名，我的家里有一种仪式。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝",
+            "Stephen Covey": "史蒂芬·柯维",
+            "A Sister": "我的姐姐"
+        }
+    },
+    {
+        "idx": 126,
+        "src": "She was the runner-up to Miss America.",
+        "ref": "她是美国小姐的亚军。",
+        "hyp": "她是美国小姐的亚军。",
+        "rel_src": [
+            "You know, I grew up with a very famous grandfather,  and there was kind of a ritual in my home.",
+            "People would come over to talk to my grandparents,  and after they would leave, my mother would come over to us,  and she'd say, \"Do you know who that was?"
+        ],
+        "rel_tgt": [
+            "你知道，我的祖父非常有名，我的家里有一种仪式。",
+            "人们会过来和我的祖父母交谈，而在他们离开后，我母亲会走过来对我们说：“你们知道那是谁吗？”"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝",
+            "Stephen Covey": "史蒂芬·柯维",
+            "A Sister": "我的姐姐",
+            "Miss America": "美国小姐"
+        }
+    },
+    {
+        "idx": 127,
+        "src": "He was the mayor of Sacramento.",
+        "ref": "他是萨克拉门托市长。",
+        "hyp": "他是萨克拉门托的市长。",
+        "rel_src": [
+            "You know, I grew up with a very famous grandfather,  and there was kind of a ritual in my home.",
+            "People would come over to talk to my grandparents,  and after they would leave, my mother would come over to us,  and she'd say, \"Do you know who that was?"
+        ],
+        "rel_tgt": [
+            "你知道，我的祖父非常有名，我的家里有一种仪式。",
+            "人们会过来和我的祖父母交谈，而在他们离开后，我母亲会走过来对我们说：“你们知道那是谁吗？”"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝",
+            "Stephen Covey": "史蒂芬·柯维",
+            "A Sister": "我的姐姐",
+            "Miss America": "美国小姐",
+            "Sacramento": "萨克拉门托"
+        }
+    },
+    {
+        "idx": 128,
+        "src": "She won a Pulitzer Prize. He's a Russian ballet dancer.\"",
+        "ref": "她拿过普利策奖。 他是俄罗斯芭蕾舞蹈家。”",
+        "hyp": "她获得了普利策奖。他是一名俄罗斯芭蕾舞者。",
+        "rel_src": [
+            "People would come over to talk to my grandparents,  and after they would leave, my mother would come over to us,  and she'd say, \"Do you know who that was?",
+            "She was the runner-up to Miss America."
+        ],
+        "rel_tgt": [
+            "人们会过来和我的祖父母交谈，而在他们离开后，我母亲会走过来对我们说：“你们知道那是谁吗？”",
+            "她是美国小姐的亚军。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝",
+            "Stephen Covey": "史蒂芬·柯维",
+            "A Sister": "我的姐姐",
+            "Miss America": "美国小姐",
+            "Sacramento": "萨克拉门托",
+            "Pulitzer Prize": "普利策奖",
+            "Russian": "俄罗斯"
+        }
+    },
+    {
+        "idx": 129,
+        "src": "And I kind of grew up assuming  everyone has some hidden, amazing thing about them.",
+        "ref": "我在成长中默认了 每个人都有不为人知的精彩。",
+        "hyp": "我在成长过程中总是认为，每个人身上都有一些隐藏的、了不起的东西。",
+        "rel_src": [
+            "[A good conversation is like a miniskirt; short enough to retain interest,  but long enough to cover the subject. -- My Sister]      All of this boils down to the same basic concept, and it is this one:  Be interested in other people.",
+            "You know, I grew up with a very famous grandfather,  and there was kind of a ritual in my home."
+        ],
+        "rel_tgt": [
+            "[一场好的对话就像一条迷你裙；短到足以引起兴趣，但长到足以涵盖主题。——我的姐姐] 所有这些归结为一个基本概念，那就是：对他人感兴趣。",
+            "你知道，我的祖父非常有名，我的家里有一种仪式。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝",
+            "Stephen Covey": "史蒂芬·柯维",
+            "A Sister": "我的姐姐",
+            "Miss America": "美国小姐",
+            "Sacramento": "萨克拉门托",
+            "Pulitzer Prize": "普利策奖",
+            "Russian": "俄罗斯"
+        }
+    },
+    {
+        "idx": 130,
+        "src": "And honestly, I think it's what makes me a better host.",
+        "ref": "说真的，我想是这一切 让我成为了更好的主持人。",
+        "hyp": "老实说，我认为这使我成为一个更好的主持人。",
+        "rel_src": [
+            "You have to listen to one another.",
+            "[A good conversation is like a miniskirt; short enough to retain interest,  but long enough to cover the subject. -- My Sister]      All of this boils down to the same basic concept, and it is this one:  Be interested in other people."
+        ],
+        "rel_tgt": [
+            "你们必须相互倾听。",
+            "[一场好的对话就像一条迷你裙；短到足以引起兴趣，但长到足以涵盖主题。——我的姐姐] 所有这些归结为一个基本概念，那就是：对他人感兴趣。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝",
+            "Stephen Covey": "史蒂芬·柯维",
+            "A Sister": "我的姐姐",
+            "Miss America": "美国小姐",
+            "Sacramento": "萨克拉门托",
+            "Pulitzer Prize": "普利策奖",
+            "Russian": "俄罗斯"
+        }
+    },
+    {
+        "idx": 131,
+        "src": "I keep my mouth shut as often as I possibly can,  I keep my mind open,  and I'm always prepared to be amazed,  and I'm never disappointed.",
+        "ref": "我尽量少说话， 但开放自己的思想， 永远准备着大吃一惊， 而我从不会感到失望。",
+        "hyp": "我尽可能保持沉默，保持开放的心态，随时准备接受惊喜，从不感到失望。",
+        "rel_src": [
+            "[A good conversation is like a miniskirt; short enough to retain interest,  but long enough to cover the subject. -- My Sister]      All of this boils down to the same basic concept, and it is this one:  Be interested in other people.",
+            "And I kind of grew up assuming  everyone has some hidden, amazing thing about them."
+        ],
+        "rel_tgt": [
+            "[一场好的对话就像一条迷你裙；短到足以引起兴趣，但长到足以涵盖主题。——我的姐姐] 所有这些归结为一个基本概念，那就是：对他人感兴趣。",
+            "我在成长过程中总是认为，每个人身上都有一些隐藏的、了不起的东西。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝",
+            "Stephen Covey": "史蒂芬·柯维",
+            "A Sister": "我的姐姐",
+            "Miss America": "美国小姐",
+            "Sacramento": "萨克拉门托",
+            "Pulitzer Prize": "普利策奖",
+            "Russian": "俄罗斯"
+        }
+    },
+    {
+        "idx": 132,
+        "src": "You do the same thing.",
+        "ref": "你们也可以这样。",
+        "hyp": "你也这样做。",
+        "rel_src": [
+            "[A good conversation is like a miniskirt; short enough to retain interest,  but long enough to cover the subject. -- My Sister]      All of this boils down to the same basic concept, and it is this one:  Be interested in other people.",
+            "I keep my mouth shut as often as I possibly can,  I keep my mind open,  and I'm always prepared to be amazed,  and I'm never disappointed."
+        ],
+        "rel_tgt": [
+            "[一场好的对话就像一条迷你裙；短到足以引起兴趣，但长到足以涵盖主题。——我的姐姐] 所有这些归结为一个基本概念，那就是：对他人感兴趣。",
+            "我尽可能保持沉默，保持开放的心态，随时准备接受惊喜，从不感到失望。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝",
+            "Stephen Covey": "史蒂芬·柯维",
+            "A Sister": "我的姐姐",
+            "Miss America": "美国小姐",
+            "Sacramento": "萨克拉门托",
+            "Pulitzer Prize": "普利策奖",
+            "Russian": "俄罗斯"
+        }
+    },
+    {
+        "idx": 133,
+        "src": "Go out, talk to people,  listen to people,  and, most importantly, be prepared to be amazed.",
+        "ref": "走出门去，和别人交谈， 听别人说， 以及最重要的， 准备好大吃一惊。",
+        "hyp": "走出去，和人交谈，倾听他人，最重要的是，准备好接受惊喜。",
+        "rel_src": [
+            "[A good conversation is like a miniskirt; short enough to retain interest,  but long enough to cover the subject. -- My Sister]      All of this boils down to the same basic concept, and it is this one:  Be interested in other people.",
+            "I keep my mouth shut as often as I possibly can,  I keep my mind open,  and I'm always prepared to be amazed,  and I'm never disappointed."
+        ],
+        "rel_tgt": [
+            "[一场好的对话就像一条迷你裙；短到足以引起兴趣，但长到足以涵盖主题。——我的姐姐] 所有这些归结为一个基本概念，那就是：对他人感兴趣。",
+            "我尽可能保持沉默，保持开放的心态，随时准备接受惊喜，从不感到失望。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝",
+            "Stephen Covey": "史蒂芬·柯维",
+            "A Sister": "我的姐姐",
+            "Miss America": "美国小姐",
+            "Sacramento": "萨克拉门托",
+            "Pulitzer Prize": "普利策奖",
+            "Russian": "俄罗斯"
+        }
+    },
+    {
+        "idx": 134,
+        "src": "Thanks.",
+        "ref": "谢谢。",
+        "hyp": "谢谢。",
+        "rel_src": [
+            "You have to listen to one another.",
+            "Go out, talk to people,  listen to people,  and, most importantly, be prepared to be amazed."
+        ],
+        "rel_tgt": [
+            "你们必须相互倾听。",
+            "走出去，和人交谈，倾听他人，最重要的是，准备好接受惊喜。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Facebook": "Facebook",
+            "Henry Higgins": "亨利·希金斯",
+            "My Fair Lady": "《窈窕淑女》",
+            "Pew Research": "皮尤研究中心",
+            "American": "美国",
+            "The Atlantic": "《大西洋月刊》",
+            "Paul Barnwell": "保罗·巴恩威尔",
+            "21st-century": "21世纪",
+            "Nobel Prize": "诺贝尔奖",
+            "<Proper nouns> God": "上帝",
+            "Obama": "奥巴马",
+            "Dick Cheney": "迪克·切尼",
+            "M. Scott Peck": "M·斯科特·派克",
+            "Bill Nye": "比尔·奈",
+            "Hugh Jackman": "休·杰克曼",
+            "NPR": "NPR（国家公共广播电台）",
+            "Stephen Hawking": "斯蒂芬·霍金",
+            "Buddha": "佛陀",
+            "Calvin Coolidge": "卡尔文·柯立芝",
+            "Stephen Covey": "史蒂芬·柯维",
+            "A Sister": "我的姐姐",
+            "Miss America": "美国小姐",
+            "Sacramento": "萨克拉门托",
+            "Pulitzer Prize": "普利策奖",
+            "Russian": "俄罗斯"
+        }
+    }
+]

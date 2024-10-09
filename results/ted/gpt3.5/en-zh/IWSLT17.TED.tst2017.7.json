@@ -1,0 +1,2190 @@
+[
+    {
+        "idx": 0,
+        "src": "As a kid, I used to dream about the ocean.",
+        "ref": "小时候, 我一直幻想着海洋。",
+        "hyp": "小时候，我经常梦见大海。",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 1,
+        "src": "It was this wild place full of color and life,  home to these alien-looking, fantastical creatures.",
+        "ref": "那里色彩缤纷、充满活力， 生活着许多长得像外星生物的动物。",
+        "hyp": "那是一个充满色彩和生机的荒野之地，是这些外貌奇特、梦幻般的生物的家园。",
+        "rel_src": [
+            "As a kid, I used to dream about the ocean."
+        ],
+        "rel_tgt": [
+            "小时候，我经常梦见大海。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 2,
+        "src": "I pictured big sharks ruling the food chain  and saw graceful sea turtles dancing across coral reefs.",
+        "ref": "我想象过位于食物链顶端的大鲨鱼， 也幻想过海龟在珊瑚礁间优雅起舞。",
+        "hyp": "我想象着大鲨鱼统治着食物链，看到优雅的海龟在珊瑚礁上翩翩起舞。",
+        "rel_src": [
+            "As a kid, I used to dream about the ocean.",
+            "It was this wild place full of color and life,  home to these alien-looking, fantastical creatures."
+        ],
+        "rel_tgt": [
+            "小时候，我经常梦见大海。",
+            "那是一个充满色彩和生机的荒野之地，是这些外貌奇特、梦幻般的生物的家园。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 3,
+        "src": "As a marine biologist turned photographer,  I've spent most of my career looking for places  as magical as those I used to dream about when I was little.",
+        "ref": "作为从海洋生物学家转行的摄影师， 我职业生涯的大部分时间都在寻找 那些出现在我小时候幻想中的地方。",
+        "hyp": "作为一名转型成为摄影师的海洋生物学家，我大部分职业生涯都在寻找像小时候梦想的那些神奇地方。",
+        "rel_src": [
+            "It was this wild place full of color and life,  home to these alien-looking, fantastical creatures.",
+            "I pictured big sharks ruling the food chain  and saw graceful sea turtles dancing across coral reefs."
+        ],
+        "rel_tgt": [
+            "那是一个充满色彩和生机的荒野之地，是这些外貌奇特、梦幻般的生物的家园。",
+            "我想象着大鲨鱼统治着食物链，看到优雅的海龟在珊瑚礁上翩翩起舞。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 4,
+        "src": "As you can see,  I began exploring bodies of water at a fairly young age.",
+        "ref": "如大家所见， 我从很小就开始在水中冒险了。",
+        "hyp": "正如你所看到的，我在相当年轻的时候就开始探索水域。",
+        "rel_src": [
+            "As a kid, I used to dream about the ocean.",
+            "As a marine biologist turned photographer,  I've spent most of my career looking for places  as magical as those I used to dream about when I was little."
+        ],
+        "rel_tgt": [
+            "小时候，我经常梦见大海。",
+            "作为一名转型成为摄影师的海洋生物学家，我大部分职业生涯都在寻找像小时候梦想的那些神奇地方。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 5,
+        "src": "But the first time I truly went underwater,  I was about 10 years old.",
+        "ref": "但第一次真正潜入水中， 发生在我10岁那年。",
+        "hyp": "但第一次真正下水的时候，我大约10岁。",
+        "rel_src": [
+            "As a kid, I used to dream about the ocean.",
+            "As you can see,  I began exploring bodies of water at a fairly young age."
+        ],
+        "rel_tgt": [
+            "小时候，我经常梦见大海。",
+            "正如你所看到的，我在相当年轻的时候就开始探索水域。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 6,
+        "src": "And I can still vividly remember furiously finning  to reach this old, encrusted cannon on a shallow coral reef.",
+        "ref": "我现在还能清楚地记得， 当时我用力划水 为了够到一根锈迹斑斑， 躺在珊瑚礁上的炮筒。",
+        "hyp": "我仍然清晰地记得拼命地用鳍划水，以达到浅浅的珊瑚礁上那座陈旧、长满海藻的大炮。",
+        "rel_src": [
+            "It was this wild place full of color and life,  home to these alien-looking, fantastical creatures.",
+            "I pictured big sharks ruling the food chain  and saw graceful sea turtles dancing across coral reefs."
+        ],
+        "rel_tgt": [
+            "那是一个充满色彩和生机的荒野之地，是这些外貌奇特、梦幻般的生物的家园。",
+            "我想象着大鲨鱼统治着食物链，看到优雅的海龟在珊瑚礁上翩翩起舞。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 7,
+        "src": "And when I finally managed to grab hold of it,  I looked up, and I was instantly surrounded by fish  in all colors of the rainbow.",
+        "ref": "最后，我成功够到了炮筒， 抬头一看，发现自己被鱼群包围了， 各种颜色的鱼，像彩虹一样。",
+        "hyp": "当我最终设法抓住它时，我抬头一看，瞬间被五颜六色的鱼群包围。",
+        "rel_src": [
+            "It was this wild place full of color and life,  home to these alien-looking, fantastical creatures.",
+            "And I can still vividly remember furiously finning  to reach this old, encrusted cannon on a shallow coral reef."
+        ],
+        "rel_tgt": [
+            "那是一个充满色彩和生机的荒野之地，是这些外貌奇特、梦幻般的生物的家园。",
+            "我仍然清晰地记得拼命地用鳍划水，以达到浅浅的珊瑚礁上那座陈旧、长满海藻的大炮。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 8,
+        "src": "That was the day I fell in love with the ocean.",
+        "ref": "从那天起，我深深爱上了海洋。",
+        "hyp": "那一天我爱上了海洋。",
+        "rel_src": [
+            "But the first time I truly went underwater,  I was about 10 years old.",
+            "And when I finally managed to grab hold of it,  I looked up, and I was instantly surrounded by fish  in all colors of the rainbow."
+        ],
+        "rel_tgt": [
+            "但第一次真正下水的时候，我大约10岁。",
+            "当我最终设法抓住它时，我抬头一看，瞬间被五颜六色的鱼群包围。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 9,
+        "src": "Thomas Peschak  Conservation Photographer  In my 40 years on this planet,  I've had the great privilege to explore  some of its most incredible seascapes  for National Geographic Magazine  and the Save Our Seas Foundation.",
+        "ref": "（字幕：托马斯•佩斯查克） （字幕：环保摄影师） 在过去40年， 我有幸探索了 地球上最美妙的海洋景观， 为《国家地理杂志》 和“拯救我们的海洋”基金会供稿。",
+        "hyp": "托马斯·佩沙克，保护摄影师。在我在这个星球上度过的40年里，我有幸探索了一些最令人难以置信的海景，为《国家地理杂志》和“拯救我们的海洋基金会”工作。",
+        "rel_src": [
+            "As a marine biologist turned photographer,  I've spent most of my career looking for places  as magical as those I used to dream about when I was little.",
+            "That was the day I fell in love with the ocean."
+        ],
+        "rel_tgt": [
+            "作为一名转型成为摄影师的海洋生物学家，我大部分职业生涯都在寻找像小时候梦想的那些神奇地方。",
+            "那一天我爱上了海洋。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会"
+        }
+    },
+    {
+        "idx": 10,
+        "src": "I've photographed everything from really, really big sharks  to dainty ones that fit in the palm of your hand.",
+        "ref": "我的拍摄对象大到巨型鲨鱼， 小到可以在你手掌上游动。",
+        "hyp": "我拍摄过从非常巨大的鲨鱼到可以放在手掌上的娇小鲨鱼的所有东西。",
+        "rel_src": [
+            "I pictured big sharks ruling the food chain  and saw graceful sea turtles dancing across coral reefs.",
+            "As a marine biologist turned photographer,  I've spent most of my career looking for places  as magical as those I used to dream about when I was little."
+        ],
+        "rel_tgt": [
+            "我想象着大鲨鱼统治着食物链，看到优雅的海龟在珊瑚礁上翩翩起舞。",
+            "作为一名转型成为摄影师的海洋生物学家，我大部分职业生涯都在寻找像小时候梦想的那些神奇地方。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会"
+        }
+    },
+    {
+        "idx": 11,
+        "src": "in the cold seas off Canada's Great Bear Rainforest.",
+        "ref": "在加拿大大熊雨林边寒冷的海中， 我遇到过座头鲸就在我身边大快朵颐， 那满嘴鱼腥味让我难忘。",
+        "hyp": "在加拿大大熊雨林附近的寒冷海域。",
+        "rel_src": [
+            "Thomas Peschak  Conservation Photographer  In my 40 years on this planet,  I've had the great privilege to explore  some of its most incredible seascapes  for National Geographic Magazine  and the Save Our Seas Foundation.",
+            "I've photographed everything from really, really big sharks  to dainty ones that fit in the palm of your hand."
+        ],
+        "rel_tgt": [
+            "托马斯·佩沙克，保护摄影师。在我在这个星球上度过的40年里，我有幸探索了一些最令人难以置信的海景，为《国家地理杂志》和“拯救我们的海洋基金会”工作。",
+            "我拍摄过从非常巨大的鲨鱼到可以放在手掌上的娇小鲨鱼的所有东西。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林"
+        }
+    },
+    {
+        "idx": 12,
+        "src": "And I've been privy to the mating rituals of green sea turtles  in the Mozambique Channel.",
+        "ref": "在莫桑比克海峡，我看到了 绿海龟的求爱仪式。",
+        "hyp": "我还有幸目睹莫桑比克海峡绿海龟的交配仪式。",
+        "rel_src": [
+            "It was this wild place full of color and life,  home to these alien-looking, fantastical creatures.",
+            "That was the day I fell in love with the ocean."
+        ],
+        "rel_tgt": [
+            "那是一个充满色彩和生机的荒野之地，是这些外貌奇特、梦幻般的生物的家园。",
+            "那一天我爱上了海洋。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡"
+        }
+    },
+    {
+        "idx": 13,
+        "src": "Everyone on this planet affects and is affected by the ocean.",
+        "ref": "我们每一个人都会 影响海洋，也会被海洋影响。",
+        "hyp": "这个星球上的每个人都会影响并受到海洋的影响。",
+        "rel_src": [
+            "As a marine biologist turned photographer,  I've spent most of my career looking for places  as magical as those I used to dream about when I was little.",
+            "Thomas Peschak  Conservation Photographer  In my 40 years on this planet,  I've had the great privilege to explore  some of its most incredible seascapes  for National Geographic Magazine  and the Save Our Seas Foundation."
+        ],
+        "rel_tgt": [
+            "作为一名转型成为摄影师的海洋生物学家，我大部分职业生涯都在寻找像小时候梦想的那些神奇地方。",
+            "托马斯·佩沙克，保护摄影师。在我在这个星球上度过的40年里，我有幸探索了一些最令人难以置信的海景，为《国家地理杂志》和“拯救我们的海洋基金会”工作。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡"
+        }
+    },
+    {
+        "idx": 14,
+        "src": "And the pristine seas I used to dream of as a child  are becoming harder and harder to find.",
+        "ref": "而我小时候梦想过的纯净海洋， 如今已越来越难找到。",
+        "hyp": "而我小时候梦想的原始海洋越来越难以找到了。",
+        "rel_src": [
+            "As a marine biologist turned photographer,  I've spent most of my career looking for places  as magical as those I used to dream about when I was little.",
+            "Thomas Peschak  Conservation Photographer  In my 40 years on this planet,  I've had the great privilege to explore  some of its most incredible seascapes  for National Geographic Magazine  and the Save Our Seas Foundation."
+        ],
+        "rel_tgt": [
+            "作为一名转型成为摄影师的海洋生物学家，我大部分职业生涯都在寻找像小时候梦想的那些神奇地方。",
+            "托马斯·佩沙克，保护摄影师。在我在这个星球上度过的40年里，我有幸探索了一些最令人难以置信的海景，为《国家地理杂志》和“拯救我们的海洋基金会”工作。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡"
+        }
+    },
+    {
+        "idx": 15,
+        "src": "They are becoming more compressed  and more threatened.",
+        "ref": "它们的范围日益缩小， 受到的威胁日益增加。",
+        "hyp": "它们变得越来越受到压缩和威胁。",
+        "rel_src": [
+            "Everyone on this planet affects and is affected by the ocean.",
+            "And the pristine seas I used to dream of as a child  are becoming harder and harder to find."
+        ],
+        "rel_tgt": [
+            "这个星球上的每个人都会影响并受到海洋的影响。",
+            "而我小时候梦想的原始海洋越来越难以找到了。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡"
+        }
+    },
+    {
+        "idx": 16,
+        "src": "As we humans continue to maintain our role  as the leading predator on earth,  I've witnessed and photographed many of these ripple effects firsthand.",
+        "ref": "我们人类一直占据着地球上 食物链顶端的位置， 我亲眼见到并用相机记录下了这些行为。",
+        "hyp": "随着我们人类继续保持地球上主要的捕食者角色，我亲眼目睹并拍摄了许多这些连锁反应。",
+        "rel_src": [
+            "Thomas Peschak  Conservation Photographer  In my 40 years on this planet,  I've had the great privilege to explore  some of its most incredible seascapes  for National Geographic Magazine  and the Save Our Seas Foundation.",
+            "Everyone on this planet affects and is affected by the ocean."
+        ],
+        "rel_tgt": [
+            "托马斯·佩沙克，保护摄影师。在我在这个星球上度过的40年里，我有幸探索了一些最令人难以置信的海景，为《国家地理杂志》和“拯救我们的海洋基金会”工作。",
+            "这个星球上的每个人都会影响并受到海洋的影响。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球"
+        }
+    },
+    {
+        "idx": 17,
+        "src": "For a long time, I thought I had to shock my audience  out of their indifference with disturbing images.",
+        "ref": "长久以来，我以为只有震撼的照片 才能让我的观众警醒。",
+        "hyp": "很长一段时间，我以为我必须用令人不安的图像来震慑我的观众，使他们摆脱冷漠。",
+        "rel_src": [
+            "Thomas Peschak  Conservation Photographer  In my 40 years on this planet,  I've had the great privilege to explore  some of its most incredible seascapes  for National Geographic Magazine  and the Save Our Seas Foundation.",
+            "As we humans continue to maintain our role  as the leading predator on earth,  I've witnessed and photographed many of these ripple effects firsthand."
+        ],
+        "rel_tgt": [
+            "托马斯·佩沙克，保护摄影师。在我在这个星球上度过的40年里，我有幸探索了一些最令人难以置信的海景，为《国家地理杂志》和“拯救我们的海洋基金会”工作。",
+            "随着我们人类继续保持地球上主要的捕食者角色，我亲眼目睹并拍摄了许多这些连锁反应。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球"
+        }
+    },
+    {
+        "idx": 18,
+        "src": "And while this approach has merits,  I have come full circle.",
+        "ref": "当然这种看法也是有好处的， 那就是让我回到了原点。",
+        "hyp": "虽然这种方法有其优点，但我已经回到了起点。",
+        "rel_src": [
+            "Thomas Peschak  Conservation Photographer  In my 40 years on this planet,  I've had the great privilege to explore  some of its most incredible seascapes  for National Geographic Magazine  and the Save Our Seas Foundation.",
+            "For a long time, I thought I had to shock my audience  out of their indifference with disturbing images."
+        ],
+        "rel_tgt": [
+            "托马斯·佩沙克，保护摄影师。在我在这个星球上度过的40年里，我有幸探索了一些最令人难以置信的海景，为《国家地理杂志》和“拯救我们的海洋基金会”工作。",
+            "很长一段时间，我以为我必须用令人不安的图像来震慑我的观众，使他们摆脱冷漠。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球"
+        }
+    },
+    {
+        "idx": 19,
+        "src": "I believe that the best way for me to effect change  is to sell love.",
+        "ref": "我相信带来改变的最好方法 就是传播爱。",
+        "hyp": "我相信我影响改变的最好方式是传播爱。",
+        "new_src_summary": "The paragraph is written in a personal, reflective tone and focuses on the author's childhood fascination with the ocean and their career as a marine biologist turned photographer. The author describes their early experiences exploring the ocean and falling in love with it, leading to a career documenting marine life for National Geographic Magazine and the Save Our Seas Foundation. The author expresses concern about the increasing threats to the ocean and the impact of human activity on marine ecosystems. They mention their initial approach of using shocking images to raise awareness but have now shifted towards a more balanced perspective.",
+        "new_tgt_summary": "这段文段描述了一位海洋生物学家转型成为摄影师的经历。小时候他常常梦见大海，对海洋充满了向往和热爱。他在探索水域的过程中目睹了许多海洋生物的奇妙景象，拍摄了许多令人惊叹的海洋景观。然而，他也意识到人类对海洋的影响越来越大，原始海洋正受到压缩和威胁。他希望通过自己的摄影作品唤起人们对海洋环境的关注和保护。",
+        "rel_src": [
+            "As we humans continue to maintain our role  as the leading predator on earth,  I've witnessed and photographed many of these ripple effects firsthand.",
+            "And while this approach has merits,  I have come full circle."
+        ],
+        "rel_tgt": [
+            "随着我们人类继续保持地球上主要的捕食者角色，我亲眼目睹并拍摄了许多这些连锁反应。",
+            "虽然这种方法有其优点，但我已经回到了起点。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球"
+        }
+    },
+    {
+        "idx": 20,
+        "src": "I guess I'm a matchmaker of sorts  and as a photographer,  I have the rare opportunity  to reveal animals and entire ecosystems  that lie hidden beneath the ocean's surface.",
+        "ref": "我觉得自己是人和动物间的桥梁， 作为一名摄影师， 我有难得的机会 去揭开隐藏在大洋深处的 动物和生态系统的神秘面纱。",
+        "hyp": "我想我可以说是某种形式的媒人，作为一名摄影师，我有难得的机会揭示隐藏在海洋表面下的动物和整个生态系统。",
+        "rel_src": [
+            "And when I finally managed to grab hold of it,  I looked up, and I was instantly surrounded by fish  in all colors of the rainbow.",
+            "I've photographed everything from really, really big sharks  to dainty ones that fit in the palm of your hand."
+        ],
+        "rel_tgt": [
+            "当我最终设法抓住它时，我抬头一看，瞬间被五颜六色的鱼群包围。",
+            "我拍摄过从非常巨大的鲨鱼到可以放在手掌上的娇小鲨鱼的所有东西。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球"
+        }
+    },
+    {
+        "idx": 21,
+        "src": "You can't love something and become a champion for it  if you don't know it exists.",
+        "ref": "如果你都不知道某件东西的存在， 你怎么可能 去爱它和保护它呢。",
+        "hyp": "如果你不知道它的存在，就无法热爱某物并成为它的倡导者。",
+        "rel_src": [
+            "That was the day I fell in love with the ocean.",
+            "I guess I'm a matchmaker of sorts  and as a photographer,  I have the rare opportunity  to reveal animals and entire ecosystems  that lie hidden beneath the ocean's surface."
+        ],
+        "rel_tgt": [
+            "那一天我爱上了海洋。",
+            "我想我可以说是某种形式的媒人，作为一名摄影师，我有难得的机会揭示隐藏在海洋表面下的动物和整个生态系统。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球"
+        }
+    },
+    {
+        "idx": 22,
+        "src": "Uncovering this -- that is the power of conservation photography.",
+        "ref": "而这，恰恰是我们环保摄影师的强项。",
+        "hyp": "揭示这一点，这就是保护摄影的力量。",
+        "rel_src": [
+            "Thomas Peschak  Conservation Photographer  In my 40 years on this planet,  I've had the great privilege to explore  some of its most incredible seascapes  for National Geographic Magazine  and the Save Our Seas Foundation.",
+            "I believe that the best way for me to effect change  is to sell love."
+        ],
+        "rel_tgt": [
+            "托马斯·佩沙克，保护摄影师。在我在这个星球上度过的40年里，我有幸探索了一些最令人难以置信的海景，为《国家地理杂志》和“拯救我们的海洋基金会”工作。",
+            "我相信我影响改变的最好方式是传播爱。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球"
+        }
+    },
+    {
+        "idx": 23,
+        "src": "I've visited hundreds of marine locations,  but there are a handful of seascapes  that have touched me incredibly deeply.",
+        "ref": "我去过几百个不同海域， 但真正让我永生难忘的景象 只有那么几个。",
+        "hyp": "我已经访问了数百个海洋地点，但有几个海景让我深受触动。",
+        "rel_src": [
+            "That was the day I fell in love with the ocean.",
+            "Thomas Peschak  Conservation Photographer  In my 40 years on this planet,  I've had the great privilege to explore  some of its most incredible seascapes  for National Geographic Magazine  and the Save Our Seas Foundation."
+        ],
+        "rel_tgt": [
+            "那一天我爱上了海洋。",
+            "托马斯·佩沙克，保护摄影师。在我在这个星球上度过的40年里，我有幸探索了一些最令人难以置信的海景，为《国家地理杂志》和“拯救我们的海洋基金会”工作。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球"
+        }
+    },
+    {
+        "idx": 24,
+        "src": "The first time I experienced that kind of high  was about 10 years ago,  off South Africa's rugged, wild coast.",
+        "ref": "我第一次被这样的场景所震撼 是在差不多十年前， 在南非崎岖陡峭的海岸边。",
+        "hyp": "我第一次经历到那种高度是大约10年前，在南非崎岖而野生的海岸上。",
+        "rel_src": [
+            "But the first time I truly went underwater,  I was about 10 years old.",
+            "Thomas Peschak  Conservation Photographer  In my 40 years on this planet,  I've had the great privilege to explore  some of its most incredible seascapes  for National Geographic Magazine  and the Save Our Seas Foundation."
+        ],
+        "rel_tgt": [
+            "但第一次真正下水的时候，我大约10岁。",
+            "托马斯·佩沙克，保护摄影师。在我在这个星球上度过的40年里，我有幸探索了一些最令人难以置信的海景，为《国家地理杂志》和“拯救我们的海洋基金会”工作。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非"
+        }
+    },
+    {
+        "idx": 25,
+        "src": "And every June and July,  enormous shoals of sardines travel northwards  in a mass migration we call the Sardine Run.",
+        "ref": "每年六七月间， 无数的沙丁鱼会向北迁徙， 我们称之为“沙丁鱼潮”。",
+        "hyp": "每年六月和七月，成群的沙丁鱼向北迁徙，形成我们称之为沙丁鱼大迁徙。",
+        "rel_src": [
+            "Thomas Peschak  Conservation Photographer  In my 40 years on this planet,  I've had the great privilege to explore  some of its most incredible seascapes  for National Geographic Magazine  and the Save Our Seas Foundation.",
+            "You can't love something and become a champion for it  if you don't know it exists."
+        ],
+        "rel_tgt": [
+            "托马斯·佩沙克，保护摄影师。在我在这个星球上度过的40年里，我有幸探索了一些最令人难以置信的海景，为《国家地理杂志》和“拯救我们的海洋基金会”工作。",
+            "如果你不知道它的存在，就无法热爱某物并成为它的倡导者。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非"
+        }
+    },
+    {
+        "idx": 26,
+        "src": "And boy, do those fish have good reason to run.",
+        "ref": "相信我，这些鱼必须这么做。",
+        "hyp": "而且，那些鱼确实有足够的理由奔跑。",
+        "rel_src": [
+            "And when I finally managed to grab hold of it,  I looked up, and I was instantly surrounded by fish  in all colors of the rainbow.",
+            "And every June and July,  enormous shoals of sardines travel northwards  in a mass migration we call the Sardine Run."
+        ],
+        "rel_tgt": [
+            "当我最终设法抓住它时，我抬头一看，瞬间被五颜六色的鱼群包围。",
+            "每年六月和七月，成群的沙丁鱼向北迁徙，形成我们称之为沙丁鱼大迁徙。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非"
+        }
+    },
+    {
+        "idx": 27,
+        "src": "In hot pursuit are hoards of hungry and agile predators.",
+        "ref": "因为有成群结队饥肠辘辘、 身手敏捷的捕猎者在身后追赶。",
+        "hyp": "在紧追不舍的是一群饥饿而敏捷的捕食者。",
+        "rel_src": [
+            "And every June and July,  enormous shoals of sardines travel northwards  in a mass migration we call the Sardine Run.",
+            "And boy, do those fish have good reason to run."
+        ],
+        "rel_tgt": [
+            "每年六月和七月，成群的沙丁鱼向北迁徙，形成我们称之为沙丁鱼大迁徙。",
+            "而且，那些鱼确实有足够的理由奔跑。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非"
+        }
+    },
+    {
+        "idx": 28,
+        "src": "Common dolphins hunt together  and they can separate some of the sardines from the main shoal  and they create bait balls.",
+        "ref": "比如集体捕猎的海豚， 它们将一部分沙丁鱼 从鱼群中中分离出来， 把它们聚成球状。",
+        "hyp": "普通海豚会一起狩猎，它们可以将一些沙丁鱼从主群中分离出来，形成诱饵球。",
+        "rel_src": [
+            "And every June and July,  enormous shoals of sardines travel northwards  in a mass migration we call the Sardine Run.",
+            "In hot pursuit are hoards of hungry and agile predators."
+        ],
+        "rel_tgt": [
+            "每年六月和七月，成群的沙丁鱼向北迁徙，形成我们称之为沙丁鱼大迁徙。",
+            "在紧追不舍的是一群饥饿而敏捷的捕食者。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非"
+        }
+    },
+    {
+        "idx": 29,
+        "src": "They drive and trap the fish upward against the ocean surface  and then they rush in to dine  on this pulsating and movable feast.",
+        "ref": "海豚会把这些沙丁鱼赶到离海面较近的地方 然后冲进鱼群大快朵颐， 享受这移动的盛宴。",
+        "hyp": "它们驱赶并将鱼类困在海面上方，然后迅速涌入享用这场跳动而移动的盛宴。",
+        "rel_src": [
+            "In hot pursuit are hoards of hungry and agile predators.",
+            "Common dolphins hunt together  and they can separate some of the sardines from the main shoal  and they create bait balls."
+        ],
+        "rel_tgt": [
+            "在紧追不舍的是一群饥饿而敏捷的捕食者。",
+            "普通海豚会一起狩猎，它们可以将一些沙丁鱼从主群中分离出来，形成诱饵球。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非"
+        }
+    },
+    {
+        "idx": 30,
+        "src": "Close behind are sharks.",
+        "ref": "紧随其后的是鲨鱼。",
+        "hyp": "紧随其后的是鲨鱼。",
+        "rel_src": [
+            "I've photographed everything from really, really big sharks  to dainty ones that fit in the palm of your hand.",
+            "And every June and July,  enormous shoals of sardines travel northwards  in a mass migration we call the Sardine Run."
+        ],
+        "rel_tgt": [
+            "我拍摄过从非常巨大的鲨鱼到可以放在手掌上的娇小鲨鱼的所有东西。",
+            "每年六月和七月，成群的沙丁鱼向北迁徙，形成我们称之为沙丁鱼大迁徙。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非"
+        }
+    },
+    {
+        "idx": 31,
+        "src": "Now, most people believe  that sharks and dolphins are these mortal enemies,  but during the Sardine Run, they actually coexist.",
+        "ref": "大部人会认为， 鲨鱼和海豚是天敌， 但在“沙丁鱼潮”中， 它俩是共存的。",
+        "hyp": "现在，大多数人相信鲨鱼和海豚是死敌，但在沙丁鱼集群期间，它们实际上是共存的。",
+        "rel_src": [
+            "Common dolphins hunt together  and they can separate some of the sardines from the main shoal  and they create bait balls.",
+            "They drive and trap the fish upward against the ocean surface  and then they rush in to dine  on this pulsating and movable feast."
+        ],
+        "rel_tgt": [
+            "普通海豚会一起狩猎，它们可以将一些沙丁鱼从主群中分离出来，形成诱饵球。",
+            "它们驱赶并将鱼类困在海面上方，然后迅速涌入享用这场跳动而移动的盛宴。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非"
+        }
+    },
+    {
+        "idx": 32,
+        "src": "In fact, dolphins actually help sharks feed more effectively.",
+        "ref": "实际上，在海豚的帮助下， 鲨鱼吃得更爽了。",
+        "hyp": "事实上，海豚实际上帮助鲨鱼更有效地进食。",
+        "rel_src": [
+            "Common dolphins hunt together  and they can separate some of the sardines from the main shoal  and they create bait balls.",
+            "Now, most people believe  that sharks and dolphins are these mortal enemies,  but during the Sardine Run, they actually coexist."
+        ],
+        "rel_tgt": [
+            "普通海豚会一起狩猎，它们可以将一些沙丁鱼从主群中分离出来，形成诱饵球。",
+            "现在，大多数人相信鲨鱼和海豚是死敌，但在沙丁鱼集群期间，它们实际上是共存的。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非"
+        }
+    },
+    {
+        "idx": 33,
+        "src": "Without dolphins, the bait balls are more dispersed  and sharks often end up with what I call a sardine donut,  or a mouth full of water.",
+        "ref": "没有海豚的驱赶， 沙丁鱼很难聚成球状， 鲨鱼经常会从鱼群中间穿过， 就像穿过甜甜圈一样， 有时候只能喝一肚子水。",
+        "hyp": "没有海豚，诱饵球会更加分散，鲨鱼常常最终只能得到我所说的沙丁鱼圈，或者嘴里满是水。",
+        "rel_src": [
+            "Common dolphins hunt together  and they can separate some of the sardines from the main shoal  and they create bait balls.",
+            "Now, most people believe  that sharks and dolphins are these mortal enemies,  but during the Sardine Run, they actually coexist."
+        ],
+        "rel_tgt": [
+            "普通海豚会一起狩猎，它们可以将一些沙丁鱼从主群中分离出来，形成诱饵球。",
+            "现在，大多数人相信鲨鱼和海豚是死敌，但在沙丁鱼集群期间，它们实际上是共存的。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非"
+        }
+    },
+    {
+        "idx": 34,
+        "src": "Now, while I've had a few spicy moments with sharks on the sardine run,  I know they don't see me as prey.",
+        "ref": "我在“沙丁鱼潮”中与鲨群有过几次亲密接触， 我明白鲨鱼没把我放在眼里。",
+        "hyp": "现在，虽然我在沙丁鱼集群期间与鲨鱼有过一些激烈的时刻，但我知道它们并不把我当作猎物。",
+        "rel_src": [
+            "Now, most people believe  that sharks and dolphins are these mortal enemies,  but during the Sardine Run, they actually coexist.",
+            "In fact, dolphins actually help sharks feed more effectively."
+        ],
+        "rel_tgt": [
+            "现在，大多数人相信鲨鱼和海豚是死敌，但在沙丁鱼集群期间，它们实际上是共存的。",
+            "事实上，海豚实际上帮助鲨鱼更有效地进食。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非"
+        }
+    },
+    {
+        "idx": 35,
+        "src": "However, I get bumped and tail-slapped just like any other guest  at this rowdy, rowdy banquet.",
+        "ref": "但我还是不停被撞到，被尾巴扫到， 就像这场喧闹盛宴上的其他客人一样。",
+        "hyp": "然而，我也像其他任何客人一样，在这个喧闹的宴会上被碰撞和尾部拍打着。",
+        "rel_src": [
+            "They drive and trap the fish upward against the ocean surface  and then they rush in to dine  on this pulsating and movable feast.",
+            "Now, while I've had a few spicy moments with sharks on the sardine run,  I know they don't see me as prey."
+        ],
+        "rel_tgt": [
+            "它们驱赶并将鱼类困在海面上方，然后迅速涌入享用这场跳动而移动的盛宴。",
+            "现在，虽然我在沙丁鱼集群期间与鲨鱼有过一些激烈的时刻，但我知道它们并不把我当作猎物。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非"
+        }
+    },
+    {
+        "idx": 36,
+        "src": "From the shores of Africa we travel east,  across the vastness that is the Indian Ocean  to the Maldives, an archipelago of coral islands.",
+        "ref": "我们从非洲海岸线往东航行， 穿过浩瀚的印度洋， 来到马尔代夫——一个由珊瑚礁组成的群岛。",
+        "hyp": "从非洲的海岸我们向东行进，穿过无垠的印度洋，来到马尔代夫，一个由珊瑚岛屿组成的群岛。",
+        "rel_src": [
+            "And every June and July,  enormous shoals of sardines travel northwards  in a mass migration we call the Sardine Run.",
+            "And boy, do those fish have good reason to run."
+        ],
+        "rel_tgt": [
+            "每年六月和七月，成群的沙丁鱼向北迁徙，形成我们称之为沙丁鱼大迁徙。",
+            "而且，那些鱼确实有足够的理由奔跑。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫"
+        }
+    },
+    {
+        "idx": 37,
+        "src": "And during the stormy southwest monsoon,  manta rays from all across the archipelago  travel to a tiny speck in Baa Atoll called Hanifaru.",
+        "ref": "在暴风雨不断的西南季风季节里， 生活在群岛海域的魔鬼鱼 都会聚集到巴阿环礁 一个叫哈尼法鲁的小岛附近。",
+        "hyp": "在暴风雨肆虐的西南季风期间，来自整个群岛的蝠鲼会前往巴阿环礁上一个名为哈尼法鲁的小点。",
+        "rel_src": [
+            "And every June and July,  enormous shoals of sardines travel northwards  in a mass migration we call the Sardine Run.",
+            "From the shores of Africa we travel east,  across the vastness that is the Indian Ocean  to the Maldives, an archipelago of coral islands."
+        ],
+        "rel_tgt": [
+            "每年六月和七月，成群的沙丁鱼向北迁徙，形成我们称之为沙丁鱼大迁徙。",
+            "从非洲的海岸我们向东行进，穿过无垠的印度洋，来到马尔代夫，一个由珊瑚岛屿组成的群岛。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁"
+        }
+    },
+    {
+        "idx": 38,
+        "src": "Armies of crustaceans,  most no bigger than the size of your pupils,  are the mainstay of the manta ray's diet.",
+        "ref": "成群的小虾小蟹， 大部分比咱们的瞳孔还要小， 是魔鬼鱼的主要食物。",
+        "hyp": "大批甲壳动物，大多不超过您瞳孔大小，是蝠鲼饮食的主要来源。",
+        "rel_src": [
+            "In fact, dolphins actually help sharks feed more effectively.",
+            "Without dolphins, the bait balls are more dispersed  and sharks often end up with what I call a sardine donut,  or a mouth full of water."
+        ],
+        "rel_tgt": [
+            "事实上，海豚实际上帮助鲨鱼更有效地进食。",
+            "没有海豚，诱饵球会更加分散，鲨鱼常常最终只能得到我所说的沙丁鱼圈，或者嘴里满是水。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁"
+        }
+    },
+    {
+        "idx": 39,
+        "src": "When plankton concentrations become patchy,  manta rays feed alone  and they somersault themselves backwards again and again,  very much like a puppy chasing its own tail.",
+        "ref": "当这些浮游生物比较分散时， 魔鬼鱼一般单独捕食， 它们在水里不停的向后翻滚， 就像小狗追着自己的尾巴。",
+        "hyp": "当浮游生物的浓度变得不均匀时，蝠鲼会独自觅食，它们会一次又一次地向后翻滚，非常像小狗追逐自己的尾巴。",
+        "new_src_summary": "The author reflects on their childhood fascination with the ocean and their transition from a marine biologist to a photographer documenting marine life for National Geographic Magazine and the Save Our Seas Foundation. They express concern about human impact on marine ecosystems and their shift from using shocking images to a more balanced approach. The author believes in using love to effect change, particularly through conservation photography, and shares experiences during the Sardine Run off South Africa's coast and encountering manta rays in the Maldives. The tone is personal, reflective, informative, and passionate about marine conservation.",
+        "new_tgt_summary": "这段文段描述了一位海洋生物学家转型成为摄影师的经历，他在探索水域的过程中目睹了许多海洋生物的奇妙景象，并拍摄了令人惊叹的海洋景观。他希望通过自己的摄影作品唤起人们对海洋环境的关注和保护，通过传播爱的方式影响改变，揭示海洋生态系统中隐藏的动物，展示海洋生态之美。",
+        "rel_src": [
+            "And during the stormy southwest monsoon,  manta rays from all across the archipelago  travel to a tiny speck in Baa Atoll called Hanifaru.",
+            "Armies of crustaceans,  most no bigger than the size of your pupils,  are the mainstay of the manta ray's diet."
+        ],
+        "rel_tgt": [
+            "在暴风雨肆虐的西南季风期间，来自整个群岛的蝠鲼会前往巴阿环礁上一个名为哈尼法鲁的小点。",
+            "大批甲壳动物，大多不超过您瞳孔大小，是蝠鲼饮食的主要来源。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁"
+        }
+    },
+    {
+        "idx": 40,
+        "src": "However, when plankton densities increase,  the mantas line up head-to-tail to form these long feeding chains,  and any tasty morsel that escapes the first or second manta in line  is surely to be gobbled up by the next or the one after.",
+        "ref": "而当浮游生物聚集得越来越多时， 魔鬼鱼就开始首尾相连， 排成长长的进食队形， 队首的魔鬼鱼漏掉的美味 会被后面的同伴吞食干净。",
+        "hyp": "然而，当浮游生物的密度增加时，蝠鲼们会头对尾地排成一条长长的觅食链，逃过第一或第二只蝠鲼的美味小食品一定会被下一只或下下一只蝠鲼吞食。",
+        "rel_src": [
+            "And during the stormy southwest monsoon,  manta rays from all across the archipelago  travel to a tiny speck in Baa Atoll called Hanifaru.",
+            "When plankton concentrations become patchy,  manta rays feed alone  and they somersault themselves backwards again and again,  very much like a puppy chasing its own tail."
+        ],
+        "rel_tgt": [
+            "在暴风雨肆虐的西南季风期间，来自整个群岛的蝠鲼会前往巴阿环礁上一个名为哈尼法鲁的小点。",
+            "当浮游生物的浓度变得不均匀时，蝠鲼会独自觅食，它们会一次又一次地向后翻滚，非常像小狗追逐自己的尾巴。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁"
+        }
+    },
+    {
+        "idx": 41,
+        "src": "As plankton levels peak in the bay,  the mantas swim closer and closer together  in a unique behavior we call cyclone feeding.",
+        "ref": "随着海湾里的浮游生物越聚越多， 魔鬼鱼的队形也越聚越拢， 这种独特的捕食方法， 我们称之为“旋风捕食法”。",
+        "hyp": "随着浮游生物在海湾中达到顶峰，蝠鲼们游得越来越靠近，展现一种我们称之为“旋食”的独特行为。",
+        "rel_src": [
+            "When plankton concentrations become patchy,  manta rays feed alone  and they somersault themselves backwards again and again,  very much like a puppy chasing its own tail.",
+            "However, when plankton densities increase,  the mantas line up head-to-tail to form these long feeding chains,  and any tasty morsel that escapes the first or second manta in line  is surely to be gobbled up by the next or the one after."
+        ],
+        "rel_tgt": [
+            "当浮游生物的浓度变得不均匀时，蝠鲼会独自觅食，它们会一次又一次地向后翻滚，非常像小狗追逐自己的尾巴。",
+            "然而，当浮游生物的密度增加时，蝠鲼们会头对尾地排成一条长长的觅食链，逃过第一或第二只蝠鲼的美味小食品一定会被下一只或下下一只蝠鲼吞食。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁"
+        }
+    },
+    {
+        "idx": 42,
+        "src": "And as they swirl in tight formation,  this multi-step column of mantas  creates its own vortex, sucking in and delivering the plankton  right into the mantas' cavernous mouths.",
+        "ref": "魔鬼鱼们层层叠叠， 排成紧密的队形旋转， 形成漩涡，将浮游生物吸住， 径直送入魔鬼鱼巨大的嘴中。",
+        "hyp": "当它们紧密排列旋转时，这支多步蝠鲼队伍形成了自己的漩涡，将浮游生物吸入并直接送入蝠鲼宽阔的口中。",
+        "rel_src": [
+            "However, when plankton densities increase,  the mantas line up head-to-tail to form these long feeding chains,  and any tasty morsel that escapes the first or second manta in line  is surely to be gobbled up by the next or the one after.",
+            "As plankton levels peak in the bay,  the mantas swim closer and closer together  in a unique behavior we call cyclone feeding."
+        ],
+        "rel_tgt": [
+            "然而，当浮游生物的密度增加时，蝠鲼们会头对尾地排成一条长长的觅食链，逃过第一或第二只蝠鲼的美味小食品一定会被下一只或下下一只蝠鲼吞食。",
+            "随着浮游生物在海湾中达到顶峰，蝠鲼们游得越来越靠近，展现一种我们称之为“旋食”的独特行为。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁"
+        }
+    },
+    {
+        "idx": 43,
+        "src": "The experience of diving amongst such masses of hundreds of rays  is truly unforgettable.",
+        "ref": "在成百上千魔鬼鱼中间潜水， 那景象让我终生难忘。",
+        "hyp": "在如此众多的鳐鱼中潜水的经历是难以忘怀的。",
+        "rel_src": [
+            "And during the stormy southwest monsoon,  manta rays from all across the archipelago  travel to a tiny speck in Baa Atoll called Hanifaru.",
+            "And as they swirl in tight formation,  this multi-step column of mantas  creates its own vortex, sucking in and delivering the plankton  right into the mantas' cavernous mouths."
+        ],
+        "rel_tgt": [
+            "在暴风雨肆虐的西南季风期间，来自整个群岛的蝠鲼会前往巴阿环礁上一个名为哈尼法鲁的小点。",
+            "当它们紧密排列旋转时，这支多步蝠鲼队伍形成了自己的漩涡，将浮游生物吸入并直接送入蝠鲼宽阔的口中。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁"
+        }
+    },
+    {
+        "idx": 44,
+        "src": "When I first photographed Hanifaru,  the site enjoyed no protection  and was threatened by development.",
+        "ref": "当我第一次去哈尼法鲁拍照时， 那里还没有被保护起来， 生态环境受到当地发展的威胁。",
+        "hyp": "当我第一次拍摄哈尼法鲁时，这个地点没有受到保护，受到了发展的威胁。",
+        "rel_src": [
+            "And during the stormy southwest monsoon,  manta rays from all across the archipelago  travel to a tiny speck in Baa Atoll called Hanifaru.",
+            "And as they swirl in tight formation,  this multi-step column of mantas  creates its own vortex, sucking in and delivering the plankton  right into the mantas' cavernous mouths."
+        ],
+        "rel_tgt": [
+            "在暴风雨肆虐的西南季风期间，来自整个群岛的蝠鲼会前往巴阿环礁上一个名为哈尼法鲁的小点。",
+            "当它们紧密排列旋转时，这支多步蝠鲼队伍形成了自己的漩涡，将浮游生物吸入并直接送入蝠鲼宽阔的口中。"
+        ],
+        "hist_info": "\"Hanifaru\" - \"哈尼法鲁\"",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁"
+        }
+    },
+    {
+        "idx": 45,
+        "src": "And working with NGOs like the Manta Trust,  my images eventually helped Hanifaru  become a marine-protected area.",
+        "ref": "通过与“魔鬼鱼信托基金” 这类的非政府组织合作， 我的照片最终帮助哈尼法鲁 成为了海洋保护区。",
+        "hyp": "与蝠鲼信托等非政府组织合作，我的照片最终帮助哈尼法鲁成为一个海洋保护区。",
+        "rel_src": [
+            "And during the stormy southwest monsoon,  manta rays from all across the archipelago  travel to a tiny speck in Baa Atoll called Hanifaru.",
+            "And as they swirl in tight formation,  this multi-step column of mantas  creates its own vortex, sucking in and delivering the plankton  right into the mantas' cavernous mouths."
+        ],
+        "rel_tgt": [
+            "在暴风雨肆虐的西南季风期间，来自整个群岛的蝠鲼会前往巴阿环礁上一个名为哈尼法鲁的小点。",
+            "当它们紧密排列旋转时，这支多步蝠鲼队伍形成了自己的漩涡，将浮游生物吸入并直接送入蝠鲼宽阔的口中。"
+        ],
+        "hist_info": "\"Hanifaru\" - \"哈尼法鲁\"",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托"
+        }
+    },
+    {
+        "idx": 46,
+        "src": "Now, fisherman from neighboring islands,  they once hunted these manta rays  to make traditional drums from their skins.",
+        "ref": "附近岛屿的渔民， 曾经捕杀过许多魔鬼鱼， 用它们的皮来制作传统的鼓。",
+        "hyp": "现在，来自邻近岛屿的渔民们曾经捕猎这些蝠鲼，以制作传统鼓皮。",
+        "rel_src": [
+            "And during the stormy southwest monsoon,  manta rays from all across the archipelago  travel to a tiny speck in Baa Atoll called Hanifaru.",
+            "Armies of crustaceans,  most no bigger than the size of your pupils,  are the mainstay of the manta ray's diet."
+        ],
+        "rel_tgt": [
+            "在暴风雨肆虐的西南季风期间，来自整个群岛的蝠鲼会前往巴阿环礁上一个名为哈尼法鲁的小点。",
+            "大批甲壳动物，大多不超过您瞳孔大小，是蝠鲼饮食的主要来源。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿"
+        }
+    },
+    {
+        "idx": 47,
+        "src": "Today, they are the most ardent conservation champions  and manta rays earn the Maldivian economy  in excess of 8 million dollars every single year.",
+        "ref": "而如今，他们成为了魔鬼鱼最坚定的保护者， 魔鬼鱼每年为马尔代夫带来 超过800万美元的收入。",
+        "hyp": "如今，他们是最热心的保护倡导者，而蝠鲼每年为马尔代夫经济带来超过800万美元的收入。",
+        "rel_src": [
+            "And working with NGOs like the Manta Trust,  my images eventually helped Hanifaru  become a marine-protected area.",
+            "Now, fisherman from neighboring islands,  they once hunted these manta rays  to make traditional drums from their skins."
+        ],
+        "rel_tgt": [
+            "与蝠鲼信托等非政府组织合作，我的照片最终帮助哈尼法鲁成为一个海洋保护区。",
+            "现在，来自邻近岛屿的渔民们曾经捕猎这些蝠鲼，以制作传统鼓皮。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫"
+        }
+    },
+    {
+        "idx": 48,
+        "src": "I have always wanted to travel back in time  to an era where maps were mostly blank  or they read, \"There be dragons.\"",
+        "ref": "我一直想回到过去， 回到那个大部分地图还是一片空白， 或者标着“此处有龙”的时代。",
+        "hyp": "我一直想要回到一个地图大多空白，或者上面写着“这里有龙”的时代。",
+        "rel_src": [
+            "From the shores of Africa we travel east,  across the vastness that is the Indian Ocean  to the Maldives, an archipelago of coral islands.",
+            "When I first photographed Hanifaru,  the site enjoyed no protection  and was threatened by development."
+        ],
+        "rel_tgt": [
+            "从非洲的海岸我们向东行进，穿过无垠的印度洋，来到马尔代夫，一个由珊瑚岛屿组成的群岛。",
+            "当我第一次拍摄哈尼法鲁时，这个地点没有受到保护，受到了发展的威胁。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫"
+        }
+    },
+    {
+        "idx": 49,
+        "src": "And today, the closest I've come is visiting remote atolls  in the western Indian Ocean.",
+        "ref": "到目前为止，我去过的 最类似的地方是一些位于西印度洋 的偏远环礁。",
+        "hyp": "如今，我最接近的一次经历是参观印度洋西部的偏远环礁。",
+        "rel_src": [
+            "From the shores of Africa we travel east,  across the vastness that is the Indian Ocean  to the Maldives, an archipelago of coral islands.",
+            "And during the stormy southwest monsoon,  manta rays from all across the archipelago  travel to a tiny speck in Baa Atoll called Hanifaru."
+        ],
+        "rel_tgt": [
+            "从非洲的海岸我们向东行进，穿过无垠的印度洋，来到马尔代夫，一个由珊瑚岛屿组成的群岛。",
+            "在暴风雨肆虐的西南季风期间，来自整个群岛的蝠鲼会前往巴阿环礁上一个名为哈尼法鲁的小点。"
+        ],
+        "hist_info": "\"Indian Ocean\" - \"印度洋\"",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫"
+        }
+    },
+    {
+        "idx": 50,
+        "src": "Far, far away from shipping lanes and fishing fleets,  diving into these waters is a poignant reminder  of what our oceans once looked like.",
+        "ref": "那里远离渔场和渔船， 在那里潜水总是让我感到悲凉， 因为它让我想起海洋曾经的样子。",
+        "hyp": "远离航道和渔船，潜入这片水域是对我们的海洋曾经是什么样子的深刻提醒。",
+        "rel_src": [
+            "When I first photographed Hanifaru,  the site enjoyed no protection  and was threatened by development.",
+            "And working with NGOs like the Manta Trust,  my images eventually helped Hanifaru  become a marine-protected area."
+        ],
+        "rel_tgt": [
+            "当我第一次拍摄哈尼法鲁时，这个地点没有受到保护，受到了发展的威胁。",
+            "与蝠鲼信托等非政府组织合作，我的照片最终帮助哈尼法鲁成为一个海洋保护区。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫"
+        }
+    },
+    {
+        "idx": 51,
+        "src": "Very few people have heard of Bassas da India,  a tiny speck of coral in the Mozambique Channel.",
+        "ref": "很少有人听说过印度礁， 它是一个很小的珊瑚环礁， 位于莫桑比克海峡。",
+        "hyp": "很少有人听说过印度洋的莫桑比克海峡中的珊瑚小点巴萨斯达印度。",
+        "rel_src": [
+            "And during the stormy southwest monsoon,  manta rays from all across the archipelago  travel to a tiny speck in Baa Atoll called Hanifaru.",
+            "And today, the closest I've come is visiting remote atolls  in the western Indian Ocean."
+        ],
+        "rel_tgt": [
+            "在暴风雨肆虐的西南季风期间，来自整个群岛的蝠鲼会前往巴阿环礁上一个名为哈尼法鲁的小点。",
+            "如今，我最接近的一次经历是参观印度洋西部的偏远环礁。"
+        ],
+        "hist_info": "\"Mozambique Channel\" - \"莫桑比克海峡\"",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫",
+            "Bassas da India": "巴萨斯达印度"
+        }
+    },
+    {
+        "idx": 52,
+        "src": "Its reef forms a protective outer barrier  and the inner lagoon is a nursery ground  for Galapagos sharks.",
+        "ref": "它外围的礁石形成了保护屏障 中间的环礁湖成为了 加拉帕戈斯鲨鱼的幼儿园。",
+        "hyp": "其珊瑚礁形成了一个保护性的外部屏障，而内部的泻湖则是加拉帕戈斯鲨鱼的育儿场。",
+        "rel_src": [
+            "Without dolphins, the bait balls are more dispersed  and sharks often end up with what I call a sardine donut,  or a mouth full of water.",
+            "Today, they are the most ardent conservation champions  and manta rays earn the Maldivian economy  in excess of 8 million dollars every single year."
+        ],
+        "rel_tgt": [
+            "没有海豚，诱饵球会更加分散，鲨鱼常常最终只能得到我所说的沙丁鱼圈，或者嘴里满是水。",
+            "如今，他们是最热心的保护倡导者，而蝠鲼每年为马尔代夫经济带来超过800万美元的收入。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫",
+            "Bassas da India": "巴萨斯达印度",
+            "Galapagos": "加拉帕戈斯"
+        }
+    },
+    {
+        "idx": 53,
+        "src": "These sharks are anything but shy, even during the day.",
+        "ref": "这些鲨鱼从不害羞， 即使在白天也一样。",
+        "hyp": "这些鲨鱼一点也不害羞，甚至在白天也是如此。",
+        "rel_src": [
+            "Now, while I've had a few spicy moments with sharks on the sardine run,  I know they don't see me as prey.",
+            "Its reef forms a protective outer barrier  and the inner lagoon is a nursery ground  for Galapagos sharks."
+        ],
+        "rel_tgt": [
+            "现在，虽然我在沙丁鱼集群期间与鲨鱼有过一些激烈的时刻，但我知道它们并不把我当作猎物。",
+            "其珊瑚礁形成了一个保护性的外部屏障，而内部的泻湖则是加拉帕戈斯鲨鱼的育儿场。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫",
+            "Bassas da India": "巴萨斯达印度",
+            "Galapagos": "加拉帕戈斯"
+        }
+    },
+    {
+        "idx": 54,
+        "src": "I had a bit of a hunch that they'd be even bolder  and more abundant at night.",
+        "ref": "我猜它们在晚上会更加活泼， 数量也会更多。",
+        "hyp": "我有一点预感，它们在夜晚可能会更加大胆和更加丰富。",
+        "rel_src": [
+            "Its reef forms a protective outer barrier  and the inner lagoon is a nursery ground  for Galapagos sharks.",
+            "These sharks are anything but shy, even during the day."
+        ],
+        "rel_tgt": [
+            "其珊瑚礁形成了一个保护性的外部屏障，而内部的泻湖则是加拉帕戈斯鲨鱼的育儿场。",
+            "这些鲨鱼一点也不害羞，甚至在白天也是如此。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫",
+            "Bassas da India": "巴萨斯达印度",
+            "Galapagos": "加拉帕戈斯"
+        }
+    },
+    {
+        "idx": 55,
+        "src": "Never before have I encountered  so many sharks on a single coral outcrop.",
+        "ref": "我以前从未在一个珊瑚环礁湖中 看到过如此多的鲨鱼。",
+        "hyp": "我从未在一个珊瑚礁上见过这么多鲨鱼。",
+        "rel_src": [
+            "Its reef forms a protective outer barrier  and the inner lagoon is a nursery ground  for Galapagos sharks.",
+            "These sharks are anything but shy, even during the day."
+        ],
+        "rel_tgt": [
+            "其珊瑚礁形成了一个保护性的外部屏障，而内部的泻湖则是加拉帕戈斯鲨鱼的育儿场。",
+            "这些鲨鱼一点也不害羞，甚至在白天也是如此。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫",
+            "Bassas da India": "巴萨斯达印度",
+            "Galapagos": "加拉帕戈斯"
+        }
+    },
+    {
+        "idx": 56,
+        "src": "Capturing and sharing moments like this --  that reminds me why I chose my path.",
+        "ref": "记录和分享这样的瞬间—— 时刻提醒我选择这条道路的初衷。",
+        "hyp": "捕捉并分享像这样的时刻——这让我想起了我选择这条道路的原因。",
+        "rel_src": [
+            "When I first photographed Hanifaru,  the site enjoyed no protection  and was threatened by development.",
+            "And working with NGOs like the Manta Trust,  my images eventually helped Hanifaru  become a marine-protected area."
+        ],
+        "rel_tgt": [
+            "当我第一次拍摄哈尼法鲁时，这个地点没有受到保护，受到了发展的威胁。",
+            "与蝠鲼信托等非政府组织合作，我的照片最终帮助哈尼法鲁成为一个海洋保护区。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫",
+            "Bassas da India": "巴萨斯达印度",
+            "Galapagos": "加拉帕戈斯"
+        }
+    },
+    {
+        "idx": 57,
+        "src": "Earlier this year, I was on assignment for National Geographic Magazine  in Baja California.",
+        "ref": "今年早些时候，为完成 《国家地理杂志》的合约拍摄， 我来到加利福尼亚半岛。",
+        "hyp": "今年早些时候，我在《国家地理杂志》为一项任务而前往下加利福尼亚。",
+        "rel_src": [
+            "When I first photographed Hanifaru,  the site enjoyed no protection  and was threatened by development.",
+            "And working with NGOs like the Manta Trust,  my images eventually helped Hanifaru  become a marine-protected area."
+        ],
+        "rel_tgt": [
+            "当我第一次拍摄哈尼法鲁时，这个地点没有受到保护，受到了发展的威胁。",
+            "与蝠鲼信托等非政府组织合作，我的照片最终帮助哈尼法鲁成为一个海洋保护区。"
+        ],
+        "hist_info": "\"National Geographic Magazine\" - \"《国家地理杂志》\"",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫",
+            "Bassas da India": "巴萨斯达印度",
+            "Galapagos": "加拉帕戈斯",
+            "Baja California": "下加利福尼亚"
+        }
+    },
+    {
+        "idx": 58,
+        "src": "And about halfway down the peninsula on the Pacific side  lies San Ignacio Lagoon,  a critical calving ground for gray whales.",
+        "ref": "在半岛中部，临太平洋的一侧， 坐落着圣伊格纳西奥环礁湖， 那里是灰鲸重要的繁殖地。",
+        "hyp": "而在半岛的太平洋一侧的大约中途处，是圣伊格纳西奥泻湖，是灰鲸的重要产仔场所。",
+        "rel_src": [
+            "Its reef forms a protective outer barrier  and the inner lagoon is a nursery ground  for Galapagos sharks.",
+            "These sharks are anything but shy, even during the day."
+        ],
+        "rel_tgt": [
+            "其珊瑚礁形成了一个保护性的外部屏障，而内部的泻湖则是加拉帕戈斯鲨鱼的育儿场。",
+            "这些鲨鱼一点也不害羞，甚至在白天也是如此。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫",
+            "Bassas da India": "巴萨斯达印度",
+            "Galapagos": "加拉帕戈斯",
+            "Baja California": "下加利福尼亚",
+            "San Ignacio Lagoon": "圣伊格纳西奥泻湖"
+        }
+    },
+    {
+        "idx": 59,
+        "src": "For 100 years, this coast was the scene of a wholesale slaughter,  where more than 20,000 gray whales were killed,  leaving only a few hundred survivors.",
+        "ref": "在过去的一百年里， 这段海岸线就是一个巨大的屠宰场， 超过2万头灰鲸在这里被杀， 只剩下几百头幸存者。",
+        "hyp": "这片海岸在过去的100年里，曾是一场大规模的屠杀场，超过2万头灰鲸被杀害，仅留下几百只幸存者。",
+        "new_src_summary": "The author reflects on their childhood fascination with the ocean and their transition from a marine biologist to a photographer documenting marine life for National Geographic Magazine and the Save Our Seas Foundation. They express concern about human impact on marine ecosystems and their shift from using shocking images to a more balanced approach. The author believes in using love to effect change, particularly through conservation photography, and shares experiences during the Sardine Run off South Africa's coast and encountering manta rays in the Maldives. The paragraph also describes the feeding behavior of manta rays in response to plankton concentrations, ranging from feeding alone to forming long feeding chains and cyclone feeding. The author recounts their experience diving among hundreds of rays at Hanifaru, which has now become a marine-protected area thanks to conservation efforts. The paragraph also mentions the transformation of fisherman into conservation champions and the economic value of manta rays in the Maldivian economy. The author reflects on their desire to explore remote atolls in the western Indian Ocean and encounters with Galapagos sharks at Bassas da India. The paragraph concludes with the author's passion for capturing and sharing moments in nature, such as encountering sharks at night, and their assignment in Baja California at San Ignacio Lagoon, a calving ground for gray whales. The overall tone is personal, reflective, informative, and passionate about marine conservation and exploration.",
+        "new_tgt_summary": "这篇文章讲述了一位海洋生物学家转型成为摄影师的故事，他在探索水域时目睹了许多海洋生物的奇妙景象，拍摄了令人惊叹的海洋景观。他希望通过自己的摄影作品唤起人们对海洋环境的关注和保护，通过传播爱的方式影响改变，揭示海洋生态系统中隐藏的动物，展示海洋生态之美。此外，文章还介绍了蝠鲼在不同浮游生物浓度下的觅食行为，以及作者在拍摄哈尼法鲁的经历和与非政府组织合作打造海洋保护区的过程。作者强调了保护海洋生态环境的重要性，以及他对探索未知海域和对海洋生物的热爱。",
+        "rel_src": [
+            "When I first photographed Hanifaru,  the site enjoyed no protection  and was threatened by development.",
+            "Today, they are the most ardent conservation champions  and manta rays earn the Maldivian economy  in excess of 8 million dollars every single year."
+        ],
+        "rel_tgt": [
+            "当我第一次拍摄哈尼法鲁时，这个地点没有受到保护，受到了发展的威胁。",
+            "如今，他们是最热心的保护倡导者，而蝠鲼每年为马尔代夫经济带来超过800万美元的收入。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫",
+            "Bassas da India": "巴萨斯达印度",
+            "Galapagos": "加拉帕戈斯",
+            "Baja California": "下加利福尼亚",
+            "San Ignacio Lagoon": "圣伊格纳西奥泻湖"
+        }
+    },
+    {
+        "idx": 60,
+        "src": "Today the descendents of these same whales  nudge their youngsters to the surface  to play and even interact with us.",
+        "ref": "而现在，这些灰鲸的后裔 会将自己的幼仔推向海面， 玩耍嬉戏，甚至与我们互动。",
+        "hyp": "如今，这些灰鲸的后代们会把它们的幼崽推到水面上玩耍，甚至与我们互动。",
+        "rel_src": [
+            "And about halfway down the peninsula on the Pacific side  lies San Ignacio Lagoon,  a critical calving ground for gray whales.",
+            "For 100 years, this coast was the scene of a wholesale slaughter,  where more than 20,000 gray whales were killed,  leaving only a few hundred survivors."
+        ],
+        "rel_tgt": [
+            "而在半岛的太平洋一侧的大约中途处，是圣伊格纳西奥泻湖，是灰鲸的重要产仔场所。",
+            "这片海岸在过去的100年里，曾是一场大规模的屠杀场，超过2万头灰鲸被杀害，仅留下几百只幸存者。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫",
+            "Bassas da India": "巴萨斯达印度",
+            "Galapagos": "加拉帕戈斯",
+            "Baja California": "下加利福尼亚",
+            "San Ignacio Lagoon": "圣伊格纳西奥泻湖"
+        }
+    },
+    {
+        "idx": 61,
+        "src": "This species truly has made a remarkable comeback.",
+        "ref": "这一物种令人惊讶地恢复过来了。",
+        "hyp": "这个物种确实已经取得了令人瞩目的复苏。",
+        "rel_src": [
+            "And working with NGOs like the Manta Trust,  my images eventually helped Hanifaru  become a marine-protected area.",
+            "Today the descendents of these same whales  nudge their youngsters to the surface  to play and even interact with us."
+        ],
+        "rel_tgt": [
+            "与蝠鲼信托等非政府组织合作，我的照片最终帮助哈尼法鲁成为一个海洋保护区。",
+            "如今，这些灰鲸的后代们会把它们的幼崽推到水面上玩耍，甚至与我们互动。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫",
+            "Bassas da India": "巴萨斯达印度",
+            "Galapagos": "加拉帕戈斯",
+            "Baja California": "下加利福尼亚",
+            "San Ignacio Lagoon": "圣伊格纳西奥泻湖"
+        }
+    },
+    {
+        "idx": 62,
+        "src": "Now, on the other side of the peninsula lies Cabo Pulmo,  a sleepy fishing village.",
+        "ref": "在半岛的另一侧是普尔莫角， 一个宁静的小渔村。",
+        "hyp": "现在，在半岛的另一侧是卡博普尔莫，一个宁静的渔村。",
+        "rel_src": [
+            "And about halfway down the peninsula on the Pacific side  lies San Ignacio Lagoon,  a critical calving ground for gray whales.",
+            "For 100 years, this coast was the scene of a wholesale slaughter,  where more than 20,000 gray whales were killed,  leaving only a few hundred survivors."
+        ],
+        "rel_tgt": [
+            "而在半岛的太平洋一侧的大约中途处，是圣伊格纳西奥泻湖，是灰鲸的重要产仔场所。",
+            "这片海岸在过去的100年里，曾是一场大规模的屠杀场，超过2万头灰鲸被杀害，仅留下几百只幸存者。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫",
+            "Bassas da India": "巴萨斯达印度",
+            "Galapagos": "加拉帕戈斯",
+            "Baja California": "下加利福尼亚",
+            "San Ignacio Lagoon": "圣伊格纳西奥泻湖",
+            "Cabo Pulmo": "卡博普尔莫"
+        }
+    },
+    {
+        "idx": 63,
+        "src": "Decades of overfishing had brought them close to collapse.",
+        "ref": "数十年的过度捕捞一度 将这个村子带到破产边缘。",
+        "hyp": "数十年的过度捕捞使它们濒临崩溃。",
+        "rel_src": [
+            "Now, fisherman from neighboring islands,  they once hunted these manta rays  to make traditional drums from their skins.",
+            "For 100 years, this coast was the scene of a wholesale slaughter,  where more than 20,000 gray whales were killed,  leaving only a few hundred survivors."
+        ],
+        "rel_tgt": [
+            "现在，来自邻近岛屿的渔民们曾经捕猎这些蝠鲼，以制作传统鼓皮。",
+            "这片海岸在过去的100年里，曾是一场大规模的屠杀场，超过2万头灰鲸被杀害，仅留下几百只幸存者。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫",
+            "Bassas da India": "巴萨斯达印度",
+            "Galapagos": "加拉帕戈斯",
+            "Baja California": "下加利福尼亚",
+            "San Ignacio Lagoon": "圣伊格纳西奥泻湖",
+            "Cabo Pulmo": "卡博普尔莫"
+        }
+    },
+    {
+        "idx": 64,
+        "src": "In 1995, local fisherman convinced the authorities  to proclaim their waters a marine reserve.",
+        "ref": "1995年，当地渔民说服政府 将这片海域列为海洋保护区。",
+        "hyp": "1995年，当地渔民说服当局宣布他们的水域为海洋保护区。",
+        "rel_src": [
+            "And working with NGOs like the Manta Trust,  my images eventually helped Hanifaru  become a marine-protected area.",
+            "Today, they are the most ardent conservation champions  and manta rays earn the Maldivian economy  in excess of 8 million dollars every single year."
+        ],
+        "rel_tgt": [
+            "与蝠鲼信托等非政府组织合作，我的照片最终帮助哈尼法鲁成为一个海洋保护区。",
+            "如今，他们是最热心的保护倡导者，而蝠鲼每年为马尔代夫经济带来超过800万美元的收入。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫",
+            "Bassas da India": "巴萨斯达印度",
+            "Galapagos": "加拉帕戈斯",
+            "Baja California": "下加利福尼亚",
+            "San Ignacio Lagoon": "圣伊格纳西奥泻湖",
+            "Cabo Pulmo": "卡博普尔莫",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 65,
+        "src": "But what happened next was nothing short of miraculous.",
+        "ref": "接下来发生的一切简直可以说是奇迹。",
+        "hyp": "但接下来发生的事情简直是奇迹般的。",
+        "rel_src": [
+            "Today the descendents of these same whales  nudge their youngsters to the surface  to play and even interact with us.",
+            "This species truly has made a remarkable comeback."
+        ],
+        "rel_tgt": [
+            "如今，这些灰鲸的后代们会把它们的幼崽推到水面上玩耍，甚至与我们互动。",
+            "这个物种确实已经取得了令人瞩目的复苏。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫",
+            "Bassas da India": "巴萨斯达印度",
+            "Galapagos": "加拉帕戈斯",
+            "Baja California": "下加利福尼亚",
+            "San Ignacio Lagoon": "圣伊格纳西奥泻湖",
+            "Cabo Pulmo": "卡博普尔莫",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 66,
+        "src": "In 2005, after only a single decade of protection,  scientists measured the largest recovery of fish ever recorded.",
+        "ref": "在2005年，仅仅经过10年的保护， 科学家发现，当地鱼群数量 得到了创纪录的恢复。",
+        "hyp": "2005年，在仅仅十年的保护之后，科学家们记录下了有史以来最大规模的鱼类恢复情况。",
+        "rel_src": [
+            "Now, on the other side of the peninsula lies Cabo Pulmo,  a sleepy fishing village.",
+            "Decades of overfishing had brought them close to collapse."
+        ],
+        "rel_tgt": [
+            "现在，在半岛的另一侧是卡博普尔莫，一个宁静的渔村。",
+            "数十年的过度捕捞使它们濒临崩溃。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫",
+            "Bassas da India": "巴萨斯达印度",
+            "Galapagos": "加拉帕戈斯",
+            "Baja California": "下加利福尼亚",
+            "San Ignacio Lagoon": "圣伊格纳西奥泻湖",
+            "Cabo Pulmo": "卡博普尔莫",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 67,
+        "src": "But don't take my word for it -- come with me.",
+        "ref": "眼见为凭，跟我一起来吧。",
+        "hyp": "但不要光听我的话，跟我一起来吧。",
+        "rel_src": [
+            "Capturing and sharing moments like this --  that reminds me why I chose my path.",
+            "Earlier this year, I was on assignment for National Geographic Magazine  in Baja California."
+        ],
+        "rel_tgt": [
+            "捕捉并分享像这样的时刻——这让我想起了我选择这条道路的原因。",
+            "今年早些时候，我在《国家地理杂志》为一项任务而前往下加利福尼亚。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫",
+            "Bassas da India": "巴萨斯达印度",
+            "Galapagos": "加拉帕戈斯",
+            "Baja California": "下加利福尼亚",
+            "San Ignacio Lagoon": "圣伊格纳西奥泻湖",
+            "Cabo Pulmo": "卡博普尔莫",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 68,
+        "src": "On a single breath, swim with me in deep,  into one of the largest and densest schools of fish  I have ever encountered.",
+        "ref": "深吸一口气，与我一起潜入海底， 去看看我遇到过的最庞大、最密集的鱼群 是什么样子。",
+        "hyp": "在一个呼吸的时间里，跟我一起深入，探索我曾经遇到过的最大最密集的鱼群之一。",
+        "rel_src": [
+            "Never before have I encountered  so many sharks on a single coral outcrop.",
+            "In 2005, after only a single decade of protection,  scientists measured the largest recovery of fish ever recorded."
+        ],
+        "rel_tgt": [
+            "我从未在一个珊瑚礁上见过这么多鲨鱼。",
+            "2005年，在仅仅十年的保护之后，科学家们记录下了有史以来最大规模的鱼类恢复情况。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫",
+            "Bassas da India": "巴萨斯达印度",
+            "Galapagos": "加拉帕戈斯",
+            "Baja California": "下加利福尼亚",
+            "San Ignacio Lagoon": "圣伊格纳西奥泻湖",
+            "Cabo Pulmo": "卡博普尔莫",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 69,
+        "src": "We all have the ability to be creators of hope.",
+        "ref": "我们都有能力创造希望。",
+        "hyp": "我们都有成为希望创造者的能力。",
+        "rel_src": [
+            "Capturing and sharing moments like this --  that reminds me why I chose my path.",
+            "But don't take my word for it -- come with me."
+        ],
+        "rel_tgt": [
+            "捕捉并分享像这样的时刻——这让我想起了我选择这条道路的原因。",
+            "但不要光听我的话，跟我一起来吧。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫",
+            "Bassas da India": "巴萨斯达印度",
+            "Galapagos": "加拉帕戈斯",
+            "Baja California": "下加利福尼亚",
+            "San Ignacio Lagoon": "圣伊格纳西奥泻湖",
+            "Cabo Pulmo": "卡博普尔莫",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 70,
+        "src": "And through my photography,  I want to pass on the message that it is not too late for our oceans.",
+        "ref": "我想通过自己的照片， 传递一个信息，从现在开始 拯救海洋还不算太晚。",
+        "hyp": "通过我的摄影作品，我希望传达这样一个信息：对于我们的海洋来说，现在还不算太晚。",
+        "rel_src": [
+            "Far, far away from shipping lanes and fishing fleets,  diving into these waters is a poignant reminder  of what our oceans once looked like.",
+            "But what happened next was nothing short of miraculous."
+        ],
+        "rel_tgt": [
+            "远离航道和渔船，潜入这片水域是对我们的海洋曾经是什么样子的深刻提醒。",
+            "但接下来发生的事情简直是奇迹般的。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫",
+            "Bassas da India": "巴萨斯达印度",
+            "Galapagos": "加拉帕戈斯",
+            "Baja California": "下加利福尼亚",
+            "San Ignacio Lagoon": "圣伊格纳西奥泻湖",
+            "Cabo Pulmo": "卡博普尔莫",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 71,
+        "src": "And particularly, I want to focus on nature's resilience  in the face of 7.3 billion people.",
+        "ref": "我尤其想关注大自然所拥有的恢复能力， 在它面对73亿人类的时候。",
+        "hyp": "特别是，我想关注自然在面对73亿人口时的复原能力。",
+        "rel_src": [
+            "Now, on the other side of the peninsula lies Cabo Pulmo,  a sleepy fishing village.",
+            "In 2005, after only a single decade of protection,  scientists measured the largest recovery of fish ever recorded."
+        ],
+        "rel_tgt": [
+            "现在，在半岛的另一侧是卡博普尔莫，一个宁静的渔村。",
+            "2005年，在仅仅十年的保护之后，科学家们记录下了有史以来最大规模的鱼类恢复情况。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫",
+            "Bassas da India": "巴萨斯达印度",
+            "Galapagos": "加拉帕戈斯",
+            "Baja California": "下加利福尼亚",
+            "San Ignacio Lagoon": "圣伊格纳西奥泻湖",
+            "Cabo Pulmo": "卡博普尔莫",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 72,
+        "src": "My hope is that in the future,  I will have to search much, much harder  to make photographs like this,  while creating images that showcase  our respectful coexistence with the ocean.",
+        "ref": "我希望在未来的时光里， 我将越来越难拍到 这样的照片， 而是拍到更多 反映人与海洋和谐共处的照片。",
+        "hyp": "希望未来，我将不得不更加努力地寻找拍摄这样的照片，同时创作展示我们与海洋相互尊重共存的形象。",
+        "rel_src": [
+            "And through my photography,  I want to pass on the message that it is not too late for our oceans.",
+            "And particularly, I want to focus on nature's resilience  in the face of 7.3 billion people."
+        ],
+        "rel_tgt": [
+            "通过我的摄影作品，我希望传达这样一个信息：对于我们的海洋来说，现在还不算太晚。",
+            "特别是，我想关注自然在面对73亿人口时的复原能力。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫",
+            "Bassas da India": "巴萨斯达印度",
+            "Galapagos": "加拉帕戈斯",
+            "Baja California": "下加利福尼亚",
+            "San Ignacio Lagoon": "圣伊格纳西奥泻湖",
+            "Cabo Pulmo": "卡博普尔莫",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 73,
+        "src": "Those will hopefully become an everyday occurrence for me.",
+        "ref": "真希望我每天都能拍到这样的照片。",
+        "hyp": "希望这些将成为我每天的常见事物。",
+        "rel_src": [
+            "On a single breath, swim with me in deep,  into one of the largest and densest schools of fish  I have ever encountered.",
+            "And through my photography,  I want to pass on the message that it is not too late for our oceans."
+        ],
+        "rel_tgt": [
+            "在一个呼吸的时间里，跟我一起深入，探索我曾经遇到过的最大最密集的鱼群之一。",
+            "通过我的摄影作品，我希望传达这样一个信息：对于我们的海洋来说，现在还不算太晚。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫",
+            "Bassas da India": "巴萨斯达印度",
+            "Galapagos": "加拉帕戈斯",
+            "Baja California": "下加利福尼亚",
+            "San Ignacio Lagoon": "圣伊格纳西奥泻湖",
+            "Cabo Pulmo": "卡博普尔莫",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 74,
+        "src": "To thrive and survive in my profession,  you really have to be a hopeless optimist.",
+        "ref": "要想在我们这一行干出点名堂， 你必须是个无可救药的乐观主义者。",
+        "hyp": "要在我的职业中茁壮成长和生存，你真的必须是一个无望的乐观主义者。",
+        "rel_src": [
+            "We all have the ability to be creators of hope.",
+            "And through my photography,  I want to pass on the message that it is not too late for our oceans."
+        ],
+        "rel_tgt": [
+            "我们都有成为希望创造者的能力。",
+            "通过我的摄影作品，我希望传达这样一个信息：对于我们的海洋来说，现在还不算太晚。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫",
+            "Bassas da India": "巴萨斯达印度",
+            "Galapagos": "加拉帕戈斯",
+            "Baja California": "下加利福尼亚",
+            "San Ignacio Lagoon": "圣伊格纳西奥泻湖",
+            "Cabo Pulmo": "卡博普尔莫",
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 75,
+        "src": "And I always operate on the assumption  that the next great picture that will effect change  is right around the corner,  behind the next coral head,  inside the next lagoon  or possibly, in the one after it.",
+        "ref": "我总是怀着这样的一个假设在拍照， 下一张能够带来改变的伟大照片 就在前面等我， 也许就在下一个珊瑚礁后面， 在下一个环礁湖里， 要不然，就在再下一个。",
+        "hyp": "我总是基于这样的假设行事，即下一张能够引发改变的伟大照片就在不远处，在下一个珊瑚礁后面，在下一个泻湖内，或者可能在其后的那一个。",
+        "rel_src": [
+            "Never before have I encountered  so many sharks on a single coral outcrop.",
+            "And about halfway down the peninsula on the Pacific side  lies San Ignacio Lagoon,  a critical calving ground for gray whales."
+        ],
+        "rel_tgt": [
+            "我从未在一个珊瑚礁上见过这么多鲨鱼。",
+            "而在半岛的太平洋一侧的大约中途处，是圣伊格纳西奥泻湖，是灰鲸的重要产仔场所。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Thomas Peschak": "托马斯·佩沙克",
+            "National Geographic Magazine": "《国家地理杂志》",
+            "Save Our Seas Foundation": "拯救我们的海洋基金会",
+            "Canada": "加拿大",
+            "Great Bear Rainforest": "大熊雨林",
+            "Mozambique Channel": "莫桑比克海峡",
+            "earth": "地球",
+            "South Africa": "南非",
+            "Africa": "非洲",
+            "Indian Ocean": "印度洋",
+            "Maldives": "马尔代夫",
+            "Baa Atoll": "巴阿环礁",
+            "Hanifaru": "哈尼法鲁",
+            "Manta Trust": "蝠鲼信托",
+            "Neighboring islands": "邻近岛屿",
+            "Maldivian": "马尔代夫",
+            "Bassas da India": "巴萨斯达印度",
+            "Galapagos": "加拉帕戈斯",
+            "Baja California": "下加利福尼亚",
+            "San Ignacio Lagoon": "圣伊格纳西奥泻湖",
+            "Cabo Pulmo": "卡博普尔莫",
+            "N/A": "N/A"
+        }
+    }
+]

@@ -1,0 +1,21 @@
+You are an {src_lang}-{tgt_lang} bilingual expert. Given an {src_lang} source sentence with its {tgt_lang} translation, you need to annotate all the proper nouns in the {src_lang} source sentence and their corresponding translations in the {tgt_lang} translation sentence. Here are some examples for you:
+
+Example 1:
+<{src_lang} source> アメリカ航空宇宙局のケプラー計画は、他の恒星の周りに何千もの潜在的な惑星を発見し、地球は銀河系にある何十億もの惑星のうちの1つに過ぎないことを示している。
+<{tgt_lang} translation> NASA's Kepler mission has discovered thousands of potential planets around other stars, indicating that Earth is but one of billions of planets in our galaxy.
+<Proper nouns> "アメリカ航空宇宙局" - "NASA", "ケプラー計画は" - "Kepler mission", "地球" - "Earth"
+
+Example 2:
+<{src_lang} source> 真冬の北海道の真夜中頃、車で家に帰ったばかりだった。街の反対側にいる友人の健を訪ねていたのだが、玄関ポーチの温度計はマイナス40度を示していた。摂氏か華氏かは聞かなくていい。マイナス40度は2つの温度計が交わるところだ。とても寒かった。
+<{tgt_lang} translation> I had just driven home,  it was around midnight in the dead of Hokkaido winter, I had been visiting my friend, Ken, across town, and the thermometer on the front porch read minus 40 degrees -- and don't bother asking if that's Celsius or Fahrenheit, minus 40 is where the two scales meet -- it was very cold.
+<Proper nouns> "北海道" - "Hokkaido", "健" - "Ken", "摂氏" - "Celsius", "華氏" - "Fahrenheit"
+
+Example 3:
+<{src_lang} source> 自閉症の子供とその家族のためにもっと多くの資源が必要であることを国民保健サービスに訴えるため、ゆうきと同僚のジュディス・グールドは、30年前に行われるべきだったことを実行することを決意した。
+<{tgt_lang} translation> To make the case to the National Health Service that more resources were needed for autistic children and their families, Yuki and her colleague Judith Gould decided to do something that should have been done 30 years earlier.
+<Proper nouns> "国民保健サービス" - "National Health Service", "ゆうき" - "Yuki", "ジュディス・グールド" - "Judith Gould"
+
+If there isn't any proper noun in the sentence, just answer with "N/A". Now annotate all the proper nouns in the following sentence pair:
+<{src_lang} source> {src}
+<{tgt_lang} translation> {tgt}
+<Proper nouns> 

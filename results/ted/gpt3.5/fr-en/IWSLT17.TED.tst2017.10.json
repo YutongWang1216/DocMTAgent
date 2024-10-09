@@ -1,0 +1,2356 @@
+[
+    {
+        "idx": 0,
+        "src": "Bonjour.",
+        "ref": "Hello.",
+        "hyp": "Hello.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 1,
+        "src": "Mon nom est Matthew Williams, et je suis un champion.",
+        "ref": "My name is Matthew Williams,  and I am a champion.",
+        "hyp": "My name is Matthew Williams, and I am a champion.",
+        "rel_src": [
+            "Bonjour."
+        ],
+        "rel_tgt": [
+            "Hello."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams"
+        }
+    },
+    {
+        "idx": 2,
+        "src": "J'ai remporté des médailles dans trois sports différents et des championnats nationaux au Canada, joué à un niveau international au basketball et j'étais fier de représenter le Canada sur la scène mondiale.",
+        "ref": "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage.",
+        "hyp": "I have won medals in three different sports and national championships in Canada, played at an international level in basketball, and I was proud to represent Canada on the world stage.",
+        "rel_src": [
+            "Bonjour.",
+            "Mon nom est Matthew Williams, et je suis un champion."
+        ],
+        "rel_tgt": [
+            "Hello.",
+            "My name is Matthew Williams, and I am a champion."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada"
+        }
+    },
+    {
+        "idx": 3,
+        "src": "Je m'entraîne 5 jours par semaine au basketball et au patinage de vitesse, travaille avec des entraîneurs de grande qualité et des consultants en performance mentale pour être le meilleur dans mon sport.",
+        "ref": "I train five days a week for basketball and speed skating,  work with top quality coaches  and mental performance consultants  to be at my best in my sport.",
+        "hyp": "I train 5 days a week in basketball and speed skating, work with high-quality coaches and mental performance consultants to be the best in my sport.",
+        "rel_src": [
+            "Mon nom est Matthew Williams, et je suis un champion.",
+            "J'ai remporté des médailles dans trois sports différents et des championnats nationaux au Canada, joué à un niveau international au basketball et j'étais fier de représenter le Canada sur la scène mondiale."
+        ],
+        "rel_tgt": [
+            "My name is Matthew Williams, and I am a champion.",
+            "I have won medals in three different sports and national championships in Canada, played at an international level in basketball, and I was proud to represent Canada on the world stage."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada"
+        }
+    },
+    {
+        "idx": 4,
+        "src": "Par ailleurs, je fais tout cela avec les Jeux Olympiques Spéciaux.",
+        "ref": "By the way, all that is through Special Olympics.",
+        "hyp": "Furthermore, I do all of this with the Special Olympics.",
+        "rel_src": [
+            "J'ai remporté des médailles dans trois sports différents et des championnats nationaux au Canada, joué à un niveau international au basketball et j'étais fier de représenter le Canada sur la scène mondiale.",
+            "Je m'entraîne 5 jours par semaine au basketball et au patinage de vitesse, travaille avec des entraîneurs de grande qualité et des consultants en performance mentale pour être le meilleur dans mon sport."
+        ],
+        "rel_tgt": [
+            "I have won medals in three different sports and national championships in Canada, played at an international level in basketball, and I was proud to represent Canada on the world stage.",
+            "I train 5 days a week in basketball and speed skating, work with high-quality coaches and mental performance consultants to be the best in my sport."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics"
+        }
+    },
+    {
+        "idx": 5,
+        "src": "Est-ce que cela change la manière dont vous percevez ma personne et mes réussites ?",
+        "ref": "Does that change the way you think of me  and my accomplishments?",
+        "hyp": "Does this change the way you perceive me and my accomplishments?",
+        "rel_src": [
+            "J'ai remporté des médailles dans trois sports différents et des championnats nationaux au Canada, joué à un niveau international au basketball et j'étais fier de représenter le Canada sur la scène mondiale.",
+            "Je m'entraîne 5 jours par semaine au basketball et au patinage de vitesse, travaille avec des entraîneurs de grande qualité et des consultants en performance mentale pour être le meilleur dans mon sport."
+        ],
+        "rel_tgt": [
+            "I have won medals in three different sports and national championships in Canada, played at an international level in basketball, and I was proud to represent Canada on the world stage.",
+            "I train 5 days a week in basketball and speed skating, work with high-quality coaches and mental performance consultants to be the best in my sport."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics"
+        }
+    },
+    {
+        "idx": 6,
+        "src": "Le monde ne voit pas les personnes comme moi comme des champions.",
+        "ref": "The world does not see all people like me as champions.",
+        "hyp": "The world does not see people like me as champions.",
+        "rel_src": [
+            "Mon nom est Matthew Williams, et je suis un champion.",
+            "Est-ce que cela change la manière dont vous percevez ma personne et mes réussites ?"
+        ],
+        "rel_tgt": [
+            "My name is Matthew Williams, and I am a champion.",
+            "Does this change the way you perceive me and my accomplishments?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics"
+        }
+    },
+    {
+        "idx": 7,
+        "src": "Il n'y a pas si longtemps, les gens comme moi étaient fuis et cachés.",
+        "ref": "Not long ago, people like me were shunned and hidden away.",
+        "hyp": "Not so long ago, people like me were shunned and hidden.",
+        "rel_src": [
+            "Est-ce que cela change la manière dont vous percevez ma personne et mes réussites ?",
+            "Le monde ne voit pas les personnes comme moi comme des champions."
+        ],
+        "rel_tgt": [
+            "Does this change the way you perceive me and my accomplishments?",
+            "The world does not see people like me as champions."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics"
+        }
+    },
+    {
+        "idx": 8,
+        "src": "Les Jeux Olympiques Spéciaux ont beaucoup évolué depuis le début en 1968, mais trop souvent, les personnes avec des handicaps intellectuels sont invisibles du grand public.",
+        "ref": "There has been lots of change since Special Olympics began in 1968,  but in too many cases,  people with intellectual disabilities  are invisible to the wider population.",
+        "hyp": "The Special Olympics have evolved a lot since the beginning in 1968, but too often, people with intellectual disabilities are invisible to the general public.",
+        "rel_src": [
+            "Par ailleurs, je fais tout cela avec les Jeux Olympiques Spéciaux.",
+            "Le monde ne voit pas les personnes comme moi comme des champions."
+        ],
+        "rel_tgt": [
+            "Furthermore, I do all of this with the Special Olympics.",
+            "The world does not see people like me as champions."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics"
+        }
+    },
+    {
+        "idx": 9,
+        "src": "Les gens utilisent le mot « R » avec moi, et ils pensent que ça n'est pas grave.",
+        "ref": "People use the r-word in front of me, and they think it doesn't matter.",
+        "hyp": "People use the word \"R\" with me, and they think it's not a big deal.",
+        "rel_src": [
+            "Il n'y a pas si longtemps, les gens comme moi étaient fuis et cachés.",
+            "Les Jeux Olympiques Spéciaux ont beaucoup évolué depuis le début en 1968, mais trop souvent, les personnes avec des handicaps intellectuels sont invisibles du grand public."
+        ],
+        "rel_tgt": [
+            "Not so long ago, people like me were shunned and hidden.",
+            "The Special Olympics have evolved a lot since the beginning in 1968, but too often, people with intellectual disabilities are invisible to the general public."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics"
+        }
+    },
+    {
+        "idx": 10,
+        "src": "C'est le mot « retardé » ou « arriéré » utilisé de manière désobligeante.",
+        "ref": "That's the word \"retard\" or \"retarded\"  used in a derogatory manner.",
+        "hyp": "It's the word \"retarded\" or \"backward\" used in a derogatory way.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux ont beaucoup évolué depuis le début en 1968, mais trop souvent, les personnes avec des handicaps intellectuels sont invisibles du grand public.",
+            "Les gens utilisent le mot « R » avec moi, et ils pensent que ça n'est pas grave."
+        ],
+        "rel_tgt": [
+            "The Special Olympics have evolved a lot since the beginning in 1968, but too often, people with intellectual disabilities are invisible to the general public.",
+            "People use the word \"R\" with me, and they think it's not a big deal."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics"
+        }
+    },
+    {
+        "idx": 11,
+        "src": "Ils ne s'imaginent pas à quel point cela nous blesse, moi et mes amis.",
+        "ref": "They're not thinking about how much it hurts me and my friends.",
+        "hyp": "They do not realize how much it hurts us, me and my friends.",
+        "rel_src": [
+            "Les gens utilisent le mot « R » avec moi, et ils pensent que ça n'est pas grave.",
+            "C'est le mot « retardé » ou « arriéré » utilisé de manière désobligeante."
+        ],
+        "rel_tgt": [
+            "People use the word \"R\" with me, and they think it's not a big deal.",
+            "It's the word \"retarded\" or \"backward\" used in a derogatory way."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics"
+        }
+    },
+    {
+        "idx": 12,
+        "src": "Je ne veux pas que vous pensiez que je suis là pour une œuvre de charité.",
+        "ref": "I don't want you to think I'm here because I'm a charity case.",
+        "hyp": "I don't want you to think that I am here for charity work.",
+        "rel_src": [
+            "Par ailleurs, je fais tout cela avec les Jeux Olympiques Spéciaux.",
+            "Les Jeux Olympiques Spéciaux ont beaucoup évolué depuis le début en 1968, mais trop souvent, les personnes avec des handicaps intellectuels sont invisibles du grand public."
+        ],
+        "rel_tgt": [
+            "Furthermore, I do all of this with the Special Olympics.",
+            "The Special Olympics have evolved a lot since the beginning in 1968, but too often, people with intellectual disabilities are invisible to the general public."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics"
+        }
+    },
+    {
+        "idx": 13,
+        "src": "Je suis ici parce qu'il y a toujours un gros problème avec la manière dont beaucoup de personnes perçoivent les individus à déficiences intellectuelles, ou, trop souvent, la manière dont ils ne les voient pas du tout.",
+        "ref": "I am here because there is still a big problem with the way  many people see individuals with intellectual disabilities,  or, too often,  how they don't see them at all.",
+        "hyp": "I am here because there is still a big problem with the way many people perceive individuals with intellectual disabilities, or, too often, the way they do not see them at all.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux ont beaucoup évolué depuis le début en 1968, mais trop souvent, les personnes avec des handicaps intellectuels sont invisibles du grand public.",
+            "Les gens utilisent le mot « R » avec moi, et ils pensent que ça n'est pas grave."
+        ],
+        "rel_tgt": [
+            "The Special Olympics have evolved a lot since the beginning in 1968, but too often, people with intellectual disabilities are invisible to the general public.",
+            "People use the word \"R\" with me, and they think it's not a big deal."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics"
+        }
+    },
+    {
+        "idx": 14,
+        "src": "Saviez-vous que les championnats du monde s'étaient déroulés cette année ?",
+        "ref": "Did you know the World Games happened this year?",
+        "hyp": "Did you know that the world championships took place this year?",
+        "rel_src": [
+            "J'ai remporté des médailles dans trois sports différents et des championnats nationaux au Canada, joué à un niveau international au basketball et j'étais fier de représenter le Canada sur la scène mondiale.",
+            "Je m'entraîne 5 jours par semaine au basketball et au patinage de vitesse, travaille avec des entraîneurs de grande qualité et des consultants en performance mentale pour être le meilleur dans mon sport."
+        ],
+        "rel_tgt": [
+            "I have won medals in three different sports and national championships in Canada, played at an international level in basketball, and I was proud to represent Canada on the world stage.",
+            "I train 5 days a week in basketball and speed skating, work with high-quality coaches and mental performance consultants to be the best in my sport."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics"
+        }
+    },
+    {
+        "idx": 15,
+        "src": "J'étais parmi les plus de 6 500 athlètes ayant des déficiences intellectuelles venus de 165 pays et concourant à Los Angeles.",
+        "ref": "I was one of over 6,500 athletes with intellectual disabilities  from 165 countries who competed in LA.",
+        "hyp": "I was among the over 6,500 athletes with intellectual disabilities from 165 countries who came to Los Angeles to compete.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux ont beaucoup évolué depuis le début en 1968, mais trop souvent, les personnes avec des handicaps intellectuels sont invisibles du grand public.",
+            "Les gens utilisent le mot « R » avec moi, et ils pensent que ça n'est pas grave."
+        ],
+        "rel_tgt": [
+            "The Special Olympics have evolved a lot since the beginning in 1968, but too often, people with intellectual disabilities are invisible to the general public.",
+            "People use the word \"R\" with me, and they think it's not a big deal."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics"
+        }
+    },
+    {
+        "idx": 16,
+        "src": "Il y avait plus de 62 000 spectateurs aux cérémonies d'ouverture, et il y avait TSN et ESPN pour couvrir l'évènement.",
+        "ref": "There was over 62,000 spectators watching opening ceremonies,  and there was live coverage on TSN and ESPN.",
+        "hyp": "There were over 62,000 spectators at the opening ceremonies, and TSN and ESPN were there to cover the event.",
+        "rel_src": [
+            "Saviez-vous que les championnats du monde s'étaient déroulés cette année ?",
+            "J'étais parmi les plus de 6 500 athlètes ayant des déficiences intellectuelles venus de 165 pays et concourant à Los Angeles."
+        ],
+        "rel_tgt": [
+            "Did you know that the world championships took place this year?",
+            "I was among the over 6,500 athletes with intellectual disabilities from 165 countries who came to Los Angeles to compete."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 17,
+        "src": "Saviez-vous que cet événement s'était déroulé ?",
+        "ref": "Did you even know that happened?",
+        "hyp": "Did you know that this event had taken place?",
+        "rel_src": [
+            "Saviez-vous que les championnats du monde s'étaient déroulés cette année ?",
+            "J'étais parmi les plus de 6 500 athlètes ayant des déficiences intellectuelles venus de 165 pays et concourant à Los Angeles."
+        ],
+        "rel_tgt": [
+            "Did you know that the world championships took place this year?",
+            "I was among the over 6,500 athletes with intellectual disabilities from 165 countries who came to Los Angeles to compete."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 18,
+        "src": "Que pensez-vous lorsque vous rencontrez quelqu'un comme moi ?",
+        "ref": "What do you think of when you see someone like me?",
+        "hyp": "What do you think when you meet someone like me?",
+        "rel_src": [
+            "Je ne veux pas que vous pensiez que je suis là pour une œuvre de charité.",
+            "Je suis ici parce qu'il y a toujours un gros problème avec la manière dont beaucoup de personnes perçoivent les individus à déficiences intellectuelles, ou, trop souvent, la manière dont ils ne les voient pas du tout."
+        ],
+        "rel_tgt": [
+            "I don't want you to think that I am here for charity work.",
+            "I am here because there is still a big problem with the way many people perceive individuals with intellectual disabilities, or, too often, the way they do not see them at all."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 19,
+        "src": "Je suis ici aujourd'hui pour vous défier de nous considérer comme égaux.",
+        "ref": "I am here today to challenge you  to look at us as equals.",
+        "hyp": "I am here today to challenge you to consider us as equals.",
+        "new_src_summary": "Le paragraphe présente Matthew Williams, un champion qui a remporté des médailles dans trois sports différents et des championnats nationaux au Canada. Il s'entraîne intensivement au basketball et au patinage de vitesse, travaillant avec des entraîneurs de haut niveau et des consultants en performance mentale. Il souligne également sa participation aux Jeux Olympiques Spéciaux, exprimant sa frustration face à la perception négative des personnes ayant des handicaps intellectuels. Il met en avant l'importance de reconnaître les réalisations des athlètes de ces jeux, soulignant la participation de plus de 6 500 athlètes venus de 165 pays aux championnats du monde.",
+        "new_tgt_summary": "Matthew Williams is a champion athlete who has won medals in three different sports and national championships in Canada. He trains 5 days a week in basketball and speed skating, working with high-quality coaches and mental performance consultants. He competes in the Special Olympics and highlights the lack of visibility and understanding for individuals with intellectual disabilities. He participated in the world championships with over 6,500 athletes from 165 countries in Los Angeles, emphasizing the importance of recognizing and supporting athletes with intellectual disabilities.",
+        "rel_src": [
+            "Je ne veux pas que vous pensiez que je suis là pour une œuvre de charité.",
+            "Je suis ici parce qu'il y a toujours un gros problème avec la manière dont beaucoup de personnes perçoivent les individus à déficiences intellectuelles, ou, trop souvent, la manière dont ils ne les voient pas du tout."
+        ],
+        "rel_tgt": [
+            "I don't want you to think that I am here for charity work.",
+            "I am here because there is still a big problem with the way many people perceive individuals with intellectual disabilities, or, too often, the way they do not see them at all."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 20,
+        "src": "Les Jeux Olympiques Spéciaux transforment l'identité propre des athlètes ayant des déficiences intellectuelles et la perception de quiconque regardant la compétition.",
+        "ref": "Special Olympics transforms the self-identity of athletes  with intellectual disabilities  and the perceptions of everyone watching.",
+        "hyp": "The Special Olympics transform the unique identity of athletes with intellectual disabilities and the perception of anyone watching the competition.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux ont beaucoup évolué depuis le début en 1968, mais trop souvent, les personnes avec des handicaps intellectuels sont invisibles du grand public.",
+            "Saviez-vous que les championnats du monde s'étaient déroulés cette année ?"
+        ],
+        "rel_tgt": [
+            "The Special Olympics have evolved a lot since the beginning in 1968, but too often, people with intellectual disabilities are invisible to the general public.",
+            "Did you know that the world championships took place this year?"
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 21,
+        "src": "Pour ceux d'entre vous qui ne le savent pas, les Jeux Olympiques Spéciaux s'adressent aux sportifs ayant des déficiences intellectuelles.",
+        "ref": "For those of you who aren't familiar,  Special Olympics is for athletes with intellectual disabilities.",
+        "hyp": "For those of you who do not know, the Special Olympics are aimed at athletes with intellectual disabilities.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux ont beaucoup évolué depuis le début en 1968, mais trop souvent, les personnes avec des handicaps intellectuels sont invisibles du grand public.",
+            "Les Jeux Olympiques Spéciaux transforment l'identité propre des athlètes ayant des déficiences intellectuelles et la perception de quiconque regardant la compétition."
+        ],
+        "rel_tgt": [
+            "The Special Olympics have evolved a lot since the beginning in 1968, but too often, people with intellectual disabilities are invisible to the general public.",
+            "The Special Olympics transform the unique identity of athletes with intellectual disabilities and the perception of anyone watching the competition."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 22,
+        "src": "Les Jeux Olympiques Spéciaux sont séparés des Jeux Paralympiques et Olympiques.",
+        "ref": "Special Olympics is separate from the Paralympics and Olympics.",
+        "hyp": "The Special Olympics are separate from the Paralympic and Olympic Games.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux ont beaucoup évolué depuis le début en 1968, mais trop souvent, les personnes avec des handicaps intellectuels sont invisibles du grand public.",
+            "Pour ceux d'entre vous qui ne le savent pas, les Jeux Olympiques Spéciaux s'adressent aux sportifs ayant des déficiences intellectuelles."
+        ],
+        "rel_tgt": [
+            "The Special Olympics have evolved a lot since the beginning in 1968, but too often, people with intellectual disabilities are invisible to the general public.",
+            "For those of you who do not know, the Special Olympics are aimed at athletes with intellectual disabilities."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games"
+        }
+    },
+    {
+        "idx": 23,
+        "src": "Nous offrons des programmes sportifs de haute qualité, toute l'année pour les personnes ayant des déficiences intellectuelles, ce qui change des vies et la perception.",
+        "ref": "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions.",
+        "hyp": "We offer high-quality sports programs all year round for individuals with intellectual disabilities, which changes lives and perceptions.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux ont beaucoup évolué depuis le début en 1968, mais trop souvent, les personnes avec des handicaps intellectuels sont invisibles du grand public.",
+            "Les Jeux Olympiques Spéciaux transforment l'identité propre des athlètes ayant des déficiences intellectuelles et la perception de quiconque regardant la compétition."
+        ],
+        "rel_tgt": [
+            "The Special Olympics have evolved a lot since the beginning in 1968, but too often, people with intellectual disabilities are invisible to the general public.",
+            "The Special Olympics transform the unique identity of athletes with intellectual disabilities and the perception of anyone watching the competition."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games"
+        }
+    },
+    {
+        "idx": 24,
+        "src": "Ce mouvement a changé ma vie et celle de tellement d'autres personnes.",
+        "ref": "This movement has changed my life  and those of so many others.",
+        "hyp": "This movement has changed my life and that of so many others.",
+        "rel_src": [
+            "Je suis ici parce qu'il y a toujours un gros problème avec la manière dont beaucoup de personnes perçoivent les individus à déficiences intellectuelles, ou, trop souvent, la manière dont ils ne les voient pas du tout.",
+            "Nous offrons des programmes sportifs de haute qualité, toute l'année pour les personnes ayant des déficiences intellectuelles, ce qui change des vies et la perception."
+        ],
+        "rel_tgt": [
+            "I am here because there is still a big problem with the way many people perceive individuals with intellectual disabilities, or, too often, the way they do not see them at all.",
+            "We offer high-quality sports programs all year round for individuals with intellectual disabilities, which changes lives and perceptions."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games"
+        }
+    },
+    {
+        "idx": 25,
+        "src": "Et cela a changé la manière dont le monde voit les personnes ayant des déficiences intellectuelles.",
+        "ref": "And it has changed the way  the world sees people with intellectual disabilities.",
+        "hyp": "And this has changed the way the world sees people with intellectual disabilities.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux ont beaucoup évolué depuis le début en 1968, mais trop souvent, les personnes avec des handicaps intellectuels sont invisibles du grand public.",
+            "Les Jeux Olympiques Spéciaux transforment l'identité propre des athlètes ayant des déficiences intellectuelles et la perception de quiconque regardant la compétition."
+        ],
+        "rel_tgt": [
+            "The Special Olympics have evolved a lot since the beginning in 1968, but too often, people with intellectual disabilities are invisible to the general public.",
+            "The Special Olympics transform the unique identity of athletes with intellectual disabilities and the perception of anyone watching the competition."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games"
+        }
+    },
+    {
+        "idx": 26,
+        "src": "Je suis né épileptique et avec une déficience intellectuelle.",
+        "ref": "I was born with epilepsy and an intellectual disability.",
+        "hyp": "I was born epileptic and with an intellectual disability.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux ont beaucoup évolué depuis le début en 1968, mais trop souvent, les personnes avec des handicaps intellectuels sont invisibles du grand public.",
+            "Je suis ici parce qu'il y a toujours un gros problème avec la manière dont beaucoup de personnes perçoivent les individus à déficiences intellectuelles, ou, trop souvent, la manière dont ils ne les voient pas du tout."
+        ],
+        "rel_tgt": [
+            "The Special Olympics have evolved a lot since the beginning in 1968, but too often, people with intellectual disabilities are invisible to the general public.",
+            "I am here because there is still a big problem with the way many people perceive individuals with intellectual disabilities, or, too often, the way they do not see them at all."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games"
+        }
+    },
+    {
+        "idx": 27,
+        "src": "En grandissant, j'ai joué au hockey jusqu'à mes 12 ans.",
+        "ref": "Growing up, I played hockey until I was 12 years old.",
+        "hyp": "Growing up, I played hockey until I was 12 years old.",
+        "rel_src": [
+            "Je suis ici parce qu'il y a toujours un gros problème avec la manière dont beaucoup de personnes perçoivent les individus à déficiences intellectuelles, ou, trop souvent, la manière dont ils ne les voient pas du tout.",
+            "Nous offrons des programmes sportifs de haute qualité, toute l'année pour les personnes ayant des déficiences intellectuelles, ce qui change des vies et la perception."
+        ],
+        "rel_tgt": [
+            "I am here because there is still a big problem with the way many people perceive individuals with intellectual disabilities, or, too often, the way they do not see them at all.",
+            "We offer high-quality sports programs all year round for individuals with intellectual disabilities, which changes lives and perceptions."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games"
+        }
+    },
+    {
+        "idx": 28,
+        "src": "Plus je grandissais, plus je ressentais qu'il était plus difficile de se maintenir à la hauteur des autres, et j'étais énervé et frustré.",
+        "ref": "The older I got, the more I felt  it was harder to keep up with everyone else,  and I was angry and frustrated.",
+        "hyp": "The more I grew up, the more I felt that it was harder to keep up with others, and I was annoyed and frustrated.",
+        "rel_src": [
+            "Je suis ici parce qu'il y a toujours un gros problème avec la manière dont beaucoup de personnes perçoivent les individus à déficiences intellectuelles, ou, trop souvent, la manière dont ils ne les voient pas du tout.",
+            "Nous offrons des programmes sportifs de haute qualité, toute l'année pour les personnes ayant des déficiences intellectuelles, ce qui change des vies et la perception."
+        ],
+        "rel_tgt": [
+            "I am here because there is still a big problem with the way many people perceive individuals with intellectual disabilities, or, too often, the way they do not see them at all.",
+            "We offer high-quality sports programs all year round for individuals with intellectual disabilities, which changes lives and perceptions."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games"
+        }
+    },
+    {
+        "idx": 29,
+        "src": "Pendant un certain temps, je n'ai plus pratiqué aucun sport, n'avais plus aucun ami, et me sentais oublié et triste.",
+        "ref": "For a while, I did not play any sports,  didn't have many friends  and felt left out and sad.",
+        "hyp": "For a while, I didn't practice any sports anymore, had no friends, and felt forgotten and sad.",
+        "rel_src": [
+            "En grandissant, j'ai joué au hockey jusqu'à mes 12 ans.",
+            "Plus je grandissais, plus je ressentais qu'il était plus difficile de se maintenir à la hauteur des autres, et j'étais énervé et frustré."
+        ],
+        "rel_tgt": [
+            "Growing up, I played hockey until I was 12 years old.",
+            "The more I grew up, the more I felt that it was harder to keep up with others, and I was annoyed and frustrated."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games"
+        }
+    },
+    {
+        "idx": 30,
+        "src": "Il fut un temps où les personnes ayant des déficiences intellectuelles étaient cachées de la société.",
+        "ref": "There was a time when people with intellectual disabilities  were hidden away from society.",
+        "hyp": "There was a time when people with intellectual disabilities were hidden from society.",
+        "rel_src": [
+            "Nous offrons des programmes sportifs de haute qualité, toute l'année pour les personnes ayant des déficiences intellectuelles, ce qui change des vies et la perception.",
+            "Et cela a changé la manière dont le monde voit les personnes ayant des déficiences intellectuelles."
+        ],
+        "rel_tgt": [
+            "We offer high-quality sports programs all year round for individuals with intellectual disabilities, which changes lives and perceptions.",
+            "And this has changed the way the world sees people with intellectual disabilities."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games"
+        }
+    },
+    {
+        "idx": 31,
+        "src": "Personne ne pensait qu'ils pouvaient pratiquer un sport, et encore moins être un membre important pour la société.",
+        "ref": "No one thought they could participate in sports,  let alone be a valued member of society.",
+        "hyp": "No one thought they could practice a sport, let alone be an important member of society.",
+        "rel_src": [
+            "Nous offrons des programmes sportifs de haute qualité, toute l'année pour les personnes ayant des déficiences intellectuelles, ce qui change des vies et la perception.",
+            "Et cela a changé la manière dont le monde voit les personnes ayant des déficiences intellectuelles."
+        ],
+        "rel_tgt": [
+            "We offer high-quality sports programs all year round for individuals with intellectual disabilities, which changes lives and perceptions.",
+            "And this has changed the way the world sees people with intellectual disabilities."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games"
+        }
+    },
+    {
+        "idx": 32,
+        "src": "Dans les années 60, Dr. Frank Hayden, un scientifique à l'Université de Toronto, étudiait les effets de l'exercice régulier sur la condition physique des enfants ayant des déficiences intellectuelles.",
+        "ref": "In the 1960s, Dr. Frank Hayden,  a scientist at the University of Toronto,  was studying the effects of regular exercise  on the fitness levels of children with intellectual disabilities.",
+        "hyp": "In the 1960s, Dr. Frank Hayden, a scientist at the University of Toronto, studied the effects of regular exercise on the physical condition of children with intellectual disabilities.",
+        "rel_src": [
+            "Nous offrons des programmes sportifs de haute qualité, toute l'année pour les personnes ayant des déficiences intellectuelles, ce qui change des vies et la perception.",
+            "Et cela a changé la manière dont le monde voit les personnes ayant des déficiences intellectuelles."
+        ],
+        "rel_tgt": [
+            "We offer high-quality sports programs all year round for individuals with intellectual disabilities, which changes lives and perceptions.",
+            "And this has changed the way the world sees people with intellectual disabilities."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto"
+        }
+    },
+    {
+        "idx": 33,
+        "src": "Utilisant des recherches scientifiques rigoureuses, Dr. Hayden et d'autres chercheurs ont conclu que c'était simplement le manque d'opportunité à participer qui entraînait des problèmes de condition physique.",
+        "ref": "Using rigorous scientific research,  Dr. Hayden and other researchers  came to the conclusion  that it was simply the lack of opportunity to participate  that caused their fitness levels to suffer.",
+        "hyp": "Using rigorous scientific research, Dr. Hayden and other researchers concluded that it was simply the lack of opportunity to participate that led to physical fitness issues.",
+        "rel_src": [
+            "Pour ceux d'entre vous qui ne le savent pas, les Jeux Olympiques Spéciaux s'adressent aux sportifs ayant des déficiences intellectuelles.",
+            "Dans les années 60, Dr. Frank Hayden, un scientifique à l'Université de Toronto, étudiait les effets de l'exercice régulier sur la condition physique des enfants ayant des déficiences intellectuelles."
+        ],
+        "rel_tgt": [
+            "For those of you who do not know, the Special Olympics are aimed at athletes with intellectual disabilities.",
+            "In the 1960s, Dr. Frank Hayden, a scientist at the University of Toronto, studied the effects of regular exercise on the physical condition of children with intellectual disabilities."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden"
+        }
+    },
+    {
+        "idx": 34,
+        "src": "Beaucoup de gens doutaient que les personnes ayant des déficience intellectuelles pouvaient bénéficier des programmes de mise en forme et des compétitions sportives.",
+        "ref": "Lots of people doubted that people with intellectual disabilities  could benefit from fitness programs  and sports competition opportunities.",
+        "hyp": "Many people doubted that individuals with intellectual disabilities could benefit from fitness programs and sports competitions.",
+        "rel_src": [
+            "Dans les années 60, Dr. Frank Hayden, un scientifique à l'Université de Toronto, étudiait les effets de l'exercice régulier sur la condition physique des enfants ayant des déficiences intellectuelles.",
+            "Utilisant des recherches scientifiques rigoureuses, Dr. Hayden et d'autres chercheurs ont conclu que c'était simplement le manque d'opportunité à participer qui entraînait des problèmes de condition physique."
+        ],
+        "rel_tgt": [
+            "In the 1960s, Dr. Frank Hayden, a scientist at the University of Toronto, studied the effects of regular exercise on the physical condition of children with intellectual disabilities.",
+            "Using rigorous scientific research, Dr. Hayden and other researchers concluded that it was simply the lack of opportunity to participate that led to physical fitness issues."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden"
+        }
+    },
+    {
+        "idx": 35,
+        "src": "Mais des pionniers comme Dr. Hayden et Eunice Kennedy Shriver, le fondateur des Jeux Olympiques Spéciaux, ont persévéré, et les athlètes des Jeux Olympiques Spéciaux leur ont donné raison quatre millions et demi de fois.",
+        "ref": "But pioneers like Dr. Hayden and Eunice Kennedy Shriver,  the founder of Special Olympics,  persevered,  and Special Olympics athletes have proved them right  four and a half million times over.",
+        "hyp": "But pioneers like Dr. Hayden and Eunice Kennedy Shriver, the founder of the Special Olympics, persevered, and the athletes of the Special Olympics proved them right four and a half million times.",
+        "rel_src": [
+            "Dans les années 60, Dr. Frank Hayden, un scientifique à l'Université de Toronto, étudiait les effets de l'exercice régulier sur la condition physique des enfants ayant des déficiences intellectuelles.",
+            "Utilisant des recherches scientifiques rigoureuses, Dr. Hayden et d'autres chercheurs ont conclu que c'était simplement le manque d'opportunité à participer qui entraînait des problèmes de condition physique."
+        ],
+        "rel_tgt": [
+            "In the 1960s, Dr. Frank Hayden, a scientist at the University of Toronto, studied the effects of regular exercise on the physical condition of children with intellectual disabilities.",
+            "Using rigorous scientific research, Dr. Hayden and other researchers concluded that it was simply the lack of opportunity to participate that led to physical fitness issues."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\", \"Dr. Hayden\" - \"Dr. Hayden\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver"
+        }
+    },
+    {
+        "idx": 36,
+        "src": "Avant que je rejoigne les Jeux Olympiques Spéciaux, j'étais nerveux car j'étais jeune, timide, et avais peu de confiance en moi et je n'avais pas beaucoup d'amis.",
+        "ref": "Before I joined Special Olympics,  I was nervous  because I was young, shy, not confident  and didn't have many friends.",
+        "hyp": "Before I joined the Special Olympics, I was nervous because I was young, shy, and had little confidence in myself, and I didn't have many friends.",
+        "rel_src": [
+            "Pendant un certain temps, je n'ai plus pratiqué aucun sport, n'avais plus aucun ami, et me sentais oublié et triste.",
+            "Personne ne pensait qu'ils pouvaient pratiquer un sport, et encore moins être un membre important pour la société."
+        ],
+        "rel_tgt": [
+            "For a while, I didn't practice any sports anymore, had no friends, and felt forgotten and sad.",
+            "No one thought they could practice a sport, let alone be an important member of society."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver"
+        }
+    },
+    {
+        "idx": 37,
+        "src": "Lorsque je suis arrivé, pourtant, tout le monde m'a beaucoup encouragé, m'a supporté et m'a laissé être moi-même sans être jugé.",
+        "ref": "When I got there, though, everyone was very encouraging,  supportive, and let me be myself  without being judged.",
+        "hyp": "When I arrived, however, everyone encouraged me a lot, supported me, and let me be myself without being judged.",
+        "rel_src": [
+            "Nous offrons des programmes sportifs de haute qualité, toute l'année pour les personnes ayant des déficiences intellectuelles, ce qui change des vies et la perception.",
+            "Avant que je rejoigne les Jeux Olympiques Spéciaux, j'étais nerveux car j'étais jeune, timide, et avais peu de confiance en moi et je n'avais pas beaucoup d'amis."
+        ],
+        "rel_tgt": [
+            "We offer high-quality sports programs all year round for individuals with intellectual disabilities, which changes lives and perceptions.",
+            "Before I joined the Special Olympics, I was nervous because I was young, shy, and had little confidence in myself, and I didn't have many friends."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver"
+        }
+    },
+    {
+        "idx": 38,
+        "src": "A présent, je suis un joueur de basketball et un patineur de vitesse qui a concouru aux jeux régionaux, nationaux, et cette année, a fini aux Jeux Mondiaux d’Été à Los Angeles, où j'ai fait partie de la toute première équipe canadienne de basketball à participer aux Jeux Mondiaux.",
+        "ref": "Now, I am a basketball player and speed skater  who has competed at provincial, national games,  and this year made it all the way to the World Summer Games in LA,  where I was part of the first ever Canadian basketball team  to compete at World Games.",
+        "hyp": "Now, I am a basketball player and a speed skater who has competed in regional and national games, and this year, finished at the Summer World Games in Los Angeles, where I was part of the very first Canadian basketball team to participate in the World Games.",
+        "rel_src": [
+            "Je suis ici aujourd'hui pour vous défier de nous considérer comme égaux.",
+            "Lorsque je suis arrivé, pourtant, tout le monde m'a beaucoup encouragé, m'a supporté et m'a laissé être moi-même sans être jugé."
+        ],
+        "rel_tgt": [
+            "I am here today to challenge you to consider us as equals.",
+            "When I arrived, however, everyone encouraged me a lot, supported me, and let me be myself without being judged."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team"
+        }
+    },
+    {
+        "idx": 39,
+        "src": "Je suis l'un des plus de quatre millions et demi d'athlètes du monde entier, et j'ai entendu tellement d'histoires similaires.",
+        "ref": "I am one of more than four and a half million athletes around the globe,  and I've heard so many similar stories.",
+        "hyp": "I am one of over four and a half million athletes from around the world, and I have heard so many similar stories.",
+        "new_src_summary": "Matthew Williams, un champion qui a remporté des médailles dans trois sports différents et des championnats nationaux au Canada, s'entraîne intensivement au basketball et au patinage de vitesse avec des entraîneurs de haut niveau. Participant aux Jeux Olympiques Spéciaux, il exprime sa frustration face à la perception négative des personnes ayant des handicaps intellectuels, soulignant l'importance de reconnaître les réalisations des athlètes de ces jeux. Les Jeux Olympiques Spéciaux offrent des opportunités sportives de haute qualité aux personnes ayant des déficiences intellectuelles, comme le narrateur qui a trouvé du soutien et de l'encouragement en tant que joueur de basketball et patineur de vitesse. Ces jeux ont changé sa vie et celle de nombreux autres athlètes, grâce aux pionniers qui ont permis leur création malgré les doutes initiaux sur la capacité des personnes ayant des déficiences intellectuelles à pratiquer un sport.",
+        "new_tgt_summary": "Matthew Williams, a champion athlete, has won medals in three different sports and national championships in Canada. He trains 5 days a week in basketball and speed skating, working with high-quality coaches and mental performance consultants. He competes in the Special Olympics, highlighting the lack of visibility and understanding for individuals with intellectual disabilities. Participating in the world championships in Los Angeles with over 6,500 athletes from 165 countries, he emphasizes the importance of recognizing and supporting athletes with intellectual disabilities. The Special Olympics, founded by Dr. Frank Hayden and Eunice Kennedy Shriver, provide high-quality sports programs for individuals with intellectual disabilities, changing lives and perceptions. Participation in the Special Olympics has transformed the lives of many athletes, including one individual who overcame feelings of isolation and insecurity to become a successful basketball player and speed skater.",
+        "rel_src": [
+            "Ce mouvement a changé ma vie et celle de tellement d'autres personnes.",
+            "A présent, je suis un joueur de basketball et un patineur de vitesse qui a concouru aux jeux régionaux, nationaux, et cette année, a fini aux Jeux Mondiaux d’Été à Los Angeles, où j'ai fait partie de la toute première équipe canadienne de basketball à participer aux Jeux Mondiaux."
+        ],
+        "rel_tgt": [
+            "This movement has changed my life and that of so many others.",
+            "Now, I am a basketball player and a speed skater who has competed in regional and national games, and this year, finished at the Summer World Games in Los Angeles, where I was part of the very first Canadian basketball team to participate in the World Games."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team"
+        }
+    },
+    {
+        "idx": 40,
+        "src": "Être un athlète des Jeux Olympiques Spéciaux redonne de la fierté et de la dignité.",
+        "ref": "Being Special Olympics athletes  restores our pride and dignity.",
+        "hyp": "Being an athlete in the Special Olympics restores pride and dignity.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux transforment l'identité propre des athlètes ayant des déficiences intellectuelles et la perception de quiconque regardant la compétition.",
+            "Mais des pionniers comme Dr. Hayden et Eunice Kennedy Shriver, le fondateur des Jeux Olympiques Spéciaux, ont persévéré, et les athlètes des Jeux Olympiques Spéciaux leur ont donné raison quatre millions et demi de fois."
+        ],
+        "rel_tgt": [
+            "The Special Olympics transform the unique identity of athletes with intellectual disabilities and the perception of anyone watching the competition.",
+            "But pioneers like Dr. Hayden and Eunice Kennedy Shriver, the founder of the Special Olympics, persevered, and the athletes of the Special Olympics proved them right four and a half million times."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team"
+        }
+    },
+    {
+        "idx": 41,
+        "src": "Les Jeux Olympiques Spéciaux adressent également des besoins de santé importants.",
+        "ref": "Special Olympics also addresses critical health needs.",
+        "hyp": "The Special Olympics also address important health needs.",
+        "rel_src": [
+            "Pour ceux d'entre vous qui ne le savent pas, les Jeux Olympiques Spéciaux s'adressent aux sportifs ayant des déficiences intellectuelles.",
+            "Les Jeux Olympiques Spéciaux sont séparés des Jeux Paralympiques et Olympiques."
+        ],
+        "rel_tgt": [
+            "For those of you who do not know, the Special Olympics are aimed at athletes with intellectual disabilities.",
+            "The Special Olympics are separate from the Paralympic and Olympic Games."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team"
+        }
+    },
+    {
+        "idx": 42,
+        "src": "Des études ont indiqué qu'en moyenne les hommes ayant des déficiences intellectuelles meurent 13 ans plus jeune que les hommes sans, et les femmes ayant des déficiences intellectuelles meurent 20 ans plus jeune que les femmes sans.",
+        "ref": "Studies have shown that, on average,  men with intellectual disabilities  die 13 years younger than men without,  and women with intellectual disabilities  die 20 years younger than women without.",
+        "hyp": "Studies have shown that on average, men with intellectual disabilities die 13 years younger than men without, and women with intellectual disabilities die 20 years younger than women without.",
+        "rel_src": [
+            "Utilisant des recherches scientifiques rigoureuses, Dr. Hayden et d'autres chercheurs ont conclu que c'était simplement le manque d'opportunité à participer qui entraînait des problèmes de condition physique.",
+            "Beaucoup de gens doutaient que les personnes ayant des déficience intellectuelles pouvaient bénéficier des programmes de mise en forme et des compétitions sportives."
+        ],
+        "rel_tgt": [
+            "Using rigorous scientific research, Dr. Hayden and other researchers concluded that it was simply the lack of opportunity to participate that led to physical fitness issues.",
+            "Many people doubted that individuals with intellectual disabilities could benefit from fitness programs and sports competitions."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team"
+        }
+    },
+    {
+        "idx": 43,
+        "src": "Le Jeux Olympiques Spéciaux nous gardent en bonne santé en nous rendant actifs et en nous faisant participer à un sport.",
+        "ref": "Special Olympics keeps us healthy  by getting us active  and participating in sport.",
+        "hyp": "The Special Olympics keep us healthy by keeping us active and engaging us in sports.",
+        "rel_src": [
+            "Beaucoup de gens doutaient que les personnes ayant des déficience intellectuelles pouvaient bénéficier des programmes de mise en forme et des compétitions sportives.",
+            "Les Jeux Olympiques Spéciaux adressent également des besoins de santé importants."
+        ],
+        "rel_tgt": [
+            "Many people doubted that individuals with intellectual disabilities could benefit from fitness programs and sports competitions.",
+            "The Special Olympics also address important health needs."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team"
+        }
+    },
+    {
+        "idx": 44,
+        "src": "Par ailleurs, nos entraîneurs nous enseignent la nutrition et la santé.",
+        "ref": "Also, our coaches teach us about nutrition and health.",
+        "hyp": "Furthermore, our coaches teach us about nutrition and health.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux adressent également des besoins de santé importants.",
+            "Le Jeux Olympiques Spéciaux nous gardent en bonne santé en nous rendant actifs et en nous faisant participer à un sport."
+        ],
+        "rel_tgt": [
+            "The Special Olympics also address important health needs.",
+            "The Special Olympics keep us healthy by keeping us active and engaging us in sports."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team"
+        }
+    },
+    {
+        "idx": 45,
+        "src": "Les Jeux Olympiques Spéciaux fournissent également des tests de dépistage gratuits pour les athlètes qui ont des difficultés à communiquer avec leur docteur ou à accéder aux soins médiaux.",
+        "ref": "Special Olympics also provides free health screening  for athletes who have difficulty communicating with their doctor  or accessing health care.",
+        "hyp": "The Special Olympics also provide free screening tests for athletes who have difficulty communicating with their doctor or accessing medical care.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux adressent également des besoins de santé importants.",
+            "Le Jeux Olympiques Spéciaux nous gardent en bonne santé en nous rendant actifs et en nous faisant participer à un sport."
+        ],
+        "rel_tgt": [
+            "The Special Olympics also address important health needs.",
+            "The Special Olympics keep us healthy by keeping us active and engaging us in sports."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team"
+        }
+    },
+    {
+        "idx": 46,
+        "src": "Aux Jeux d’Été Mondiaux 2015, mes coéquipiers de l'équipe Canada et moi jouions contre l'équipe du Nigeria.",
+        "ref": "At the 2015 World Summer Games,  my Team Canada teammates and I played the Nigerian basketball team.",
+        "hyp": "At the 2015 World Summer Games, my teammates from Team Canada and I were playing against the team from Nigeria.",
+        "rel_src": [
+            "Mais des pionniers comme Dr. Hayden et Eunice Kennedy Shriver, le fondateur des Jeux Olympiques Spéciaux, ont persévéré, et les athlètes des Jeux Olympiques Spéciaux leur ont donné raison quatre millions et demi de fois.",
+            "A présent, je suis un joueur de basketball et un patineur de vitesse qui a concouru aux jeux régionaux, nationaux, et cette année, a fini aux Jeux Mondiaux d’Été à Los Angeles, où j'ai fait partie de la toute première équipe canadienne de basketball à participer aux Jeux Mondiaux."
+        ],
+        "rel_tgt": [
+            "But pioneers like Dr. Hayden and Eunice Kennedy Shriver, the founder of the Special Olympics, persevered, and the athletes of the Special Olympics proved them right four and a half million times.",
+            "Now, I am a basketball player and a speed skater who has competed in regional and national games, and this year, finished at the Summer World Games in Los Angeles, where I was part of the very first Canadian basketball team to participate in the World Games."
+        ],
+        "hist_info": "\"Canada\" - \"Canada\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria"
+        }
+    },
+    {
+        "idx": 47,
+        "src": "Le jour précédent notre match, l'équipe nigériane de basket était venue au dépistage des Athlètes des Jeux Mondiaux ont été distribués gratuitement à sept membres sur dix et ont eu l'occasion d'entendre clairement pour la première fois.",
+        "ref": "The day before our game,  the Nigerian basketball team went to the World Games Healthy Athlete screening,  where seven of 10 members  were given hearing aids for free  and got to hear clearly for the first time.",
+        "hyp": "The day before our game, the Nigerian basketball team came for screening at the World Games Athletes were distributed free to seven out of ten members and had the opportunity to hear clearly for the first time.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux fournissent également des tests de dépistage gratuits pour les athlètes qui ont des difficultés à communiquer avec leur docteur ou à accéder aux soins médiaux.",
+            "Aux Jeux d’Été Mondiaux 2015, mes coéquipiers de l'équipe Canada et moi jouions contre l'équipe du Nigeria."
+        ],
+        "rel_tgt": [
+            "The Special Olympics also provide free screening tests for athletes who have difficulty communicating with their doctor or accessing medical care.",
+            "At the 2015 World Summer Games, my teammates from Team Canada and I were playing against the team from Nigeria."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games"
+        },
+        "conflict": [
+            "\"Nigeria\" - \"Nigeria\"/\"Nigerian\""
+        ]
+    },
+    {
+        "idx": 48,
+        "src": "Ce changement pour eux était incroyable.",
+        "ref": "The change in them was amazing.",
+        "hyp": "This change for them was incredible.",
+        "rel_src": [
+            "Mais des pionniers comme Dr. Hayden et Eunice Kennedy Shriver, le fondateur des Jeux Olympiques Spéciaux, ont persévéré, et les athlètes des Jeux Olympiques Spéciaux leur ont donné raison quatre millions et demi de fois.",
+            "Être un athlète des Jeux Olympiques Spéciaux redonne de la fierté et de la dignité."
+        ],
+        "rel_tgt": [
+            "But pioneers like Dr. Hayden and Eunice Kennedy Shriver, the founder of the Special Olympics, persevered, and the athletes of the Special Olympics proved them right four and a half million times.",
+            "Being an athlete in the Special Olympics restores pride and dignity."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games"
+        }
+    },
+    {
+        "idx": 49,
+        "src": "Ils étaient très excités, contents et confiants, car leurs entraîneurs pouvaient communiquer oralement avec eux.",
+        "ref": "They were more excited, happy and confident,  because their coach could vocally communicate with them.",
+        "hyp": "They were very excited, happy, and confident, as their coaches could communicate orally with them.",
+        "rel_src": [
+            "Par ailleurs, nos entraîneurs nous enseignent la nutrition et la santé.",
+            "Les Jeux Olympiques Spéciaux fournissent également des tests de dépistage gratuits pour les athlètes qui ont des difficultés à communiquer avec leur docteur ou à accéder aux soins médiaux."
+        ],
+        "rel_tgt": [
+            "Furthermore, our coaches teach us about nutrition and health.",
+            "The Special Olympics also provide free screening tests for athletes who have difficulty communicating with their doctor or accessing medical care."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games"
+        }
+    },
+    {
+        "idx": 50,
+        "src": "Et ils étaient très émus car ils pouvaient entendre les sons du ballon de basket, les sons du sifflet et les fans enthousiastes dans les tribunes — des sons que nous tenons pour acquis.",
+        "ref": "And they were emotional  because they could hear the sounds of the basketball,  the sounds of the whistle  and the cheering fans in the stands --  sounds that we take for granted.",
+        "hyp": "And they were very moved because they could hear the sounds of the basketball, the sounds of the whistle, and the enthusiastic fans in the stands - sounds that we take for granted.",
+        "rel_src": [
+            "Le jour précédent notre match, l'équipe nigériane de basket était venue au dépistage des Athlètes des Jeux Mondiaux ont été distribués gratuitement à sept membres sur dix et ont eu l'occasion d'entendre clairement pour la première fois.",
+            "Ils étaient très excités, contents et confiants, car leurs entraîneurs pouvaient communiquer oralement avec eux."
+        ],
+        "rel_tgt": [
+            "The day before our game, the Nigerian basketball team came for screening at the World Games Athletes were distributed free to seven out of ten members and had the opportunity to hear clearly for the first time.",
+            "They were very excited, happy, and confident, as their coaches could communicate orally with them."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games"
+        }
+    },
+    {
+        "idx": 51,
+        "src": "Le Jeux Olympiques Spéciaux font plus que transformer les athlètes dans le sport.",
+        "ref": "Special Olympics is transforming more than just the athlete in their sport.",
+        "hyp": "The Special Olympics do more than just transform athletes in sports.",
+        "rel_src": [
+            "Être un athlète des Jeux Olympiques Spéciaux redonne de la fierté et de la dignité.",
+            "Le Jeux Olympiques Spéciaux nous gardent en bonne santé en nous rendant actifs et en nous faisant participer à un sport."
+        ],
+        "rel_tgt": [
+            "Being an athlete in the Special Olympics restores pride and dignity.",
+            "The Special Olympics keep us healthy by keeping us active and engaging us in sports."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games"
+        }
+    },
+    {
+        "idx": 52,
+        "src": "Le Jeux Olympiques Spéciaux transforment leur vie en dehors des terrains.",
+        "ref": "Special Olympics is transforming their lives off the field.",
+        "hyp": "The Special Olympics transform their lives off the field.",
+        "rel_src": [
+            "Lorsque je suis arrivé, pourtant, tout le monde m'a beaucoup encouragé, m'a supporté et m'a laissé être moi-même sans être jugé.",
+            "Être un athlète des Jeux Olympiques Spéciaux redonne de la fierté et de la dignité."
+        ],
+        "rel_tgt": [
+            "When I arrived, however, everyone encouraged me a lot, supported me, and let me be myself without being judged.",
+            "Being an athlete in the Special Olympics restores pride and dignity."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games"
+        }
+    },
+    {
+        "idx": 53,
+        "src": "Cette année, une recherche a démontré que presque la moitié des adultes aux États-Unis ne connaissent pas une seule personne ayant une déficience intellectuelle, et les 44% des Américains qui n'ont pas de contact personnel avec des déficiences intellectuelles sont significativement moins tolérants et positifs.",
+        "ref": "This year, research findings showed  that nearly half of the adults in the US  don't know a single person with an intellectual disability,  and the 44 percent of Americans  who don't have personal contact with intellectual disabilities  are significantly less accepting and positive.",
+        "hyp": "This year, a study has shown that nearly half of adults in the United States do not know a single person with an intellectual disability, and the 44% of Americans who do not have personal contact with intellectual disabilities are significantly less tolerant and positive.",
+        "rel_src": [
+            "Beaucoup de gens doutaient que les personnes ayant des déficience intellectuelles pouvaient bénéficier des programmes de mise en forme et des compétitions sportives.",
+            "Des études ont indiqué qu'en moyenne les hommes ayant des déficiences intellectuelles meurent 13 ans plus jeune que les hommes sans, et les femmes ayant des déficiences intellectuelles meurent 20 ans plus jeune que les femmes sans."
+        ],
+        "rel_tgt": [
+            "Many people doubted that individuals with intellectual disabilities could benefit from fitness programs and sports competitions.",
+            "Studies have shown that on average, men with intellectual disabilities die 13 years younger than men without, and women with intellectual disabilities die 20 years younger than women without."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games",
+            "États-Unis": "United States"
+        }
+    },
+    {
+        "idx": 54,
+        "src": "Puis il y a le mot en « R », démontrant que les personnes ayant des déficiences intellectuelles sont encore invisibles pour beaucoup trop de monde.",
+        "ref": "Then there's the r-word,  proving that people with intellectual disabilities  are still invisible  to far too many people.",
+        "hyp": "Then there is the word \"R\", demonstrating that individuals with intellectual disabilities are still invisible to far too many people.",
+        "rel_src": [
+            "Des études ont indiqué qu'en moyenne les hommes ayant des déficiences intellectuelles meurent 13 ans plus jeune que les hommes sans, et les femmes ayant des déficiences intellectuelles meurent 20 ans plus jeune que les femmes sans.",
+            "Cette année, une recherche a démontré que presque la moitié des adultes aux États-Unis ne connaissent pas une seule personne ayant une déficience intellectuelle, et les 44% des Américains qui n'ont pas de contact personnel avec des déficiences intellectuelles sont significativement moins tolérants et positifs."
+        ],
+        "rel_tgt": [
+            "Studies have shown that on average, men with intellectual disabilities die 13 years younger than men without, and women with intellectual disabilities die 20 years younger than women without.",
+            "This year, a study has shown that nearly half of adults in the United States do not know a single person with an intellectual disability, and the 44% of Americans who do not have personal contact with intellectual disabilities are significantly less tolerant and positive."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games",
+            "États-Unis": "United States"
+        }
+    },
+    {
+        "idx": 55,
+        "src": "Les gens l'utilisent comme un terme habituel ou une insulte.",
+        "ref": "People use it as a casual term or an insult.",
+        "hyp": "People use it as a common term or an insult.",
+        "rel_src": [
+            "Des études ont indiqué qu'en moyenne les hommes ayant des déficiences intellectuelles meurent 13 ans plus jeune que les hommes sans, et les femmes ayant des déficiences intellectuelles meurent 20 ans plus jeune que les femmes sans.",
+            "Puis il y a le mot en « R », démontrant que les personnes ayant des déficiences intellectuelles sont encore invisibles pour beaucoup trop de monde."
+        ],
+        "rel_tgt": [
+            "Studies have shown that on average, men with intellectual disabilities die 13 years younger than men without, and women with intellectual disabilities die 20 years younger than women without.",
+            "Then there is the word \"R\", demonstrating that individuals with intellectual disabilities are still invisible to far too many people."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games",
+            "États-Unis": "United States"
+        }
+    },
+    {
+        "idx": 56,
+        "src": "Il a été tweeté plus de neuf millions de fois l'année dernière, et c'est profondément blessant pour moi et mes quatre millions et demi de camarades athlètes dans le monde.",
+        "ref": "It was tweeted more than nine million times last year,  and it is deeply hurtful  to me and my four and a half million fellow athletes around the planet.",
+        "hyp": "It has been tweeted over nine million times last year, and it is deeply hurtful for me and my four and a half million fellow athletes around the world.",
+        "rel_src": [
+            "Je suis l'un des plus de quatre millions et demi d'athlètes du monde entier, et j'ai entendu tellement d'histoires similaires.",
+            "Les gens l'utilisent comme un terme habituel ou une insulte."
+        ],
+        "rel_tgt": [
+            "I am one of over four and a half million athletes from around the world, and I have heard so many similar stories.",
+            "People use it as a common term or an insult."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games",
+            "États-Unis": "United States"
+        }
+    },
+    {
+        "idx": 57,
+        "src": "Les gens ne s'imaginent pas que c'est insultant, mais ça l'est.",
+        "ref": "People don't think it's insulting,  but it is.",
+        "hyp": "People don't realize that it's insulting, but it is.",
+        "rel_src": [
+            "Les gens l'utilisent comme un terme habituel ou une insulte.",
+            "Il a été tweeté plus de neuf millions de fois l'année dernière, et c'est profondément blessant pour moi et mes quatre millions et demi de camarades athlètes dans le monde."
+        ],
+        "rel_tgt": [
+            "People use it as a common term or an insult.",
+            "It has been tweeted over nine million times last year, and it is deeply hurtful for me and my four and a half million fellow athletes around the world."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games",
+            "États-Unis": "United States"
+        }
+    },
+    {
+        "idx": 58,
+        "src": "Comme mon camarade athlète et porte-parole mondial John Franklin Stephens l'a écrit dans une lettre ouverte à un commentateur politique qui avait utilisé le mot en « R » comme insulte, « Venez nous rejoindre un jour aux Jeux Olympiques Spéciaux.",
+        "ref": "As my fellow athlete and global messenger John Franklin Stephens wrote  in an open letter to a political pundit  who used the r-word as an insult,  \"Come join us someday at Special Olympics.",
+        "hyp": "As my fellow athlete and global spokesperson John Franklin Stephens wrote in an open letter to a political commentator who had used the \"R\" word as an insult, \"Come join us one day at the Special Olympics.",
+        "rel_src": [
+            "Cette année, une recherche a démontré que presque la moitié des adultes aux États-Unis ne connaissent pas une seule personne ayant une déficience intellectuelle, et les 44% des Américains qui n'ont pas de contact personnel avec des déficiences intellectuelles sont significativement moins tolérants et positifs.",
+            "Les gens l'utilisent comme un terme habituel ou une insulte."
+        ],
+        "rel_tgt": [
+            "This year, a study has shown that nearly half of adults in the United States do not know a single person with an intellectual disability, and the 44% of Americans who do not have personal contact with intellectual disabilities are significantly less tolerant and positive.",
+            "People use it as a common term or an insult."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games",
+            "États-Unis": "United States",
+            "John Franklin Stephens": "John Franklin Stephens"
+        }
+    },
+    {
+        "idx": 59,
+        "src": "Vous verrez si vous repartez avec le cœur inchangé. »",
+        "ref": "See if you walk away with your heart unchanged.\"",
+        "hyp": "You will see if you leave with an unchanged heart.",
+        "new_src_summary": "Matthew Williams, un champion multi-médaillé dans divers sports et champion national au Canada, s'entraîne intensivement au basketball et au patinage de vitesse avec des entraîneurs de haut niveau en préparation des Jeux Olympiques Spéciaux. Il exprime sa frustration face à la stigmatisation des personnes ayant des handicaps intellectuels et souligne l'importance de reconnaître les réalisations des athlètes de ces jeux. Les Jeux Olympiques Spéciaux offrent des opportunités sportives de qualité, apportant fierté, dignité et soutien aux athlètes, les aidant à rester en bonne santé et à s'intégrer dans la société. L'utilisation du terme en \"R\" comme une insulte est également mentionnée pour souligner son impact négatif sur les athlètes ayant des déficiences intellectuelles.",
+        "new_tgt_summary": "Matthew Williams, a champion athlete in the Special Olympics, has won medals in three sports and national championships in Canada. He trains 5 days a week in basketball and speed skating, working with high-quality coaches and mental performance consultants. Participating in the world championships in Los Angeles, he emphasizes the importance of recognizing and supporting athletes with intellectual disabilities. The Special Olympics, founded by Dr. Frank Hayden and Eunice Kennedy Shriver, provide high-quality sports programs for individuals with intellectual disabilities, changing lives and perceptions. The organization helps over four and a half million athletes worldwide by promoting inclusion, tolerance, and providing important health services such as sports, nutrition education, and free medical screenings.",
+        "rel_src": [
+            "Le Jeux Olympiques Spéciaux transforment leur vie en dehors des terrains.",
+            "Comme mon camarade athlète et porte-parole mondial John Franklin Stephens l'a écrit dans une lettre ouverte à un commentateur politique qui avait utilisé le mot en « R » comme insulte, « Venez nous rejoindre un jour aux Jeux Olympiques Spéciaux."
+        ],
+        "rel_tgt": [
+            "The Special Olympics transform their lives off the field.",
+            "As my fellow athlete and global spokesperson John Franklin Stephens wrote in an open letter to a political commentator who had used the \"R\" word as an insult, \"Come join us one day at the Special Olympics."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games",
+            "États-Unis": "United States",
+            "John Franklin Stephens": "John Franklin Stephens"
+        }
+    },
+    {
+        "idx": 60,
+        "src": "Cette année, aux Jeux d’Été Mondiaux 2015, les gens se sont alignés pendant des heures avant de plonger dans la dernière nuit de compétition d'haltérophilie.",
+        "ref": "This year, at the 2015 World Summer Games,  people lined up for hours  to get into the final night of powerlifting competition.",
+        "hyp": "This year, at the 2015 World Summer Games, people lined up for hours before diving into the final night of weightlifting competition.",
+        "rel_src": [
+            "Aux Jeux d’Été Mondiaux 2015, mes coéquipiers de l'équipe Canada et moi jouions contre l'équipe du Nigeria.",
+            "Le jour précédent notre match, l'équipe nigériane de basket était venue au dépistage des Athlètes des Jeux Mondiaux ont été distribués gratuitement à sept membres sur dix et ont eu l'occasion d'entendre clairement pour la première fois."
+        ],
+        "rel_tgt": [
+            "At the 2015 World Summer Games, my teammates from Team Canada and I were playing against the team from Nigeria.",
+            "The day before our game, the Nigerian basketball team came for screening at the World Games Athletes were distributed free to seven out of ten members and had the opportunity to hear clearly for the first time."
+        ],
+        "hist_info": "\"Jeux d’Été Mondiaux 2015\" - \"2015 World Summer Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games",
+            "États-Unis": "United States",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "Jeux d’Été Mondiaux": "World Summer Games"
+        }
+    },
+    {
+        "idx": 61,
+        "src": "Cette soirée a fait salle comble lorsque mon coéquipier Jackie Barrett, l’Élan de Terre-Neuve, a soulevé 297 kg et 277 kg en squats —  établissant d'énormes nouveaux records aux Jeux Olympiques Spéciaux.",
+        "ref": "So it was standing room only when my teammate Jackie Barrett,  the Newfoundland Moose,  deadlifted 655 pounds  and lifted 611 pounds in the squat --    setting huge new records for Special Olympics.",
+        "hyp": "The venue was packed that evening when my teammate Jackie Barrett, the Newfoundland Elk, lifted 297 kg and 277 kg in squats - setting huge new records at the Special Olympics.",
+        "rel_src": [
+            "Le Jeux Olympiques Spéciaux nous gardent en bonne santé en nous rendant actifs et en nous faisant participer à un sport.",
+            "Cette année, aux Jeux d’Été Mondiaux 2015, les gens se sont alignés pendant des heures avant de plonger dans la dernière nuit de compétition d'haltérophilie."
+        ],
+        "rel_tgt": [
+            "The Special Olympics keep us healthy by keeping us active and engaging us in sports.",
+            "This year, at the 2015 World Summer Games, people lined up for hours before diving into the final night of weightlifting competition."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games",
+            "États-Unis": "United States",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "Jeux d’Été Mondiaux": "World Summer Games",
+            "Jackie Barrett": "Jackie Barrett",
+            "Terre-Neuve": "Newfoundland"
+        }
+    },
+    {
+        "idx": 62,
+        "src": "Jackie est l'un détenteur de record parmi tous les haltérophiles de Terre-Neuve — pas seulement aux Jeux Olympiques Spéciaux mais tous les haltérophiles.",
+        "ref": "Jackie is a record holder among all powerlifters in Newfoundland --  not just Special Olympics, all powerlifters.",
+        "hyp": "Jackie is one of the record holders among all weightlifters from Newfoundland - not just at the Special Olympics but all weightlifters.",
+        "rel_src": [
+            "Cette année, aux Jeux d’Été Mondiaux 2015, les gens se sont alignés pendant des heures avant de plonger dans la dernière nuit de compétition d'haltérophilie.",
+            "Cette soirée a fait salle comble lorsque mon coéquipier Jackie Barrett, l’Élan de Terre-Neuve, a soulevé 297 kg et 277 kg en squats —  établissant d'énormes nouveaux records aux Jeux Olympiques Spéciaux."
+        ],
+        "rel_tgt": [
+            "This year, at the 2015 World Summer Games, people lined up for hours before diving into the final night of weightlifting competition.",
+            "The venue was packed that evening when my teammate Jackie Barrett, the Newfoundland Elk, lifted 297 kg and 277 kg in squats - setting huge new records at the Special Olympics."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\", \"Terre-Neuve\" - \"Newfoundland\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games",
+            "États-Unis": "United States",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "Jeux d’Été Mondiaux": "World Summer Games",
+            "Jackie Barrett": "Jackie Barrett",
+            "Terre-Neuve": "Newfoundland",
+            "Jackie": "Jackie"
+        }
+    },
+    {
+        "idx": 63,
+        "src": "Jackie était une énorme célébrité à Los Angeles, et ESPN a tweeté en direct son nouveau record et était impressionné par sa performance.",
+        "ref": "Jackie was a huge star in LA,  and ESPN live-tweeted his record-breaking lifts  and were wowed by his performance.",
+        "hyp": "Jackie was a huge celebrity in Los Angeles, and ESPN tweeted live about his new record and was impressed by his performance.",
+        "rel_src": [
+            "Cette soirée a fait salle comble lorsque mon coéquipier Jackie Barrett, l’Élan de Terre-Neuve, a soulevé 297 kg et 277 kg en squats —  établissant d'énormes nouveaux records aux Jeux Olympiques Spéciaux.",
+            "Jackie est l'un détenteur de record parmi tous les haltérophiles de Terre-Neuve — pas seulement aux Jeux Olympiques Spéciaux mais tous les haltérophiles."
+        ],
+        "rel_tgt": [
+            "The venue was packed that evening when my teammate Jackie Barrett, the Newfoundland Elk, lifted 297 kg and 277 kg in squats - setting huge new records at the Special Olympics.",
+            "Jackie is one of the record holders among all weightlifters from Newfoundland - not just at the Special Olympics but all weightlifters."
+        ],
+        "hist_info": "\"ESPN\" - \"ESPN\", \"Los Angeles\" - \"Los Angeles\", \"Jackie\" - \"Jackie\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games",
+            "États-Unis": "United States",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "Jeux d’Été Mondiaux": "World Summer Games",
+            "Jackie Barrett": "Jackie Barrett",
+            "Terre-Neuve": "Newfoundland",
+            "Jackie": "Jackie"
+        }
+    },
+    {
+        "idx": 64,
+        "src": "Il y a 50 ans, peu de gens imaginaient des personnes déficientes mentales capables de faire quelque chose comme ça.",
+        "ref": "Fifty years ago, few imagined individuals with intellectual disabilities  could do anything like that.",
+        "hyp": "Fifty years ago, few people imagined mentally disabled individuals capable of doing something like this.",
+        "rel_src": [
+            "Cette année, une recherche a démontré que presque la moitié des adultes aux États-Unis ne connaissent pas une seule personne ayant une déficience intellectuelle, et les 44% des Américains qui n'ont pas de contact personnel avec des déficiences intellectuelles sont significativement moins tolérants et positifs.",
+            "Vous verrez si vous repartez avec le cœur inchangé. »"
+        ],
+        "rel_tgt": [
+            "This year, a study has shown that nearly half of adults in the United States do not know a single person with an intellectual disability, and the 44% of Americans who do not have personal contact with intellectual disabilities are significantly less tolerant and positive.",
+            "You will see if you leave with an unchanged heart."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games",
+            "États-Unis": "United States",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "Jeux d’Été Mondiaux": "World Summer Games",
+            "Jackie Barrett": "Jackie Barrett",
+            "Terre-Neuve": "Newfoundland",
+            "Jackie": "Jackie"
+        }
+    },
+    {
+        "idx": 65,
+        "src": "Cette année, 60 000 spectateurs ont rempli le célèbre LA Memorial Coliseum pour regarder les cérémonies d'ouverture des Jeux Mondiaux et applaudir les athlètes de 165 pays venant du monde entier.",
+        "ref": "This year, 60,000 spectators filled the famous LA Memorial Coliseum  to watch the opening ceremonies of World Games  and cheer athletes from 165 countries  around the world.",
+        "hyp": "This year, 60,000 spectators filled the famous LA Memorial Coliseum to watch the opening ceremonies of the World Games and applaud athletes from 165 countries from around the world.",
+        "rel_src": [
+            "Cette année, aux Jeux d’Été Mondiaux 2015, les gens se sont alignés pendant des heures avant de plonger dans la dernière nuit de compétition d'haltérophilie.",
+            "Cette soirée a fait salle comble lorsque mon coéquipier Jackie Barrett, l’Élan de Terre-Neuve, a soulevé 297 kg et 277 kg en squats —  établissant d'énormes nouveaux records aux Jeux Olympiques Spéciaux."
+        ],
+        "rel_tgt": [
+            "This year, at the 2015 World Summer Games, people lined up for hours before diving into the final night of weightlifting competition.",
+            "The venue was packed that evening when my teammate Jackie Barrett, the Newfoundland Elk, lifted 297 kg and 277 kg in squats - setting huge new records at the Special Olympics."
+        ],
+        "hist_info": "\"Jeux Mondiaux\" - \"World Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games",
+            "États-Unis": "United States",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "Jeux d’Été Mondiaux": "World Summer Games",
+            "Jackie Barrett": "Jackie Barrett",
+            "Terre-Neuve": "Newfoundland",
+            "Jackie": "Jackie",
+            "célèbre LA Memorial Coliseum": "famous LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 66,
+        "src": "Loin d'être cachés, nous avons été applaudis et célébrés.",
+        "ref": "Far from being hidden away,  we were cheered and celebrated.",
+        "hyp": "Far from being hidden, we were applauded and celebrated.",
+        "rel_src": [
+            "Cette soirée a fait salle comble lorsque mon coéquipier Jackie Barrett, l’Élan de Terre-Neuve, a soulevé 297 kg et 277 kg en squats —  établissant d'énormes nouveaux records aux Jeux Olympiques Spéciaux.",
+            "Jackie était une énorme célébrité à Los Angeles, et ESPN a tweeté en direct son nouveau record et était impressionné par sa performance."
+        ],
+        "rel_tgt": [
+            "The venue was packed that evening when my teammate Jackie Barrett, the Newfoundland Elk, lifted 297 kg and 277 kg in squats - setting huge new records at the Special Olympics.",
+            "Jackie was a huge celebrity in Los Angeles, and ESPN tweeted live about his new record and was impressed by his performance."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games",
+            "États-Unis": "United States",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "Jeux d’Été Mondiaux": "World Summer Games",
+            "Jackie Barrett": "Jackie Barrett",
+            "Terre-Neuve": "Newfoundland",
+            "Jackie": "Jackie",
+            "célèbre LA Memorial Coliseum": "famous LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 67,
+        "src": "Les Jeux Olympiques Spéciaux apprennent aux athlètes à être confiants et fiers d'eux-mêmes.",
+        "ref": "Special Olympics teaches athletes  to be confident and proud of themselves.",
+        "hyp": "The Special Olympics teach athletes to be confident and proud of themselves.",
+        "rel_src": [
+            "Le Jeux Olympiques Spéciaux transforment leur vie en dehors des terrains.",
+            "Les gens l'utilisent comme un terme habituel ou une insulte."
+        ],
+        "rel_tgt": [
+            "The Special Olympics transform their lives off the field.",
+            "People use it as a common term or an insult."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games",
+            "États-Unis": "United States",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "Jeux d’Été Mondiaux": "World Summer Games",
+            "Jackie Barrett": "Jackie Barrett",
+            "Terre-Neuve": "Newfoundland",
+            "Jackie": "Jackie",
+            "célèbre LA Memorial Coliseum": "famous LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 68,
+        "src": "Les Jeux Olympiques Spéciaux apprennent au monde que les gens ayant des déficiences intellectuelles méritent le respect et la considération.",
+        "ref": "Special Olympics teaches the world  that people with intellectual disabilities  deserve respect and inclusion.",
+        "hyp": "The Special Olympics teach the world that people with intellectual disabilities deserve respect and consideration.",
+        "rel_src": [
+            "Cette année, une recherche a démontré que presque la moitié des adultes aux États-Unis ne connaissent pas une seule personne ayant une déficience intellectuelle, et les 44% des Américains qui n'ont pas de contact personnel avec des déficiences intellectuelles sont significativement moins tolérants et positifs.",
+            "Il a été tweeté plus de neuf millions de fois l'année dernière, et c'est profondément blessant pour moi et mes quatre millions et demi de camarades athlètes dans le monde."
+        ],
+        "rel_tgt": [
+            "This year, a study has shown that nearly half of adults in the United States do not know a single person with an intellectual disability, and the 44% of Americans who do not have personal contact with intellectual disabilities are significantly less tolerant and positive.",
+            "It has been tweeted over nine million times last year, and it is deeply hurtful for me and my four and a half million fellow athletes around the world."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games",
+            "États-Unis": "United States",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "Jeux d’Été Mondiaux": "World Summer Games",
+            "Jackie Barrett": "Jackie Barrett",
+            "Terre-Neuve": "Newfoundland",
+            "Jackie": "Jackie",
+            "célèbre LA Memorial Coliseum": "famous LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 69,
+        "src": "A présent, j'ai des rêves et des succès dans mon sport, des entraîneurs formidables, du respect et de la dignité, une meilleure santé, et je poursuis une carrière d'entraîneur personnel.",
+        "ref": "Now, I have dreams and achievements in my sport,  great coaches,  respect and dignity,  better health,  and I am pursuing a career as a personal trainer.",
+        "hyp": "Now, I have dreams and successes in my sport, great coaches, respect and dignity, better health, and I am pursuing a career as a personal trainer.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux apprennent aux athlètes à être confiants et fiers d'eux-mêmes.",
+            "Les Jeux Olympiques Spéciaux apprennent au monde que les gens ayant des déficiences intellectuelles méritent le respect et la considération."
+        ],
+        "rel_tgt": [
+            "The Special Olympics teach athletes to be confident and proud of themselves.",
+            "The Special Olympics teach the world that people with intellectual disabilities deserve respect and consideration."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games",
+            "États-Unis": "United States",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "Jeux d’Été Mondiaux": "World Summer Games",
+            "Jackie Barrett": "Jackie Barrett",
+            "Terre-Neuve": "Newfoundland",
+            "Jackie": "Jackie",
+            "célèbre LA Memorial Coliseum": "famous LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 70,
+        "src": "Je ne suis plus caché, moqué, et je suis ici en train de donner une conférence TED.",
+        "ref": "I am no longer hidden, bullied  and I am here doing a TED Talk.",
+        "hyp": "I am no longer hidden, mocked, and I am here giving a TED talk.",
+        "rel_src": [
+            "Les gens l'utilisent comme un terme habituel ou une insulte.",
+            "Comme mon camarade athlète et porte-parole mondial John Franklin Stephens l'a écrit dans une lettre ouverte à un commentateur politique qui avait utilisé le mot en « R » comme insulte, « Venez nous rejoindre un jour aux Jeux Olympiques Spéciaux."
+        ],
+        "rel_tgt": [
+            "People use it as a common term or an insult.",
+            "As my fellow athlete and global spokesperson John Franklin Stephens wrote in an open letter to a political commentator who had used the \"R\" word as an insult, \"Come join us one day at the Special Olympics."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games",
+            "États-Unis": "United States",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "Jeux d’Été Mondiaux": "World Summer Games",
+            "Jackie Barrett": "Jackie Barrett",
+            "Terre-Neuve": "Newfoundland",
+            "Jackie": "Jackie",
+            "célèbre LA Memorial Coliseum": "famous LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 71,
+        "src": "Le monde est un endroit différent grâce aux Jeux Olympiques Spéciaux, mais il y a encore du travail.",
+        "ref": "The world is a different place because of Special Olympics,  but there is still farther to go.",
+        "hyp": "The world is a different place thanks to the Special Olympics, but there is still work to be done.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux apprennent au monde que les gens ayant des déficiences intellectuelles méritent le respect et la considération.",
+            "Je ne suis plus caché, moqué, et je suis ici en train de donner une conférence TED."
+        ],
+        "rel_tgt": [
+            "The Special Olympics teach the world that people with intellectual disabilities deserve respect and consideration.",
+            "I am no longer hidden, mocked, and I am here giving a TED talk."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games",
+            "États-Unis": "United States",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "Jeux d’Été Mondiaux": "World Summer Games",
+            "Jackie Barrett": "Jackie Barrett",
+            "Terre-Neuve": "Newfoundland",
+            "Jackie": "Jackie",
+            "célèbre LA Memorial Coliseum": "famous LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 72,
+        "src": "Donc la prochaine fois que vous verrez quelqu'un ayant des déficiences intellectuelles, j'espère que vous verrez son talent.",
+        "ref": "So the next time you see someone with an intellectual disability,  I hope you will see their ability.",
+        "hyp": "So the next time you see someone with intellectual disabilities, I hope you see their talent.",
+        "rel_src": [
+            "Cette année, une recherche a démontré que presque la moitié des adultes aux États-Unis ne connaissent pas une seule personne ayant une déficience intellectuelle, et les 44% des Américains qui n'ont pas de contact personnel avec des déficiences intellectuelles sont significativement moins tolérants et positifs.",
+            "Loin d'être cachés, nous avons été applaudis et célébrés."
+        ],
+        "rel_tgt": [
+            "This year, a study has shown that nearly half of adults in the United States do not know a single person with an intellectual disability, and the 44% of Americans who do not have personal contact with intellectual disabilities are significantly less tolerant and positive.",
+            "Far from being hidden, we were applauded and celebrated."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games",
+            "États-Unis": "United States",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "Jeux d’Été Mondiaux": "World Summer Games",
+            "Jackie Barrett": "Jackie Barrett",
+            "Terre-Neuve": "Newfoundland",
+            "Jackie": "Jackie",
+            "célèbre LA Memorial Coliseum": "famous LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 73,
+        "src": "La prochaine fois que quelqu'un utilise le mot en « R » à coté de vous, j'espère que vous leur direz à quel point c'est blessant.",
+        "ref": "The next time someone uses the r-word near you,  I hope you will tell them how much it hurts.",
+        "hyp": "Next time someone uses the \"R\" word next to you, I hope you will tell them how hurtful it is.",
+        "rel_src": [
+            "Puis il y a le mot en « R », démontrant que les personnes ayant des déficiences intellectuelles sont encore invisibles pour beaucoup trop de monde.",
+            "Comme mon camarade athlète et porte-parole mondial John Franklin Stephens l'a écrit dans une lettre ouverte à un commentateur politique qui avait utilisé le mot en « R » comme insulte, « Venez nous rejoindre un jour aux Jeux Olympiques Spéciaux."
+        ],
+        "rel_tgt": [
+            "Then there is the word \"R\", demonstrating that individuals with intellectual disabilities are still invisible to far too many people.",
+            "As my fellow athlete and global spokesperson John Franklin Stephens wrote in an open letter to a political commentator who had used the \"R\" word as an insult, \"Come join us one day at the Special Olympics."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games",
+            "États-Unis": "United States",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "Jeux d’Été Mondiaux": "World Summer Games",
+            "Jackie Barrett": "Jackie Barrett",
+            "Terre-Neuve": "Newfoundland",
+            "Jackie": "Jackie",
+            "célèbre LA Memorial Coliseum": "famous LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 74,
+        "src": "J'espère que vous songerez à vous impliquer dans les Jeux Olympiques Spéciaux.",
+        "ref": "I hope you will think about getting involved with Special Olympics.",
+        "hyp": "I hope that you will consider getting involved in the Special Olympics.",
+        "rel_src": [
+            "Comme mon camarade athlète et porte-parole mondial John Franklin Stephens l'a écrit dans une lettre ouverte à un commentateur politique qui avait utilisé le mot en « R » comme insulte, « Venez nous rejoindre un jour aux Jeux Olympiques Spéciaux.",
+            "Les Jeux Olympiques Spéciaux apprennent au monde que les gens ayant des déficiences intellectuelles méritent le respect et la considération."
+        ],
+        "rel_tgt": [
+            "As my fellow athlete and global spokesperson John Franklin Stephens wrote in an open letter to a political commentator who had used the \"R\" word as an insult, \"Come join us one day at the Special Olympics.",
+            "The Special Olympics teach the world that people with intellectual disabilities deserve respect and consideration."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games",
+            "États-Unis": "United States",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "Jeux d’Été Mondiaux": "World Summer Games",
+            "Jackie Barrett": "Jackie Barrett",
+            "Terre-Neuve": "Newfoundland",
+            "Jackie": "Jackie",
+            "célèbre LA Memorial Coliseum": "famous LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 75,
+        "src": "J'aimerais vous quitter avec une toute dernière pensée.",
+        "ref": "I would like to leave you with one final thought.",
+        "hyp": "I would like to leave you with one final thought.",
+        "rel_src": [
+            "Donc la prochaine fois que vous verrez quelqu'un ayant des déficiences intellectuelles, j'espère que vous verrez son talent.",
+            "La prochaine fois que quelqu'un utilise le mot en « R » à coté de vous, j'espère que vous leur direz à quel point c'est blessant."
+        ],
+        "rel_tgt": [
+            "So the next time you see someone with intellectual disabilities, I hope you see their talent.",
+            "Next time someone uses the \"R\" word next to you, I hope you will tell them how hurtful it is."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games",
+            "États-Unis": "United States",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "Jeux d’Été Mondiaux": "World Summer Games",
+            "Jackie Barrett": "Jackie Barrett",
+            "Terre-Neuve": "Newfoundland",
+            "Jackie": "Jackie",
+            "célèbre LA Memorial Coliseum": "famous LA Memorial Coliseum"
+        }
+    },
+    {
+        "idx": 76,
+        "src": "Nelson Mandela disait : « Le sport a le pouvoir de changer le monde. »",
+        "ref": "Nelson Mandela said,  \"Sports has the power to change the world.\"",
+        "hyp": "Nelson Mandela used to say, \"Sport has the power to change the world.\"",
+        "rel_src": [
+            "Cette soirée a fait salle comble lorsque mon coéquipier Jackie Barrett, l’Élan de Terre-Neuve, a soulevé 297 kg et 277 kg en squats —  établissant d'énormes nouveaux records aux Jeux Olympiques Spéciaux.",
+            "Le monde est un endroit différent grâce aux Jeux Olympiques Spéciaux, mais il y a encore du travail."
+        ],
+        "rel_tgt": [
+            "The venue was packed that evening when my teammate Jackie Barrett, the Newfoundland Elk, lifted 297 kg and 277 kg in squats - setting huge new records at the Special Olympics.",
+            "The world is a different place thanks to the Special Olympics, but there is still work to be done."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games",
+            "États-Unis": "United States",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "Jeux d’Été Mondiaux": "World Summer Games",
+            "Jackie Barrett": "Jackie Barrett",
+            "Terre-Neuve": "Newfoundland",
+            "Jackie": "Jackie",
+            "célèbre LA Memorial Coliseum": "famous LA Memorial Coliseum",
+            "Nelson Mandela": "Nelson Mandela"
+        }
+    },
+    {
+        "idx": 77,
+        "src": "Les Jeux Olympiques Spéciaux changent le monde en transformant quatre millions et demi d'athlètes et en nous donnant un endroit où avoir confiance, rencontrer des amis, ne pas être jugés et se sentir et être des champions.",
+        "ref": "Special Olympics is changing the world  by transforming four and a half million athletes  and giving us a place to be confident,  meet friends,  not be judged  and get to feel like and be champions.",
+        "hyp": "The Special Olympics change the world by transforming four and a half million athletes and giving us a place to have confidence, meet friends, not be judged, and feel and be champions.",
+        "rel_src": [
+            "Les Jeux Olympiques Spéciaux apprennent aux athlètes à être confiants et fiers d'eux-mêmes.",
+            "Les Jeux Olympiques Spéciaux apprennent au monde que les gens ayant des déficiences intellectuelles méritent le respect et la considération."
+        ],
+        "rel_tgt": [
+            "The Special Olympics teach athletes to be confident and proud of themselves.",
+            "The Special Olympics teach the world that people with intellectual disabilities deserve respect and consideration."
+        ],
+        "hist_info": "\"Jeux Olympiques Spéciaux\" - \"Special Olympics\", \"Olympiques\" - \"Olympic Games\"",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games",
+            "États-Unis": "United States",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "Jeux d’Été Mondiaux": "World Summer Games",
+            "Jackie Barrett": "Jackie Barrett",
+            "Terre-Neuve": "Newfoundland",
+            "Jackie": "Jackie",
+            "célèbre LA Memorial Coliseum": "famous LA Memorial Coliseum",
+            "Nelson Mandela": "Nelson Mandela"
+        }
+    },
+    {
+        "idx": 78,
+        "src": "Merci beaucoup.",
+        "ref": "Thank you very much.",
+        "hyp": "Thank you very much.",
+        "rel_src": [
+            "Je ne suis plus caché, moqué, et je suis ici en train de donner une conférence TED.",
+            "Les Jeux Olympiques Spéciaux changent le monde en transformant quatre millions et demi d'athlètes et en nous donnant un endroit où avoir confiance, rencontrer des amis, ne pas être jugés et se sentir et être des champions."
+        ],
+        "rel_tgt": [
+            "I am no longer hidden, mocked, and I am here giving a TED talk.",
+            "The Special Olympics change the world by transforming four and a half million athletes and giving us a place to have confidence, meet friends, not be judged, and feel and be champions."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Matthew Williams": "Matthew Williams",
+            "Canada": "Canada",
+            "Jeux Olympiques Spéciaux": "Special Olympics",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Jeux Paralympiques": "Paralympic Games",
+            "Olympiques": "Olympic Games",
+            "Dr. Frank Hayden": "Dr. Frank Hayden",
+            "Université de Toronto": "University of Toronto",
+            "Dr. Hayden": "Dr. Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "Jeux Mondiaux d’Été": "Summer World Games",
+            "Los Angeles": "Los Angeles",
+            "équipe canadienne": "Canadian basketball team",
+            "Jeux d’Été Mondiaux 2015": "2015 World Summer Games",
+            "Nigeria": "Nigeria",
+            "Jeux Mondiaux": "World Games",
+            "États-Unis": "United States",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "Jeux d’Été Mondiaux": "World Summer Games",
+            "Jackie Barrett": "Jackie Barrett",
+            "Terre-Neuve": "Newfoundland",
+            "Jackie": "Jackie",
+            "célèbre LA Memorial Coliseum": "famous LA Memorial Coliseum",
+            "Nelson Mandela": "Nelson Mandela"
+        }
+    }
+]

@@ -1,0 +1,2843 @@
+[
+    {
+        "idx": 0,
+        "src": "Hello.",
+        "ref": "Bonjour.",
+        "hyp": "Bonjour.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 1,
+        "src": "My name is Matthew Williams,  and I am a champion.",
+        "ref": "Mon nom est Matthew Williams, et je suis un champion.",
+        "hyp": "Mon nom est Matthew Williams, et je suis un champion.",
+        "rel_src": [
+            "Hello."
+        ],
+        "rel_tgt": [
+            "Bonjour."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed."
+        }
+    },
+    {
+        "idx": 2,
+        "src": "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage.",
+        "ref": "J'ai remporté des médailles dans trois sports différents et des championnats nationaux au Canada, joué à un niveau international au basketball et j'étais fier de représenter le Canada sur la scène mondiale.",
+        "hyp": "J'ai remporté des médailles dans trois sports différents et lors des jeux nationaux au Canada, j'ai compété au niveau international en basket-ball et j'étais fier de représenter le Canada sur la scène mondiale.",
+        "rel_src": [
+            "Hello.",
+            "My name is Matthew Williams,  and I am a champion."
+        ],
+        "rel_tgt": [
+            "Bonjour.",
+            "Mon nom est Matthew Williams, et je suis un champion."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball"
+        },
+        "conflict": [
+            "\"Canada\" - \"Canada\"/\"le Canada\""
+        ]
+    },
+    {
+        "idx": 3,
+        "src": "I train five days a week for basketball and speed skating,  work with top quality coaches  and mental performance consultants  to be at my best in my sport.",
+        "ref": "Je m'entraîne 5 jours par semaine au basketball et au patinage de vitesse, travaille avec des entraîneurs de grande qualité et des consultants en performance mentale pour être le meilleur dans mon sport.",
+        "hyp": "Je m'entraîne cinq jours par semaine pour le basket-ball et le patinage de vitesse, je travaille avec des entraîneurs de haute qualité et des conseillers en performance mentale pour être au mieux dans mon sport.",
+        "rel_src": [
+            "My name is Matthew Williams,  and I am a champion.",
+            "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage."
+        ],
+        "rel_tgt": [
+            "Mon nom est Matthew Williams, et je suis un champion.",
+            "J'ai remporté des médailles dans trois sports différents et lors des jeux nationaux au Canada, j'ai compété au niveau international en basket-ball et j'étais fier de représenter le Canada sur la scène mondiale."
+        ],
+        "hist_info": "\"basketball\" - \"basket-ball\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball"
+        }
+    },
+    {
+        "idx": 4,
+        "src": "By the way, all that is through Special Olympics.",
+        "ref": "Par ailleurs, je fais tout cela avec les Jeux Olympiques Spéciaux.",
+        "hyp": "Au passage, tout cela est grâce aux Jeux Olympiques Spéciaux.",
+        "rel_src": [
+            "My name is Matthew Williams,  and I am a champion.",
+            "I train five days a week for basketball and speed skating,  work with top quality coaches  and mental performance consultants  to be at my best in my sport."
+        ],
+        "rel_tgt": [
+            "Mon nom est Matthew Williams, et je suis un champion.",
+            "Je m'entraîne cinq jours par semaine pour le basket-ball et le patinage de vitesse, je travaille avec des entraîneurs de haute qualité et des conseillers en performance mentale pour être au mieux dans mon sport."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux"
+        }
+    },
+    {
+        "idx": 5,
+        "src": "Does that change the way you think of me  and my accomplishments?",
+        "ref": "Est-ce que cela change la manière dont vous percevez ma personne et mes réussites ?",
+        "hyp": "Est-ce que cela change la façon dont vous me considérez et mes accomplissements?",
+        "rel_src": [
+            "My name is Matthew Williams,  and I am a champion.",
+            "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage."
+        ],
+        "rel_tgt": [
+            "Mon nom est Matthew Williams, et je suis un champion.",
+            "J'ai remporté des médailles dans trois sports différents et lors des jeux nationaux au Canada, j'ai compété au niveau international en basket-ball et j'étais fier de représenter le Canada sur la scène mondiale."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux"
+        }
+    },
+    {
+        "idx": 6,
+        "src": "The world does not see all people like me as champions.",
+        "ref": "Le monde ne voit pas les personnes comme moi comme des champions.",
+        "hyp": "Le monde ne voit pas toutes les personnes comme moi comme des champions.",
+        "rel_src": [
+            "My name is Matthew Williams,  and I am a champion.",
+            "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage."
+        ],
+        "rel_tgt": [
+            "Mon nom est Matthew Williams, et je suis un champion.",
+            "J'ai remporté des médailles dans trois sports différents et lors des jeux nationaux au Canada, j'ai compété au niveau international en basket-ball et j'étais fier de représenter le Canada sur la scène mondiale."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux"
+        }
+    },
+    {
+        "idx": 7,
+        "src": "Not long ago, people like me were shunned and hidden away.",
+        "ref": "Il n'y a pas si longtemps, les gens comme moi étaient fuis et cachés.",
+        "hyp": "Il n'y a pas si longtemps, les gens comme moi étaient rejetés et cachés.",
+        "rel_src": [
+            "By the way, all that is through Special Olympics.",
+            "The world does not see all people like me as champions."
+        ],
+        "rel_tgt": [
+            "Au passage, tout cela est grâce aux Jeux Olympiques Spéciaux.",
+            "Le monde ne voit pas toutes les personnes comme moi comme des champions."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux"
+        }
+    },
+    {
+        "idx": 8,
+        "src": "There has been lots of change since Special Olympics began in 1968,  but in too many cases,  people with intellectual disabilities  are invisible to the wider population.",
+        "ref": "Les Jeux Olympiques Spéciaux ont beaucoup évolué depuis le début en 1968, mais trop souvent, les personnes avec des handicaps intellectuels sont invisibles du grand public.",
+        "hyp": "Il y a eu beaucoup de changements depuis le début des Jeux Olympiques Spéciaux en 1968, mais dans bien trop de cas, les personnes ayant une déficience intellectuelle sont invisibles pour la population plus large.",
+        "rel_src": [
+            "The world does not see all people like me as champions.",
+            "Not long ago, people like me were shunned and hidden away."
+        ],
+        "rel_tgt": [
+            "Le monde ne voit pas toutes les personnes comme moi comme des champions.",
+            "Il n'y a pas si longtemps, les gens comme moi étaient rejetés et cachés."
+        ],
+        "hist_info": "\"Special Olympics\" - \"Jeux Olympiques Spéciaux\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968"
+        }
+    },
+    {
+        "idx": 9,
+        "src": "People use the r-word in front of me, and they think it doesn't matter.",
+        "ref": "Les gens utilisent le mot « R » avec moi, et ils pensent que ça n'est pas grave.",
+        "hyp": "Les gens utilisent le mot r***** devant moi, et ils pensent que ça n'a pas d'importance. ",
+        "rel_src": [
+            "The world does not see all people like me as champions.",
+            "Not long ago, people like me were shunned and hidden away."
+        ],
+        "rel_tgt": [
+            "Le monde ne voit pas toutes les personnes comme moi comme des champions.",
+            "Il n'y a pas si longtemps, les gens comme moi étaient rejetés et cachés."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968"
+        }
+    },
+    {
+        "idx": 10,
+        "src": "That's the word \"retard\" or \"retarded\"  used in a derogatory manner.",
+        "ref": "C'est le mot « retardé » ou « arriéré » utilisé de manière désobligeante.",
+        "hyp": "C'est le mot \"retard\" ou \"retardé\" utilisé de manière dégradante.",
+        "rel_src": [
+            "Not long ago, people like me were shunned and hidden away.",
+            "People use the r-word in front of me, and they think it doesn't matter."
+        ],
+        "rel_tgt": [
+            "Il n'y a pas si longtemps, les gens comme moi étaient rejetés et cachés.",
+            "Les gens utilisent le mot r***** devant moi, et ils pensent que ça n'a pas d'importance. "
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968"
+        }
+    },
+    {
+        "idx": 11,
+        "src": "They're not thinking about how much it hurts me and my friends.",
+        "ref": "Ils ne s'imaginent pas à quel point cela nous blesse, moi et mes amis.",
+        "hyp": "Ils ne pensent pas à quel point cela me blesse, ainsi que mes amis.",
+        "rel_src": [
+            "People use the r-word in front of me, and they think it doesn't matter.",
+            "That's the word \"retard\" or \"retarded\"  used in a derogatory manner."
+        ],
+        "rel_tgt": [
+            "Les gens utilisent le mot r***** devant moi, et ils pensent que ça n'a pas d'importance. ",
+            "C'est le mot \"retard\" ou \"retardé\" utilisé de manière dégradante."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968"
+        }
+    },
+    {
+        "idx": 12,
+        "src": "I don't want you to think I'm here because I'm a charity case.",
+        "ref": "Je ne veux pas que vous pensiez que je suis là pour une œuvre de charité.",
+        "hyp": "Je ne veux pas que vous pensiez que je suis ici parce que je suis un cas de charité.",
+        "rel_src": [
+            "My name is Matthew Williams,  and I am a champion.",
+            "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage."
+        ],
+        "rel_tgt": [
+            "Mon nom est Matthew Williams, et je suis un champion.",
+            "J'ai remporté des médailles dans trois sports différents et lors des jeux nationaux au Canada, j'ai compété au niveau international en basket-ball et j'étais fier de représenter le Canada sur la scène mondiale."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968"
+        }
+    },
+    {
+        "idx": 13,
+        "src": "I am here because there is still a big problem with the way  many people see individuals with intellectual disabilities,  or, too often,  how they don't see them at all.",
+        "ref": "Je suis ici parce qu'il y a toujours un gros problème avec la manière dont beaucoup de personnes perçoivent les individus à déficiences intellectuelles, ou, trop souvent, la manière dont ils ne les voient pas du tout.",
+        "hyp": "Je suis ici parce qu'il y a encore un gros problème avec la façon dont de nombreuses personnes perçoivent les individus ayant une déficience intellectuelle, ou, trop souvent, comment ils ne les voient tout simplement pas.",
+        "rel_src": [
+            "There has been lots of change since Special Olympics began in 1968,  but in too many cases,  people with intellectual disabilities  are invisible to the wider population.",
+            "They're not thinking about how much it hurts me and my friends."
+        ],
+        "rel_tgt": [
+            "Il y a eu beaucoup de changements depuis le début des Jeux Olympiques Spéciaux en 1968, mais dans bien trop de cas, les personnes ayant une déficience intellectuelle sont invisibles pour la population plus large.",
+            "Ils ne pensent pas à quel point cela me blesse, ainsi que mes amis."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968"
+        }
+    },
+    {
+        "idx": 14,
+        "src": "Did you know the World Games happened this year?",
+        "ref": "Saviez-vous que les championnats du monde s'étaient déroulés cette année ?",
+        "hyp": "Saviez-vous que les Jeux mondiaux avaient eu lieu cette année ?",
+        "rel_src": [
+            "My name is Matthew Williams,  and I am a champion.",
+            "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage."
+        ],
+        "rel_tgt": [
+            "Mon nom est Matthew Williams, et je suis un champion.",
+            "J'ai remporté des médailles dans trois sports différents et lors des jeux nationaux au Canada, j'ai compété au niveau international en basket-ball et j'étais fier de représenter le Canada sur la scène mondiale."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux"
+        }
+    },
+    {
+        "idx": 15,
+        "src": "I was one of over 6,500 athletes with intellectual disabilities  from 165 countries who competed in LA.",
+        "ref": "J'étais parmi les plus de 6 500 athlètes ayant des déficiences intellectuelles venus de 165 pays et concourant à Los Angeles.",
+        "hyp": "J'étais l'un des plus de 6 500 athlètes ayant une déficience intellectuelle de 165 pays qui ont compété à Los Angeles.",
+        "rel_src": [
+            "By the way, all that is through Special Olympics.",
+            "I am here because there is still a big problem with the way  many people see individuals with intellectual disabilities,  or, too often,  how they don't see them at all."
+        ],
+        "rel_tgt": [
+            "Au passage, tout cela est grâce aux Jeux Olympiques Spéciaux.",
+            "Je suis ici parce qu'il y a encore un gros problème avec la façon dont de nombreuses personnes perçoivent les individus ayant une déficience intellectuelle, ou, trop souvent, comment ils ne les voient tout simplement pas."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles"
+        }
+    },
+    {
+        "idx": 16,
+        "src": "There was over 62,000 spectators watching opening ceremonies,  and there was live coverage on TSN and ESPN.",
+        "ref": "Il y avait plus de 62 000 spectateurs aux cérémonies d'ouverture, et il y avait TSN et ESPN pour couvrir l'évènement.",
+        "hyp": "Il y avait plus de 62 000 spectateurs regardant les cérémonies d'ouverture, et il y avait une couverture en direct sur TSN et ESPN.",
+        "rel_src": [
+            "Did you know the World Games happened this year?",
+            "I was one of over 6,500 athletes with intellectual disabilities  from 165 countries who competed in LA."
+        ],
+        "rel_tgt": [
+            "Saviez-vous que les Jeux mondiaux avaient eu lieu cette année ?",
+            "J'étais l'un des plus de 6 500 athlètes ayant une déficience intellectuelle de 165 pays qui ont compété à Los Angeles."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 17,
+        "src": "Did you even know that happened?",
+        "ref": "Saviez-vous que cet événement s'était déroulé ?",
+        "hyp": "Saviez-vous seulement que cela s'était produit ?",
+        "rel_src": [
+            "Did you know the World Games happened this year?",
+            "There was over 62,000 spectators watching opening ceremonies,  and there was live coverage on TSN and ESPN."
+        ],
+        "rel_tgt": [
+            "Saviez-vous que les Jeux mondiaux avaient eu lieu cette année ?",
+            "Il y avait plus de 62 000 spectateurs regardant les cérémonies d'ouverture, et il y avait une couverture en direct sur TSN et ESPN."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 18,
+        "src": "What do you think of when you see someone like me?",
+        "ref": "Que pensez-vous lorsque vous rencontrez quelqu'un comme moi ?",
+        "hyp": "Que pensez-vous lorsque vous voyez quelqu'un comme moi?",
+        "rel_src": [
+            "Does that change the way you think of me  and my accomplishments?",
+            "The world does not see all people like me as champions."
+        ],
+        "rel_tgt": [
+            "Est-ce que cela change la façon dont vous me considérez et mes accomplissements?",
+            "Le monde ne voit pas toutes les personnes comme moi comme des champions."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 19,
+        "src": "I am here today to challenge you  to look at us as equals.",
+        "ref": "Je suis ici aujourd'hui pour vous défier de nous considérer comme égaux.",
+        "hyp": "Je suis ici aujourd'hui pour vous inciter à nous considérer comme des égaux.",
+        "new_src_summary": "Matthew Williams, a Special Olympics athlete, shares his achievements as a champion in multiple sports, representing Canada internationally. He dedicates significant time to training under skilled coaches and mental performance consultants. Despite his accomplishments, he acknowledges that people with intellectual disabilities, including himself, often face invisibility and disrespect, exemplified by the casual use of derogatory language like the r-word. Williams highlights the need for greater awareness and respect for individuals with intellectual disabilities, emphasizing that their visibility and recognition remain issues. He references the recent World Games, where over 6,500 athletes from 165 countries participated, attracting substantial audience numbers and media coverage, questioning whether such events receive adequate attention.\n\nDomain: Disability Rights and Sports\nStyle: Personal Narrative\nTone: Informative and Advocacy-Oriented",
+        "new_tgt_summary": "Matthew Williams, un athlète canadien tri-sportif médaillé, notamment en basket-ball au niveau international, partage son engagement intensif dans le sport, entraînant cinq jours par semaine avec des coachs de haut niveau. Ses réussites sont attribuées aux Jeux Olympiques Spéciaux, une organisation qui, malgré des progrès depuis 1968, continue de lutter contre la stigmatisation et l'invisibilité des personnes ayant une déficience intellectuelle. Williams critique l'utilisation dégradante du terme \"retard\", qui cause de la douleur à lui et ses pairs. En tant qu'un des 6 500 athlètes représentant 165 nations aux Jeux Mondiaux cette année à Los Angeles, il souligne le manque de reconnaissance de ces événements et invite à une meilleure perception des individus ayant une déficience intellectuelle.",
+        "rel_src": [
+            "I don't want you to think I'm here because I'm a charity case.",
+            "I am here because there is still a big problem with the way  many people see individuals with intellectual disabilities,  or, too often,  how they don't see them at all."
+        ],
+        "rel_tgt": [
+            "Je ne veux pas que vous pensiez que je suis ici parce que je suis un cas de charité.",
+            "Je suis ici parce qu'il y a encore un gros problème avec la façon dont de nombreuses personnes perçoivent les individus ayant une déficience intellectuelle, ou, trop souvent, comment ils ne les voient tout simplement pas."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 20,
+        "src": "Special Olympics transforms the self-identity of athletes  with intellectual disabilities  and the perceptions of everyone watching.",
+        "ref": "Les Jeux Olympiques Spéciaux transforment l'identité propre des athlètes ayant des déficiences intellectuelles et la perception de quiconque regardant la compétition.",
+        "hyp": "Les Jeux Olympiques Spéciaux transforment l'identité propre des athlètes ayant une déficience intellectuelle et les perceptions de tous ceux qui regardent.",
+        "rel_src": [
+            "I am here because there is still a big problem with the way  many people see individuals with intellectual disabilities,  or, too often,  how they don't see them at all.",
+            "There was over 62,000 spectators watching opening ceremonies,  and there was live coverage on TSN and ESPN."
+        ],
+        "rel_tgt": [
+            "Je suis ici parce qu'il y a encore un gros problème avec la façon dont de nombreuses personnes perçoivent les individus ayant une déficience intellectuelle, ou, trop souvent, comment ils ne les voient tout simplement pas.",
+            "Il y avait plus de 62 000 spectateurs regardant les cérémonies d'ouverture, et il y avait une couverture en direct sur TSN et ESPN."
+        ],
+        "hist_info": "\"Special Olympics\" - \"Jeux Olympiques Spéciaux\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 21,
+        "src": "For those of you who aren't familiar,  Special Olympics is for athletes with intellectual disabilities.",
+        "ref": "Pour ceux d'entre vous qui ne le savent pas, les Jeux Olympiques Spéciaux s'adressent aux sportifs ayant des déficiences intellectuelles.",
+        "hyp": "Pour ceux d'entre vous qui ne connaissent pas, les Jeux Olympiques Spéciaux sont destinés aux athlètes ayant une déficience intellectuelle.",
+        "rel_src": [
+            "By the way, all that is through Special Olympics.",
+            "Special Olympics transforms the self-identity of athletes  with intellectual disabilities  and the perceptions of everyone watching."
+        ],
+        "rel_tgt": [
+            "Au passage, tout cela est grâce aux Jeux Olympiques Spéciaux.",
+            "Les Jeux Olympiques Spéciaux transforment l'identité propre des athlètes ayant une déficience intellectuelle et les perceptions de tous ceux qui regardent."
+        ],
+        "hist_info": "\"Special Olympics\" - \"Jeux Olympiques Spéciaux\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 22,
+        "src": "Special Olympics is separate from the Paralympics and Olympics.",
+        "ref": "Les Jeux Olympiques Spéciaux sont séparés des Jeux Paralympiques et Olympiques.",
+        "hyp": "Les Jeux Olympiques Spéciaux sont distincts des Jeux Paralympiques et des Jeux Olympiques.",
+        "rel_src": [
+            "By the way, all that is through Special Olympics.",
+            "Special Olympics transforms the self-identity of athletes  with intellectual disabilities  and the perceptions of everyone watching."
+        ],
+        "rel_tgt": [
+            "Au passage, tout cela est grâce aux Jeux Olympiques Spéciaux.",
+            "Les Jeux Olympiques Spéciaux transforment l'identité propre des athlètes ayant une déficience intellectuelle et les perceptions de tous ceux qui regardent."
+        ],
+        "hist_info": "\"Special Olympics\" - \"Jeux Olympiques Spéciaux\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques"
+        }
+    },
+    {
+        "idx": 23,
+        "src": "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions.",
+        "ref": "Nous offrons des programmes sportifs de haute qualité, toute l'année pour les personnes ayant des déficiences intellectuelles, ce qui change des vies et la perception.",
+        "hyp": "Nous offrons des programmes sportifs de haute qualité, toute l'année, pour les personnes ayant une déficience intellectuelle, qui changent des vies et des perceptions.",
+        "rel_src": [
+            "Special Olympics transforms the self-identity of athletes  with intellectual disabilities  and the perceptions of everyone watching.",
+            "For those of you who aren't familiar,  Special Olympics is for athletes with intellectual disabilities."
+        ],
+        "rel_tgt": [
+            "Les Jeux Olympiques Spéciaux transforment l'identité propre des athlètes ayant une déficience intellectuelle et les perceptions de tous ceux qui regardent.",
+            "Pour ceux d'entre vous qui ne connaissent pas, les Jeux Olympiques Spéciaux sont destinés aux athlètes ayant une déficience intellectuelle."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques"
+        }
+    },
+    {
+        "idx": 24,
+        "src": "This movement has changed my life  and those of so many others.",
+        "ref": "Ce mouvement a changé ma vie et celle de tellement d'autres personnes.",
+        "hyp": "Ce mouvement a changé ma vie et celle de tant d'autres.",
+        "rel_src": [
+            "Does that change the way you think of me  and my accomplishments?",
+            "Special Olympics transforms the self-identity of athletes  with intellectual disabilities  and the perceptions of everyone watching."
+        ],
+        "rel_tgt": [
+            "Est-ce que cela change la façon dont vous me considérez et mes accomplissements?",
+            "Les Jeux Olympiques Spéciaux transforment l'identité propre des athlètes ayant une déficience intellectuelle et les perceptions de tous ceux qui regardent."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques"
+        }
+    },
+    {
+        "idx": 25,
+        "src": "And it has changed the way  the world sees people with intellectual disabilities.",
+        "ref": "Et cela a changé la manière dont le monde voit les personnes ayant des déficiences intellectuelles.",
+        "hyp": "Et cela a changé la façon dont le monde perçoit les personnes ayant une déficience intellectuelle.",
+        "rel_src": [
+            "There has been lots of change since Special Olympics began in 1968,  but in too many cases,  people with intellectual disabilities  are invisible to the wider population.",
+            "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions."
+        ],
+        "rel_tgt": [
+            "Il y a eu beaucoup de changements depuis le début des Jeux Olympiques Spéciaux en 1968, mais dans bien trop de cas, les personnes ayant une déficience intellectuelle sont invisibles pour la population plus large.",
+            "Nous offrons des programmes sportifs de haute qualité, toute l'année, pour les personnes ayant une déficience intellectuelle, qui changent des vies et des perceptions."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques"
+        }
+    },
+    {
+        "idx": 26,
+        "src": "I was born with epilepsy and an intellectual disability.",
+        "ref": "Je suis né épileptique et avec une déficience intellectuelle.",
+        "hyp": "Je suis né avec de l'épilepsie et une déficience intellectuelle.",
+        "rel_src": [
+            "Not long ago, people like me were shunned and hidden away.",
+            "There has been lots of change since Special Olympics began in 1968,  but in too many cases,  people with intellectual disabilities  are invisible to the wider population."
+        ],
+        "rel_tgt": [
+            "Il n'y a pas si longtemps, les gens comme moi étaient rejetés et cachés.",
+            "Il y a eu beaucoup de changements depuis le début des Jeux Olympiques Spéciaux en 1968, mais dans bien trop de cas, les personnes ayant une déficience intellectuelle sont invisibles pour la population plus large."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques"
+        }
+    },
+    {
+        "idx": 27,
+        "src": "Growing up, I played hockey until I was 12 years old.",
+        "ref": "En grandissant, j'ai joué au hockey jusqu'à mes 12 ans.",
+        "hyp": "En grandissant, j'ai joué au hockey jusqu'à l'âge de 12 ans.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques"
+        }
+    },
+    {
+        "idx": 28,
+        "src": "The older I got, the more I felt  it was harder to keep up with everyone else,  and I was angry and frustrated.",
+        "ref": "Plus je grandissais, plus je ressentais qu'il était plus difficile de se maintenir à la hauteur des autres, et j'étais énervé et frustré.",
+        "hyp": "Plus je vieillissais, plus je ressentais que c'était difficile de suivre le rythme des autres, et j'étais en colère et frustré.",
+        "rel_src": [
+            "I was born with epilepsy and an intellectual disability.",
+            "Growing up, I played hockey until I was 12 years old."
+        ],
+        "rel_tgt": [
+            "Je suis né avec de l'épilepsie et une déficience intellectuelle.",
+            "En grandissant, j'ai joué au hockey jusqu'à l'âge de 12 ans."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques"
+        }
+    },
+    {
+        "idx": 29,
+        "src": "For a while, I did not play any sports,  didn't have many friends  and felt left out and sad.",
+        "ref": "Pendant un certain temps, je n'ai plus pratiqué aucun sport, n'avais plus aucun ami, et me sentais oublié et triste.",
+        "hyp": "Pendant un moment, je n'ai pas pratiqué de sport, je n'avais pas beaucoup d'amis et je me sentais exclu et triste.",
+        "rel_src": [
+            "Growing up, I played hockey until I was 12 years old.",
+            "The older I got, the more I felt  it was harder to keep up with everyone else,  and I was angry and frustrated."
+        ],
+        "rel_tgt": [
+            "En grandissant, j'ai joué au hockey jusqu'à l'âge de 12 ans.",
+            "Plus je vieillissais, plus je ressentais que c'était difficile de suivre le rythme des autres, et j'étais en colère et frustré."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques"
+        }
+    },
+    {
+        "idx": 30,
+        "src": "There was a time when people with intellectual disabilities  were hidden away from society.",
+        "ref": "Il fut un temps où les personnes ayant des déficiences intellectuelles étaient cachées de la société.",
+        "hyp": "Il y avait un temps où les personnes ayant une déficience intellectuelle étaient cachées à la société.",
+        "rel_src": [
+            "I am here because there is still a big problem with the way  many people see individuals with intellectual disabilities,  or, too often,  how they don't see them at all.",
+            "And it has changed the way  the world sees people with intellectual disabilities."
+        ],
+        "rel_tgt": [
+            "Je suis ici parce qu'il y a encore un gros problème avec la façon dont de nombreuses personnes perçoivent les individus ayant une déficience intellectuelle, ou, trop souvent, comment ils ne les voient tout simplement pas.",
+            "Et cela a changé la façon dont le monde perçoit les personnes ayant une déficience intellectuelle."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques"
+        }
+    },
+    {
+        "idx": 31,
+        "src": "No one thought they could participate in sports,  let alone be a valued member of society.",
+        "ref": "Personne ne pensait qu'ils pouvaient pratiquer un sport, et encore moins être un membre important pour la société.",
+        "hyp": "Personne ne pensait qu'ils pouvaient participer au sport, encore moins être un membre valorisé de la société.",
+        "rel_src": [
+            "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions.",
+            "And it has changed the way  the world sees people with intellectual disabilities."
+        ],
+        "rel_tgt": [
+            "Nous offrons des programmes sportifs de haute qualité, toute l'année, pour les personnes ayant une déficience intellectuelle, qui changent des vies et des perceptions.",
+            "Et cela a changé la façon dont le monde perçoit les personnes ayant une déficience intellectuelle."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques"
+        }
+    },
+    {
+        "idx": 32,
+        "src": "In the 1960s, Dr. Frank Hayden,  a scientist at the University of Toronto,  was studying the effects of regular exercise  on the fitness levels of children with intellectual disabilities.",
+        "ref": "Dans les années 60, Dr. Frank Hayden, un scientifique à l'Université de Toronto, étudiait les effets de l'exercice régulier sur la condition physique des enfants ayant des déficiences intellectuelles.",
+        "hyp": "Dans les années 1960, le Dr Frank Hayden, un scientifique à l'Université de Toronto, étudiait les effets de l'exercice régulier sur le niveau de forme physique des enfants ayant une déficience intellectuelle.",
+        "rel_src": [
+            "For those of you who aren't familiar,  Special Olympics is for athletes with intellectual disabilities.",
+            "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions."
+        ],
+        "rel_tgt": [
+            "Pour ceux d'entre vous qui ne connaissent pas, les Jeux Olympiques Spéciaux sont destinés aux athlètes ayant une déficience intellectuelle.",
+            "Nous offrons des programmes sportifs de haute qualité, toute l'année, pour les personnes ayant une déficience intellectuelle, qui changent des vies et des perceptions."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto"
+        }
+    },
+    {
+        "idx": 33,
+        "src": "Using rigorous scientific research,  Dr. Hayden and other researchers  came to the conclusion  that it was simply the lack of opportunity to participate  that caused their fitness levels to suffer.",
+        "ref": "Utilisant des recherches scientifiques rigoureuses, Dr. Hayden et d'autres chercheurs ont conclu que c'était simplement le manque d'opportunité à participer qui entraînait des problèmes de condition physique.",
+        "hyp": "En utilisant des recherches scientifiques rigoureuses, le Dr Hayden et d'autres chercheurs ont conclu que c'était simplement le manque d'opportunité de participer qui causait leur niveau de forme physique à souffrir.",
+        "rel_src": [
+            "No one thought they could participate in sports,  let alone be a valued member of society.",
+            "In the 1960s, Dr. Frank Hayden,  a scientist at the University of Toronto,  was studying the effects of regular exercise  on the fitness levels of children with intellectual disabilities."
+        ],
+        "rel_tgt": [
+            "Personne ne pensait qu'ils pouvaient participer au sport, encore moins être un membre valorisé de la société.",
+            "Dans les années 1960, le Dr Frank Hayden, un scientifique à l'Université de Toronto, étudiait les effets de l'exercice régulier sur le niveau de forme physique des enfants ayant une déficience intellectuelle."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden"
+        }
+    },
+    {
+        "idx": 34,
+        "src": "Lots of people doubted that people with intellectual disabilities  could benefit from fitness programs  and sports competition opportunities.",
+        "ref": "Beaucoup de gens doutaient que les personnes ayant des déficience intellectuelles pouvaient bénéficier des programmes de mise en forme et des compétitions sportives.",
+        "hyp": "Beaucoup de gens doutaient que les personnes ayant une déficience intellectuelle puissent bénéficier de programmes de conditionnement physique et des opportunités de compétition sportive.",
+        "rel_src": [
+            "No one thought they could participate in sports,  let alone be a valued member of society.",
+            "In the 1960s, Dr. Frank Hayden,  a scientist at the University of Toronto,  was studying the effects of regular exercise  on the fitness levels of children with intellectual disabilities."
+        ],
+        "rel_tgt": [
+            "Personne ne pensait qu'ils pouvaient participer au sport, encore moins être un membre valorisé de la société.",
+            "Dans les années 1960, le Dr Frank Hayden, un scientifique à l'Université de Toronto, étudiait les effets de l'exercice régulier sur le niveau de forme physique des enfants ayant une déficience intellectuelle."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden"
+        }
+    },
+    {
+        "idx": 35,
+        "src": "But pioneers like Dr. Hayden and Eunice Kennedy Shriver,  the founder of Special Olympics,  persevered,  and Special Olympics athletes have proved them right  four and a half million times over.",
+        "ref": "Mais des pionniers comme Dr. Hayden et Eunice Kennedy Shriver, le fondateur des Jeux Olympiques Spéciaux, ont persévéré, et les athlètes des Jeux Olympiques Spéciaux leur ont donné raison quatre millions et demi de fois.",
+        "hyp": "Mais des pionniers comme le Dr Hayden et Eunice Kennedy Shriver, la fondatrice des Jeux Olympiques Spéciaux, ont persévéré, et les athlètes des Jeux Olympiques Spéciaux ont prouvé leur raison plus de quatre millions et demi de fois.",
+        "rel_src": [
+            "For those of you who aren't familiar,  Special Olympics is for athletes with intellectual disabilities.",
+            "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions."
+        ],
+        "rel_tgt": [
+            "Pour ceux d'entre vous qui ne connaissent pas, les Jeux Olympiques Spéciaux sont destinés aux athlètes ayant une déficience intellectuelle.",
+            "Nous offrons des programmes sportifs de haute qualité, toute l'année, pour les personnes ayant une déficience intellectuelle, qui changent des vies et des perceptions."
+        ],
+        "hist_info": "\"Special Olympics\" - \"Jeux Olympiques Spéciaux\", \"Olympics\" - \"Jeux Olympiques\", \"Dr. Hayden\" - \"le Dr Hayden\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver"
+        }
+    },
+    {
+        "idx": 36,
+        "src": "Before I joined Special Olympics,  I was nervous  because I was young, shy, not confident  and didn't have many friends.",
+        "ref": "Avant que je rejoigne les Jeux Olympiques Spéciaux, j'étais nerveux car j'étais jeune, timide, et avais peu de confiance en moi et je n'avais pas beaucoup d'amis.",
+        "hyp": "Avant de rejoindre les Jeux Olympiques Spéciaux, j'étais nerveux parce que j'étais jeune, timide, pas confiant et je n'avais pas beaucoup d'amis.",
+        "rel_src": [
+            "I am here today to challenge you  to look at us as equals.",
+            "For a while, I did not play any sports,  didn't have many friends  and felt left out and sad."
+        ],
+        "rel_tgt": [
+            "Je suis ici aujourd'hui pour vous inciter à nous considérer comme des égaux.",
+            "Pendant un moment, je n'ai pas pratiqué de sport, je n'avais pas beaucoup d'amis et je me sentais exclu et triste."
+        ],
+        "hist_info": "\"Special Olympics\" - \"Jeux Olympiques Spéciaux\", \"Olympics\" - \"Jeux Olympiques\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver"
+        }
+    },
+    {
+        "idx": 37,
+        "src": "When I got there, though, everyone was very encouraging,  supportive, and let me be myself  without being judged.",
+        "ref": "Lorsque je suis arrivé, pourtant, tout le monde m'a beaucoup encouragé, m'a supporté et m'a laissé être moi-même sans être jugé.",
+        "hyp": "Lorsque j'y suis arrivé, toutefois, tout le monde était très encourageant, soutenant et me laissait être moi-même sans être jugé.",
+        "rel_src": [
+            "I am here today to challenge you  to look at us as equals.",
+            "This movement has changed my life  and those of so many others."
+        ],
+        "rel_tgt": [
+            "Je suis ici aujourd'hui pour vous inciter à nous considérer comme des égaux.",
+            "Ce mouvement a changé ma vie et celle de tant d'autres."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver"
+        }
+    },
+    {
+        "idx": 38,
+        "src": "Now, I am a basketball player and speed skater  who has competed at provincial, national games,  and this year made it all the way to the World Summer Games in LA,  where I was part of the first ever Canadian basketball team  to compete at World Games.",
+        "ref": "A présent, je suis un joueur de basketball et un patineur de vitesse qui a concouru aux jeux régionaux, nationaux, et cette année, a fini aux Jeux Mondiaux d’Été à Los Angeles, où j'ai fait partie de la toute première équipe canadienne de basketball à participer aux Jeux Mondiaux.",
+        "hyp": "Maintenant, je suis un joueur de basket-ball et un patineur de vitesse qui a compété au niveau provincial, aux jeux nationaux, et cette année, j'ai atteint les Jeux d'Été Mondiaux à Los Angeles, où j'ai fait partie de la première équipe de basket-ball canadienne jamais à compétir aux Jeux Mondiaux.",
+        "rel_src": [
+            "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions.",
+            "When I got there, though, everyone was very encouraging,  supportive, and let me be myself  without being judged."
+        ],
+        "rel_tgt": [
+            "Nous offrons des programmes sportifs de haute qualité, toute l'année, pour les personnes ayant une déficience intellectuelle, qui changent des vies et des perceptions.",
+            "Lorsque j'y suis arrivé, toutefois, tout le monde était très encourageant, soutenant et me laissait être moi-même sans être jugé."
+        ],
+        "hist_info": "\"basketball\" - \"basket-ball\", \"World Games\" - \"Jeux mondiaux\", \"LA\" - \"Los Angeles\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne"
+        },
+        "conflict": [
+            "\"World Games\" - \"Jeux mondiaux\"/\"Jeux Mondiaux\""
+        ]
+    },
+    {
+        "idx": 39,
+        "src": "I am one of more than four and a half million athletes around the globe,  and I've heard so many similar stories.",
+        "ref": "Je suis l'un des plus de quatre millions et demi d'athlètes du monde entier, et j'ai entendu tellement d'histoires similaires.",
+        "hyp": "Je suis l'un des plus de quatre millions et demi d'athlètes à travers le globe, et j'ai entendu tellement d'histoires similaires.",
+        "new_src_summary": "Matthew Williams, a Special Olympics athlete with epilepsy and an intellectual disability, shares his journey from isolation and invisibility to becoming a champion in multiple sports, representing Canada on the global stage. Training rigorously under expert guidance, Williams has participated in prestigious events like the World Games, which attracted over 6,500 athletes from 165 countries, yet questions if these achievements receive sufficient recognition. Advocating for greater awareness and respect for individuals with intellectual disabilities, Williams addresses the casual use of derogatory terms and highlights the need for visibility and dignity for all athletes. The Special Olympics, distinct from the Paralympics and Olympics, offers year-round sports programs tailored to people with intellectual disabilities, transforming lives and shifting societal perceptions. Founded on the belief that lack of opportunity, not capability, hinders participation, the movement has empowered over four and a half million athletes worldwide. Williams' personal narrative, transitioning from shyness to confidence and international competition, underscores the inspirational and empowering impact of the Special Olympics, inviting readers to view its participants as equals deserving of equal opportunities and respect in the realm of sports and beyond. This personal advocacy narrative is both educational and empowering, advocating for social inclusion and celebrating the achievements of athletes with intellectual disabilities.",
+        "new_tgt_summary": "Matthew Williams, un tri-sportif canadien reconnu à l'échelle internationale, notamment pour ses performances en basket-ball, partage son parcours intensif en sport, entraînant cinq jours par semaine sous la direction de coachs de haut niveau. Né avec de l'épilepsie et une déficience intellectuelle, Williams a trouvé son accomplissement personnel grâce aux Jeux Olympiques Spéciaux, une organisation qui, bien qu'ayant progressé depuis 1968, lutte toujours contre la stigmatisation et l'invisibilité des personnes ayant une déficience intellectuelle. Il critique l'utilisation péjorative du terme \"retard\" qui affecte lui et ses semblables. En tant qu'un des 6 500 athlètes représentant 165 nations aux Jeux Mondiaux de cette année à Los Angeles, il souligne le manque de reconnaissance de ces événements et plaide pour une meilleure perception des individus ayant une déficience intellectuelle. Malgré l'exclusion et la frustration qu'il a ressenties en jouant au hockey dans sa jeunesse, les Jeux Olympiques Spéciaux, distincts des Jeux Paralympiques et Olympiques, ont permis à Williams de s'épanouir dans le sport. Grâce aux efforts de pionniers tels que le Dr Frank Hayden et Eunice Kennedy Shriver, qui ont mis en lumière l'importance de l'inclusion, Williams est devenu un joueur de basket-ball et un patineur de vitesse respecté, participant à divers niveaux de compétitions, y compris les Jeux d'Été Mondiaux à Los Angeles.",
+        "rel_src": [
+            "But pioneers like Dr. Hayden and Eunice Kennedy Shriver,  the founder of Special Olympics,  persevered,  and Special Olympics athletes have proved them right  four and a half million times over.",
+            "Now, I am a basketball player and speed skater  who has competed at provincial, national games,  and this year made it all the way to the World Summer Games in LA,  where I was part of the first ever Canadian basketball team  to compete at World Games."
+        ],
+        "rel_tgt": [
+            "Mais des pionniers comme le Dr Hayden et Eunice Kennedy Shriver, la fondatrice des Jeux Olympiques Spéciaux, ont persévéré, et les athlètes des Jeux Olympiques Spéciaux ont prouvé leur raison plus de quatre millions et demi de fois.",
+            "Maintenant, je suis un joueur de basket-ball et un patineur de vitesse qui a compété au niveau provincial, aux jeux nationaux, et cette année, j'ai atteint les Jeux d'Été Mondiaux à Los Angeles, où j'ai fait partie de la première équipe de basket-ball canadienne jamais à compétir aux Jeux Mondiaux."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne"
+        }
+    },
+    {
+        "idx": 40,
+        "src": "Being Special Olympics athletes  restores our pride and dignity.",
+        "ref": "Être un athlète des Jeux Olympiques Spéciaux redonne de la fierté et de la dignité.",
+        "hyp": "Être des athlètes des Jeux Olympiques Spéciaux restaure notre fierté et notre dignité.",
+        "rel_src": [
+            "Special Olympics transforms the self-identity of athletes  with intellectual disabilities  and the perceptions of everyone watching.",
+            "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions."
+        ],
+        "rel_tgt": [
+            "Les Jeux Olympiques Spéciaux transforment l'identité propre des athlètes ayant une déficience intellectuelle et les perceptions de tous ceux qui regardent.",
+            "Nous offrons des programmes sportifs de haute qualité, toute l'année, pour les personnes ayant une déficience intellectuelle, qui changent des vies et des perceptions."
+        ],
+        "hist_info": "\"Special Olympics\" - \"Jeux Olympiques Spéciaux\", \"Olympics\" - \"Jeux Olympiques\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne"
+        }
+    },
+    {
+        "idx": 41,
+        "src": "Special Olympics also addresses critical health needs.",
+        "ref": "Les Jeux Olympiques Spéciaux adressent également des besoins de santé importants.",
+        "hyp": "Les Jeux Olympiques Spéciaux répondent également aux besoins de santé critiques.",
+        "rel_src": [
+            "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions.",
+            "And it has changed the way  the world sees people with intellectual disabilities."
+        ],
+        "rel_tgt": [
+            "Nous offrons des programmes sportifs de haute qualité, toute l'année, pour les personnes ayant une déficience intellectuelle, qui changent des vies et des perceptions.",
+            "Et cela a changé la façon dont le monde perçoit les personnes ayant une déficience intellectuelle."
+        ],
+        "hist_info": "\"Special Olympics\" - \"Jeux Olympiques Spéciaux\", \"Olympics\" - \"Jeux Olympiques\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne"
+        }
+    },
+    {
+        "idx": 42,
+        "src": "Studies have shown that, on average,  men with intellectual disabilities  die 13 years younger than men without,  and women with intellectual disabilities  die 20 years younger than women without.",
+        "ref": "Des études ont indiqué qu'en moyenne les hommes ayant des déficiences intellectuelles meurent 13 ans plus jeune que les hommes sans, et les femmes ayant des déficiences intellectuelles meurent 20 ans plus jeune que les femmes sans.",
+        "hyp": "Des études ont montré que, en moyenne, les hommes ayant une déficience intellectuelle meurent 13 ans plus tôt que ceux sans, et les femmes ayant une déficience intellectuelle meurent 20 ans plus tôt que celles sans.",
+        "rel_src": [
+            "There was a time when people with intellectual disabilities  were hidden away from society.",
+            "No one thought they could participate in sports,  let alone be a valued member of society."
+        ],
+        "rel_tgt": [
+            "Il y avait un temps où les personnes ayant une déficience intellectuelle étaient cachées à la société.",
+            "Personne ne pensait qu'ils pouvaient participer au sport, encore moins être un membre valorisé de la société."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne"
+        }
+    },
+    {
+        "idx": 43,
+        "src": "Special Olympics keeps us healthy  by getting us active  and participating in sport.",
+        "ref": "Le Jeux Olympiques Spéciaux nous gardent en bonne santé en nous rendant actifs et en nous faisant participer à un sport.",
+        "hyp": "Les Jeux Olympiques Spéciaux nous maintiennent en bonne santé en nous encourageant à être actifs et à participer au sport.",
+        "rel_src": [
+            "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions.",
+            "Special Olympics also addresses critical health needs."
+        ],
+        "rel_tgt": [
+            "Nous offrons des programmes sportifs de haute qualité, toute l'année, pour les personnes ayant une déficience intellectuelle, qui changent des vies et des perceptions.",
+            "Les Jeux Olympiques Spéciaux répondent également aux besoins de santé critiques."
+        ],
+        "hist_info": "\"Special Olympics\" - \"Jeux Olympiques Spéciaux\", \"Olympics\" - \"Jeux Olympiques\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne"
+        }
+    },
+    {
+        "idx": 44,
+        "src": "Also, our coaches teach us about nutrition and health.",
+        "ref": "Par ailleurs, nos entraîneurs nous enseignent la nutrition et la santé.",
+        "hyp": "Nos entraîneurs nous enseignent également tout ce qui concerne la nutrition et la santé.",
+        "rel_src": [
+            "Special Olympics also addresses critical health needs.",
+            "Special Olympics keeps us healthy  by getting us active  and participating in sport."
+        ],
+        "rel_tgt": [
+            "Les Jeux Olympiques Spéciaux répondent également aux besoins de santé critiques.",
+            "Les Jeux Olympiques Spéciaux nous maintiennent en bonne santé en nous encourageant à être actifs et à participer au sport."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne"
+        }
+    },
+    {
+        "idx": 45,
+        "src": "Special Olympics also provides free health screening  for athletes who have difficulty communicating with their doctor  or accessing health care.",
+        "ref": "Les Jeux Olympiques Spéciaux fournissent également des tests de dépistage gratuits pour les athlètes qui ont des difficultés à communiquer avec leur docteur ou à accéder aux soins médiaux.",
+        "hyp": "Les Jeux Olympiques Spéciaux offrent également des examens de santé gratuits pour les athlètes ayant des difficultés à communiquer avec leur médecin ou à accéder aux soins de santé.",
+        "rel_src": [
+            "Special Olympics also addresses critical health needs.",
+            "Special Olympics keeps us healthy  by getting us active  and participating in sport."
+        ],
+        "rel_tgt": [
+            "Les Jeux Olympiques Spéciaux répondent également aux besoins de santé critiques.",
+            "Les Jeux Olympiques Spéciaux nous maintiennent en bonne santé en nous encourageant à être actifs et à participer au sport."
+        ],
+        "hist_info": "\"Special Olympics\" - \"Jeux Olympiques Spéciaux\", \"Olympics\" - \"Jeux Olympiques\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne"
+        }
+    },
+    {
+        "idx": 46,
+        "src": "At the 2015 World Summer Games,  my Team Canada teammates and I played the Nigerian basketball team.",
+        "ref": "Aux Jeux d’Été Mondiaux 2015, mes coéquipiers de l'équipe Canada et moi jouions contre l'équipe du Nigeria.",
+        "hyp": "Aux Jeux d'Été Mondiaux de 2015, mes coéquipiers de l'équipe Canada et moi avons affronté l'équipe de basket-ball nigériane.",
+        "rel_src": [
+            "Now, I am a basketball player and speed skater  who has competed at provincial, national games,  and this year made it all the way to the World Summer Games in LA,  where I was part of the first ever Canadian basketball team  to compete at World Games.",
+            "I am one of more than four and a half million athletes around the globe,  and I've heard so many similar stories."
+        ],
+        "rel_tgt": [
+            "Maintenant, je suis un joueur de basket-ball et un patineur de vitesse qui a compété au niveau provincial, aux jeux nationaux, et cette année, j'ai atteint les Jeux d'Été Mondiaux à Los Angeles, où j'ai fait partie de la première équipe de basket-ball canadienne jamais à compétir aux Jeux Mondiaux.",
+            "Je suis l'un des plus de quatre millions et demi d'athlètes à travers le globe, et j'ai entendu tellement d'histoires similaires."
+        ],
+        "hist_info": "\"Canada\" - \"Canada\", \"basketball\" - \"basket-ball\", \"World Summer Games\" - \"Jeux dÉté Mondiaux\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane"
+        }
+    },
+    {
+        "idx": 47,
+        "src": "The day before our game,  the Nigerian basketball team went to the World Games Healthy Athlete screening,  where seven of 10 members  were given hearing aids for free  and got to hear clearly for the first time.",
+        "ref": "Le jour précédent notre match, l'équipe nigériane de basket était venue au dépistage des Athlètes des Jeux Mondiaux ont été distribués gratuitement à sept membres sur dix et ont eu l'occasion d'entendre clairement pour la première fois.",
+        "hyp": "La veille de notre match, l'équipe de basket-ball nigériane est allée à l'examen de santé des athlètes des Jeux mondiaux, où sept des dix membres ont reçu des appareils auditifs gratuitement et ont pu entendre clairement pour la première fois.",
+        "rel_src": [
+            "Special Olympics also provides free health screening  for athletes who have difficulty communicating with their doctor  or accessing health care.",
+            "At the 2015 World Summer Games,  my Team Canada teammates and I played the Nigerian basketball team."
+        ],
+        "rel_tgt": [
+            "Les Jeux Olympiques Spéciaux offrent également des examens de santé gratuits pour les athlètes ayant des difficultés à communiquer avec leur médecin ou à accéder aux soins de santé.",
+            "Aux Jeux d'Été Mondiaux de 2015, mes coéquipiers de l'équipe Canada et moi avons affronté l'équipe de basket-ball nigériane."
+        ],
+        "hist_info": "\"basketball\" - \"basket-ball\", \"World Games\" - \"Jeux mondiaux\", \"Nigerian basketball team\" - \"équipe de basket-ball nigériane\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux"
+        }
+    },
+    {
+        "idx": 48,
+        "src": "The change in them was amazing.",
+        "ref": "Ce changement pour eux était incroyable.",
+        "hyp": "Le changement chez eux était incroyable.",
+        "rel_src": [
+            "Before I joined Special Olympics,  I was nervous  because I was young, shy, not confident  and didn't have many friends.",
+            "Now, I am a basketball player and speed skater  who has competed at provincial, national games,  and this year made it all the way to the World Summer Games in LA,  where I was part of the first ever Canadian basketball team  to compete at World Games."
+        ],
+        "rel_tgt": [
+            "Avant de rejoindre les Jeux Olympiques Spéciaux, j'étais nerveux parce que j'étais jeune, timide, pas confiant et je n'avais pas beaucoup d'amis.",
+            "Maintenant, je suis un joueur de basket-ball et un patineur de vitesse qui a compété au niveau provincial, aux jeux nationaux, et cette année, j'ai atteint les Jeux d'Été Mondiaux à Los Angeles, où j'ai fait partie de la première équipe de basket-ball canadienne jamais à compétir aux Jeux Mondiaux."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux"
+        }
+    },
+    {
+        "idx": 49,
+        "src": "They were more excited, happy and confident,  because their coach could vocally communicate with them.",
+        "ref": "Ils étaient très excités, contents et confiants, car leurs entraîneurs pouvaient communiquer oralement avec eux.",
+        "hyp": "Ils étaient plus excités, heureux et confiants, car leur entraîneur pouvait communiquer verbalement avec eux.",
+        "rel_src": [
+            "Before I joined Special Olympics,  I was nervous  because I was young, shy, not confident  and didn't have many friends.",
+            "When I got there, though, everyone was very encouraging,  supportive, and let me be myself  without being judged."
+        ],
+        "rel_tgt": [
+            "Avant de rejoindre les Jeux Olympiques Spéciaux, j'étais nerveux parce que j'étais jeune, timide, pas confiant et je n'avais pas beaucoup d'amis.",
+            "Lorsque j'y suis arrivé, toutefois, tout le monde était très encourageant, soutenant et me laissait être moi-même sans être jugé."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux"
+        }
+    },
+    {
+        "idx": 50,
+        "src": "And they were emotional  because they could hear the sounds of the basketball,  the sounds of the whistle  and the cheering fans in the stands --  sounds that we take for granted.",
+        "ref": "Et ils étaient très émus car ils pouvaient entendre les sons du ballon de basket, les sons du sifflet et les fans enthousiastes dans les tribunes — des sons que nous tenons pour acquis.",
+        "hyp": "Et ils étaient émus parce qu'ils pouvaient entendre les sons du ballon de basket, les sons de la哨ne sifflet et les encouragements des supporters dans les tribunes - des sons que nous prenons pour acquis. ",
+        "rel_src": [
+            "The day before our game,  the Nigerian basketball team went to the World Games Healthy Athlete screening,  where seven of 10 members  were given hearing aids for free  and got to hear clearly for the first time.",
+            "They were more excited, happy and confident,  because their coach could vocally communicate with them."
+        ],
+        "rel_tgt": [
+            "La veille de notre match, l'équipe de basket-ball nigériane est allée à l'examen de santé des athlètes des Jeux mondiaux, où sept des dix membres ont reçu des appareils auditifs gratuitement et ont pu entendre clairement pour la première fois.",
+            "Ils étaient plus excités, heureux et confiants, car leur entraîneur pouvait communiquer verbalement avec eux."
+        ],
+        "hist_info": "\"basketball\" - \"basket-ball\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux"
+        }
+    },
+    {
+        "idx": 51,
+        "src": "Special Olympics is transforming more than just the athlete in their sport.",
+        "ref": "Le Jeux Olympiques Spéciaux font plus que transformer les athlètes dans le sport.",
+        "hyp": "Les Jeux Olympiques Spéciaux transforment bien plus que juste l'athlète dans son sport.",
+        "rel_src": [
+            "Special Olympics also addresses critical health needs.",
+            "Studies have shown that, on average,  men with intellectual disabilities  die 13 years younger than men without,  and women with intellectual disabilities  die 20 years younger than women without."
+        ],
+        "rel_tgt": [
+            "Les Jeux Olympiques Spéciaux répondent également aux besoins de santé critiques.",
+            "Des études ont montré que, en moyenne, les hommes ayant une déficience intellectuelle meurent 13 ans plus tôt que ceux sans, et les femmes ayant une déficience intellectuelle meurent 20 ans plus tôt que celles sans."
+        ],
+        "hist_info": "\"Special Olympics\" - \"Jeux Olympiques Spéciaux\", \"Olympics\" - \"Jeux Olympiques\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux"
+        }
+    },
+    {
+        "idx": 52,
+        "src": "Special Olympics is transforming their lives off the field.",
+        "ref": "Le Jeux Olympiques Spéciaux transforment leur vie en dehors des terrains.",
+        "hyp": "Les Jeux Olympiques Spéciaux transforment leur vie en dehors du terrain.",
+        "rel_src": [
+            "Being Special Olympics athletes  restores our pride and dignity.",
+            "Special Olympics also addresses critical health needs."
+        ],
+        "rel_tgt": [
+            "Être des athlètes des Jeux Olympiques Spéciaux restaure notre fierté et notre dignité.",
+            "Les Jeux Olympiques Spéciaux répondent également aux besoins de santé critiques."
+        ],
+        "hist_info": "\"Special Olympics\" - \"Jeux Olympiques Spéciaux\", \"Olympics\" - \"Jeux Olympiques\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux"
+        }
+    },
+    {
+        "idx": 53,
+        "src": "This year, research findings showed  that nearly half of the adults in the US  don't know a single person with an intellectual disability,  and the 44 percent of Americans  who don't have personal contact with intellectual disabilities  are significantly less accepting and positive.",
+        "ref": "Cette année, une recherche a démontré que presque la moitié des adultes aux États-Unis ne connaissent pas une seule personne ayant une déficience intellectuelle, et les 44% des Américains qui n'ont pas de contact personnel avec des déficiences intellectuelles sont significativement moins tolérants et positifs.",
+        "hyp": "Cette année, les résultats de recherche ont montré que près de la moitié des adultes aux États-Unis ne connaissent pas une seule personne ayant une déficience intellectuelle, et les 44 % d'Américains qui n'ont pas de contacts personnels avec les handicaps intellectuels sont nettement moins acceptants et positifs.",
+        "rel_src": [
+            "Lots of people doubted that people with intellectual disabilities  could benefit from fitness programs  and sports competition opportunities.",
+            "Being Special Olympics athletes  restores our pride and dignity."
+        ],
+        "rel_tgt": [
+            "Beaucoup de gens doutaient que les personnes ayant une déficience intellectuelle puissent bénéficier de programmes de conditionnement physique et des opportunités de compétition sportive.",
+            "Être des athlètes des Jeux Olympiques Spéciaux restaure notre fierté et notre dignité."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux",
+            "US": "États-Unis",
+            "Americans": "Américains"
+        }
+    },
+    {
+        "idx": 54,
+        "src": "Then there's the r-word,  proving that people with intellectual disabilities  are still invisible  to far too many people.",
+        "ref": "Puis il y a le mot en « R », démontrant que les personnes ayant des déficiences intellectuelles sont encore invisibles pour beaucoup trop de monde.",
+        "hyp": "Il y a ensuite le mot r-, démontrant que les personnes ayant une déficience intellectuelle restent invisibles pour beaucoup trop de gens.",
+        "rel_src": [
+            "Lots of people doubted that people with intellectual disabilities  could benefit from fitness programs  and sports competition opportunities.",
+            "This year, research findings showed  that nearly half of the adults in the US  don't know a single person with an intellectual disability,  and the 44 percent of Americans  who don't have personal contact with intellectual disabilities  are significantly less accepting and positive."
+        ],
+        "rel_tgt": [
+            "Beaucoup de gens doutaient que les personnes ayant une déficience intellectuelle puissent bénéficier de programmes de conditionnement physique et des opportunités de compétition sportive.",
+            "Cette année, les résultats de recherche ont montré que près de la moitié des adultes aux États-Unis ne connaissent pas une seule personne ayant une déficience intellectuelle, et les 44 % d'Américains qui n'ont pas de contacts personnels avec les handicaps intellectuels sont nettement moins acceptants et positifs."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux",
+            "US": "États-Unis",
+            "Americans": "Américains"
+        }
+    },
+    {
+        "idx": 55,
+        "src": "People use it as a casual term or an insult.",
+        "ref": "Les gens l'utilisent comme un terme habituel ou une insulte.",
+        "hyp": "Les gens l'utilisent comme un terme familier ou une insulte.",
+        "rel_src": [
+            "This year, research findings showed  that nearly half of the adults in the US  don't know a single person with an intellectual disability,  and the 44 percent of Americans  who don't have personal contact with intellectual disabilities  are significantly less accepting and positive.",
+            "Then there's the r-word,  proving that people with intellectual disabilities  are still invisible  to far too many people."
+        ],
+        "rel_tgt": [
+            "Cette année, les résultats de recherche ont montré que près de la moitié des adultes aux États-Unis ne connaissent pas une seule personne ayant une déficience intellectuelle, et les 44 % d'Américains qui n'ont pas de contacts personnels avec les handicaps intellectuels sont nettement moins acceptants et positifs.",
+            "Il y a ensuite le mot r-, démontrant que les personnes ayant une déficience intellectuelle restent invisibles pour beaucoup trop de gens."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux",
+            "US": "États-Unis",
+            "Americans": "Américains"
+        }
+    },
+    {
+        "idx": 56,
+        "src": "It was tweeted more than nine million times last year,  and it is deeply hurtful  to me and my four and a half million fellow athletes around the planet.",
+        "ref": "Il a été tweeté plus de neuf millions de fois l'année dernière, et c'est profondément blessant pour moi et mes quatre millions et demi de camarades athlètes dans le monde.",
+        "hyp": "Il a été tweeté plus de neuf millions de fois l'année dernière, et c'est profondément blessant pour moi et mes quatre millions et demi de co-athlètes à travers la planète.",
+        "rel_src": [
+            "Then there's the r-word,  proving that people with intellectual disabilities  are still invisible  to far too many people.",
+            "People use it as a casual term or an insult."
+        ],
+        "rel_tgt": [
+            "Il y a ensuite le mot r-, démontrant que les personnes ayant une déficience intellectuelle restent invisibles pour beaucoup trop de gens.",
+            "Les gens l'utilisent comme un terme familier ou une insulte."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux",
+            "US": "États-Unis",
+            "Americans": "Américains"
+        }
+    },
+    {
+        "idx": 57,
+        "src": "People don't think it's insulting,  but it is.",
+        "ref": "Les gens ne s'imaginent pas que c'est insultant, mais ça l'est.",
+        "hyp": "Les gens ne pensent pas que c'est insultant, mais ça l'est.",
+        "rel_src": [
+            "Then there's the r-word,  proving that people with intellectual disabilities  are still invisible  to far too many people.",
+            "It was tweeted more than nine million times last year,  and it is deeply hurtful  to me and my four and a half million fellow athletes around the planet."
+        ],
+        "rel_tgt": [
+            "Il y a ensuite le mot r-, démontrant que les personnes ayant une déficience intellectuelle restent invisibles pour beaucoup trop de gens.",
+            "Il a été tweeté plus de neuf millions de fois l'année dernière, et c'est profondément blessant pour moi et mes quatre millions et demi de co-athlètes à travers la planète."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux",
+            "US": "États-Unis",
+            "Americans": "Américains"
+        }
+    },
+    {
+        "idx": 58,
+        "src": "As my fellow athlete and global messenger John Franklin Stephens wrote  in an open letter to a political pundit  who used the r-word as an insult,  \"Come join us someday at Special Olympics.",
+        "ref": "Comme mon camarade athlète et porte-parole mondial John Franklin Stephens l'a écrit dans une lettre ouverte à un commentateur politique qui avait utilisé le mot en « R » comme insulte, « Venez nous rejoindre un jour aux Jeux Olympiques Spéciaux.",
+        "hyp": "Comme l'a écrit mon co-athlète et messager mondial John Franklin Stephens dans une lettre ouverte à un commentateur politique qui a utilisé le mot r- comme insulte, \"Viens nous rejoindre un jour aux Jeux Olympiques Spéciaux.",
+        "rel_src": [
+            "Then there's the r-word,  proving that people with intellectual disabilities  are still invisible  to far too many people.",
+            "It was tweeted more than nine million times last year,  and it is deeply hurtful  to me and my four and a half million fellow athletes around the planet."
+        ],
+        "rel_tgt": [
+            "Il y a ensuite le mot r-, démontrant que les personnes ayant une déficience intellectuelle restent invisibles pour beaucoup trop de gens.",
+            "Il a été tweeté plus de neuf millions de fois l'année dernière, et c'est profondément blessant pour moi et mes quatre millions et demi de co-athlètes à travers la planète."
+        ],
+        "hist_info": "\"Special Olympics\" - \"Jeux Olympiques Spéciaux\", \"Olympics\" - \"Jeux Olympiques\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux",
+            "US": "États-Unis",
+            "Americans": "Américains",
+            "John Franklin Stephens": "John Franklin Stephens"
+        }
+    },
+    {
+        "idx": 59,
+        "src": "See if you walk away with your heart unchanged.\"",
+        "ref": "Vous verrez si vous repartez avec le cœur inchangé. »",
+        "hyp": "Voyons si vous repartez sans que votre cœur ait changé.\"",
+        "new_src_summary": "Matthew Williams, a Special Olympics athlete with epilepsy and an intellectual disability, recounts his transformation from isolation to global athletic representation, showcasing the Special Olympics' profound impact on over four and a half million athletes worldwide. Through rigorous training and participation in events like the World Games, which gathered 6,500 athletes from 165 countries, Williams questions if these accomplishments receive adequate recognition. He advocates for increased visibility and respect for individuals with intellectual disabilities, addressing the casual use of derogatory language and highlighting the Special Olympics' unique role in offering year-round sports programs tailored to their needs. Founded on the principle that lack of opportunity, not capability, hinders participation, the organization empowers athletes, shifting societal perceptions and promoting health through physical activity, nutrition education, and free health screenings. Personal anecdotes, such as Nigerian basketball players receiving hearing aids at the 2015 World Summer Games, demonstrate how the Special Olympics enhances communication, confidence, and emotional well-being. Despite progress, societal attitudes remain a challenge, with many lacking personal contact with intellectually disabled individuals and using offensive terms. Williams' story, combined with the organization's broader impact, invites readers to view Special Olympics participants as equals deserving of respect and opportunities in sports and society. By merging sports advocacy with disability rights, this narrative passionately educates and encourages support for the Special Olympics, emphasizing the transformative power of inclusion and the importance of changing harmful societal attitudes.",
+        "new_tgt_summary": "Matthew Williams, un tri-sportif canadien de renommée internationale avec de l'épilepsie et une déficience intellectuelle, a trouvé son accomplissement personnel via les Jeux Olympiques Spéciaux, malgré les défis initiaux rencontrés dans le sport, comme l'exclusion lorsqu'il jouait au hockey dans sa jeunesse. Ces jeux, distincts des Jeux Paralympiques et Olympiques, ont aidé Williams à s'épanouir, lui permettant de devenir un joueur de basket-ball et un patineur de vitesse respecté. Williams fait partie des 6 500 athlètes représentant 165 nations aux Jeux Mondiaux de cette année à Los Angeles, mettant en évidence le manque de reconnaissance de ces événements et plaidant pour une meilleure perception des individus ayant une déficience intellectuelle.\n\nLes Jeux Olympiques Spéciaux, qui rassemblent plus de 4,5 millions d'athlètes à travers le monde, ne sont pas seulement une plateforme pour la compétition sportive, mais aussi un moyen d'améliorer la santé et la dignité des participants. Ils fournissent des examens médicaux gratuits, ce qui est particulièrement utile pour ceux qui éprouvent des difficultés à communiquer avec leur médecin. Par exemple, plusieurs joueurs de l'équipe de basketball nigériane ont reçu des appareils auditifs gratuitement lors des Jeux d'Été Mondiaux de 2015, améliorant grandement leur expérience de jeu. Ces jeux ont un impact positif sur la vie des athlètes en dehors du sport, tout en soulignant le besoin de sensibilisation et d'acceptation du grand public, notamment à travers l'élimination de l'utilisation péjorative du terme \"retard\". \n\nWilliams et d'autres athlètes aux Jeux Olympiques Spéciaux témoignent du travail accompli par des pionniers comme le Dr Frank Hayden et Eunice Kennedy Shriver, qui ont mis en avant l'importance de l'inclusion, et continuent à lutter contre la stigmatisation et l'invisibilité des personnes ayant une déficience intellectuelle. Les Jeux Olympiques Spéciaux représentent une occasion précieuse de changer ces perceptions.",
+        "rel_src": [
+            "People don't think it's insulting,  but it is.",
+            "As my fellow athlete and global messenger John Franklin Stephens wrote  in an open letter to a political pundit  who used the r-word as an insult,  \"Come join us someday at Special Olympics."
+        ],
+        "rel_tgt": [
+            "Les gens ne pensent pas que c'est insultant, mais ça l'est.",
+            "Comme l'a écrit mon co-athlète et messager mondial John Franklin Stephens dans une lettre ouverte à un commentateur politique qui a utilisé le mot r- comme insulte, \"Viens nous rejoindre un jour aux Jeux Olympiques Spéciaux."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux",
+            "US": "États-Unis",
+            "Americans": "Américains",
+            "John Franklin Stephens": "John Franklin Stephens"
+        }
+    },
+    {
+        "idx": 60,
+        "src": "This year, at the 2015 World Summer Games,  people lined up for hours  to get into the final night of powerlifting competition.",
+        "ref": "Cette année, aux Jeux d’Été Mondiaux 2015, les gens se sont alignés pendant des heures avant de plonger dans la dernière nuit de compétition d'haltérophilie.",
+        "hyp": "Cette année, aux Jeux d'Été Mondiaux de 2015, les gens ont fait la queue pendant des heures pour assister à la dernière soirée de la compétition de haltérophilie.",
+        "rel_src": [
+            "At the 2015 World Summer Games,  my Team Canada teammates and I played the Nigerian basketball team.",
+            "The day before our game,  the Nigerian basketball team went to the World Games Healthy Athlete screening,  where seven of 10 members  were given hearing aids for free  and got to hear clearly for the first time."
+        ],
+        "rel_tgt": [
+            "Aux Jeux d'Été Mondiaux de 2015, mes coéquipiers de l'équipe Canada et moi avons affronté l'équipe de basket-ball nigériane.",
+            "La veille de notre match, l'équipe de basket-ball nigériane est allée à l'examen de santé des athlètes des Jeux mondiaux, où sept des dix membres ont reçu des appareils auditifs gratuitement et ont pu entendre clairement pour la première fois."
+        ],
+        "hist_info": "\"World Summer Games\" - \"Jeux dÉté Mondiaux\", \"2015 World Summer Games\" - \"Jeux dÉté Mondiaux de 2015\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux",
+            "US": "États-Unis",
+            "Americans": "Américains",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "powerlifting": "haltérophilie (Note: Although powerlifting is not a proper noun",
+            "the annotation would be: \n2015 World Summer Games": "Jeux dÉté Mondiaux de 2015"
+        }
+    },
+    {
+        "idx": 61,
+        "src": "So it was standing room only when my teammate Jackie Barrett,  the Newfoundland Moose,  deadlifted 655 pounds  and lifted 611 pounds in the squat --    setting huge new records for Special Olympics.",
+        "ref": "Cette soirée a fait salle comble lorsque mon coéquipier Jackie Barrett, l’Élan de Terre-Neuve, a soulevé 297 kg et 277 kg en squats —  établissant d'énormes nouveaux records aux Jeux Olympiques Spéciaux.",
+        "hyp": "Il n'y avait donc plus de places assises lorsque mon coéquipière Jackie Barrett, la Moufette de Terre-Neuve, a soulevé 655 livres en deadlift et 611 livres en squat, établissant ainsi de nouveaux records considérables pour les Jeux Olympiques Spéciaux.",
+        "rel_src": [
+            "Special Olympics also provides free health screening  for athletes who have difficulty communicating with their doctor  or accessing health care.",
+            "This year, at the 2015 World Summer Games,  people lined up for hours  to get into the final night of powerlifting competition."
+        ],
+        "rel_tgt": [
+            "Les Jeux Olympiques Spéciaux offrent également des examens de santé gratuits pour les athlètes ayant des difficultés à communiquer avec leur médecin ou à accéder aux soins de santé.",
+            "Cette année, aux Jeux d'Été Mondiaux de 2015, les gens ont fait la queue pendant des heures pour assister à la dernière soirée de la compétition de haltérophilie."
+        ],
+        "hist_info": "\"Special Olympics\" - \"Jeux Olympiques Spéciaux\", \"Olympics\" - \"Jeux Olympiques\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux",
+            "US": "États-Unis",
+            "Americans": "Américains",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "powerlifting": "haltérophilie (Note: Although powerlifting is not a proper noun",
+            "the annotation would be: \n2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Jackie Barrett": "Jackie Barrett",
+            "Newfoundland Moose": "Moufette de Terre-Neuve"
+        }
+    },
+    {
+        "idx": 62,
+        "src": "Jackie is a record holder among all powerlifters in Newfoundland --  not just Special Olympics, all powerlifters.",
+        "ref": "Jackie est l'un détenteur de record parmi tous les haltérophiles de Terre-Neuve — pas seulement aux Jeux Olympiques Spéciaux mais tous les haltérophiles.",
+        "hyp": "Jackie est détentrice de records parmi tous les haltérophiles de Terre-Neuve -- pas seulement les Jeux Olympiques Spéciaux, mais tous les haltérophiles.",
+        "rel_src": [
+            "This year, at the 2015 World Summer Games,  people lined up for hours  to get into the final night of powerlifting competition.",
+            "So it was standing room only when my teammate Jackie Barrett,  the Newfoundland Moose,  deadlifted 655 pounds  and lifted 611 pounds in the squat --    setting huge new records for Special Olympics."
+        ],
+        "rel_tgt": [
+            "Cette année, aux Jeux d'Été Mondiaux de 2015, les gens ont fait la queue pendant des heures pour assister à la dernière soirée de la compétition de haltérophilie.",
+            "Il n'y avait donc plus de places assises lorsque mon coéquipière Jackie Barrett, la Moufette de Terre-Neuve, a soulevé 655 livres en deadlift et 611 livres en squat, établissant ainsi de nouveaux records considérables pour les Jeux Olympiques Spéciaux."
+        ],
+        "hist_info": "\"Special Olympics\" - \"Jeux Olympiques Spéciaux\", \"Olympics\" - \"Jeux Olympiques\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux",
+            "US": "États-Unis",
+            "Americans": "Américains",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "powerlifting": "haltérophilie (Note: Although powerlifting is not a proper noun",
+            "the annotation would be: \n2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Jackie Barrett": "Jackie Barrett",
+            "Newfoundland Moose": "Moufette de Terre-Neuve",
+            "Jackie": "Jackie",
+            "Newfoundland": "Terre-Neuve"
+        }
+    },
+    {
+        "idx": 63,
+        "src": "Jackie was a huge star in LA,  and ESPN live-tweeted his record-breaking lifts  and were wowed by his performance.",
+        "ref": "Jackie était une énorme célébrité à Los Angeles, et ESPN a tweeté en direct son nouveau record et était impressionné par sa performance.",
+        "hyp": "Jackie était une énorme star à Los Angeles, et ESPN a live-tweeté ses levées record, impressionné par sa performance.",
+        "rel_src": [
+            "So it was standing room only when my teammate Jackie Barrett,  the Newfoundland Moose,  deadlifted 655 pounds  and lifted 611 pounds in the squat --    setting huge new records for Special Olympics.",
+            "Jackie is a record holder among all powerlifters in Newfoundland --  not just Special Olympics, all powerlifters."
+        ],
+        "rel_tgt": [
+            "Il n'y avait donc plus de places assises lorsque mon coéquipière Jackie Barrett, la Moufette de Terre-Neuve, a soulevé 655 livres en deadlift et 611 livres en squat, établissant ainsi de nouveaux records considérables pour les Jeux Olympiques Spéciaux.",
+            "Jackie est détentrice de records parmi tous les haltérophiles de Terre-Neuve -- pas seulement les Jeux Olympiques Spéciaux, mais tous les haltérophiles."
+        ],
+        "hist_info": "\"LA\" - \"Los Angeles\", \"ESPN\" - \"ESPN\", \"Jackie\" - \"Jackie\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux",
+            "US": "États-Unis",
+            "Americans": "Américains",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "powerlifting": "haltérophilie (Note: Although powerlifting is not a proper noun",
+            "the annotation would be: \n2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Jackie Barrett": "Jackie Barrett",
+            "Newfoundland Moose": "Moufette de Terre-Neuve",
+            "Jackie": "Jackie",
+            "Newfoundland": "Terre-Neuve"
+        }
+    },
+    {
+        "idx": 64,
+        "src": "Fifty years ago, few imagined individuals with intellectual disabilities  could do anything like that.",
+        "ref": "Il y a 50 ans, peu de gens imaginaient des personnes déficientes mentales capables de faire quelque chose comme ça.",
+        "hyp": "Il y a cinquante ans, peu d'individus imaginaient que des personnes ayant une déficience intellectuelle pouvaient accomplir quelque chose comme ça.",
+        "rel_src": [
+            "So it was standing room only when my teammate Jackie Barrett,  the Newfoundland Moose,  deadlifted 655 pounds  and lifted 611 pounds in the squat --    setting huge new records for Special Olympics.",
+            "Jackie is a record holder among all powerlifters in Newfoundland --  not just Special Olympics, all powerlifters."
+        ],
+        "rel_tgt": [
+            "Il n'y avait donc plus de places assises lorsque mon coéquipière Jackie Barrett, la Moufette de Terre-Neuve, a soulevé 655 livres en deadlift et 611 livres en squat, établissant ainsi de nouveaux records considérables pour les Jeux Olympiques Spéciaux.",
+            "Jackie est détentrice de records parmi tous les haltérophiles de Terre-Neuve -- pas seulement les Jeux Olympiques Spéciaux, mais tous les haltérophiles."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux",
+            "US": "États-Unis",
+            "Americans": "Américains",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "powerlifting": "haltérophilie (Note: Although powerlifting is not a proper noun",
+            "the annotation would be: \n2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Jackie Barrett": "Jackie Barrett",
+            "Newfoundland Moose": "Moufette de Terre-Neuve",
+            "Jackie": "Jackie",
+            "Newfoundland": "Terre-Neuve"
+        }
+    },
+    {
+        "idx": 65,
+        "src": "This year, 60,000 spectators filled the famous LA Memorial Coliseum  to watch the opening ceremonies of World Games  and cheer athletes from 165 countries  around the world.",
+        "ref": "Cette année, 60 000 spectateurs ont rempli le célèbre LA Memorial Coliseum pour regarder les cérémonies d'ouverture des Jeux Mondiaux et applaudir les athlètes de 165 pays venant du monde entier.",
+        "hyp": "Cette année, 60 000 spectateurs ont rempli le célèbre Colisée commémoratif d'Los Angeles pour assister aux cérémonies d'ouverture des Jeux mondiaux et encourager les athlètes de 165 pays du monde entier.",
+        "rel_src": [
+            "At the 2015 World Summer Games,  my Team Canada teammates and I played the Nigerian basketball team.",
+            "So it was standing room only when my teammate Jackie Barrett,  the Newfoundland Moose,  deadlifted 655 pounds  and lifted 611 pounds in the squat --    setting huge new records for Special Olympics."
+        ],
+        "rel_tgt": [
+            "Aux Jeux d'Été Mondiaux de 2015, mes coéquipiers de l'équipe Canada et moi avons affronté l'équipe de basket-ball nigériane.",
+            "Il n'y avait donc plus de places assises lorsque mon coéquipière Jackie Barrett, la Moufette de Terre-Neuve, a soulevé 655 livres en deadlift et 611 livres en squat, établissant ainsi de nouveaux records considérables pour les Jeux Olympiques Spéciaux."
+        ],
+        "hist_info": "\"World Games\" - \"Jeux mondiaux\", \"LA\" - \"Los Angeles\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux",
+            "US": "États-Unis",
+            "Americans": "Américains",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "powerlifting": "haltérophilie (Note: Although powerlifting is not a proper noun",
+            "the annotation would be: \n2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Jackie Barrett": "Jackie Barrett",
+            "Newfoundland Moose": "Moufette de Terre-Neuve",
+            "Jackie": "Jackie",
+            "Newfoundland": "Terre-Neuve",
+            "LA Memorial Coliseum": "Colisée commémoratif dLos Angeles"
+        }
+    },
+    {
+        "idx": 66,
+        "src": "Far from being hidden away,  we were cheered and celebrated.",
+        "ref": "Loin d'être cachés, nous avons été applaudis et célébrés.",
+        "hyp": "Loin d'être cachés, nous avons été acclamés et célébrés.",
+        "rel_src": [
+            "So it was standing room only when my teammate Jackie Barrett,  the Newfoundland Moose,  deadlifted 655 pounds  and lifted 611 pounds in the squat --    setting huge new records for Special Olympics.",
+            "This year, 60,000 spectators filled the famous LA Memorial Coliseum  to watch the opening ceremonies of World Games  and cheer athletes from 165 countries  around the world."
+        ],
+        "rel_tgt": [
+            "Il n'y avait donc plus de places assises lorsque mon coéquipière Jackie Barrett, la Moufette de Terre-Neuve, a soulevé 655 livres en deadlift et 611 livres en squat, établissant ainsi de nouveaux records considérables pour les Jeux Olympiques Spéciaux.",
+            "Cette année, 60 000 spectateurs ont rempli le célèbre Colisée commémoratif d'Los Angeles pour assister aux cérémonies d'ouverture des Jeux mondiaux et encourager les athlètes de 165 pays du monde entier."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux",
+            "US": "États-Unis",
+            "Americans": "Américains",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "powerlifting": "haltérophilie (Note: Although powerlifting is not a proper noun",
+            "the annotation would be: \n2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Jackie Barrett": "Jackie Barrett",
+            "Newfoundland Moose": "Moufette de Terre-Neuve",
+            "Jackie": "Jackie",
+            "Newfoundland": "Terre-Neuve",
+            "LA Memorial Coliseum": "Colisée commémoratif dLos Angeles"
+        }
+    },
+    {
+        "idx": 67,
+        "src": "Special Olympics teaches athletes  to be confident and proud of themselves.",
+        "ref": "Les Jeux Olympiques Spéciaux apprennent aux athlètes à être confiants et fiers d'eux-mêmes.",
+        "hyp": "Les Jeux Olympiques Spéciaux apprennent aux athlètes à être confiants et fiers d'eux-mêmes.",
+        "rel_src": [
+            "They were more excited, happy and confident,  because their coach could vocally communicate with them.",
+            "Special Olympics is transforming their lives off the field."
+        ],
+        "rel_tgt": [
+            "Ils étaient plus excités, heureux et confiants, car leur entraîneur pouvait communiquer verbalement avec eux.",
+            "Les Jeux Olympiques Spéciaux transforment leur vie en dehors du terrain."
+        ],
+        "hist_info": "\"Special Olympics\" - \"Jeux Olympiques Spéciaux\", \"Olympics\" - \"Jeux Olympiques\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux",
+            "US": "États-Unis",
+            "Americans": "Américains",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "powerlifting": "haltérophilie (Note: Although powerlifting is not a proper noun",
+            "the annotation would be: \n2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Jackie Barrett": "Jackie Barrett",
+            "Newfoundland Moose": "Moufette de Terre-Neuve",
+            "Jackie": "Jackie",
+            "Newfoundland": "Terre-Neuve",
+            "LA Memorial Coliseum": "Colisée commémoratif dLos Angeles"
+        }
+    },
+    {
+        "idx": 68,
+        "src": "Special Olympics teaches the world  that people with intellectual disabilities  deserve respect and inclusion.",
+        "ref": "Les Jeux Olympiques Spéciaux apprennent au monde que les gens ayant des déficiences intellectuelles méritent le respect et la considération.",
+        "hyp": "Les Jeux Olympiques Spéciaux enseignent au monde que les personnes ayant une déficience intellectuelle méritent le respect et l'inclusion.",
+        "rel_src": [
+            "Special Olympics is transforming their lives off the field.",
+            "Special Olympics teaches athletes  to be confident and proud of themselves."
+        ],
+        "rel_tgt": [
+            "Les Jeux Olympiques Spéciaux transforment leur vie en dehors du terrain.",
+            "Les Jeux Olympiques Spéciaux apprennent aux athlètes à être confiants et fiers d'eux-mêmes."
+        ],
+        "hist_info": "\"Special Olympics\" - \"Jeux Olympiques Spéciaux\", \"Olympics\" - \"Jeux Olympiques\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux",
+            "US": "États-Unis",
+            "Americans": "Américains",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "powerlifting": "haltérophilie (Note: Although powerlifting is not a proper noun",
+            "the annotation would be: \n2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Jackie Barrett": "Jackie Barrett",
+            "Newfoundland Moose": "Moufette de Terre-Neuve",
+            "Jackie": "Jackie",
+            "Newfoundland": "Terre-Neuve",
+            "LA Memorial Coliseum": "Colisée commémoratif dLos Angeles"
+        }
+    },
+    {
+        "idx": 69,
+        "src": "Now, I have dreams and achievements in my sport,  great coaches,  respect and dignity,  better health,  and I am pursuing a career as a personal trainer.",
+        "ref": "A présent, j'ai des rêves et des succès dans mon sport, des entraîneurs formidables, du respect et de la dignité, une meilleure santé, et je poursuis une carrière d'entraîneur personnel.",
+        "hyp": "Aujourd'hui, j'ai des rêves et des réalisations dans mon sport, de grands entraîneurs, du respect et de la dignité, une meilleure santé, et je poursuis une carrière en tant qu'entraîneur personnel.",
+        "rel_src": [
+            "Special Olympics teaches athletes  to be confident and proud of themselves.",
+            "Special Olympics teaches the world  that people with intellectual disabilities  deserve respect and inclusion."
+        ],
+        "rel_tgt": [
+            "Les Jeux Olympiques Spéciaux apprennent aux athlètes à être confiants et fiers d'eux-mêmes.",
+            "Les Jeux Olympiques Spéciaux enseignent au monde que les personnes ayant une déficience intellectuelle méritent le respect et l'inclusion."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux",
+            "US": "États-Unis",
+            "Americans": "Américains",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "powerlifting": "haltérophilie (Note: Although powerlifting is not a proper noun",
+            "the annotation would be: \n2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Jackie Barrett": "Jackie Barrett",
+            "Newfoundland Moose": "Moufette de Terre-Neuve",
+            "Jackie": "Jackie",
+            "Newfoundland": "Terre-Neuve",
+            "LA Memorial Coliseum": "Colisée commémoratif dLos Angeles"
+        }
+    },
+    {
+        "idx": 70,
+        "src": "I am no longer hidden, bullied  and I am here doing a TED Talk.",
+        "ref": "Je ne suis plus caché, moqué, et je suis ici en train de donner une conférence TED.",
+        "hyp": "Je ne suis plus caché, harcelé et je suis ici pour faire une conférence TED.",
+        "rel_src": [
+            "Far from being hidden away,  we were cheered and celebrated.",
+            "Special Olympics teaches the world  that people with intellectual disabilities  deserve respect and inclusion."
+        ],
+        "rel_tgt": [
+            "Loin d'être cachés, nous avons été acclamés et célébrés.",
+            "Les Jeux Olympiques Spéciaux enseignent au monde que les personnes ayant une déficience intellectuelle méritent le respect et l'inclusion."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux",
+            "US": "États-Unis",
+            "Americans": "Américains",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "powerlifting": "haltérophilie (Note: Although powerlifting is not a proper noun",
+            "the annotation would be: \n2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Jackie Barrett": "Jackie Barrett",
+            "Newfoundland Moose": "Moufette de Terre-Neuve",
+            "Jackie": "Jackie",
+            "Newfoundland": "Terre-Neuve",
+            "LA Memorial Coliseum": "Colisée commémoratif dLos Angeles",
+            "TED Talk": "conférence TED"
+        }
+    },
+    {
+        "idx": 71,
+        "src": "The world is a different place because of Special Olympics,  but there is still farther to go.",
+        "ref": "Le monde est un endroit différent grâce aux Jeux Olympiques Spéciaux, mais il y a encore du travail.",
+        "hyp": "Le monde est devenu un lieu différent grâce aux Jeux Olympiques Spéciaux, mais il reste encore du chemin à parcourir.",
+        "rel_src": [
+            "Special Olympics teaches the world  that people with intellectual disabilities  deserve respect and inclusion.",
+            "Now, I have dreams and achievements in my sport,  great coaches,  respect and dignity,  better health,  and I am pursuing a career as a personal trainer."
+        ],
+        "rel_tgt": [
+            "Les Jeux Olympiques Spéciaux enseignent au monde que les personnes ayant une déficience intellectuelle méritent le respect et l'inclusion.",
+            "Aujourd'hui, j'ai des rêves et des réalisations dans mon sport, de grands entraîneurs, du respect et de la dignité, une meilleure santé, et je poursuis une carrière en tant qu'entraîneur personnel."
+        ],
+        "hist_info": "\"Special Olympics\" - \"Jeux Olympiques Spéciaux\", \"Olympics\" - \"Jeux Olympiques\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux",
+            "US": "États-Unis",
+            "Americans": "Américains",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "powerlifting": "haltérophilie (Note: Although powerlifting is not a proper noun",
+            "the annotation would be: \n2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Jackie Barrett": "Jackie Barrett",
+            "Newfoundland Moose": "Moufette de Terre-Neuve",
+            "Jackie": "Jackie",
+            "Newfoundland": "Terre-Neuve",
+            "LA Memorial Coliseum": "Colisée commémoratif dLos Angeles",
+            "TED Talk": "conférence TED"
+        }
+    },
+    {
+        "idx": 72,
+        "src": "So the next time you see someone with an intellectual disability,  I hope you will see their ability.",
+        "ref": "Donc la prochaine fois que vous verrez quelqu'un ayant des déficiences intellectuelles, j'espère que vous verrez son talent.",
+        "hyp": "Alors la prochaine fois que vous verrez une personne ayant une déficience intellectuelle, j'espère que vous verrez sa capacité.",
+        "rel_src": [
+            "Special Olympics teaches athletes  to be confident and proud of themselves.",
+            "Special Olympics teaches the world  that people with intellectual disabilities  deserve respect and inclusion."
+        ],
+        "rel_tgt": [
+            "Les Jeux Olympiques Spéciaux apprennent aux athlètes à être confiants et fiers d'eux-mêmes.",
+            "Les Jeux Olympiques Spéciaux enseignent au monde que les personnes ayant une déficience intellectuelle méritent le respect et l'inclusion."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux",
+            "US": "États-Unis",
+            "Americans": "Américains",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "powerlifting": "haltérophilie (Note: Although powerlifting is not a proper noun",
+            "the annotation would be: \n2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Jackie Barrett": "Jackie Barrett",
+            "Newfoundland Moose": "Moufette de Terre-Neuve",
+            "Jackie": "Jackie",
+            "Newfoundland": "Terre-Neuve",
+            "LA Memorial Coliseum": "Colisée commémoratif dLos Angeles",
+            "TED Talk": "conférence TED"
+        }
+    },
+    {
+        "idx": 73,
+        "src": "The next time someone uses the r-word near you,  I hope you will tell them how much it hurts.",
+        "ref": "La prochaine fois que quelqu'un utilise le mot en « R » à coté de vous, j'espère que vous leur direz à quel point c'est blessant.",
+        "hyp": "La prochaine fois que quelqu'un utilisera le mot r près de vous, j'espère que vous lui direz à quel point cela fait mal.",
+        "rel_src": [
+            "People use it as a casual term or an insult.",
+            "People don't think it's insulting,  but it is."
+        ],
+        "rel_tgt": [
+            "Les gens l'utilisent comme un terme familier ou une insulte.",
+            "Les gens ne pensent pas que c'est insultant, mais ça l'est."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux",
+            "US": "États-Unis",
+            "Americans": "Américains",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "powerlifting": "haltérophilie (Note: Although powerlifting is not a proper noun",
+            "the annotation would be: \n2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Jackie Barrett": "Jackie Barrett",
+            "Newfoundland Moose": "Moufette de Terre-Neuve",
+            "Jackie": "Jackie",
+            "Newfoundland": "Terre-Neuve",
+            "LA Memorial Coliseum": "Colisée commémoratif dLos Angeles",
+            "TED Talk": "conférence TED"
+        }
+    },
+    {
+        "idx": 74,
+        "src": "I hope you will think about getting involved with Special Olympics.",
+        "ref": "J'espère que vous songerez à vous impliquer dans les Jeux Olympiques Spéciaux.",
+        "hyp": "J'espère que vous penserez à vous impliquer avec les Jeux Olympiques Spéciaux.",
+        "rel_src": [
+            "As my fellow athlete and global messenger John Franklin Stephens wrote  in an open letter to a political pundit  who used the r-word as an insult,  \"Come join us someday at Special Olympics.",
+            "Special Olympics teaches the world  that people with intellectual disabilities  deserve respect and inclusion."
+        ],
+        "rel_tgt": [
+            "Comme l'a écrit mon co-athlète et messager mondial John Franklin Stephens dans une lettre ouverte à un commentateur politique qui a utilisé le mot r- comme insulte, \"Viens nous rejoindre un jour aux Jeux Olympiques Spéciaux.",
+            "Les Jeux Olympiques Spéciaux enseignent au monde que les personnes ayant une déficience intellectuelle méritent le respect et l'inclusion."
+        ],
+        "hist_info": "\"Special Olympics\" - \"Jeux Olympiques Spéciaux\", \"Olympics\" - \"Jeux Olympiques\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux",
+            "US": "États-Unis",
+            "Americans": "Américains",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "powerlifting": "haltérophilie (Note: Although powerlifting is not a proper noun",
+            "the annotation would be: \n2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Jackie Barrett": "Jackie Barrett",
+            "Newfoundland Moose": "Moufette de Terre-Neuve",
+            "Jackie": "Jackie",
+            "Newfoundland": "Terre-Neuve",
+            "LA Memorial Coliseum": "Colisée commémoratif dLos Angeles",
+            "TED Talk": "conférence TED"
+        }
+    },
+    {
+        "idx": 75,
+        "src": "I would like to leave you with one final thought.",
+        "ref": "J'aimerais vous quitter avec une toute dernière pensée.",
+        "hyp": "J'aimerais vous laisser avec une dernière réflexion.",
+        "rel_src": [
+            "The world is a different place because of Special Olympics,  but there is still farther to go.",
+            "So the next time you see someone with an intellectual disability,  I hope you will see their ability."
+        ],
+        "rel_tgt": [
+            "Le monde est devenu un lieu différent grâce aux Jeux Olympiques Spéciaux, mais il reste encore du chemin à parcourir.",
+            "Alors la prochaine fois que vous verrez une personne ayant une déficience intellectuelle, j'espère que vous verrez sa capacité."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux",
+            "US": "États-Unis",
+            "Americans": "Américains",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "powerlifting": "haltérophilie (Note: Although powerlifting is not a proper noun",
+            "the annotation would be: \n2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Jackie Barrett": "Jackie Barrett",
+            "Newfoundland Moose": "Moufette de Terre-Neuve",
+            "Jackie": "Jackie",
+            "Newfoundland": "Terre-Neuve",
+            "LA Memorial Coliseum": "Colisée commémoratif dLos Angeles",
+            "TED Talk": "conférence TED"
+        }
+    },
+    {
+        "idx": 76,
+        "src": "Nelson Mandela said,  \"Sports has the power to change the world.\"",
+        "ref": "Nelson Mandela disait : « Le sport a le pouvoir de changer le monde. »",
+        "hyp": "Nelson Mandela a dit : \"Le sport a le pouvoir de changer le monde.\"",
+        "rel_src": [
+            "This year, at the 2015 World Summer Games,  people lined up for hours  to get into the final night of powerlifting competition.",
+            "This year, 60,000 spectators filled the famous LA Memorial Coliseum  to watch the opening ceremonies of World Games  and cheer athletes from 165 countries  around the world."
+        ],
+        "rel_tgt": [
+            "Cette année, aux Jeux d'Été Mondiaux de 2015, les gens ont fait la queue pendant des heures pour assister à la dernière soirée de la compétition de haltérophilie.",
+            "Cette année, 60 000 spectateurs ont rempli le célèbre Colisée commémoratif d'Los Angeles pour assister aux cérémonies d'ouverture des Jeux mondiaux et encourager les athlètes de 165 pays du monde entier."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux",
+            "US": "États-Unis",
+            "Americans": "Américains",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "powerlifting": "haltérophilie (Note: Although powerlifting is not a proper noun",
+            "the annotation would be: \n2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Jackie Barrett": "Jackie Barrett",
+            "Newfoundland Moose": "Moufette de Terre-Neuve",
+            "Jackie": "Jackie",
+            "Newfoundland": "Terre-Neuve",
+            "LA Memorial Coliseum": "Colisée commémoratif dLos Angeles",
+            "TED Talk": "conférence TED",
+            "Nelson Mandela": "Nelson Mandela"
+        }
+    },
+    {
+        "idx": 77,
+        "src": "Special Olympics is changing the world  by transforming four and a half million athletes  and giving us a place to be confident,  meet friends,  not be judged  and get to feel like and be champions.",
+        "ref": "Les Jeux Olympiques Spéciaux changent le monde en transformant quatre millions et demi d'athlètes et en nous donnant un endroit où avoir confiance, rencontrer des amis, ne pas être jugés et se sentir et être des champions.",
+        "hyp": "Les Jeux Olympiques Spéciaux changent le monde en transformant quatre millions et demi d'athlètes et en nous offrant un lieu où nous pouvons être confiants, rencontrer des amis, ne pas être jugés et avoir le sentiment d'être des champions, et l'être réellement.",
+        "rel_src": [
+            "Special Olympics teaches athletes  to be confident and proud of themselves.",
+            "Special Olympics teaches the world  that people with intellectual disabilities  deserve respect and inclusion."
+        ],
+        "rel_tgt": [
+            "Les Jeux Olympiques Spéciaux apprennent aux athlètes à être confiants et fiers d'eux-mêmes.",
+            "Les Jeux Olympiques Spéciaux enseignent au monde que les personnes ayant une déficience intellectuelle méritent le respect et l'inclusion."
+        ],
+        "hist_info": "\"Special Olympics\" - \"Jeux Olympiques Spéciaux\", \"Olympics\" - \"Jeux Olympiques\"",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux",
+            "US": "États-Unis",
+            "Americans": "Américains",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "powerlifting": "haltérophilie (Note: Although powerlifting is not a proper noun",
+            "the annotation would be: \n2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Jackie Barrett": "Jackie Barrett",
+            "Newfoundland Moose": "Moufette de Terre-Neuve",
+            "Jackie": "Jackie",
+            "Newfoundland": "Terre-Neuve",
+            "LA Memorial Coliseum": "Colisée commémoratif dLos Angeles",
+            "TED Talk": "conférence TED",
+            "Nelson Mandela": "Nelson Mandela"
+        }
+    },
+    {
+        "idx": 78,
+        "src": "Thank you very much.",
+        "ref": "Merci beaucoup.",
+        "hyp": "Merci beaucoup.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "Mon nom",
+            "Matthew Williams": "Matthew Williams Note: The phrase My name can be considered as a proper noun in this context since it refers directly to a specific individual. However",
+            "then only Matthew Williams": "Matthew Williams would be listed.",
+            "Canada": "Canada",
+            "basketball": "basket-ball",
+            "Special Olympics": "Jeux Olympiques Spéciaux",
+            "1968": "1968",
+            "World Games": "Jeux mondiaux",
+            "LA": "Los Angeles",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "Jeux Paralympiques",
+            "Olympics": "Jeux Olympiques",
+            "Dr. Frank Hayden": "le Dr Frank Hayden",
+            "University of Toronto": "lUniversité de Toronto",
+            "Dr. Hayden": "le Dr Hayden",
+            "Eunice Kennedy Shriver": "Eunice Kennedy Shriver",
+            "World Summer Games": "Jeux dÉté Mondiaux",
+            "Canadian": "canadienne",
+            "2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Team Canada": "équipe Canada",
+            "Nigerian basketball team": "équipe de basket-ball nigériane",
+            "World Games Healthy Athlete screening": "examen de santé des athlètes des Jeux mondiaux",
+            "US": "États-Unis",
+            "Americans": "Américains",
+            "John Franklin Stephens": "John Franklin Stephens",
+            "powerlifting": "haltérophilie (Note: Although powerlifting is not a proper noun",
+            "the annotation would be: \n2015 World Summer Games": "Jeux dÉté Mondiaux de 2015",
+            "Jackie Barrett": "Jackie Barrett",
+            "Newfoundland Moose": "Moufette de Terre-Neuve",
+            "Jackie": "Jackie",
+            "Newfoundland": "Terre-Neuve",
+            "LA Memorial Coliseum": "Colisée commémoratif dLos Angeles",
+            "TED Talk": "conférence TED",
+            "Nelson Mandela": "Nelson Mandela"
+        }
+    }
+]

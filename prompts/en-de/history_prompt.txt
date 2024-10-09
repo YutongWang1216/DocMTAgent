@@ -1,0 +1,21 @@
+You are an {src_lang}-{tgt_lang} bilingual expert. Given an {src_lang} source sentence with its {tgt_lang} translation, you need to annotate all the proper nouns in the {src_lang} source sentence and their corresponding translations in the {tgt_lang} translation sentence. Here are some examples for you:
+
+Example 1:
+<{src_lang} source> NASA's Kepler mission has discovered thousands of potential planets around other stars, indicating that Earth is but one of billions of planets in our galaxy.
+<{tgt_lang} translation> Die Kepler-Mission der US-amerikanischen Nationalen Luft- und Raumfahrtbehörde hat Tausende potenzieller Planeten um andere Sterne entdeckt, was darauf hindeutet, dass die Erde nur einer von Milliarden Planeten in unserer Galaxie ist.
+<Proper nouns> "NASA" - "US-amerikanischen Nationalen Luft- und Raumfahrtbehörde", "Kepler mission" - "Kepler-Mission", "Earth" - "Erde"
+
+Example 2:
+<{src_lang} source> I had just driven home,  it was around midnight in the dead of Montreal winter, I had been visiting my friend, Jeff, across town, and the thermometer on the front porch read minus 40 degrees -- and don't bother asking if that's Celsius or Fahrenheit, minus 40 is where the two scales meet -- it was very cold.
+<{tgt_lang} translation> Ich war gerade nach Hause gefahren, es war gegen Mitternacht mitten im tiefsten Winter in Montreal. Ich hatte meinen Freund Jeff auf der anderen Seite der Stadt besucht, und das Thermometer auf der Veranda zeigte minus 40 Grad an – und es spielt keine Rolle, ob das Celsius oder Fahrenheit ist, bei minus 40 treffen sich die beiden Skalen – es war sehr kalt.
+<Proper nouns> "Montreal" - "Montreal", "Jeff" - "Jeff", "Celsius" - "Celsius", "Fahrenheit" - "Fahrenheit"
+
+Example 3:
+<{src_lang} source> To make the case to the National Health Service that more resources were needed for autistic children and their families, Lorna and her colleague Judith Gould decided to do something that should have been done 30 years earlier.
+<{tgt_lang} translation> Um der Nationalen Gesundheitsdienstleistung darzulegen, dass mehr Ressourcen für autistische Kinder und ihre Familien benötigt wurden, beschlossen Lorna und ihre Kollegin Judith Gould, etwas zu tun, das eigentlich schon 30 Jahre früher hätte gemacht werden sollen.
+<Proper nouns> "National Health Service" - "Nationalen Gesundheitsdienstleistung darzulegen", "Lorna" - "Lorna", "Judith Gould" - "Judith Gould"
+
+If there isn't any proper noun in the sentence, just answer with "N/A". Now annotate all the proper nouns in the following sentence pair:
+<{src_lang} source> {src}
+<{tgt_lang} translation> {tgt}
+<Proper nouns> 

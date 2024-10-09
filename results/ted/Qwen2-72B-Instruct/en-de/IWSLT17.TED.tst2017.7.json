@@ -1,0 +1,2095 @@
+[
+    {
+        "idx": 0,
+        "src": "So I'm a neurosurgeon.",
+        "ref": "Ich bin Neurochirurgin.",
+        "hyp": "Also bin ich Neurochirurg.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 1,
+        "src": "And like most of my colleagues,  I have to deal, every day, with human tragedies.",
+        "ref": "Wie die meisten meiner Kollegen habe ich jeden Tag mit menschlichen Tragödien zu tun.",
+        "hyp": "Und wie die meisten meiner Kollegen muss ich mich jeden Tag mit menschlichen Tragödien auseinandersetzen.",
+        "rel_src": [
+            "So I'm a neurosurgeon."
+        ],
+        "rel_tgt": [
+            "Also bin ich Neurochirurg."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 2,
+        "src": "I realize how your life can change from one second to the other  after a major stroke or after a car accident.",
+        "ref": "Ich weiß, wie sich Ihr Leben von einer Sekunde auf die andere ändern kann, nach einem schweren Schlaganfall oder nach einem Autounfall.",
+        "hyp": "Ich erkenne, wie Ihr Leben von einer Sekunde zur anderen durch einen schweren Schlaganfall oder einen Autounfall verändern kann.",
+        "rel_src": [
+            "So I'm a neurosurgeon.",
+            "And like most of my colleagues,  I have to deal, every day, with human tragedies."
+        ],
+        "rel_tgt": [
+            "Also bin ich Neurochirurg.",
+            "Und wie die meisten meiner Kollegen muss ich mich jeden Tag mit menschlichen Tragödien auseinandersetzen."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 3,
+        "src": "And what is very frustrating for us neurosurgeons  is to realize that unlike other organs of the body,  the brain has very little ability for self-repair.",
+        "ref": "Für uns Neurochirurgen ist es sehr frustrierend, dass das Gehirn, im Gegensatz zu anderen Körperorganen, eine sehr geringe Fähigkeit zur Selbstheilung hat.",
+        "hyp": "Und was für uns Neurochirurgen sehr frustrierend ist, ist zu erkennen, dass im Gegensatz zu anderen Organen des Körpers das Gehirn kaum eigene Reparaturfähigkeiten hat.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 4,
+        "src": "And after a major injury of your central nervous system,  the patients often remain with a severe handicap.",
+        "ref": "Nach einer schweren Verletzung des zentralen Nervensystems haben die Patienten oft eine bleibende, schwere Behinderung.",
+        "hyp": "Und nach einer schweren Verletzung Ihres Zentralnervensystems bleiben die Patienten oft mit einer schweren Behinderung zurück.",
+        "rel_src": [
+            "I realize how your life can change from one second to the other  after a major stroke or after a car accident.",
+            "And what is very frustrating for us neurosurgeons  is to realize that unlike other organs of the body,  the brain has very little ability for self-repair."
+        ],
+        "rel_tgt": [
+            "Ich erkenne, wie Ihr Leben von einer Sekunde zur anderen durch einen schweren Schlaganfall oder einen Autounfall verändern kann.",
+            "Und was für uns Neurochirurgen sehr frustrierend ist, ist zu erkennen, dass im Gegensatz zu anderen Organen des Körpers das Gehirn kaum eigene Reparaturfähigkeiten hat."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 5,
+        "src": "And that's probably the reason why I've chosen  to be a functional neurosurgeon.",
+        "ref": "Das ist wohl der Grund, warum ich funktionelle Neurochirurgin wurde.",
+        "hyp": "Und das ist wahrscheinlich der Grund, warum ich mich entschieden habe, ein funktioneller Neurochirurg zu werden.",
+        "rel_src": [
+            "So I'm a neurosurgeon.",
+            "And what is very frustrating for us neurosurgeons  is to realize that unlike other organs of the body,  the brain has very little ability for self-repair."
+        ],
+        "rel_tgt": [
+            "Also bin ich Neurochirurg.",
+            "Und was für uns Neurochirurgen sehr frustrierend ist, ist zu erkennen, dass im Gegensatz zu anderen Organen des Körpers das Gehirn kaum eigene Reparaturfähigkeiten hat."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 6,
+        "src": "What is a functional neurosurgeon?",
+        "ref": "Was ist ein funktioneller Neurochirurg?",
+        "hyp": "Was ist ein funktioneller Neurochirurg?",
+        "rel_src": [
+            "So I'm a neurosurgeon.",
+            "And that's probably the reason why I've chosen  to be a functional neurosurgeon."
+        ],
+        "rel_tgt": [
+            "Also bin ich Neurochirurg.",
+            "Und das ist wahrscheinlich der Grund, warum ich mich entschieden habe, ein funktioneller Neurochirurg zu werden."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 7,
+        "src": "It's a doctor who is trying to improve a neurological function  through different surgical strategies.",
+        "ref": "Ein Arzt, der versucht, die Nervenfunktionen durch verschiedene chirurgischen Maßnahmen zu verbessern.",
+        "hyp": "Es ist ein Arzt, der versucht, eine neurologische Funktion durch verschiedene chirurgische Strategien zu verbessern.",
+        "rel_src": [
+            "And that's probably the reason why I've chosen  to be a functional neurosurgeon.",
+            "What is a functional neurosurgeon?"
+        ],
+        "rel_tgt": [
+            "Und das ist wahrscheinlich der Grund, warum ich mich entschieden habe, ein funktioneller Neurochirurg zu werden.",
+            "Was ist ein funktioneller Neurochirurg?"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 8,
+        "src": "You've certainly heard of one of the famous ones  called deep brain stimulation,  where you implant an electrode in the depths of the brain  in order to modulate a circuit of neurons  to improve a neurological function.",
+        "ref": "Sicher haben sie von einer der bekanntesten gehört, der \"Tiefenhirnstimulation\". Dabei implantiert man eine Elektrode tief im Gehirn, um die Schaltkreise der Neuronen so zu beeinflussen, dass sich die neurologische Funktion verbessert.",
+        "hyp": "Sie haben sicherlich von einer der berühmten Methoden gehört, die als Tieffenhirnstimulation bekannt ist, bei der Sie einen Elektroden im tiefen Inneren des Gehirns implantieren, um einen Neuronenkreis zu modulieren und so eine neurologische Funktion zu verbessern.",
+        "rel_src": [
+            "And that's probably the reason why I've chosen  to be a functional neurosurgeon.",
+            "It's a doctor who is trying to improve a neurological function  through different surgical strategies."
+        ],
+        "rel_tgt": [
+            "Und das ist wahrscheinlich der Grund, warum ich mich entschieden habe, ein funktioneller Neurochirurg zu werden.",
+            "Es ist ein Arzt, der versucht, eine neurologische Funktion durch verschiedene chirurgische Strategien zu verbessern."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 9,
+        "src": "It's really an amazing technology  in that it has improved the destiny of patients  with Parkinson's disease,  with severe tremor, with severe pain.",
+        "ref": "Es ist wirklich eine erstaunliche Technologie. Sie hat das Schicksal von Patienten mit Parkinson verbessert, die unter heftigem Zittern und schweren Schmerzen litten.",
+        "hyp": "Es ist wirklich eine erstaunliche Technologie, da sie das Schicksal von Patienten verbessert hat, die an Parkinson leiden, mit schwerem Zittern, mit starkem Schmerz.",
+        "rel_src": [
+            "It's a doctor who is trying to improve a neurological function  through different surgical strategies.",
+            "You've certainly heard of one of the famous ones  called deep brain stimulation,  where you implant an electrode in the depths of the brain  in order to modulate a circuit of neurons  to improve a neurological function."
+        ],
+        "rel_tgt": [
+            "Es ist ein Arzt, der versucht, eine neurologische Funktion durch verschiedene chirurgische Strategien zu verbessern.",
+            "Sie haben sicherlich von einer der berühmten Methoden gehört, die als Tieffenhirnstimulation bekannt ist, bei der Sie einen Elektroden im tiefen Inneren des Gehirns implantieren, um einen Neuronenkreis zu modulieren und so eine neurologische Funktion zu verbessern."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 10,
+        "src": "However, neuromodulation does not mean neuro-repair.",
+        "ref": "Neuromodulation jedoch bedeutet nicht Neuro-Heilung.",
+        "hyp": "Allerdings bedeutet Neuromodulation nicht Neuro-Reparatur.",
+        "rel_src": [
+            "And what is very frustrating for us neurosurgeons  is to realize that unlike other organs of the body,  the brain has very little ability for self-repair.",
+            "You've certainly heard of one of the famous ones  called deep brain stimulation,  where you implant an electrode in the depths of the brain  in order to modulate a circuit of neurons  to improve a neurological function."
+        ],
+        "rel_tgt": [
+            "Und was für uns Neurochirurgen sehr frustrierend ist, ist zu erkennen, dass im Gegensatz zu anderen Organen des Körpers das Gehirn kaum eigene Reparaturfähigkeiten hat.",
+            "Sie haben sicherlich von einer der berühmten Methoden gehört, die als Tieffenhirnstimulation bekannt ist, bei der Sie einen Elektroden im tiefen Inneren des Gehirns implantieren, um einen Neuronenkreis zu modulieren und so eine neurologische Funktion zu verbessern."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 11,
+        "src": "And the dream of functional neurosurgeons  is to repair the brain.",
+        "ref": "Der Traum funktionaler Neurochirurgen ist die Wiederherstellung des Gehirns.",
+        "hyp": "Und der Traum der funktionalen Neurochirurgen ist es, das Gehirn zu reparieren.",
+        "rel_src": [
+            "And that's probably the reason why I've chosen  to be a functional neurosurgeon.",
+            "You've certainly heard of one of the famous ones  called deep brain stimulation,  where you implant an electrode in the depths of the brain  in order to modulate a circuit of neurons  to improve a neurological function."
+        ],
+        "rel_tgt": [
+            "Und das ist wahrscheinlich der Grund, warum ich mich entschieden habe, ein funktioneller Neurochirurg zu werden.",
+            "Sie haben sicherlich von einer der berühmten Methoden gehört, die als Tieffenhirnstimulation bekannt ist, bei der Sie einen Elektroden im tiefen Inneren des Gehirns implantieren, um einen Neuronenkreis zu modulieren und so eine neurologische Funktion zu verbessern."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 12,
+        "src": "I think  that we are approaching this dream.",
+        "ref": "Meiner Meinung nach nähern wir uns diesem Traum.",
+        "hyp": "Ich denke, dass wir diesem Traum nahekomen.",
+        "rel_src": [
+            "However, neuromodulation does not mean neuro-repair.",
+            "And the dream of functional neurosurgeons  is to repair the brain."
+        ],
+        "rel_tgt": [
+            "Allerdings bedeutet Neuromodulation nicht Neuro-Reparatur.",
+            "Und der Traum der funktionalen Neurochirurgen ist es, das Gehirn zu reparieren."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 13,
+        "src": "And I would like to show you  that we are very close to this.",
+        "ref": "Ich möchte Ihnen zeigen, dass wir sehr nahe dran sind.",
+        "hyp": "Und ich möchte Ihnen zeigen, dass wir sehr nahe daran sind.",
+        "rel_src": [
+            "And the dream of functional neurosurgeons  is to repair the brain.",
+            "I think  that we are approaching this dream."
+        ],
+        "rel_tgt": [
+            "Und der Traum der funktionalen Neurochirurgen ist es, das Gehirn zu reparieren.",
+            "Ich denke, dass wir diesem Traum nahekomen."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 14,
+        "src": "And that with a little bit of help,  the brain is able to help itself.",
+        "ref": "Mit etwas Hilfe kann das Gehirn sich selbst helfen.",
+        "hyp": "Und dass mit ein wenig Hilfe das Gehirn in der Lage ist, sich selbst zu helfen.",
+        "rel_src": [
+            "And what is very frustrating for us neurosurgeons  is to realize that unlike other organs of the body,  the brain has very little ability for self-repair.",
+            "And the dream of functional neurosurgeons  is to repair the brain."
+        ],
+        "rel_tgt": [
+            "Und was für uns Neurochirurgen sehr frustrierend ist, ist zu erkennen, dass im Gegensatz zu anderen Organen des Körpers das Gehirn kaum eigene Reparaturfähigkeiten hat.",
+            "Und der Traum der funktionalen Neurochirurgen ist es, das Gehirn zu reparieren."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 15,
+        "src": "So the story started 15 years ago.",
+        "ref": "Die Geschichte begann vor 15 Jahren.",
+        "hyp": "Also begann die Geschichte vor 15 Jahren.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 16,
+        "src": "At that time, I was a chief resident  working days and nights in the emergency room.",
+        "ref": "Zu der Zeit war ich leitende Oberärztin und arbeitete Tag und Nacht in der Notaufnahme.",
+        "hyp": "Zu dieser Zeit war ich Oberarzt und arbeitete Tag und Nacht im Notfallzimmer.",
+        "rel_src": [
+            "And like most of my colleagues,  I have to deal, every day, with human tragedies.",
+            "I realize how your life can change from one second to the other  after a major stroke or after a car accident."
+        ],
+        "rel_tgt": [
+            "Und wie die meisten meiner Kollegen muss ich mich jeden Tag mit menschlichen Tragödien auseinandersetzen.",
+            "Ich erkenne, wie Ihr Leben von einer Sekunde zur anderen durch einen schweren Schlaganfall oder einen Autounfall verändern kann."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 17,
+        "src": "I often had to take care of patients with head trauma.",
+        "ref": "Oft versorgte ich Patienten mit Schädel-Hirn-Trauma.",
+        "hyp": "Ich musste oft um Patienten mit Hirntrauma kümmern.",
+        "rel_src": [
+            "And like most of my colleagues,  I have to deal, every day, with human tragedies.",
+            "And after a major injury of your central nervous system,  the patients often remain with a severe handicap."
+        ],
+        "rel_tgt": [
+            "Und wie die meisten meiner Kollegen muss ich mich jeden Tag mit menschlichen Tragödien auseinandersetzen.",
+            "Und nach einer schweren Verletzung Ihres Zentralnervensystems bleiben die Patienten oft mit einer schweren Behinderung zurück."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 18,
+        "src": "You have to imagine that when a patient comes in with a severe head trauma,  his brain is swelling  and he's increasing his intracranial pressure.",
+        "ref": "Sie müssen sich vorstellen, dass bei Schädel-Hirn-Traumata das Gehirn anschwillt und der Schädelinnendruck ansteigt.",
+        "hyp": "Man muss sich vorstellen, dass bei einem Patienten mit schwerem Hirntrauma das Gehirn anschwillt und der intrakranielle Druck steigt.",
+        "rel_src": [
+            "And like most of my colleagues,  I have to deal, every day, with human tragedies.",
+            "I often had to take care of patients with head trauma."
+        ],
+        "rel_tgt": [
+            "Und wie die meisten meiner Kollegen muss ich mich jeden Tag mit menschlichen Tragödien auseinandersetzen.",
+            "Ich musste oft um Patienten mit Hirntrauma kümmern."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 19,
+        "src": "And in order to save his life,  you have to decrease this intracranial pressure.",
+        "ref": "Um das Leben zu retten, muss man den Schädelinnendruck vermindern.",
+        "hyp": "Und um sein Leben zu retten, muss man diesen intrakraniellen Druck senken.",
+        "new_src_summary": "The paragraph discusses the perspective of a neurosurgeon who specializes in functional neurosurgery, which aims to enhance neurological function through various surgical techniques. The author highlights the frustration experienced by neurosurgeons due to the brain's limited capacity for self-repair following significant injuries, such as strokes or car accidents, which often leave patients with severe disabilities. The text mentions deep brain stimulation as a notable technique that has significantly benefited patients suffering from conditions like Parkinson's disease, severe tremors, and chronic pain. However, the ultimate goal of functional neurosurgeons is to achieve neuro-repair, or the restoration of damaged brain tissue. The author suggests that this dream is becoming increasingly attainable, alluding to the brain's potential for self-help with some assistance. The narrative begins with the author's experience as a chief resident managing cases of head trauma, emphasizing the critical condition of patients whose brains swell and intracranial pressure rises.\n\nDomain: Medicine/Neurosurgery\nStyle: Personal narrative/expository\nTone: Reflective, informative, and hopeful",
+        "new_tgt_summary": "Der Autor ist ein Neurochirurg, der täglich mit menschlichen Tragödien konfrontiert wird, insbesondere mit plötzlichen Lebensveränderungen durch Schlaganfälle oder Unfälle. Er betont die Frustration seiner Berufsgruppe über die geringe Selbstreparaturfähigkeit des Gehirns im Vergleich zu anderen Organen, was oft zu schweren Behinderungen führt. Dies motivierte ihn, sich auf die funktionelle Neurochirurgie zu spezialisieren, deren Ziel es ist, durch chirurgische Strategien neurologische Funktionen zu verbessern. Eine bekannte Methode dafür ist die Tieffenhirnstimulation, welche die Lebensqualität von Patienten mit Krankheiten wie Parkinson verbessert. Trotzdem unterscheidet sich Neuromodulation von Neu-roreparatur, und der Traum der funktionalen Neurochirurgen ist es, das Gehirn tatsächlich zu reparieren. Nach Ansicht des Autors rücken sie diesem Traum immer näher, da das Gehirn unter gewissen Umständen in der Lage ist, sich selbst zu helfen. Diese Einsicht stammt aus seiner Erfahrung als Oberarzt vor 15 Jahren, wo er oft mit Patienten mit schwerem Hirntrauma konfrontiert war, bei denen der intrakranielle Druck steigt.",
+        "rel_src": [
+            "I often had to take care of patients with head trauma.",
+            "You have to imagine that when a patient comes in with a severe head trauma,  his brain is swelling  and he's increasing his intracranial pressure."
+        ],
+        "rel_tgt": [
+            "Ich musste oft um Patienten mit Hirntrauma kümmern.",
+            "Man muss sich vorstellen, dass bei einem Patienten mit schwerem Hirntrauma das Gehirn anschwillt und der intrakranielle Druck steigt."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 20,
+        "src": "you sometimes have to remove a piece of swollen brain.",
+        "ref": "Dafür muss man manchmal einen Teil geschwollener Hirnmasse entfernen.",
+        "hyp": "manchmal muss man einen Teil des angeschwellenen Gehirns entfernen.",
+        "rel_src": [
+            "You have to imagine that when a patient comes in with a severe head trauma,  his brain is swelling  and he's increasing his intracranial pressure.",
+            "And in order to save his life,  you have to decrease this intracranial pressure."
+        ],
+        "rel_tgt": [
+            "Man muss sich vorstellen, dass bei einem Patienten mit schwerem Hirntrauma das Gehirn anschwillt und der intrakranielle Druck steigt.",
+            "Und um sein Leben zu retten, muss man diesen intrakraniellen Druck senken."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 21,
+        "src": "So instead of throwing away these pieces of swollen brain,  we decided with Jean-François Brunet,  who is a colleague of mine, a biologist,  to study them.",
+        "ref": "Anstatt die geschwollene Hirnmasse wegzuwerfen, entschlossen wir uns mit Jean-François Brunet, einem meiner Kollegen, ein Biologe, die Hirnmasse zu analysieren.",
+        "hyp": "Stattdessen entschieden wir uns, diese Stücke des angeschwellenen Gehirns nicht wegzuwerfen, sondern sie zusammen mit Jean-François Brunet, einem Kollegen von mir, einem Biologen, zu studieren.",
+        "rel_src": [
+            "You have to imagine that when a patient comes in with a severe head trauma,  his brain is swelling  and he's increasing his intracranial pressure.",
+            "you sometimes have to remove a piece of swollen brain."
+        ],
+        "rel_tgt": [
+            "Man muss sich vorstellen, dass bei einem Patienten mit schwerem Hirntrauma das Gehirn anschwillt und der intrakranielle Druck steigt.",
+            "manchmal muss man einen Teil des angeschwellenen Gehirns entfernen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet"
+        }
+    },
+    {
+        "idx": 22,
+        "src": "What do I mean by that?",
+        "ref": "Was meine ich damit?",
+        "hyp": "Was meine ich damit?",
+        "rel_src": [
+            "What is a functional neurosurgeon?",
+            "It's a doctor who is trying to improve a neurological function  through different surgical strategies."
+        ],
+        "rel_tgt": [
+            "Was ist ein funktioneller Neurochirurg?",
+            "Es ist ein Arzt, der versucht, eine neurologische Funktion durch verschiedene chirurgische Strategien zu verbessern."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet"
+        }
+    },
+    {
+        "idx": 23,
+        "src": "We wanted to grow cells from these pieces of tissue.",
+        "ref": "Wir wollten Zellen aus diesem Gewebe wachsen lassen.",
+        "hyp": "Wir wollten Zellen aus diesen Gewebestücken züchten.",
+        "rel_src": [
+            "So instead of throwing away these pieces of swollen brain,  we decided with Jean-François Brunet,  who is a colleague of mine, a biologist,  to study them.",
+            "What do I mean by that?"
+        ],
+        "rel_tgt": [
+            "Stattdessen entschieden wir uns, diese Stücke des angeschwellenen Gehirns nicht wegzuwerfen, sondern sie zusammen mit Jean-François Brunet, einem Kollegen von mir, einem Biologen, zu studieren.",
+            "Was meine ich damit?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet"
+        }
+    },
+    {
+        "idx": 24,
+        "src": "It's not an easy task.",
+        "ref": "Das ist keine leichte Aufgabe.",
+        "hyp": "Es ist keine leichte Aufgabe.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet"
+        }
+    },
+    {
+        "idx": 25,
+        "src": "Growing cells from a piece of tissue  is a bit the same as growing very small children  out from their family.",
+        "ref": "Zellen von einem Gewebestück wachsen zu lassen, ist vergleichbar mit ganz kleinen Kindern, die aus Ihren Familien herausgenommen werden.",
+        "hyp": "Zellen aus einem Gewebestück zu züchten, ist ein bisschen wie sehr kleine Kinder aus ihrer Familie herauszuziehen.",
+        "rel_src": [
+            "What do I mean by that?",
+            "We wanted to grow cells from these pieces of tissue."
+        ],
+        "rel_tgt": [
+            "Was meine ich damit?",
+            "Wir wollten Zellen aus diesen Gewebestücken züchten."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet"
+        }
+    },
+    {
+        "idx": 26,
+        "src": "So you need to find the right nutrients,  the warmth, the humidity  and all the nice environments to make them thrive.",
+        "ref": "Man muss die richtige Ernährung, Temperatur, Feuchtigkeit und die Umgebungen finden, um sie gedeihen zu lassen.",
+        "hyp": "Daher müssen Sie die richtigen Nährstoffe, die Wärme, die Luftfeuchtigkeit und alle angenehmen Umgebungen finden, um sie gedeihen zu lassen.",
+        "rel_src": [
+            "We wanted to grow cells from these pieces of tissue.",
+            "Growing cells from a piece of tissue  is a bit the same as growing very small children  out from their family."
+        ],
+        "rel_tgt": [
+            "Wir wollten Zellen aus diesen Gewebestücken züchten.",
+            "Zellen aus einem Gewebestück zu züchten, ist ein bisschen wie sehr kleine Kinder aus ihrer Familie herauszuziehen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet"
+        }
+    },
+    {
+        "idx": 27,
+        "src": "So that's exactly what we had to do with these cells.",
+        "ref": "Genau das mussten wir mit diesen Zellen machen.",
+        "hyp": "Das war also genau das, was wir mit diesen Zellen tun mussten.",
+        "rel_src": [
+            "We wanted to grow cells from these pieces of tissue.",
+            "It's not an easy task."
+        ],
+        "rel_tgt": [
+            "Wir wollten Zellen aus diesen Gewebestücken züchten.",
+            "Es ist keine leichte Aufgabe."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet"
+        }
+    },
+    {
+        "idx": 28,
+        "src": "And after many attempts,  Jean-François did it.",
+        "ref": "Nach vielen Versuchen schaffte es Jean-François.",
+        "hyp": "Nach vielen Versuchen schaffte es Jean-François.",
+        "rel_src": [
+            "So instead of throwing away these pieces of swollen brain,  we decided with Jean-François Brunet,  who is a colleague of mine, a biologist,  to study them.",
+            "We wanted to grow cells from these pieces of tissue."
+        ],
+        "rel_tgt": [
+            "Stattdessen entschieden wir uns, diese Stücke des angeschwellenen Gehirns nicht wegzuwerfen, sondern sie zusammen mit Jean-François Brunet, einem Kollegen von mir, einem Biologen, zu studieren.",
+            "Wir wollten Zellen aus diesen Gewebestücken züchten."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François"
+        }
+    },
+    {
+        "idx": 29,
+        "src": "And that's what he saw under his microscope.",
+        "ref": "Das sah er unter seinem Mikroskop.",
+        "hyp": "Und das war, was er unter seinem Mikroskop sah.",
+        "rel_src": [
+            "So that's exactly what we had to do with these cells.",
+            "And after many attempts,  Jean-François did it."
+        ],
+        "rel_tgt": [
+            "Das war also genau das, was wir mit diesen Zellen tun mussten.",
+            "Nach vielen Versuchen schaffte es Jean-François."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François"
+        }
+    },
+    {
+        "idx": 30,
+        "src": "And that was, for us, a major surprise.",
+        "ref": "Das war für uns eine große Überraschung.",
+        "hyp": "Und das war für uns eine große Überraschung.",
+        "rel_src": [
+            "And after many attempts,  Jean-François did it.",
+            "And that's what he saw under his microscope."
+        ],
+        "rel_tgt": [
+            "Nach vielen Versuchen schaffte es Jean-François.",
+            "Und das war, was er unter seinem Mikroskop sah."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François"
+        }
+    },
+    {
+        "idx": 31,
+        "src": "Why?",
+        "ref": "Warum?",
+        "hyp": "Warum?",
+        "rel_src": [
+            "And after many attempts,  Jean-François did it.",
+            "And that's what he saw under his microscope."
+        ],
+        "rel_tgt": [
+            "Nach vielen Versuchen schaffte es Jean-François.",
+            "Und das war, was er unter seinem Mikroskop sah."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François"
+        }
+    },
+    {
+        "idx": 32,
+        "src": "Because this looks exactly the same as a stem cell culture,  with large green cells surrounding small, immature cells.",
+        "ref": "Es sah genau so aus wie eine Stammzellenkultur. Mit großen grünen Zellen, die von kleinen, unreifen Zellen umgeben sind.",
+        "hyp": "Denn dies sieht genauso aus wie eine Stammzellkultur, mit großen grünen Zellen, die kleine, unreife Zellen umgeben.",
+        "rel_src": [
+            "And that's what he saw under his microscope.",
+            "And that was, for us, a major surprise."
+        ],
+        "rel_tgt": [
+            "Und das war, was er unter seinem Mikroskop sah.",
+            "Und das war für uns eine große Überraschung."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François"
+        }
+    },
+    {
+        "idx": 33,
+        "src": "And you may remember from biology class  that stem cells are immature cells,  able to turn into any type of cell of the body.",
+        "ref": "Vielleicht wissen Sie noch aus dem Biologieunterricht, dass Stammzellen unreife Zellen sind, die sich in jeden Zelltyp des Organismus verwandeln können.",
+        "hyp": "Und ihr werdet euch vielleicht aus dem Biologieunterricht erinnern, dass Stammzellen unreife Zellen sind, die sich in jede Zellart des Körpers verwandeln können.",
+        "rel_src": [
+            "Why?",
+            "Because this looks exactly the same as a stem cell culture,  with large green cells surrounding small, immature cells."
+        ],
+        "rel_tgt": [
+            "Warum?",
+            "Denn dies sieht genauso aus wie eine Stammzellkultur, mit großen grünen Zellen, die kleine, unreife Zellen umgeben."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François"
+        }
+    },
+    {
+        "idx": 34,
+        "src": "The adult brain has stem cells, but they're very rare  and they're located in deep and small niches  in the depths of the brain.",
+        "ref": "Das erwachsene Gehirn hat Stammzellen, aber sehr wenige. Sie sind in tiefen, kleinen Nischen des Gehirns verborgen.",
+        "hyp": "Das erwachsene Gehirn hat Stammzellen, aber sie sind sehr selten und befinden sich in tiefen und kleinen Nischen im Innersten des Gehirns.",
+        "rel_src": [
+            "Because this looks exactly the same as a stem cell culture,  with large green cells surrounding small, immature cells.",
+            "And you may remember from biology class  that stem cells are immature cells,  able to turn into any type of cell of the body."
+        ],
+        "rel_tgt": [
+            "Denn dies sieht genauso aus wie eine Stammzellkultur, mit großen grünen Zellen, die kleine, unreife Zellen umgeben.",
+            "Und ihr werdet euch vielleicht aus dem Biologieunterricht erinnern, dass Stammzellen unreife Zellen sind, die sich in jede Zellart des Körpers verwandeln können."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François"
+        }
+    },
+    {
+        "idx": 35,
+        "src": "So it was surprising to get this kind of stem cell culture  from the superficial part of swollen brain we had  in the operating theater.",
+        "ref": "Es ist überraschend, diese Art von Stammzellen aus dem Oberflächengewebe der Hirnmasse in der OP zu erhalten.",
+        "hyp": "Es war daher überraschend, diese Art von Stammzellkultur aus dem oberflächlichen Teil des angeschwollenen Gehirns zu erhalten, das wir im Operationssaal hatten.",
+        "rel_src": [
+            "And that was, for us, a major surprise.",
+            "Because this looks exactly the same as a stem cell culture,  with large green cells surrounding small, immature cells."
+        ],
+        "rel_tgt": [
+            "Und das war für uns eine große Überraschung.",
+            "Denn dies sieht genauso aus wie eine Stammzellkultur, mit großen grünen Zellen, die kleine, unreife Zellen umgeben."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François"
+        }
+    },
+    {
+        "idx": 36,
+        "src": "And there was another intriguing observation:  Regular stem cells are very active cells --  cells that divide, divide, divide very quickly.",
+        "ref": "Wir machten eine weitere faszinierende Beobachtung: Normale Stammzellen sind sehr aktiv -- sie teilen sich sehr schnell.",
+        "hyp": "Und es gab eine weitere faszinierende Beobachtung: Reguläre Stammzellen sind sehr aktive Zellen - Zellen, die sich schnell teilen, teilen, teilen.",
+        "rel_src": [
+            "Because this looks exactly the same as a stem cell culture,  with large green cells surrounding small, immature cells.",
+            "And you may remember from biology class  that stem cells are immature cells,  able to turn into any type of cell of the body."
+        ],
+        "rel_tgt": [
+            "Denn dies sieht genauso aus wie eine Stammzellkultur, mit großen grünen Zellen, die kleine, unreife Zellen umgeben.",
+            "Und ihr werdet euch vielleicht aus dem Biologieunterricht erinnern, dass Stammzellen unreife Zellen sind, die sich in jede Zellart des Körpers verwandeln können."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François"
+        }
+    },
+    {
+        "idx": 37,
+        "src": "And they never die, they're immortal cells.",
+        "ref": "Sie sterben nie, sie sind unsterblich.",
+        "hyp": "Und sie sterben nie, sie sind unsterbliche Zellen.",
+        "rel_src": [
+            "And you may remember from biology class  that stem cells are immature cells,  able to turn into any type of cell of the body.",
+            "And there was another intriguing observation:  Regular stem cells are very active cells --  cells that divide, divide, divide very quickly."
+        ],
+        "rel_tgt": [
+            "Und ihr werdet euch vielleicht aus dem Biologieunterricht erinnern, dass Stammzellen unreife Zellen sind, die sich in jede Zellart des Körpers verwandeln können.",
+            "Und es gab eine weitere faszinierende Beobachtung: Reguläre Stammzellen sind sehr aktive Zellen - Zellen, die sich schnell teilen, teilen, teilen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François"
+        }
+    },
+    {
+        "idx": 38,
+        "src": "But these cells behave differently.",
+        "ref": "Aber diese Zellen verhielten sich anders.",
+        "hyp": "Aber diese Zellen verhalten sich anders.",
+        "rel_src": [
+            "And there was another intriguing observation:  Regular stem cells are very active cells --  cells that divide, divide, divide very quickly.",
+            "And they never die, they're immortal cells."
+        ],
+        "rel_tgt": [
+            "Und es gab eine weitere faszinierende Beobachtung: Reguläre Stammzellen sind sehr aktive Zellen - Zellen, die sich schnell teilen, teilen, teilen.",
+            "Und sie sterben nie, sie sind unsterbliche Zellen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François"
+        }
+    },
+    {
+        "idx": 39,
+        "src": "They divide slowly,  and after a few weeks of culture,  they even died.",
+        "ref": "Sie teilten sich langsam und nach ein paar Wochen starben sie sogar.",
+        "hyp": "Sie teilen sich langsam und sterben nach einigen Wochen in Kultur sogar ab.",
+        "new_src_summary": "The merged summary retains the key information from both paragraphs while preserving the domain, style, and tone:\n\nIn a reflective and informative narrative, a neurosurgeon specializing in functional neurosurgery shares the frustration faced by practitioners when dealing with the brain's limited self-repair capabilities after significant injuries, such as strokes or car accidents, which often result in severe patient disabilities. Highlighting deep brain stimulation as a successful technique for treating conditions like Parkinson's disease, severe tremors, and chronic pain, the author expresses hope for achieving the ultimate goal of neuro-repair, or restoring damaged brain tissue. This dream seems increasingly attainable, thanks to recent research led by Jean-François Brunet and the narrator, which discovered stem cell-like cultures from discarded pieces of swollen brain tissue removed during surgeries to decrease intracranial pressure. After numerous trials, the researchers cultivated cells resembling stem cell cultures, featuring large green cells encircling smaller, immature ones. This finding was surprising, as stem cells are usually rare in the adult brain and confined to specific areas. The unique behavior of these cells, differing from typical rapidly dividing, immortal stem cells, adds to the significance of the discovery. In a neutral yet detailed scientific tone, the author emphasizes the potential of this breakthrough for advancing neuro-repair techniques and improving outcomes for patients with neurological damage.",
+        "new_tgt_summary": "Der autorisierende Neurochirurg, regelmäßig Zeuge menschlicher Tragödien und plötzlicher Lebensveränderungen durch Schlaganfälle oder Unfälle, äußert Frustration über das geringe Regenerationspotential des menschlichen Gehirns, im Gegensatz zu anderen Organen. Diese Erkenntnis motivierte ihn zur Spezialisierung auf funktionelle Neurochirurgie, insbesondere die Tieffenhirnstimulation, um neurologische Funktionen chirurgisch zu verbessern und die Lebensqualität von Patienten mit Krankheiten wie Parkinson zu erhöhen. Trotz dieser Fortschritte bleibt der ultimative Traum die tatsächliche Reparatur des Gehirns. Dieser Wunsch wurde durch seine Erfahrungen als Oberarzt vor 15 Jahren bestärkt, als er häufig Patienten mit schwerem Hirntrauma und gestiegenem intrakraniellen Druck behandelte. In einem solchen Fall half er Jean-François Brunet, Gewebe aus dem angeschwellenen Gehirn eines Patienten zu untersuchen und Zellen zu kultivieren - eine schwierige Aufgabe, ähnlich der Erziehung kleiner Kinder ohne Familie. Erstaunlicherweise schaffte es Brunet, diese Zellen zu kultivieren und dabei seltene Stammzellen zu entdecken, die sich in jede Zellart des Körpers entwickeln können. Diese Zellen zeigten jedoch ein ungewöhnliches Verhalten im Vergleich zu typischen Stammzellen, die sich schnell vermehren und unsterblich sind. Diese Entdeckung bringt den Traum der funktionalen Reparatur des Gehirns näher.",
+        "rel_src": [
+            "And they never die, they're immortal cells.",
+            "But these cells behave differently."
+        ],
+        "rel_tgt": [
+            "Und sie sterben nie, sie sind unsterbliche Zellen.",
+            "Aber diese Zellen verhalten sich anders."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François"
+        }
+    },
+    {
+        "idx": 40,
+        "src": "So we were in front of a strange new cell population  that looked like stem cells but behaved differently.",
+        "ref": "Wir sahen also eine neue, seltsame Zellpopulation, die wie Stammzellen aussah, sich aber anders verhielt.",
+        "hyp": "Wir standen also vor einer seltsamen, neuen Zellpopulation, die wie Stammzellen aussah, sich aber anders verhielt.",
+        "rel_src": [
+            "Because this looks exactly the same as a stem cell culture,  with large green cells surrounding small, immature cells.",
+            "And there was another intriguing observation:  Regular stem cells are very active cells --  cells that divide, divide, divide very quickly."
+        ],
+        "rel_tgt": [
+            "Denn dies sieht genauso aus wie eine Stammzellkultur, mit großen grünen Zellen, die kleine, unreife Zellen umgeben.",
+            "Und es gab eine weitere faszinierende Beobachtung: Reguläre Stammzellen sind sehr aktive Zellen - Zellen, die sich schnell teilen, teilen, teilen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François"
+        }
+    },
+    {
+        "idx": 41,
+        "src": "And it took us a long time to understand where they came from.",
+        "ref": "Wir brauchten lange, um zu verstehen, woher sie kamen.",
+        "hyp": "Und es dauerte lange, bis wir verstanden haben, woher sie kommen.",
+        "rel_src": [
+            "And after many attempts,  Jean-François did it.",
+            "And that was, for us, a major surprise."
+        ],
+        "rel_tgt": [
+            "Nach vielen Versuchen schaffte es Jean-François.",
+            "Und das war für uns eine große Überraschung."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François"
+        }
+    },
+    {
+        "idx": 42,
+        "src": "They come from these cells.",
+        "ref": "Sie stammen von diesen Zellen.",
+        "hyp": "Sie kommen von diesen Zellen.",
+        "rel_src": [
+            "So that's exactly what we had to do with these cells.",
+            "And it took us a long time to understand where they came from."
+        ],
+        "rel_tgt": [
+            "Das war also genau das, was wir mit diesen Zellen tun mussten.",
+            "Und es dauerte lange, bis wir verstanden haben, woher sie kommen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François"
+        }
+    },
+    {
+        "idx": 43,
+        "src": "These blue and red cells are called doublecortin-positive cells.",
+        "ref": "Diese blauen und roten Zellen heißen Doublecortin-positive Zellen.",
+        "hyp": "Diese blauen und roten Zellen werden Doublecortin- positive Zellen genannt.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen"
+        }
+    },
+    {
+        "idx": 44,
+        "src": "All of you have them in your brain.",
+        "ref": "Wir alle haben sie in unserem Gehirn.",
+        "hyp": "Alle von euch habt sie in eurem Gehirn.",
+        "rel_src": [
+            "The adult brain has stem cells, but they're very rare  and they're located in deep and small niches  in the depths of the brain.",
+            "So it was surprising to get this kind of stem cell culture  from the superficial part of swollen brain we had  in the operating theater."
+        ],
+        "rel_tgt": [
+            "Das erwachsene Gehirn hat Stammzellen, aber sie sind sehr selten und befinden sich in tiefen und kleinen Nischen im Innersten des Gehirns.",
+            "Es war daher überraschend, diese Art von Stammzellkultur aus dem oberflächlichen Teil des angeschwollenen Gehirns zu erhalten, das wir im Operationssaal hatten."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen"
+        }
+    },
+    {
+        "idx": 45,
+        "src": "They represent four percent of your cortical brain cells.",
+        "ref": "Sie machen 4 % unserer Großhirnrindenzellen aus.",
+        "hyp": "Sie stellen vier Prozent eurer kortikalen Hirnzellen dar.",
+        "rel_src": [
+            "They come from these cells.",
+            "These blue and red cells are called doublecortin-positive cells."
+        ],
+        "rel_tgt": [
+            "Sie kommen von diesen Zellen.",
+            "Diese blauen und roten Zellen werden Doublecortin- positive Zellen genannt."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen"
+        }
+    },
+    {
+        "idx": 46,
+        "src": "They have a very important role during the development stage.",
+        "ref": "Sie spielen eine sehr wichtige Rolle in unserer Entwicklung.",
+        "hyp": "Sie spielen während der Entwicklungsphase eine sehr wichtige Rolle.",
+        "rel_src": [
+            "These blue and red cells are called doublecortin-positive cells.",
+            "All of you have them in your brain."
+        ],
+        "rel_tgt": [
+            "Diese blauen und roten Zellen werden Doublecortin- positive Zellen genannt.",
+            "Alle von euch habt sie in eurem Gehirn."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen"
+        }
+    },
+    {
+        "idx": 47,
+        "src": "When you were fetuses,  they helped your brain to fold itself.",
+        "ref": "Im Stadium des Fötus sorgen sie für die Faltung des Gehirns.",
+        "hyp": "Als ihr noch Föten wart, halfen sie eurem Gehirn, sich selbst zu falten.",
+        "rel_src": [
+            "These blue and red cells are called doublecortin-positive cells.",
+            "They have a very important role during the development stage."
+        ],
+        "rel_tgt": [
+            "Diese blauen und roten Zellen werden Doublecortin- positive Zellen genannt.",
+            "Sie spielen während der Entwicklungsphase eine sehr wichtige Rolle."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen"
+        }
+    },
+    {
+        "idx": 48,
+        "src": "But why do they stay in your head?",
+        "ref": "Aber warum bleiben sie uns erhalten?",
+        "hyp": "Aber warum bleiben sie in deinem Kopf?",
+        "rel_src": [
+            "They represent four percent of your cortical brain cells.",
+            "They have a very important role during the development stage."
+        ],
+        "rel_tgt": [
+            "Sie stellen vier Prozent eurer kortikalen Hirnzellen dar.",
+            "Sie spielen während der Entwicklungsphase eine sehr wichtige Rolle."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen"
+        }
+    },
+    {
+        "idx": 49,
+        "src": "This, we don't know.",
+        "ref": "Das wissen wir nicht.",
+        "hyp": "Dieses, wir wissen es nicht. ",
+        "rel_src": [
+            "So we were in front of a strange new cell population  that looked like stem cells but behaved differently.",
+            "And it took us a long time to understand where they came from."
+        ],
+        "rel_tgt": [
+            "Wir standen also vor einer seltsamen, neuen Zellpopulation, die wie Stammzellen aussah, sich aber anders verhielt.",
+            "Und es dauerte lange, bis wir verstanden haben, woher sie kommen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen"
+        }
+    },
+    {
+        "idx": 50,
+        "src": "We think that they may participate in brain repair  because we find them in higher concentration  close to brain lesions.",
+        "ref": "Wir glauben, dass sie sich an der Heilung des Gehirns beteiligen, da wir sie in höheren Konzentrationen nahe an Gehirnverletzungen finden.",
+        "hyp": "Wir vermuten, dass sie am Gehirnreparaturprozess beteiligt sein könnten, da wir sie in höherer Konzentration in der Nähe von Gehirnschäden finden.",
+        "rel_src": [
+            "So it was surprising to get this kind of stem cell culture  from the superficial part of swollen brain we had  in the operating theater.",
+            "So we were in front of a strange new cell population  that looked like stem cells but behaved differently."
+        ],
+        "rel_tgt": [
+            "Es war daher überraschend, diese Art von Stammzellkultur aus dem oberflächlichen Teil des angeschwollenen Gehirns zu erhalten, das wir im Operationssaal hatten.",
+            "Wir standen also vor einer seltsamen, neuen Zellpopulation, die wie Stammzellen aussah, sich aber anders verhielt."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen"
+        }
+    },
+    {
+        "idx": 51,
+        "src": "But it's not so sure.",
+        "ref": "Das ist jedoch nicht so sicher.",
+        "hyp": "Aber es ist nicht so sicher.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen"
+        }
+    },
+    {
+        "idx": 52,
+        "src": "But there is one clear thing --  that from these cells,  we got our stem cell culture.",
+        "ref": "Eine Sache ist jedoch klar -- von diesen Zellen erhielten wir unsere Stammzellen.",
+        "hyp": "Aber eines steht klar fest - dass aus diesen Zellen unsere Stammzellkultur hervorgegangen ist.",
+        "rel_src": [
+            "So it was surprising to get this kind of stem cell culture  from the superficial part of swollen brain we had  in the operating theater.",
+            "So we were in front of a strange new cell population  that looked like stem cells but behaved differently."
+        ],
+        "rel_tgt": [
+            "Es war daher überraschend, diese Art von Stammzellkultur aus dem oberflächlichen Teil des angeschwollenen Gehirns zu erhalten, das wir im Operationssaal hatten.",
+            "Wir standen also vor einer seltsamen, neuen Zellpopulation, die wie Stammzellen aussah, sich aber anders verhielt."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen"
+        }
+    },
+    {
+        "idx": 53,
+        "src": "And we were in front of a potential new source of cells  to repair the brain.",
+        "ref": "Wir stehen vor einer potenziellen Zellquelle, die Gehirnheilung ermöglicht.",
+        "hyp": "Und wir standen vor einer potenziellen neuen Zellquelle zur Reparatur des Gehirns.",
+        "rel_src": [
+            "We think that they may participate in brain repair  because we find them in higher concentration  close to brain lesions.",
+            "But there is one clear thing --  that from these cells,  we got our stem cell culture."
+        ],
+        "rel_tgt": [
+            "Wir vermuten, dass sie am Gehirnreparaturprozess beteiligt sein könnten, da wir sie in höherer Konzentration in der Nähe von Gehirnschäden finden.",
+            "Aber eines steht klar fest - dass aus diesen Zellen unsere Stammzellkultur hervorgegangen ist."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen"
+        }
+    },
+    {
+        "idx": 54,
+        "src": "And we had to prove this.",
+        "ref": "Das mussten wir beweisen.",
+        "hyp": "Und wir mussten das beweisen.",
+        "rel_src": [
+            "And it took us a long time to understand where they came from.",
+            "But there is one clear thing --  that from these cells,  we got our stem cell culture."
+        ],
+        "rel_tgt": [
+            "Und es dauerte lange, bis wir verstanden haben, woher sie kommen.",
+            "Aber eines steht klar fest - dass aus diesen Zellen unsere Stammzellkultur hervorgegangen ist."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen"
+        }
+    },
+    {
+        "idx": 55,
+        "src": "we decided to design an experimental paradigm.",
+        "ref": "Also entschlossen wir uns, ein Experiment zu entwickeln.",
+        "hyp": "wir beschlossen, ein experimentelles Paradigma zu entwerfen.",
+        "rel_src": [
+            "And we were in front of a potential new source of cells  to repair the brain.",
+            "And we had to prove this."
+        ],
+        "rel_tgt": [
+            "Und wir standen vor einer potenziellen neuen Zellquelle zur Reparatur des Gehirns.",
+            "Und wir mussten das beweisen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen"
+        }
+    },
+    {
+        "idx": 56,
+        "src": "The idea was to biopsy a piece of brain  in a non-eloquent area of the brain,  and then to culture the cells  exactly the way Jean-François did it in his lab.",
+        "ref": "Wir wollten ein Stück Gehirnmasse aus dem nichtsprachlichen Bereich entnehmen und dann die Zellen genau so kultivieren, wie es Jean-François tat",
+        "hyp": "Die Idee war, ein Stück Gehirn in einem nicht aussagekräftigen Bereich des Gehirns zu biopsieren und dann die Zellen genau so zu kultivieren, wie Jean-François es in seinem Labor gemacht hat.",
+        "rel_src": [
+            "But there is one clear thing --  that from these cells,  we got our stem cell culture.",
+            "And we were in front of a potential new source of cells  to repair the brain."
+        ],
+        "rel_tgt": [
+            "Aber eines steht klar fest - dass aus diesen Zellen unsere Stammzellkultur hervorgegangen ist.",
+            "Und wir standen vor einer potenziellen neuen Zellquelle zur Reparatur des Gehirns."
+        ],
+        "hist_info": "\"Jean-François\" - \"Jean-François\"",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen"
+        }
+    },
+    {
+        "idx": 57,
+        "src": "And then label them, to put color in them  in order to be able to track them in the brain.",
+        "ref": "und sie anschließend farblich markieren, um sie im Gehirn verfolgen zu können.",
+        "hyp": "Und dann kennzeichnen wir sie, indem wir Farbe hinzufügen, um sie im Gehirn verfolgen zu können.",
+        "rel_src": [
+            "These blue and red cells are called doublecortin-positive cells.",
+            "We think that they may participate in brain repair  because we find them in higher concentration  close to brain lesions."
+        ],
+        "rel_tgt": [
+            "Diese blauen und roten Zellen werden Doublecortin- positive Zellen genannt.",
+            "Wir vermuten, dass sie am Gehirnreparaturprozess beteiligt sein könnten, da wir sie in höherer Konzentration in der Nähe von Gehirnschäden finden."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen"
+        }
+    },
+    {
+        "idx": 58,
+        "src": "And the last step was to re-implant them  in the same individual.",
+        "ref": "Im letzten Schritt reimplantierten wir sie an der Entnahmestelle desselben Individuums.",
+        "hyp": "Und der letzte Schritt war, sie wieder in denselben Individuen einzupflanzen.",
+        "rel_src": [
+            "But there is one clear thing --  that from these cells,  we got our stem cell culture.",
+            "And we were in front of a potential new source of cells  to repair the brain."
+        ],
+        "rel_tgt": [
+            "Aber eines steht klar fest - dass aus diesen Zellen unsere Stammzellkultur hervorgegangen ist.",
+            "Und wir standen vor einer potenziellen neuen Zellquelle zur Reparatur des Gehirns."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen"
+        }
+    },
+    {
+        "idx": 59,
+        "src": "We call these  autologous grafts -- autografts.",
+        "ref": "Wir nennen das autologe Transplantation -- Autotransplantation.",
+        "hyp": "Wir nennen diese autologe Transplantate - Autotransplantate.",
+        "new_src_summary": "In a detailed and reflective scientific narrative, a neurosurgeon specializing in functional neurosurgery discusses the challenges faced by medical professionals in addressing the brain's limited capacity for self-repair following significant injuries, such as strokes or car accidents, which often result in severe patient disabilities. The author highlights deep brain stimulation as a successful technique for treating conditions like Parkinson's disease, severe tremors, and chronic pain, expressing hope for achieving the ultimate goal of neuro-repair, or restoring damaged brain tissue. This dream appears increasingly achievable due to recent research led by Jean-François Brunet and the narrator, who discovered stem cell-like cultures from discarded pieces of swollen brain tissue removed during surgeries to decrease intracranial pressure. After numerous trials, the researchers cultivated cells resembling stem cell cultures, featuring large green cells encircling smaller, immature ones. Surprisingly, these cells were found in greater abundance than the typically rare stem cells in the adult brain, which are confined to specific areas. The unique behavior of these cells, differing from typical rapidly dividing, immortal stem cells, adds to the significance of the discovery.\n\nAdditionally, the paragraph delves into a scientific breakthrough concerning a new cell population found in the human brain. Initially, the researchers faced challenges in culturing these cells due to their slow division rate and tendency to die after a few weeks. These cells, identified as doublecortin-positive cells and accounting for approximately four percent of cortical brain cells, resemble stem cells but exhibit distinct behavior. Their significance lies in their role during the developmental stage, particularly in aiding the folding of the brain during fetal development. The reason for their persistence in the adult brain remains unknown, although they are speculated to contribute to brain repair given their higher concentration near brain lesions. The researchers successfully cultured these cells, potentially offering a novel source for brain repair. To further investigate, they devised an experimental approach involving brain biopsies from non-critical areas, followed by cell culture and labeling to enable tracking within the brain, with the final step being the re-implantation of these cells into the same individual. This groundbreaking research holds promise for advancing neuro-repair techniques and improving outcomes for patients with neurological damage.",
+        "new_tgt_summary": "Ein autorisierter Neurochirurg, der häufig Zeuge schwerwiegender menschlicher Tragödien durch Schlaganfälle oder Unfälle ist, spezialisierte sich auf funktionelle Neurochirurgie und insbesondere auf die Tieffenhirnstimulation, um die Lebensqualität von Patienten mit Krankheiten wie Parkinson zu verbessern. Seine Erfahrung als Oberarzt vor 15 Jahren, bei der er Patienten mit schwerem Hirntrauma behandelte, verstärkte seinen Wunsch nach effektiveren Reparaturmechanismen für das menschliche Gehirn. In Zusammenarbeit mit Jean-François Brunet gelang es ihm, Zellen aus dem angeschwellenen Gehirn eines Patienten zu kultivieren und darin seltene Stammzellen zu finden, die sich in jede Zellart des Körpers entwickeln können. Obwohl diese Zellen sich anders verhalten als typische Stammzellen und letztendlich sterben, näherten sie den Traum der Gehirnreparatur. Eine weitere bemerkenswerte Entdeckung war die von Doublecortin-positiven Zellen, die etwa vier Prozent der kortikalen Hirnzellen ausmachen und in allen Menschen vorhanden sind. Diese Zellen spielen während der Embryonalentwicklung eine Rolle bei der Bildung des Gehirnfaltungsprozesses und könnten auch im Erwachsenenhirn bei Reparaturprozessen helfen. Die Forscher planen, Biospie in nicht-kritischen Hirnbereichen zu nehmen, die Zellen zu kultivieren und zu kennzeichnen und sie dann wieder in die gleichen Individuen einzupflanzen, was möglicherweise einen Durchbruch in der Gehirnreparatur bedeutet.",
+        "rel_src": [
+            "The idea was to biopsy a piece of brain  in a non-eloquent area of the brain,  and then to culture the cells  exactly the way Jean-François did it in his lab.",
+            "And the last step was to re-implant them  in the same individual."
+        ],
+        "rel_tgt": [
+            "Die Idee war, ein Stück Gehirn in einem nicht aussagekräftigen Bereich des Gehirns zu biopsieren und dann die Zellen genau so zu kultivieren, wie Jean-François es in seinem Labor gemacht hat.",
+            "Und der letzte Schritt war, sie wieder in denselben Individuen einzupflanzen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen"
+        }
+    },
+    {
+        "idx": 60,
+        "src": "So the first question we had,  \"What will happen if we re-implant these cells in a normal brain,  and what will happen if we re-implant the same cells  in a lesioned brain?\"",
+        "ref": "Eine unserer ersten Fragen war: Was passiert, wenn wir diese Zellen in normales Hirngewebe reimplantieren? Und was wird passieren, wenn wir die gleichen Zellen in geschädigtes Gehirngewebe reimplantieren?",
+        "hyp": "\"So stellten wir uns zunächst die Frage: „Was passiert, wenn wir diese Zellen in ein normales Gehirn zurückimplantieren, und was passiert, wenn wir dieselben Zellen in ein geschädigtes Gehirn zurückimplantieren?“",
+        "rel_src": [
+            "We think that they may participate in brain repair  because we find them in higher concentration  close to brain lesions.",
+            "And then label them, to put color in them  in order to be able to track them in the brain."
+        ],
+        "rel_tgt": [
+            "Wir vermuten, dass sie am Gehirnreparaturprozess beteiligt sein könnten, da wir sie in höherer Konzentration in der Nähe von Gehirnschäden finden.",
+            "Und dann kennzeichnen wir sie, indem wir Farbe hinzufügen, um sie im Gehirn verfolgen zu können."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen"
+        }
+    },
+    {
+        "idx": 61,
+        "src": "Thanks to the help of professor Eric Rouiller,  we worked with monkeys.",
+        "ref": "Dank der Hilfe von Prof. Eric Rouiller konnten wir mit Affen arbeiten.",
+        "hyp": "Dank der Hilfe des Professors Eric Rouiller arbeiteten wir mit Affen.",
+        "rel_src": [
+            "We think that they may participate in brain repair  because we find them in higher concentration  close to brain lesions.",
+            "But there is one clear thing --  that from these cells,  we got our stem cell culture."
+        ],
+        "rel_tgt": [
+            "Wir vermuten, dass sie am Gehirnreparaturprozess beteiligt sein könnten, da wir sie in höherer Konzentration in der Nähe von Gehirnschäden finden.",
+            "Aber eines steht klar fest - dass aus diesen Zellen unsere Stammzellkultur hervorgegangen ist."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller"
+        }
+    },
+    {
+        "idx": 62,
+        "src": "So in the first-case scenario,  we re-implanted the cells in the normal brain  and what we saw is that they completely disappeared after a few weeks,  as if they were taken from the brain,  they go back home,  the space is already busy,  they are not needed there, so they disappear.",
+        "ref": "Im ersten Szenario reimplantierten wir die Zellen in ein gesundes Gehirn, und wir beobachteten, dass sie nach einigen Wochen komplett verschwanden, als wären sie wieder entnommen worden, gehen sie zurück nach Hause. Der Raum ist schon besetzt, sie werden dort nicht gebraucht, also verschwinden sie.",
+        "hyp": "Also im ersten Szenario implantierten wir die Zellen in das normale Gehirn zurück und was wir sahen, ist dass sie nach einigen Wochen vollständig verschwanden, als ob sie aus dem Gehirn genommen worden wären, kehren sie zurück nach Hause, der Platz ist bereits besetzt, sie sind dort nicht benötigt, also verschwinden sie.",
+        "rel_src": [
+            "But there is one clear thing --  that from these cells,  we got our stem cell culture.",
+            "And we were in front of a potential new source of cells  to repair the brain."
+        ],
+        "rel_tgt": [
+            "Aber eines steht klar fest - dass aus diesen Zellen unsere Stammzellkultur hervorgegangen ist.",
+            "Und wir standen vor einer potenziellen neuen Zellquelle zur Reparatur des Gehirns."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller"
+        }
+    },
+    {
+        "idx": 63,
+        "src": "In the second-case scenario,  we performed the lesion,  we re-implanted exactly the same cells,  and in this case, the cells remained --  and they became mature neurons.",
+        "ref": "Im zweiten Szenario fügten wir eine Verletzung zu und reimplantierten genau die gleichen Zellen und nun blieben die Zellen erhalten -- sie wuchsen zu reifen Neuronen heran.",
+        "hyp": "Im zweiten Szenario durchführten wir die Läsion, implantierten genau dieselben Zellen ein, und in diesem Fall blieben die Zellen erhalten - und sie entwickelten sich zu成熟的en Nervenzellen. ",
+        "rel_src": [
+            "We think that they may participate in brain repair  because we find them in higher concentration  close to brain lesions.",
+            "But there is one clear thing --  that from these cells,  we got our stem cell culture."
+        ],
+        "rel_tgt": [
+            "Wir vermuten, dass sie am Gehirnreparaturprozess beteiligt sein könnten, da wir sie in höherer Konzentration in der Nähe von Gehirnschäden finden.",
+            "Aber eines steht klar fest - dass aus diesen Zellen unsere Stammzellkultur hervorgegangen ist."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller"
+        }
+    },
+    {
+        "idx": 64,
+        "src": "And that's the image of what we could observe under the microscope.",
+        "ref": "Hier sehen Sie, was wir unter dem Mikroskop beobachten konnten.",
+        "hyp": "Und das ist das Bild dessen, was wir unter dem Mikroskop beobachten konnten.",
+        "rel_src": [
+            "So in the first-case scenario,  we re-implanted the cells in the normal brain  and what we saw is that they completely disappeared after a few weeks,  as if they were taken from the brain,  they go back home,  the space is already busy,  they are not needed there, so they disappear.",
+            "In the second-case scenario,  we performed the lesion,  we re-implanted exactly the same cells,  and in this case, the cells remained --  and they became mature neurons."
+        ],
+        "rel_tgt": [
+            "Also im ersten Szenario implantierten wir die Zellen in das normale Gehirn zurück und was wir sahen, ist dass sie nach einigen Wochen vollständig verschwanden, als ob sie aus dem Gehirn genommen worden wären, kehren sie zurück nach Hause, der Platz ist bereits besetzt, sie sind dort nicht benötigt, also verschwinden sie.",
+            "Im zweiten Szenario durchführten wir die Läsion, implantierten genau dieselben Zellen ein, und in diesem Fall blieben die Zellen erhalten - und sie entwickelten sich zu成熟的en Nervenzellen. "
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller"
+        }
+    },
+    {
+        "idx": 65,
+        "src": "Those are the cells that were re-implanted.",
+        "ref": "Das sind die Zellen, die reimplantiert wurden.",
+        "hyp": "Dies sind die Zellen, die wieder implantiert wurden.",
+        "rel_src": [
+            "So in the first-case scenario,  we re-implanted the cells in the normal brain  and what we saw is that they completely disappeared after a few weeks,  as if they were taken from the brain,  they go back home,  the space is already busy,  they are not needed there, so they disappear.",
+            "In the second-case scenario,  we performed the lesion,  we re-implanted exactly the same cells,  and in this case, the cells remained --  and they became mature neurons."
+        ],
+        "rel_tgt": [
+            "Also im ersten Szenario implantierten wir die Zellen in das normale Gehirn zurück und was wir sahen, ist dass sie nach einigen Wochen vollständig verschwanden, als ob sie aus dem Gehirn genommen worden wären, kehren sie zurück nach Hause, der Platz ist bereits besetzt, sie sind dort nicht benötigt, also verschwinden sie.",
+            "Im zweiten Szenario durchführten wir die Läsion, implantierten genau dieselben Zellen ein, und in diesem Fall blieben die Zellen erhalten - und sie entwickelten sich zu成熟的en Nervenzellen. "
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller"
+        }
+    },
+    {
+        "idx": 66,
+        "src": "And the proof they carry,  these little spots, those are the cells that we've labeled  in vitro, when they were in culture.",
+        "ref": "Der Beweis, den sie zeigen, sind diese kleinen Punkte. Das sind die Zellen, die wir in vitro, in der Kultur färbten.",
+        "hyp": "Und der Beweis, den sie tragen, diese kleinen Punkte, das sind die Zellen, die wir in vitro gekennzeichnet haben, als sie in Kultur waren.",
+        "rel_src": [
+            "But there is one clear thing --  that from these cells,  we got our stem cell culture.",
+            "Those are the cells that were re-implanted."
+        ],
+        "rel_tgt": [
+            "Aber eines steht klar fest - dass aus diesen Zellen unsere Stammzellkultur hervorgegangen ist.",
+            "Dies sind die Zellen, die wieder implantiert wurden."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller"
+        }
+    },
+    {
+        "idx": 67,
+        "src": "But we could not stop here, of course.",
+        "ref": "Hier konnten wir natürlich nicht aufhören.",
+        "hyp": "Aber natürlich konnten wir hier nicht aufhören.",
+        "rel_src": [
+            "And we had to prove this.",
+            "we decided to design an experimental paradigm."
+        ],
+        "rel_tgt": [
+            "Und wir mussten das beweisen.",
+            "wir beschlossen, ein experimentelles Paradigma zu entwerfen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller"
+        }
+    },
+    {
+        "idx": 68,
+        "src": "Do these cells also help a monkey to recover after a lesion?",
+        "ref": "Helfen diese Zellen auch einem Affen, sich von einer Hirnverletzung zu erholen?",
+        "hyp": "Helfen diese Zellen auch einem Affen bei der Genesung nach einer Läsion?",
+        "rel_src": [
+            "So in the first-case scenario,  we re-implanted the cells in the normal brain  and what we saw is that they completely disappeared after a few weeks,  as if they were taken from the brain,  they go back home,  the space is already busy,  they are not needed there, so they disappear.",
+            "In the second-case scenario,  we performed the lesion,  we re-implanted exactly the same cells,  and in this case, the cells remained --  and they became mature neurons."
+        ],
+        "rel_tgt": [
+            "Also im ersten Szenario implantierten wir die Zellen in das normale Gehirn zurück und was wir sahen, ist dass sie nach einigen Wochen vollständig verschwanden, als ob sie aus dem Gehirn genommen worden wären, kehren sie zurück nach Hause, der Platz ist bereits besetzt, sie sind dort nicht benötigt, also verschwinden sie.",
+            "Im zweiten Szenario durchführten wir die Läsion, implantierten genau dieselben Zellen ein, und in diesem Fall blieben die Zellen erhalten - und sie entwickelten sich zu成熟的en Nervenzellen. "
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller"
+        }
+    },
+    {
+        "idx": 69,
+        "src": "So for that, we trained monkeys to perform a manual dexterity task.",
+        "ref": "Also trainierten wir Affen mit einer manuellen Geschicklichkeitsaufgabe.",
+        "hyp": "Dafür trainierten wir Affen, eine Feinmotorik-Aufgabe auszuführen.",
+        "rel_src": [
+            "Thanks to the help of professor Eric Rouiller,  we worked with monkeys.",
+            "So in the first-case scenario,  we re-implanted the cells in the normal brain  and what we saw is that they completely disappeared after a few weeks,  as if they were taken from the brain,  they go back home,  the space is already busy,  they are not needed there, so they disappear."
+        ],
+        "rel_tgt": [
+            "Dank der Hilfe des Professors Eric Rouiller arbeiteten wir mit Affen.",
+            "Also im ersten Szenario implantierten wir die Zellen in das normale Gehirn zurück und was wir sahen, ist dass sie nach einigen Wochen vollständig verschwanden, als ob sie aus dem Gehirn genommen worden wären, kehren sie zurück nach Hause, der Platz ist bereits besetzt, sie sind dort nicht benötigt, also verschwinden sie."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller"
+        }
+    },
+    {
+        "idx": 70,
+        "src": "They had to retrieve food pellets from a tray.",
+        "ref": "Sie mussten Futterpellets von einem Tablett nehmen.",
+        "hyp": "Sie mussten Futterpellets von einem Tablett abholen.",
+        "rel_src": [
+            "Do these cells also help a monkey to recover after a lesion?",
+            "So for that, we trained monkeys to perform a manual dexterity task."
+        ],
+        "rel_tgt": [
+            "Helfen diese Zellen auch einem Affen bei der Genesung nach einer Läsion?",
+            "Dafür trainierten wir Affen, eine Feinmotorik-Aufgabe auszuführen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller"
+        }
+    },
+    {
+        "idx": 71,
+        "src": "They were very good at it.",
+        "ref": "Das machten sie sehr gut.",
+        "hyp": "Sie waren sehr gut darin.",
+        "rel_src": [
+            "So for that, we trained monkeys to perform a manual dexterity task.",
+            "They had to retrieve food pellets from a tray."
+        ],
+        "rel_tgt": [
+            "Dafür trainierten wir Affen, eine Feinmotorik-Aufgabe auszuführen.",
+            "Sie mussten Futterpellets von einem Tablett abholen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller"
+        }
+    },
+    {
+        "idx": 72,
+        "src": "And when they had reached a plateau of performance,  we did a lesion in the motor cortex corresponding to the hand motion.",
+        "ref": "Als sie ein stabiles Geschicklichkeitsniveau erreicht hatten, verletzten wir im motorischen Cortex den Handmotorik-Bereich.",
+        "hyp": "Und wenn sie einen Leistungsausgleich erreicht hatten, führten wir eine Läsion im Motorik Cortex durch, die sich auf die Handbewegung bezog.",
+        "rel_src": [
+            "Thanks to the help of professor Eric Rouiller,  we worked with monkeys.",
+            "Do these cells also help a monkey to recover after a lesion?"
+        ],
+        "rel_tgt": [
+            "Dank der Hilfe des Professors Eric Rouiller arbeiteten wir mit Affen.",
+            "Helfen diese Zellen auch einem Affen bei der Genesung nach einer Läsion?"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller"
+        }
+    },
+    {
+        "idx": 73,
+        "src": "So the monkeys were plegic,  they could not move their hand anymore.",
+        "ref": "Daraufhin waren die Affen gelähmt, sie konnten ihre Hand nicht mehr bewegen.",
+        "hyp": "So waren die Affen paralytisch, sie konnten ihre Hand nicht mehr bewegen.",
+        "rel_src": [
+            "They had to retrieve food pellets from a tray.",
+            "And when they had reached a plateau of performance,  we did a lesion in the motor cortex corresponding to the hand motion."
+        ],
+        "rel_tgt": [
+            "Sie mussten Futterpellets von einem Tablett abholen.",
+            "Und wenn sie einen Leistungsausgleich erreicht hatten, führten wir eine Läsion im Motorik Cortex durch, die sich auf die Handbewegung bezog."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller"
+        }
+    },
+    {
+        "idx": 74,
+        "src": "And exactly the same as humans would do,  they spontaneously recovered to a certain extent,  exactly the same as after a stroke.",
+        "ref": "Genau wie es bei Menschen geschehen würde, erholten sie sich spontan bis zu einem gewissen Grad, genau wie nach einem Schlaganfall.",
+        "hyp": "Und genau wie Menschen es tun würden, erholten sie sich spontan bis zu einem gewissen Grad, genau so wie nach einem Schlaganfall.",
+        "rel_src": [
+            "They were very good at it.",
+            "So the monkeys were plegic,  they could not move their hand anymore."
+        ],
+        "rel_tgt": [
+            "Sie waren sehr gut darin.",
+            "So waren die Affen paralytisch, sie konnten ihre Hand nicht mehr bewegen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller"
+        }
+    },
+    {
+        "idx": 75,
+        "src": "Patients are completely plegic,  and then they try to recover due to a brain plasticity mechanism,  they recover to a certain extent,  exactly the same for the monkey.",
+        "ref": "Die Patienten sind gelähmt und dann versuchen sie sich mit Hilfe plastischer Gehirnmechanismen zu erholen. Sie erholen sich zu einem gewissen Grad, genauso wie beim Affen.",
+        "hyp": "Patienten sind vollständig paralytisch und versuchen dann aufgrund eines Gehirnplastizitätsmechanismus zu genesen, sie erholen sich bis zu einem gewissen Grad, genauso wie der Affe.",
+        "rel_src": [
+            "So the monkeys were plegic,  they could not move their hand anymore.",
+            "And exactly the same as humans would do,  they spontaneously recovered to a certain extent,  exactly the same as after a stroke."
+        ],
+        "rel_tgt": [
+            "So waren die Affen paralytisch, sie konnten ihre Hand nicht mehr bewegen.",
+            "Und genau wie Menschen es tun würden, erholten sie sich spontan bis zu einem gewissen Grad, genau so wie nach einem Schlaganfall."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller"
+        }
+    },
+    {
+        "idx": 76,
+        "src": "So when we were sure that the monkey had reached his plateau  of spontaneous recovery,  we implanted his own cells.",
+        "ref": "Als wir sicher waren, dass der Affe sein Grad der spontanen Erholung erreicht hatte, implantierten wir seine eigenen Zellen.",
+        "hyp": "So wenn wir uns sicher waren, dass der Affe sein Plateau der spontanen Erholung erreicht hatte, implantierten wir seine eigenen Zellen.",
+        "rel_src": [
+            "And the last step was to re-implant them  in the same individual.",
+            "Those are the cells that were re-implanted."
+        ],
+        "rel_tgt": [
+            "Und der letzte Schritt war, sie wieder in denselben Individuen einzupflanzen.",
+            "Dies sind die Zellen, die wieder implantiert wurden."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller"
+        }
+    },
+    {
+        "idx": 77,
+        "src": "So on the left side, you see the monkey that has spontaneously recovered.",
+        "ref": "Auf der linken Seite sehen sie den Affen, der sich spontan erholte.",
+        "hyp": "Also auf der linken Seite sehen Sie den Affen, der sich spontan erholt hat.",
+        "rel_src": [
+            "They had to retrieve food pellets from a tray.",
+            "And when they had reached a plateau of performance,  we did a lesion in the motor cortex corresponding to the hand motion."
+        ],
+        "rel_tgt": [
+            "Sie mussten Futterpellets von einem Tablett abholen.",
+            "Und wenn sie einen Leistungsausgleich erreicht hatten, führten wir eine Läsion im Motorik Cortex durch, die sich auf die Handbewegung bezog."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller"
+        }
+    },
+    {
+        "idx": 78,
+        "src": "He's at about 40 to 50 percent of his previous performance  before the lesion.",
+        "ref": "Er kann etwa 40 % bis 50 % seiner ursprünglichen Leistung von vor der Verletzung erbringen.",
+        "hyp": "Er erreicht etwa 40 bis 50 Prozent seiner vor der Lesion gezeigten Leistung.",
+        "rel_src": [
+            "So the monkeys were plegic,  they could not move their hand anymore.",
+            "And exactly the same as humans would do,  they spontaneously recovered to a certain extent,  exactly the same as after a stroke."
+        ],
+        "rel_tgt": [
+            "So waren die Affen paralytisch, sie konnten ihre Hand nicht mehr bewegen.",
+            "Und genau wie Menschen es tun würden, erholten sie sich spontan bis zu einem gewissen Grad, genau so wie nach einem Schlaganfall."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller"
+        }
+    },
+    {
+        "idx": 79,
+        "src": "He's not so accurate, not so quick.",
+        "ref": "Er ist nicht so präzise und nicht so schnell.",
+        "hyp": "Er ist nicht so genau, nicht so schnell.",
+        "new_src_summary": "In a detailed and reflective scientific narrative, a neurosurgeon specializing in functional neurosurgery addresses the challenges medical professionals face in addressing the brain's limited self-repair capacity after significant injuries, such as strokes or car accidents, which often result in severe patient disabilities. Highlighting deep brain stimulation as a successful technique for treating conditions like Parkinson's disease, severe tremors, and chronic pain, the author expresses hope for achieving the ultimate goal of neuro-repair, or restoring damaged brain tissue. This dream appears increasingly achievable due to recent research led by Jean-François Brunet and the narrator, who discovered stem cell-like cultures from discarded pieces of swollen brain tissue removed during surgeries to decrease intracranial pressure. After numerous trials, the researchers cultivated cells resembling stem cell cultures, featuring large green cells encircling smaller, immature ones. Surprisingly, these cells were found in greater abundance than the typically rare stem cells in the adult brain, which are confined to specific areas. The unique behavior of these cells, differing from typical rapidly dividing, immortal stem cells, adds to the significance of the discovery.\n\nAdditionally, the paragraph delves into a scientific breakthrough concerning a new cell population found in the human brain, identified as doublecortin-positive cells and accounting for approximately four percent of cortical brain cells. Resembling stem cells but exhibiting distinct behavior, their significance lies in their role during the developmental stage, particularly in aiding the folding of the brain during fetal development. The reason for their persistence in the adult brain remains unknown, although they are speculated to contribute to brain repair given their higher concentration near brain lesions. The researchers successfully cultured these cells, potentially offering a novel source for brain repair. To further investigate, they devised an experimental approach involving brain biopsies from non-critical areas, followed by cell culture and labeling to enable tracking within the brain, with the final step being the re-implantation of these cells into the same individual.\n\nThe paragraph also discusses a study involving autologous grafts or autografts, where cells are re-implanted into the same individual's brain to assess their behavior in both normal and lesioned conditions. In a normal brain, the re-implanted cells vanished within weeks, suggesting they were unnecessary and were absorbed by the already occupied space. However, when the same cells were implanted in a lesioned brain, they persisted, matured into neurons, and were observed under a microscope. To test the functional impact, monkeys were trained for a manual dexterity task, involving retrieving food pellets. After reaching peak performance, a lesion was induced in their motor cortex, leading to paralysis in hand movement, similar to human stroke patients. The monkeys showed spontaneous recovery to a certain degree. Once the plateau of spontaneous recovery was reached, the monkeys' own cells were implanted, and the results showed an improvement in their performance, as seen in the comparison between the spontaneous recovery level (around 40-50% of previous performance) and post-autograft performance.\n\nThis groundbreaking research holds promise for advancing neuro-repair techniques and improving outcomes for patients with neurological damage, showcasing the potential of using autologous grafts and cultured cells to restore brain function and enhance recovery from severe injuries.",
+        "new_tgt_summary": "Ein spezialisierter Neurochirurg, bekannt für seine Arbeit in der funktionellen Neurochirurgie und Tieffenhirnstimulation, setzte sich mit der Verbesserung der Lebensqualität von Patienten mit Krankheiten wie Parkinson auseinander, motiviert durch seine Erfahrungen mit schweren Hirnverletzungen. In Partnerschaft mit Jean-François Brunet, konnte er seltene Stammzellen aus dem angeschwellenen Gehirn eines Patienten isolieren, welche sich in jede Zellart entwickeln können, und Doublecortin-positive Zellen identifizieren, die in allen Menschen vorhanden sind und möglicherweise beim Gehirnwiederaufbau helfen. Die Idee besteht darin, Biospie in nicht-kritischen Hirnbereichen zu nehmen, diese Zellen zu kultivieren und zu kennzeichnen und sie dann wieder in das gleiche Individuum einzupflanzen. Experimente mit autologen Transplantaten, unterstützt von Professor Eric Rouiller, zeigten, dass diese Zellen in beschädigten Hirnen von Affen zu reifen Nervenzellen entwickelten und die motorischen Fähigkeiten verbesserten, was ein vielversprechender Fortschritt in der Gehirnreparatur darstellt.",
+        "rel_src": [
+            "They had to retrieve food pellets from a tray.",
+            "They were very good at it."
+        ],
+        "rel_tgt": [
+            "Sie mussten Futterpellets von einem Tablett abholen.",
+            "Sie waren sehr gut darin."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller"
+        }
+    },
+    {
+        "idx": 80,
+        "src": "And look now, when we re-impant the cells:  Two months after re-implantation, the same individual.",
+        "ref": "Sehen Sie nun, als wir die Zellen reimplantierten: Der gleiche Affe, zwei Monate nach der Reimplantation.",
+        "hyp": "Und schauen Sie jetzt, wenn wir die Zellen erneut implantieren: Zwei Monate nach der Reimplantation, derselbe Individuum.",
+        "rel_src": [
+            "So when we were sure that the monkey had reached his plateau  of spontaneous recovery,  we implanted his own cells.",
+            "So on the left side, you see the monkey that has spontaneously recovered."
+        ],
+        "rel_tgt": [
+            "So wenn wir uns sicher waren, dass der Affe sein Plateau der spontanen Erholung erreicht hatte, implantierten wir seine eigenen Zellen.",
+            "Also auf der linken Seite sehen Sie den Affen, der sich spontan erholt hat."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller"
+        }
+    },
+    {
+        "idx": 81,
+        "src": "It was also very exciting results for us, I tell you.",
+        "ref": "Ich kann Ihnen sagen, das waren auch für uns sehr aufregende Ergebnisse.",
+        "hyp": "Es waren auch sehr aufregende Ergebnisse für uns, das sage ich Ihnen.",
+        "rel_src": [
+            "Do these cells also help a monkey to recover after a lesion?",
+            "He's not so accurate, not so quick."
+        ],
+        "rel_tgt": [
+            "Helfen diese Zellen auch einem Affen bei der Genesung nach einer Läsion?",
+            "Er ist nicht so genau, nicht so schnell."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller"
+        }
+    },
+    {
+        "idx": 82,
+        "src": "Since that time, we've understood much more about these cells.",
+        "ref": "Seit dieser Zeit haben wir sehr viel mehr über diese Zellen herausgefunden.",
+        "hyp": "Seit dieser Zeit haben wir viel mehr über diese Zellen verstanden.",
+        "rel_src": [
+            "But we could not stop here, of course.",
+            "It was also very exciting results for us, I tell you."
+        ],
+        "rel_tgt": [
+            "Aber natürlich konnten wir hier nicht aufhören.",
+            "Es waren auch sehr aufregende Ergebnisse für uns, das sage ich Ihnen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller"
+        }
+    },
+    {
+        "idx": 83,
+        "src": "We know that we can cryopreserve them,  we can use them later on.",
+        "ref": "Wir können sie einfrieren und später verwenden.",
+        "hyp": "Wir wissen, dass wir sie kryopreisen können, wir können sie später verwenden.",
+        "rel_src": [
+            "Those are the cells that were re-implanted.",
+            "So when we were sure that the monkey had reached his plateau  of spontaneous recovery,  we implanted his own cells."
+        ],
+        "rel_tgt": [
+            "Dies sind die Zellen, die wieder implantiert wurden.",
+            "So wenn wir uns sicher waren, dass der Affe sein Plateau der spontanen Erholung erreicht hatte, implantierten wir seine eigenen Zellen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller"
+        }
+    },
+    {
+        "idx": 84,
+        "src": "We know that we can apply them in other neuropathological models,  like Parkinson's disease, for example.",
+        "ref": "Wir können sie in anderen neuropathologischen Modellen verwenden, zum Beispiel bei Parkinson.",
+        "hyp": "Wir wissen, dass wir sie in anderen neuropathologischen Modellen anwenden können, wie zum Beispiel bei Parkinson-Krankheit.",
+        "rel_src": [
+            "So when we were sure that the monkey had reached his plateau  of spontaneous recovery,  we implanted his own cells.",
+            "We know that we can cryopreserve them,  we can use them later on."
+        ],
+        "rel_tgt": [
+            "So wenn wir uns sicher waren, dass der Affe sein Plateau der spontanen Erholung erreicht hatte, implantierten wir seine eigenen Zellen.",
+            "Wir wissen, dass wir sie kryopreisen können, wir können sie später verwenden."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller",
+            "Parkinsons disease": "Parkinson-Krankheit"
+        }
+    },
+    {
+        "idx": 85,
+        "src": "But our dream is still to implant them in humans.",
+        "ref": "Aber unser Traum ist noch immer, sie beim Menschen zu implantieren.",
+        "hyp": "Aber unser Traum ist immer noch, sie bei Menschen zu implantieren.",
+        "rel_src": [
+            "So when we were sure that the monkey had reached his plateau  of spontaneous recovery,  we implanted his own cells.",
+            "And look now, when we re-impant the cells:  Two months after re-implantation, the same individual."
+        ],
+        "rel_tgt": [
+            "So wenn wir uns sicher waren, dass der Affe sein Plateau der spontanen Erholung erreicht hatte, implantierten wir seine eigenen Zellen.",
+            "Und schauen Sie jetzt, wenn wir die Zellen erneut implantieren: Zwei Monate nach der Reimplantation, derselbe Individuum."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller",
+            "Parkinsons disease": "Parkinson-Krankheit"
+        }
+    },
+    {
+        "idx": 86,
+        "src": "And I really hope that I'll be able to show you soon  that the human brain is giving us the tools to repair itself.",
+        "ref": "Ich hoffe wirklich, dass ich Ihnen bald zeigen kann, wie uns das menschliche Gehirn die Mittel gibt, sich selbst zu heilen.",
+        "hyp": "Und ich hoffe wirklich, dass ich Ihnen bald zeigen kann, dass der menschliche Gehirn uns die Werkzeuge zur Selbstreparatur gibt.",
+        "rel_src": [
+            "And exactly the same as humans would do,  they spontaneously recovered to a certain extent,  exactly the same as after a stroke.",
+            "But our dream is still to implant them in humans."
+        ],
+        "rel_tgt": [
+            "Und genau wie Menschen es tun würden, erholten sie sich spontan bis zu einem gewissen Grad, genau so wie nach einem Schlaganfall.",
+            "Aber unser Traum ist immer noch, sie bei Menschen zu implantieren."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller",
+            "Parkinsons disease": "Parkinson-Krankheit"
+        }
+    },
+    {
+        "idx": 87,
+        "src": "Thank you.",
+        "ref": "Vielen Dank.",
+        "hyp": "Danke.",
+        "rel_src": [
+            "Patients are completely plegic,  and then they try to recover due to a brain plasticity mechanism,  they recover to a certain extent,  exactly the same for the monkey.",
+            "But our dream is still to implant them in humans."
+        ],
+        "rel_tgt": [
+            "Patienten sind vollständig paralytisch und versuchen dann aufgrund eines Gehirnplastizitätsmechanismus zu genesen, sie erholen sich bis zu einem gewissen Grad, genauso wie der Affe.",
+            "Aber unser Traum ist immer noch, sie bei Menschen zu implantieren."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller",
+            "Parkinsons disease": "Parkinson-Krankheit"
+        }
+    },
+    {
+        "idx": 88,
+        "src": "Bruno Giussani: Jocelyne, this is amazing,  and I'm sure that right now, there are several dozen people in the audience,  possibly even a majority,  who are thinking, \"I know somebody who can use this.\"",
+        "ref": "Bruno Giussani: Jocelyne, das ist wunderbar, ich bin sicher, dass gerade jetzt, mehrere Dutzend Leute im Publikum, vielleicht sogar die Mehrheit, denken: \"Ich kenne jemanden, der das brauchen kann.\"",
+        "hyp": "Bruno Giussani: Jocelyne, das ist unglaublich, und ich bin mir sicher, dass im Publikum gerade mehrere Dutzend Menschen, möglicherweise sogar eine Mehrheit, denken: \"Ich kenne jemanden, der das brauchen könnte.\"",
+        "rel_src": [
+            "But our dream is still to implant them in humans.",
+            "And I really hope that I'll be able to show you soon  that the human brain is giving us the tools to repair itself."
+        ],
+        "rel_tgt": [
+            "Aber unser Traum ist immer noch, sie bei Menschen zu implantieren.",
+            "Und ich hoffe wirklich, dass ich Ihnen bald zeigen kann, dass der menschliche Gehirn uns die Werkzeuge zur Selbstreparatur gibt."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller",
+            "Parkinsons disease": "Parkinson-Krankheit",
+            "Bruno Giussani": "Bruno Giussani",
+            "Jocelyne": "Jocelyne"
+        }
+    },
+    {
+        "idx": 89,
+        "src": "I do, in any case.",
+        "ref": "Ich auf jeden Fall.",
+        "hyp": "Ich tue es in jedem Fall.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller",
+            "Parkinsons disease": "Parkinson-Krankheit",
+            "Bruno Giussani": "Bruno Giussani",
+            "Jocelyne": "Jocelyne"
+        }
+    },
+    {
+        "idx": 90,
+        "src": "And of course the question is,  what are the biggest obstacles  before you can go into human clinical trials?",
+        "ref": "Natürlich ist die Frage, was die größten Hindernisse sind, bevor Sie klinische Studien am Menschen beginnen können.",
+        "hyp": "Und natürlich steht die Frage im Raum, welche sind die größten Hindernisse, bevor man zu klinischen Studien bei Menschen übergehen kann?",
+        "rel_src": [
+            "We know that we can apply them in other neuropathological models,  like Parkinson's disease, for example.",
+            "But our dream is still to implant them in humans."
+        ],
+        "rel_tgt": [
+            "Wir wissen, dass wir sie in anderen neuropathologischen Modellen anwenden können, wie zum Beispiel bei Parkinson-Krankheit.",
+            "Aber unser Traum ist immer noch, sie bei Menschen zu implantieren."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller",
+            "Parkinsons disease": "Parkinson-Krankheit",
+            "Bruno Giussani": "Bruno Giussani",
+            "Jocelyne": "Jocelyne"
+        }
+    },
+    {
+        "idx": 91,
+        "src": "Jocelyne Bloch: The biggest obstacles are regulations.   So, from these exciting results, you need to fill out  about two kilograms of papers and forms  to be able to go through these kind of trials.",
+        "ref": "Jocelyne Bloch: Die größten Hindernisse sind die Behörden.  Ausgehend von diesen tollen Ergebnissen muss man etwa zwei Kilogramm Papiere und Formulare ausfüllen, um diese Art von Studien zu durchlaufen.",
+        "hyp": "Jocelyne Bloch: Die größten Hindernisse sind die Vorschriften. Also, von diesen aufregenden Ergebnissen aus, muss man etwa zwei Kilogramm Papier und Formulare ausfüllen, um solche Studien durchführen zu können.",
+        "rel_src": [
+            "But our dream is still to implant them in humans.",
+            "And of course the question is,  what are the biggest obstacles  before you can go into human clinical trials?"
+        ],
+        "rel_tgt": [
+            "Aber unser Traum ist immer noch, sie bei Menschen zu implantieren.",
+            "Und natürlich steht die Frage im Raum, welche sind die größten Hindernisse, bevor man zu klinischen Studien bei Menschen übergehen kann?"
+        ],
+        "hist_info": "\"Jocelyne\" - \"Jocelyne\"",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller",
+            "Parkinsons disease": "Parkinson-Krankheit",
+            "Bruno Giussani": "Bruno Giussani",
+            "Jocelyne": "Jocelyne",
+            "Jocelyne Bloch": "Jocelyne Bloch"
+        }
+    },
+    {
+        "idx": 92,
+        "src": "BG: Which is understandable, the brain is delicate, etc.",
+        "ref": "BG: Das ist verständlich, das Gehirn ist sehr delikat usw.",
+        "hyp": "BG: Das ist verständlich, das Gehirn ist empfindlich, usw.",
+        "rel_src": [
+            "And of course the question is,  what are the biggest obstacles  before you can go into human clinical trials?",
+            "Jocelyne Bloch: The biggest obstacles are regulations.   So, from these exciting results, you need to fill out  about two kilograms of papers and forms  to be able to go through these kind of trials."
+        ],
+        "rel_tgt": [
+            "Und natürlich steht die Frage im Raum, welche sind die größten Hindernisse, bevor man zu klinischen Studien bei Menschen übergehen kann?",
+            "Jocelyne Bloch: Die größten Hindernisse sind die Vorschriften. Also, von diesen aufregenden Ergebnissen aus, muss man etwa zwei Kilogramm Papier und Formulare ausfüllen, um solche Studien durchführen zu können."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller",
+            "Parkinsons disease": "Parkinson-Krankheit",
+            "Bruno Giussani": "Bruno Giussani",
+            "Jocelyne": "Jocelyne",
+            "Jocelyne Bloch": "Jocelyne Bloch",
+            "BG": "BG"
+        }
+    },
+    {
+        "idx": 93,
+        "src": "JB: Yes, it is, but it takes a long time  and a lot of patience and almost a professional team to do it, you know?",
+        "ref": "JB: Ja, aber es braucht eine lange Zeit, eine Menge Geduld und ein fast professionelles Team.",
+        "hyp": "JB: Ja, das stimmt, aber es dauert eine lange Zeit und erfordert viel Geduld und fast ein professionelles Team, um das hinzugetan, wissen Sie?",
+        "rel_src": [
+            "Jocelyne Bloch: The biggest obstacles are regulations.   So, from these exciting results, you need to fill out  about two kilograms of papers and forms  to be able to go through these kind of trials.",
+            "BG: Which is understandable, the brain is delicate, etc."
+        ],
+        "rel_tgt": [
+            "Jocelyne Bloch: Die größten Hindernisse sind die Vorschriften. Also, von diesen aufregenden Ergebnissen aus, muss man etwa zwei Kilogramm Papier und Formulare ausfüllen, um solche Studien durchführen zu können.",
+            "BG: Das ist verständlich, das Gehirn ist empfindlich, usw."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller",
+            "Parkinsons disease": "Parkinson-Krankheit",
+            "Bruno Giussani": "Bruno Giussani",
+            "Jocelyne": "Jocelyne",
+            "Jocelyne Bloch": "Jocelyne Bloch",
+            "BG": "BG",
+            "JB": "JB"
+        }
+    },
+    {
+        "idx": 94,
+        "src": "BG: If you project yourself --  having done the research  and having tried to get permission to start the trials,  if you project yourself out in time,  how many years before somebody gets into a hospital  and this therapy is available?",
+        "ref": "BG: Schauen Sie in die Zukunft -- Sie haben die Forschung abgeschlossen und versuchten die Erlaubnis zum Start der klinischen Studien zu bekommen. Wenn Sie weiter in die Zukunft schauen, wie viele Jahre dauert es, bis jemand ins Krankenhaus kommen kann, und diese Therapie verfügbar sein wird.",
+        "hyp": "BG: Wenn Sie sich vorstellen - die Forschung durchgeführt und versucht haben, die Erlaubnis zur Durchführung der Studien zu bekommen, wie viele Jahre vergehen wohl, bevor jemand ins Krankenhaus kommt und diese Therapie verfügbar ist?",
+        "rel_src": [
+            "But our dream is still to implant them in humans.",
+            "Jocelyne Bloch: The biggest obstacles are regulations.   So, from these exciting results, you need to fill out  about two kilograms of papers and forms  to be able to go through these kind of trials."
+        ],
+        "rel_tgt": [
+            "Aber unser Traum ist immer noch, sie bei Menschen zu implantieren.",
+            "Jocelyne Bloch: Die größten Hindernisse sind die Vorschriften. Also, von diesen aufregenden Ergebnissen aus, muss man etwa zwei Kilogramm Papier und Formulare ausfüllen, um solche Studien durchführen zu können."
+        ],
+        "hist_info": "\"BG\" - \"BG\"",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller",
+            "Parkinsons disease": "Parkinson-Krankheit",
+            "Bruno Giussani": "Bruno Giussani",
+            "Jocelyne": "Jocelyne",
+            "Jocelyne Bloch": "Jocelyne Bloch",
+            "BG": "BG",
+            "JB": "JB"
+        }
+    },
+    {
+        "idx": 95,
+        "src": "JB: So, it's very difficult to say.",
+        "ref": "JB: Das ist schwer zu sagen.",
+        "hyp": "JB: Also, es ist sehr schwierig zu sagen.",
+        "rel_src": [
+            "Jocelyne Bloch: The biggest obstacles are regulations.   So, from these exciting results, you need to fill out  about two kilograms of papers and forms  to be able to go through these kind of trials.",
+            "BG: If you project yourself --  having done the research  and having tried to get permission to start the trials,  if you project yourself out in time,  how many years before somebody gets into a hospital  and this therapy is available?"
+        ],
+        "rel_tgt": [
+            "Jocelyne Bloch: Die größten Hindernisse sind die Vorschriften. Also, von diesen aufregenden Ergebnissen aus, muss man etwa zwei Kilogramm Papier und Formulare ausfüllen, um solche Studien durchführen zu können.",
+            "BG: Wenn Sie sich vorstellen - die Forschung durchgeführt und versucht haben, die Erlaubnis zur Durchführung der Studien zu bekommen, wie viele Jahre vergehen wohl, bevor jemand ins Krankenhaus kommt und diese Therapie verfügbar ist?"
+        ],
+        "hist_info": "\"JB\" - \"JB\"",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller",
+            "Parkinsons disease": "Parkinson-Krankheit",
+            "Bruno Giussani": "Bruno Giussani",
+            "Jocelyne": "Jocelyne",
+            "Jocelyne Bloch": "Jocelyne Bloch",
+            "BG": "BG",
+            "JB": "JB"
+        }
+    },
+    {
+        "idx": 96,
+        "src": "It depends, first, on the approval of the trial.",
+        "ref": "Zunächst hängt es von der Zulassung der klinischen Studie ab.",
+        "hyp": "Es hängt erstens davon ab, ob die Studie genehmigt wird.",
+        "rel_src": [
+            "And of course the question is,  what are the biggest obstacles  before you can go into human clinical trials?",
+            "Jocelyne Bloch: The biggest obstacles are regulations.   So, from these exciting results, you need to fill out  about two kilograms of papers and forms  to be able to go through these kind of trials."
+        ],
+        "rel_tgt": [
+            "Und natürlich steht die Frage im Raum, welche sind die größten Hindernisse, bevor man zu klinischen Studien bei Menschen übergehen kann?",
+            "Jocelyne Bloch: Die größten Hindernisse sind die Vorschriften. Also, von diesen aufregenden Ergebnissen aus, muss man etwa zwei Kilogramm Papier und Formulare ausfüllen, um solche Studien durchführen zu können."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller",
+            "Parkinsons disease": "Parkinson-Krankheit",
+            "Bruno Giussani": "Bruno Giussani",
+            "Jocelyne": "Jocelyne",
+            "Jocelyne Bloch": "Jocelyne Bloch",
+            "BG": "BG",
+            "JB": "JB"
+        }
+    },
+    {
+        "idx": 97,
+        "src": "Will the regulation allow us to do it soon?",
+        "ref": "Wird es uns die Behörde erlauben, es bald zu starten?",
+        "hyp": "Wird die Regelung uns bald gestatten, dies durchzuführen?",
+        "rel_src": [
+            "And of course the question is,  what are the biggest obstacles  before you can go into human clinical trials?",
+            "Jocelyne Bloch: The biggest obstacles are regulations.   So, from these exciting results, you need to fill out  about two kilograms of papers and forms  to be able to go through these kind of trials."
+        ],
+        "rel_tgt": [
+            "Und natürlich steht die Frage im Raum, welche sind die größten Hindernisse, bevor man zu klinischen Studien bei Menschen übergehen kann?",
+            "Jocelyne Bloch: Die größten Hindernisse sind die Vorschriften. Also, von diesen aufregenden Ergebnissen aus, muss man etwa zwei Kilogramm Papier und Formulare ausfüllen, um solche Studien durchführen zu können."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller",
+            "Parkinsons disease": "Parkinson-Krankheit",
+            "Bruno Giussani": "Bruno Giussani",
+            "Jocelyne": "Jocelyne",
+            "Jocelyne Bloch": "Jocelyne Bloch",
+            "BG": "BG",
+            "JB": "JB"
+        }
+    },
+    {
+        "idx": 98,
+        "src": "And then, you have to perform this kind of study  in a small group of patients.",
+        "ref": "Dann muss man diese Studie mit einer kleinen Gruppe von Patienten durchführen.",
+        "hyp": "Und dann muss man diese Art von Studie an einer kleinen Gruppe von Patienten durchführen.",
+        "rel_src": [
+            "And of course the question is,  what are the biggest obstacles  before you can go into human clinical trials?",
+            "Jocelyne Bloch: The biggest obstacles are regulations.   So, from these exciting results, you need to fill out  about two kilograms of papers and forms  to be able to go through these kind of trials."
+        ],
+        "rel_tgt": [
+            "Und natürlich steht die Frage im Raum, welche sind die größten Hindernisse, bevor man zu klinischen Studien bei Menschen übergehen kann?",
+            "Jocelyne Bloch: Die größten Hindernisse sind die Vorschriften. Also, von diesen aufregenden Ergebnissen aus, muss man etwa zwei Kilogramm Papier und Formulare ausfüllen, um solche Studien durchführen zu können."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller",
+            "Parkinsons disease": "Parkinson-Krankheit",
+            "Bruno Giussani": "Bruno Giussani",
+            "Jocelyne": "Jocelyne",
+            "Jocelyne Bloch": "Jocelyne Bloch",
+            "BG": "BG",
+            "JB": "JB"
+        }
+    },
+    {
+        "idx": 99,
+        "src": "So it takes, already, a long time to select the patients,  do the treatment  and evaluate if it's useful to do this kind of treatment.",
+        "ref": "Es braucht schon eine lange Zeit, die Patienten auszuwählen, die Behandlungen durchzuführen und zu bewerten, ob es nützlich ist, diese Art von Behandlung zu machen.",
+        "hyp": "Es dauert also bereits eine lange Zeit, um die Patienten auszuwählen, die Behandlung durchzuführen und zu evaluieren, ob es sinnvoll ist, solche Behandlungen durchzuführen.",
+        "new_src_summary": "In a scientific narrative, a neurosurgeon specializing in functional neurosurgery reflects on the medical community's pursuit of overcoming the brain's limited self-repair capacity following severe injuries like strokes or car accidents, which often lead to debilitating disabilities. The surgeon highlights deep brain stimulation as a successful treatment for conditions such as Parkinson's disease, severe tremors, and chronic pain, while expressing optimism for achieving the ultimate goal of neuro-repair, or restoring damaged brain tissue. Recent research by Jean-François Brunet and the author has revealed stem cell-like cultures derived from discarded brain tissue removed during surgeries, which were found in greater abundance than typical adult brain stem cells and exhibited unique behavior, differing from standard rapidly dividing, immortal stem cells. These discoveries offer a promising avenue for brain repair.\n\nMoreover, the text describes a scientific breakthrough concerning a new cell population in the human brain, doublecortin-positive cells, which account for approximately four percent of cortical brain cells and resemble stem cells with distinct behavior. These cells play a crucial role in brain folding during fetal development, and their persistence in the adult brain, especially near lesions, suggests their potential contribution to repair mechanisms. Researchers have successfully cultured these cells and developed an experimental approach involving brain biopsies, cell culture, labeling, and re-implantation into the same individual to track their behavior within the brain.\n\nThe narrative includes a study on autologous grafts, where cells are re-implanted into the same individual's brain to assess their behavior in both normal and lesioned conditions. In a normal brain, re-implanted cells disappeared within weeks, indicating their absorption by an already occupied space. Conversely, in a lesioned brain, the cells persisted, matured into neurons, and improved motor function in monkeys trained for manual dexterity tasks, demonstrating enhanced recovery compared to spontaneous recovery levels. This research holds significant promise for advancing neuro-repair techniques and improving outcomes for patients with neurological damage.\n\nThe speaker also discusses the progress made in understanding neural stem cells since initial experiments, noting successful results in animal models for neurological conditions like Parkinson's disease. There is cautious optimism for applying this knowledge to human clinical trials to showcase the brain's self-repair capabilities. However, significant regulatory hurdles, including extensive paperwork and compliance measures, must be overcome, requiring time, patience, and specialized expertise. The timeline for human trials is uncertain and contingent upon regulatory approval, with initial studies likely involving a small patient cohort.\n\nThroughout the narrative, the tone is informative, optimistic, and cautious, reflecting the domain of neuroscience and medical research and the style of a scientific presentation or Q&A session.",
+        "new_tgt_summary": "Ein spezialisierter Neurochirurg, in Partnerschaft mit Jean-François Brunet und unterstützt von Professor Eric Rouiller, hat sich auf die Verbesserung der Lebensqualität von Patienten mit Krankheiten wie Parkinson konzentriert, indem er seltene, allgemein nutzbare Stammzellen isolierte und identifizierte, insbesondere Doublecortin-positive Zellen. Diese Zellen haben das Potenzial, in jede Zellart zu transformieren und möglicherweise den Wiederaufbau des Gehirns zu unterstützen. Durch Experimente mit autologen Transplantaten wurde gezeigt, dass diese Zellen in beschädigten Affengehirnen zu reifen Nervenzellen wurden und die motorischen Fähigkeiten verbesserten. Jocelyne Bloch diskutierte Fortschritte in der Reimplantation von nach Kryokonservierung erhaltenen Zellen, mit dem Ziel, diese Technik bei Menschen anzuwenden, um die Selbstreparatur des menschlichen Gehirns zu ermöglichen. Allerdings stellen strenge gesetzliche Bestimmungen ein Hauptproblem dar, da sie umfangreiche Dokumentation und bürokratische Verfahren erfordern. Daher ist die genaue Verfügbarkeit dieser Therapie für Patienten noch ungewiss und hängt von der Genehmigung solcher Studien ab.",
+        "rel_src": [
+            "And of course the question is,  what are the biggest obstacles  before you can go into human clinical trials?",
+            "And then, you have to perform this kind of study  in a small group of patients."
+        ],
+        "rel_tgt": [
+            "Und natürlich steht die Frage im Raum, welche sind die größten Hindernisse, bevor man zu klinischen Studien bei Menschen übergehen kann?",
+            "Und dann muss man diese Art von Studie an einer kleinen Gruppe von Patienten durchführen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller",
+            "Parkinsons disease": "Parkinson-Krankheit",
+            "Bruno Giussani": "Bruno Giussani",
+            "Jocelyne": "Jocelyne",
+            "Jocelyne Bloch": "Jocelyne Bloch",
+            "BG": "BG",
+            "JB": "JB"
+        }
+    },
+    {
+        "idx": 100,
+        "src": "And then you have to deploy this to a multicentric trial.",
+        "ref": "Danach muss man das auf eine multizentrische Studie anwenden.",
+        "hyp": "Und dann muss man dies in eine multizentrische Studie umsetzen.",
+        "rel_src": [
+            "And of course the question is,  what are the biggest obstacles  before you can go into human clinical trials?",
+            "Jocelyne Bloch: The biggest obstacles are regulations.   So, from these exciting results, you need to fill out  about two kilograms of papers and forms  to be able to go through these kind of trials."
+        ],
+        "rel_tgt": [
+            "Und natürlich steht die Frage im Raum, welche sind die größten Hindernisse, bevor man zu klinischen Studien bei Menschen übergehen kann?",
+            "Jocelyne Bloch: Die größten Hindernisse sind die Vorschriften. Also, von diesen aufregenden Ergebnissen aus, muss man etwa zwei Kilogramm Papier und Formulare ausfüllen, um solche Studien durchführen zu können."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller",
+            "Parkinsons disease": "Parkinson-Krankheit",
+            "Bruno Giussani": "Bruno Giussani",
+            "Jocelyne": "Jocelyne",
+            "Jocelyne Bloch": "Jocelyne Bloch",
+            "BG": "BG",
+            "JB": "JB"
+        }
+    },
+    {
+        "idx": 101,
+        "src": "You have to really prove first that it's useful  before offering this treatment up for everybody.",
+        "ref": "Man muss zuerst wirklich nachweisen, dass es nützlich ist, bevor man diese Behandlung jedem anbieten kann.",
+        "hyp": "Man muss erst really beweisen, dass es nützlich ist, bevor man diese Behandlung für jeden anbietet. ",
+        "rel_src": [
+            "And then, you have to perform this kind of study  in a small group of patients.",
+            "So it takes, already, a long time to select the patients,  do the treatment  and evaluate if it's useful to do this kind of treatment."
+        ],
+        "rel_tgt": [
+            "Und dann muss man diese Art von Studie an einer kleinen Gruppe von Patienten durchführen.",
+            "Es dauert also bereits eine lange Zeit, um die Patienten auszuwählen, die Behandlung durchzuführen und zu evaluieren, ob es sinnvoll ist, solche Behandlungen durchzuführen."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller",
+            "Parkinsons disease": "Parkinson-Krankheit",
+            "Bruno Giussani": "Bruno Giussani",
+            "Jocelyne": "Jocelyne",
+            "Jocelyne Bloch": "Jocelyne Bloch",
+            "BG": "BG",
+            "JB": "JB"
+        }
+    },
+    {
+        "idx": 102,
+        "src": "BG: And safe, of course. JB: Of course.",
+        "ref": "BG: Und dass es sicher ist, natürlich. JB: Natürlich.",
+        "hyp": "BG: Und sicherverständlich sicher. JB: Natürlich.",
+        "rel_src": [
+            "And of course the question is,  what are the biggest obstacles  before you can go into human clinical trials?",
+            "Jocelyne Bloch: The biggest obstacles are regulations.   So, from these exciting results, you need to fill out  about two kilograms of papers and forms  to be able to go through these kind of trials."
+        ],
+        "rel_tgt": [
+            "Und natürlich steht die Frage im Raum, welche sind die größten Hindernisse, bevor man zu klinischen Studien bei Menschen übergehen kann?",
+            "Jocelyne Bloch: Die größten Hindernisse sind die Vorschriften. Also, von diesen aufregenden Ergebnissen aus, muss man etwa zwei Kilogramm Papier und Formulare ausfüllen, um solche Studien durchführen zu können."
+        ],
+        "hist_info": "\"BG\" - \"BG\", \"JB\" - \"JB\"",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller",
+            "Parkinsons disease": "Parkinson-Krankheit",
+            "Bruno Giussani": "Bruno Giussani",
+            "Jocelyne": "Jocelyne",
+            "Jocelyne Bloch": "Jocelyne Bloch",
+            "BG": "BG",
+            "JB": "JB"
+        }
+    },
+    {
+        "idx": 103,
+        "src": "BG: Jocelyne, thank you for coming to TED and sharing this.",
+        "ref": "BG: Jocelyne, danke für Ihren Besuch bei TED und dass Sie uns davon erzählt haben.",
+        "hyp": "BG: Jocelyne, danke, dass Sie zu TED gekommen sind und dies geteilt haben.",
+        "rel_src": [
+            "Thank you.",
+            "Bruno Giussani: Jocelyne, this is amazing,  and I'm sure that right now, there are several dozen people in the audience,  possibly even a majority,  who are thinking, \"I know somebody who can use this.\""
+        ],
+        "rel_tgt": [
+            "Danke.",
+            "Bruno Giussani: Jocelyne, das ist unglaublich, und ich bin mir sicher, dass im Publikum gerade mehrere Dutzend Menschen, möglicherweise sogar eine Mehrheit, denken: \"Ich kenne jemanden, der das brauchen könnte.\""
+        ],
+        "hist_info": "\"Jocelyne\" - \"Jocelyne\", \"BG\" - \"BG\"",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller",
+            "Parkinsons disease": "Parkinson-Krankheit",
+            "Bruno Giussani": "Bruno Giussani",
+            "Jocelyne": "Jocelyne",
+            "Jocelyne Bloch": "Jocelyne Bloch",
+            "BG": "BG",
+            "JB": "JB",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 104,
+        "src": "BG: Thank you.",
+        "ref": "BG: Vielen Dank.",
+        "hyp": "BG: Danke.",
+        "rel_src": [
+            "Thank you.",
+            "BG: Jocelyne, thank you for coming to TED and sharing this."
+        ],
+        "rel_tgt": [
+            "Danke.",
+            "BG: Jocelyne, danke, dass Sie zu TED gekommen sind und dies geteilt haben."
+        ],
+        "hist_info": "\"BG\" - \"BG\"",
+        "entity_dict": {
+            "Jean-François Brunet": "Jean-François Brunet",
+            "Jean-François": "Jean-François",
+            "doublecortin-positive cells": "Doublecortin-positive Zellen",
+            "Eric Rouiller": "Eric Rouiller",
+            "Parkinsons disease": "Parkinson-Krankheit",
+            "Bruno Giussani": "Bruno Giussani",
+            "Jocelyne": "Jocelyne",
+            "Jocelyne Bloch": "Jocelyne Bloch",
+            "BG": "BG",
+            "JB": "JB",
+            "TED": "TED"
+        }
+    }
+]

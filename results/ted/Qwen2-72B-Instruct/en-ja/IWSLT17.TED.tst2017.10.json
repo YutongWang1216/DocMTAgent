@@ -1,0 +1,2959 @@
+[
+    {
+        "idx": 0,
+        "src": "Hello.",
+        "ref": "こんにちは",
+        "hyp": "こんにちは。",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 1,
+        "src": "My name is Matthew Williams,  and I am a champion.",
+        "ref": "マシュー・ウィリアムズと申します 僕はチャンピオンです",
+        "hyp": "私の名前はマシュウ・ウィリアムスで、私はチャンピオンです。",
+        "rel_src": [
+            "Hello."
+        ],
+        "rel_tgt": [
+            "こんにちは。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス"
+        }
+    },
+    {
+        "idx": 2,
+        "src": "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage.",
+        "ref": "３種目のスポーツ競技のメダルを カナダの全国大会で取っています バスケットボールでは 世界レベルの試合に参加し 光栄なことに カナダ代表として 世界大会に出場しました",
+        "hyp": "私はカナダの3つの異なるスポーツと全国大会でメダルを獲得し、バスケットボールで国際レベルで競い合い、世界の舞台でカナダを代表することが誇りでした。",
+        "rel_src": [
+            "Hello.",
+            "My name is Matthew Williams,  and I am a champion."
+        ],
+        "rel_tgt": [
+            "こんにちは。",
+            "私の名前はマシュウ・ウィリアムスで、私はチャンピオンです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール"
+        },
+        "conflict": [
+            "\"Canada\" - \"カナダ\"/\"カナダ \n\n(Note: Canada appears twice in the context referring to the country being represented\""
+        ]
+    },
+    {
+        "idx": 3,
+        "src": "I train five days a week for basketball and speed skating,  work with top quality coaches  and mental performance consultants  to be at my best in my sport.",
+        "ref": "（拍手） 週５日 バスケットボールと スピードスケートの練習に出て トップクラスのコーチ陣と メンタル・パフォーマンスの コンサルタントが 試合でベストを出せるように 支えてくれています",
+        "hyp": "私は週に5日、バスケットボールとスピードスケートのトレーニングを行い、最高品質のコーチとメンタルパフォーマンスコンサルタントと働き、私のスポーツで最高の状態になるためです。",
+        "rel_src": [
+            "My name is Matthew Williams,  and I am a champion.",
+            "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage."
+        ],
+        "rel_tgt": [
+            "私の名前はマシュウ・ウィリアムスで、私はチャンピオンです。",
+            "私はカナダの3つの異なるスポーツと全国大会でメダルを獲得し、バスケットボールで国際レベルで競い合い、世界の舞台でカナダを代表することが誇りでした。"
+        ],
+        "hist_info": "\"basketball\" - \"バスケットボール\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール"
+        }
+    },
+    {
+        "idx": 4,
+        "src": "By the way, all that is through Special Olympics.",
+        "ref": "ところで これは すべて スペシャルオリンピックスのことです",
+        "hyp": "あくまで、これらすべてはスペシャルオリンピックスを通じてのことです。",
+        "rel_src": [
+            "My name is Matthew Williams,  and I am a champion.",
+            "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage."
+        ],
+        "rel_tgt": [
+            "私の名前はマシュウ・ウィリアムスで、私はチャンピオンです。",
+            "私はカナダの3つの異なるスポーツと全国大会でメダルを獲得し、バスケットボールで国際レベルで競い合い、世界の舞台でカナダを代表することが誇りでした。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス"
+        }
+    },
+    {
+        "idx": 5,
+        "src": "Does that change the way you think of me  and my accomplishments?",
+        "ref": "それを聞いて 僕や僕の成果を 見る目が変わりますか？",
+        "hyp": "それはあなたが私と私の業績を見る方式を変えるのでしょうか？",
+        "rel_src": [
+            "My name is Matthew Williams,  and I am a champion.",
+            "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage."
+        ],
+        "rel_tgt": [
+            "私の名前はマシュウ・ウィリアムスで、私はチャンピオンです。",
+            "私はカナダの3つの異なるスポーツと全国大会でメダルを獲得し、バスケットボールで国際レベルで競い合い、世界の舞台でカナダを代表することが誇りでした。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス"
+        }
+    },
+    {
+        "idx": 6,
+        "src": "The world does not see all people like me as champions.",
+        "ref": "世の中は 僕のような人々を 必ずしも チャンピオンとは見なしません",
+        "hyp": "世界は私のような全ての人々をチャンピオンとは見なしていない。",
+        "rel_src": [
+            "My name is Matthew Williams,  and I am a champion.",
+            "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage."
+        ],
+        "rel_tgt": [
+            "私の名前はマシュウ・ウィリアムスで、私はチャンピオンです。",
+            "私はカナダの3つの異なるスポーツと全国大会でメダルを獲得し、バスケットボールで国際レベルで競い合い、世界の舞台でカナダを代表することが誇りでした。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス"
+        }
+    },
+    {
+        "idx": 7,
+        "src": "Not long ago, people like me were shunned and hidden away.",
+        "ref": "最近まで 僕みたいな人は 疎外され 人前には出ないものでした",
+        "hyp": "それほど昔ではないのに、私のような人々は避けて隠されてしまっていた。",
+        "rel_src": [
+            "By the way, all that is through Special Olympics.",
+            "The world does not see all people like me as champions."
+        ],
+        "rel_tgt": [
+            "あくまで、これらすべてはスペシャルオリンピックスを通じてのことです。",
+            "世界は私のような全ての人々をチャンピオンとは見なしていない。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス"
+        }
+    },
+    {
+        "idx": 8,
+        "src": "There has been lots of change since Special Olympics began in 1968,  but in too many cases,  people with intellectual disabilities  are invisible to the wider population.",
+        "ref": "1968年にスペシャルオリンピックスが 始まってから 大きく変わりましたが あまりに多くの場合において 知的障害のある人々は 広い世の中にとって 見えない存在です",
+        "hyp": "スペシャルオリンピックスが始まった1968年以降、多くの変化がありました。しかし、依然として知的障害を持つ人々は、広範な人口に対して見えないままなことが多いのです。",
+        "rel_src": [
+            "The world does not see all people like me as champions.",
+            "Not long ago, people like me were shunned and hidden away."
+        ],
+        "rel_tgt": [
+            "世界は私のような全ての人々をチャンピオンとは見なしていない。",
+            "それほど昔ではないのに、私のような人々は避けて隠されてしまっていた。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"スペシャルオリンピックス\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年"
+        }
+    },
+    {
+        "idx": 9,
+        "src": "People use the r-word in front of me, and they think it doesn't matter.",
+        "ref": "皆 僕の目の前で差別用語を使うのを 悪いことだと思っていません",
+        "hyp": "人々は私の前でRワードを使い、それが問題ないと考えるんです。",
+        "rel_src": [
+            "The world does not see all people like me as champions.",
+            "Not long ago, people like me were shunned and hidden away."
+        ],
+        "rel_tgt": [
+            "世界は私のような全ての人々をチャンピオンとは見なしていない。",
+            "それほど昔ではないのに、私のような人々は避けて隠されてしまっていた。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年"
+        }
+    },
+    {
+        "idx": 10,
+        "src": "That's the word \"retard\" or \"retarded\"  used in a derogatory manner.",
+        "ref": "「知恵遅れ」という言葉を 侮蔑的に使うのです",
+        "hyp": "それは「レタード」または「レタードされた」という言葉が蔑視の意図で使われる場合のことです。",
+        "rel_src": [
+            "Not long ago, people like me were shunned and hidden away.",
+            "People use the r-word in front of me, and they think it doesn't matter."
+        ],
+        "rel_tgt": [
+            "それほど昔ではないのに、私のような人々は避けて隠されてしまっていた。",
+            "人々は私の前でRワードを使い、それが問題ないと考えるんです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年"
+        }
+    },
+    {
+        "idx": 11,
+        "src": "They're not thinking about how much it hurts me and my friends.",
+        "ref": "それで 僕や仲間が どれだけ傷つくか 考えていないのです",
+        "hyp": "彼らはそれが私や私の友人達にどれだけ傷を負わせるか考えていません。",
+        "rel_src": [
+            "People use the r-word in front of me, and they think it doesn't matter.",
+            "That's the word \"retard\" or \"retarded\"  used in a derogatory manner."
+        ],
+        "rel_tgt": [
+            "人々は私の前でRワードを使い、それが問題ないと考えるんです。",
+            "それは「レタード」または「レタードされた」という言葉が蔑視の意図で使われる場合のことです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年"
+        }
+    },
+    {
+        "idx": 12,
+        "src": "I don't want you to think I'm here because I'm a charity case.",
+        "ref": "僕が 哀れみの対象として ここにいると思わないでください",
+        "hyp": "あなたが私がここにいるのは慈善事業の対象だからだと思わないでください。",
+        "rel_src": [
+            "My name is Matthew Williams,  and I am a champion.",
+            "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage."
+        ],
+        "rel_tgt": [
+            "私の名前はマシュウ・ウィリアムスで、私はチャンピオンです。",
+            "私はカナダの3つの異なるスポーツと全国大会でメダルを獲得し、バスケットボールで国際レベルで競い合い、世界の舞台でカナダを代表することが誇りでした。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年"
+        }
+    },
+    {
+        "idx": 13,
+        "src": "I am here because there is still a big problem with the way  many people see individuals with intellectual disabilities,  or, too often,  how they don't see them at all.",
+        "ref": "僕がここにいるのは 世間の 知的障害者に対する見方に 未だに深刻な問題が残っているからであり いや あまりに多くのケースで 何も見えていないことが問題だからです",
+        "hyp": "私はここにいるのは、まだ多くの人々が知的障害を持つ個々の人々を見る方法に大きな問題があるからです、あるいは、あまりにもしばしば、彼らが全く見ることができないからです。",
+        "rel_src": [
+            "There has been lots of change since Special Olympics began in 1968,  but in too many cases,  people with intellectual disabilities  are invisible to the wider population.",
+            "They're not thinking about how much it hurts me and my friends."
+        ],
+        "rel_tgt": [
+            "スペシャルオリンピックスが始まった1968年以降、多くの変化がありました。しかし、依然として知的障害を持つ人々は、広範な人口に対して見えないままなことが多いのです。",
+            "彼らはそれが私や私の友人達にどれだけ傷を負わせるか考えていません。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年"
+        }
+    },
+    {
+        "idx": 14,
+        "src": "Did you know the World Games happened this year?",
+        "ref": "今年 世界大会があったこと 知ってましたか？",
+        "hyp": "あなたは今年ワールドゲームズが開催されたことを知っていますか？",
+        "rel_src": [
+            "I have won medals in three different sports  and national games in Canada,  competed at the international level in basketball  and was proud to represent Canada  on the world stage.",
+            "By the way, all that is through Special Olympics."
+        ],
+        "rel_tgt": [
+            "私はカナダの3つの異なるスポーツと全国大会でメダルを獲得し、バスケットボールで国際レベルで競い合い、世界の舞台でカナダを代表することが誇りでした。",
+            "あくまで、これらすべてはスペシャルオリンピックスを通じてのことです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ"
+        }
+    },
+    {
+        "idx": 15,
+        "src": "I was one of over 6,500 athletes with intellectual disabilities  from 165 countries who competed in LA.",
+        "ref": "僕は 知的障害を持つアスリート ６千５百人の１人でした 165か国からの選手が LAに集まり 競い合ったのです",
+        "hyp": "私は、165カ国から来た知的障害を持つ約6,500人のアスリートの一人で、LAで競技したのです。",
+        "rel_src": [
+            "By the way, all that is through Special Olympics.",
+            "I am here because there is still a big problem with the way  many people see individuals with intellectual disabilities,  or, too often,  how they don't see them at all."
+        ],
+        "rel_tgt": [
+            "あくまで、これらすべてはスペシャルオリンピックスを通じてのことです。",
+            "私はここにいるのは、まだ多くの人々が知的障害を持つ個々の人々を見る方法に大きな問題があるからです、あるいは、あまりにもしばしば、彼らが全く見ることができないからです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA"
+        }
+    },
+    {
+        "idx": 16,
+        "src": "There was over 62,000 spectators watching opening ceremonies,  and there was live coverage on TSN and ESPN.",
+        "ref": "６万２千人以上の観客が 開会式を観ていて スポーツテレビ局のTSNとESPNが 生放送していました",
+        "hyp": "開会式には6万2千人以上の観客がおり、TSNとESPNで生中継されました。",
+        "rel_src": [
+            "Did you know the World Games happened this year?",
+            "I was one of over 6,500 athletes with intellectual disabilities  from 165 countries who competed in LA."
+        ],
+        "rel_tgt": [
+            "あなたは今年ワールドゲームズが開催されたことを知っていますか？",
+            "私は、165カ国から来た知的障害を持つ約6,500人のアスリートの一人で、LAで競技したのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 17,
+        "src": "Did you even know that happened?",
+        "ref": "そんな大会 知らなかったでしょう？",
+        "hyp": "そのことが起こったことさえ知っていましたか？",
+        "rel_src": [
+            "Did you know the World Games happened this year?",
+            "I was one of over 6,500 athletes with intellectual disabilities  from 165 countries who competed in LA."
+        ],
+        "rel_tgt": [
+            "あなたは今年ワールドゲームズが開催されたことを知っていますか？",
+            "私は、165カ国から来た知的障害を持つ約6,500人のアスリートの一人で、LAで競技したのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 18,
+        "src": "What do you think of when you see someone like me?",
+        "ref": "僕みたいな人を見たとき どう思いますか？",
+        "hyp": "私がような人を見たとき、あなたは何を考えますか？",
+        "rel_src": [
+            "Does that change the way you think of me  and my accomplishments?",
+            "The world does not see all people like me as champions."
+        ],
+        "rel_tgt": [
+            "それはあなたが私と私の業績を見る方式を変えるのでしょうか？",
+            "世界は私のような全ての人々をチャンピオンとは見なしていない。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 19,
+        "src": "I am here today to challenge you  to look at us as equals.",
+        "ref": "皆さんへの挑戦です 僕たちを 対等に見られるでしょうか",
+        "hyp": "今日、私はあなたに私たちを同格として見てほしいと挑戦しています。",
+        "new_src_summary": "The paragraph is written by Matthew Williams, a Canadian athlete who has won medals in multiple sports through Special Olympics. He trains rigorously and works with high-quality coaches and mental performance consultants to excel in his sports. Despite his achievements, he notes that people with intellectual disabilities are often invisible to society and face derogatory language, such as the r-word. Williams emphasizes that he is not seeking charity but wants to bring attention to the issue of how individuals with intellectual disabilities are perceived and treated. He highlights the recent World Games, where over 6,500 athletes from 165 countries competed, and questions if people are aware of such events. The tone of the paragraph is assertive and passionate, advocating for greater visibility and respect for individuals with intellectual disabilities.\n\nDomain: Sports, Disability Rights\n\nStyle: Personal Narrative, Advocacy\n\nTone: Assertive, Passionate, Advocative",
+        "new_tgt_summary": "マシュウ・ウィリアムスはスペシャルオリンピックスのアスリートで、カナダを代表し、数々のメダルを獲得した経験があります。彼は週に5日、バスケットボールとスピードスケートのトレーニングを行い、自身のパフォーマンスを最大限に引き出すために質の高いコーチとメンタルパフォーマンスコンサルタントと働いています。1968年のスペシャルオリンピックス創設以来、社会は進歩しましたが、まだ知的障害を持つ人々への理解不足と誤解が存在します。彼は、「レタード」などの蔑称が彼や彼の仲間たちに与える影響について語り、自身が慈善の対象ではなく、社会の認識を変えようとしていることを強調しています。また、彼は今年のワールドゲームズで165カ国から来た約6,500人のアスリートの一人として参加し、その規模と注目度が広く知られていない問題も指摘しています。",
+        "rel_src": [
+            "I don't want you to think I'm here because I'm a charity case.",
+            "I am here because there is still a big problem with the way  many people see individuals with intellectual disabilities,  or, too often,  how they don't see them at all."
+        ],
+        "rel_tgt": [
+            "あなたが私がここにいるのは慈善事業の対象だからだと思わないでください。",
+            "私はここにいるのは、まだ多くの人々が知的障害を持つ個々の人々を見る方法に大きな問題があるからです、あるいは、あまりにもしばしば、彼らが全く見ることができないからです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 20,
+        "src": "Special Olympics transforms the self-identity of athletes  with intellectual disabilities  and the perceptions of everyone watching.",
+        "ref": "スペシャルオリンピックスは 知的障害を持つアスリートたちの 自己アイデンティティも 観る人すべての価値観をも 一変させます",
+        "hyp": "スペシャルオリンピックスは、知的障害を持つアスリート自身の自己認識を変革し、全ての観客の認識を変えていきます。",
+        "rel_src": [
+            "I am here because there is still a big problem with the way  many people see individuals with intellectual disabilities,  or, too often,  how they don't see them at all.",
+            "There was over 62,000 spectators watching opening ceremonies,  and there was live coverage on TSN and ESPN."
+        ],
+        "rel_tgt": [
+            "私はここにいるのは、まだ多くの人々が知的障害を持つ個々の人々を見る方法に大きな問題があるからです、あるいは、あまりにもしばしば、彼らが全く見ることができないからです。",
+            "開会式には6万2千人以上の観客がおり、TSNとESPNで生中継されました。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"スペシャルオリンピックス\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 21,
+        "src": "For those of you who aren't familiar,  Special Olympics is for athletes with intellectual disabilities.",
+        "ref": "知らない人のために説明すると スペシャルオリンピックスとは 知的障害を持つアスリートが対象です",
+        "hyp": "あなたの中で知らない方がいらっしゃるかもしれませんが、スペシャルオリンピックスは知的障害を持つアスリートのためのものです。",
+        "rel_src": [
+            "By the way, all that is through Special Olympics.",
+            "Special Olympics transforms the self-identity of athletes  with intellectual disabilities  and the perceptions of everyone watching."
+        ],
+        "rel_tgt": [
+            "あくまで、これらすべてはスペシャルオリンピックスを通じてのことです。",
+            "スペシャルオリンピックスは、知的障害を持つアスリート自身の自己認識を変革し、全ての観客の認識を変えていきます。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"スペシャルオリンピックス\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN"
+        }
+    },
+    {
+        "idx": 22,
+        "src": "Special Olympics is separate from the Paralympics and Olympics.",
+        "ref": "パラリンピックや オリンピックとは別物です",
+        "hyp": "スペシャルオリンピックスはパラリンピックやオリンピックスとは別個のものです。",
+        "rel_src": [
+            "By the way, all that is through Special Olympics.",
+            "For those of you who aren't familiar,  Special Olympics is for athletes with intellectual disabilities."
+        ],
+        "rel_tgt": [
+            "あくまで、これらすべてはスペシャルオリンピックスを通じてのことです。",
+            "あなたの中で知らない方がいらっしゃるかもしれませんが、スペシャルオリンピックスは知的障害を持つアスリートのためのものです。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"スペシャルオリンピックス\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス"
+        }
+    },
+    {
+        "idx": 23,
+        "src": "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions.",
+        "ref": "レベルの高いスポーツ競技が 年間を通じて 知的障害者のために開催され 関わる人の 人生や価値観が変わります",
+        "hyp": "私たちは知的障害を持つ人々のために、生活と認識を変える高品質の年間スポーツプログラムを提供しています。",
+        "rel_src": [
+            "Special Olympics transforms the self-identity of athletes  with intellectual disabilities  and the perceptions of everyone watching.",
+            "For those of you who aren't familiar,  Special Olympics is for athletes with intellectual disabilities."
+        ],
+        "rel_tgt": [
+            "スペシャルオリンピックスは、知的障害を持つアスリート自身の自己認識を変革し、全ての観客の認識を変えていきます。",
+            "あなたの中で知らない方がいらっしゃるかもしれませんが、スペシャルオリンピックスは知的障害を持つアスリートのためのものです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス"
+        }
+    },
+    {
+        "idx": 24,
+        "src": "This movement has changed my life  and those of so many others.",
+        "ref": "これで 僕の人生も 他の本当に大勢の人々の 人生も変わりました",
+        "hyp": "この運動は私の人生を変えてきました、そしてたくさんの他の人たちの人生もです。",
+        "rel_src": [
+            "Does that change the way you think of me  and my accomplishments?",
+            "I am here today to challenge you  to look at us as equals."
+        ],
+        "rel_tgt": [
+            "それはあなたが私と私の業績を見る方式を変えるのでしょうか？",
+            "今日、私はあなたに私たちを同格として見てほしいと挑戦しています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス"
+        }
+    },
+    {
+        "idx": 25,
+        "src": "And it has changed the way the world sees people with intellectual disabilities.",
+        "ref": "そして 知的障害者を見る 世間の目も変わりました",
+        "hyp": "それは世界が知的障害を持つ人々を見る方法を変えるようになりました。",
+        "rel_src": [
+            "There has been lots of change since Special Olympics began in 1968,  but in too many cases,  people with intellectual disabilities  are invisible to the wider population.",
+            "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions."
+        ],
+        "rel_tgt": [
+            "スペシャルオリンピックスが始まった1968年以降、多くの変化がありました。しかし、依然として知的障害を持つ人々は、広範な人口に対して見えないままなことが多いのです。",
+            "私たちは知的障害を持つ人々のために、生活と認識を変える高品質の年間スポーツプログラムを提供しています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス"
+        }
+    },
+    {
+        "idx": 26,
+        "src": "I was born with epilepsy and an intellectual disability.",
+        "ref": "僕は 生まれつき てんかんと 知的障害があります",
+        "hyp": "私はてんかんと知的障害を持って生まれました。",
+        "rel_src": [
+            "Not long ago, people like me were shunned and hidden away.",
+            "There has been lots of change since Special Olympics began in 1968,  but in too many cases,  people with intellectual disabilities  are invisible to the wider population."
+        ],
+        "rel_tgt": [
+            "それほど昔ではないのに、私のような人々は避けて隠されてしまっていた。",
+            "スペシャルオリンピックスが始まった1968年以降、多くの変化がありました。しかし、依然として知的障害を持つ人々は、広範な人口に対して見えないままなことが多いのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス"
+        }
+    },
+    {
+        "idx": 27,
+        "src": "Growing up, I played hockey until I was 12 years old.",
+        "ref": "小さい頃から 12歳まで ホッケーをしていました",
+        "hyp": "成長する中で、私は12歳になるまでホッケーをやっていました。",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス"
+        }
+    },
+    {
+        "idx": 28,
+        "src": "The older I got, the more I felt  it was harder to keep up with everyone else,  and I was angry and frustrated.",
+        "ref": "成長するにつれて どんどん みんなについていくのが 難しくなってきて もどかしく 腹立たしかったです",
+        "hyp": "年を取るにつれ、他のみんなについていくのが難しくなると感じるようになり、私は怒りと挫折感に駆られました。",
+        "rel_src": [
+            "I was born with epilepsy and an intellectual disability.",
+            "Growing up, I played hockey until I was 12 years old."
+        ],
+        "rel_tgt": [
+            "私はてんかんと知的障害を持って生まれました。",
+            "成長する中で、私は12歳になるまでホッケーをやっていました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス"
+        }
+    },
+    {
+        "idx": 29,
+        "src": "For a while, I did not play any sports,  didn't have many friends  and felt left out and sad.",
+        "ref": "しばらくの間 スポーツから完全に離れていました 友達も あまりいなかったし 取り残された気がして 悲しかったです",
+        "hyp": "しばらくの間、私はスポーツを一切せず、あまり友達もいなくて、疎外感と悲しみを感じていました。",
+        "rel_src": [
+            "Growing up, I played hockey until I was 12 years old.",
+            "The older I got, the more I felt  it was harder to keep up with everyone else,  and I was angry and frustrated."
+        ],
+        "rel_tgt": [
+            "成長する中で、私は12歳になるまでホッケーをやっていました。",
+            "年を取るにつれ、他のみんなについていくのが難しくなると感じるようになり、私は怒りと挫折感に駆られました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス"
+        }
+    },
+    {
+        "idx": 30,
+        "src": "There was a time when people with intellectual disabilities  were hidden away from society.",
+        "ref": "その昔 知的障害のある人々は 社会から覆い隠された存在でした",
+        "hyp": "知的障害を持つ人々が社会から隠され、隔離されていた時代がありました。",
+        "rel_src": [
+            "I am here because there is still a big problem with the way  many people see individuals with intellectual disabilities,  or, too often,  how they don't see them at all.",
+            "And it has changed the way the world sees people with intellectual disabilities."
+        ],
+        "rel_tgt": [
+            "私はここにいるのは、まだ多くの人々が知的障害を持つ個々の人々を見る方法に大きな問題があるからです、あるいは、あまりにもしばしば、彼らが全く見ることができないからです。",
+            "それは世界が知的障害を持つ人々を見る方法を変えるようになりました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス"
+        }
+    },
+    {
+        "idx": 31,
+        "src": "No one thought they could participate in sports,  let alone be a valued member of society.",
+        "ref": "スポーツに参加できるとか ましてや 社会の貴重な一員だなんて 誰も思いませんでした",
+        "hyp": "誰も彼らがスポーツに参加できるとは思っていなかったし、ましてや社会の貴重な一員であるなどと考えた者はいなかった。",
+        "rel_src": [
+            "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions.",
+            "And it has changed the way the world sees people with intellectual disabilities."
+        ],
+        "rel_tgt": [
+            "私たちは知的障害を持つ人々のために、生活と認識を変える高品質の年間スポーツプログラムを提供しています。",
+            "それは世界が知的障害を持つ人々を見る方法を変えるようになりました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス"
+        }
+    },
+    {
+        "idx": 32,
+        "src": "In the 1960s, Dr. Frank Hayden,  a scientist at the University of Toronto,  was studying the effects of regular exercise  on the fitness levels of children with intellectual disabilities.",
+        "ref": "1960年代になって トロント大学の科学者 フランク・ヘイデン博士が 定期的な運動が 知的障害児の 運動能力に与える影響を 研究しました",
+        "hyp": "1960年代、トロント大学の科学者であるフランク・ヘイデン博士は、定期的な運動が知的障害を持つ子供たちのフィットネスレベルに及ぼす影響を研究していました。",
+        "rel_src": [
+            "For those of you who aren't familiar,  Special Olympics is for athletes with intellectual disabilities.",
+            "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions."
+        ],
+        "rel_tgt": [
+            "あなたの中で知らない方がいらっしゃるかもしれませんが、スペシャルオリンピックスは知的障害を持つアスリートのためのものです。",
+            "私たちは知的障害を持つ人々のために、生活と認識を変える高品質の年間スポーツプログラムを提供しています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学"
+        }
+    },
+    {
+        "idx": 33,
+        "src": "Using rigorous scientific research,  Dr. Hayden and other researchers  came to the conclusion  that it was simply the lack of opportunity to participate  that caused their fitness levels to suffer.",
+        "ref": "厳密に科学的な 研究方法によって ヘイデン博士と他の研究者たちが 出した結論はこうです 「知的障害児の運動能力が低いのは 単に 運動に参加する機会が 不足しているからに過ぎない」",
+        "hyp": "厳密な科学研究を用いて、ヘイデン博士を含む研究者たちは、彼らのフィットネスレベルが低下する原因は単に参加の機会が不足しているだけだと結論付けました。",
+        "rel_src": [
+            "There was a time when people with intellectual disabilities  were hidden away from society.",
+            "In the 1960s, Dr. Frank Hayden,  a scientist at the University of Toronto,  was studying the effects of regular exercise  on the fitness levels of children with intellectual disabilities."
+        ],
+        "rel_tgt": [
+            "知的障害を持つ人々が社会から隠され、隔離されていた時代がありました。",
+            "1960年代、トロント大学の科学者であるフランク・ヘイデン博士は、定期的な運動が知的障害を持つ子供たちのフィットネスレベルに及ぼす影響を研究していました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士"
+        }
+    },
+    {
+        "idx": 34,
+        "src": "Lots of people doubted that people with intellectual disabilities  could benefit from fitness programs and sports competition opportunities.",
+        "ref": "知的障害を持つ人にとって 運動プログラムや スポーツ競技参加が有益だと",
+        "hyp": "多くの人々が、知的障害を持つ人々がフィットネスプログラムやスポーツ競技の機会から恩恵を受けられると疑っていました。",
+        "rel_src": [
+            "No one thought they could participate in sports,  let alone be a valued member of society.",
+            "In the 1960s, Dr. Frank Hayden,  a scientist at the University of Toronto,  was studying the effects of regular exercise  on the fitness levels of children with intellectual disabilities."
+        ],
+        "rel_tgt": [
+            "誰も彼らがスポーツに参加できるとは思っていなかったし、ましてや社会の貴重な一員であるなどと考えた者はいなかった。",
+            "1960年代、トロント大学の科学者であるフランク・ヘイデン博士は、定期的な運動が知的障害を持つ子供たちのフィットネスレベルに及ぼす影響を研究していました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士"
+        }
+    },
+    {
+        "idx": 35,
+        "src": "But pioneers like Dr. Hayden and Eunice Kennedy Shriver,  the founder of Special Olympics,  persevered,  and Special Olympics athletes have proved them right  four and a half million times over.",
+        "ref": "信じる人は あまりいませんでした しかし 先駆者たち―ヘイデン博士や スペシャルオリンピックスの創始者 ユーニス・ケネディ・シュライバーは 諦めませんでした そして 選手たちも 彼らが正しかったのだと 450万回以上も 証明してきました",
+        "hyp": "しかし、ヘイデン博士やスペシャルオリンピックスの創設者であるユニス・ケネディ・シュライバーのような先駆者は粘り強く取り組み、そしてスペシャルオリンピックスのアスリートたちは彼らの主張が正しかったことを450万回以上証明してきました。",
+        "rel_src": [
+            "For those of you who aren't familiar,  Special Olympics is for athletes with intellectual disabilities.",
+            "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions."
+        ],
+        "rel_tgt": [
+            "あなたの中で知らない方がいらっしゃるかもしれませんが、スペシャルオリンピックスは知的障害を持つアスリートのためのものです。",
+            "私たちは知的障害を持つ人々のために、生活と認識を変える高品質の年間スポーツプログラムを提供しています。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"スペシャルオリンピックス\", \"Olympics\" - \"オリンピックス\", \"Dr. Hayden\" - \"ヘイデン博士\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー"
+        }
+    },
+    {
+        "idx": 36,
+        "src": "Before I joined Special Olympics,  I was nervous  because I was young, shy, not confident  and didn't have many friends.",
+        "ref": "（拍手） スペシャルオリンピックスに 参加する前 僕は不安でした 歳若く 人見知りで 自信もなかったし 友達も少なかったからです",
+        "hyp": "スペシャルオリンピックスに入る前は、私が若くて、恥ずかしがり屋で、自信がなく、友達も多くいなかったので、とても緊張していました。",
+        "rel_src": [
+            "I am here today to challenge you  to look at us as equals.",
+            "For a while, I did not play any sports,  didn't have many friends  and felt left out and sad."
+        ],
+        "rel_tgt": [
+            "今日、私はあなたに私たちを同格として見てほしいと挑戦しています。",
+            "しばらくの間、私はスポーツを一切せず、あまり友達もいなくて、疎外感と悲しみを感じていました。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"スペシャルオリンピックス\", \"Olympics\" - \"オリンピックス\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー"
+        }
+    },
+    {
+        "idx": 37,
+        "src": "When I got there, though, everyone was very encouraging,  supportive, and let me be myself  without being judged.",
+        "ref": "でも 行ってみたら 誰もが 皆 励ましてくれたり 支えてくれて そこでは 人の目を気にせず 自分らしく いられたのです",
+        "hyp": "しかし、私がそこへ行くと、皆さんは非常に励まし、サポートしてくれて、私自身でありながら判断されることなく受け入れてもらえたのです。",
+        "rel_src": [
+            "Special Olympics transforms the self-identity of athletes  with intellectual disabilities  and the perceptions of everyone watching.",
+            "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions."
+        ],
+        "rel_tgt": [
+            "スペシャルオリンピックスは、知的障害を持つアスリート自身の自己認識を変革し、全ての観客の認識を変えていきます。",
+            "私たちは知的障害を持つ人々のために、生活と認識を変える高品質の年間スポーツプログラムを提供しています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー"
+        }
+    },
+    {
+        "idx": 38,
+        "src": "Now, I am a basketball player and speed skater  who has competed at provincial, national games,  and this year made it all the way to the World Summer Games in LA,  where I was part of the first ever Canadian basketball team  to compete at World Games.",
+        "ref": "今では僕は バスケットボールと スピードスケートの選手です 州大会や 全国大会に 出場してきました そして今年は LAで開催された 夏の世界大会出場を果たしました カナダ代表として 初めて 世界大会まで進んだ— バスケチームの一員でした",
+        "hyp": "今では、私はバスケットボール選手であり、スピードスケーターであり、省レベル、全国大会に出場し、そして今年はロサンゼルスで開催された世界夏季大会まで出場することができました。そこで、私は初めてのカナダ代表バスケットボールチームの一員となり、世界大会に出場しました。",
+        "rel_src": [
+            "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions.",
+            "When I got there, though, everyone was very encouraging,  supportive, and let me be myself  without being judged."
+        ],
+        "rel_tgt": [
+            "私たちは知的障害を持つ人々のために、生活と認識を変える高品質の年間スポーツプログラムを提供しています。",
+            "しかし、私がそこへ行くと、皆さんは非常に励まし、サポートしてくれて、私自身でありながら判断されることなく受け入れてもらえたのです。"
+        ],
+        "hist_info": "\"basketball\" - \"バスケットボール\", \"LA\" - \"LA\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会"
+        },
+        "conflict": [
+            "\"LA\" - \"LA\"/\"ロサンゼルス\""
+        ]
+    },
+    {
+        "idx": 39,
+        "src": "I am one of more than four and a half million athletes around the globe,  and I've heard so many similar stories.",
+        "ref": "（拍手） 僕は 世界で450万人を超える アスリートの１人です 似たような話を 本当に たくさん聞いてきました",
+        "hyp": "私は全世界で450万人以上いるアスリートの一人で、私はとても似たような話をたくさん聞いてきました。",
+        "new_src_summary": "Matthew Williams, a decorated Canadian athlete with intellectual disabilities, passionately advocates for greater visibility and respect for individuals like him in sports and society through his personal narrative. Williams, a Special Olympics medalist in various disciplines, trains intensively with expert coaches and mental performance consultants. Despite his success, he laments that people with intellectual disabilities often remain invisible and face derogatory language, urging awareness beyond mere charity. Highlighting the recent World Games with over 6,500 participants from 165 countries, Williams questions public knowledge of these events. Special Olympics, distinct from Paralympics and Olympics, transforms lives by offering year-round sports programs, which Williams credits for his growth from isolation to becoming a celebrated athlete. Initially skeptical due to low self-esteem and few social connections, Williams found encouragement, support, and acceptance within Special Olympics, leading to success in basketball and speed skating, including representing Canada at provincial, national, and World Summer Games levels. The narrative also acknowledges the historical struggle against societal exclusion for those with intellectual disabilities and pays tribute to pioneers like Dr. Frank Hayden and Eunice Kennedy Shriver, whose advocacy and research challenged prevailing misconceptions. This merged summary maintains an assertive, passionate, and educational tone, advocating for disability rights and celebrating the empowering impact of sports on individuals' lives.",
+        "new_tgt_summary": "マシュウ・ウィリアムスはスペシャルオリンピックスの活躍するアスリートで、カナダを代表し、多数のメダルを獲得。週5日のバスケットボールとスピードスケートのトレーニングを行い、高品質のコーチとメンタルパフォーマンスコンサルタントと共にパフォーマンスを最大化しています。1968年のスペシャルオリンピックス創設以来、社会の理解と認識は進歩しましたが、未だ知的障害者に対する誤解は存在します。ウィリアムスは、蔑称が彼や同僚たちに及ぼす影響を明らかにし、自身が慈善の対象ではなく、社会の認識変容を目指していることを強調。また、今年のワールドゲームズでは約6,500人のアスリートの一部として参加し、その規模と注目度の低さを指摘しました。\n\nスペシャルオリンピックスは知的障害者向けのスポーツプログラムで、個人の自尊心と社会からの見方を変革しています。オリンピックスやパラリンピックスとは異なり、アスリートは高品質のスポーツ活動を通じて社会の一員として認識されます。筆者のような知的障害とてんかんを持つ人々は、スポーツから離れて疎外感を感じていましたが、スペシャルオリンピックスにより人生が一変しました。1960年代の研究により、知的障害者にも運動能力の向上が可能であることが証明され、これがスペシャルオリンピックスの始まりとなりました。筆者は自信を育み、カナダ代表として世界大会へと進むことができました。ウィリアムスの経験と筆者の旅路は、スペシャルオリンピックスが提供する機会とその社会的意義を象徴しています。",
+        "rel_src": [
+            "But pioneers like Dr. Hayden and Eunice Kennedy Shriver,  the founder of Special Olympics,  persevered,  and Special Olympics athletes have proved them right  four and a half million times over.",
+            "Now, I am a basketball player and speed skater  who has competed at provincial, national games,  and this year made it all the way to the World Summer Games in LA,  where I was part of the first ever Canadian basketball team  to compete at World Games."
+        ],
+        "rel_tgt": [
+            "しかし、ヘイデン博士やスペシャルオリンピックスの創設者であるユニス・ケネディ・シュライバーのような先駆者は粘り強く取り組み、そしてスペシャルオリンピックスのアスリートたちは彼らの主張が正しかったことを450万回以上証明してきました。",
+            "今では、私はバスケットボール選手であり、スピードスケーターであり、省レベル、全国大会に出場し、そして今年はロサンゼルスで開催された世界夏季大会まで出場することができました。そこで、私は初めてのカナダ代表バスケットボールチームの一員となり、世界大会に出場しました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会"
+        }
+    },
+    {
+        "idx": 40,
+        "src": "Being Special Olympics athletes  restores our pride and dignity.",
+        "ref": "スペシャルオリンピックスの 選手であることで 僕たちは 誇りと尊厳を 取り戻すのです",
+        "hyp": "スペシャルオリンピックスのアスリートであることによって、私たちの誇りと尊厳が回復されます。",
+        "rel_src": [
+            "Special Olympics transforms the self-identity of athletes  with intellectual disabilities  and the perceptions of everyone watching.",
+            "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions."
+        ],
+        "rel_tgt": [
+            "スペシャルオリンピックスは、知的障害を持つアスリート自身の自己認識を変革し、全ての観客の認識を変えていきます。",
+            "私たちは知的障害を持つ人々のために、生活と認識を変える高品質の年間スポーツプログラムを提供しています。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"スペシャルオリンピックス\", \"Olympics\" - \"オリンピックス\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会"
+        }
+    },
+    {
+        "idx": 41,
+        "src": "Special Olympics also addresses critical health needs.",
+        "ref": "スペシャルオリンピックスは 選手にとって 重要な健康のニーズにも 応えます",
+        "hyp": "スペシャルオリンピックスは、また、重要な健康問題にも対処しています。",
+        "rel_src": [
+            "We offer high-quality, year round sports programs  for people with intellectual disabilities  that changes lives and perceptions.",
+            "And it has changed the way the world sees people with intellectual disabilities."
+        ],
+        "rel_tgt": [
+            "私たちは知的障害を持つ人々のために、生活と認識を変える高品質の年間スポーツプログラムを提供しています。",
+            "それは世界が知的障害を持つ人々を見る方法を変えるようになりました。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"スペシャルオリンピックス\", \"Olympics\" - \"オリンピックス\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会"
+        }
+    },
+    {
+        "idx": 42,
+        "src": "Studies have shown that, on average,  men with intellectual disabilities  die 13 years younger than men without,  and women with intellectual disabilities  die 20 years younger than women without.",
+        "ref": "研究によれば 知的障害を持つ男性の平均寿命は 健常者より13年短く 女性の場合は 20年短いそうです",
+        "hyp": "研究によれば、平均すると、知的障害を持つ男性は知的障害を持たない男性よりも13年早く、知的障害を持つ女性は知的障害を持たない女性よりも20年も早く亡くなることが示されています。",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会"
+        }
+    },
+    {
+        "idx": 43,
+        "src": "Special Olympics keeps us healthy  by getting us active and participating in sport.",
+        "ref": "でも スペシャルオリンピックスで 体を動かし 競技参加することで 健康を保つことができます",
+        "hyp": "スペシャルオリンピックスは、私たちをアクティブにさせ、スポーツに参加させることで、私たちを健康に保ちます。",
+        "rel_src": [
+            "Special Olympics also addresses critical health needs.",
+            "Studies have shown that, on average,  men with intellectual disabilities  die 13 years younger than men without,  and women with intellectual disabilities  die 20 years younger than women without."
+        ],
+        "rel_tgt": [
+            "スペシャルオリンピックスは、また、重要な健康問題にも対処しています。",
+            "研究によれば、平均すると、知的障害を持つ男性は知的障害を持たない男性よりも13年早く、知的障害を持つ女性は知的障害を持たない女性よりも20年も早く亡くなることが示されています。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"スペシャルオリンピックス\", \"Olympics\" - \"オリンピックス\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会"
+        }
+    },
+    {
+        "idx": 44,
+        "src": "Also, our coaches teach us about nutrition and health.",
+        "ref": "また コーチ陣が 栄養や健康について教えてくれます",
+        "hyp": "また、私たちのコーチたちは栄養と健康について教えてくれます。",
+        "rel_src": [
+            "Special Olympics also addresses critical health needs.",
+            "Special Olympics keeps us healthy  by getting us active and participating in sport."
+        ],
+        "rel_tgt": [
+            "スペシャルオリンピックスは、また、重要な健康問題にも対処しています。",
+            "スペシャルオリンピックスは、私たちをアクティブにさせ、スポーツに参加させることで、私たちを健康に保ちます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会"
+        }
+    },
+    {
+        "idx": 45,
+        "src": "Special Olympics also provides free health screening  for athletes who have difficulty communicating with their doctor  or accessing health care.",
+        "ref": "スペシャルオリンピックスでは 無料健康診断を提供しています 対象となるのは 医師との意思疎通が困難だったり 医療に手が届きにくい選手です",
+        "hyp": "スペシャルオリンピックスは、また、医師とのコミュニケーションに困難があるか、または医療サービスを利用することが難しいアスリートに対して無料の健康診断を提供します。",
+        "rel_src": [
+            "Special Olympics also addresses critical health needs.",
+            "Special Olympics keeps us healthy  by getting us active and participating in sport."
+        ],
+        "rel_tgt": [
+            "スペシャルオリンピックスは、また、重要な健康問題にも対処しています。",
+            "スペシャルオリンピックスは、私たちをアクティブにさせ、スポーツに参加させることで、私たちを健康に保ちます。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"スペシャルオリンピックス\", \"Olympics\" - \"オリンピックス\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会"
+        }
+    },
+    {
+        "idx": 46,
+        "src": "At the 2015 World Summer Games,  my Team Canada teammates and I played the Nigerian basketball team.",
+        "ref": "2015年夏の世界大会で 僕のいたチームカナダは ナイジェリアの バスケチームと対戦しました",
+        "hyp": "2015年の世界夏季大会で、私のチームカナダのチームメイトと私はナイジェリアのバスケットボールチームとプレーしました。",
+        "rel_src": [
+            "Now, I am a basketball player and speed skater  who has competed at provincial, national games,  and this year made it all the way to the World Summer Games in LA,  where I was part of the first ever Canadian basketball team  to compete at World Games.",
+            "I am one of more than four and a half million athletes around the globe,  and I've heard so many similar stories."
+        ],
+        "rel_tgt": [
+            "今では、私はバスケットボール選手であり、スピードスケーターであり、省レベル、全国大会に出場し、そして今年はロサンゼルスで開催された世界夏季大会まで出場することができました。そこで、私は初めてのカナダ代表バスケットボールチームの一員となり、世界大会に出場しました。",
+            "私は全世界で450万人以上いるアスリートの一人で、私はとても似たような話をたくさん聞いてきました。"
+        ],
+        "hist_info": "\"Canada\" - \"カナダ\", \"basketball\" - \"バスケットボール\", \"World Summer Games\" - \"世界夏季大会\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム"
+        }
+    },
+    {
+        "idx": 47,
+        "src": "The day before our game,  the Nigerian basketball team went to the World Games Healthy Athlete screening,  where seven of 10 members  were given hearing aids for free  and got to hear clearly for the first time.",
+        "ref": "試合の前日に ナイジェリアチームは 会場で実施される健康診断を受け 10名のメンバーのうち ７名が 補聴器の無料支給を受け おかげで 生まれて初めて はっきりと 耳が聞こえたのです",
+        "hyp": "試合の前日、ナイジェリアのバスケットボールチームは世界大会のヘルシーアスリートスクリーニングに行き、10人中7人が無料で補聴器をもらい、初めてはっきりと聞くことができました。",
+        "rel_src": [
+            "Special Olympics also provides free health screening  for athletes who have difficulty communicating with their doctor  or accessing health care.",
+            "At the 2015 World Summer Games,  my Team Canada teammates and I played the Nigerian basketball team."
+        ],
+        "rel_tgt": [
+            "スペシャルオリンピックスは、また、医師とのコミュニケーションに困難があるか、または医療サービスを利用することが難しいアスリートに対して無料の健康診断を提供します。",
+            "2015年の世界夏季大会で、私のチームカナダのチームメイトと私はナイジェリアのバスケットボールチームとプレーしました。"
+        ],
+        "hist_info": "\"basketball\" - \"バスケットボール\", \"World Games\" - \"世界大会\", \"Nigerian basketball team\" - \"ナイジェリアのバスケットボールチーム\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング"
+        }
+    },
+    {
+        "idx": 48,
+        "src": "The change in them was amazing.",
+        "ref": "（拍手） 選手たちには 見違えるほどの変化が起こりました",
+        "hyp": "彼らの変化は驚くほどでした。",
+        "rel_src": [
+            "Before I joined Special Olympics,  I was nervous  because I was young, shy, not confident  and didn't have many friends.",
+            "Now, I am a basketball player and speed skater  who has competed at provincial, national games,  and this year made it all the way to the World Summer Games in LA,  where I was part of the first ever Canadian basketball team  to compete at World Games."
+        ],
+        "rel_tgt": [
+            "スペシャルオリンピックスに入る前は、私が若くて、恥ずかしがり屋で、自信がなく、友達も多くいなかったので、とても緊張していました。",
+            "今では、私はバスケットボール選手であり、スピードスケーターであり、省レベル、全国大会に出場し、そして今年はロサンゼルスで開催された世界夏季大会まで出場することができました。そこで、私は初めてのカナダ代表バスケットボールチームの一員となり、世界大会に出場しました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング"
+        }
+    },
+    {
+        "idx": 49,
+        "src": "They were more excited, happy and confident,  because their coach could vocally communicate with them.",
+        "ref": "より生き生きと 試合を楽しみ 自信を持ってプレイしていました コーチと肉声で意思疎通が できるようになったからです",
+        "hyp": "彼らはより興奮し、幸せで、自信に満ちていた、なぜなら彼らのコーチが声に出してコミュニケートできたからです。",
+        "rel_src": [
+            "Before I joined Special Olympics,  I was nervous  because I was young, shy, not confident  and didn't have many friends.",
+            "When I got there, though, everyone was very encouraging,  supportive, and let me be myself  without being judged."
+        ],
+        "rel_tgt": [
+            "スペシャルオリンピックスに入る前は、私が若くて、恥ずかしがり屋で、自信がなく、友達も多くいなかったので、とても緊張していました。",
+            "しかし、私がそこへ行くと、皆さんは非常に励まし、サポートしてくれて、私自身でありながら判断されることなく受け入れてもらえたのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング"
+        }
+    },
+    {
+        "idx": 50,
+        "src": "And they were emotional  because they could hear the sounds of the basketball,  the sounds of the whistle  and the cheering fans in the stands --  sounds that we take for granted.",
+        "ref": "感情も昂ぶっていました ボールの音が 聞こえるようにようになったからです そして 笛の音や スタンドに立つファンの歓声もです 皆にとっては 聞こえて当然の音です",
+        "hyp": "そして彼らは感情的になった、なぜならバスケットボールの音、ウィスルの音、スタンドからの歓声－私たちは当たり前に思っているこれらの音－を聞くことができたからです。",
+        "rel_src": [
+            "The day before our game,  the Nigerian basketball team went to the World Games Healthy Athlete screening,  where seven of 10 members  were given hearing aids for free  and got to hear clearly for the first time.",
+            "They were more excited, happy and confident,  because their coach could vocally communicate with them."
+        ],
+        "rel_tgt": [
+            "試合の前日、ナイジェリアのバスケットボールチームは世界大会のヘルシーアスリートスクリーニングに行き、10人中7人が無料で補聴器をもらい、初めてはっきりと聞くことができました。",
+            "彼らはより興奮し、幸せで、自信に満ちていた、なぜなら彼らのコーチが声に出してコミュニケートできたからです。"
+        ],
+        "hist_info": "\"basketball\" - \"バスケットボール\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング"
+        }
+    },
+    {
+        "idx": 51,
+        "src": "Special Olympics is transforming more than just the athlete in their sport.",
+        "ref": "スペシャルオリンピックスの 選手たちは 競技中だけでなく",
+        "hyp": "スペシャルオリンピックスは、スポーツにおけるアスリートだけではなく、それ以上に彼らの人生そのものを変革しています。",
+        "rel_src": [
+            "Special Olympics also addresses critical health needs.",
+            "Studies have shown that, on average,  men with intellectual disabilities  die 13 years younger than men without,  and women with intellectual disabilities  die 20 years younger than women without."
+        ],
+        "rel_tgt": [
+            "スペシャルオリンピックスは、また、重要な健康問題にも対処しています。",
+            "研究によれば、平均すると、知的障害を持つ男性は知的障害を持たない男性よりも13年早く、知的障害を持つ女性は知的障害を持たない女性よりも20年も早く亡くなることが示されています。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"スペシャルオリンピックス\", \"Olympics\" - \"オリンピックス\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング"
+        }
+    },
+    {
+        "idx": 52,
+        "src": "Special Olympics is transforming their lives off the field.",
+        "ref": "競技場の外での人生も変わります",
+        "hyp": "スペシャルオリンピックスは、フィールド外でも彼らの人生を変革しています。",
+        "rel_src": [
+            "Being Special Olympics athletes  restores our pride and dignity.",
+            "Special Olympics also addresses critical health needs."
+        ],
+        "rel_tgt": [
+            "スペシャルオリンピックスのアスリートであることによって、私たちの誇りと尊厳が回復されます。",
+            "スペシャルオリンピックスは、また、重要な健康問題にも対処しています。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"スペシャルオリンピックス\", \"Olympics\" - \"オリンピックス\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング"
+        }
+    },
+    {
+        "idx": 53,
+        "src": "This year, research findings showed  that nearly half of the adults in the US  don't know a single person with an intellectual disability,  and the 44 percent of Americans  who don't have personal contact with intellectual disabilities  are significantly less accepting and positive.",
+        "ref": "今年出た調査の結果によれば アメリカの成人の半数近くは 知的障害の知り合いが １人もいないそうです アメリカ人の44%にあたる そういった人々は 障害者に対し 受容性が非常に低く 著しくネガティブな 見方をしているそうです",
+        "hyp": "今年、研究結果が示したところによれば、アメリカの大人のほぼ半数が知的障害を持つ一人の人間を知らないという事実があり、そして知的障害との個人的な接触がない44％のアメリカ人は、はるかに受け入れにくく、ポジティブさに欠けていることが明らかになりました。",
+        "rel_src": [
+            "Lots of people doubted that people with intellectual disabilities  could benefit from fitness programs and sports competition opportunities.",
+            "Being Special Olympics athletes  restores our pride and dignity."
+        ],
+        "rel_tgt": [
+            "多くの人々が、知的障害を持つ人々がフィットネスプログラムやスポーツ競技の機会から恩恵を受けられると疑っていました。",
+            "スペシャルオリンピックスのアスリートであることによって、私たちの誇りと尊厳が回復されます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング",
+            "US": "アメリカ",
+            "Americans": "アメリカ人"
+        }
+    },
+    {
+        "idx": 54,
+        "src": "Then there's the r-word,  proving that people with intellectual disabilities  are still invisible to far too many people.",
+        "ref": "さらに 例の差別語使用の多さが 知的障害者が あまりの多くの人にとって 未だに見えない存在である という証拠です",
+        "hyp": "そして、いまだにr-word（知的障害者への蔑称）が存在し、知的障害を持つ人々がいまだに多くの人々にとって見えないままであることを証明しています。",
+        "rel_src": [
+            "Lots of people doubted that people with intellectual disabilities  could benefit from fitness programs and sports competition opportunities.",
+            "This year, research findings showed  that nearly half of the adults in the US  don't know a single person with an intellectual disability,  and the 44 percent of Americans  who don't have personal contact with intellectual disabilities  are significantly less accepting and positive."
+        ],
+        "rel_tgt": [
+            "多くの人々が、知的障害を持つ人々がフィットネスプログラムやスポーツ競技の機会から恩恵を受けられると疑っていました。",
+            "今年、研究結果が示したところによれば、アメリカの大人のほぼ半数が知的障害を持つ一人の人間を知らないという事実があり、そして知的障害との個人的な接触がない44％のアメリカ人は、はるかに受け入れにくく、ポジティブさに欠けていることが明らかになりました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング",
+            "US": "アメリカ",
+            "Americans": "アメリカ人",
+            "<r-word>": "<r-word（知的障害者への蔑称）>"
+        }
+    },
+    {
+        "idx": 55,
+        "src": "People use it as a casual term or an insult.",
+        "ref": "皆 気軽な表現や けなし言葉として 使ったりします",
+        "hyp": "人々はそれを気軽な言葉や侮辱の言葉として使います。",
+        "rel_src": [
+            "This year, research findings showed  that nearly half of the adults in the US  don't know a single person with an intellectual disability,  and the 44 percent of Americans  who don't have personal contact with intellectual disabilities  are significantly less accepting and positive.",
+            "Then there's the r-word,  proving that people with intellectual disabilities  are still invisible to far too many people."
+        ],
+        "rel_tgt": [
+            "今年、研究結果が示したところによれば、アメリカの大人のほぼ半数が知的障害を持つ一人の人間を知らないという事実があり、そして知的障害との個人的な接触がない44％のアメリカ人は、はるかに受け入れにくく、ポジティブさに欠けていることが明らかになりました。",
+            "そして、いまだにr-word（知的障害者への蔑称）が存在し、知的障害を持つ人々がいまだに多くの人々にとって見えないままであることを証明しています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング",
+            "US": "アメリカ",
+            "Americans": "アメリカ人",
+            "<r-word>": "<r-word（知的障害者への蔑称）>"
+        }
+    },
+    {
+        "idx": 56,
+        "src": "It was tweeted more than nine million times last year,  and it is deeply hurtful  to me and my four and a half million fellow athletes around the planet.",
+        "ref": "「知恵遅れ」という言葉の 去年のツイート回数は900万回以上 でもそれは 僕や 世界中にいる― 450万人のアスリート仲間を ものすごく傷つける言葉なのです",
+        "hyp": "去年だけで900万回以上ツイートされ、それは私だけでなく、地球上の私の450万人の仲間のアスリートたちにとっても深く傷つけるものです。",
+        "rel_src": [
+            "Then there's the r-word,  proving that people with intellectual disabilities  are still invisible to far too many people.",
+            "People use it as a casual term or an insult."
+        ],
+        "rel_tgt": [
+            "そして、いまだにr-word（知的障害者への蔑称）が存在し、知的障害を持つ人々がいまだに多くの人々にとって見えないままであることを証明しています。",
+            "人々はそれを気軽な言葉や侮辱の言葉として使います。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング",
+            "US": "アメリカ",
+            "Americans": "アメリカ人",
+            "<r-word>": "<r-word（知的障害者への蔑称）>"
+        }
+    },
+    {
+        "idx": 57,
+        "src": "People don't think it's insulting,  but it is.",
+        "ref": "皆 侮辱に当たると 思っていないのですが それは間違いです",
+        "hyp": "人々はそれが侮辱だと考えていないかもしれませんが、それは確かに侮辱です。",
+        "rel_src": [
+            "Then there's the r-word,  proving that people with intellectual disabilities  are still invisible to far too many people.",
+            "It was tweeted more than nine million times last year,  and it is deeply hurtful  to me and my four and a half million fellow athletes around the planet."
+        ],
+        "rel_tgt": [
+            "そして、いまだにr-word（知的障害者への蔑称）が存在し、知的障害を持つ人々がいまだに多くの人々にとって見えないままであることを証明しています。",
+            "去年だけで900万回以上ツイートされ、それは私だけでなく、地球上の私の450万人の仲間のアスリートたちにとっても深く傷つけるものです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング",
+            "US": "アメリカ",
+            "Americans": "アメリカ人",
+            "<r-word>": "<r-word（知的障害者への蔑称）>"
+        }
+    },
+    {
+        "idx": 58,
+        "src": "As my fellow athlete and global messenger John Franklin Stephens wrote  in an open letter to a political pundit  who used the r-word as an insult,  \"Come join us someday at Special Olympics.",
+        "ref": "僕の仲間で グローバルメッセンジャーの ジョン・フランクリン・スティーヴンズが 公開書簡を書きました 例の差別語で人をけなす 政治評論家に宛てたものです 「いつか スペシャルオリンピックスに 来てください",
+        "hyp": "私の同僚のアスリートであり、グローバルメッセンジャーでもあるジョン・フランクリン・スティーブンスが、軽蔑の言葉としてr-wordを使った政治評論家への公開手紙で書いたように、「いつかスペシャルオリンピックスに来てください。",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "\"Special Olympics\" - \"スペシャルオリンピックス\", \"Olympics\" - \"オリンピックス\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング",
+            "US": "アメリカ",
+            "Americans": "アメリカ人",
+            "<r-word>": "<r-word（知的障害者への蔑称）>",
+            "John Franklin Stephens": "ジョン・フランクリン・スティーブンス"
+        }
+    },
+    {
+        "idx": 59,
+        "src": "See if you walk away with your heart unchanged.\"",
+        "ref": "心を動かされずに帰れるかどうか どうぞ試してみてください」",
+        "hyp": "あなたが変わらぬ心でここを去れるかどうか見てください。”",
+        "new_src_summary": "Matthew Williams, a celebrated Canadian athlete with intellectual disabilities and a Special Olympics medalist in multiple disciplines, fervently advocates for greater recognition and respect for individuals like him in sports and society. Through his personal journey, Williams shares how Special Olympics, distinct from Paralympics and Olympics, has transformed his life from isolation to global representation, offering year-round sports programs that foster growth and empowerment for over 4.5 million athletes worldwide. With expert coaching and mental performance consultation, Williams has excelled in basketball and speed skating, competing at provincial, national, and international levels. Yet, he underscores the ongoing invisibility and stigma faced by athletes with intellectual disabilities, urging awareness beyond charity and highlighting the importance of addressing critical health disparities. Studies reveal that individuals with intellectual disabilities often have a shorter life expectancy, which Special Olympics combats through health promotion, nutrition education, and free health screenings. A poignant example comes from the 2015 World Summer Games, where Nigerian basketball players received hearing aids for the first time, enhancing communication and confidence. Williams pays homage to pioneers such as Dr. Frank Hayden and Eunice Kennedy Shriver for challenging societal misconceptions and invites all to join the Special Olympics community, emphasizing the power of sports to restore pride, dignity, and health while combating derogatory language and discrimination. This merged summary retains an assertive, passionate, and educational tone, championing disability rights and showcasing the transformative impact of sports on individuals' lives.",
+        "new_tgt_summary": "マシュウ・ウィリアムスは活躍中のスペシャルオリンピックスのアスリートで、バスケットボールとスピードスケートの週5日間のトレーニングをこなし、高品質のコーチとメンタルパフォーマンスコンサルタントと共に自身のパフォーマンスを最大限に引き出しています。彼はカナダを代表し、数々のメダルを獲得。1968年のスペシャルオリンピックス創設以来、社会の理解と認識は進化してきましたが、未だに知的障害者に対する偏見と誤解が存在します。ウィリアムスは、蔑称が彼や他のアスリートに及ぼす影響を強調し、自身が慈善の対象ではなく、より深い社会の理解と尊重を求めていることを示しています。彼は、約6,500人のアスリートの一部として今年のワールドゲームズに参加し、その規模と注目度の低さを指摘しました。\n\nスペシャルオリンピックスは、450万人以上の知的障害者にスポーツの機会を提供し、自尊心を育み、社会からの認識を改善しています。プログラムは、アスリートの尊厳と誇りを再燃させ、健康的な生活習慣を奨励しています。特に、2015年の大会では、ナイジェリアのバスケットボールチームの70%が無料の補聴器を受け取り、コミュニケーションとパフォーマンスが劇的に改善されました。しかし、社会全体としては、知的障害者の理解と受け入れがまだ不十分であり、蔑称の使用が一般的です。これらの言葉は深く傷つけるものであり、社会全体での理解と尊重の向上が必要であるというメッセージを強調しています。ウィリアムスの経験とその他のアスリートの旅路は、スペシャルオリンピックスが提供する機会とその社会的意義を象徴しています。",
+        "rel_src": [
+            "People don't think it's insulting,  but it is.",
+            "As my fellow athlete and global messenger John Franklin Stephens wrote  in an open letter to a political pundit  who used the r-word as an insult,  \"Come join us someday at Special Olympics."
+        ],
+        "rel_tgt": [
+            "人々はそれが侮辱だと考えていないかもしれませんが、それは確かに侮辱です。",
+            "私の同僚のアスリートであり、グローバルメッセンジャーでもあるジョン・フランクリン・スティーブンスが、軽蔑の言葉としてr-wordを使った政治評論家への公開手紙で書いたように、「いつかスペシャルオリンピックスに来てください。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング",
+            "US": "アメリカ",
+            "Americans": "アメリカ人",
+            "<r-word>": "<r-word（知的障害者への蔑称）>",
+            "John Franklin Stephens": "ジョン・フランクリン・スティーブンス"
+        }
+    },
+    {
+        "idx": 60,
+        "src": "This year, at the 2015 World Summer Games,  people lined up for hours  to get into the final night of powerlifting competition.",
+        "ref": "（拍手） 今年2015年夏の 世界大会では 人々は 何時間も並んで 重量挙げ競技の 最終日を 見に来ました",
+        "hyp": "今年、2015年の世界夏季大会では、人々が何時間も並んでパワーリフティング最終夜の試合を見るために入場しました。",
+        "rel_src": [
+            "At the 2015 World Summer Games,  my Team Canada teammates and I played the Nigerian basketball team.",
+            "The day before our game,  the Nigerian basketball team went to the World Games Healthy Athlete screening,  where seven of 10 members  were given hearing aids for free  and got to hear clearly for the first time."
+        ],
+        "rel_tgt": [
+            "2015年の世界夏季大会で、私のチームカナダのチームメイトと私はナイジェリアのバスケットボールチームとプレーしました。",
+            "試合の前日、ナイジェリアのバスケットボールチームは世界大会のヘルシーアスリートスクリーニングに行き、10人中7人が無料で補聴器をもらい、初めてはっきりと聞くことができました。"
+        ],
+        "hist_info": "\"World Summer Games\" - \"世界夏季大会\", \"2015 World Summer Games\" - \"2015年の世界夏季大会\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング",
+            "US": "アメリカ",
+            "Americans": "アメリカ人",
+            "<r-word>": "<r-word（知的障害者への蔑称）>",
+            "John Franklin Stephens": "ジョン・フランクリン・スティーブンス",
+            "powerlifting competition": "パワーリフティング最終夜の試合 Note: Although not strictly proper nouns"
+        }
+    },
+    {
+        "idx": 61,
+        "src": "So it was standing room only when my teammate Jackie Barrett,  the Newfoundland Moose,  deadlifted 655 pounds  and lifted 611 pounds in the squat --    setting huge new records for Special Olympics.",
+        "ref": "全員立ち見の中 僕のチームメイト ジャッキー・バレット 通称「ニューファンドランドの大鹿」が デッドリフトで297kgを スクワットで277kgを持ち上げ― （拍手） スペシャルオリンピックスでの 最高記録を大幅に更新しました",
+        "hyp": "だからこそ、私のチームメイトであるジャッキー・バレット、ニューファンドランド・ムースが、デッドリフトで655ポンド、スクワットで611ポンドを挙げたときには立見客だけとなり、これはスペシャルオリンピックスの大きな新しい記録となったのである。",
+        "rel_src": [
+            "At the 2015 World Summer Games,  my Team Canada teammates and I played the Nigerian basketball team.",
+            "This year, at the 2015 World Summer Games,  people lined up for hours  to get into the final night of powerlifting competition."
+        ],
+        "rel_tgt": [
+            "2015年の世界夏季大会で、私のチームカナダのチームメイトと私はナイジェリアのバスケットボールチームとプレーしました。",
+            "今年、2015年の世界夏季大会では、人々が何時間も並んでパワーリフティング最終夜の試合を見るために入場しました。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"スペシャルオリンピックス\", \"Olympics\" - \"オリンピックス\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング",
+            "US": "アメリカ",
+            "Americans": "アメリカ人",
+            "<r-word>": "<r-word（知的障害者への蔑称）>",
+            "John Franklin Stephens": "ジョン・フランクリン・スティーブンス",
+            "powerlifting competition": "パワーリフティング最終夜の試合 Note: Although not strictly proper nouns",
+            "Jackie Barrett": "ジャッキー・バレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース"
+        }
+    },
+    {
+        "idx": 62,
+        "src": "Jackie is a record holder among all powerlifters in Newfoundland --  not just Special Olympics, all powerlifters.",
+        "ref": "ジャッキーは ニューファンドランド島での 重量挙げの記録保持者です スペシャルオリンピックスに限らず 全重量挙げ選手の中で です",
+        "hyp": "ジャッキーはニューファンドランドの全てのパワーリフターの中で記録保持者であり、それはスペシャルオリンピックスだけでなく、全てのパワーリフターの中でだ。",
+        "rel_src": [
+            "This year, at the 2015 World Summer Games,  people lined up for hours  to get into the final night of powerlifting competition.",
+            "So it was standing room only when my teammate Jackie Barrett,  the Newfoundland Moose,  deadlifted 655 pounds  and lifted 611 pounds in the squat --    setting huge new records for Special Olympics."
+        ],
+        "rel_tgt": [
+            "今年、2015年の世界夏季大会では、人々が何時間も並んでパワーリフティング最終夜の試合を見るために入場しました。",
+            "だからこそ、私のチームメイトであるジャッキー・バレット、ニューファンドランド・ムースが、デッドリフトで655ポンド、スクワットで611ポンドを挙げたときには立見客だけとなり、これはスペシャルオリンピックスの大きな新しい記録となったのである。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"スペシャルオリンピックス\", \"Olympics\" - \"オリンピックス\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング",
+            "US": "アメリカ",
+            "Americans": "アメリカ人",
+            "<r-word>": "<r-word（知的障害者への蔑称）>",
+            "John Franklin Stephens": "ジョン・フランクリン・スティーブンス",
+            "powerlifting competition": "パワーリフティング最終夜の試合 Note: Although not strictly proper nouns",
+            "Jackie Barrett": "ジャッキー・バレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "Jackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド"
+        }
+    },
+    {
+        "idx": 63,
+        "src": "Jackie was a huge star in LA,  and ESPN live-tweeted his record-breaking lifts  and were wowed by his performance.",
+        "ref": "LAでは大スターになり ESPN局が彼の新記録を 生でツイートしました ジャッキーの成績に感動したのです",
+        "hyp": "ジャッキーはLAでは大スターで、ESPNは彼の記録更新のリフトをライブツイートし、彼のパフォーマンスに感動した。",
+        "rel_src": [
+            "So it was standing room only when my teammate Jackie Barrett,  the Newfoundland Moose,  deadlifted 655 pounds  and lifted 611 pounds in the squat --    setting huge new records for Special Olympics.",
+            "Jackie is a record holder among all powerlifters in Newfoundland --  not just Special Olympics, all powerlifters."
+        ],
+        "rel_tgt": [
+            "だからこそ、私のチームメイトであるジャッキー・バレット、ニューファンドランド・ムースが、デッドリフトで655ポンド、スクワットで611ポンドを挙げたときには立見客だけとなり、これはスペシャルオリンピックスの大きな新しい記録となったのである。",
+            "ジャッキーはニューファンドランドの全てのパワーリフターの中で記録保持者であり、それはスペシャルオリンピックスだけでなく、全てのパワーリフターの中でだ。"
+        ],
+        "hist_info": "\"LA\" - \"LA\", \"ESPN\" - \"ESPN\", \"Jackie\" - \"ジャッキー\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング",
+            "US": "アメリカ",
+            "Americans": "アメリカ人",
+            "<r-word>": "<r-word（知的障害者への蔑称）>",
+            "John Franklin Stephens": "ジョン・フランクリン・スティーブンス",
+            "powerlifting competition": "パワーリフティング最終夜の試合 Note: Although not strictly proper nouns",
+            "Jackie Barrett": "ジャッキー・バレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "Jackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド"
+        }
+    },
+    {
+        "idx": 64,
+        "src": "Fifty years ago, few imagined individuals with intellectual disabilities  could do anything like that.",
+        "ref": "50年前 知的障害者が そんなことをできるなんて ほとんど誰も考えませんでした",
+        "hyp": "50年前、知的障害を持つ人々がそんなことができるとは、ほとんど誰も想像していなかったでしょう。",
+        "rel_src": [
+            "So it was standing room only when my teammate Jackie Barrett,  the Newfoundland Moose,  deadlifted 655 pounds  and lifted 611 pounds in the squat --    setting huge new records for Special Olympics.",
+            "Jackie is a record holder among all powerlifters in Newfoundland --  not just Special Olympics, all powerlifters."
+        ],
+        "rel_tgt": [
+            "だからこそ、私のチームメイトであるジャッキー・バレット、ニューファンドランド・ムースが、デッドリフトで655ポンド、スクワットで611ポンドを挙げたときには立見客だけとなり、これはスペシャルオリンピックスの大きな新しい記録となったのである。",
+            "ジャッキーはニューファンドランドの全てのパワーリフターの中で記録保持者であり、それはスペシャルオリンピックスだけでなく、全てのパワーリフターの中でだ。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング",
+            "US": "アメリカ",
+            "Americans": "アメリカ人",
+            "<r-word>": "<r-word（知的障害者への蔑称）>",
+            "John Franklin Stephens": "ジョン・フランクリン・スティーブンス",
+            "powerlifting competition": "パワーリフティング最終夜の試合 Note: Although not strictly proper nouns",
+            "Jackie Barrett": "ジャッキー・バレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "Jackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド"
+        }
+    },
+    {
+        "idx": 65,
+        "src": "This year, 60,000 spectators filled the famous LA Memorial Coliseum  to watch the opening ceremonies of World Games  and cheer athletes from 165 countries  around the world.",
+        "ref": "今年 ６万人の観客が あの有名な LAメモリアル・コロシアムを埋めました 世界大会の開会式を観るため そして 世界165か国から集まる 選手たちを応援するため 詰めかけたのです",
+        "hyp": "今年、有名なLAメモリアルコロシアムは、世界大会の開会式を見に6万人の観客で満員になり、全世界から来た165か国のアスリートたちを応援した。",
+        "rel_src": [
+            "At the 2015 World Summer Games,  my Team Canada teammates and I played the Nigerian basketball team.",
+            "So it was standing room only when my teammate Jackie Barrett,  the Newfoundland Moose,  deadlifted 655 pounds  and lifted 611 pounds in the squat --    setting huge new records for Special Olympics."
+        ],
+        "rel_tgt": [
+            "2015年の世界夏季大会で、私のチームカナダのチームメイトと私はナイジェリアのバスケットボールチームとプレーしました。",
+            "だからこそ、私のチームメイトであるジャッキー・バレット、ニューファンドランド・ムースが、デッドリフトで655ポンド、スクワットで611ポンドを挙げたときには立見客だけとなり、これはスペシャルオリンピックスの大きな新しい記録となったのである。"
+        ],
+        "hist_info": "\"LA\" - \"LA\", \"World Games\" - \"世界大会\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング",
+            "US": "アメリカ",
+            "Americans": "アメリカ人",
+            "<r-word>": "<r-word（知的障害者への蔑称）>",
+            "John Franklin Stephens": "ジョン・フランクリン・スティーブンス",
+            "powerlifting competition": "パワーリフティング最終夜の試合 Note: Although not strictly proper nouns",
+            "Jackie Barrett": "ジャッキー・バレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "Jackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "LA Memorial Coliseum": "LAメモリアルコロシアム"
+        }
+    },
+    {
+        "idx": 66,
+        "src": "Far from being hidden away,  we were cheered and celebrated.",
+        "ref": "僕たちは 隠れた存在であるどころか 声援を浴び 称えられました",
+        "hyp": "隠されたり疎まれたりするのではなく、私たちは応援され、称えられたのである。",
+        "rel_src": [
+            "So it was standing room only when my teammate Jackie Barrett,  the Newfoundland Moose,  deadlifted 655 pounds  and lifted 611 pounds in the squat --    setting huge new records for Special Olympics.",
+            "This year, 60,000 spectators filled the famous LA Memorial Coliseum  to watch the opening ceremonies of World Games  and cheer athletes from 165 countries  around the world."
+        ],
+        "rel_tgt": [
+            "だからこそ、私のチームメイトであるジャッキー・バレット、ニューファンドランド・ムースが、デッドリフトで655ポンド、スクワットで611ポンドを挙げたときには立見客だけとなり、これはスペシャルオリンピックスの大きな新しい記録となったのである。",
+            "今年、有名なLAメモリアルコロシアムは、世界大会の開会式を見に6万人の観客で満員になり、全世界から来た165か国のアスリートたちを応援した。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング",
+            "US": "アメリカ",
+            "Americans": "アメリカ人",
+            "<r-word>": "<r-word（知的障害者への蔑称）>",
+            "John Franklin Stephens": "ジョン・フランクリン・スティーブンス",
+            "powerlifting competition": "パワーリフティング最終夜の試合 Note: Although not strictly proper nouns",
+            "Jackie Barrett": "ジャッキー・バレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "Jackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "LA Memorial Coliseum": "LAメモリアルコロシアム"
+        }
+    },
+    {
+        "idx": 67,
+        "src": "Special Olympics teaches athletes  to be confident and proud of themselves.",
+        "ref": "スペシャルオリンピックスは アスリートたちに 自信と誇りを持つことを 教えてくれます",
+        "hyp": "スペシャルオリンピックスはアスリート達に自信を持ち、自分自身を誇りに思う事を教えています。",
+        "rel_src": [
+            "They were more excited, happy and confident,  because their coach could vocally communicate with them.",
+            "Far from being hidden away,  we were cheered and celebrated."
+        ],
+        "rel_tgt": [
+            "彼らはより興奮し、幸せで、自信に満ちていた、なぜなら彼らのコーチが声に出してコミュニケートできたからです。",
+            "隠されたり疎まれたりするのではなく、私たちは応援され、称えられたのである。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"スペシャルオリンピックス\", \"Olympics\" - \"オリンピックス\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング",
+            "US": "アメリカ",
+            "Americans": "アメリカ人",
+            "<r-word>": "<r-word（知的障害者への蔑称）>",
+            "John Franklin Stephens": "ジョン・フランクリン・スティーブンス",
+            "powerlifting competition": "パワーリフティング最終夜の試合 Note: Although not strictly proper nouns",
+            "Jackie Barrett": "ジャッキー・バレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "Jackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "LA Memorial Coliseum": "LAメモリアルコロシアム"
+        }
+    },
+    {
+        "idx": 68,
+        "src": "Special Olympics teaches the world  that people with intellectual disabilities  deserve respect and inclusion.",
+        "ref": "世の中の人々には 知的障害者は 敬意を払い 受け入れるに値すると 教えてくれます",
+        "hyp": "スペシャルオリンピックスは世界に伝えています、知的障害を持つ人々も敬意と包摂を受ける価値があるということを。",
+        "rel_src": [
+            "Far from being hidden away,  we were cheered and celebrated.",
+            "Special Olympics teaches athletes  to be confident and proud of themselves."
+        ],
+        "rel_tgt": [
+            "隠されたり疎まれたりするのではなく、私たちは応援され、称えられたのである。",
+            "スペシャルオリンピックスはアスリート達に自信を持ち、自分自身を誇りに思う事を教えています。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"スペシャルオリンピックス\", \"Olympics\" - \"オリンピックス\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング",
+            "US": "アメリカ",
+            "Americans": "アメリカ人",
+            "<r-word>": "<r-word（知的障害者への蔑称）>",
+            "John Franklin Stephens": "ジョン・フランクリン・スティーブンス",
+            "powerlifting competition": "パワーリフティング最終夜の試合 Note: Although not strictly proper nouns",
+            "Jackie Barrett": "ジャッキー・バレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "Jackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "LA Memorial Coliseum": "LAメモリアルコロシアム"
+        }
+    },
+    {
+        "idx": 69,
+        "src": "Now, I have dreams and achievements in my sport,  great coaches,  respect and dignity,  better health,  and I am pursuing a career as a personal trainer.",
+        "ref": "（拍手） 僕には今 競技での実績や夢があり 素晴らしいコーチに恵まれ 尊敬と尊厳を持ち 前より健康で そして パーソナルトレーナーを 目指しています",
+        "hyp": "今、私はスポーツで夢と成果があり、素晴らしいコーチたちがいて、敬意と尊厳、より良い健康状態があり、パーソナルトレーナーとしてのキャリアを追求しています。",
+        "rel_src": [
+            "Special Olympics teaches athletes  to be confident and proud of themselves.",
+            "Special Olympics teaches the world  that people with intellectual disabilities  deserve respect and inclusion."
+        ],
+        "rel_tgt": [
+            "スペシャルオリンピックスはアスリート達に自信を持ち、自分自身を誇りに思う事を教えています。",
+            "スペシャルオリンピックスは世界に伝えています、知的障害を持つ人々も敬意と包摂を受ける価値があるということを。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング",
+            "US": "アメリカ",
+            "Americans": "アメリカ人",
+            "<r-word>": "<r-word（知的障害者への蔑称）>",
+            "John Franklin Stephens": "ジョン・フランクリン・スティーブンス",
+            "powerlifting competition": "パワーリフティング最終夜の試合 Note: Although not strictly proper nouns",
+            "Jackie Barrett": "ジャッキー・バレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "Jackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "LA Memorial Coliseum": "LAメモリアルコロシアム"
+        }
+    },
+    {
+        "idx": 70,
+        "src": "I am no longer hidden, bullied  and I am here doing a TED Talk.",
+        "ref": "（拍手） 僕はもう 隠れたり いじめられる存在じゃない 今ここで TEDトークを しているのです",
+        "hyp": "私はもう隠されたり、いじめられたりすることなく、ここにいてTEDトークを行っています。",
+        "rel_src": [
+            "Far from being hidden away,  we were cheered and celebrated.",
+            "Special Olympics teaches the world  that people with intellectual disabilities  deserve respect and inclusion."
+        ],
+        "rel_tgt": [
+            "隠されたり疎まれたりするのではなく、私たちは応援され、称えられたのである。",
+            "スペシャルオリンピックスは世界に伝えています、知的障害を持つ人々も敬意と包摂を受ける価値があるということを。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング",
+            "US": "アメリカ",
+            "Americans": "アメリカ人",
+            "<r-word>": "<r-word（知的障害者への蔑称）>",
+            "John Franklin Stephens": "ジョン・フランクリン・スティーブンス",
+            "powerlifting competition": "パワーリフティング最終夜の試合 Note: Although not strictly proper nouns",
+            "Jackie Barrett": "ジャッキー・バレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "Jackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "LA Memorial Coliseum": "LAメモリアルコロシアム",
+            "TED Talk": "TEDトーク"
+        }
+    },
+    {
+        "idx": 71,
+        "src": "The world is a different place because of Special Olympics,  but there is still farther to go.",
+        "ref": "（拍手） スペシャルオリンピックスのおかげで 世界は変わりました でも まだ道のりは遠いです",
+        "hyp": "スペシャルオリンピックスのおかげで世界は変わりましたが、それでもまだ進むべき道は長いです。",
+        "rel_src": [
+            "Special Olympics teaches the world  that people with intellectual disabilities  deserve respect and inclusion.",
+            "Now, I have dreams and achievements in my sport,  great coaches,  respect and dignity,  better health,  and I am pursuing a career as a personal trainer."
+        ],
+        "rel_tgt": [
+            "スペシャルオリンピックスは世界に伝えています、知的障害を持つ人々も敬意と包摂を受ける価値があるということを。",
+            "今、私はスポーツで夢と成果があり、素晴らしいコーチたちがいて、敬意と尊厳、より良い健康状態があり、パーソナルトレーナーとしてのキャリアを追求しています。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"スペシャルオリンピックス\", \"Olympics\" - \"オリンピックス\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング",
+            "US": "アメリカ",
+            "Americans": "アメリカ人",
+            "<r-word>": "<r-word（知的障害者への蔑称）>",
+            "John Franklin Stephens": "ジョン・フランクリン・スティーブンス",
+            "powerlifting competition": "パワーリフティング最終夜の試合 Note: Although not strictly proper nouns",
+            "Jackie Barrett": "ジャッキー・バレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "Jackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "LA Memorial Coliseum": "LAメモリアルコロシアム",
+            "TED Talk": "TEDトーク"
+        }
+    },
+    {
+        "idx": 72,
+        "src": "So the next time you see someone with an intellectual disability,  I hope you will see their ability.",
+        "ref": "あなたが この次に 知的障害を持つ人を見かけたら その人の能力を 見てあげて欲しい",
+        "hyp": "だから次のあなたが知的障害を持つ人を見かけた時、その人の能力を見る事を願っています。",
+        "rel_src": [
+            "Special Olympics teaches athletes  to be confident and proud of themselves.",
+            "Special Olympics teaches the world  that people with intellectual disabilities  deserve respect and inclusion."
+        ],
+        "rel_tgt": [
+            "スペシャルオリンピックスはアスリート達に自信を持ち、自分自身を誇りに思う事を教えています。",
+            "スペシャルオリンピックスは世界に伝えています、知的障害を持つ人々も敬意と包摂を受ける価値があるということを。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング",
+            "US": "アメリカ",
+            "Americans": "アメリカ人",
+            "<r-word>": "<r-word（知的障害者への蔑称）>",
+            "John Franklin Stephens": "ジョン・フランクリン・スティーブンス",
+            "powerlifting competition": "パワーリフティング最終夜の試合 Note: Although not strictly proper nouns",
+            "Jackie Barrett": "ジャッキー・バレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "Jackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "LA Memorial Coliseum": "LAメモリアルコロシアム",
+            "TED Talk": "TEDトーク"
+        }
+    },
+    {
+        "idx": 73,
+        "src": "The next time someone uses the r-word near you,  I hope you will tell them how much it hurts.",
+        "ref": "差別語を使う人を見かけたら どれだけひどい言葉なのか 教えてあげて欲しい",
+        "hyp": "次に誰かがあなた近くでRワードを使うなら、それがどれほど傷つくか教えてあげてください。",
+        "rel_src": [
+            "People use it as a casual term or an insult.",
+            "People don't think it's insulting,  but it is."
+        ],
+        "rel_tgt": [
+            "人々はそれを気軽な言葉や侮辱の言葉として使います。",
+            "人々はそれが侮辱だと考えていないかもしれませんが、それは確かに侮辱です。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング",
+            "US": "アメリカ",
+            "Americans": "アメリカ人",
+            "<r-word>": "<r-word（知的障害者への蔑称）>",
+            "John Franklin Stephens": "ジョン・フランクリン・スティーブンス",
+            "powerlifting competition": "パワーリフティング最終夜の試合 Note: Although not strictly proper nouns",
+            "Jackie Barrett": "ジャッキー・バレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "Jackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "LA Memorial Coliseum": "LAメモリアルコロシアム",
+            "TED Talk": "TEDトーク"
+        }
+    },
+    {
+        "idx": 74,
+        "src": "I hope you will think about getting involved with Special Olympics.",
+        "ref": "そして スペシャルオリンピックスに 関わることを考えて欲しい",
+        "hyp": "あなたがスペシャルオリンピックスに関わることを考えてくれることを願っています。",
+        "rel_src": [
+            "As my fellow athlete and global messenger John Franklin Stephens wrote  in an open letter to a political pundit  who used the r-word as an insult,  \"Come join us someday at Special Olympics.",
+            "Special Olympics teaches the world  that people with intellectual disabilities  deserve respect and inclusion."
+        ],
+        "rel_tgt": [
+            "私の同僚のアスリートであり、グローバルメッセンジャーでもあるジョン・フランクリン・スティーブンスが、軽蔑の言葉としてr-wordを使った政治評論家への公開手紙で書いたように、「いつかスペシャルオリンピックスに来てください。",
+            "スペシャルオリンピックスは世界に伝えています、知的障害を持つ人々も敬意と包摂を受ける価値があるということを。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"スペシャルオリンピックス\", \"Olympics\" - \"オリンピックス\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング",
+            "US": "アメリカ",
+            "Americans": "アメリカ人",
+            "<r-word>": "<r-word（知的障害者への蔑称）>",
+            "John Franklin Stephens": "ジョン・フランクリン・スティーブンス",
+            "powerlifting competition": "パワーリフティング最終夜の試合 Note: Although not strictly proper nouns",
+            "Jackie Barrett": "ジャッキー・バレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "Jackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "LA Memorial Coliseum": "LAメモリアルコロシアム",
+            "TED Talk": "TEDトーク"
+        }
+    },
+    {
+        "idx": 75,
+        "src": "I would like to leave you with one final thought.",
+        "ref": "（拍手） 最後に 一言だけ言います",
+        "hyp": "最後に一つ考えを残したいと思います。",
+        "rel_src": [
+            "The world is a different place because of Special Olympics,  but there is still farther to go.",
+            "So the next time you see someone with an intellectual disability,  I hope you will see their ability."
+        ],
+        "rel_tgt": [
+            "スペシャルオリンピックスのおかげで世界は変わりましたが、それでもまだ進むべき道は長いです。",
+            "だから次のあなたが知的障害を持つ人を見かけた時、その人の能力を見る事を願っています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング",
+            "US": "アメリカ",
+            "Americans": "アメリカ人",
+            "<r-word>": "<r-word（知的障害者への蔑称）>",
+            "John Franklin Stephens": "ジョン・フランクリン・スティーブンス",
+            "powerlifting competition": "パワーリフティング最終夜の試合 Note: Although not strictly proper nouns",
+            "Jackie Barrett": "ジャッキー・バレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "Jackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "LA Memorial Coliseum": "LAメモリアルコロシアム",
+            "TED Talk": "TEDトーク"
+        }
+    },
+    {
+        "idx": 76,
+        "src": "Nelson Mandela said,  \"Sports has the power to change the world.\"",
+        "ref": "ネルソン・マンデラは 「スポーツには世界を変える力がある」 と言いました",
+        "hyp": "ネルソン・マンデラは、「スポーツには世界を変える力がある」と述べました。",
+        "rel_src": [
+            "This year, 60,000 spectators filled the famous LA Memorial Coliseum  to watch the opening ceremonies of World Games  and cheer athletes from 165 countries  around the world.",
+            "The world is a different place because of Special Olympics,  but there is still farther to go."
+        ],
+        "rel_tgt": [
+            "今年、有名なLAメモリアルコロシアムは、世界大会の開会式を見に6万人の観客で満員になり、全世界から来た165か国のアスリートたちを応援した。",
+            "スペシャルオリンピックスのおかげで世界は変わりましたが、それでもまだ進むべき道は長いです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング",
+            "US": "アメリカ",
+            "Americans": "アメリカ人",
+            "<r-word>": "<r-word（知的障害者への蔑称）>",
+            "John Franklin Stephens": "ジョン・フランクリン・スティーブンス",
+            "powerlifting competition": "パワーリフティング最終夜の試合 Note: Although not strictly proper nouns",
+            "Jackie Barrett": "ジャッキー・バレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "Jackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "LA Memorial Coliseum": "LAメモリアルコロシアム",
+            "TED Talk": "TEDトーク",
+            "Nelson Mandela": "ネルソン・マンデラ",
+            "Sports": "スポーツ (Note: Although Sports is usually not a proper noun"
+        }
+    },
+    {
+        "idx": 77,
+        "src": "Special Olympics is changing the world  by transforming four and a half million athletes  and giving us a place to be confident,  meet friends,  not be judged  and get to feel like and be champions.",
+        "ref": "スペシャルオリンピックスは まさに 世界を変えています 450万人のアスリートたちが 生まれ変わり 自信を持てる場を持ち 友達を作り 偏見の目で見られず チャンピオンの気分を味わい 実際にチャンピオンになれるのです",
+        "hyp": "スペシャルオリンピックスは、450万人のアスリートを変革することで世界を変え、私たちに自信を持つ場所を与え、友達と出会い、評価されることなく、チャンピオンのように感じられ、実際にチャンピオンになれる場を提供しています。",
+        "rel_src": [
+            "Special Olympics teaches athletes  to be confident and proud of themselves.",
+            "Special Olympics teaches the world  that people with intellectual disabilities  deserve respect and inclusion."
+        ],
+        "rel_tgt": [
+            "スペシャルオリンピックスはアスリート達に自信を持ち、自分自身を誇りに思う事を教えています。",
+            "スペシャルオリンピックスは世界に伝えています、知的障害を持つ人々も敬意と包摂を受ける価値があるということを。"
+        ],
+        "hist_info": "\"Special Olympics\" - \"スペシャルオリンピックス\", \"Olympics\" - \"オリンピックス\"",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング",
+            "US": "アメリカ",
+            "Americans": "アメリカ人",
+            "<r-word>": "<r-word（知的障害者への蔑称）>",
+            "John Franklin Stephens": "ジョン・フランクリン・スティーブンス",
+            "powerlifting competition": "パワーリフティング最終夜の試合 Note: Although not strictly proper nouns",
+            "Jackie Barrett": "ジャッキー・バレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "Jackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "LA Memorial Coliseum": "LAメモリアルコロシアム",
+            "TED Talk": "TEDトーク",
+            "Nelson Mandela": "ネルソン・マンデラ",
+            "Sports": "スポーツ (Note: Although Sports is usually not a proper noun"
+        }
+    },
+    {
+        "idx": 78,
+        "src": "Thank you very much.",
+        "ref": "ありがとうございました",
+        "hyp": "大変感謝いたします。",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "My name": "私の名前",
+            "Matthew Williams": "マシュウ・ウィリアムス",
+            "Champion": "チャンピオン\n\nHowever",
+            "only Matthew Williams is a proper noun. So the correct annotation would be:\n\n<Proper nouns> Matthew Williams": "マシュウ・ウィリアムス",
+            "Canada": "カナダ",
+            "basketball": "バスケットボール",
+            "Special Olympics": "スペシャルオリンピックス",
+            "1968": "1968年",
+            "The World Games": "ワールドゲームズ",
+            "LA": "LA",
+            "TSN": "TSN",
+            "ESPN": "ESPN",
+            "Paralympics": "パラリンピック",
+            "Olympics": "オリンピックス",
+            "Dr. Frank Hayden": "フランク・ヘイデン博士",
+            "University of Toronto": "トロント大学",
+            "Dr. Hayden": "ヘイデン博士",
+            "Eunice Kennedy Shriver": "ユニス・ケネディ・シュライバー",
+            "World Summer Games": "世界夏季大会",
+            "Canadian basketball team": "カナダ代表バスケットボールチーム",
+            "World Games": "世界大会",
+            "2015 World Summer Games": "2015年の世界夏季大会",
+            "Team Canada": "チームカナダ",
+            "Nigerian basketball team": "ナイジェリアのバスケットボールチーム",
+            "World Games Healthy Athlete screening": "世界大会のヘルシーアスリートスクリーニング",
+            "US": "アメリカ",
+            "Americans": "アメリカ人",
+            "<r-word>": "<r-word（知的障害者への蔑称）>",
+            "John Franklin Stephens": "ジョン・フランクリン・スティーブンス",
+            "powerlifting competition": "パワーリフティング最終夜の試合 Note: Although not strictly proper nouns",
+            "Jackie Barrett": "ジャッキー・バレット",
+            "Newfoundland Moose": "ニューファンドランド・ムース",
+            "Jackie": "ジャッキー",
+            "Newfoundland": "ニューファンドランド",
+            "LA Memorial Coliseum": "LAメモリアルコロシアム",
+            "TED Talk": "TEDトーク",
+            "Nelson Mandela": "ネルソン・マンデラ",
+            "Sports": "スポーツ (Note: Although Sports is usually not a proper noun"
+        }
+    }
+]

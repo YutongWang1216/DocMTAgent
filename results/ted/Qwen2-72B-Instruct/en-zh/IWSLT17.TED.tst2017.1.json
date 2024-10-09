@@ -1,0 +1,3664 @@
+[
+    {
+        "idx": 0,
+        "src": "Today's computers are so amazing  that we fail to notice how terrible they really are.",
+        "ref": "现今的电脑是如此的神奇， 我们甚至忽略了 它们实际上有多么糟糕。",
+        "hyp": "今天的计算机如此神奇，以至于我们没有注意到它们实际上有多么糟糕。",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 1,
+        "src": "I'd like to talk to you today about this problem,  and how we can fix it with neuroscience.",
+        "ref": "今天我要和你们讨论一下这个问题， 以及我们如何用神经科学来解决它。",
+        "hyp": "我想今天和你谈谈这个问题，以及我们如何用神经科学来解决它。",
+        "rel_src": [
+            "Today's computers are so amazing  that we fail to notice how terrible they really are."
+        ],
+        "rel_tgt": [
+            "今天的计算机如此神奇，以至于我们没有注意到它们实际上有多么糟糕。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 2,
+        "src": "First, I'd like to take you back to a frosty night in Harlem in 2011  that had a profound impact on me.",
+        "ref": "首先，我要将你们带回2011年哈莱姆的 一个寒冷的夜晚， 那个夜晚对我有着深远的意义。",
+        "hyp": "首先，我想带你回到2011年哈莱姆区一个寒冷的夜晚，那个夜晚对我产生了深远的影响。",
+        "rel_src": [
+            "Today's computers are so amazing  that we fail to notice how terrible they really are.",
+            "I'd like to talk to you today about this problem,  and how we can fix it with neuroscience."
+        ],
+        "rel_tgt": [
+            "今天的计算机如此神奇，以至于我们没有注意到它们实际上有多么糟糕。",
+            "我想今天和你谈谈这个问题，以及我们如何用神经科学来解决它。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年"
+        }
+    },
+    {
+        "idx": 3,
+        "src": "I was sitting in a dive bar outside of Columbia University,  where I studied computer science and neuroscience,  and I was having this great conversation with a fellow student  about the power of holograms to one day replace computers.",
+        "ref": "我坐在哥伦比亚大学旁边的一个酒吧里， 在那里我主修计算机和神经科学， 我正和一个同学进行一段很有趣的对话， 关于全息摄影的力量， 会在某一天取代电脑。",
+        "hyp": "我当时坐在哥伦比亚大学外的一家低档酒吧里，我在那里学习计算机科学和神经科学，我和一位同学正在进行一场精彩的对话，讨论全息图有朝一日取代计算机的能力。",
+        "rel_src": [
+            "Today's computers are so amazing  that we fail to notice how terrible they really are.",
+            "I'd like to talk to you today about this problem,  and how we can fix it with neuroscience."
+        ],
+        "rel_tgt": [
+            "今天的计算机如此神奇，以至于我们没有注意到它们实际上有多么糟糕。",
+            "我想今天和你谈谈这个问题，以及我们如何用神经科学来解决它。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学"
+        }
+    },
+    {
+        "idx": 4,
+        "src": "And just as we were getting to the best part of the conversation,  of course, his phone lights up.",
+        "ref": "就在我们的对话达到精彩之处时， 不出所料，他的电话响了。",
+        "hyp": "正当我们聊到最精彩的部分时，当然，他的手机亮了起来。",
+        "rel_src": [
+            "First, I'd like to take you back to a frosty night in Harlem in 2011  that had a profound impact on me.",
+            "I was sitting in a dive bar outside of Columbia University,  where I studied computer science and neuroscience,  and I was having this great conversation with a fellow student  about the power of holograms to one day replace computers."
+        ],
+        "rel_tgt": [
+            "首先，我想带你回到2011年哈莱姆区一个寒冷的夜晚，那个夜晚对我产生了深远的影响。",
+            "我当时坐在哥伦比亚大学外的一家低档酒吧里，我在那里学习计算机科学和神经科学，我和一位同学正在进行一场精彩的对话，讨论全息图有朝一日取代计算机的能力。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学"
+        }
+    },
+    {
+        "idx": 5,
+        "src": "And he pulls it towards himself, and he looks down and he starts typing.",
+        "ref": "他拿起手机，低头开始打字。",
+        "hyp": "他把手机拉向自己，低头开始打字。",
+        "rel_src": [
+            "I was sitting in a dive bar outside of Columbia University,  where I studied computer science and neuroscience,  and I was having this great conversation with a fellow student  about the power of holograms to one day replace computers.",
+            "And just as we were getting to the best part of the conversation,  of course, his phone lights up."
+        ],
+        "rel_tgt": [
+            "我当时坐在哥伦比亚大学外的一家低档酒吧里，我在那里学习计算机科学和神经科学，我和一位同学正在进行一场精彩的对话，讨论全息图有朝一日取代计算机的能力。",
+            "正当我们聊到最精彩的部分时，当然，他的手机亮了起来。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学"
+        }
+    },
+    {
+        "idx": 6,
+        "src": "And then he forces his eyeballs back up to mine and he goes,  \"Keep going. I'm with you.\"",
+        "ref": "然后他时不时抬头瞄着我说， “继续说啊，我听着呢。”",
+        "hyp": "然后他强迫自己把目光从手机上移开，重新看向我，他说：“继续说，我和你在一起。”",
+        "rel_src": [
+            "And just as we were getting to the best part of the conversation,  of course, his phone lights up.",
+            "And he pulls it towards himself, and he looks down and he starts typing."
+        ],
+        "rel_tgt": [
+            "正当我们聊到最精彩的部分时，当然，他的手机亮了起来。",
+            "他把手机拉向自己，低头开始打字。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学"
+        }
+    },
+    {
+        "idx": 7,
+        "src": "But of course his eyes were glazed over,  and the moment was dead.",
+        "ref": "但是很明显他的眼神并没有集中， 一个绝妙的时刻就这么转瞬即逝了。",
+        "hyp": "但当然，他的眼神已经茫然，那一刻已经消逝。",
+        "rel_src": [
+            "And just as we were getting to the best part of the conversation,  of course, his phone lights up.",
+            "And then he forces his eyeballs back up to mine and he goes,  \"Keep going. I'm with you.\""
+        ],
+        "rel_tgt": [
+            "正当我们聊到最精彩的部分时，当然，他的手机亮了起来。",
+            "然后他强迫自己把目光从手机上移开，重新看向我，他说：“继续说，我和你在一起。”"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学"
+        }
+    },
+    {
+        "idx": 8,
+        "src": "Meanwhile across the bar,  I noticed another student holding his phone,  this time towards a group.",
+        "ref": "同时，在吧台的对面， 我注意到另一个学生 正在拿着他的手机， 这次屏幕前围着一群人。",
+        "hyp": "与此同时，在酒吧的另一边，我注意到另一个学生正拿着手机对着一群人。",
+        "rel_src": [
+            "And just as we were getting to the best part of the conversation,  of course, his phone lights up.",
+            "And he pulls it towards himself, and he looks down and he starts typing."
+        ],
+        "rel_tgt": [
+            "正当我们聊到最精彩的部分时，当然，他的手机亮了起来。",
+            "他把手机拉向自己，低头开始打字。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学"
+        }
+    },
+    {
+        "idx": 9,
+        "src": "He was swiping through pictures on Instagram,  and these kids were laughing hysterically.",
+        "ref": "他正在翻看着 Instagram上的照片， 这些孩子们正在放声大笑着。",
+        "hyp": "他正在Instagram上快速滑动浏览图片，这些孩子们笑得歇斯底里。",
+        "rel_src": [
+            "And just as we were getting to the best part of the conversation,  of course, his phone lights up.",
+            "Meanwhile across the bar,  I noticed another student holding his phone,  this time towards a group."
+        ],
+        "rel_tgt": [
+            "正当我们聊到最精彩的部分时，当然，他的手机亮了起来。",
+            "与此同时，在酒吧的另一边，我注意到另一个学生正拿着手机对着一群人。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 10,
+        "src": "And that dichotomy between how crappy I was feeling  and how happy they were feeling about the same technology,  really got me thinking.",
+        "ref": "面对同样的技术，他们感到如此开心， 而我却觉得无比沮丧，这种强烈的对比 立刻引起了我的思考。",
+        "hyp": "而我当时的糟糕感受 和他们对同一技术的极度喜爱之间的巨大反差 真的让我开始思考。",
+        "rel_src": [
+            "But of course his eyes were glazed over,  and the moment was dead.",
+            "He was swiping through pictures on Instagram,  and these kids were laughing hysterically."
+        ],
+        "rel_tgt": [
+            "但当然，他的眼神已经茫然，那一刻已经消逝。",
+            "他正在Instagram上快速滑动浏览图片，这些孩子们笑得歇斯底里。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 11,
+        "src": "And the more I thought of it, the more I realized  it was clearly not the digital information that was the bad guy here,  it was simply the display position that was separating me from my friend  and that was binding those kids together.",
+        "ref": "随着我更加深入地思考， 我越来越意识到 很明显这里的问题 不是电子信息， 而仅仅是展现信息的位置 把我和我的朋友隔开了， 却使这些孩子团聚在了一起。",
+        "hyp": "我越想这个问题，就越意识到 显然这里的问题不是数字信息本身， 而仅仅是屏幕的位置 隔阂了我和我的朋友 却又将那些孩子们紧密地联系在了一起。",
+        "rel_src": [
+            "And just as we were getting to the best part of the conversation,  of course, his phone lights up.",
+            "And that dichotomy between how crappy I was feeling  and how happy they were feeling about the same technology,  really got me thinking."
+        ],
+        "rel_tgt": [
+            "正当我们聊到最精彩的部分时，当然，他的手机亮了起来。",
+            "而我当时的糟糕感受 和他们对同一技术的极度喜爱之间的巨大反差 真的让我开始思考。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 12,
+        "src": "See, they were connected around something,  just like our ancestors who evolved their social cognitions  telling stories around the campfire.",
+        "ref": "很明显他们正被某种事联系在一起， 就像我们的祖先进化了他们的社会认知， 比如围绕着篝火讲故事。",
+        "hyp": "你看，他们围绕着某个事物连接在一起， 就像我们的祖先围绕着营火讲故事一样， 在进化中发展了他们的社会认知。",
+        "rel_src": [
+            "He was swiping through pictures on Instagram,  and these kids were laughing hysterically.",
+            "And that dichotomy between how crappy I was feeling  and how happy they were feeling about the same technology,  really got me thinking."
+        ],
+        "rel_tgt": [
+            "他正在Instagram上快速滑动浏览图片，这些孩子们笑得歇斯底里。",
+            "而我当时的糟糕感受 和他们对同一技术的极度喜爱之间的巨大反差 真的让我开始思考。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 13,
+        "src": "And that's exactly what tools should do, I think.",
+        "ref": "我认为，这正是工具应该做的。",
+        "hyp": "而这正是我认为工具应该做到的。",
+        "rel_src": [
+            "And the more I thought of it, the more I realized  it was clearly not the digital information that was the bad guy here,  it was simply the display position that was separating me from my friend  and that was binding those kids together.",
+            "See, they were connected around something,  just like our ancestors who evolved their social cognitions  telling stories around the campfire."
+        ],
+        "rel_tgt": [
+            "我越想这个问题，就越意识到 显然这里的问题不是数字信息本身， 而仅仅是屏幕的位置 隔阂了我和我的朋友 却又将那些孩子们紧密地联系在了一起。",
+            "你看，他们围绕着某个事物连接在一起， 就像我们的祖先围绕着营火讲故事一样， 在进化中发展了他们的社会认知。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 14,
+        "src": "They should extend our bodies.",
+        "ref": "它们应该延伸我们的身体功能。",
+        "hyp": "它们应该延伸我们的身体。",
+        "rel_src": [
+            "And the more I thought of it, the more I realized  it was clearly not the digital information that was the bad guy here,  it was simply the display position that was separating me from my friend  and that was binding those kids together.",
+            "And that's exactly what tools should do, I think."
+        ],
+        "rel_tgt": [
+            "我越想这个问题，就越意识到 显然这里的问题不是数字信息本身， 而仅仅是屏幕的位置 隔阂了我和我的朋友 却又将那些孩子们紧密地联系在了一起。",
+            "而这正是我认为工具应该做到的。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 15,
+        "src": "And I think computers today are doing quite the opposite.",
+        "ref": "我认为在当今，电脑 正在做着截然相反的事情。",
+        "hyp": "我认为今天的计算机正在做着完全相反的事情。",
+        "rel_src": [
+            "Today's computers are so amazing  that we fail to notice how terrible they really are.",
+            "And the more I thought of it, the more I realized  it was clearly not the digital information that was the bad guy here,  it was simply the display position that was separating me from my friend  and that was binding those kids together."
+        ],
+        "rel_tgt": [
+            "今天的计算机如此神奇，以至于我们没有注意到它们实际上有多么糟糕。",
+            "我越想这个问题，就越意识到 显然这里的问题不是数字信息本身， 而仅仅是屏幕的位置 隔阂了我和我的朋友 却又将那些孩子们紧密地联系在了一起。"
+        ],
+        "hist_info": "\"computers\" - \"计算机\n\nNote: computer science\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 16,
+        "src": "Whether you're sending an email to your wife  or you're composing a symphony  or just consoling a friend,  you're doing it in pretty much the same way.",
+        "ref": "无论你是发一封邮件给你的太太， 还是在给交响乐谱曲， 或者仅仅是安慰一个朋友， 你几乎都是在用同样的方式。",
+        "hyp": "无论你是给妻子发电子邮件 还是在创作交响乐 或者只是安慰一个朋友 你基本上都是用相同的方式在做这些事。",
+        "rel_src": [
+            "I was sitting in a dive bar outside of Columbia University,  where I studied computer science and neuroscience,  and I was having this great conversation with a fellow student  about the power of holograms to one day replace computers.",
+            "And the more I thought of it, the more I realized  it was clearly not the digital information that was the bad guy here,  it was simply the display position that was separating me from my friend  and that was binding those kids together."
+        ],
+        "rel_tgt": [
+            "我当时坐在哥伦比亚大学外的一家低档酒吧里，我在那里学习计算机科学和神经科学，我和一位同学正在进行一场精彩的对话，讨论全息图有朝一日取代计算机的能力。",
+            "我越想这个问题，就越意识到 显然这里的问题不是数字信息本身， 而仅仅是屏幕的位置 隔阂了我和我的朋友 却又将那些孩子们紧密地联系在了一起。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 17,
+        "src": "You're hunched over these rectangles,  fumbling with buttons and menus and more rectangles.",
+        "ref": "你弯腰对着这些方块， 玩弄着按钮和菜单， 更多的方块出现了。",
+        "hyp": "你弯腰驼背地对着这些矩形框， 摸索着按钮和菜单以及更多的矩形框。",
+        "rel_src": [
+            "Today's computers are so amazing  that we fail to notice how terrible they really are.",
+            "And I think computers today are doing quite the opposite."
+        ],
+        "rel_tgt": [
+            "今天的计算机如此神奇，以至于我们没有注意到它们实际上有多么糟糕。",
+            "我认为今天的计算机正在做着完全相反的事情。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 18,
+        "src": "And I think this is the wrong way,  I think we can start using a much more natural machine.",
+        "ref": "我觉得这是一个错误的方式， 我觉得我们可以开始使用 一个更加自然的机器。",
+        "hyp": "我认为这是错误的方式， 我认为我们可以开始使用更加自然的机器。",
+        "rel_src": [
+            "And that's exactly what tools should do, I think.",
+            "And I think computers today are doing quite the opposite."
+        ],
+        "rel_tgt": [
+            "而这正是我认为工具应该做到的。",
+            "我认为今天的计算机正在做着完全相反的事情。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 19,
+        "src": "We should use machines that bring our work back into the world.",
+        "ref": "我们使用的机器应该能将 我们的工作带回到现实生活中。",
+        "hyp": "我们应该使用能够将我们的工作重新带回现实世界的机器。",
+        "new_src_summary": "Summary: The speaker reflects on a personal experience that highlighted the negative impact of modern computer interfaces on human interaction. On a cold night in Harlem in 2011, while discussing the potential of holograms to replace computers with a fellow student, the conversation was interrupted by his friend checking his phone. This contrasted with another group at the bar, who were happily engaged with each other while looking at photos on a phone. This dichotomy led the speaker to realize that the issue wasn't the digital information itself but the way it was displayed, which disconnected people instead of bringing them together. Drawing parallels with ancient humans sharing stories around a campfire, the speaker argues that tools should enhance human capabilities and interactions, whereas current computers, with their buttons, menus, and rectangular screens, hinder natural communication and physical engagement.\n\nDomain: Technology and Human Interaction\n\nStyle: Personal narrative mixed with reflective commentary\n\nTone: Thoughtful, critical of current technology, hopeful for improvement",
+        "new_tgt_summary": "本文探讨了当前计算机与人类交互方式的局限性，并提出以神经科学为基础的解决方案。作者回忆了2011年在哈莱姆区的经历，观察到人们与技术互动时的疏离感和连接感的对比，这激发了他对问题的深入思考。他认为，计算机不应仅仅作为信息传递的工具，而应像营火般促进人与人之间的社会认知和情感联系。然而，当前的计算机设计迫使用户以不自然的姿势面对屏幕，限制了身体的延展性和交互的多样性。无论是发送邮件、创作音乐还是进行社交，用户都被迫采取相似的姿势，与机器进行机械式的交互。作者主张，我们应该探索更自然的人机交互方式，借鉴神经科学的原理，创造出能够更好地适应人类需求和行为模式的计算机系统。通过这样的转变，计算机可以成为真正意义上的辅助工具，促进人类的身体延展和社会认知发展。",
+        "rel_src": [
+            "And the more I thought of it, the more I realized  it was clearly not the digital information that was the bad guy here,  it was simply the display position that was separating me from my friend  and that was binding those kids together.",
+            "And I think this is the wrong way,  I think we can start using a much more natural machine."
+        ],
+        "rel_tgt": [
+            "我越想这个问题，就越意识到 显然这里的问题不是数字信息本身， 而仅仅是屏幕的位置 隔阂了我和我的朋友 却又将那些孩子们紧密地联系在了一起。",
+            "我认为这是错误的方式， 我认为我们可以开始使用更加自然的机器。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 20,
+        "src": "We should use machines that use the principles of neuroscience  to extend our senses versus going against them.",
+        "ref": "我们应该用那些能够 使用神经科学原理的机器， 去延伸我们的感官， 而不是起限制作用。",
+        "hyp": "我们应该使用遵循神经科学原理的机器，来延伸我们的感官，而不是与之相悖。",
+        "rel_src": [
+            "I'd like to talk to you today about this problem,  and how we can fix it with neuroscience.",
+            "And I think this is the wrong way,  I think we can start using a much more natural machine."
+        ],
+        "rel_tgt": [
+            "我想今天和你谈谈这个问题，以及我们如何用神经科学来解决它。",
+            "我认为这是错误的方式， 我认为我们可以开始使用更加自然的机器。"
+        ],
+        "hist_info": "\"neuroscience\" - \"神经科学\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 21,
+        "src": "Now it just so happens that I have such a machine here.",
+        "ref": "现在我这里正好有一个这样的机器。",
+        "hyp": "现在恰巧我这里就有这样一台机器。",
+        "rel_src": [
+            "I'd like to talk to you today about this problem,  and how we can fix it with neuroscience.",
+            "We should use machines that use the principles of neuroscience  to extend our senses versus going against them."
+        ],
+        "rel_tgt": [
+            "我想今天和你谈谈这个问题，以及我们如何用神经科学来解决它。",
+            "我们应该使用遵循神经科学原理的机器，来延伸我们的感官，而不是与之相悖。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram"
+        }
+    },
+    {
+        "idx": 22,
+        "src": "It's called the Meta 2.",
+        "ref": "它叫做 Meta 2。",
+        "hyp": "它叫做Meta 2。",
+        "rel_src": [
+            "We should use machines that bring our work back into the world.",
+            "Now it just so happens that I have such a machine here."
+        ],
+        "rel_tgt": [
+            "我们应该使用能够将我们的工作重新带回现实世界的机器。",
+            "现在恰巧我这里就有这样一台机器。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2"
+        }
+    },
+    {
+        "idx": 23,
+        "src": "Let's try it out.",
+        "ref": "让我们来试试。",
+        "hyp": "让我们试用一下。",
+        "rel_src": [
+            "Now it just so happens that I have such a machine here.",
+            "It's called the Meta 2."
+        ],
+        "rel_tgt": [
+            "现在恰巧我这里就有这样一台机器。",
+            "它叫做Meta 2。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2"
+        }
+    },
+    {
+        "idx": 24,
+        "src": "Now in front of me right now, I can see the audience,  and I can see my very hands.",
+        "ref": "现在我可以看到观众， 还可以看见我的手。",
+        "hyp": "现在我眼前，我可以看到观众，也可以看到我的双手。",
+        "rel_src": [
+            "Now it just so happens that I have such a machine here.",
+            "It's called the Meta 2."
+        ],
+        "rel_tgt": [
+            "现在恰巧我这里就有这样一台机器。",
+            "它叫做Meta 2。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2"
+        }
+    },
+    {
+        "idx": 25,
+        "src": "And in three, two, one,  we're going to see an immersive hologram appear,  a very realistic hologram appear in front of me,  of our very glasses I'm wearing on my head right now.",
+        "ref": "在数到3，2，1， 我们将看到一个 全息摄影的影像出现， 一个非常真实的全息摄影 出现在我面前， 出现在我现在戴着的眼镜面前。",
+        "hyp": "在三，二，一，我们将看到一个沉浸式的全息图出现，一个非常逼真的全息图将出现在我眼前，正是我现在戴在头上的眼镜的全息图。",
+        "rel_src": [
+            "It's called the Meta 2.",
+            "Now in front of me right now, I can see the audience,  and I can see my very hands."
+        ],
+        "rel_tgt": [
+            "它叫做Meta 2。",
+            "现在我眼前，我可以看到观众，也可以看到我的双手。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2"
+        }
+    },
+    {
+        "idx": 26,
+        "src": "And of course this could be anything that we're shopping for  or learning from,  and I can use my hands  to very nicely kind of move it around with fine control.",
+        "ref": "当然这个可以是 任何我们正打算购买的， 或者要学习的东西， 而且我可以用我的手 很轻松地控制它的移动。",
+        "hyp": "当然，这可以是我们购物或学习的任何东西， 我可以用我的手， 非常灵活地，精细地控制它移动。",
+        "rel_src": [
+            "And I think this is the wrong way,  I think we can start using a much more natural machine.",
+            "We should use machines that bring our work back into the world."
+        ],
+        "rel_tgt": [
+            "我认为这是错误的方式， 我认为我们可以开始使用更加自然的机器。",
+            "我们应该使用能够将我们的工作重新带回现实世界的机器。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2"
+        }
+    },
+    {
+        "idx": 27,
+        "src": "And I think Iron Man would be proud.",
+        "ref": "而且我认为钢铁侠会很自豪。",
+        "hyp": "我想钢铁侠也会感到自豪。",
+        "rel_src": [
+            "It's called the Meta 2.",
+            "And in three, two, one,  we're going to see an immersive hologram appear,  a very realistic hologram appear in front of me,  of our very glasses I'm wearing on my head right now."
+        ],
+        "rel_tgt": [
+            "它叫做Meta 2。",
+            "在三，二，一，我们将看到一个沉浸式的全息图出现，一个非常逼真的全息图将出现在我眼前，正是我现在戴在头上的眼镜的全息图。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠"
+        }
+    },
+    {
+        "idx": 28,
+        "src": "We're going to come back to this in just a bit.",
+        "ref": "我们待会儿再回来。",
+        "hyp": "我们马上就会回到这个问题上。",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠"
+        }
+    },
+    {
+        "idx": 29,
+        "src": "Now if you're anything like me, your mind is already reeling  with the possibilities of what we can do with this kind of technology,  so let's look at a few.",
+        "ref": "（观众鼓掌） 如果你们跟我想的一样， 就应该已经在想着 用这种技术都能干点儿什么， 我们来看看一些例子吧。",
+        "hyp": "如果你跟我一样， 你的大脑已经在飞速运转， 想象着我们能用这种技术做些什么， 所以让我们来看几个可能性。",
+        "rel_src": [
+            "See, they were connected around something,  just like our ancestors who evolved their social cognitions  telling stories around the campfire.",
+            "It's called the Meta 2."
+        ],
+        "rel_tgt": [
+            "你看，他们围绕着某个事物连接在一起， 就像我们的祖先围绕着营火讲故事一样， 在进化中发展了他们的社会认知。",
+            "它叫做Meta 2。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠"
+        }
+    },
+    {
+        "idx": 30,
+        "src": "My mom is an architect,  so naturally the first thing I imagined  was laying out a building in 3D space  instead of having to use these 2D floor plans.",
+        "ref": "我妈妈是一个建筑师， 所以很自然的我想象的第一件事 是绘出一个立体的建筑， 而不是用这些平面的楼层规划图。",
+        "hyp": "我妈妈是一名建筑师， 所以自然而然地，我首先想到的是 在三维空间中布局一栋建筑， 而不是必须使用这些二维的平面图。",
+        "rel_src": [
+            "And that's exactly what tools should do, I think.",
+            "We should use machines that bring our work back into the world."
+        ],
+        "rel_tgt": [
+            "而这正是我认为工具应该做到的。",
+            "我们应该使用能够将我们的工作重新带回现实世界的机器。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠"
+        }
+    },
+    {
+        "idx": 31,
+        "src": "She's actually touching graphics right now  and selecting an interior decor.",
+        "ref": "事实上她现在正在触摸着设计图 想选择一个内部的装饰。",
+        "hyp": "她现在实际上正在触摸图形 并选择室内装饰。",
+        "rel_src": [
+            "And of course this could be anything that we're shopping for  or learning from,  and I can use my hands  to very nicely kind of move it around with fine control.",
+            "And I think Iron Man would be proud."
+        ],
+        "rel_tgt": [
+            "当然，这可以是我们购物或学习的任何东西， 我可以用我的手， 非常灵活地，精细地控制它移动。",
+            "我想钢铁侠也会感到自豪。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠"
+        }
+    },
+    {
+        "idx": 32,
+        "src": "This was all shot through a GoPro through our very glasses.",
+        "ref": "这些都被我眼镜中的GoPro拍摄下来了。",
+        "hyp": "这一切都是通过GoPro，通过我正戴着的这副眼镜拍摄的。",
+        "rel_src": [
+            "And in three, two, one,  we're going to see an immersive hologram appear,  a very realistic hologram appear in front of me,  of our very glasses I'm wearing on my head right now.",
+            "And of course this could be anything that we're shopping for  or learning from,  and I can use my hands  to very nicely kind of move it around with fine control."
+        ],
+        "rel_tgt": [
+            "在三，二，一，我们将看到一个沉浸式的全息图出现，一个非常逼真的全息图将出现在我眼前，正是我现在戴在头上的眼镜的全息图。",
+            "当然，这可以是我们购物或学习的任何东西， 我可以用我的手， 非常灵活地，精细地控制它移动。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro"
+        }
+    },
+    {
+        "idx": 33,
+        "src": "And this next use case is very personal to me,  it's Professor Adam Gazzaley's glass brain project,  courtesy of UCSF.",
+        "ref": "下一个使用案例对我来说很私人化， 是亚当·哥泽雷教授的玻璃大脑项目， 在此感谢UCSF的授权。",
+        "hyp": "而这个接下来的应用案例 对我来说非常个人化， 这是亚当·加扎利教授的“玻璃大脑”项目， 来自UCSF的慷慨支持。",
+        "rel_src": [
+            "Now if you're anything like me, your mind is already reeling  with the possibilities of what we can do with this kind of technology,  so let's look at a few.",
+            "My mom is an architect,  so naturally the first thing I imagined  was laying out a building in 3D space  instead of having to use these 2D floor plans."
+        ],
+        "rel_tgt": [
+            "如果你跟我一样， 你的大脑已经在飞速运转， 想象着我们能用这种技术做些什么， 所以让我们来看几个可能性。",
+            "我妈妈是一名建筑师， 所以自然而然地，我首先想到的是 在三维空间中布局一栋建筑， 而不是必须使用这些二维的平面图。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun"
+        }
+    },
+    {
+        "idx": 34,
+        "src": "As a neuroscience student,  I would always fantasize  about the ability to learn and memorize these complex brain structures  with an actual machine,  where I could touch and play with the various brain structures.",
+        "ref": "作为一个神经科学专业的学生， 我总会为 能够用一个真实的机器来学习和记忆这些 复杂大脑结构的 能力而感到惊叹， 这样我就可以触摸和摆弄 不同的大脑结构了。",
+        "hyp": "作为一名神经科学的学生，我总是幻想能够使用一台真正的机器来学习和记忆这些复杂的脑部结构，让我可以触摸和把玩不同的脑部结构。",
+        "rel_src": [
+            "We should use machines that use the principles of neuroscience  to extend our senses versus going against them.",
+            "And this next use case is very personal to me,  it's Professor Adam Gazzaley's glass brain project,  courtesy of UCSF."
+        ],
+        "rel_tgt": [
+            "我们应该使用遵循神经科学原理的机器，来延伸我们的感官，而不是与之相悖。",
+            "而这个接下来的应用案例 对我来说非常个人化， 这是亚当·加扎利教授的“玻璃大脑”项目， 来自UCSF的慷慨支持。"
+        ],
+        "hist_info": "\"neuroscience\" - \"神经科学\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun"
+        }
+    },
+    {
+        "idx": 35,
+        "src": "Now what you're seeing is called augmented reality,  but to me, it's part of a much more important story --  a story of how we can begin to extend our bodies with digital devices,  instead of the other way around.",
+        "ref": "现在你们正看到的叫做增强现实， 但是对我来说，这只是 一个更重要故事的一部分—— 这个故事是关于我们如何开始 使用数码装置来延伸我们的身体， 而不是限制我们的身体机能。",
+        "hyp": "现在你所看到的被称为增强现实，但在我看来，这只是更为重要故事的一部分——一个关于如何开始用数字设备延伸我们的身体的故事，而不是让身体被设备所束缚。",
+        "rel_src": [
+            "We should use machines that bring our work back into the world.",
+            "We should use machines that use the principles of neuroscience  to extend our senses versus going against them."
+        ],
+        "rel_tgt": [
+            "我们应该使用能够将我们的工作重新带回现实世界的机器。",
+            "我们应该使用遵循神经科学原理的机器，来延伸我们的感官，而不是与之相悖。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun"
+        }
+    },
+    {
+        "idx": 36,
+        "src": "Now ...",
+        "ref": "那么——",
+        "hyp": "现在...",
+        "rel_src": [
+            "Now it just so happens that I have such a machine here.",
+            "We're going to come back to this in just a bit."
+        ],
+        "rel_tgt": [
+            "现在恰巧我这里就有这样一台机器。",
+            "我们马上就会回到这个问题上。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun"
+        }
+    },
+    {
+        "idx": 37,
+        "src": "in the next few years, humanity's going to go through a shift, I think.",
+        "ref": "在接下来的几年， 人类将经历一个转变，我认为。",
+        "hyp": "在接下来的几年里，我认为人类将经历一场变革。",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun"
+        }
+    },
+    {
+        "idx": 38,
+        "src": "We're going to start putting an entire layer of digital information  on the real world.",
+        "ref": "我们将开始在真实的世界中覆盖上 一整片数码信息层。",
+        "hyp": "我们将开始在现实世界中添加一层完整的数字信息。",
+        "rel_src": [
+            "Now it just so happens that I have such a machine here.",
+            "It's called the Meta 2."
+        ],
+        "rel_tgt": [
+            "现在恰巧我这里就有这样一台机器。",
+            "它叫做Meta 2。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun"
+        }
+    },
+    {
+        "idx": 39,
+        "src": "Just imagine for a moment  what this could mean for storytellers,  for painters,  for brain surgeons,  for interior decorators  and maybe for all of us here today.",
+        "ref": "花点时间想象一下， 这对于讲故事的人来说意味着什么， 对于画家来说， 对于脑外科医生来说， 对于室内装饰者来说， 也许对于我们今天在这里的所有人来说， 到底意味着什么。",
+        "hyp": "只需想象一下 这对讲故事的人意味着什么， 对画家， 对脑外科医生， 对室内装饰师， 以及可能在座的每一个人意味着什么。 ",
+        "new_src_summary": "Merged Summary: Reflecting on a personal experience in 2011 Harlem, the speaker contrasts the disconnection felt when a friend checked his phone mid-conversation with the engaging interaction of another group sharing photos, leading to a realization about the detrimental impact of modern computer interfaces on human interaction. Inspired by ancient storytelling around campfires, they argue that technology should enhance, not hinder, our natural communication and physical engagement. Advocating for a paradigm shift, the speaker introduces augmented reality devices like the Meta 2, grounded in neuroscience principles, which project interactive holograms using natural hand movements. Showcasing applications in architecture and education, such as visualizing 3D buildings or exploring complex brain structures, the speaker envisions a future where digital enhancements seamlessly integrate with the physical world, revolutionizing human perception and interaction. This forward-looking perspective combines thoughtful criticism of current technology with an optimistic vision for a more connected and enhanced human experience through augmented reality.\n\nDomain: Technology and Human Interaction, Augmented Reality\n\nStyle: Personal narrative mixed with reflective commentary, Informative and Enthusiastic\n\nTone: Thoughtful, critical of current technology, hopeful for improvement, Optimistic and Visionary",
+        "new_tgt_summary": "本文首先探讨了当前计算机与人类交互方式的局限性，指出其未能充分促进社会认知和情感联系，反而限制了身体的延展性和交互的多样性。为解决这一问题，作者倡导以神经科学为基础，探索更自然的人机交互方式，旨在创造出能更好地适应人类需求和行为模式的计算机系统。文章随后介绍了一款名为Meta 2的创新机器，该机器通过提供沉浸式的全息体验，实现了虚拟现实与现实世界的无缝融合，让用户能够在三维空间中自由操作全息图像，打破了传统设备对身体的束缚。Meta 2的应用范围广泛，从购物、学习到专业领域的三维建模和神经科学教育，都能发挥重要作用。作者预测，随着类似技术的发展，未来几年内，人类将在现实世界中叠加一层完整的数字信息，彻底改变我们与技术互动的方式，开启数字设备延伸人体功能的新时代，而非让人体受限于设备。这种变革将极大地丰富和扩展人类的生活和工作方式。",
+        "rel_src": [
+            "Now if you're anything like me, your mind is already reeling  with the possibilities of what we can do with this kind of technology,  so let's look at a few.",
+            "My mom is an architect,  so naturally the first thing I imagined  was laying out a building in 3D space  instead of having to use these 2D floor plans."
+        ],
+        "rel_tgt": [
+            "如果你跟我一样， 你的大脑已经在飞速运转， 想象着我们能用这种技术做些什么， 所以让我们来看几个可能性。",
+            "我妈妈是一名建筑师， 所以自然而然地，我首先想到的是 在三维空间中布局一栋建筑， 而不是必须使用这些二维的平面图。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun"
+        }
+    },
+    {
+        "idx": 40,
+        "src": "And what I think we need to do as a community,  is really try and make an effort  to imagine how we can create this new reality  in a way that extends the human experience,  instead of gamifying our reality  or cluttering it with digital information.",
+        "ref": "我认为我们作为一个团体 所要做的事， 是真正去尝试以及努力 去想象我们如何创造这个新的现实， 以一种延伸人类体验的方式， 而不是把我们的现实游戏化， 或者使现实和数码信息搅在一起。",
+        "hyp": "而我认为，作为社会群体， 我们真正需要努力去做的 是尝试构想如何以一种能够延伸人类体验的方式来创造这种新的现实， 而不是将我们的现实游戏化 或者用数字信息将其填满。",
+        "rel_src": [
+            "Now what you're seeing is called augmented reality,  but to me, it's part of a much more important story --  a story of how we can begin to extend our bodies with digital devices,  instead of the other way around.",
+            "in the next few years, humanity's going to go through a shift, I think."
+        ],
+        "rel_tgt": [
+            "现在你所看到的被称为增强现实，但在我看来，这只是更为重要故事的一部分——一个关于如何开始用数字设备延伸我们的身体的故事，而不是让身体被设备所束缚。",
+            "在接下来的几年里，我认为人类将经历一场变革。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun"
+        }
+    },
+    {
+        "idx": 41,
+        "src": "And that's what I'm very passionate about.",
+        "ref": "那就是我非常有兴趣做的。",
+        "hyp": "而这正是我非常热衷的事情。",
+        "rel_src": [
+            "Now what you're seeing is called augmented reality,  but to me, it's part of a much more important story --  a story of how we can begin to extend our bodies with digital devices,  instead of the other way around.",
+            "And what I think we need to do as a community,  is really try and make an effort  to imagine how we can create this new reality  in a way that extends the human experience,  instead of gamifying our reality  or cluttering it with digital information."
+        ],
+        "rel_tgt": [
+            "现在你所看到的被称为增强现实，但在我看来，这只是更为重要故事的一部分——一个关于如何开始用数字设备延伸我们的身体的故事，而不是让身体被设备所束缚。",
+            "而我认为，作为社会群体， 我们真正需要努力去做的 是尝试构想如何以一种能够延伸人类体验的方式来创造这种新的现实， 而不是将我们的现实游戏化 或者用数字信息将其填满。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun"
+        }
+    },
+    {
+        "idx": 42,
+        "src": "Now, I want to tell you a little secret.",
+        "ref": "现在，我想要告诉你们一个小秘密。",
+        "hyp": "现在，我想告诉你一个小秘密。",
+        "rel_src": [
+            "We're going to come back to this in just a bit.",
+            "Now ..."
+        ],
+        "rel_tgt": [
+            "我们马上就会回到这个问题上。",
+            "现在..."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun"
+        }
+    },
+    {
+        "idx": 43,
+        "src": "In about five years --  this is not the smallest device --  in about five years,  these are all going to look like strips of glass on our eyes  that project holograms.",
+        "ref": "在大约五年之内—— 这个不会是最小的设备—— 在大约五年之内， 这些都会看起来像 放置在眼前的条状眼镜， 能够投射全息摄影图像。",
+        "hyp": "大约五年后——这不是最小的设备——大约五年后，这些都会看起来像是贴在我们眼睛上的玻璃条，投射出全息图。",
+        "rel_src": [
+            "This was all shot through a GoPro through our very glasses.",
+            "Now what you're seeing is called augmented reality,  but to me, it's part of a much more important story --  a story of how we can begin to extend our bodies with digital devices,  instead of the other way around."
+        ],
+        "rel_tgt": [
+            "这一切都是通过GoPro，通过我正戴着的这副眼镜拍摄的。",
+            "现在你所看到的被称为增强现实，但在我看来，这只是更为重要故事的一部分——一个关于如何开始用数字设备延伸我们的身体的故事，而不是让身体被设备所束缚。"
+        ],
+        "hist_info": "\"holograms\" - \"全息图\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun"
+        }
+    },
+    {
+        "idx": 44,
+        "src": "And just like we don't care so much about which phone we buy  in terms of the hardware -- we buy it for the operating system --  as a neuroscientist,  I always dreamt of building the iOS of the mind, if you will.",
+        "ref": "就像我们不怎么关心不同手机的 硬件参数一样——我们买哪一款手机 考虑的是操作系统—— 作为一个神经科学家， 我总是希望建造一种基于大脑的iOS， 如果可以的话。",
+        "hyp": "就像我们在乎手机的硬件配置已经不再那么重要——我们购买手机更多是为了操作系统——作为一名神经科学家，我一直梦想着构建一种可以称之为大脑的iOS系统。",
+        "rel_src": [
+            "As a neuroscience student,  I would always fantasize  about the ability to learn and memorize these complex brain structures  with an actual machine,  where I could touch and play with the various brain structures.",
+            "Now what you're seeing is called augmented reality,  but to me, it's part of a much more important story --  a story of how we can begin to extend our bodies with digital devices,  instead of the other way around."
+        ],
+        "rel_tgt": [
+            "作为一名神经科学的学生，我总是幻想能够使用一台真正的机器来学习和记忆这些复杂的脑部结构，让我可以触摸和把玩不同的脑部结构。",
+            "现在你所看到的被称为增强现实，但在我看来，这只是更为重要故事的一部分——一个关于如何开始用数字设备延伸我们的身体的故事，而不是让身体被设备所束缚。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun"
+        }
+    },
+    {
+        "idx": 45,
+        "src": "And it's very, very important that we get this right,  because we might be living inside of these things  for at least as long as we've lived  with the Windows graphical user interface.",
+        "ref": "非常非常重要的 是我们要保证它能正常运行， 因为这些东西陪伴我们的时间也许不会比 我们接触Windows 图像用户界面的时间更短。",
+        "hyp": "而这非常非常重要，我们必须做到正确， 因为我们可能会在这些东西里面生活 至少像我们与Windows图形用户界面共同生活的那么长时间。",
+        "rel_src": [
+            "Now what you're seeing is called augmented reality,  but to me, it's part of a much more important story --  a story of how we can begin to extend our bodies with digital devices,  instead of the other way around.",
+            "And what I think we need to do as a community,  is really try and make an effort  to imagine how we can create this new reality  in a way that extends the human experience,  instead of gamifying our reality  or cluttering it with digital information."
+        ],
+        "rel_tgt": [
+            "现在你所看到的被称为增强现实，但在我看来，这只是更为重要故事的一部分——一个关于如何开始用数字设备延伸我们的身体的故事，而不是让身体被设备所束缚。",
+            "而我认为，作为社会群体， 我们真正需要努力去做的 是尝试构想如何以一种能够延伸人类体验的方式来创造这种新的现实， 而不是将我们的现实游戏化 或者用数字信息将其填满。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows"
+        }
+    },
+    {
+        "idx": 46,
+        "src": "And I don't know about you,  but living inside of Windows scares me.",
+        "ref": "我不知道你们怎么想， 但是住在Windows系统里面这种事儿 使我觉得有点儿吓人。",
+        "hyp": "而我不知道你有何感想，但生活在Windows里让我感到害怕。",
+        "rel_src": [
+            "Now what you're seeing is called augmented reality,  but to me, it's part of a much more important story --  a story of how we can begin to extend our bodies with digital devices,  instead of the other way around.",
+            "And it's very, very important that we get this right,  because we might be living inside of these things  for at least as long as we've lived  with the Windows graphical user interface."
+        ],
+        "rel_tgt": [
+            "现在你所看到的被称为增强现实，但在我看来，这只是更为重要故事的一部分——一个关于如何开始用数字设备延伸我们的身体的故事，而不是让身体被设备所束缚。",
+            "而这非常非常重要，我们必须做到正确， 因为我们可能会在这些东西里面生活 至少像我们与Windows图形用户界面共同生活的那么长时间。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows"
+        }
+    },
+    {
+        "idx": 47,
+        "src": "To isolate the single most intuitive interface out of infinity,  we use neuroscience to drive our design guidelines,  instead of letting a bunch of designers fight it out in the boardroom.",
+        "ref": "为了把单个最直觉性的 接触界面隔离到无限远处， 我们用神经科学来指导我们的设计， 而不是让一帮设计师 在设计室里争论不休。",
+        "hyp": "为了从无限的可能性中找到最直观的界面，我们运用神经科学来指导我们的设计原则，而不是让一群设计师在会议室里争执不休。",
+        "rel_src": [
+            "As a neuroscience student,  I would always fantasize  about the ability to learn and memorize these complex brain structures  with an actual machine,  where I could touch and play with the various brain structures.",
+            "And just like we don't care so much about which phone we buy  in terms of the hardware -- we buy it for the operating system --  as a neuroscientist,  I always dreamt of building the iOS of the mind, if you will."
+        ],
+        "rel_tgt": [
+            "作为一名神经科学的学生，我总是幻想能够使用一台真正的机器来学习和记忆这些复杂的脑部结构，让我可以触摸和把玩不同的脑部结构。",
+            "就像我们在乎手机的硬件配置已经不再那么重要——我们购买手机更多是为了操作系统——作为一名神经科学家，我一直梦想着构建一种可以称之为大脑的iOS系统。"
+        ],
+        "hist_info": "\"neuroscience\" - \"神经科学\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows"
+        }
+    },
+    {
+        "idx": 48,
+        "src": "And the principle we all revolve around  is what's called the \"Neural Path of Least Resistance.\"",
+        "ref": "我们进化的原理 叫做“最小阻力神经管道”。",
+        "hyp": "而我们围绕的核心原则 被称为“最小神经阻力路径”",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径"
+        }
+    },
+    {
+        "idx": 49,
+        "src": "At every turn, we're connecting the iOS of the brain with our brain  on, for the first time, our brain's terms.",
+        "ref": "在每个变化的时刻，我们把大脑iOS系统与 我们的大脑连接起来， 第一次的时候，用我们的大脑语言。",
+        "hyp": "在每一步发展中，我们都在首次以大脑自身的方式来连接大脑的iOS系统与我们的大脑。",
+        "rel_src": [
+            "And just like we don't care so much about which phone we buy  in terms of the hardware -- we buy it for the operating system --  as a neuroscientist,  I always dreamt of building the iOS of the mind, if you will.",
+            "And it's very, very important that we get this right,  because we might be living inside of these things  for at least as long as we've lived  with the Windows graphical user interface."
+        ],
+        "rel_tgt": [
+            "就像我们在乎手机的硬件配置已经不再那么重要——我们购买手机更多是为了操作系统——作为一名神经科学家，我一直梦想着构建一种可以称之为大脑的iOS系统。",
+            "而这非常非常重要，我们必须做到正确， 因为我们可能会在这些东西里面生活 至少像我们与Windows图形用户界面共同生活的那么长时间。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径"
+        }
+    },
+    {
+        "idx": 50,
+        "src": "In other words, we're trying to create a zero learning-curve computer.",
+        "ref": "换句话说，我们在尝试着创造 一个零学习曲线的电脑。",
+        "hyp": "换句话说，我们正试图创造一款零学习曲线的计算机。",
+        "rel_src": [
+            "To isolate the single most intuitive interface out of infinity,  we use neuroscience to drive our design guidelines,  instead of letting a bunch of designers fight it out in the boardroom.",
+            "At every turn, we're connecting the iOS of the brain with our brain  on, for the first time, our brain's terms."
+        ],
+        "rel_tgt": [
+            "为了从无限的可能性中找到最直观的界面，我们运用神经科学来指导我们的设计原则，而不是让一群设计师在会议室里争执不休。",
+            "在每一步发展中，我们都在首次以大脑自身的方式来连接大脑的iOS系统与我们的大脑。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径"
+        }
+    },
+    {
+        "idx": 51,
+        "src": "We're building a system that you've always known how to use.",
+        "ref": "我们在建造一个你们一直都知道 怎么使用的系统。",
+        "hyp": "我们正在构建一个你早已知道如何使用的系统。",
+        "rel_src": [
+            "At every turn, we're connecting the iOS of the brain with our brain  on, for the first time, our brain's terms.",
+            "In other words, we're trying to create a zero learning-curve computer."
+        ],
+        "rel_tgt": [
+            "在每一步发展中，我们都在首次以大脑自身的方式来连接大脑的iOS系统与我们的大脑。",
+            "换句话说，我们正试图创造一款零学习曲线的计算机。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径"
+        }
+    },
+    {
+        "idx": 52,
+        "src": "Here are the first three design guidelines that we employ  in this brand-new form of user experience.",
+        "ref": "这些是我们用在这个新的 用户体验形式中的 最早的三个设计指南。",
+        "hyp": "这是我们在这个全新的用户体验形式中采用的前三个设计指南。",
+        "rel_src": [
+            "To isolate the single most intuitive interface out of infinity,  we use neuroscience to drive our design guidelines,  instead of letting a bunch of designers fight it out in the boardroom.",
+            "And the principle we all revolve around  is what's called the \"Neural Path of Least Resistance.\""
+        ],
+        "rel_tgt": [
+            "为了从无限的可能性中找到最直观的界面，我们运用神经科学来指导我们的设计原则，而不是让一群设计师在会议室里争执不休。",
+            "而我们围绕的核心原则 被称为“最小神经阻力路径”"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径"
+        }
+    },
+    {
+        "idx": 53,
+        "src": "First and foremost, you are the operating system.",
+        "ref": "第一，你们是操作系统。",
+        "hyp": "首要的是，你就是操作系统。",
+        "rel_src": [
+            "And just like we don't care so much about which phone we buy  in terms of the hardware -- we buy it for the operating system --  as a neuroscientist,  I always dreamt of building the iOS of the mind, if you will.",
+            "At every turn, we're connecting the iOS of the brain with our brain  on, for the first time, our brain's terms."
+        ],
+        "rel_tgt": [
+            "就像我们在乎手机的硬件配置已经不再那么重要——我们购买手机更多是为了操作系统——作为一名神经科学家，我一直梦想着构建一种可以称之为大脑的iOS系统。",
+            "在每一步发展中，我们都在首次以大脑自身的方式来连接大脑的iOS系统与我们的大脑。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径"
+        }
+    },
+    {
+        "idx": 54,
+        "src": "Traditional file systems are complex and abstract,  and they take your brain extra steps to decode them.",
+        "ref": "传统文件系统是复杂和抽象的， 它们使你们的大脑要 多绕几道弯才能解码它们。",
+        "hyp": "传统的文件系统复杂且抽象，它们让你的大脑需要额外的步骤来解码它们。",
+        "rel_src": [
+            "In other words, we're trying to create a zero learning-curve computer.",
+            "We're building a system that you've always known how to use."
+        ],
+        "rel_tgt": [
+            "换句话说，我们正试图创造一款零学习曲线的计算机。",
+            "我们正在构建一个你早已知道如何使用的系统。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径"
+        }
+    },
+    {
+        "idx": 55,
+        "src": "We're going against the Neural Path of Least Resistance.",
+        "ref": "我们走的是与 “最小阻力神经管道”相反的路线。",
+        "hyp": "我们正在违背“最小神经阻力路径”。",
+        "rel_src": [
+            "To isolate the single most intuitive interface out of infinity,  we use neuroscience to drive our design guidelines,  instead of letting a bunch of designers fight it out in the boardroom.",
+            "And the principle we all revolve around  is what's called the \"Neural Path of Least Resistance.\""
+        ],
+        "rel_tgt": [
+            "为了从无限的可能性中找到最直观的界面，我们运用神经科学来指导我们的设计原则，而不是让一群设计师在会议室里争执不休。",
+            "而我们围绕的核心原则 被称为“最小神经阻力路径”"
+        ],
+        "hist_info": "\"Neural Path of Least Resistance\" - \"最小神经阻力路径\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径"
+        },
+        "conflict": [
+            "\"N/A\" - \"神经科学家 (Note: neuroscientist is not a proper noun\"/\"最小神经阻力路径 (Note: This is a term or concept rather than a proper noun in the traditional sense\""
+        ]
+    },
+    {
+        "idx": 56,
+        "src": "Meanwhile, in augmented reality,  you can of course place your holographic TED panel over here,  and your holographic email on the other side of the desk,  and your spatial memory evolved just fine to go ahead and retrieve them.",
+        "ref": "同时，在增强现实中， 你当然可以把你的全息摄影的 TED显示屏放到这里， 把你全息摄影的邮件 放在桌子的另一侧， 你的空间记忆力进化得正好可以 准确地提取这些信息。",
+        "hyp": "同时，在增强现实中， 当然你可以将你的全息TED面板放在这边， 将你的全息邮件放在桌子的另一边， 而你的空间记忆已经进化得足够好，可以去检索它们。 ",
+        "rel_src": [
+            "We're going to start putting an entire layer of digital information  on the real world.",
+            "Just imagine for a moment  what this could mean for storytellers,  for painters,  for brain surgeons,  for interior decorators  and maybe for all of us here today."
+        ],
+        "rel_tgt": [
+            "我们将开始在现实世界中添加一层完整的数字信息。",
+            "只需想象一下 这对讲故事的人意味着什么， 对画家， 对脑外科医生， 对室内装饰师， 以及可能在座的每一个人意味着什么。 "
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 57,
+        "src": "You could put your holographic Tesla that you're shopping for --  or whatever model my legal team told me to put in right before the show.",
+        "ref": "你可以把正在网购中的Tesla的 全息摄影放在这里—— 或者我的合法团队 在上台之前告诉我的任何模式。",
+        "hyp": "你可以把你正在选购的全息特斯拉放在这里——或者是我的法务团队让我在节目开始前放进去的任何车型。",
+        "rel_src": [
+            "We're going to start putting an entire layer of digital information  on the real world.",
+            "In about five years --  this is not the smallest device --  in about five years,  these are all going to look like strips of glass on our eyes  that project holograms."
+        ],
+        "rel_tgt": [
+            "我们将开始在现实世界中添加一层完整的数字信息。",
+            "大约五年后——这不是最小的设备——大约五年后，这些都会看起来像是贴在我们眼睛上的玻璃条，投射出全息图。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉"
+        }
+    },
+    {
+        "idx": 58,
+        "src": "Perfect. And your brain knows exactly how to get it back.",
+        "ref": "（观众笑声） 很好，你们的大脑确实知道 如何回到现实中来。",
+        "hyp": "完美。而你的大脑清楚地知道如何找回它。",
+        "rel_src": [
+            "In other words, we're trying to create a zero learning-curve computer.",
+            "We're building a system that you've always known how to use."
+        ],
+        "rel_tgt": [
+            "换句话说，我们正试图创造一款零学习曲线的计算机。",
+            "我们正在构建一个你早已知道如何使用的系统。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉"
+        }
+    },
+    {
+        "idx": 59,
+        "src": "The second interface guideline we call \"touch to see.\"",
+        "ref": "第二个界面指南 被我们称做“接触可视”。",
+        "hyp": "我们称之为“触碰以查看”的第二个界面指南。",
+        "new_src_summary": "In a personal reflection from 2011 Harlem, the speaker contrasts the disconnection experienced during a conversation interrupted by a friend checking their phone with the engaging interaction observed in another group sharing photos, highlighting the negative impact of modern computer interfaces on human interaction. Drawing inspiration from ancient storytelling around campfires, they advocate for technology that enhances natural communication and physical engagement rather than hindering it. Focusing on augmented reality (AR), the speaker introduces devices like the Meta 2, grounded in neuroscience principles, which project interactive holograms using natural hand movements. This technology has the potential to transform various fields, including storytelling, painting, brain surgery, and interior decoration, by creating immersive experiences that enhance the human experience without adding digital clutter. As a neuroscientist, the speaker envisions a future where AR devices resemble thin strips of glass on our eyes, projecting holograms that seamlessly integrate with the physical world. Emphasizing the importance of intuitive interfaces, they propose building an AR experience based on the \"Neural Path of Least Resistance,\" aiming for a zero-learning-curve computer. With three design guidelines in mind, the speaker outlines a user-centric approach where spatial memory enables natural and intuitive interactions with holographic objects. This forward-thinking perspective combines thoughtful criticism of current technology with an optimistic vision for a more connected and enhanced human experience through AR, revolutionizing human perception and interaction across multiple domains.\n\nDomain: Technology, specifically Augmented Reality (AR) and its potential applications in various fields.\nStyle: Personal narrative mixed with visionary commentary, blending technical insights with accessible language.\nTone: Thoughtful, critical of current technology, hopeful for improvement, optimistic and passionate, with a hint of caution regarding the importance of designing AR interfaces correctly.",
+        "new_tgt_summary": "本文深入探讨了当前计算机与人类交互方式的局限性，强调了其未能有效促进社会认知、情感联系以及身体延展性和交互多样性的不足。为突破这一瓶颈，作者提倡基于神经科学原理，探索更为自然的人机交互模式，旨在打造更加贴近人类需求和行为模式的计算机系统。文章以Meta 2为例，介绍了这款创新机器如何通过提供沉浸式全息体验，实现虚拟现实与现实世界的无缝融合，允许用户在三维空间中自由操控全息图像，从而打破传统设备对身体的束缚。Meta 2的应用前景广阔，涵盖了从日常购物、学习到专业三维建模和神经科学教育等多个领域。展望未来，作者预测在接下来的几年内，人类将能在现实世界中叠加一层完整的数字信息层，彻底革新与技术的互动方式，步入一个数字设备真正延伸人体功能的新纪元，而非让人受制于设备。\n\n在此基础上，文章进一步探讨了未来科技，特别是增强现实与神经科学领域的进展，及其对人类体验的深远影响。作者呼吁社会应致力于构建一种能延伸人类体验的新现实，而不仅仅是对现有现实进行游戏化或数字化改造。预计五年左右的时间，增强现实设备将进化至近似于贴附在眼睛上的透明条，能够实时投影全息图像，其地位将等同于今日的手机操作系统。作为神经科学家，作者梦想创建一套类脑的iOS系统，鉴于人们可能在这一新环境中度过大量时间，这一系统的重要性不言而喻。为了防止重蹈Windows图形用户界面的覆辙，作者提出应以神经科学为指导，遵循直观界面设计原则，避免设计师的主观偏见。核心设计原则被命名为“最小神经阻力路径”，目标是实现大脑与技术的直接连通，创造无须学习即可使用的计算机。文中特别提及了三大设计准则：用户即操作系统、规避传统文件系统带来的复杂性与抽象性、利用空间记忆定位和检索全息对象。通过这些创新方法，用户能够以最自然的方式与系统互动，无需额外的学习过程，实现真正的无缝体验。",
+        "rel_src": [
+            "Here are the first three design guidelines that we employ  in this brand-new form of user experience.",
+            "Traditional file systems are complex and abstract,  and they take your brain extra steps to decode them."
+        ],
+        "rel_tgt": [
+            "这是我们在这个全新的用户体验形式中采用的前三个设计指南。",
+            "传统的文件系统复杂且抽象，它们让你的大脑需要额外的步骤来解码它们。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉"
+        }
+    },
+    {
+        "idx": 60,
+        "src": "What do babies do when they see something that grabs their interest?",
+        "ref": "当婴儿看到它们感兴趣的事的时候 它们会怎么做？",
+        "hyp": "当婴儿看到引起他们兴趣的东西时，他们会做什么？",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉"
+        }
+    },
+    {
+        "idx": 61,
+        "src": "They try and reach out and touch it.",
+        "ref": "它们会试着伸手去抓它。",
+        "hyp": "他们会试图伸出手去触摸它。",
+        "rel_src": [
+            "The second interface guideline we call \"touch to see.\"",
+            "What do babies do when they see something that grabs their interest?"
+        ],
+        "rel_tgt": [
+            "我们称之为“触碰以查看”的第二个界面指南。",
+            "当婴儿看到引起他们兴趣的东西时，他们会做什么？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉"
+        }
+    },
+    {
+        "idx": 62,
+        "src": "And that's exactly how the natural machine should work as well.",
+        "ref": "自然机器也是这样工作的。",
+        "hyp": "而这正是自然机器也应该运作的方式。",
+        "rel_src": [
+            "The second interface guideline we call \"touch to see.\"",
+            "What do babies do when they see something that grabs their interest?"
+        ],
+        "rel_tgt": [
+            "我们称之为“触碰以查看”的第二个界面指南。",
+            "当婴儿看到引起他们兴趣的东西时，他们会做什么？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉"
+        }
+    },
+    {
+        "idx": 63,
+        "src": "Turns out the visual system gets a fundamental boost  from a sense we call proprioception --  that's the sense of our body parts in space.",
+        "ref": "实际上视觉系统 得到一个很基本的推动力， 我们可以称作本体感觉—— 那是一种我们的身体各部分 处于空间里的感觉。",
+        "hyp": "事实证明，视觉系统从我们称之为本体感觉的感觉中获得了根本性的提升——这就是我们在空间中感知身体部位的感觉。",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉"
+        }
+    },
+    {
+        "idx": 64,
+        "src": "So by touching our work directly, we're not only going to control it better,  we're also going to understand it much more deeply.",
+        "ref": "通过直接接触我们的工作对象， 我们不仅仅将它控制得更好， 也能更深层次地了解它。",
+        "hyp": "因此，通过直接触摸我们的工作，我们不仅会更好地控制它，还会更深刻地理解它。",
+        "rel_src": [
+            "The second interface guideline we call \"touch to see.\"",
+            "And that's exactly how the natural machine should work as well."
+        ],
+        "rel_tgt": [
+            "我们称之为“触碰以查看”的第二个界面指南。",
+            "而这正是自然机器也应该运作的方式。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉"
+        }
+    },
+    {
+        "idx": 65,
+        "src": "Hence, touch to see.",
+        "ref": "这就是“接触可视”。",
+        "hyp": "因此，触碰以查看。",
+        "rel_src": [
+            "The second interface guideline we call \"touch to see.\"",
+            "They try and reach out and touch it."
+        ],
+        "rel_tgt": [
+            "我们称之为“触碰以查看”的第二个界面指南。",
+            "他们会试图伸出手去触摸它。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉"
+        }
+    },
+    {
+        "idx": 66,
+        "src": "But it's not enough to experience things ourselves.",
+        "ref": "但是我们自己去体验事情 是不够的。",
+        "hyp": "但仅仅我们自己体验事物是不够的。",
+        "rel_src": [
+            "Here are the first three design guidelines that we employ  in this brand-new form of user experience.",
+            "First and foremost, you are the operating system."
+        ],
+        "rel_tgt": [
+            "这是我们在这个全新的用户体验形式中采用的前三个设计指南。",
+            "首要的是，你就是操作系统。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉"
+        }
+    },
+    {
+        "idx": 67,
+        "src": "We're inherently these social primates.",
+        "ref": "我们是社会灵长目动物。",
+        "hyp": "我们本质上是这些社交灵长类动物。",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉"
+        }
+    },
+    {
+        "idx": 68,
+        "src": "And this leads me to our third guideline,  the holographic campfire from our first story.",
+        "ref": "这一点让我想起了我们的第三个指南， 来自于我们第一个故事的 “全息摄影的篝火”：",
+        "hyp": "这引导我来到我们的第三条准则， 来自我们第一个故事中的全息营火。",
+        "rel_src": [
+            "Here are the first three design guidelines that we employ  in this brand-new form of user experience.",
+            "Meanwhile, in augmented reality,  you can of course place your holographic TED panel over here,  and your holographic email on the other side of the desk,  and your spatial memory evolved just fine to go ahead and retrieve them."
+        ],
+        "rel_tgt": [
+            "这是我们在这个全新的用户体验形式中采用的前三个设计指南。",
+            "同时，在增强现实中， 当然你可以将你的全息TED面板放在这边， 将你的全息邮件放在桌子的另一边， 而你的空间记忆已经进化得足够好，可以去检索它们。 "
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉"
+        }
+    },
+    {
+        "idx": 69,
+        "src": "Our mirror-neuron subsystem suggests  that we can connect with each other and with our work much better  if we can see each other's faces and hands in 3D.",
+        "ref": "我们的镜子——神经分系统显示 我们可以更好地和每一个人 以及我们的工作联系在一起， 如果我们可以看到每个人的 脸和手的立体图像的话。",
+        "hyp": "我们的镜像神经元子系统表明，如果我们能够在三维空间中看到彼此的面孔和双手，我们将能够更好地相互连接，与我们的工作建立更紧密的联系。",
+        "rel_src": [
+            "But it's not enough to experience things ourselves.",
+            "And this leads me to our third guideline,  the holographic campfire from our first story."
+        ],
+        "rel_tgt": [
+            "但仅仅我们自己体验事物是不够的。",
+            "这引导我来到我们的第三条准则， 来自我们第一个故事中的全息营火。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉"
+        }
+    },
+    {
+        "idx": 70,
+        "src": "So if you look at the video behind me,  you can see two Meta users playing around with the same hologram,  making eye contact, connected around this thing,  instead of being distracted by external devices.",
+        "ref": "所以， 如果你看着我身后的录像， 就能看到两个Meta使用者 正在操作着同一个全息摄影图像， 建立了眼神的接触， 聚焦在这个东西上， 而不是被外界的设备分散了注意力。",
+        "hyp": "所以如果你看我身后的视频， 你可以看到两个Meta用户在同一个全息图周围玩耍， 他们互相注视，围绕着这个物体连接在一起， 而不是被外部设备分散注意力。 ",
+        "rel_src": [
+            "And this leads me to our third guideline,  the holographic campfire from our first story.",
+            "Our mirror-neuron subsystem suggests  that we can connect with each other and with our work much better  if we can see each other's faces and hands in 3D."
+        ],
+        "rel_tgt": [
+            "这引导我来到我们的第三条准则， 来自我们第一个故事中的全息营火。",
+            "我们的镜像神经元子系统表明，如果我们能够在三维空间中看到彼此的面孔和双手，我们将能够更好地相互连接，与我们的工作建立更紧密的联系。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 71,
+        "src": "Let's go ahead and try this again with neuroscience in mind.",
+        "ref": "让我们带着神经科学的概念再试一次。",
+        "hyp": "让我们带着神经科学的知识，再来尝试一下。",
+        "rel_src": [
+            "Turns out the visual system gets a fundamental boost  from a sense we call proprioception --  that's the sense of our body parts in space.",
+            "So by touching our work directly, we're not only going to control it better,  we're also going to understand it much more deeply."
+        ],
+        "rel_tgt": [
+            "事实证明，视觉系统从我们称之为本体感觉的感觉中获得了根本性的提升——这就是我们在空间中感知身体部位的感觉。",
+            "因此，通过直接触摸我们的工作，我们不仅会更好地控制它，还会更深刻地理解它。"
+        ],
+        "hist_info": "\"neuroscience\" - \"神经科学\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 72,
+        "src": "So again, our favorite interface, the iOS of the mind.",
+        "ref": "再来一次，我们最喜欢的界面， 大脑的iOS系统。",
+        "hyp": "因此，再次强调，我们最喜爱的界面，心灵的iOS。",
+        "rel_src": [
+            "First and foremost, you are the operating system.",
+            "The second interface guideline we call \"touch to see.\""
+        ],
+        "rel_tgt": [
+            "首要的是，你就是操作系统。",
+            "我们称之为“触碰以查看”的第二个界面指南。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 73,
+        "src": "I'm going to now take a step further  and go ahead and grab this pair of glasses  and leave it right here by the desk.",
+        "ref": "我现在将往前一步， 走到前面抓起这对眼镜。 然后就放在桌子这里。",
+        "hyp": "我现在要更进一步， 去拿起这副眼镜， 然后把它放在桌子旁边这里。",
+        "rel_src": [
+            "Meanwhile, in augmented reality,  you can of course place your holographic TED panel over here,  and your holographic email on the other side of the desk,  and your spatial memory evolved just fine to go ahead and retrieve them.",
+            "Perfect. And your brain knows exactly how to get it back."
+        ],
+        "rel_tgt": [
+            "同时，在增强现实中， 当然你可以将你的全息TED面板放在这边， 将你的全息邮件放在桌子的另一边， 而你的空间记忆已经进化得足够好，可以去检索它们。 ",
+            "完美。而你的大脑清楚地知道如何找回它。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 74,
+        "src": "I'm now with you, I'm in the moment,  we're connecting.",
+        "ref": "我现在是和你们处在一个时刻， 我们正连接在一起。",
+        "hyp": "我现在与你同在，我活在当下， 我们正在心连心。",
+        "rel_src": [
+            "And this leads me to our third guideline,  the holographic campfire from our first story.",
+            "So if you look at the video behind me,  you can see two Meta users playing around with the same hologram,  making eye contact, connected around this thing,  instead of being distracted by external devices."
+        ],
+        "rel_tgt": [
+            "这引导我来到我们的第三条准则， 来自我们第一个故事中的全息营火。",
+            "所以如果你看我身后的视频， 你可以看到两个Meta用户在同一个全息图周围玩耍， 他们互相注视，围绕着这个物体连接在一起， 而不是被外部设备分散注意力。 "
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 75,
+        "src": "My spatial memory kicks in, and I can go ahead and grab it  and bring it right back here, reminding me  that I am the operating system.",
+        "ref": "我的空间记忆正在运作， 我可以过去抓住它， 然后把它带回到这里，提醒我自己 我是一个操作系统。",
+        "hyp": "我的空间记忆开始发挥作用，我可以去抓取它 并将它带回到这里，提醒我 我就是操作系统本身。",
+        "rel_src": [
+            "Meanwhile, in augmented reality,  you can of course place your holographic TED panel over here,  and your holographic email on the other side of the desk,  and your spatial memory evolved just fine to go ahead and retrieve them.",
+            "Perfect. And your brain knows exactly how to get it back."
+        ],
+        "rel_tgt": [
+            "同时，在增强现实中， 当然你可以将你的全息TED面板放在这边， 将你的全息邮件放在桌子的另一边， 而你的空间记忆已经进化得足够好，可以去检索它们。 ",
+            "完美。而你的大脑清楚地知道如何找回它。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 76,
+        "src": "And now my proprioception is working,  and I can go ahead and explode these glasses into a thousand parts  and touch the very sensor that is currently scanning my hand.",
+        "ref": "现在我的本体感觉正在工作， 我可以过去使这些 玻璃爆裂成上千块碎片， 然后触摸此时此刻正在扫描 我的手的传感器。",
+        "hyp": "现在我的本体感觉开始工作， 我可以将这副眼镜分解成千上万个部件 并触碰那个正在扫描我手部的传感器。",
+        "rel_src": [
+            "Turns out the visual system gets a fundamental boost  from a sense we call proprioception --  that's the sense of our body parts in space.",
+            "So by touching our work directly, we're not only going to control it better,  we're also going to understand it much more deeply."
+        ],
+        "rel_tgt": [
+            "事实证明，视觉系统从我们称之为本体感觉的感觉中获得了根本性的提升——这就是我们在空间中感知身体部位的感觉。",
+            "因此，通过直接触摸我们的工作，我们不仅会更好地控制它，还会更深刻地理解它。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta"
+        }
+    },
+    {
+        "idx": 77,
+        "src": "But it's not enough to see things alone,  so in a second, my co-founder Ray is going to make a 3D call --  Ray?",
+        "ref": "但是仅仅看到这些是不够的， 所以很快，我的合作创始人瑞恩 将会打一个3D电话给我—— 瑞恩？",
+        "hyp": "但仅仅看到事物本身是不够的， 所以过一会儿，我的联合创始人雷会打一个三维电话来 —— 雷？",
+        "rel_src": [
+            "We're inherently these social primates.",
+            "Our mirror-neuron subsystem suggests  that we can connect with each other and with our work much better  if we can see each other's faces and hands in 3D."
+        ],
+        "rel_tgt": [
+            "我们本质上是这些社交灵长类动物。",
+            "我们的镜像神经元子系统表明，如果我们能够在三维空间中看到彼此的面孔和双手，我们将能够更好地相互连接，与我们的工作建立更紧密的联系。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷"
+        }
+    },
+    {
+        "idx": 78,
+        "src": "Hey Ray, how's it going?",
+        "ref": "嗨，瑞恩，你怎么样？",
+        "hyp": "嘿，雷，最近怎么样？",
+        "rel_src": [
+            "And now my proprioception is working,  and I can go ahead and explode these glasses into a thousand parts  and touch the very sensor that is currently scanning my hand.",
+            "But it's not enough to see things alone,  so in a second, my co-founder Ray is going to make a 3D call --  Ray?"
+        ],
+        "rel_tgt": [
+            "现在我的本体感觉开始工作， 我可以将这副眼镜分解成千上万个部件 并触碰那个正在扫描我手部的传感器。",
+            "但仅仅看到事物本身是不够的， 所以过一会儿，我的联合创始人雷会打一个三维电话来 —— 雷？"
+        ],
+        "hist_info": "\"Ray\" - \"雷\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷"
+        }
+    },
+    {
+        "idx": 79,
+        "src": "Guys, I can see this guy in front me in full 3D.",
+        "ref": "各位，我可以看到这个人 以三维投影的形式出现在我面前。",
+        "hyp": "伙计们，我可以看到这家伙在我面前完全以三维的形式。 ",
+        "new_src_summary": "In a reflective narrative set in 2011 Harlem, the speaker contrasts the alienating effect of modern computer interfaces, epitomized by a friend's interruption during a conversation to check their phone, with the captivating engagement witnessed in another group sharing photos. Inspired by ancient traditions of storytelling around campfires, they advocate for technology that fosters natural human interaction and physical engagement. Focusing on Augmented Reality (AR), the speaker envisions devices like the Meta 2, grounded in neuroscience principles, which employ natural hand movements to project interactive holograms. This transformative technology could revolutionize storytelling, painting, brain surgery, interior decoration, and other fields by creating immersive experiences that enrich the human experience without imposing digital clutter. As a neuroscientist, the speaker imagines a future where AR devices resemble thin glass strips over our eyes, projecting holograms that blend seamlessly with the real world. Emphasizing the significance of intuitive interfaces, they propose a user-centric AR experience guided by the \"Neural Path of Least Resistance,\" aiming for a zero-learning-curve computer.\n\nThe speaker outlines three interface guidelines for achieving this vision. The first, \"touch to see,\" leverages the proprioception sense to control and understand digital content better. The second guideline involves creating holographic experiences that foster social connections and collaboration, inspired by the mirror-neuron subsystem, enabling users to interact with holograms while maintaining eye contact, enhancing engagement and focus. An illustrative example demonstrates how spatial memory and proprioception can be used to manipulate virtual objects, such as a pair of glasses, in a shared 3D space. Throughout the narrative, the tone is thoughtful, critical of current technology's shortcomings, yet hopeful and optimistic for a future where AR interfaces are designed to seamlessly integrate with human senses and social dynamics, thereby transforming human perception and interaction across multiple domains.\n\nDomain: Technology, specifically Augmented Reality (AR) and its potential applications in various fields, and Human-Computer Interaction.\n\nStyle: Personal narrative mixed with visionary commentary, blending technical insights with accessible language, and expository explanation.\n\nTone: Thoughtful, critical of current technology, hopeful for improvement, optimistic and passionate, with a hint of caution regarding the importance of designing AR interfaces correctly, combined with a visionary and instructional approach.",
+        "new_tgt_summary": "本文深刻剖析了现代计算机与人类交互方式的局限性，特别是其未能充分激发社会认知、情感纽带和身体交互的多样性，进而倡导了一种基于神经科学原理的新型人机交互范式，旨在构建更贴合人类天性和行为的计算机系统。Meta 2作为此理念的典范，通过提供沉浸式全息体验，实现了虚拟与现实的无缝衔接，让用户能够在三维空间自如操控全息图像，解放身体的束缚，预示着未来数年内，人类将置身于叠加有完整数字信息层的现实世界，开启技术与人体功能深度融合的新时代。\n\n文章进一步探讨了增强现实与神经科学的未来进展，呼吁社会共同构想一种超越游戏化和简单数字化的新现实，以延伸人类体验为核心。预计未来五年，增强现实设备将演变为类似隐形眼镜的形态，实时投影全息图像，其重要性堪比今日的手机操作系统。作者，作为神经科学家，憧憬打造一套类脑操作系统，强调遵循“最小神经阻力路径”的设计原则，确保直觉操作，避免设计师偏见，实现大脑与技术的无缝对接。设计中融入了用户即操作系统、简化文件管理、空间记忆定位等理念，以期创造无需学习即可操作的自然交互体验。\n\n此外，文章引入了基于人类本能和神经科学原理的创新界面设计，如“触碰以查看”和全息营火，前者模拟婴儿探索世界的触觉方式，后者借助镜像神经元子系统提升虚拟环境中的社交互动质量。通过实例展现了Meta用户围绕共享全息图互动的情景，以及作者使用眼镜接口，结合空间记忆和本体感觉操纵虚拟对象，与联合创始人进行三维通话，生动展现了沉浸式技术在沟通与协作领域的巨大潜力，预示着一个更加人性化、直观且高效的人机交互未来。",
+        "rel_src": [
+            "Our mirror-neuron subsystem suggests  that we can connect with each other and with our work much better  if we can see each other's faces and hands in 3D.",
+            "So if you look at the video behind me,  you can see two Meta users playing around with the same hologram,  making eye contact, connected around this thing,  instead of being distracted by external devices."
+        ],
+        "rel_tgt": [
+            "我们的镜像神经元子系统表明，如果我们能够在三维空间中看到彼此的面孔和双手，我们将能够更好地相互连接，与我们的工作建立更紧密的联系。",
+            "所以如果你看我身后的视频， 你可以看到两个Meta用户在同一个全息图周围玩耍， 他们互相注视，围绕着这个物体连接在一起， 而不是被外部设备分散注意力。 "
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷"
+        }
+    },
+    {
+        "idx": 80,
+        "src": "And he is photo-realistic.",
+        "ref": "而且他的影像非常真实。",
+        "hyp": "而且他是照片般逼真。",
+        "rel_src": [
+            "Hey Ray, how's it going?",
+            "Guys, I can see this guy in front me in full 3D."
+        ],
+        "rel_tgt": [
+            "嘿，雷，最近怎么样？",
+            "伙计们，我可以看到这家伙在我面前完全以三维的形式。 "
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷"
+        }
+    },
+    {
+        "idx": 81,
+        "src": "Thank you.",
+        "ref": "（观众鼓掌） 谢谢。",
+        "hyp": "谢谢您。",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷"
+        }
+    },
+    {
+        "idx": 82,
+        "src": "My mirror-neuron subsystem suggests that this is going to replace phones  in not too long.",
+        "ref": "我的镜子—神经分系统显示 这将在不久的将来 替代电话。",
+        "hyp": "我的镜像神经元子系统表明，这将在不久的将来取代手机。",
+        "rel_src": [
+            "Our mirror-neuron subsystem suggests  that we can connect with each other and with our work much better  if we can see each other's faces and hands in 3D.",
+            "So if you look at the video behind me,  you can see two Meta users playing around with the same hologram,  making eye contact, connected around this thing,  instead of being distracted by external devices."
+        ],
+        "rel_tgt": [
+            "我们的镜像神经元子系统表明，如果我们能够在三维空间中看到彼此的面孔和双手，我们将能够更好地相互连接，与我们的工作建立更紧密的联系。",
+            "所以如果你看我身后的视频， 你可以看到两个Meta用户在同一个全息图周围玩耍， 他们互相注视，围绕着这个物体连接在一起， 而不是被外部设备分散注意力。 "
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷"
+        }
+    },
+    {
+        "idx": 83,
+        "src": "Ray, how's it going?",
+        "ref": "瑞恩，你怎么样？",
+        "hyp": "雷，最近怎么样？",
+        "rel_src": [
+            "But it's not enough to see things alone,  so in a second, my co-founder Ray is going to make a 3D call --  Ray?",
+            "Hey Ray, how's it going?"
+        ],
+        "rel_tgt": [
+            "但仅仅看到事物本身是不够的， 所以过一会儿，我的联合创始人雷会打一个三维电话来 —— 雷？",
+            "嘿，雷，最近怎么样？"
+        ],
+        "hist_info": "\"Ray\" - \"雷\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷"
+        }
+    },
+    {
+        "idx": 84,
+        "src": "Ray: Great. We're live today.",
+        "ref": "瑞恩：我很好。 我们终于可以现场演示了。",
+        "hyp": "雷：很好。我们今天在线直播。",
+        "rel_src": [
+            "But it's not enough to see things alone,  so in a second, my co-founder Ray is going to make a 3D call --  Ray?",
+            "Hey Ray, how's it going?"
+        ],
+        "rel_tgt": [
+            "但仅仅看到事物本身是不够的， 所以过一会儿，我的联合创始人雷会打一个三维电话来 —— 雷？",
+            "嘿，雷，最近怎么样？"
+        ],
+        "hist_info": "\"Ray\" - \"雷\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷"
+        }
+    },
+    {
+        "idx": 85,
+        "src": "MG: Ray, give the crowd a gift  of the holographic brain we saw from the video earlier.",
+        "ref": "（观众鼓掌） 瑞恩，给大家一个我们之前 在短片看到的 全息摄影的脑作为小礼物。",
+        "hyp": "MG：雷，给观众送上一份礼物，就是我们之前在视频中看到的全息大脑。",
+        "rel_src": [
+            "And this leads me to our third guideline,  the holographic campfire from our first story.",
+            "So if you look at the video behind me,  you can see two Meta users playing around with the same hologram,  making eye contact, connected around this thing,  instead of being distracted by external devices."
+        ],
+        "rel_tgt": [
+            "这引导我来到我们的第三条准则， 来自我们第一个故事中的全息营火。",
+            "所以如果你看我身后的视频， 你可以看到两个Meta用户在同一个全息图周围玩耍， 他们互相注视，围绕着这个物体连接在一起， 而不是被外部设备分散注意力。 "
+        ],
+        "hist_info": "\"Ray\" - \"雷\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG"
+        }
+    },
+    {
+        "idx": 86,
+        "src": "Guys, this is not only going to change phones,  it's also going to change the way we collaborate.",
+        "ref": "各位，这不仅将改变打电话的方式， 这也将改变我们合作的形式。",
+        "hyp": "伙计们，这不仅将改变手机，",
+        "rel_src": [
+            "So if you look at the video behind me,  you can see two Meta users playing around with the same hologram,  making eye contact, connected around this thing,  instead of being distracted by external devices.",
+            "My mirror-neuron subsystem suggests that this is going to replace phones  in not too long."
+        ],
+        "rel_tgt": [
+            "所以如果你看我身后的视频， 你可以看到两个Meta用户在同一个全息图周围玩耍， 他们互相注视，围绕着这个物体连接在一起， 而不是被外部设备分散注意力。 ",
+            "我的镜像神经元子系统表明，这将在不久的将来取代手机。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG"
+        }
+    },
+    {
+        "idx": 87,
+        "src": "Thank you so much.",
+        "ref": "非常感谢。",
+        "hyp": "非常感谢您。",
+        "rel_src": [
+            "And he is photo-realistic.",
+            "Thank you."
+        ],
+        "rel_tgt": [
+            "而且他是照片般逼真。",
+            "谢谢您。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG"
+        }
+    },
+    {
+        "idx": 88,
+        "src": "Thanks, Ray.",
+        "ref": "谢谢，瑞恩。",
+        "hyp": "谢谢，雷。",
+        "rel_src": [
+            "Thank you.",
+            "MG: Ray, give the crowd a gift  of the holographic brain we saw from the video earlier."
+        ],
+        "rel_tgt": [
+            "谢谢您。",
+            "MG：雷，给观众送上一份礼物，就是我们之前在视频中看到的全息大脑。"
+        ],
+        "hist_info": "\"Ray\" - \"雷\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG"
+        }
+    },
+    {
+        "idx": 89,
+        "src": "Ray: You're welcome.",
+        "ref": "瑞恩：不客气。",
+        "hyp": "雷：不客气。",
+        "rel_src": [
+            "Thank you.",
+            "Thanks, Ray."
+        ],
+        "rel_tgt": [
+            "谢谢您。",
+            "谢谢，雷。"
+        ],
+        "hist_info": "\"Ray\" - \"雷\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG"
+        }
+    },
+    {
+        "idx": 90,
+        "src": "MG: So folks, this is the message that I discovered in that bar in 2011:  The future of computers is not locked inside one of these screens.",
+        "ref": "（观众鼓掌） 麦龙·格里贝兹：那么各位， 这是我2011年在那个酒吧里发现的信息： 电脑的未来不是锁在 这些屏幕的里面的。",
+        "hyp": "MG：所以各位，这就是我在2011年那个酒吧里发现的信息： 计算机的未来并不局限于这些屏幕之一。",
+        "rel_src": [
+            "So if you look at the video behind me,  you can see two Meta users playing around with the same hologram,  making eye contact, connected around this thing,  instead of being distracted by external devices.",
+            "Guys, this is not only going to change phones,  it's also going to change the way we collaborate."
+        ],
+        "rel_tgt": [
+            "所以如果你看我身后的视频， 你可以看到两个Meta用户在同一个全息图周围玩耍， 他们互相注视，围绕着这个物体连接在一起， 而不是被外部设备分散注意力。 ",
+            "伙计们，这不仅将改变手机，"
+        ],
+        "hist_info": "\"2011\" - \"2011年\", \"computers\" - \"计算机\n\nNote: computer science\", \"MG\" - \"MG\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG"
+        },
+        "conflict": [
+            "\"2011\" - \"2011年\"/\"2011 (Note: MG could be a persons initials or a name\""
+        ]
+    },
+    {
+        "idx": 91,
+        "src": "It's right here, inside of us.",
+        "ref": "而是在这里，在我们身体里。",
+        "hyp": "它就在这里，就在我们身体内部。",
+        "rel_src": [
+            "My mirror-neuron subsystem suggests that this is going to replace phones  in not too long.",
+            "Guys, this is not only going to change phones,  it's also going to change the way we collaborate."
+        ],
+        "rel_tgt": [
+            "我的镜像神经元子系统表明，这将在不久的将来取代手机。",
+            "伙计们，这不仅将改变手机，"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG"
+        }
+    },
+    {
+        "idx": 92,
+        "src": "So if there's one idea that I could leave you with here today,  it's that the natural machine is not some figment of the future,  it's right here in 2016.",
+        "ref": "（观众鼓掌） 所以如果我今天可以留给你们 一个想法， 那就是自然机器不是 只存在于未来的想象， 它就在这里，存在于2016年。",
+        "hyp": "因此，如果今天我只能留下一个观点给你们， 那就是自然机器并不是未来的幻想， 它就在我们2016年的现实中。",
+        "rel_src": [
+            "MG: So folks, this is the message that I discovered in that bar in 2011:  The future of computers is not locked inside one of these screens.",
+            "It's right here, inside of us."
+        ],
+        "rel_tgt": [
+            "MG：所以各位，这就是我在2011年那个酒吧里发现的信息： 计算机的未来并不局限于这些屏幕之一。",
+            "它就在这里，就在我们身体内部。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG"
+        }
+    },
+    {
+        "idx": 93,
+        "src": "Which is why all hundred of us at Meta,  including the administrative staff,  the executives,  the designers, the engineers --  before TED2017,  we're all going to be throwing away our external monitors  and replacing them with a truly and profoundly more natural machine.",
+        "ref": "这就是为什么在Meta的上百名员工， 包括行政管理人员， 执行人员， 设计师，工程师—— 在TED2017之前， 我们将会扔掉我们的外接显示设备， 然后用一个真正的 更加自然的机器代替它。",
+        "hyp": "这就是为什么在Meta的所有一百名员工， 包括行政人员， 执行官， 设计师，工程师 — 在TED2017之前， 我们都将抛弃我们的外部显示器 并用一个真正而深刻地更加自然的机器取代它们。 ",
+        "rel_src": [
+            "Guys, this is not only going to change phones,  it's also going to change the way we collaborate.",
+            "So if there's one idea that I could leave you with here today,  it's that the natural machine is not some figment of the future,  it's right here in 2016."
+        ],
+        "rel_tgt": [
+            "伙计们，这不仅将改变手机，",
+            "因此，如果今天我只能留下一个观点给你们， 那就是自然机器并不是未来的幻想， 它就在我们2016年的现实中。"
+        ],
+        "hist_info": "\"TED\" - \"TED\", \"Meta\" - \"Meta\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG",
+            "TED2017": "TED2017"
+        }
+    },
+    {
+        "idx": 94,
+        "src": "Thank you very much.",
+        "ref": "非常感谢。",
+        "hyp": "非常感谢您。",
+        "rel_src": [
+            "Thank you.",
+            "Thank you so much."
+        ],
+        "rel_tgt": [
+            "谢谢您。",
+            "非常感谢您。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG",
+            "TED2017": "TED2017"
+        }
+    },
+    {
+        "idx": 95,
+        "src": "Thank you, appreciate it.",
+        "ref": "（观众鼓掌） 谢谢。",
+        "hyp": "非常感谢，我很感激。",
+        "rel_src": [
+            "Thank you.",
+            "Thank you so much."
+        ],
+        "rel_tgt": [
+            "谢谢您。",
+            "非常感谢您。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG",
+            "TED2017": "TED2017"
+        }
+    },
+    {
+        "idx": 96,
+        "src": "Thanks, guys.",
+        "ref": "谢谢大家。",
+        "hyp": "谢谢，各位。",
+        "rel_src": [
+            "Thank you so much.",
+            "Thanks, Ray."
+        ],
+        "rel_tgt": [
+            "非常感谢您。",
+            "谢谢，雷。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG",
+            "TED2017": "TED2017"
+        }
+    },
+    {
+        "idx": 97,
+        "src": "Chris Anderson: So help me out on one thing,  because there've been a few augmented reality demos  shown over the last year or so out there.",
+        "ref": "克里斯·安德森：我有个问题， 去年就已经出现了很多 关于全息摄影的展示。",
+        "hyp": "克里斯·安德森：所以请帮我澄清一件事，因为过去一年左右的时间里，已经展示了一些增强现实的演示。",
+        "rel_src": [
+            "Guys, I can see this guy in front me in full 3D.",
+            "And he is photo-realistic."
+        ],
+        "rel_tgt": [
+            "伙计们，我可以看到这家伙在我面前完全以三维的形式。 ",
+            "而且他是照片般逼真。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "克里斯·安德森"
+        }
+    },
+    {
+        "idx": 98,
+        "src": "And there's sometimes a debate among technologists  about, are we really seeing the real thing on-screen?",
+        "ref": "有时候有在科技领域会出现一种争论， 关于我们是不是真的在屏幕上 看到了真实的事物？",
+        "hyp": "有时在技术专家之间会有一场辩论，关于我们是否真的在屏幕上看到了真实的东西？",
+        "rel_src": [
+            "My mirror-neuron subsystem suggests that this is going to replace phones  in not too long.",
+            "Guys, this is not only going to change phones,  it's also going to change the way we collaborate."
+        ],
+        "rel_tgt": [
+            "我的镜像神经元子系统表明，这将在不久的将来取代手机。",
+            "伙计们，这不仅将改变手机，"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "克里斯·安德森"
+        }
+    },
+    {
+        "idx": 99,
+        "src": "There's this issue of field of view,  that somehow the technology is showing a broader view  than you would actually see wearing the glasses.",
+        "ref": "这是这个领域存在的一个问题， 在某种程度上来说科技 正在展现一个比你实际上 戴着眼镜看到的更广阔的视角。",
+        "hyp": "存在一个视场角的问题，即技术展现的视野似乎比你实际戴上眼镜所能看到的要宽广。",
+        "new_src_summary": "In a reflective and enthusiastic narrative set in 2011 Harlem and 2016, the speaker contrasts the alienating effects of modern computer interfaces with the captivating engagement of advanced augmented reality (AR) technology. Inspired by ancient storytelling traditions and driven by neuroscience principles, the speaker envisions a future where AR devices, akin to thin glass strips over our eyes, create immersive holographic experiences that blend seamlessly with the real world. This transformative technology, employing natural hand movements and intuitive interfaces guided by the \"Neural Path of Least Resistance,\" aims to revolutionize storytelling, art, medicine, design, and beyond without imposing digital clutter. The narrative highlights three interface guidelines: \"touch to see,\" leveraging proprioception for better control; fostering social connections through holographic experiences inspired by the mirror-neuron subsystem; and using spatial memory and proprioception to manipulate virtual objects in shared 3D spaces. The speaker, MG, expresses amazement at photo-realistic 3D holograms, predicting that this technology will soon replace traditional phones and transform collaboration, marking a significant departure from conventional computing interfaces towards an integration with human biology. Crediting his mirror-neuron subsystem for this foresight, MG shares that his company, Meta, including the entire team, plans to abandon external monitors by TED2017, embracing a more intuitive and natural computing experience. The style blends personal narrative, visionary commentary, and persuasive enthusiasm, with a tone that is thoughtful, critical of current technology, hopeful, optimistic, confident, and forward-thinking. The narrative emphasizes the importance of designing AR interfaces correctly to seamlessly integrate with human senses and social dynamics, transforming human perception and interaction across multiple domains.",
+        "new_tgt_summary": "本文深度探讨了现代计算机与人类交互的局限，尤其指出当前技术未能充分利用社会认知、情感纽带及身体交互的丰富性，从而提出一种基于神经科学原理的革新性人机交互模式，目标是开发与人类天性及行为更为契合的计算机系统。Meta 2作为这一愿景的实践案例，通过提供沉浸式的全息体验，实现了虚拟与现实世界的无缝融合，允许用户在三维空间中自由操控全息图像，释放身体潜能，预示着未来数年内，人类将进入一个叠加完整数字信息层的现实世界，开启技术与人体功能深度融合的新纪元。\n\n文章进一步展望了增强现实技术与神经科学的未来趋势，呼吁社会共同构想一种超越游戏化和简单数字化的新现实，以延伸人类体验为重心。预计未来五年内，增强现实设备将发展为隐形眼镜般的形态，实现实时全息图像投影，其重要性可媲美今日的手机操作系统。作为神经科学家的作者，梦想构建一套类脑操作系统，遵循“最小神经阻力路径”的设计原则，确保操作直觉化，避免设计者的主观偏见，实现大脑与技术的无缝对接。设计中融入了用户即操作系统、简化文件管理、空间记忆定位等理念，追求无需专门学习即可操作的自然交互体验。\n\n文章还介绍了基于人类本能和神经科学原理的创新界面设计，例如“触碰以查看”功能，模仿婴儿通过触觉探索世界的方式；以及全息营火概念，利用镜像神经元子系统增强虚拟环境中的社交互动。通过具体场景展示了Meta用户围绕共享全息图的互动，以及作者使用眼镜接口，结合空间记忆和本体感觉来操纵虚拟对象，与联合创始人进行三维通话，生动地体现了沉浸式技术在沟通与协作领域的重要潜力，预示着人机交互将趋向更加人性化、直观且高效的方向。\n\n演讲者在展示三维、照片级逼真的全息图像技术时，强调这将取代手机，成为计算机未来的主流趋势。他指出，“自然机器”，即融入我们身体内部的技术，已不再是未来的幻想，而是2016年的真实存在。演讲者宣布，至TED2017前，Meta公司全体员工，涵盖管理层和工程师，将全面弃用外部显示器，转向更自然的人机交互方式。演讲者对听众表达感谢，并邀请雷一同分享全息大脑的奇妙体验，进一步凸显该技术的革命性。最终，演讲者希望平息有关增强现实技术能否提供真实体验的争议，暗示这项技术正日益成熟，逐步逼近真实的感官体验。",
+        "rel_src": [
+            "My mirror-neuron subsystem suggests that this is going to replace phones  in not too long.",
+            "Guys, this is not only going to change phones,  it's also going to change the way we collaborate."
+        ],
+        "rel_tgt": [
+            "我的镜像神经元子系统表明，这将在不久的将来取代手机。",
+            "伙计们，这不仅将改变手机，"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "克里斯·安德森"
+        }
+    },
+    {
+        "idx": 100,
+        "src": "Were we seeing the real deal there?",
+        "ref": "我们刚才是不是 看到了真实的效果？",
+        "hyp": "我们当时看到的是真正的效果吗？",
+        "rel_src": [
+            "Chris Anderson: So help me out on one thing,  because there've been a few augmented reality demos  shown over the last year or so out there.",
+            "And there's sometimes a debate among technologists  about, are we really seeing the real thing on-screen?"
+        ],
+        "rel_tgt": [
+            "克里斯·安德森：所以请帮我澄清一件事，因为过去一年左右的时间里，已经展示了一些增强现实的演示。",
+            "有时在技术专家之间会有一场辩论，关于我们是否真的在屏幕上看到了真实的东西？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "克里斯·安德森"
+        }
+    },
+    {
+        "idx": 101,
+        "src": "MG: Absolutely the real deal.",
+        "ref": "麦龙·格里贝兹： 绝对是真实的效果。",
+        "hyp": "MG：绝对是真正的效果。",
+        "rel_src": [
+            "Chris Anderson: So help me out on one thing,  because there've been a few augmented reality demos  shown over the last year or so out there.",
+            "Were we seeing the real deal there?"
+        ],
+        "rel_tgt": [
+            "克里斯·安德森：所以请帮我澄清一件事，因为过去一年左右的时间里，已经展示了一些增强现实的演示。",
+            "我们当时看到的是真正的效果吗？"
+        ],
+        "hist_info": "\"MG\" - \"MG\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "克里斯·安德森"
+        }
+    },
+    {
+        "idx": 102,
+        "src": "Not only that,  we took extra measures to shoot it with a GoPro through the actual lens  in the various videos that you've seen here.",
+        "ref": "不仅如此， 我们还使用了额外的测量技术，用GoPro 通过真正的镜片去拍摄， 就得到了你们在这里看到的 各种不同的短片。",
+        "hyp": "不仅如此，我们还采取了额外的措施，使用GoPro通过实际的眼镜镜头拍摄，这就是你在各个视频中看到的效果。",
+        "rel_src": [
+            "MG: Ray, give the crowd a gift  of the holographic brain we saw from the video earlier.",
+            "Were we seeing the real deal there?"
+        ],
+        "rel_tgt": [
+            "MG：雷，给观众送上一份礼物，就是我们之前在视频中看到的全息大脑。",
+            "我们当时看到的是真正的效果吗？"
+        ],
+        "hist_info": "\"GoPro\" - \"GoPro\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "克里斯·安德森",
+            "<Proper nouns> GoPro": "GoPro"
+        }
+    },
+    {
+        "idx": 103,
+        "src": "We want to try to simulate the experience for the world  that we're actually seeing through the glasses,  and not cut any corners.",
+        "ref": "我们想通过透着眼镜看到的事物 去试着真实化这个世界的体验， 而不仅仅是看到局部。",
+        "hyp": "我们想要尽可能地模拟出通过眼镜看到的世界的实际体验，绝不走任何捷径。",
+        "rel_src": [
+            "There's this issue of field of view,  that somehow the technology is showing a broader view  than you would actually see wearing the glasses.",
+            "MG: Absolutely the real deal."
+        ],
+        "rel_tgt": [
+            "存在一个视场角的问题，即技术展现的视野似乎比你实际戴上眼镜所能看到的要宽广。",
+            "MG：绝对是真正的效果。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "克里斯·安德森",
+            "<Proper nouns> GoPro": "GoPro"
+        }
+    },
+    {
+        "idx": 104,
+        "src": "CA: Thank you so much for showing us that.",
+        "ref": "CA：非常感谢你的展示。",
+        "hyp": "非常感谢你向我们展示了这一切。",
+        "rel_src": [
+            "Thank you very much.",
+            "Thanks, guys."
+        ],
+        "rel_tgt": [
+            "非常感谢您。",
+            "谢谢，各位。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "克里斯·安德森",
+            "<Proper nouns> GoPro": "GoPro"
+        }
+    },
+    {
+        "idx": 105,
+        "src": "MG: Thanks so much, I appreciate that.",
+        "ref": "MG：非常感谢。",
+        "hyp": "MG：非常感谢，我很感激。",
+        "rel_src": [
+            "Thank you so much.",
+            "Thank you, appreciate it."
+        ],
+        "rel_tgt": [
+            "非常感谢您。",
+            "非常感谢，我很感激。"
+        ],
+        "hist_info": "\"MG\" - \"MG\"",
+        "entity_dict": {
+            "Harlem": "哈莱姆区",
+            "2011": "2011年",
+            "Columbia University": "哥伦比亚大学",
+            "computer science": "计算机科学",
+            "neuroscience": "神经科学",
+            "holograms": "全息图",
+            "computers": "计算机\n\nNote: computer science",
+            "the correct annotation should exclude them.\n\nCorrected <Proper nouns> Columbia University": "哥伦比亚大学",
+            "<Proper nouns> Instagram": "Instagram",
+            "Meta 2": "Meta 2",
+            "Iron Man": "钢铁侠",
+            "GoPro": "GoPro",
+            "Professor Adam Gazzaley": "亚当·加扎利教授",
+            "glass brain project": "glass brain project",
+            "UCSF": "N/A \n\nNote: glass brain project is not a proper noun",
+            "IOS": "iOS",
+            "N/A": "神经科学家 (Note: neuroscientist is not a proper noun",
+            "<Proper nouns> Windows": "Windows",
+            "Windows": "Windows",
+            "Neural Path of Least Resistance": "最小神经阻力路径",
+            "TED": "TED",
+            "<Tesla>": "特斯拉",
+            "Meta": "Meta",
+            "Ray": "雷",
+            "MG": "MG",
+            "TED2017": "TED2017",
+            "Chris Anderson": "克里斯·安德森",
+            "<Proper nouns> GoPro": "GoPro"
+        },
+        "conflict": [
+            "\"MG\" - \"MG\"/\"MG (Note: In this case\""
+        ]
+    }
+]

@@ -1,0 +1,21 @@
+You are an {src_lang}-{tgt_lang} bilingual expert. Given an {src_lang} source sentence with its {tgt_lang} translation, you need to annotate all the proper nouns in the {src_lang} source sentence and their corresponding translations in the {tgt_lang} translation sentence. Here are some examples for you:
+
+Example 1:
+<{src_lang} source> NASA's Kepler mission has discovered thousands of potential planets around other stars, indicating that Earth is but one of billions of planets in our galaxy.
+<{tgt_lang} translation> アメリカ航空宇宙局のケプラー計画は、他の恒星の周りに何千もの潜在的な惑星を発見し、地球は銀河系にある何十億もの惑星のうちの1つに過ぎないことを示している。
+<Proper nouns> "NASA" - "アメリカ航空宇宙局", "Kepler mission" - "ケプラー計画は", "Earth" - "地球"
+
+Example 2:
+<{src_lang} source> I had just driven home,  it was around midnight in the dead of Montreal winter, I had been visiting my friend, Jeff, across town, and the thermometer on the front porch read minus 40 degrees -- and don't bother asking if that's Celsius or Fahrenheit, minus 40 is where the two scales meet -- it was very cold.
+<{tgt_lang} translation> 真冬のモントリオールの真夜中頃、車で家に帰ったばかりだった。街の反対側にいる友人のジェフを訪ねていたのだが、玄関ポーチの温度計はマイナス40度を示していた。摂氏か華氏かは聞かなくていい。マイナス40度は2つの温度計が交わるところだ。とても寒かった。
+<Proper nouns> "Montreal" - "モントリオール", "Jeff" - "ジェフ", "Celsius" - "摂氏", "Fahrenheit" - "華氏"
+
+Example 3:
+<{src_lang} source> To make the case to the National Health Service that more resources were needed for autistic children and their families, Lorna and her colleague Judith Gould decided to do something that should have been done 30 years earlier.
+<{tgt_lang} translation> 自閉症の子供とその家族のためにもっと多くの資源が必要であることを国民保健サービスに訴えるため、ローナと同僚のジュディス・グールドは、30年前に行われるべきだったことを実行することを決意した。
+<Proper nouns> "National Health Service" - "国民保健サービス", "Lorna" - "ローナ", "Judith Gould" - "ジュディス・グールド"
+
+If there isn't any proper noun in the sentence, just answer with "N/A". Now annotate all the proper nouns in the following sentence pair:
+<{src_lang} source> {src}
+<{tgt_lang} translation> {tgt}
+<Proper nouns> 

@@ -1,0 +1,3109 @@
+[
+    {
+        "idx": 0,
+        "src": "So in college,  I was a government major,  which means I had to write a lot of papers.",
+        "ref": "大学では 政治専攻だったので レポートを沢山 書かなければなりませんでした",
+        "hyp": "大学では、私は政治学専攻だったので、たくさんの論文を書かなければなりませんでした。",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 1,
+        "src": "Now, when a normal student writes a paper,  they might spread the work out a little like this.",
+        "ref": "普通の学生が レポートを書く場合 作業量はこんな感じに 分布していることでしょう",
+        "hyp": "普通の学生が論文を書くとき、このように作業を少し分散させるかもしれません。",
+        "rel_src": [
+            "So in college,  I was a government major,  which means I had to write a lot of papers."
+        ],
+        "rel_tgt": [
+            "大学では、私は政治学専攻だったので、たくさんの論文を書かなければなりませんでした。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 2,
+        "src": "So, you know --    you get started maybe a little slowly,  but you get enough done in the first week  that, with some heavier days later on,  everything gets done, things stay civil.",
+        "ref": "これだと —  はじめは ゆっくりですが 最初の週 十分に 進めておいて 後半 多少負荷が 高くはなっても 秩序ある状態が 保たれています",
+        "hyp": "だから、あなたはねー、最初は少しゆっくり始めるかもしれませんが、最初の週に十分なことを達成して、後で少し忙しい日々があっても、すべてが終わり、物事は穏やかに進みます。",
+        "rel_src": [
+            "So in college,  I was a government major,  which means I had to write a lot of papers.",
+            "Now, when a normal student writes a paper,  they might spread the work out a little like this."
+        ],
+        "rel_tgt": [
+            "大学では、私は政治学専攻だったので、たくさんの論文を書かなければなりませんでした。",
+            "普通の学生が論文を書くとき、このように作業を少し分散させるかもしれません。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 3,
+        "src": "And I would want to do that like that.",
+        "ref": "私だって そんな風に やりたいと思います",
+        "hyp": "そして、私はそれをそのようにしたいと思います。",
+        "rel_src": [
+            "Now, when a normal student writes a paper,  they might spread the work out a little like this.",
+            "So, you know --    you get started maybe a little slowly,  but you get enough done in the first week  that, with some heavier days later on,  everything gets done, things stay civil."
+        ],
+        "rel_tgt": [
+            "普通の学生が論文を書くとき、このように作業を少し分散させるかもしれません。",
+            "だから、あなたはねー、最初は少しゆっくり始めるかもしれませんが、最初の週に十分なことを達成して、後で少し忙しい日々があっても、すべてが終わり、物事は穏やかに進みます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 4,
+        "src": "That would be the plan.",
+        "ref": "予定としては",
+        "hyp": "それが計画です。",
+        "rel_src": [
+            "So, you know --    you get started maybe a little slowly,  but you get enough done in the first week  that, with some heavier days later on,  everything gets done, things stay civil.",
+            "And I would want to do that like that."
+        ],
+        "rel_tgt": [
+            "だから、あなたはねー、最初は少しゆっくり始めるかもしれませんが、最初の週に十分なことを達成して、後で少し忙しい日々があっても、すべてが終わり、物事は穏やかに進みます。",
+            "そして、私はそれをそのようにしたいと思います。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 5,
+        "src": "I would have it all ready to go,  but then, actually, the paper would come along,  and then I would kind of do this.",
+        "ref": "すぐ取りかかる つもりでいますが 実際にレポートを やる段になると 私の場合 こんな風に なってしまいます",
+        "hyp": "私はすべてを準備しておきますが、実際には、その後、資料がやってきて、それから私はこれをやることになります。",
+        "rel_src": [
+            "So, you know --    you get started maybe a little slowly,  but you get enough done in the first week  that, with some heavier days later on,  everything gets done, things stay civil.",
+            "And I would want to do that like that."
+        ],
+        "rel_tgt": [
+            "だから、あなたはねー、最初は少しゆっくり始めるかもしれませんが、最初の週に十分なことを達成して、後で少し忙しい日々があっても、すべてが終わり、物事は穏やかに進みます。",
+            "そして、私はそれをそのようにしたいと思います。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 6,
+        "src": "And that would happen every single paper.",
+        "ref": "毎回こういうことに なるんです",
+        "hyp": "そして、それは毎回の論文で起こることになります。",
+        "rel_src": [
+            "So, you know --    you get started maybe a little slowly,  but you get enough done in the first week  that, with some heavier days later on,  everything gets done, things stay civil.",
+            "I would have it all ready to go,  but then, actually, the paper would come along,  and then I would kind of do this."
+        ],
+        "rel_tgt": [
+            "だから、あなたはねー、最初は少しゆっくり始めるかもしれませんが、最初の週に十分なことを達成して、後で少し忙しい日々があっても、すべてが終わり、物事は穏やかに進みます。",
+            "私はすべてを準備しておきますが、実際には、その後、資料がやってきて、それから私はこれをやることになります。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 7,
+        "src": "But then came my 90-page senior thesis,  a paper you're supposed to spend a year on.",
+        "ref": "それから90ページの 卒論を書くことになりました １年かけて 書くべきものです",
+        "hyp": "しかし、その後、私の90ページの卒業論文がやってきました。1年かけて取り組むべき論文です。",
+        "rel_src": [
+            "I would have it all ready to go,  but then, actually, the paper would come along,  and then I would kind of do this.",
+            "And that would happen every single paper."
+        ],
+        "rel_tgt": [
+            "私はすべてを準備しておきますが、実際には、その後、資料がやってきて、それから私はこれをやることになります。",
+            "そして、それは毎回の論文で起こることになります。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 8,
+        "src": "And I knew for a paper like that, my normal work flow was not an option.",
+        "ref": "いつものようなやり方が 通用しないのは分かっていました",
+        "hyp": "そして、そのような論文については、私の通常の作業フローは選択肢ではないとわかっていました。",
+        "rel_src": [
+            "I would have it all ready to go,  but then, actually, the paper would come along,  and then I would kind of do this.",
+            "But then came my 90-page senior thesis,  a paper you're supposed to spend a year on."
+        ],
+        "rel_tgt": [
+            "私はすべてを準備しておきますが、実際には、その後、資料がやってきて、それから私はこれをやることになります。",
+            "しかし、その後、私の90ページの卒業論文がやってきました。1年かけて取り組むべき論文です。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 9,
+        "src": "It was way too big a project.",
+        "ref": "規模が大きすぎます",
+        "hyp": "それはあまりにも大きなプロジェクトでした。",
+        "rel_src": [
+            "But then came my 90-page senior thesis,  a paper you're supposed to spend a year on.",
+            "And I knew for a paper like that, my normal work flow was not an option."
+        ],
+        "rel_tgt": [
+            "しかし、その後、私の90ページの卒業論文がやってきました。1年かけて取り組むべき論文です。",
+            "そして、そのような論文については、私の通常の作業フローは選択肢ではないとわかっていました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 10,
+        "src": "So I planned things out,  and I decided I kind of had to go something like this.",
+        "ref": "それで計画を立てて こんな感じでやろうと 決めました",
+        "hyp": "だから、私は計画を立て、これといった感じでやらなければならないと決めました。",
+        "rel_src": [
+            "I would have it all ready to go,  but then, actually, the paper would come along,  and then I would kind of do this.",
+            "And I knew for a paper like that, my normal work flow was not an option."
+        ],
+        "rel_tgt": [
+            "私はすべてを準備しておきますが、実際には、その後、資料がやってきて、それから私はこれをやることになります。",
+            "そして、そのような論文については、私の通常の作業フローは選択肢ではないとわかっていました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 11,
+        "src": "This is how the year would go.",
+        "ref": "１年の計画です",
+        "hyp": "この年はどのように進行するだろう。",
+        "rel_src": [
+            "But then came my 90-page senior thesis,  a paper you're supposed to spend a year on.",
+            "So I planned things out,  and I decided I kind of had to go something like this."
+        ],
+        "rel_tgt": [
+            "しかし、その後、私の90ページの卒業論文がやってきました。1年かけて取り組むべき論文です。",
+            "だから、私は計画を立て、これといった感じでやらなければならないと決めました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 12,
+        "src": "So I'd start off light,  and I'd bump it up in the middle months,  and then at the end, I would kick it up into high gear  just like a little staircase.",
+        "ref": "はじめは軽く 中間で少し上がり 終盤でスパートをかける なだらかな階段の ような感じです",
+        "hyp": "だから、最初は軽く始めて、中間の月にそれを上げ、そして最後には、階段のように徐々に高速になるようにします。",
+        "rel_src": [
+            "So, you know --    you get started maybe a little slowly,  but you get enough done in the first week  that, with some heavier days later on,  everything gets done, things stay civil.",
+            "So I planned things out,  and I decided I kind of had to go something like this."
+        ],
+        "rel_tgt": [
+            "だから、あなたはねー、最初は少しゆっくり始めるかもしれませんが、最初の週に十分なことを達成して、後で少し忙しい日々があっても、すべてが終わり、物事は穏やかに進みます。",
+            "だから、私は計画を立て、これといった感じでやらなければならないと決めました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 13,
+        "src": "How hard could it be to walk up the stairs?",
+        "ref": "この階段を 上っていくのは",
+        "hyp": "階段を登るのはどれほど難しいだろうか？",
+        "rel_src": [
+            "So I planned things out,  and I decided I kind of had to go something like this.",
+            "So I'd start off light,  and I'd bump it up in the middle months,  and then at the end, I would kick it up into high gear  just like a little staircase."
+        ],
+        "rel_tgt": [
+            "だから、私は計画を立て、これといった感じでやらなければならないと決めました。",
+            "だから、最初は軽く始めて、中間の月にそれを上げ、そして最後には、階段のように徐々に高速になるようにします。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 14,
+        "src": "No big deal, right?",
+        "ref": "難しいことでは ないでしょう",
+        "hyp": "大したことはないですよね？",
+        "rel_src": [
+            "I would have it all ready to go,  but then, actually, the paper would come along,  and then I would kind of do this.",
+            "And I knew for a paper like that, my normal work flow was not an option."
+        ],
+        "rel_tgt": [
+            "私はすべてを準備しておきますが、実際には、その後、資料がやってきて、それから私はこれをやることになります。",
+            "そして、そのような論文については、私の通常の作業フローは選択肢ではないとわかっていました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 15,
+        "src": "But then, the funniest thing happened.",
+        "ref": "しかし おかしなことが 起きました",
+        "hyp": "しかし、面白いことが起こりました。",
+        "rel_src": [
+            "I would have it all ready to go,  but then, actually, the paper would come along,  and then I would kind of do this.",
+            "And I knew for a paper like that, my normal work flow was not an option."
+        ],
+        "rel_tgt": [
+            "私はすべてを準備しておきますが、実際には、その後、資料がやってきて、それから私はこれをやることになります。",
+            "そして、そのような論文については、私の通常の作業フローは選択肢ではないとわかっていました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 16,
+        "src": "Those first few months?",
+        "ref": "最初の数ヶ月が",
+        "hyp": "最初の数ヶ月は？",
+        "rel_src": [
+            "I would have it all ready to go,  but then, actually, the paper would come along,  and then I would kind of do this.",
+            "So I'd start off light,  and I'd bump it up in the middle months,  and then at the end, I would kick it up into high gear  just like a little staircase."
+        ],
+        "rel_tgt": [
+            "私はすべてを準備しておきますが、実際には、その後、資料がやってきて、それから私はこれをやることになります。",
+            "だから、最初は軽く始めて、中間の月にそれを上げ、そして最後には、階段のように徐々に高速になるようにします。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 17,
+        "src": "They came and went,  and I couldn't quite do stuff.",
+        "ref": "やって来ては 過ぎましたが 何もできませんでした",
+        "hyp": "彼らは来ては行き、私はなかなか物事をすることができませんでした。",
+        "rel_src": [
+            "I would have it all ready to go,  but then, actually, the paper would come along,  and then I would kind of do this.",
+            "And I knew for a paper like that, my normal work flow was not an option."
+        ],
+        "rel_tgt": [
+            "私はすべてを準備しておきますが、実際には、その後、資料がやってきて、それから私はこれをやることになります。",
+            "そして、そのような論文については、私の通常の作業フローは選択肢ではないとわかっていました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 18,
+        "src": "So we had an awesome new revised plan.",
+        "ref": "そのため計画は こう変更されます",
+        "hyp": "だから、素晴らしい新しい改訂された計画がありました。",
+        "rel_src": [
+            "So I planned things out,  and I decided I kind of had to go something like this.",
+            "So I'd start off light,  and I'd bump it up in the middle months,  and then at the end, I would kick it up into high gear  just like a little staircase."
+        ],
+        "rel_tgt": [
+            "だから、私は計画を立て、これといった感じでやらなければならないと決めました。",
+            "だから、最初は軽く始めて、中間の月にそれを上げ、そして最後には、階段のように徐々に高速になるようにします。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 19,
+        "src": "And then --    But then those middle months actually went by,  and I didn't really write words,  and so we were here.",
+        "ref": "それから —  真ん中の期間も 過ぎて行きましたが 書くことができず こういう状態になります",
+        "hyp": "そして-しかし、その後、実際には中間の数ヶ月が過ぎ、私はあまり言葉を書かなかったので、私たちはここにいました。",
+        "new_src_summary": "The paragraph discusses the writer's experience as a government major in college, where they had to write a lot of papers. The writer explains their usual approach of spreading out the work over time but admits to procrastinating and struggling to meet deadlines. However, when faced with a 90-page senior thesis, the writer realizes their usual work flow won't suffice and plans a more structured approach, only to find themselves unable to follow through. Ultimately, the writer ends up with a revised plan to tackle the project. The tone is reflective and somewhat humorous.",
+        "new_tgt_summary": "大学では政治学を専攻し、たくさんの論文を書かなければならなかった。最初は計画通りに進めようとしたが、90ページの卒業論文を取り組む際には計画が通用しないことが分かり、新しい計画を立てる必要があった。最初の数ヶ月はうまくいかず、改訂された計画が必要となった。",
+        "rel_src": [
+            "I would have it all ready to go,  but then, actually, the paper would come along,  and then I would kind of do this.",
+            "And I knew for a paper like that, my normal work flow was not an option."
+        ],
+        "rel_tgt": [
+            "私はすべてを準備しておきますが、実際には、その後、資料がやってきて、それから私はこれをやることになります。",
+            "そして、そのような論文については、私の通常の作業フローは選択肢ではないとわかっていました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 20,
+        "src": "And then two months turned into one month,  which turned into two weeks.",
+        "ref": "さらに２ヶ月が １ヶ月になり それがさらに ２週間になります",
+        "hyp": "そして、2ヶ月が1ヶ月になり、それが2週間になりました。",
+        "rel_src": [
+            "So I'd start off light,  and I'd bump it up in the middle months,  and then at the end, I would kick it up into high gear  just like a little staircase.",
+            "And then --    But then those middle months actually went by,  and I didn't really write words,  and so we were here."
+        ],
+        "rel_tgt": [
+            "だから、最初は軽く始めて、中間の月にそれを上げ、そして最後には、階段のように徐々に高速になるようにします。",
+            "そして-しかし、その後、実際には中間の数ヶ月が過ぎ、私はあまり言葉を書かなかったので、私たちはここにいました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 21,
+        "src": "And one day I woke up  with three days until the deadline,  still not having written a word,  and so I did the only thing I could:  I wrote 90 pages over 72 hours,  pulling not one but two all-nighters --  humans are not supposed to pull two all-nighters --  sprinted across campus,  dove in slow motion,  and got it in just at the deadline.",
+        "ref": "ある朝 目覚めると 締め切りまで ３日しかありません  まだ一言も 書けておらず 選択の余地はありません 90ページの論文を 72時間で書くことになり ２晩連続で 徹夜しました 人間の体は そんなことするように できてはいませんが キャンパスを 全力で駆け抜け 時がスローモーションに変わり 締め切りの瞬間に 提出しました",
+        "hyp": "そして、締め切りまであと3日というある日、まだ一言も書いていないまま目が覚めたので、私ができる唯一のことをしました：72時間で90ページを書き、1晩ではなく2晩徹夜しました- 人間は2晩徹夜するべきではありません- キャンパスを疾走し、スローモーションで飛び込み、ギリギリの締め切りに間に合わせました。",
+        "rel_src": [
+            "But then came my 90-page senior thesis,  a paper you're supposed to spend a year on.",
+            "And I knew for a paper like that, my normal work flow was not an option."
+        ],
+        "rel_tgt": [
+            "しかし、その後、私の90ページの卒業論文がやってきました。1年かけて取り組むべき論文です。",
+            "そして、そのような論文については、私の通常の作業フローは選択肢ではないとわかっていました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 22,
+        "src": "I thought that was the end of everything.",
+        "ref": "それですべて終わったと 思っていましたが",
+        "hyp": "それがすべての終わりだと思った。",
+        "rel_src": [
+            "And then --    But then those middle months actually went by,  and I didn't really write words,  and so we were here.",
+            "And one day I woke up  with three days until the deadline,  still not having written a word,  and so I did the only thing I could:  I wrote 90 pages over 72 hours,  pulling not one but two all-nighters --  humans are not supposed to pull two all-nighters --  sprinted across campus,  dove in slow motion,  and got it in just at the deadline."
+        ],
+        "rel_tgt": [
+            "そして-しかし、その後、実際には中間の数ヶ月が過ぎ、私はあまり言葉を書かなかったので、私たちはここにいました。",
+            "そして、締め切りまであと3日というある日、まだ一言も書いていないまま目が覚めたので、私ができる唯一のことをしました：72時間で90ページを書き、1晩ではなく2晩徹夜しました- 人間は2晩徹夜するべきではありません- キャンパスを疾走し、スローモーションで飛び込み、ギリギリの締め切りに間に合わせました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 23,
+        "src": "But a week later I get a call,  and it's the school.",
+        "ref": "１週間後に 電話が来ました 大学からです",
+        "hyp": "しかし、1週間後に学校から電話がかかってきました。",
+        "rel_src": [
+            "But then came my 90-page senior thesis,  a paper you're supposed to spend a year on.",
+            "And one day I woke up  with three days until the deadline,  still not having written a word,  and so I did the only thing I could:  I wrote 90 pages over 72 hours,  pulling not one but two all-nighters --  humans are not supposed to pull two all-nighters --  sprinted across campus,  dove in slow motion,  and got it in just at the deadline."
+        ],
+        "rel_tgt": [
+            "しかし、その後、私の90ページの卒業論文がやってきました。1年かけて取り組むべき論文です。",
+            "そして、締め切りまであと3日というある日、まだ一言も書いていないまま目が覚めたので、私ができる唯一のことをしました：72時間で90ページを書き、1晩ではなく2晩徹夜しました- 人間は2晩徹夜するべきではありません- キャンパスを疾走し、スローモーションで飛び込み、ギリギリの締め切りに間に合わせました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 24,
+        "src": "And they say, \"Is this Tim Urban?\"",
+        "ref": "｢ティム・アーバンさんでしょうか？｣",
+        "hyp": "そして、彼らは言います、「これはティム・アーバンですか？」",
+        "rel_src": [
+            "And one day I woke up  with three days until the deadline,  still not having written a word,  and so I did the only thing I could:  I wrote 90 pages over 72 hours,  pulling not one but two all-nighters --  humans are not supposed to pull two all-nighters --  sprinted across campus,  dove in slow motion,  and got it in just at the deadline.",
+            "But a week later I get a call,  and it's the school."
+        ],
+        "rel_tgt": [
+            "そして、締め切りまであと3日というある日、まだ一言も書いていないまま目が覚めたので、私ができる唯一のことをしました：72時間で90ページを書き、1晩ではなく2晩徹夜しました- 人間は2晩徹夜するべきではありません- キャンパスを疾走し、スローモーションで飛び込み、ギリギリの締め切りに間に合わせました。",
+            "しかし、1週間後に学校から電話がかかってきました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン"
+        }
+    },
+    {
+        "idx": 25,
+        "src": "And I say, \"Yeah.\"",
+        "ref": "｢はい｣",
+        "hyp": "そして、私は「はい」と言います。",
+        "rel_src": [
+            "And that would happen every single paper.",
+            "But then, the funniest thing happened."
+        ],
+        "rel_tgt": [
+            "そして、それは毎回の論文で起こることになります。",
+            "しかし、面白いことが起こりました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン"
+        }
+    },
+    {
+        "idx": 26,
+        "src": "And they say, \"We need to talk about your thesis.\"",
+        "ref": "｢提出された論文について お話しがあります｣",
+        "hyp": "そして、彼らは言います、「卒業論文について話す必要があります」。",
+        "rel_src": [
+            "But a week later I get a call,  and it's the school.",
+            "And they say, \"Is this Tim Urban?\""
+        ],
+        "rel_tgt": [
+            "しかし、1週間後に学校から電話がかかってきました。",
+            "そして、彼らは言います、「これはティム・アーバンですか？」"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン"
+        }
+    },
+    {
+        "idx": 27,
+        "src": "And I say, \"OK.\"",
+        "ref": "｢はあ｣",
+        "hyp": "そして、私は「わかりました」と言います。",
+        "rel_src": [
+            "And they say, \"Is this Tim Urban?\"",
+            "And I say, \"Yeah.\""
+        ],
+        "rel_tgt": [
+            "そして、彼らは言います、「これはティム・アーバンですか？」",
+            "そして、私は「はい」と言います。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン"
+        }
+    },
+    {
+        "idx": 28,
+        "src": "And they say,  \"It's the best one we've ever seen.\"",
+        "ref": "それで言われたのは ｢あんな素晴らしい卒論は 見たことがありません｣",
+        "hyp": "そして、彼らは言います、「これは私たちが今まで見た中で最高のものです」。",
+        "rel_src": [
+            "But a week later I get a call,  and it's the school.",
+            "And they say, \"Is this Tim Urban?\""
+        ],
+        "rel_tgt": [
+            "しかし、1週間後に学校から電話がかかってきました。",
+            "そして、彼らは言います、「これはティム・アーバンですか？」"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン"
+        }
+    },
+    {
+        "idx": 29,
+        "src": "That did not happen.",
+        "ref": "なんてことは 起こりませんでした",
+        "hyp": "それは起こりませんでした。",
+        "rel_src": [
+            "And one day I woke up  with three days until the deadline,  still not having written a word,  and so I did the only thing I could:  I wrote 90 pages over 72 hours,  pulling not one but two all-nighters --  humans are not supposed to pull two all-nighters --  sprinted across campus,  dove in slow motion,  and got it in just at the deadline.",
+            "I thought that was the end of everything."
+        ],
+        "rel_tgt": [
+            "そして、締め切りまであと3日というある日、まだ一言も書いていないまま目が覚めたので、私ができる唯一のことをしました：72時間で90ページを書き、1晩ではなく2晩徹夜しました- 人間は2晩徹夜するべきではありません- キャンパスを疾走し、スローモーションで飛び込み、ギリギリの締め切りに間に合わせました。",
+            "それがすべての終わりだと思った。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン"
+        }
+    },
+    {
+        "idx": 30,
+        "src": "It was a very, very bad thesis.",
+        "ref": "まったく酷い論文でした",
+        "hyp": "それは非常に非常に駄作の卒業論文でした。",
+        "rel_src": [
+            "And one day I woke up  with three days until the deadline,  still not having written a word,  and so I did the only thing I could:  I wrote 90 pages over 72 hours,  pulling not one but two all-nighters --  humans are not supposed to pull two all-nighters --  sprinted across campus,  dove in slow motion,  and got it in just at the deadline.",
+            "That did not happen."
+        ],
+        "rel_tgt": [
+            "そして、締め切りまであと3日というある日、まだ一言も書いていないまま目が覚めたので、私ができる唯一のことをしました：72時間で90ページを書き、1晩ではなく2晩徹夜しました- 人間は2晩徹夜するべきではありません- キャンパスを疾走し、スローモーションで飛び込み、ギリギリの締め切りに間に合わせました。",
+            "それは起こりませんでした。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン"
+        }
+    },
+    {
+        "idx": 31,
+        "src": "I just wanted to enjoy that one moment when all of you thought,  \"This guy is amazing!\"",
+        "ref": "一瞬でいいから みんなに 「この人 天才じゃない？」って 思われたかっただけです",
+        "hyp": "私は、皆が「この人はすごい！」と思うあの一瞬を楽しみたかっただけです。",
+        "rel_src": [
+            "And one day I woke up  with three days until the deadline,  still not having written a word,  and so I did the only thing I could:  I wrote 90 pages over 72 hours,  pulling not one but two all-nighters --  humans are not supposed to pull two all-nighters --  sprinted across campus,  dove in slow motion,  and got it in just at the deadline.",
+            "And they say,  \"It's the best one we've ever seen.\""
+        ],
+        "rel_tgt": [
+            "そして、締め切りまであと3日というある日、まだ一言も書いていないまま目が覚めたので、私ができる唯一のことをしました：72時間で90ページを書き、1晩ではなく2晩徹夜しました- 人間は2晩徹夜するべきではありません- キャンパスを疾走し、スローモーションで飛び込み、ギリギリの締め切りに間に合わせました。",
+            "そして、彼らは言います、「これは私たちが今まで見た中で最高のものです」。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン"
+        }
+    },
+    {
+        "idx": 32,
+        "src": "No, no, it was very, very bad.",
+        "ref": "まったく酷い論文です",
+        "hyp": "いいえ、いいえ、それは非常に非常に駄作でした。",
+        "rel_src": [
+            "It was a very, very bad thesis.",
+            "I just wanted to enjoy that one moment when all of you thought,  \"This guy is amazing!\""
+        ],
+        "rel_tgt": [
+            "それは非常に非常に駄作の卒業論文でした。",
+            "私は、皆が「この人はすごい！」と思うあの一瞬を楽しみたかっただけです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン"
+        }
+    },
+    {
+        "idx": 33,
+        "src": "Anyway, today I'm a writer-blogger guy.",
+        "ref": "現在の私は 物書きで",
+        "hyp": "とにかく、今日はライター兼ブロガーの男です。",
+        "rel_src": [
+            "So we had an awesome new revised plan.",
+            "And one day I woke up  with three days until the deadline,  still not having written a word,  and so I did the only thing I could:  I wrote 90 pages over 72 hours,  pulling not one but two all-nighters --  humans are not supposed to pull two all-nighters --  sprinted across campus,  dove in slow motion,  and got it in just at the deadline."
+        ],
+        "rel_tgt": [
+            "だから、素晴らしい新しい改訂された計画がありました。",
+            "そして、締め切りまであと3日というある日、まだ一言も書いていないまま目が覚めたので、私ができる唯一のことをしました：72時間で90ページを書き、1晩ではなく2晩徹夜しました- 人間は2晩徹夜するべきではありません- キャンパスを疾走し、スローモーションで飛び込み、ギリギリの締め切りに間に合わせました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン"
+        }
+    },
+    {
+        "idx": 34,
+        "src": "I write the blog Wait But Why.",
+        "ref": "｢Wait But Why｣ という ブログを書いています",
+        "hyp": "私はブログWait But Whyを書いています。",
+        "rel_src": [
+            "And then --    But then those middle months actually went by,  and I didn't really write words,  and so we were here.",
+            "Anyway, today I'm a writer-blogger guy."
+        ],
+        "rel_tgt": [
+            "そして-しかし、その後、実際には中間の数ヶ月が過ぎ、私はあまり言葉を書かなかったので、私たちはここにいました。",
+            "とにかく、今日はライター兼ブロガーの男です。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why"
+        }
+    },
+    {
+        "idx": 35,
+        "src": "And a couple of years ago, I decided to write about procrastination.",
+        "ref": "２年ほど前に｢先延ばし｣について 書こうと決めました",
+        "hyp": "そして、数年前、私は先延ばしについて書くことを決めました。",
+        "rel_src": [
+            "And one day I woke up  with three days until the deadline,  still not having written a word,  and so I did the only thing I could:  I wrote 90 pages over 72 hours,  pulling not one but two all-nighters --  humans are not supposed to pull two all-nighters --  sprinted across campus,  dove in slow motion,  and got it in just at the deadline.",
+            "I thought that was the end of everything."
+        ],
+        "rel_tgt": [
+            "そして、締め切りまであと3日というある日、まだ一言も書いていないまま目が覚めたので、私ができる唯一のことをしました：72時間で90ページを書き、1晩ではなく2晩徹夜しました- 人間は2晩徹夜するべきではありません- キャンパスを疾走し、スローモーションで飛び込み、ギリギリの締め切りに間に合わせました。",
+            "それがすべての終わりだと思った。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why"
+        }
+    },
+    {
+        "idx": 36,
+        "src": "My behavior has always perplexed the non-procrastinators around me,  what goes on in the heads of procrastinators,  and why we are the way we are.",
+        "ref": "私の振る舞いが いつも 周りの人を困惑させていたので 先延ばし屋の頭の中で 何が起きていて 私たちがなぜ そんな風なのか",
+        "hyp": "私の行動は常に私の周りの先延ばしをしない人々を困惑させてきました、先延ばしをする人々の頭の中で何が起こっているのか、そして私たちがこのようになる理由について。",
+        "rel_src": [
+            "And then two months turned into one month,  which turned into two weeks.",
+            "And a couple of years ago, I decided to write about procrastination."
+        ],
+        "rel_tgt": [
+            "そして、2ヶ月が1ヶ月になり、それが2週間になりました。",
+            "そして、数年前、私は先延ばしについて書くことを決めました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why"
+        }
+    },
+    {
+        "idx": 37,
+        "src": "Now, I had a hypothesis  that the brains of procrastinators were actually different  than the brains of other people.",
+        "ref": "世の先延ばし屋でない人たちに 説明したいと思ったんです 先延ばし屋の脳と そうでない人の脳には きっと違いが あるはずだと思い",
+        "hyp": "今、私は仮説を持っていました。それは、先延ばしをする人々の脳は実際に他の人々の脳とは異なっているというものでした。",
+        "rel_src": [
+            "And a couple of years ago, I decided to write about procrastination.",
+            "My behavior has always perplexed the non-procrastinators around me,  what goes on in the heads of procrastinators,  and why we are the way we are."
+        ],
+        "rel_tgt": [
+            "そして、数年前、私は先延ばしについて書くことを決めました。",
+            "私の行動は常に私の周りの先延ばしをしない人々を困惑させてきました、先延ばしをする人々の頭の中で何が起こっているのか、そして私たちがこのようになる理由について。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why"
+        }
+    },
+    {
+        "idx": 38,
+        "src": "And to test this, I found an MRI lab  that actually let me scan both my brain  so I could compare them.",
+        "ref": "それを確認するため 私の脳と 先延ばし屋でないことが 確かな人の脳の MRIを取ってくれる 所を見つけ 比較してみる ことにしました",
+        "hyp": "そして、これを検証するために、私は実際に私の脳を両方スキャンして比較できるMRIラボを見つけました。",
+        "rel_src": [
+            "My behavior has always perplexed the non-procrastinators around me,  what goes on in the heads of procrastinators,  and why we are the way we are.",
+            "Now, I had a hypothesis  that the brains of procrastinators were actually different  than the brains of other people."
+        ],
+        "rel_tgt": [
+            "私の行動は常に私の周りの先延ばしをしない人々を困惑させてきました、先延ばしをする人々の頭の中で何が起こっているのか、そして私たちがこのようになる理由について。",
+            "今、私は仮説を持っていました。それは、先延ばしをする人々の脳は実際に他の人々の脳とは異なっているというものでした。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why"
+        }
+    },
+    {
+        "idx": 39,
+        "src": "I actually brought them here to show you today.",
+        "ref": "その結果を今日 ここに持ってきています",
+        "hyp": "実際、今日はそれらをここに持ってきたのです。",
+        "new_src_summary": "The writer reflects on their experience as a government major in college, where they struggled with procrastination while writing papers. Despite usually spreading out their work, they found themselves pulling two all-nighters to complete a 90-page senior thesis just before the deadline. Surprisingly, the thesis was praised as the best the school had ever seen. This experience led the writer, now a writer-blogger, to explore procrastination further, including scanning their own brain in an MRI lab to study the differences in the brains of procrastinators. The tone throughout is reflective, humorous, and self-deprecating.",
+        "new_tgt_summary": "大学で政治学を専攻し、90ページの卒業論文を書く際に計画が通用しないことに気づき、改訂された計画が必要となった。著者は卒業論文を急いで書き上げるために2晩徹夜したが、結果は駄作だった。数年後、先延ばしについてのブログを書くことを決め、先延ばしをする人々の脳についての仮説を立て、MRIスキャンを行うことになった。",
+        "rel_src": [
+            "Anyway, today I'm a writer-blogger guy.",
+            "I write the blog Wait But Why."
+        ],
+        "rel_tgt": [
+            "とにかく、今日はライター兼ブロガーの男です。",
+            "私はブログWait But Whyを書いています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why"
+        }
+    },
+    {
+        "idx": 40,
+        "src": "I want you to take a look carefully to see if you can notice a difference.",
+        "ref": "違いが分かるか注意して 見てほしいと思います",
+        "hyp": "注意深く見て、違いに気付けるかどうかを確認して欲しいです。",
+        "rel_src": [
+            "Now, I had a hypothesis  that the brains of procrastinators were actually different  than the brains of other people.",
+            "And to test this, I found an MRI lab  that actually let me scan both my brain  so I could compare them."
+        ],
+        "rel_tgt": [
+            "今、私は仮説を持っていました。それは、先延ばしをする人々の脳は実際に他の人々の脳とは異なっているというものでした。",
+            "そして、これを検証するために、私は実際に私の脳を両方スキャンして比較できるMRIラボを見つけました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why"
+        }
+    },
+    {
+        "idx": 41,
+        "src": "I know that if you're not a trained brain expert,  it's not that obvious, but just take a look, OK?",
+        "ref": "脳の専門家でもなければ 分かりにくい違いですが まあ とにかく 見てみてください",
+        "hyp": "脳の専門家でない場合、それはそんなに明らかではないと分かっていますが、ちょっと見てみてください、わかりましたか？",
+        "rel_src": [
+            "And to test this, I found an MRI lab  that actually let me scan both my brain  so I could compare them.",
+            "I actually brought them here to show you today."
+        ],
+        "rel_tgt": [
+            "そして、これを検証するために、私は実際に私の脳を両方スキャンして比較できるMRIラボを見つけました。",
+            "実際、今日はそれらをここに持ってきたのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why"
+        }
+    },
+    {
+        "idx": 42,
+        "src": "So here's the brain of a non-procrastinator.",
+        "ref": "これが先延ばし屋では ない人の脳です",
+        "hyp": "では、こちらが先延ばしをしない人の脳です。",
+        "rel_src": [
+            "Now, I had a hypothesis  that the brains of procrastinators were actually different  than the brains of other people.",
+            "And to test this, I found an MRI lab  that actually let me scan both my brain  so I could compare them."
+        ],
+        "rel_tgt": [
+            "今、私は仮説を持っていました。それは、先延ばしをする人々の脳は実際に他の人々の脳とは異なっているというものでした。",
+            "そして、これを検証するために、私は実際に私の脳を両方スキャンして比較できるMRIラボを見つけました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why"
+        }
+    },
+    {
+        "idx": 43,
+        "src": "Now ...",
+        "ref": "[理性的意志決定者]  これに対し",
+        "hyp": "今...",
+        "rel_src": [
+            "Anyway, today I'm a writer-blogger guy.",
+            "I write the blog Wait But Why."
+        ],
+        "rel_tgt": [
+            "とにかく、今日はライター兼ブロガーの男です。",
+            "私はブログWait But Whyを書いています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why"
+        }
+    },
+    {
+        "idx": 44,
+        "src": "here's my brain.",
+        "ref": "私の脳だと —",
+        "hyp": "では、こちらが私の脳です。",
+        "rel_src": [
+            "So here's the brain of a non-procrastinator.",
+            "Now ..."
+        ],
+        "rel_tgt": [
+            "では、こちらが先延ばしをしない人の脳です。",
+            "今..."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why"
+        }
+    },
+    {
+        "idx": 45,
+        "src": "There is a difference.",
+        "ref": "[すぐにご褒美が欲しいおサル]  これが両者の違いです",
+        "hyp": "違いがあります。",
+        "rel_src": [
+            "Now, I had a hypothesis  that the brains of procrastinators were actually different  than the brains of other people.",
+            "I want you to take a look carefully to see if you can notice a difference."
+        ],
+        "rel_tgt": [
+            "今、私は仮説を持っていました。それは、先延ばしをする人々の脳は実際に他の人々の脳とは異なっているというものでした。",
+            "注意深く見て、違いに気付けるかどうかを確認して欲しいです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why"
+        }
+    },
+    {
+        "idx": 46,
+        "src": "Both brains have a Rational Decision-Maker in them,  but the procrastinator's brain  also has an Instant Gratification Monkey.",
+        "ref": "どちらの脳にも ｢理性的意志決定者｣がいますが 先延ばし屋の脳の場合には それに加えて ｢すぐにご褒美が欲しいおサル｣ がいるんです",
+        "hyp": "両方の脳には合理的な意思決定者がいますが、先延ばしをする人の脳には即時報酬のモンキーもいます。",
+        "rel_src": [
+            "My behavior has always perplexed the non-procrastinators around me,  what goes on in the heads of procrastinators,  and why we are the way we are.",
+            "Now, I had a hypothesis  that the brains of procrastinators were actually different  than the brains of other people."
+        ],
+        "rel_tgt": [
+            "私の行動は常に私の周りの先延ばしをしない人々を困惑させてきました、先延ばしをする人々の頭の中で何が起こっているのか、そして私たちがこのようになる理由について。",
+            "今、私は仮説を持っていました。それは、先延ばしをする人々の脳は実際に他の人々の脳とは異なっているというものでした。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why"
+        }
+    },
+    {
+        "idx": 47,
+        "src": "Now, what does this mean for the procrastinator?",
+        "ref": "それが先延ばしに どう関わるのか？",
+        "hyp": "では、これは先延ばしをする人にとってどういう意味があるのでしょうか？",
+        "rel_src": [
+            "My behavior has always perplexed the non-procrastinators around me,  what goes on in the heads of procrastinators,  and why we are the way we are.",
+            "Both brains have a Rational Decision-Maker in them,  but the procrastinator's brain  also has an Instant Gratification Monkey."
+        ],
+        "rel_tgt": [
+            "私の行動は常に私の周りの先延ばしをしない人々を困惑させてきました、先延ばしをする人々の頭の中で何が起こっているのか、そして私たちがこのようになる理由について。",
+            "両方の脳には合理的な意思決定者がいますが、先延ばしをする人の脳には即時報酬のモンキーもいます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why"
+        }
+    },
+    {
+        "idx": 48,
+        "src": "Well, it means everything's fine until this happens.",
+        "ref": "万事は順調です こうなるまでは",
+        "hyp": "まあ、これが起こるまでは、すべてがうまくいっているということです。",
+        "rel_src": [
+            "That did not happen.",
+            "No, no, it was very, very bad."
+        ],
+        "rel_tgt": [
+            "それは起こりませんでした。",
+            "いいえ、いいえ、それは非常に非常に駄作でした。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why"
+        }
+    },
+    {
+        "idx": 49,
+        "src": "[This is a perfect time to get some work done.] [Nope!]  So the Rational Decision-Maker will make the rational decision  to do something productive,  but the Monkey doesn't like that plan,  so he actually takes the wheel,  and he says, \"Actually, let's read the entire Wikipedia page  of the Nancy Kerrigan/ Tonya Harding scandal,  because I just remembered that that happened.",
+        "ref": "｢少し仕事しといた方がいいな｣ ｢やだね｣ 理性的意志決定者は 何か生産的なことをするという 理性的決断をしますが おサルはそれが 気に入りません それで舵を横取りして 言うのです ｢そうだ ナンシー・ケリガンと トーニャ・ハーディングの 事件に関する ウィキペディアの記事を読もう そんなことがあったのを 思い出したから",
+        "hyp": "[今が作業をする絶好の機会だ。][いいえ！] ですから、合理的な意思決定者は合理的な決定を下し、生産的な何かをすることになるでしょうが、モンキーはその計画が好きではないので、実際に舵を取り、\"実際に、ナンシー・カリガン/トーニャ・ハーディング事件のウィキペディアページ全文を読んでみましょう、と言います。それがあったことを思い出したから。",
+        "rel_src": [
+            "Both brains have a Rational Decision-Maker in them,  but the procrastinator's brain  also has an Instant Gratification Monkey.",
+            "Well, it means everything's fine until this happens."
+        ],
+        "rel_tgt": [
+            "両方の脳には合理的な意思決定者がいますが、先延ばしをする人の脳には即時報酬のモンキーもいます。",
+            "まあ、これが起こるまでは、すべてがうまくいっているということです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア"
+        }
+    },
+    {
+        "idx": 50,
+        "src": "Then --    Then we're going to go over to the fridge,  to see if there's anything new in there since 10 minutes ago.",
+        "ref": "それから —  冷蔵庫を調べに行って 10分前から何か変わっている ことがないか確認しなきゃ",
+        "hyp": "そして、それから冷蔵庫に行って、10分前から新しいものがあるかを確認します。",
+        "rel_src": [
+            "Well, it means everything's fine until this happens.",
+            "[This is a perfect time to get some work done.] [Nope!]  So the Rational Decision-Maker will make the rational decision  to do something productive,  but the Monkey doesn't like that plan,  so he actually takes the wheel,  and he says, \"Actually, let's read the entire Wikipedia page  of the Nancy Kerrigan/ Tonya Harding scandal,  because I just remembered that that happened."
+        ],
+        "rel_tgt": [
+            "まあ、これが起こるまでは、すべてがうまくいっているということです。",
+            "[今が作業をする絶好の機会だ。][いいえ！] ですから、合理的な意思決定者は合理的な決定を下し、生産的な何かをすることになるでしょうが、モンキーはその計画が好きではないので、実際に舵を取り、\"実際に、ナンシー・カリガン/トーニャ・ハーディング事件のウィキペディアページ全文を読んでみましょう、と言います。それがあったことを思い出したから。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア"
+        }
+    },
+    {
+        "idx": 51,
+        "src": "After that, we're going to go on a YouTube spiral  that starts with videos of Richard Feynman talking about magnets  and ends much, much later with us watching interviews  with Justin Bieber's mom.",
+        "ref": "そのあとは YouTubeスパイラルが待っている リチャード･ファインマンが 磁石について語るビデオから始って ずーっと後の ジャスティン･ビーバーのママの インタビューまで見るんだ",
+        "hyp": "その後、リチャード・ファインマンが磁石について話す動画から始まり、最終的にはジャスティン・ビーバーの母親のインタビューを見るまで、YouTubeのスパイラルに入ります。",
+        "rel_src": [
+            "[This is a perfect time to get some work done.] [Nope!]  So the Rational Decision-Maker will make the rational decision  to do something productive,  but the Monkey doesn't like that plan,  so he actually takes the wheel,  and he says, \"Actually, let's read the entire Wikipedia page  of the Nancy Kerrigan/ Tonya Harding scandal,  because I just remembered that that happened.",
+            "Then --    Then we're going to go over to the fridge,  to see if there's anything new in there since 10 minutes ago."
+        ],
+        "rel_tgt": [
+            "[今が作業をする絶好の機会だ。][いいえ！] ですから、合理的な意思決定者は合理的な決定を下し、生産的な何かをすることになるでしょうが、モンキーはその計画が好きではないので、実際に舵を取り、\"実際に、ナンシー・カリガン/トーニャ・ハーディング事件のウィキペディアページ全文を読んでみましょう、と言います。それがあったことを思い出したから。",
+            "そして、それから冷蔵庫に行って、10分前から新しいものがあるかを確認します。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 52,
+        "src": "\"All of that's going to take a while,  so we're not going to really have room on the schedule for any work today.",
+        "ref": "それで当分 手一杯だから 悪いけど 今日はもう",
+        "hyp": "そのすべてには時間がかかるので、今日は実際にはスケジュールに作業をする余裕はありません。",
+        "rel_src": [
+            "[This is a perfect time to get some work done.] [Nope!]  So the Rational Decision-Maker will make the rational decision  to do something productive,  but the Monkey doesn't like that plan,  so he actually takes the wheel,  and he says, \"Actually, let's read the entire Wikipedia page  of the Nancy Kerrigan/ Tonya Harding scandal,  because I just remembered that that happened.",
+            "Then --    Then we're going to go over to the fridge,  to see if there's anything new in there since 10 minutes ago."
+        ],
+        "rel_tgt": [
+            "[今が作業をする絶好の機会だ。][いいえ！] ですから、合理的な意思決定者は合理的な決定を下し、生産的な何かをすることになるでしょうが、モンキーはその計画が好きではないので、実際に舵を取り、\"実際に、ナンシー・カリガン/トーニャ・ハーディング事件のウィキペディアページ全文を読んでみましょう、と言います。それがあったことを思い出したから。",
+            "そして、それから冷蔵庫に行って、10分前から新しいものがあるかを確認します。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 53,
+        "src": "Sorry!\"",
+        "ref": "仕事を入れる 余裕なんてないね｣",
+        "hyp": "ごめんなさい！",
+        "rel_src": [
+            "Both brains have a Rational Decision-Maker in them,  but the procrastinator's brain  also has an Instant Gratification Monkey.",
+            "\"All of that's going to take a while,  so we're not going to really have room on the schedule for any work today."
+        ],
+        "rel_tgt": [
+            "両方の脳には合理的な意思決定者がいますが、先延ばしをする人の脳には即時報酬のモンキーもいます。",
+            "そのすべてには時間がかかるので、今日は実際にはスケジュールに作業をする余裕はありません。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 54,
+        "src": "Now, what is going on here?",
+        "ref": "何が起きているんでしょう？",
+        "hyp": "さて、ここで何が起こっているのでしょうか？",
+        "rel_src": [
+            "Both brains have a Rational Decision-Maker in them,  but the procrastinator's brain  also has an Instant Gratification Monkey.",
+            "Now, what does this mean for the procrastinator?"
+        ],
+        "rel_tgt": [
+            "両方の脳には合理的な意思決定者がいますが、先延ばしをする人の脳には即時報酬のモンキーもいます。",
+            "では、これは先延ばしをする人にとってどういう意味があるのでしょうか？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 55,
+        "src": "The Instant Gratification Monkey does not seem like a guy  you want behind the wheel.",
+        "ref": "おサルは 舵取りをして欲しい 相手ではありません",
+        "hyp": "即時の満足を得るモンキーは、舵の後ろにいてほしいと思えない。",
+        "rel_src": [
+            "[This is a perfect time to get some work done.] [Nope!]  So the Rational Decision-Maker will make the rational decision  to do something productive,  but the Monkey doesn't like that plan,  so he actually takes the wheel,  and he says, \"Actually, let's read the entire Wikipedia page  of the Nancy Kerrigan/ Tonya Harding scandal,  because I just remembered that that happened.",
+            "Then --    Then we're going to go over to the fridge,  to see if there's anything new in there since 10 minutes ago."
+        ],
+        "rel_tgt": [
+            "[今が作業をする絶好の機会だ。][いいえ！] ですから、合理的な意思決定者は合理的な決定を下し、生産的な何かをすることになるでしょうが、モンキーはその計画が好きではないので、実際に舵を取り、\"実際に、ナンシー・カリガン/トーニャ・ハーディング事件のウィキペディアページ全文を読んでみましょう、と言います。それがあったことを思い出したから。",
+            "そして、それから冷蔵庫に行って、10分前から新しいものがあるかを確認します。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 56,
+        "src": "He lives entirely in the present moment.",
+        "ref": "今の瞬間だけに 生きています",
+        "hyp": "彼は完全に現在の瞬間に生きています。",
+        "rel_src": [
+            "Both brains have a Rational Decision-Maker in them,  but the procrastinator's brain  also has an Instant Gratification Monkey.",
+            "The Instant Gratification Monkey does not seem like a guy  you want behind the wheel."
+        ],
+        "rel_tgt": [
+            "両方の脳には合理的な意思決定者がいますが、先延ばしをする人の脳には即時報酬のモンキーもいます。",
+            "即時の満足を得るモンキーは、舵の後ろにいてほしいと思えない。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 57,
+        "src": "He has no memory of the past, no knowledge of the future,  and he only cares about two things:  easy and fun.",
+        "ref": "過去の記憶も 未来についての知識もなく 気にかけるのは ただ２つ ラクで楽しいことだけ",
+        "hyp": "彼は過去の記憶も未来の知識も持たず、簡単で楽しいことだけを気にしています。",
+        "rel_src": [
+            "The Instant Gratification Monkey does not seem like a guy  you want behind the wheel.",
+            "He lives entirely in the present moment."
+        ],
+        "rel_tgt": [
+            "即時の満足を得るモンキーは、舵の後ろにいてほしいと思えない。",
+            "彼は完全に現在の瞬間に生きています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 58,
+        "src": "Now, in the animal world, that works fine.",
+        "ref": "動物の世界であれば それで問題はありません",
+        "hyp": "さて、動物界ではそれがうまく機能しています。",
+        "rel_src": [
+            "The Instant Gratification Monkey does not seem like a guy  you want behind the wheel.",
+            "He has no memory of the past, no knowledge of the future,  and he only cares about two things:  easy and fun."
+        ],
+        "rel_tgt": [
+            "即時の満足を得るモンキーは、舵の後ろにいてほしいと思えない。",
+            "彼は過去の記憶も未来の知識も持たず、簡単で楽しいことだけを気にしています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 59,
+        "src": "If you're a dog  and you spend your whole life doing nothing other than easy and fun things,  you're a huge success!",
+        "ref": "犬であれば ずっとラクで楽しいことだけ やって過ごすのは 大成功の生き方でしょう",
+        "hyp": "もし犬で、簡単で楽しいこと以外何もせずに一生を過ごすなら、あなたは大成功です！",
+        "new_src_summary": "The writer reflects on their experience as a government major in college, where they struggled with procrastination while writing papers. Despite usually spreading out their work, they found themselves pulling two all-nighters to complete a 90-page senior thesis just before the deadline, which surprisingly was praised as the best the school had ever seen. This experience led the writer, now a writer-blogger, to explore procrastination further, including scanning their own brain in an MRI lab to study the differences in the brains of procrastinators. The procrastinator's brain is shown to have an Instant Gratification Monkey, which prioritizes instant gratification over productivity and leads to distractions that make it difficult to focus on work. The tone throughout is reflective, humorous, and self-deprecating, with a focus on the negative impact of the Instant Gratification Monkey on productivity.",
+        "new_tgt_summary": "大学で政治学を専攻し、90ページの卒業論文を書く際に計画が通用しないことに気づいた著者は、2晩徹夜して急いで論文を書いたが、結果は駄作だった。数年後、先延ばしについてのブログを書くことを決め、先延ばしをする人々の脳についての仮説を立て、MRIスキャンを行うことになった。脳の専門家でない人でも、先延ばしをしない人の脳と先延ばしをする人の脳には違いがあり、先延ばしをする人の脳には即時報酬を求めるモンキーがおり、その影響で作業を先延ばしにしてしまうことがある。",
+        "rel_src": [
+            "He lives entirely in the present moment.",
+            "He has no memory of the past, no knowledge of the future,  and he only cares about two things:  easy and fun."
+        ],
+        "rel_tgt": [
+            "彼は完全に現在の瞬間に生きています。",
+            "彼は過去の記憶も未来の知識も持たず、簡単で楽しいことだけを気にしています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 60,
+        "src": "And to the Monkey,  humans are just another animal species.",
+        "ref": "おサルにとっては 人間も動物の一種に 過ぎません",
+        "hyp": "そして、モンキーにとって、人間はただの別の動物種です。",
+        "rel_src": [
+            "The Instant Gratification Monkey does not seem like a guy  you want behind the wheel.",
+            "He lives entirely in the present moment."
+        ],
+        "rel_tgt": [
+            "即時の満足を得るモンキーは、舵の後ろにいてほしいと思えない。",
+            "彼は完全に現在の瞬間に生きています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 61,
+        "src": "You have to keep well-slept, well-fed and propagating into the next generation,  which in tribal times might have worked OK.",
+        "ref": "よく食べ よく眠り 次の世代を 生み出しさえすればいい 原始生活をしていた頃は それでも良かったかもしれませんが",
+        "hyp": "部族の時代ではうまく機能していたかもしれませんが、よく眠り、よく食べ、そして次の世代に繁栄しなければなりません。",
+        "rel_src": [
+            "If you're a dog  and you spend your whole life doing nothing other than easy and fun things,  you're a huge success!",
+            "And to the Monkey,  humans are just another animal species."
+        ],
+        "rel_tgt": [
+            "もし犬で、簡単で楽しいこと以外何もせずに一生を過ごすなら、あなたは大成功です！",
+            "そして、モンキーにとって、人間はただの別の動物種です。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 62,
+        "src": "But, if you haven't noticed, now we're not in tribal times.",
+        "ref": "今や原始生活をしている わけではありません",
+        "hyp": "しかし、気づいていないかもしれませんが、今は部族の時代ではありません。",
+        "rel_src": [
+            "Now, what is going on here?",
+            "You have to keep well-slept, well-fed and propagating into the next generation,  which in tribal times might have worked OK."
+        ],
+        "rel_tgt": [
+            "さて、ここで何が起こっているのでしょうか？",
+            "部族の時代ではうまく機能していたかもしれませんが、よく眠り、よく食べ、そして次の世代に繁栄しなければなりません。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 63,
+        "src": "We're in an advanced civilization, and the Monkey does not know what that is.",
+        "ref": "我々は進んだ文明社会にいますが おサルにはそれが何か分かっていません",
+        "hyp": "私たちは先進文明の中におり、モンキーはそれが何であるかを知らない。",
+        "rel_src": [
+            "You have to keep well-slept, well-fed and propagating into the next generation,  which in tribal times might have worked OK.",
+            "But, if you haven't noticed, now we're not in tribal times."
+        ],
+        "rel_tgt": [
+            "部族の時代ではうまく機能していたかもしれませんが、よく眠り、よく食べ、そして次の世代に繁栄しなければなりません。",
+            "しかし、気づいていないかもしれませんが、今は部族の時代ではありません。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 64,
+        "src": "Which is why we have another guy in our brain,  the Rational Decision-Maker,  who gives us the ability to do things no other animal can do.",
+        "ref": "脳にもう１人 ｢理性的意志決定者｣が いるのはそのためで 他の動物にはない能力を 与えてくれます",
+        "hyp": "だからこそ、私たちの脳にはもう1人の男がいる。合理的な意思決定者。これによって、他の動物ができないことを行う能力が与えられるのだ。",
+        "rel_src": [
+            "Both brains have a Rational Decision-Maker in them,  but the procrastinator's brain  also has an Instant Gratification Monkey.",
+            "The Instant Gratification Monkey does not seem like a guy  you want behind the wheel."
+        ],
+        "rel_tgt": [
+            "両方の脳には合理的な意思決定者がいますが、先延ばしをする人の脳には即時報酬のモンキーもいます。",
+            "即時の満足を得るモンキーは、舵の後ろにいてほしいと思えない。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 65,
+        "src": "We can visualize the future.",
+        "ref": "私たちは未来を想像し",
+        "hyp": "私たちは未来をイメージできる。",
+        "rel_src": [
+            "He lives entirely in the present moment.",
+            "Which is why we have another guy in our brain,  the Rational Decision-Maker,  who gives us the ability to do things no other animal can do."
+        ],
+        "rel_tgt": [
+            "彼は完全に現在の瞬間に生きています。",
+            "だからこそ、私たちの脳にはもう1人の男がいる。合理的な意思決定者。これによって、他の動物ができないことを行う能力が与えられるのだ。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 66,
+        "src": "We can see the big picture.",
+        "ref": "大局を見ることができ",
+        "hyp": "私たちは全体像を見ることができます。",
+        "rel_src": [
+            "Which is why we have another guy in our brain,  the Rational Decision-Maker,  who gives us the ability to do things no other animal can do.",
+            "We can visualize the future."
+        ],
+        "rel_tgt": [
+            "だからこそ、私たちの脳にはもう1人の男がいる。合理的な意思決定者。これによって、他の動物ができないことを行う能力が与えられるのだ。",
+            "私たちは未来をイメージできる。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 67,
+        "src": "We can make long-term plans.",
+        "ref": "長期的計画を 立てられます",
+        "hyp": "私たちは長期的な計画を立てることができます。",
+        "rel_src": [
+            "Which is why we have another guy in our brain,  the Rational Decision-Maker,  who gives us the ability to do things no other animal can do.",
+            "We can visualize the future."
+        ],
+        "rel_tgt": [
+            "だからこそ、私たちの脳にはもう1人の男がいる。合理的な意思決定者。これによって、他の動物ができないことを行う能力が与えられるのだ。",
+            "私たちは未来をイメージできる。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 68,
+        "src": "And he wants to take all of that into account.",
+        "ref": "理性的意志決定者は すべてのことを考慮に入れ",
+        "hyp": "そして、彼はそれらすべてを考慮に入れたいと思っています。",
+        "rel_src": [
+            "Which is why we have another guy in our brain,  the Rational Decision-Maker,  who gives us the ability to do things no other animal can do.",
+            "We can make long-term plans."
+        ],
+        "rel_tgt": [
+            "だからこそ、私たちの脳にはもう1人の男がいる。合理的な意思決定者。これによって、他の動物ができないことを行う能力が与えられるのだ。",
+            "私たちは長期的な計画を立てることができます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 69,
+        "src": "And he wants to just have us do  whatever makes sense to be doing right now.",
+        "ref": "今 自分の為すべきことを やらせようとします",
+        "hyp": "そして、彼はただ今やるべきことをやらせたいのです。",
+        "rel_src": [
+            "Which is why we have another guy in our brain,  the Rational Decision-Maker,  who gives us the ability to do things no other animal can do.",
+            "And he wants to take all of that into account."
+        ],
+        "rel_tgt": [
+            "だからこそ、私たちの脳にはもう1人の男がいる。合理的な意思決定者。これによって、他の動物ができないことを行う能力が与えられるのだ。",
+            "そして、彼はそれらすべてを考慮に入れたいと思っています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 70,
+        "src": "Now, sometimes it makes sense  to be doing things that are easy and fun,  like when you're having dinner or going to bed  or enjoying well-earned leisure time.",
+        "ref": "ラクで楽しいことを するのが 理にかなっている こともあります 晩ご飯の時や 眠る時や 余暇の時など",
+        "hyp": "時には、夕食を取るときや寝るとき、または楽しい余暇を楽しむときなど、簡単で楽しいことをやるのが適している場合もあります。",
+        "rel_src": [
+            "He has no memory of the past, no knowledge of the future,  and he only cares about two things:  easy and fun.",
+            "And he wants to just have us do  whatever makes sense to be doing right now."
+        ],
+        "rel_tgt": [
+            "彼は過去の記憶も未来の知識も持たず、簡単で楽しいことだけを気にしています。",
+            "そして、彼はただ今やるべきことをやらせたいのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 71,
+        "src": "That's why there's an overlap.",
+        "ref": "両者には 重なる部分があり",
+        "hyp": "だから、重なり合うのです。",
+        "rel_src": [
+            "We're in an advanced civilization, and the Monkey does not know what that is.",
+            "Which is why we have another guy in our brain,  the Rational Decision-Maker,  who gives us the ability to do things no other animal can do."
+        ],
+        "rel_tgt": [
+            "私たちは先進文明の中におり、モンキーはそれが何であるかを知らない。",
+            "だからこそ、私たちの脳にはもう1人の男がいる。合理的な意思決定者。これによって、他の動物ができないことを行う能力が与えられるのだ。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 72,
+        "src": "Sometimes they agree.",
+        "ref": "意見が合うことも あります",
+        "hyp": "時に彼らは同意します。",
+        "rel_src": [
+            "And he wants to just have us do  whatever makes sense to be doing right now.",
+            "Now, sometimes it makes sense  to be doing things that are easy and fun,  like when you're having dinner or going to bed  or enjoying well-earned leisure time."
+        ],
+        "rel_tgt": [
+            "そして、彼はただ今やるべきことをやらせたいのです。",
+            "時には、夕食を取るときや寝るとき、または楽しい余暇を楽しむときなど、簡単で楽しいことをやるのが適している場合もあります。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 73,
+        "src": "But other times, it makes much more sense  to be doing things that are harder and less pleasant,  for the sake of the big picture.",
+        "ref": "しかし 大局的な判断として 難しくてあまり楽しくない ことをするのが 理にかなう場合もあります",
+        "hyp": "しかし、別の時には、大局を考えるために、より困難で楽しくないことをする方がずっと理にかなっています。",
+        "rel_src": [
+            "Now, sometimes it makes sense  to be doing things that are easy and fun,  like when you're having dinner or going to bed  or enjoying well-earned leisure time.",
+            "That's why there's an overlap."
+        ],
+        "rel_tgt": [
+            "時には、夕食を取るときや寝るとき、または楽しい余暇を楽しむときなど、簡単で楽しいことをやるのが適している場合もあります。",
+            "だから、重なり合うのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 74,
+        "src": "And that's when we have a conflict.",
+        "ref": "そういうときに 対立が生じます",
+        "hyp": "そして、それが私たちが衝突する時です。",
+        "rel_src": [
+            "Now, sometimes it makes sense  to be doing things that are easy and fun,  like when you're having dinner or going to bed  or enjoying well-earned leisure time.",
+            "But other times, it makes much more sense  to be doing things that are harder and less pleasant,  for the sake of the big picture."
+        ],
+        "rel_tgt": [
+            "時には、夕食を取るときや寝るとき、または楽しい余暇を楽しむときなど、簡単で楽しいことをやるのが適している場合もあります。",
+            "しかし、別の時には、大局を考えるために、より困難で楽しくないことをする方がずっと理にかなっています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 75,
+        "src": "And for the procrastinator,  that conflict tends to end a certain way every time,  leaving him spending a lot of time in this orange zone,  an easy and fun place that's entirely out of the Makes Sense circle.",
+        "ref": "先延ばし屋の場合 この対立がいつも ある結果に終わる傾向があり 多くの時間をオレンジ色で示した部分で 過ごすことになります やるのが理にかなわない ラクで楽しいことです",
+        "hyp": "そして、先延ばしをする人にとって、その衝突は毎回ある特定の方法で終わる傾向があり、彼は常にこのオレンジ色のゾーンで多くの時間を費やし、それは全く「理にかなっている」という円の外にある、簡単で楽しい場所になります。",
+        "rel_src": [
+            "The Instant Gratification Monkey does not seem like a guy  you want behind the wheel.",
+            "But other times, it makes much more sense  to be doing things that are harder and less pleasant,  for the sake of the big picture."
+        ],
+        "rel_tgt": [
+            "即時の満足を得るモンキーは、舵の後ろにいてほしいと思えない。",
+            "しかし、別の時には、大局を考えるために、より困難で楽しくないことをする方がずっと理にかなっています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 76,
+        "src": "I call it the Dark Playground.",
+        "ref": "私はこの領域を ｢暗黒の遊び場｣と呼んでいます",
+        "hyp": "私はそれを「暗黒の遊び場」と呼んでいます。",
+        "rel_src": [
+            "But other times, it makes much more sense  to be doing things that are harder and less pleasant,  for the sake of the big picture.",
+            "And for the procrastinator,  that conflict tends to end a certain way every time,  leaving him spending a lot of time in this orange zone,  an easy and fun place that's entirely out of the Makes Sense circle."
+        ],
+        "rel_tgt": [
+            "しかし、別の時には、大局を考えるために、より困難で楽しくないことをする方がずっと理にかなっています。",
+            "そして、先延ばしをする人にとって、その衝突は毎回ある特定の方法で終わる傾向があり、彼は常にこのオレンジ色のゾーンで多くの時間を費やし、それは全く「理にかなっている」という円の外にある、簡単で楽しい場所になります。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 77,
+        "src": "Now, the Dark Playground is a place  that all of you procrastinators out there know very well.",
+        "ref": "暗黒の遊び場は — 先延ばし屋がみんな よく知っている場所で",
+        "hyp": "今、その暗黒の遊び場は、そこにいるすべての先延ばしをする人々にとって非常によく知られた場所です。",
+        "rel_src": [
+            "And for the procrastinator,  that conflict tends to end a certain way every time,  leaving him spending a lot of time in this orange zone,  an easy and fun place that's entirely out of the Makes Sense circle.",
+            "I call it the Dark Playground."
+        ],
+        "rel_tgt": [
+            "そして、先延ばしをする人にとって、その衝突は毎回ある特定の方法で終わる傾向があり、彼は常にこのオレンジ色のゾーンで多くの時間を費やし、それは全く「理にかなっている」という円の外にある、簡単で楽しい場所になります。",
+            "私はそれを「暗黒の遊び場」と呼んでいます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 78,
+        "src": "It's where leisure activities happen  at times when leisure activities are not supposed to be happening.",
+        "ref": "遊んでいる場合 じゃないときに 遊ぶことになる場所です",
+        "hyp": "それは、余暇活動が行われるべきでない時に行われる場所です。",
+        "rel_src": [
+            "Now, sometimes it makes sense  to be doing things that are easy and fun,  like when you're having dinner or going to bed  or enjoying well-earned leisure time.",
+            "And for the procrastinator,  that conflict tends to end a certain way every time,  leaving him spending a lot of time in this orange zone,  an easy and fun place that's entirely out of the Makes Sense circle."
+        ],
+        "rel_tgt": [
+            "時には、夕食を取るときや寝るとき、または楽しい余暇を楽しむときなど、簡単で楽しいことをやるのが適している場合もあります。",
+            "そして、先延ばしをする人にとって、その衝突は毎回ある特定の方法で終わる傾向があり、彼は常にこのオレンジ色のゾーンで多くの時間を費やし、それは全く「理にかなっている」という円の外にある、簡単で楽しい場所になります。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 79,
+        "src": "The fun you have in the Dark Playground  isn't actually fun, because it's completely unearned,  and the air is filled with guilt, dread, anxiety, self-hatred --  all of those good procrastinator feelings.",
+        "ref": "暗黒の遊び場での楽しみは 実際に楽しくはありません それは得るべきではない 楽しみで 罪悪感 怖れ 不安 自己嫌悪といった お馴染みの 先延ばしの感覚に 満ちています",
+        "hyp": "暗黒の遊び場で楽しんでいると思っていることは実際には楽しくないのです、なぜならそれは完全に手に入れたものではなく、空気は罪悪感、恐れ、不安、自己嫌悪で満たされています－－すべての良い先延ばしをする人々の感情です。",
+        "new_src_summary": "The writer reflects on their experience as a government major in college, where they struggled with procrastination while writing papers, leading to pulling two all-nighters to complete a 90-page senior thesis just before the deadline. Surprisingly, the thesis was praised as the best the school had ever seen. This experience led the writer, now a writer-blogger, to explore procrastination further, including scanning their own brain in an MRI lab to study the differences in the brains of procrastinators. The procrastinator's brain is shown to have an Instant Gratification Monkey, which prioritizes instant gratification over productivity and leads to distractions that make it difficult to focus on work. The concept of the Rational Decision-Maker and the Monkey in our brains is discussed, highlighting the conflict between doing easy and fun things versus making long-term plans and decisions. It emphasizes the importance of balancing immediate gratification with long-term goals and the tendency for procrastinators to spend time in the \"Dark Playground\" where leisure activities occur when they shouldn't. The tone is reflective, humorous, and self-deprecating, focusing on the negative impact of the Instant Gratification Monkey on productivity and the internal struggle between instant gratification and future planning.",
+        "new_tgt_summary": "大学で政治学を専攻し、90ページの卒業論文を書く際に先延ばしをしてしまった著者は、脳のMRIスキャンを行い、先延ばしをする人の脳には即時報酬を求めるモンキーがおり、その影響で作業を先延ばしにしてしまうことがあることを発見した。一方、人間は合理的な意思決定者であり、未来をイメージし、長期的な計画を立てる能力がある。簡単で楽しいことを楽しむことも大切だが、大局を考えて困難なことに取り組むことも重要であると強調されている。",
+        "rel_src": [
+            "And for the procrastinator,  that conflict tends to end a certain way every time,  leaving him spending a lot of time in this orange zone,  an easy and fun place that's entirely out of the Makes Sense circle.",
+            "I call it the Dark Playground."
+        ],
+        "rel_tgt": [
+            "そして、先延ばしをする人にとって、その衝突は毎回ある特定の方法で終わる傾向があり、彼は常にこのオレンジ色のゾーンで多くの時間を費やし、それは全く「理にかなっている」という円の外にある、簡単で楽しい場所になります。",
+            "私はそれを「暗黒の遊び場」と呼んでいます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 80,
+        "src": "And the question is, in this situation, with the Monkey behind the wheel,  how does the procrastinator ever get himself over here to this blue zone,  a less pleasant place, but where really important things happen?",
+        "ref": "問題は おサルが 舵を取っている状況で 先延ばし屋は いかにして青い領域 快適さは劣るが本当に重要なことが 起きる場所に 移れるかということです",
+        "hyp": "そして、この状況で、モンキーがハンドルを握っている中で、先延ばしをする人はいかにして自分自身をこの青いゾーンに連れて行くのでしょうか。そこは少し楽しくない場所ですが、本当に重要なことが起こる場所ですか。",
+        "rel_src": [
+            "And for the procrastinator,  that conflict tends to end a certain way every time,  leaving him spending a lot of time in this orange zone,  an easy and fun place that's entirely out of the Makes Sense circle.",
+            "The fun you have in the Dark Playground  isn't actually fun, because it's completely unearned,  and the air is filled with guilt, dread, anxiety, self-hatred --  all of those good procrastinator feelings."
+        ],
+        "rel_tgt": [
+            "そして、先延ばしをする人にとって、その衝突は毎回ある特定の方法で終わる傾向があり、彼は常にこのオレンジ色のゾーンで多くの時間を費やし、それは全く「理にかなっている」という円の外にある、簡単で楽しい場所になります。",
+            "暗黒の遊び場で楽しんでいると思っていることは実際には楽しくないのです、なぜならそれは完全に手に入れたものではなく、空気は罪悪感、恐れ、不安、自己嫌悪で満たされています－－すべての良い先延ばしをする人々の感情です。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 81,
+        "src": "Well, turns out the procrastinator has a guardian angel,  someone who's always looking down on him and watching over him  in his darkest moments --  someone called the Panic Monster.",
+        "ref": "実は先延ばし屋には 守護天使がいて いつも見守って くれています 最悪の時だろうとも それは｢パニック･モンスター｣とも 呼ばれています",
+        "hyp": "まあ、結局、先延ばしをする人には守護天使がいることがわかりました。彼の最も暗い瞬間に常に見守り、見守っている誰かがいるのです－パニックモンスターと呼ばれる誰か。",
+        "rel_src": [
+            "The fun you have in the Dark Playground  isn't actually fun, because it's completely unearned,  and the air is filled with guilt, dread, anxiety, self-hatred --  all of those good procrastinator feelings.",
+            "And the question is, in this situation, with the Monkey behind the wheel,  how does the procrastinator ever get himself over here to this blue zone,  a less pleasant place, but where really important things happen?"
+        ],
+        "rel_tgt": [
+            "暗黒の遊び場で楽しんでいると思っていることは実際には楽しくないのです、なぜならそれは完全に手に入れたものではなく、空気は罪悪感、恐れ、不安、自己嫌悪で満たされています－－すべての良い先延ばしをする人々の感情です。",
+            "そして、この状況で、モンキーがハンドルを握っている中で、先延ばしをする人はいかにして自分自身をこの青いゾーンに連れて行くのでしょうか。そこは少し楽しくない場所ですが、本当に重要なことが起こる場所ですか。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 82,
+        "src": "Now, the Panic Monster is dormant most of the time,  but he suddenly wakes up anytime a deadline gets too close  or there's danger of public embarrassment,  a career disaster or some other scary consequence.",
+        "ref": "[パニック･モンスター]  パニック・モンスターは ほとんどの場合 眠っていますが 締め切りが迫る 面目を失いそう 職業上の危機といった 恐ろしい結末が 近づいているとき 突然目を覚まします",
+        "hyp": "そして、パニックモンスターはほとんどの時間眠っていますが、締め切りが近づくか、公の恥辱、職業上の災害、またはその他の恐ろしい結果があるときに突然目を覚ますのです。",
+        "rel_src": [
+            "And the question is, in this situation, with the Monkey behind the wheel,  how does the procrastinator ever get himself over here to this blue zone,  a less pleasant place, but where really important things happen?",
+            "Well, turns out the procrastinator has a guardian angel,  someone who's always looking down on him and watching over him  in his darkest moments --  someone called the Panic Monster."
+        ],
+        "rel_tgt": [
+            "そして、この状況で、モンキーがハンドルを握っている中で、先延ばしをする人はいかにして自分自身をこの青いゾーンに連れて行くのでしょうか。そこは少し楽しくない場所ですが、本当に重要なことが起こる場所ですか。",
+            "まあ、結局、先延ばしをする人には守護天使がいることがわかりました。彼の最も暗い瞬間に常に見守り、見守っている誰かがいるのです－パニックモンスターと呼ばれる誰か。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 83,
+        "src": "And importantly, he's the only thing the Monkey is terrified of.",
+        "ref": "重要なのは それがおサルの唯一 恐れるものだということです",
+        "hyp": "そして重要なことに、彼はモンキーが恐れる唯一の存在なのです。",
+        "rel_src": [
+            "Well, turns out the procrastinator has a guardian angel,  someone who's always looking down on him and watching over him  in his darkest moments --  someone called the Panic Monster.",
+            "Now, the Panic Monster is dormant most of the time,  but he suddenly wakes up anytime a deadline gets too close  or there's danger of public embarrassment,  a career disaster or some other scary consequence."
+        ],
+        "rel_tgt": [
+            "まあ、結局、先延ばしをする人には守護天使がいることがわかりました。彼の最も暗い瞬間に常に見守り、見守っている誰かがいるのです－パニックモンスターと呼ばれる誰か。",
+            "そして、パニックモンスターはほとんどの時間眠っていますが、締め切りが近づくか、公の恥辱、職業上の災害、またはその他の恐ろしい結果があるときに突然目を覚ますのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 84,
+        "src": "Now, he became very relevant in my life pretty recently,  because the people of TED reached out to me about six months ago  and invited me to do a TED Talk.",
+        "ref": "ごく最近 私はそのお世話に なることがありました 半年前にTEDの人たちが コンタクトしてきて TEDトークをしてみないかと 誘われたのです",
+        "hyp": "そして、最近、TEDの人々が私に約6か月前に連絡を取り、TEDトークを行うよう招待してくれたので、彼は私の人生で非常に関連性のある存在になりました。",
+        "rel_src": [
+            "Well, turns out the procrastinator has a guardian angel,  someone who's always looking down on him and watching over him  in his darkest moments --  someone called the Panic Monster.",
+            "Now, the Panic Monster is dormant most of the time,  but he suddenly wakes up anytime a deadline gets too close  or there's danger of public embarrassment,  a career disaster or some other scary consequence."
+        ],
+        "rel_tgt": [
+            "まあ、結局、先延ばしをする人には守護天使がいることがわかりました。彼の最も暗い瞬間に常に見守り、見守っている誰かがいるのです－パニックモンスターと呼ばれる誰か。",
+            "そして、パニックモンスターはほとんどの時間眠っていますが、締め切りが近づくか、公の恥辱、職業上の災害、またはその他の恐ろしい結果があるときに突然目を覚ますのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 85,
+        "src": "Now, of course, I said yes.",
+        "ref": "もちろん｢やります｣と答えました",
+        "hyp": "もちろん、私は「はい」と答えました。",
+        "rel_src": [
+            "And importantly, he's the only thing the Monkey is terrified of.",
+            "Now, he became very relevant in my life pretty recently,  because the people of TED reached out to me about six months ago  and invited me to do a TED Talk."
+        ],
+        "rel_tgt": [
+            "そして重要なことに、彼はモンキーが恐れる唯一の存在なのです。",
+            "そして、最近、TEDの人々が私に約6か月前に連絡を取り、TEDトークを行うよう招待してくれたので、彼は私の人生で非常に関連性のある存在になりました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 86,
+        "src": "It's always been a dream of mine to have done a TED Talk in the past.",
+        "ref": "「昔TEDトークをしたことがある」と言える ようになるのが 長年の夢だったんです",
+        "hyp": "これまでにTEDトークを行ったことが私の夢でした。",
+        "rel_src": [
+            "Now, he became very relevant in my life pretty recently,  because the people of TED reached out to me about six months ago  and invited me to do a TED Talk.",
+            "Now, of course, I said yes."
+        ],
+        "rel_tgt": [
+            "そして、最近、TEDの人々が私に約6か月前に連絡を取り、TEDトークを行うよう招待してくれたので、彼は私の人生で非常に関連性のある存在になりました。",
+            "もちろん、私は「はい」と答えました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 87,
+        "src": "But in the middle of all this excitement,  the Rational Decision-Maker seemed to have something else on his mind.",
+        "ref": "[TEDトークならしたことあるよ]   この興奮のさなかにあって 理性的意志決定者は 別のことを気にかけています",
+        "hyp": "しかし、この興奮の中で、合理的な意思決定者は他のことを考えているようでした。",
+        "rel_src": [
+            "Now, the Panic Monster is dormant most of the time,  but he suddenly wakes up anytime a deadline gets too close  or there's danger of public embarrassment,  a career disaster or some other scary consequence.",
+            "And importantly, he's the only thing the Monkey is terrified of."
+        ],
+        "rel_tgt": [
+            "そして、パニックモンスターはほとんどの時間眠っていますが、締め切りが近づくか、公の恥辱、職業上の災害、またはその他の恐ろしい結果があるときに突然目を覚ますのです。",
+            "そして重要なことに、彼はモンキーが恐れる唯一の存在なのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 88,
+        "src": "He was saying, \"Are we clear on what we just accepted?",
+        "ref": "｢何を引き受けたか 分かってる？",
+        "hyp": "彼は言っていました、「私たちが今受け入れたことについては理解していますか？",
+        "rel_src": [
+            "And importantly, he's the only thing the Monkey is terrified of.",
+            "Now, he became very relevant in my life pretty recently,  because the people of TED reached out to me about six months ago  and invited me to do a TED Talk."
+        ],
+        "rel_tgt": [
+            "そして重要なことに、彼はモンキーが恐れる唯一の存在なのです。",
+            "そして、最近、TEDの人々が私に約6か月前に連絡を取り、TEDトークを行うよう招待してくれたので、彼は私の人生で非常に関連性のある存在になりました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 89,
+        "src": "Do we get what's going to be now happening one day in the future?",
+        "ref": "将来のある日に起きることが何か 分かってんの？",
+        "hyp": "未来のある日起こるであろう出来事について理解しているのか？",
+        "rel_src": [
+            "Well, turns out the procrastinator has a guardian angel,  someone who's always looking down on him and watching over him  in his darkest moments --  someone called the Panic Monster.",
+            "Now, the Panic Monster is dormant most of the time,  but he suddenly wakes up anytime a deadline gets too close  or there's danger of public embarrassment,  a career disaster or some other scary consequence."
+        ],
+        "rel_tgt": [
+            "まあ、結局、先延ばしをする人には守護天使がいることがわかりました。彼の最も暗い瞬間に常に見守り、見守っている誰かがいるのです－パニックモンスターと呼ばれる誰か。",
+            "そして、パニックモンスターはほとんどの時間眠っていますが、締め切りが近づくか、公の恥辱、職業上の災害、またはその他の恐ろしい結果があるときに突然目を覚ますのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 90,
+        "src": "We need to sit down and work on this right now.\"",
+        "ref": "今すぐ腰を据えて 取りかからないと！｣",
+        "hyp": "今すぐ座って、これに取り組む必要があります。",
+        "rel_src": [
+            "But other times, it makes much more sense  to be doing things that are harder and less pleasant,  for the sake of the big picture.",
+            "And the question is, in this situation, with the Monkey behind the wheel,  how does the procrastinator ever get himself over here to this blue zone,  a less pleasant place, but where really important things happen?"
+        ],
+        "rel_tgt": [
+            "しかし、別の時には、大局を考えるために、より困難で楽しくないことをする方がずっと理にかなっています。",
+            "そして、この状況で、モンキーがハンドルを握っている中で、先延ばしをする人はいかにして自分自身をこの青いゾーンに連れて行くのでしょうか。そこは少し楽しくない場所ですが、本当に重要なことが起こる場所ですか。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 91,
+        "src": "And the Monkey said, \"Totally agree, but let's just open Google Earth  and zoom in to the bottom of India, like 200 feet above the ground,  and scroll up for two and a half hours til we get to the top of the country,  so we can get a better feel for India.\"",
+        "ref": "おサルが それに答えます ｢まったく賛成だけど 取りあえず Googleアースを開いて インドの下端を地上60mまで拡大し ２時間半スクロールして 上の端まで行ったら インドのイメージが よく掴めるんじゃないかな｣",
+        "hyp": "そして、モンキーは言いました、「完全に同意ですが、Google Earthを開いて、インドの底部にズームインして、地上約200フィートまでスクロールして、国の頂上に到達するまで2時間半かけて上にスクロールしましょう。そうすれば、インドの雰囲気をよりよく感じることができます。\"",
+        "rel_src": [
+            "It's where leisure activities happen  at times when leisure activities are not supposed to be happening.",
+            "And the question is, in this situation, with the Monkey behind the wheel,  how does the procrastinator ever get himself over here to this blue zone,  a less pleasant place, but where really important things happen?"
+        ],
+        "rel_tgt": [
+            "それは、余暇活動が行われるべきでない時に行われる場所です。",
+            "そして、この状況で、モンキーがハンドルを握っている中で、先延ばしをする人はいかにして自分自身をこの青いゾーンに連れて行くのでしょうか。そこは少し楽しくない場所ですが、本当に重要なことが起こる場所ですか。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 92,
+        "src": "So that's what we did that day.",
+        "ref": "それで その日はずっと それをしていました",
+        "hyp": "だから、その日私たちはそうしました。",
+        "rel_src": [
+            "Now, he became very relevant in my life pretty recently,  because the people of TED reached out to me about six months ago  and invited me to do a TED Talk.",
+            "Now, of course, I said yes."
+        ],
+        "rel_tgt": [
+            "そして、最近、TEDの人々が私に約6か月前に連絡を取り、TEDトークを行うよう招待してくれたので、彼は私の人生で非常に関連性のある存在になりました。",
+            "もちろん、私は「はい」と答えました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー"
+        }
+    },
+    {
+        "idx": 93,
+        "src": "As six months turned into four and then two and then one,  the people of TED decided to release the speakers.",
+        "ref": "６ヶ月が ４ヶ月になり ２ヶ月になり １ヶ月になり TEDが講演者の一覧を 公開しました",
+        "hyp": "6か月が4か月に、そして2か月に、そして1か月に変わるにつれて、TEDの人々はスピーカーを公開することを決定しました。",
+        "rel_src": [
+            "Now, he became very relevant in my life pretty recently,  because the people of TED reached out to me about six months ago  and invited me to do a TED Talk.",
+            "Now, of course, I said yes."
+        ],
+        "rel_tgt": [
+            "そして、最近、TEDの人々が私に約6か月前に連絡を取り、TEDトークを行うよう招待してくれたので、彼は私の人生で非常に関連性のある存在になりました。",
+            "もちろん、私は「はい」と答えました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 94,
+        "src": "And I opened up the website, and there was my face  staring right back at me.",
+        "ref": "そのページを開くと 見つめ返す自分の顔が そこにありました",
+        "hyp": "そして、私はウェブサイトを開いたら、そこには私の顔がまっすぐ私を見つめていた。",
+        "rel_src": [
+            "Now, he became very relevant in my life pretty recently,  because the people of TED reached out to me about six months ago  and invited me to do a TED Talk.",
+            "Now, of course, I said yes."
+        ],
+        "rel_tgt": [
+            "そして、最近、TEDの人々が私に約6か月前に連絡を取り、TEDトークを行うよう招待してくれたので、彼は私の人生で非常に関連性のある存在になりました。",
+            "もちろん、私は「はい」と答えました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 95,
+        "src": "And guess who woke up?",
+        "ref": "それで誰が 目覚めたでしょう？",
+        "hyp": "そして、誰が目を覚ましたか？",
+        "rel_src": [
+            "Well, turns out the procrastinator has a guardian angel,  someone who's always looking down on him and watching over him  in his darkest moments --  someone called the Panic Monster.",
+            "Now, the Panic Monster is dormant most of the time,  but he suddenly wakes up anytime a deadline gets too close  or there's danger of public embarrassment,  a career disaster or some other scary consequence."
+        ],
+        "rel_tgt": [
+            "まあ、結局、先延ばしをする人には守護天使がいることがわかりました。彼の最も暗い瞬間に常に見守り、見守っている誰かがいるのです－パニックモンスターと呼ばれる誰か。",
+            "そして、パニックモンスターはほとんどの時間眠っていますが、締め切りが近づくか、公の恥辱、職業上の災害、またはその他の恐ろしい結果があるときに突然目を覚ますのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 96,
+        "src": "So the Panic Monster starts losing his mind,  and a few seconds later, the whole system's in mayhem.",
+        "ref": "パニック・モンスターが 半狂乱になり すぐにシステム全体が 大混乱に陥りました",
+        "hyp": "パニックモンスターは理性を失い始め、数秒後には全体のシステムが混乱状態になります。",
+        "rel_src": [
+            "Well, turns out the procrastinator has a guardian angel,  someone who's always looking down on him and watching over him  in his darkest moments --  someone called the Panic Monster.",
+            "Now, the Panic Monster is dormant most of the time,  but he suddenly wakes up anytime a deadline gets too close  or there's danger of public embarrassment,  a career disaster or some other scary consequence."
+        ],
+        "rel_tgt": [
+            "まあ、結局、先延ばしをする人には守護天使がいることがわかりました。彼の最も暗い瞬間に常に見守り、見守っている誰かがいるのです－パニックモンスターと呼ばれる誰か。",
+            "そして、パニックモンスターはほとんどの時間眠っていますが、締め切りが近づくか、公の恥辱、職業上の災害、またはその他の恐ろしい結果があるときに突然目を覚ますのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 97,
+        "src": "And the Monkey -- remember, he's terrified of the Panic Monster --  boom, he's up the tree!",
+        "ref": "おサルがパニック・モンスターを 恐れるのを思い出してください それで木の上に 逃げ出します",
+        "hyp": "そして、モンキー－覚えておいてね、彼はパニックモンスターを恐れている－突然、木の上に登ってしまいます！",
+        "rel_src": [
+            "Well, turns out the procrastinator has a guardian angel,  someone who's always looking down on him and watching over him  in his darkest moments --  someone called the Panic Monster.",
+            "So the Panic Monster starts losing his mind,  and a few seconds later, the whole system's in mayhem."
+        ],
+        "rel_tgt": [
+            "まあ、結局、先延ばしをする人には守護天使がいることがわかりました。彼の最も暗い瞬間に常に見守り、見守っている誰かがいるのです－パニックモンスターと呼ばれる誰か。",
+            "パニックモンスターは理性を失い始め、数秒後には全体のシステムが混乱状態になります。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 98,
+        "src": "And finally,  finally, the Rational Decision-Maker can take the wheel  and I can start working on the talk.",
+        "ref": "これでようやく 理性的意志決定者が 舵を取れるようになって 私は講演の準備に 取りかかれました",
+        "hyp": "そして、ついに、合理的な意思決定者が舵を取ることができ、私はプレゼンの準備を始めることができます。",
+        "rel_src": [
+            "But in the middle of all this excitement,  the Rational Decision-Maker seemed to have something else on his mind.",
+            "We need to sit down and work on this right now.\""
+        ],
+        "rel_tgt": [
+            "しかし、この興奮の中で、合理的な意思決定者は他のことを考えているようでした。",
+            "今すぐ座って、これに取り組む必要があります。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 99,
+        "src": "Now, the Panic Monster explains  all kinds of pretty insane procrastinator behavior,  like how someone like me could spend two weeks  unable to start the opening sentence of a paper,  and then miraculously find the unbelievable work ethic  to stay up all night and write eight pages.",
+        "ref": "パニック･モンスターにより 先延ばし屋の常軌を逸した 振る舞いも説明でき ２週間かけて レポートの 出だしの１行も 書けずにいたのが 奇跡のように強烈な 労働倫理に目覚め 夜通しかけて８ページ書き上げる なんてことも起きるのです",
+        "hyp": "今、パニックモンスターは、私のような人がペーパーの冒頭文を始めることができないまま2週間を過ごし、その後奇跡的に信じられないほどの労働倫理を見つけて徹夜で8ページ書くなど、あらゆる種類のかなり狂った先延ばし行動を説明します。",
+        "new_src_summary": "The writer reflects on their experience as a government major in college, where they struggled with procrastination while writing papers, leading to pulling two all-nighters to complete a 90-page senior thesis just before the deadline. Surprisingly, the thesis was praised as the best the school had ever seen. This experience led the writer, now a writer-blogger, to explore procrastination further, including scanning their own brain in an MRI lab to study the differences in the brains of procrastinators. The procrastinator's brain is shown to have an Instant Gratification Monkey, which prioritizes instant gratification over productivity and leads to distractions that make it difficult to focus on work. The concept of the Rational Decision-Maker and the Monkey in our brains is discussed, highlighting the conflict between doing easy and fun things versus making long-term plans and decisions. It emphasizes the importance of balancing immediate gratification with long-term goals and the tendency for procrastinators to spend time in the \"Dark Playground\" where leisure activities occur when they shouldn't. The paragraph also discusses the concept of the Dark Playground, where procrastination occurs, and introduces the Panic Monster as the force that motivates procrastinators to take action when faced with impending deadlines or consequences. The author shares a personal anecdote about being invited to do a TED Talk and how the Panic Monster ultimately pushes them to start working on the talk despite the Monkey's distractions. The overall tone is reflective, humorous, and self-deprecating, focusing on the negative impact of the Instant Gratification Monkey on productivity and the internal struggle between instant gratification and future planning.",
+        "new_tgt_summary": "大学で政治学を専攻し、90ページの卒業論文を書く際に先延ばしをしてしまった著者は、脳のMRIスキャンを通じて、先延ばしをする人の脳に即時報酬を求めるモンキーが存在し、作業を先延ばしにしてしまうことを発見した。一方、人間は合理的な意思決定者であり、未来をイメージし、長期的な計画を立てる能力がある。先延ばしをする人々は、暗黒の遊び場で楽しんでいると思っているが、実際には罪悪感や恐れ、不安、自己嫌悪に満ちている。彼らの行動を支配するのはパニックモンスターと呼ばれる存在であり、重要な瞬間に目を覚ます。著者はTEDトークに招待され、興奮と同時に恐れを感じるが、合理的な意思決定者がパニックモンスターを制御し、準備を始めることができる。簡単で楽しいことを楽しむことも大切だが、大局を考えて困難なことに取り組むことも重要であると強調されている。",
+        "rel_src": [
+            "Well, turns out the procrastinator has a guardian angel,  someone who's always looking down on him and watching over him  in his darkest moments --  someone called the Panic Monster.",
+            "Now, the Panic Monster is dormant most of the time,  but he suddenly wakes up anytime a deadline gets too close  or there's danger of public embarrassment,  a career disaster or some other scary consequence."
+        ],
+        "rel_tgt": [
+            "まあ、結局、先延ばしをする人には守護天使がいることがわかりました。彼の最も暗い瞬間に常に見守り、見守っている誰かがいるのです－パニックモンスターと呼ばれる誰か。",
+            "そして、パニックモンスターはほとんどの時間眠っていますが、締め切りが近づくか、公の恥辱、職業上の災害、またはその他の恐ろしい結果があるときに突然目を覚ますのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 100,
+        "src": "And this entire situation, with the three characters --  this is the procrastinator's system.",
+        "ref": "これが ３人の登場人物のいる 全体の状況 先延ばし屋のシステムです",
+        "hyp": "そして、この三人のキャラクターによるこの状況全体が、先延ばしをする人のシステムなのです。",
+        "rel_src": [
+            "Well, turns out the procrastinator has a guardian angel,  someone who's always looking down on him and watching over him  in his darkest moments --  someone called the Panic Monster.",
+            "Now, the Panic Monster is dormant most of the time,  but he suddenly wakes up anytime a deadline gets too close  or there's danger of public embarrassment,  a career disaster or some other scary consequence."
+        ],
+        "rel_tgt": [
+            "まあ、結局、先延ばしをする人には守護天使がいることがわかりました。彼の最も暗い瞬間に常に見守り、見守っている誰かがいるのです－パニックモンスターと呼ばれる誰か。",
+            "そして、パニックモンスターはほとんどの時間眠っていますが、締め切りが近づくか、公の恥辱、職業上の災害、またはその他の恐ろしい結果があるときに突然目を覚ますのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 101,
+        "src": "It's not pretty, but in the end, it works.",
+        "ref": "きれいなものではありませんが 最終的には機能します",
+        "hyp": "それは美しいとは言えないが、最終的にはうまくいく。",
+        "rel_src": [
+            "Now, the Panic Monster explains  all kinds of pretty insane procrastinator behavior,  like how someone like me could spend two weeks  unable to start the opening sentence of a paper,  and then miraculously find the unbelievable work ethic  to stay up all night and write eight pages.",
+            "And this entire situation, with the three characters --  this is the procrastinator's system."
+        ],
+        "rel_tgt": [
+            "今、パニックモンスターは、私のような人がペーパーの冒頭文を始めることができないまま2週間を過ごし、その後奇跡的に信じられないほどの労働倫理を見つけて徹夜で8ページ書くなど、あらゆる種類のかなり狂った先延ばし行動を説明します。",
+            "そして、この三人のキャラクターによるこの状況全体が、先延ばしをする人のシステムなのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 102,
+        "src": "This is what I decided to write about on the blog a couple of years ago.",
+        "ref": "これが２年前ブログに 書くことにした内容です",
+        "hyp": "数年前にブログで書くことに決めたことです。",
+        "rel_src": [
+            "Now, the Panic Monster explains  all kinds of pretty insane procrastinator behavior,  like how someone like me could spend two weeks  unable to start the opening sentence of a paper,  and then miraculously find the unbelievable work ethic  to stay up all night and write eight pages.",
+            "And this entire situation, with the three characters --  this is the procrastinator's system."
+        ],
+        "rel_tgt": [
+            "今、パニックモンスターは、私のような人がペーパーの冒頭文を始めることができないまま2週間を過ごし、その後奇跡的に信じられないほどの労働倫理を見つけて徹夜で8ページ書くなど、あらゆる種類のかなり狂った先延ばし行動を説明します。",
+            "そして、この三人のキャラクターによるこの状況全体が、先延ばしをする人のシステムなのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 103,
+        "src": "When I did, I was amazed by the response.",
+        "ref": "書いてみると ブログへの反応に 驚くことになりました",
+        "hyp": "それをしたとき、私はその反応に驚きました。",
+        "rel_src": [
+            "And I opened up the website, and there was my face  staring right back at me.",
+            "And finally,  finally, the Rational Decision-Maker can take the wheel  and I can start working on the talk."
+        ],
+        "rel_tgt": [
+            "そして、私はウェブサイトを開いたら、そこには私の顔がまっすぐ私を見つめていた。",
+            "そして、ついに、合理的な意思決定者が舵を取ることができ、私はプレゼンの準備を始めることができます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 104,
+        "src": "Literally thousands of emails came in,  from all different kinds of people from all over the world,  doing all different kinds of things.",
+        "ref": "文字通り何千という メールが 世界中から 寄せられました 実に様々な人々から",
+        "hyp": "文字通り何千通ものメールが、世界中のさまざまな人々から、さまざまなことをしている人々から届きました。",
+        "rel_src": [
+            "Now, he became very relevant in my life pretty recently,  because the people of TED reached out to me about six months ago  and invited me to do a TED Talk.",
+            "As six months turned into four and then two and then one,  the people of TED decided to release the speakers."
+        ],
+        "rel_tgt": [
+            "そして、最近、TEDの人々が私に約6か月前に連絡を取り、TEDトークを行うよう招待してくれたので、彼は私の人生で非常に関連性のある存在になりました。",
+            "6か月が4か月に、そして2か月に、そして1か月に変わるにつれて、TEDの人々はスピーカーを公開することを決定しました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 105,
+        "src": "These are people who were nurses, bankers, painters, engineers  and lots and lots of PhD students.",
+        "ref": "看護師 銀行員 画家 エンジニア そして実に多くの 大学院生",
+        "hyp": "これらは看護師、銀行員、画家、エンジニア、そしてたくさんの博士課程の学生たちです。",
+        "rel_src": [
+            "When I did, I was amazed by the response.",
+            "Literally thousands of emails came in,  from all different kinds of people from all over the world,  doing all different kinds of things."
+        ],
+        "rel_tgt": [
+            "それをしたとき、私はその反応に驚きました。",
+            "文字通り何千通ものメールが、世界中のさまざまな人々から、さまざまなことをしている人々から届きました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 106,
+        "src": "And they were all writing, saying the same thing:  \"I have this problem too.\"",
+        "ref": "みんな書いている ことは一緒でした ｢自分も同じ問題を抱えています｣",
+        "hyp": "そして、彼らは皆、同じことを言って書いていました。「私もこの問題を抱えています」と。",
+        "rel_src": [
+            "Literally thousands of emails came in,  from all different kinds of people from all over the world,  doing all different kinds of things.",
+            "These are people who were nurses, bankers, painters, engineers  and lots and lots of PhD students."
+        ],
+        "rel_tgt": [
+            "文字通り何千通ものメールが、世界中のさまざまな人々から、さまざまなことをしている人々から届きました。",
+            "これらは看護師、銀行員、画家、エンジニア、そしてたくさんの博士課程の学生たちです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 107,
+        "src": "But what struck me was the contrast between the light tone of the post  and the heaviness of these emails.",
+        "ref": "しかし そのブログ記事の軽さと 受け取ったメールの重さは 対照的でした",
+        "hyp": "しかし、私に印象的だったのは、投稿の軽快なトーンとこれらのメールの重さとの対照でした。",
+        "rel_src": [
+            "Literally thousands of emails came in,  from all different kinds of people from all over the world,  doing all different kinds of things.",
+            "These are people who were nurses, bankers, painters, engineers  and lots and lots of PhD students."
+        ],
+        "rel_tgt": [
+            "文字通り何千通ものメールが、世界中のさまざまな人々から、さまざまなことをしている人々から届きました。",
+            "これらは看護師、銀行員、画家、エンジニア、そしてたくさんの博士課程の学生たちです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 108,
+        "src": "These people were writing with intense frustration  about what procrastination had done to their lives,  about what this Monkey had done to them.",
+        "ref": "先延ばしが彼らの人生に 及ぼしている影響への 強い苛立ちをもって 書かれていたんです おサルのせいで どんな目に遭っているかと",
+        "hyp": "これらの人々は、先延ばし行動が彼らの人生に与えた影響について、このモンキーが彼らにしたことについて、強い欠乏感を持って書いていました。",
+        "rel_src": [
+            "Now, the Panic Monster explains  all kinds of pretty insane procrastinator behavior,  like how someone like me could spend two weeks  unable to start the opening sentence of a paper,  and then miraculously find the unbelievable work ethic  to stay up all night and write eight pages.",
+            "And they were all writing, saying the same thing:  \"I have this problem too.\""
+        ],
+        "rel_tgt": [
+            "今、パニックモンスターは、私のような人がペーパーの冒頭文を始めることができないまま2週間を過ごし、その後奇跡的に信じられないほどの労働倫理を見つけて徹夜で8ページ書くなど、あらゆる種類のかなり狂った先延ばし行動を説明します。",
+            "そして、彼らは皆、同じことを言って書いていました。「私もこの問題を抱えています」と。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 109,
+        "src": "And I thought about this, and I said,  well, if the procrastinator's system works, then what's going on?",
+        "ref": "それを見て思いました 先延ばし屋のシステムは機能するのに どうなっているんだろう？",
+        "hyp": "そして、私はこれについて考えました。そして、もし先延ばし者のシステムが機能しているのであれば、何が起こっているのかと言いました。",
+        "rel_src": [
+            "Now, the Panic Monster explains  all kinds of pretty insane procrastinator behavior,  like how someone like me could spend two weeks  unable to start the opening sentence of a paper,  and then miraculously find the unbelievable work ethic  to stay up all night and write eight pages.",
+            "And this entire situation, with the three characters --  this is the procrastinator's system."
+        ],
+        "rel_tgt": [
+            "今、パニックモンスターは、私のような人がペーパーの冒頭文を始めることができないまま2週間を過ごし、その後奇跡的に信じられないほどの労働倫理を見つけて徹夜で8ページ書くなど、あらゆる種類のかなり狂った先延ばし行動を説明します。",
+            "そして、この三人のキャラクターによるこの状況全体が、先延ばしをする人のシステムなのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 110,
+        "src": "Why are all of these people in such a dark place?",
+        "ref": "なぜ彼らはそんな 暗澹とした状態にあるのか？",
+        "hyp": "なぜこれらの人々はみな暗い場所にいるのか？",
+        "rel_src": [
+            "These people were writing with intense frustration  about what procrastination had done to their lives,  about what this Monkey had done to them.",
+            "And I thought about this, and I said,  well, if the procrastinator's system works, then what's going on?"
+        ],
+        "rel_tgt": [
+            "これらの人々は、先延ばし行動が彼らの人生に与えた影響について、このモンキーが彼らにしたことについて、強い欠乏感を持って書いていました。",
+            "そして、私はこれについて考えました。そして、もし先延ばし者のシステムが機能しているのであれば、何が起こっているのかと言いました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 111,
+        "src": "Well, it turns out that there's two kinds of procrastination.",
+        "ref": "分かったのは 先延ばしにも ２種類あるということです",
+        "hyp": "実は、先延ばしには2種類のタイプがあることがわかります。",
+        "rel_src": [
+            "Now, the Panic Monster explains  all kinds of pretty insane procrastinator behavior,  like how someone like me could spend two weeks  unable to start the opening sentence of a paper,  and then miraculously find the unbelievable work ethic  to stay up all night and write eight pages.",
+            "And this entire situation, with the three characters --  this is the procrastinator's system."
+        ],
+        "rel_tgt": [
+            "今、パニックモンスターは、私のような人がペーパーの冒頭文を始めることができないまま2週間を過ごし、その後奇跡的に信じられないほどの労働倫理を見つけて徹夜で8ページ書くなど、あらゆる種類のかなり狂った先延ばし行動を説明します。",
+            "そして、この三人のキャラクターによるこの状況全体が、先延ばしをする人のシステムなのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 112,
+        "src": "Everything I've talked about today, the examples I've given,  they all have deadlines.",
+        "ref": "私の話した例では 締め切りがありました",
+        "hyp": "今日話したすべて、私が挙げた例はすべて締め切りがあります。",
+        "rel_src": [
+            "Now, the Panic Monster explains  all kinds of pretty insane procrastinator behavior,  like how someone like me could spend two weeks  unable to start the opening sentence of a paper,  and then miraculously find the unbelievable work ethic  to stay up all night and write eight pages.",
+            "And I thought about this, and I said,  well, if the procrastinator's system works, then what's going on?"
+        ],
+        "rel_tgt": [
+            "今、パニックモンスターは、私のような人がペーパーの冒頭文を始めることができないまま2週間を過ごし、その後奇跡的に信じられないほどの労働倫理を見つけて徹夜で8ページ書くなど、あらゆる種類のかなり狂った先延ばし行動を説明します。",
+            "そして、私はこれについて考えました。そして、もし先延ばし者のシステムが機能しているのであれば、何が起こっているのかと言いました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 113,
+        "src": "And when there's deadlines,  the effects of procrastination are contained to the short term  because the Panic Monster gets involved.",
+        "ref": "締め切りがあると 先延ばしの影響は 短い期間に限定され パニック・モンスターが 登場します",
+        "hyp": "そして、締め切りがある場合、先延ばしの影響は短期間にとどまります。なぜなら、パニックモンスターが介入するからです。",
+        "rel_src": [
+            "Now, the Panic Monster explains  all kinds of pretty insane procrastinator behavior,  like how someone like me could spend two weeks  unable to start the opening sentence of a paper,  and then miraculously find the unbelievable work ethic  to stay up all night and write eight pages.",
+            "Well, it turns out that there's two kinds of procrastination."
+        ],
+        "rel_tgt": [
+            "今、パニックモンスターは、私のような人がペーパーの冒頭文を始めることができないまま2週間を過ごし、その後奇跡的に信じられないほどの労働倫理を見つけて徹夜で8ページ書くなど、あらゆる種類のかなり狂った先延ばし行動を説明します。",
+            "実は、先延ばしには2種類のタイプがあることがわかります。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 114,
+        "src": "But there's a second kind of procrastination  that happens in situations when there is no deadline.",
+        "ref": "しかし別の種類の 先延ばしもあって それには締め切りが ありません",
+        "hyp": "しかし、締め切りがない状況で起こる先延ばしの第二のタイプも存在します。",
+        "rel_src": [
+            "Well, it turns out that there's two kinds of procrastination.",
+            "And when there's deadlines,  the effects of procrastination are contained to the short term  because the Panic Monster gets involved."
+        ],
+        "rel_tgt": [
+            "実は、先延ばしには2種類のタイプがあることがわかります。",
+            "そして、締め切りがある場合、先延ばしの影響は短期間にとどまります。なぜなら、パニックモンスターが介入するからです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 115,
+        "src": "So if you wanted a career where you're a self-starter --  something in the arts, something entrepreneurial --  there's no deadlines on those things at first, because nothing's happening,  not until you've gone out and done the hard work  to get momentum, get things going.",
+        "ref": "個人事業家や 芸術家のような 起業的な仕事の場合 はじめのうちは 締め切りがありません 出かけていって 何かをし 軌道に乗って 走り出すまでは 何も起こらないからです",
+        "hyp": "だから、自己始動型のキャリアを望むならば、芸術や起業家精神に関連する仕事が良いでしょう。最初は締め切りはありません。何も起こらないからです。実績を積み上げ、勢いをつけて事を進めるまで、何も進まないのです。",
+        "rel_src": [
+            "Well, it turns out that there's two kinds of procrastination.",
+            "But there's a second kind of procrastination  that happens in situations when there is no deadline."
+        ],
+        "rel_tgt": [
+            "実は、先延ばしには2種類のタイプがあることがわかります。",
+            "しかし、締め切りがない状況で起こる先延ばしの第二のタイプも存在します。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 116,
+        "src": "There's also all kinds of important things outside of your career  that don't involve any deadlines,  like seeing your family or exercising and taking care of your health,  working on your relationship  or getting out of a relationship that isn't working.",
+        "ref": "また仕事以外で 大切なことには 締め切りのないものが たくさんあります 家族に会いに行くとか 運動し健康を保つとか 人間関係を築くとか うまくいかない関係を 解消するとか",
+        "hyp": "また、キャリア以外にも、家族と過ごしたり、運動をしたり健康を気遣ったり、関係を築いたりうまくいかない関係を解消するなど、締め切りのない重要なことがたくさんあります。",
+        "rel_src": [
+            "But there's a second kind of procrastination  that happens in situations when there is no deadline.",
+            "So if you wanted a career where you're a self-starter --  something in the arts, something entrepreneurial --  there's no deadlines on those things at first, because nothing's happening,  not until you've gone out and done the hard work  to get momentum, get things going."
+        ],
+        "rel_tgt": [
+            "しかし、締め切りがない状況で起こる先延ばしの第二のタイプも存在します。",
+            "だから、自己始動型のキャリアを望むならば、芸術や起業家精神に関連する仕事が良いでしょう。最初は締め切りはありません。何も起こらないからです。実績を積み上げ、勢いをつけて事を進めるまで、何も進まないのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 117,
+        "src": "Now if the procrastinator's only mechanism of doing these hard things  is the Panic Monster, that's a problem,  because in all of these non-deadline situations,  the Panic Monster doesn't show up.",
+        "ref": "先延ばし屋がこういった難しいことを するためのメカニズムが パニック・モンスターだけだったとすると 問題があります 締め切りがない状況では パニック・モンスターは 現れないからです",
+        "hyp": "もし、先延ばし癖の人がこれらの困難なことをする唯一のメカニズムがパニックモンスターであるなら、それは問題です。なぜなら、これらの締め切りのない状況では、パニックモンスターは現れないからです。",
+        "rel_src": [
+            "Now, the Panic Monster explains  all kinds of pretty insane procrastinator behavior,  like how someone like me could spend two weeks  unable to start the opening sentence of a paper,  and then miraculously find the unbelievable work ethic  to stay up all night and write eight pages.",
+            "But there's a second kind of procrastination  that happens in situations when there is no deadline."
+        ],
+        "rel_tgt": [
+            "今、パニックモンスターは、私のような人がペーパーの冒頭文を始めることができないまま2週間を過ごし、その後奇跡的に信じられないほどの労働倫理を見つけて徹夜で8ページ書くなど、あらゆる種類のかなり狂った先延ばし行動を説明します。",
+            "しかし、締め切りがない状況で起こる先延ばしの第二のタイプも存在します。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 118,
+        "src": "He has nothing to wake up for,  so the effects of procrastination, they're not contained;  they just extend outward forever.",
+        "ref": "目覚めさせるものがなく 先延ばしの影響が 限定されず いつまでも 先延ばしし続ける ことになります",
+        "hyp": "彼には目覚めるべき理由がないため、先延ばしの影響は抑えられず、永遠に広がり続けます。",
+        "rel_src": [
+            "But there's a second kind of procrastination  that happens in situations when there is no deadline.",
+            "So if you wanted a career where you're a self-starter --  something in the arts, something entrepreneurial --  there's no deadlines on those things at first, because nothing's happening,  not until you've gone out and done the hard work  to get momentum, get things going."
+        ],
+        "rel_tgt": [
+            "しかし、締め切りがない状況で起こる先延ばしの第二のタイプも存在します。",
+            "だから、自己始動型のキャリアを望むならば、芸術や起業家精神に関連する仕事が良いでしょう。最初は締め切りはありません。何も起こらないからです。実績を積み上げ、勢いをつけて事を進めるまで、何も進まないのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 119,
+        "src": "And it's this long-term kind of procrastination  that's much less visible and much less talked about  than the funnier, short-term deadline-based kind.",
+        "ref": "そのような長期的な類の 先延ばしは 滑稽で短期的な 締め切りのある先延ばしに比べ 目に付きにくく 語られることもありません 通常 ひとり静かに 苛まれることになり",
+        "hyp": "そして、これは、より長期的な種類の先延ばしであり、より目立たず、より話題にならないものです。楽しい、短期的な締め切りに基づくものよりも。",
+        "new_src_summary": "The writer reflects on their experience as a government major in college, where they struggled with procrastination while writing papers, leading to pulling two all-nighters to complete a 90-page senior thesis just before the deadline. Surprisingly, the thesis was praised as the best the school had ever seen. This experience led the writer, now a writer-blogger, to explore procrastination further, including scanning their own brain in an MRI lab to study the differences in the brains of procrastinators. The procrastinator's brain is shown to have an Instant Gratification Monkey, which prioritizes instant gratification over productivity and leads to distractions that make it difficult to focus on work. The concept of the Rational Decision-Maker and the Monkey in our brains is discussed, highlighting the conflict between doing easy and fun things versus making long-term plans and decisions. It emphasizes the importance of balancing immediate gratification with long-term goals and the tendency for procrastinators to spend time in the \"Dark Playground\" where leisure activities occur when they shouldn't. The paragraph also discusses the concept of the Dark Playground, where procrastination occurs, and introduces the Panic Monster as the force that motivates procrastinators to take action when faced with impending deadlines or consequences. The author shares a personal anecdote about being invited to do a TED Talk and how the Panic Monster ultimately pushes them to start working on the talk despite the Monkey's distractions. The overall tone is reflective, humorous, and self-deprecating, focusing on the negative impact of the Instant Gratification Monkey on productivity and the internal struggle between instant gratification and future planning. The paragraph discusses the concept of procrastination, with the Panic Monster representing the urge to procrastinate and the deadline-driven nature of some tasks. The author received a significant response from people in various professions who struggle with procrastination. The paragraph highlights the contrast between the lighthearted tone of discussing procrastination and the serious impact it has on people's lives. It distinguishes between deadline-driven procrastination and procrastination in situations without deadlines, emphasizing the long-term negative effects of the latter. The author raises concerns about the lack of motivation in non-deadline situations, leading to perpetual procrastination.",
+        "new_tgt_summary": "政治学を専攻し、卒業論文を書く際に先延ばしをしてしまった著者は、脳のMRIスキャンを通じて、先延ばしをする人の脳に即時報酬を求めるモンキーが存在し、作業を先延ばしにしてしまうことを発見した。一方、人間は合理的な意思決定者であり、未来をイメージし、長期的な計画を立てる能力がある。先延ばしをする人々は、暗黒の遊び場で楽しんでいると思っているが、実際には罪悪感や恐れ、不安、自己嫌悪に満ちている。彼らの行動を支配するのはパニックモンスターと呼ばれる存在であり、重要な瞬間に目を覚ます。締め切りのある場合とない場合で影響が異なり、先延ばしの癖を持つ人々は、締め切りのない状況においても効果的に行動するためのメカニズムを見つける必要がある。TEDトークに招待され、興奮と同時に恐れを感じる著者は、合理的な意思決定者がパニックモンスターを制御し、準備を始めることができることを強調している。簡単で楽しいことを楽しむことも大切だが、大局を考えて困難なことに取り組むことも重要である。",
+        "rel_src": [
+            "But there's a second kind of procrastination  that happens in situations when there is no deadline.",
+            "He has nothing to wake up for,  so the effects of procrastination, they're not contained;  they just extend outward forever."
+        ],
+        "rel_tgt": [
+            "しかし、締め切りがない状況で起こる先延ばしの第二のタイプも存在します。",
+            "彼には目覚めるべき理由がないため、先延ばしの影響は抑えられず、永遠に広がり続けます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 120,
+        "src": "It's usually suffered quietly and privately.",
+        "ref": "長期的で大きな 不幸や後悔の",
+        "hyp": "通常、静かに、そして個人的に苦しんでいます。",
+        "rel_src": [
+            "These people were writing with intense frustration  about what procrastination had done to their lives,  about what this Monkey had done to them.",
+            "And it's this long-term kind of procrastination  that's much less visible and much less talked about  than the funnier, short-term deadline-based kind."
+        ],
+        "rel_tgt": [
+            "これらの人々は、先延ばし行動が彼らの人生に与えた影響について、このモンキーが彼らにしたことについて、強い欠乏感を持って書いていました。",
+            "そして、これは、より長期的な種類の先延ばしであり、より目立たず、より話題にならないものです。楽しい、短期的な締め切りに基づくものよりも。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 121,
+        "src": "And it can be the source  And I thought, that's why those people are emailing,  and that's why they're in such a bad place.",
+        "ref": "源になり得ます それが あの人たちが メールを書いた理由であり そんな酷い状況にある 理由なんだと思いました",
+        "hyp": "そして、それが原因であることがあります。私は考えました、だからこそそれらの人々がメールをしているのだと、そしてだからこそ彼らがそのような悪い状況にあるのだと。",
+        "rel_src": [
+            "These people were writing with intense frustration  about what procrastination had done to their lives,  about what this Monkey had done to them.",
+            "And I thought about this, and I said,  well, if the procrastinator's system works, then what's going on?"
+        ],
+        "rel_tgt": [
+            "これらの人々は、先延ばし行動が彼らの人生に与えた影響について、このモンキーが彼らにしたことについて、強い欠乏感を持って書いていました。",
+            "そして、私はこれについて考えました。そして、もし先延ばし者のシステムが機能しているのであれば、何が起こっているのかと言いました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 122,
+        "src": "It's not that they're cramming for some project.",
+        "ref": "何かのプロジェクトで缶詰に なっているわけではありません",
+        "hyp": "彼らがプロジェクトのために詰め込んでいるわけではありません。",
+        "rel_src": [
+            "But there's a second kind of procrastination  that happens in situations when there is no deadline.",
+            "Now if the procrastinator's only mechanism of doing these hard things  is the Panic Monster, that's a problem,  because in all of these non-deadline situations,  the Panic Monster doesn't show up."
+        ],
+        "rel_tgt": [
+            "しかし、締め切りがない状況で起こる先延ばしの第二のタイプも存在します。",
+            "もし、先延ばし癖の人がこれらの困難なことをする唯一のメカニズムがパニックモンスターであるなら、それは問題です。なぜなら、これらの締め切りのない状況では、パニックモンスターは現れないからです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 123,
+        "src": "It's that long-term procrastination has made them feel like a spectator,  at times, in their own lives.",
+        "ref": "長期的な先延ばしは 自分の人生に対し 傍観者のように感じさせます",
+        "hyp": "長期的な先延ばしのせいで、彼らは自分の人生の中で時折、観客のように感じるようになりました。",
+        "rel_src": [
+            "He has nothing to wake up for,  so the effects of procrastination, they're not contained;  they just extend outward forever.",
+            "And it's this long-term kind of procrastination  that's much less visible and much less talked about  than the funnier, short-term deadline-based kind."
+        ],
+        "rel_tgt": [
+            "彼には目覚めるべき理由がないため、先延ばしの影響は抑えられず、永遠に広がり続けます。",
+            "そして、これは、より長期的な種類の先延ばしであり、より目立たず、より話題にならないものです。楽しい、短期的な締め切りに基づくものよりも。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 124,
+        "src": "The frustration is not that they couldn't achieve their dreams;  it's that they weren't even able to start chasing them.",
+        "ref": "彼らの苛立ちは 夢を実現できないことではなく 夢を追い始めることさえ できずにいることなのです",
+        "hyp": "彼らが夢を実現できなかったことが悔しいのではなく、それを追いかけることさえできなかったことが悔しいのです。",
+        "rel_src": [
+            "So if you wanted a career where you're a self-starter --  something in the arts, something entrepreneurial --  there's no deadlines on those things at first, because nothing's happening,  not until you've gone out and done the hard work  to get momentum, get things going.",
+            "There's also all kinds of important things outside of your career  that don't involve any deadlines,  like seeing your family or exercising and taking care of your health,  working on your relationship  or getting out of a relationship that isn't working."
+        ],
+        "rel_tgt": [
+            "だから、自己始動型のキャリアを望むならば、芸術や起業家精神に関連する仕事が良いでしょう。最初は締め切りはありません。何も起こらないからです。実績を積み上げ、勢いをつけて事を進めるまで、何も進まないのです。",
+            "また、キャリア以外にも、家族と過ごしたり、運動をしたり健康を気遣ったり、関係を築いたりうまくいかない関係を解消するなど、締め切りのない重要なことがたくさんあります。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 125,
+        "src": "So I read these emails and I had a little bit of an epiphany --  that I don't think non-procrastinators exist.",
+        "ref": "そういうメールを読んでいて ひらめいたことがあります 先延ばし屋でない人なんて いないということです",
+        "hyp": "だから、私はこれらのメールを読んで、少しの啓示を受けました―非先延ばし者は存在しないと思うのです。",
+        "rel_src": [
+            "These people were writing with intense frustration  about what procrastination had done to their lives,  about what this Monkey had done to them.",
+            "He has nothing to wake up for,  so the effects of procrastination, they're not contained;  they just extend outward forever."
+        ],
+        "rel_tgt": [
+            "これらの人々は、先延ばし行動が彼らの人生に与えた影響について、このモンキーが彼らにしたことについて、強い欠乏感を持って書いていました。",
+            "彼には目覚めるべき理由がないため、先延ばしの影響は抑えられず、永遠に広がり続けます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 126,
+        "src": "That's right -- I think all of you are procrastinators.",
+        "ref": "みんな先延ばし屋なんです",
+        "hyp": "そうですね―私は皆さんが先延ばし癖のある人だと思います。",
+        "rel_src": [
+            "Well, it turns out that there's two kinds of procrastination.",
+            "Now if the procrastinator's only mechanism of doing these hard things  is the Panic Monster, that's a problem,  because in all of these non-deadline situations,  the Panic Monster doesn't show up."
+        ],
+        "rel_tgt": [
+            "実は、先延ばしには2種類のタイプがあることがわかります。",
+            "もし、先延ばし癖の人がこれらの困難なことをする唯一のメカニズムがパニックモンスターであるなら、それは問題です。なぜなら、これらの締め切りのない状況では、パニックモンスターは現れないからです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 127,
+        "src": "Now, you might not all be a mess,  like some of us,    and some of you may have a healthy relationship with deadlines,  but remember: the Monkey's sneakiest trick  is when the deadlines aren't there.",
+        "ref": "私みたいにメチャクチャでは ないにしても  締め切りと健全な関係を 保てているかもしれません でも おサルの問題が 一番嫌らしいのは 締め切りがない時だということに 気を付けてください",
+        "hyp": "皆が私たちのように散らかっているわけではないかもしれませんし、いくつかの人々は締め切りと健全な関係を持っているかもしれませんが、覚えておいてください：モンキーの一番巧妙なトリックは、締め切りがない時に起こります。",
+        "rel_src": [
+            "But there's a second kind of procrastination  that happens in situations when there is no deadline.",
+            "Now if the procrastinator's only mechanism of doing these hard things  is the Panic Monster, that's a problem,  because in all of these non-deadline situations,  the Panic Monster doesn't show up."
+        ],
+        "rel_tgt": [
+            "しかし、締め切りがない状況で起こる先延ばしの第二のタイプも存在します。",
+            "もし、先延ばし癖の人がこれらの困難なことをする唯一のメカニズムがパニックモンスターであるなら、それは問題です。なぜなら、これらの締め切りのない状況では、パニックモンスターは現れないからです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 128,
+        "src": "Now, I want to show you one last thing.",
+        "ref": "最後に１つ お見せしたいものがあります",
+        "hyp": "さて、最後に一つだけお見せしたいことがあります。",
+        "rel_src": [
+            "So if you wanted a career where you're a self-starter --  something in the arts, something entrepreneurial --  there's no deadlines on those things at first, because nothing's happening,  not until you've gone out and done the hard work  to get momentum, get things going.",
+            "Now if the procrastinator's only mechanism of doing these hard things  is the Panic Monster, that's a problem,  because in all of these non-deadline situations,  the Panic Monster doesn't show up."
+        ],
+        "rel_tgt": [
+            "だから、自己始動型のキャリアを望むならば、芸術や起業家精神に関連する仕事が良いでしょう。最初は締め切りはありません。何も起こらないからです。実績を積み上げ、勢いをつけて事を進めるまで、何も進まないのです。",
+            "もし、先延ばし癖の人がこれらの困難なことをする唯一のメカニズムがパニックモンスターであるなら、それは問題です。なぜなら、これらの締め切りのない状況では、パニックモンスターは現れないからです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 129,
+        "src": "I call this a Life Calendar.",
+        "ref": "｢人生カレンダー｣です",
+        "hyp": "これを人生カレンダーと呼んでいます。",
+        "rel_src": [
+            "So if you wanted a career where you're a self-starter --  something in the arts, something entrepreneurial --  there's no deadlines on those things at first, because nothing's happening,  not until you've gone out and done the hard work  to get momentum, get things going.",
+            "There's also all kinds of important things outside of your career  that don't involve any deadlines,  like seeing your family or exercising and taking care of your health,  working on your relationship  or getting out of a relationship that isn't working."
+        ],
+        "rel_tgt": [
+            "だから、自己始動型のキャリアを望むならば、芸術や起業家精神に関連する仕事が良いでしょう。最初は締め切りはありません。何も起こらないからです。実績を積み上げ、勢いをつけて事を進めるまで、何も進まないのです。",
+            "また、キャリア以外にも、家族と過ごしたり、運動をしたり健康を気遣ったり、関係を築いたりうまくいかない関係を解消するなど、締め切りのない重要なことがたくさんあります。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 130,
+        "src": "That's one box for every week of a 90-year life.",
+        "ref": "それぞれの箱は 90年の人生における 各週にあたります",
+        "hyp": "それは、90年間の人生の各週に1つのボックスです。",
+        "rel_src": [
+            "Now, I want to show you one last thing.",
+            "I call this a Life Calendar."
+        ],
+        "rel_tgt": [
+            "さて、最後に一つだけお見せしたいことがあります。",
+            "これを人生カレンダーと呼んでいます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 131,
+        "src": "That's not that many boxes,  especially since we've already used a bunch of those.",
+        "ref": "そんなに沢山ある わけではありません おまけに私たちはもう かなり使っていますから",
+        "hyp": "それほど多くのボックスではありません、特に私たちがそれらの多くを既に使用している場合。",
+        "rel_src": [
+            "I call this a Life Calendar.",
+            "That's one box for every week of a 90-year life."
+        ],
+        "rel_tgt": [
+            "これを人生カレンダーと呼んでいます。",
+            "それは、90年間の人生の各週に1つのボックスです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 132,
+        "src": "So I think we need to all take a long, hard look at that calendar.",
+        "ref": "私たちはみんな このカレンダーを じっくり眺めてみるべきだと思います",
+        "hyp": "だから、私たちはみんなそのカレンダーをじっくりとよく見直す必要があると思います。",
+        "rel_src": [
+            "Now if the procrastinator's only mechanism of doing these hard things  is the Panic Monster, that's a problem,  because in all of these non-deadline situations,  the Panic Monster doesn't show up.",
+            "It's usually suffered quietly and privately."
+        ],
+        "rel_tgt": [
+            "もし、先延ばし癖の人がこれらの困難なことをする唯一のメカニズムがパニックモンスターであるなら、それは問題です。なぜなら、これらの締め切りのない状況では、パニックモンスターは現れないからです。",
+            "通常、静かに、そして個人的に苦しんでいます。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 133,
+        "src": "We need to think about what we're really procrastinating on,  because everyone is procrastinating on something in life.",
+        "ref": "自分が本当に先延ばし していることは何なのか 誰でも何かは先延ばし しているはずだからです",
+        "hyp": "人々は人生の何かを先延ばしにしているので、我々は本当に何を先延ばしにしているのか考える必要があります。",
+        "rel_src": [
+            "It's that long-term procrastination has made them feel like a spectator,  at times, in their own lives.",
+            "So I read these emails and I had a little bit of an epiphany --  that I don't think non-procrastinators exist."
+        ],
+        "rel_tgt": [
+            "長期的な先延ばしのせいで、彼らは自分の人生の中で時折、観客のように感じるようになりました。",
+            "だから、私はこれらのメールを読んで、少しの啓示を受けました―非先延ばし者は存在しないと思うのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 134,
+        "src": "We need to stay aware of the Instant Gratification Monkey.",
+        "ref": "すぐにご褒美が欲しいおサルのことを 意識している必要があります",
+        "hyp": "即時報酬を求めるモンキーに注意を払う必要があります。",
+        "rel_src": [
+            "Now if the procrastinator's only mechanism of doing these hard things  is the Panic Monster, that's a problem,  because in all of these non-deadline situations,  the Panic Monster doesn't show up.",
+            "Now, you might not all be a mess,  like some of us,    and some of you may have a healthy relationship with deadlines,  but remember: the Monkey's sneakiest trick  is when the deadlines aren't there."
+        ],
+        "rel_tgt": [
+            "もし、先延ばし癖の人がこれらの困難なことをする唯一のメカニズムがパニックモンスターであるなら、それは問題です。なぜなら、これらの締め切りのない状況では、パニックモンスターは現れないからです。",
+            "皆が私たちのように散らかっているわけではないかもしれませんし、いくつかの人々は締め切りと健全な関係を持っているかもしれませんが、覚えておいてください：モンキーの一番巧妙なトリックは、締め切りがない時に起こります。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 135,
+        "src": "That's a job for all of us.",
+        "ref": "これは我々みんなに とっての仕事です",
+        "hyp": "それは私たち全員の仕事です。",
+        "rel_src": [
+            "So I read these emails and I had a little bit of an epiphany --  that I don't think non-procrastinators exist.",
+            "That's right -- I think all of you are procrastinators."
+        ],
+        "rel_tgt": [
+            "だから、私はこれらのメールを読んで、少しの啓示を受けました―非先延ばし者は存在しないと思うのです。",
+            "そうですね―私は皆さんが先延ばし癖のある人だと思います。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 136,
+        "src": "And because there's not that many boxes on there,  it's a job that should probably start today.",
+        "ref": "箱がそんなに沢山は ないことを考えると この仕事は 今日にでも 始めるべきでしょう",
+        "hyp": "そして、そこにはそれほど多くのボックスがないので、おそらく今日から始めるべき仕事です。",
+        "rel_src": [
+            "That's one box for every week of a 90-year life.",
+            "So I think we need to all take a long, hard look at that calendar."
+        ],
+        "rel_tgt": [
+            "それは、90年間の人生の各週に1つのボックスです。",
+            "だから、私たちはみんなそのカレンダーをじっくりとよく見直す必要があると思います。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 137,
+        "src": "Well, maybe not today, but ...",
+        "ref": "まあ 今日すぐじゃ ないにしても",
+        "hyp": "まあ、今日じゃないかもしれませんが、...",
+        "rel_src": [
+            "Now, you might not all be a mess,  like some of us,    and some of you may have a healthy relationship with deadlines,  but remember: the Monkey's sneakiest trick  is when the deadlines aren't there.",
+            "And because there's not that many boxes on there,  it's a job that should probably start today."
+        ],
+        "rel_tgt": [
+            "皆が私たちのように散らかっているわけではないかもしれませんし、いくつかの人々は締め切りと健全な関係を持っているかもしれませんが、覚えておいてください：モンキーの一番巧妙なトリックは、締め切りがない時に起こります。",
+            "そして、そこにはそれほど多くのボックスがないので、おそらく今日から始めるべき仕事です。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 138,
+        "src": "You know.",
+        "ref": "できれば",
+        "hyp": "わかっている。",
+        "rel_src": [
+            "So I read these emails and I had a little bit of an epiphany --  that I don't think non-procrastinators exist.",
+            "That's right -- I think all of you are procrastinators."
+        ],
+        "rel_tgt": [
+            "だから、私はこれらのメールを読んで、少しの啓示を受けました―非先延ばし者は存在しないと思うのです。",
+            "そうですね―私は皆さんが先延ばし癖のある人だと思います。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 139,
+        "src": "Sometime soon.",
+        "ref": "遠くないうちに",
+        "hyp": "近いうちに。",
+        "new_src_summary": "The writer reflects on their experience as a government major in college, where they struggled with procrastination while writing papers, leading to pulling two all-nighters to complete a 90-page senior thesis just before the deadline. Surprisingly, the thesis was praised as the best the school had ever seen. This experience led the writer, now a writer-blogger, to explore procrastination further, including scanning their own brain in an MRI lab to study the differences in the brains of procrastinators. The procrastinator's brain is shown to have an Instant Gratification Monkey, which prioritizes instant gratification over productivity and leads to distractions that make it difficult to focus on work. The concept of the Rational Decision-Maker and the Monkey in our brains is discussed, highlighting the conflict between doing easy and fun things versus making long-term plans and decisions. It emphasizes the importance of balancing immediate gratification with long-term goals and the tendency for procrastinators to spend time in the \"Dark Playground\" where leisure activities occur when they shouldn't. The paragraph also discusses the concept of the Dark Playground, where procrastination occurs, and introduces the Panic Monster as the force that motivates procrastinators to take action when faced with impending deadlines or consequences. The author shares a personal anecdote about being invited to do a TED Talk and how the Panic Monster ultimately pushes them to start working on the talk despite the Monkey's distractions. The overall tone is reflective, humorous, and self-deprecating, focusing on the negative impact of the Instant Gratification Monkey on productivity and the internal struggle between instant gratification and future planning. The paragraph discusses the concept of procrastination, with the Panic Monster representing the urge to procrastinate and the deadline-driven nature of some tasks. The author received a significant response from people in various professions who struggle with procrastination. The paragraph highlights the contrast between the lighthearted tone of discussing procrastination and the serious impact it has on people's lives. It distinguishes between deadline-driven procrastination and procrastination in situations without deadlines, emphasizing the long-term negative effects of the latter. The author raises concerns about the lack of motivation in non-deadline situations, leading to perpetual procrastination. The paragraph also discusses long-term procrastination, which is less visible and talked about than short-term deadline-based procrastination, highlighting how it can make individuals feel like spectators in their own lives and prevent them from chasing their dreams. The author argues that everyone is a procrastinator to some extent and encourages readers to reflect on what they are procrastinating on and to be aware of the Instant Gratification Monkey, urging readers to take action sooner rather than later.",
+        "new_tgt_summary": "政治学を専攻し、卒業論文を書く際に先延ばしをしてしまった著者は、脳のMRIスキャンを通じて、先延ばしをする人の脳に即時報酬を求めるモンキーが存在し、作業を先延ばしにしてしまうことを発見した。一方、人間は合理的な意思決定者であり、未来をイメージし、長期的な計画を立てる能力がある。先延ばしをする人々は、暗黒の遊び場で楽しんでいると思っているが、実際には罪悪感や恐れ、不安、自己嫌悪に満ちている。彼らの行動を支配するのはパニックモンスターと呼ばれる存在であり、重要な瞬間に目を覚ます。締め切りのある場合とない場合で影響が異なり、先延ばしの癖を持つ人々は、締め切りのない状況においても効果的に行動するためのメカニズムを見つける必要がある。TEDトークに招待され、興奮と同時に恐れを感じる著者は、合理的な意思決定者がパニックモンスターを制御し、準備を始めることができることを強調している。長期的な先延ばしは目立たず、個人的な苦しみをもたらす。先延ばし癖は誰もが持っており、人生のカレンダーを見直し、何を先延ばしにしているか考える必要がある。即時報酬を求めるモンキーに注意し、今日から始めるべき仕事を見つける。簡単で楽しいことを楽しむことも大切だが、大局を考えて困難なことに取り組むことも重要である。",
+        "rel_src": [
+            "And because there's not that many boxes on there,  it's a job that should probably start today.",
+            "Well, maybe not today, but ..."
+        ],
+        "rel_tgt": [
+            "そして、そこにはそれほど多くのボックスがないので、おそらく今日から始めるべき仕事です。",
+            "まあ、今日じゃないかもしれませんが、..."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    },
+    {
+        "idx": 140,
+        "src": "Thank you.",
+        "ref": "ありがとうございました",
+        "hyp": "ありがとうございます。",
+        "rel_src": [
+            "Now, you might not all be a mess,  like some of us,    and some of you may have a healthy relationship with deadlines,  but remember: the Monkey's sneakiest trick  is when the deadlines aren't there.",
+            "We need to think about what we're really procrastinating on,  because everyone is procrastinating on something in life."
+        ],
+        "rel_tgt": [
+            "皆が私たちのように散らかっているわけではないかもしれませんし、いくつかの人々は締め切りと健全な関係を持っているかもしれませんが、覚えておいてください：モンキーの一番巧妙なトリックは、締め切りがない時に起こります。",
+            "人々は人生の何かを先延ばしにしているので、我々は本当に何を先延ばしにしているのか考える必要があります。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Tim Urban": "ティム・アーバン",
+            "Wait But Why": "Wait But Why",
+            "Nancy Kerrigan": "ナンシー・カリガン",
+            "Tonya Harding": "トーニャ・ハーディング",
+            "Wikipedia": "ウィキペディア",
+            "Richard Feynman": "リチャード・ファインマン",
+            "Justin Bieber": "ジャスティン・ビーバー",
+            "TED": "TED"
+        }
+    }
+]

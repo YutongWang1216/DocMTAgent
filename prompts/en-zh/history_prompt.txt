@@ -1,0 +1,21 @@
+You are an {src_lang}-{tgt_lang} bilingual expert. Given an {src_lang} source sentence with its {tgt_lang} translation, you need to annotate all the proper nouns in the {src_lang} source sentence and their corresponding translations in the {tgt_lang} translation sentence. Here are some examples for you:
+
+Example 1:
+<{src_lang} source> NASA's Kepler mission has discovered  thousands of potential planets around other stars,  indicating that Earth is but one of billions of planets in our galaxy.
+<{tgt_lang} translation> 美国国家航空航天局的开普勒任务已经发现了围绕着其他恒星的数千颗潜在的行星， 这也表明了地球只是银河系中数十亿行星中的一颗。
+<Proper nouns> "NASA" - "美国国家航空航天局", "Kepler" - "开普勒", "Earth" - "地球"
+
+Example 2:
+<{src_lang} source> I had just driven home,  it was around midnight in the dead of Montreal winter, I had been visiting my friend, Jeff, across town, and the thermometer on the front porch read minus 40 degrees -- and don't bother asking if that's Celsius or Fahrenheit, minus 40 is where the two scales meet -- it was very cold.
+<{tgt_lang} translation> 我开车回到家，在Montreal的寒冬，大约午夜时分，我开车从城镇一边到另一边，去看望我的朋友杰夫，门廊上的温度计显示零下40度——不需要知道是摄氏度还是华氏度，到了零下40度，两个温度显示都一样——天气非常冷。
+<Proper nouns> "Montreal" - "N/A", "Jeff" - "杰夫", "Celsius" - "摄氏度", "Fahrenheit" - "华氏度"
+
+Example 3:
+<{src_lang} source> To make the case to the National Health Service that more resources were needed for autistic children and their families, Lorna and her colleague Judith Gould decided to do something that should have been done 30 years earlier.
+<{tgt_lang} translation> 为了向国家医疗保健系统证明，自闭症儿童和他们的家庭需要更多的资源，Lorna和她的同事朱迪思·古尔德决定去做一些三十年前就应该被完成的事情。
+<Proper nouns> "National Health Service" - "国家医疗保健系统", "Lorna" - "N/A", "Judith Gould" - "朱迪思·古尔德"
+
+If there isn't any proper noun in the sentence, just answer with "N/A". Now annotate all the proper nouns in the following sentence pair:
+<{src_lang} source> {src}
+<{tgt_lang} translation> {tgt}
+<Proper nouns> 

@@ -1,0 +1,2503 @@
+[
+    {
+        "idx": 0,
+        "src": "小时候, 我一直幻想着海洋。",
+        "ref": "As a kid, I used to dream about the ocean.",
+        "hyp": "When I was a child, I always fantasized about the ocean.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 1,
+        "src": "那里色彩缤纷、充满活力， 生活着许多长得像外星生物的动物。",
+        "ref": "It was this wild place full of color and life,  home to these alien-looking, fantastical creatures.",
+        "hyp": "There, in a riot of colors and brimming with vitality, many creatures that look like alien beings live.",
+        "rel_src": [
+            "小时候, 我一直幻想着海洋。"
+        ],
+        "rel_tgt": [
+            "When I was a child, I always fantasized about the ocean."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 2,
+        "src": "我想象过位于食物链顶端的大鲨鱼， 也幻想过海龟在珊瑚礁间优雅起舞。",
+        "ref": "I pictured big sharks ruling the food chain  and saw graceful sea turtles dancing across coral reefs.",
+        "hyp": "I imagined the great sharks at the top of the food chain, and fantasized about sea turtles dancing gracefully among the coral reefs.",
+        "rel_src": [
+            "小时候, 我一直幻想着海洋。",
+            "那里色彩缤纷、充满活力， 生活着许多长得像外星生物的动物。"
+        ],
+        "rel_tgt": [
+            "When I was a child, I always fantasized about the ocean.",
+            "There, in a riot of colors and brimming with vitality, many creatures that look like alien beings live."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 3,
+        "src": "作为从海洋生物学家转行的摄影师， 我职业生涯的大部分时间都在寻找 那些出现在我小时候幻想中的地方。",
+        "ref": "As a marine biologist turned photographer,  I've spent most of my career looking for places  as magical as those I used to dream about when I was little.",
+        "hyp": "As a photographer who transitioned from being a marine biologist, much of my career has been spent seeking out the places that featured in my childhood fantasies.",
+        "rel_src": [
+            "小时候, 我一直幻想着海洋。",
+            "我想象过位于食物链顶端的大鲨鱼， 也幻想过海龟在珊瑚礁间优雅起舞。"
+        ],
+        "rel_tgt": [
+            "When I was a child, I always fantasized about the ocean.",
+            "I imagined the great sharks at the top of the food chain, and fantasized about sea turtles dancing gracefully among the coral reefs."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 4,
+        "src": "如大家所见， 我从很小就开始在水中冒险了。",
+        "ref": "As you can see,  I began exploring bodies of water at a fairly young age.",
+        "hyp": "As you can see, I started taking to the water on adventures from a very young age.",
+        "rel_src": [
+            "小时候, 我一直幻想着海洋。",
+            "作为从海洋生物学家转行的摄影师， 我职业生涯的大部分时间都在寻找 那些出现在我小时候幻想中的地方。"
+        ],
+        "rel_tgt": [
+            "When I was a child, I always fantasized about the ocean.",
+            "As a photographer who transitioned from being a marine biologist, much of my career has been spent seeking out the places that featured in my childhood fantasies."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 5,
+        "src": "但第一次真正潜入水中， 发生在我10岁那年。",
+        "ref": "But the first time I truly went underwater,  I was about 10 years old.",
+        "hyp": "But my first real dive underwater took place when I was 10 years old.",
+        "rel_src": [
+            "作为从海洋生物学家转行的摄影师， 我职业生涯的大部分时间都在寻找 那些出现在我小时候幻想中的地方。",
+            "如大家所见， 我从很小就开始在水中冒险了。"
+        ],
+        "rel_tgt": [
+            "As a photographer who transitioned from being a marine biologist, much of my career has been spent seeking out the places that featured in my childhood fantasies.",
+            "As you can see, I started taking to the water on adventures from a very young age."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 6,
+        "src": "我现在还能清楚地记得， 当时我用力划水 为了够到一根锈迹斑斑， 躺在珊瑚礁上的炮筒。",
+        "ref": "And I can still vividly remember furiously finning  to reach this old, encrusted cannon on a shallow coral reef.",
+        "hyp": "I can still vividly recall how I paddled hard to reach a rusted cannon barrel lying on the coral reef.",
+        "rel_src": [
+            "我想象过位于食物链顶端的大鲨鱼， 也幻想过海龟在珊瑚礁间优雅起舞。",
+            "作为从海洋生物学家转行的摄影师， 我职业生涯的大部分时间都在寻找 那些出现在我小时候幻想中的地方。"
+        ],
+        "rel_tgt": [
+            "I imagined the great sharks at the top of the food chain, and fantasized about sea turtles dancing gracefully among the coral reefs.",
+            "As a photographer who transitioned from being a marine biologist, much of my career has been spent seeking out the places that featured in my childhood fantasies."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 7,
+        "src": "最后，我成功够到了炮筒， 抬头一看，发现自己被鱼群包围了， 各种颜色的鱼，像彩虹一样。",
+        "ref": "And when I finally managed to grab hold of it,  I looked up, and I was instantly surrounded by fish  in all colors of the rainbow.",
+        "hyp": "Finally, I managed to reach the cannon barrel, and when I looked up, I found myself surrounded by a school of fish, a rainbow of colors.",
+        "rel_src": [
+            "作为从海洋生物学家转行的摄影师， 我职业生涯的大部分时间都在寻找 那些出现在我小时候幻想中的地方。",
+            "我现在还能清楚地记得， 当时我用力划水 为了够到一根锈迹斑斑， 躺在珊瑚礁上的炮筒。"
+        ],
+        "rel_tgt": [
+            "As a photographer who transitioned from being a marine biologist, much of my career has been spent seeking out the places that featured in my childhood fantasies.",
+            "I can still vividly recall how I paddled hard to reach a rusted cannon barrel lying on the coral reef."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 8,
+        "src": "从那天起，我深深爱上了海洋。",
+        "ref": "That was the day I fell in love with the ocean.",
+        "hyp": "Since that day, I fell deeply in love with the ocean.",
+        "rel_src": [
+            "我想象过位于食物链顶端的大鲨鱼， 也幻想过海龟在珊瑚礁间优雅起舞。",
+            "作为从海洋生物学家转行的摄影师， 我职业生涯的大部分时间都在寻找 那些出现在我小时候幻想中的地方。"
+        ],
+        "rel_tgt": [
+            "I imagined the great sharks at the top of the food chain, and fantasized about sea turtles dancing gracefully among the coral reefs.",
+            "As a photographer who transitioned from being a marine biologist, much of my career has been spent seeking out the places that featured in my childhood fantasies."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 9,
+        "src": "（字幕：托马斯•佩斯查克） （字幕：环保摄影师） 在过去40年， 我有幸探索了 地球上最美妙的海洋景观， 为《国家地理杂志》 和“拯救我们的海洋”基金会供稿。",
+        "ref": "Thomas Peschak  Conservation Photographer  In my 40 years on this planet,  I've had the great privilege to explore  some of its most incredible seascapes  for National Geographic Magazine  and the Save Our Seas Foundation.",
+        "hyp": "(Subtitle: Thomas Peschak) (Subtitle: Conservation Photographer) Over the past 40 years, I've had the privilege of exploring the most spectacular seascapes on our planet, contributing to National Geographic and the Save Our Seas Foundation.",
+        "rel_src": [
+            "作为从海洋生物学家转行的摄影师， 我职业生涯的大部分时间都在寻找 那些出现在我小时候幻想中的地方。",
+            "从那天起，我深深爱上了海洋。"
+        ],
+        "rel_tgt": [
+            "As a photographer who transitioned from being a marine biologist, much of my career has been spent seeking out the places that featured in my childhood fantasies.",
+            "Since that day, I fell deeply in love with the ocean."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation"
+        }
+    },
+    {
+        "idx": 10,
+        "src": "我的拍摄对象大到巨型鲨鱼， 小到可以在你手掌上游动。",
+        "ref": "I've photographed everything from really, really big sharks  to dainty ones that fit in the palm of your hand.",
+        "hyp": "My subjects range from giant sharks down to creatures so small they could swim in the palm of your hand.",
+        "rel_src": [
+            "我想象过位于食物链顶端的大鲨鱼， 也幻想过海龟在珊瑚礁间优雅起舞。",
+            "作为从海洋生物学家转行的摄影师， 我职业生涯的大部分时间都在寻找 那些出现在我小时候幻想中的地方。"
+        ],
+        "rel_tgt": [
+            "I imagined the great sharks at the top of the food chain, and fantasized about sea turtles dancing gracefully among the coral reefs.",
+            "As a photographer who transitioned from being a marine biologist, much of my career has been spent seeking out the places that featured in my childhood fantasies."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation"
+        }
+    },
+    {
+        "idx": 11,
+        "src": "在加拿大大熊雨林边寒冷的海中， 我遇到过座头鲸就在我身边大快朵颐， 那满嘴鱼腥味让我难忘。",
+        "ref": "in the cold seas off Canada's Great Bear Rainforest.",
+        "hyp": "In the cold waters off the coast of Canada's Great Bear Rainforest, I encountered humpback whales feeding right beside me, their fish-laden breath a memory that lingers.",
+        "rel_src": [
+            "我想象过位于食物链顶端的大鲨鱼， 也幻想过海龟在珊瑚礁间优雅起舞。",
+            "从那天起，我深深爱上了海洋。"
+        ],
+        "rel_tgt": [
+            "I imagined the great sharks at the top of the food chain, and fantasized about sea turtles dancing gracefully among the coral reefs.",
+            "Since that day, I fell deeply in love with the ocean."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest"
+        }
+    },
+    {
+        "idx": 12,
+        "src": "在莫桑比克海峡，我看到了 绿海龟的求爱仪式。",
+        "ref": "And I've been privy to the mating rituals of green sea turtles  in the Mozambique Channel.",
+        "hyp": "In the Mozambique Channel, I witnessed the courtship rituals of green sea turtles.",
+        "rel_src": [
+            "我想象过位于食物链顶端的大鲨鱼， 也幻想过海龟在珊瑚礁间优雅起舞。",
+            "从那天起，我深深爱上了海洋。"
+        ],
+        "rel_tgt": [
+            "I imagined the great sharks at the top of the food chain, and fantasized about sea turtles dancing gracefully among the coral reefs.",
+            "Since that day, I fell deeply in love with the ocean."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel"
+        }
+    },
+    {
+        "idx": 13,
+        "src": "我们每一个人都会 影响海洋，也会被海洋影响。",
+        "ref": "Everyone on this planet affects and is affected by the ocean.",
+        "hyp": "Each and every one of us impacts the ocean, and in turn, is impacted by it.",
+        "rel_src": [
+            "从那天起，我深深爱上了海洋。",
+            "（字幕：托马斯•佩斯查克） （字幕：环保摄影师） 在过去40年， 我有幸探索了 地球上最美妙的海洋景观， 为《国家地理杂志》 和“拯救我们的海洋”基金会供稿。"
+        ],
+        "rel_tgt": [
+            "Since that day, I fell deeply in love with the ocean.",
+            "(Subtitle: Thomas Peschak) (Subtitle: Conservation Photographer) Over the past 40 years, I've had the privilege of exploring the most spectacular seascapes on our planet, contributing to National Geographic and the Save Our Seas Foundation."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel"
+        }
+    },
+    {
+        "idx": 14,
+        "src": "而我小时候梦想过的纯净海洋， 如今已越来越难找到。",
+        "ref": "And the pristine seas I used to dream of as a child  are becoming harder and harder to find.",
+        "hyp": "The pristine oceans of my childhood dreams, however, are becoming increasingly difficult to find.",
+        "rel_src": [
+            "作为从海洋生物学家转行的摄影师， 我职业生涯的大部分时间都在寻找 那些出现在我小时候幻想中的地方。",
+            "从那天起，我深深爱上了海洋。"
+        ],
+        "rel_tgt": [
+            "As a photographer who transitioned from being a marine biologist, much of my career has been spent seeking out the places that featured in my childhood fantasies.",
+            "Since that day, I fell deeply in love with the ocean."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel"
+        }
+    },
+    {
+        "idx": 15,
+        "src": "它们的范围日益缩小， 受到的威胁日益增加。",
+        "ref": "They are becoming more compressed  and more threatened.",
+        "hyp": "Their realm is shrinking ever more, and the threats they face are growing.",
+        "rel_src": [
+            "我们每一个人都会 影响海洋，也会被海洋影响。",
+            "而我小时候梦想过的纯净海洋， 如今已越来越难找到。"
+        ],
+        "rel_tgt": [
+            "Each and every one of us impacts the ocean, and in turn, is impacted by it.",
+            "The pristine oceans of my childhood dreams, however, are becoming increasingly difficult to find."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel"
+        }
+    },
+    {
+        "idx": 16,
+        "src": "我们人类一直占据着地球上 食物链顶端的位置， 我亲眼见到并用相机记录下了这些行为。",
+        "ref": "As we humans continue to maintain our role  as the leading predator on earth,  I've witnessed and photographed many of these ripple effects firsthand.",
+        "hyp": "We humans have always occupied the top of the food chain on this planet, and I have witnessed and documented these behaviors through my camera lens.",
+        "rel_src": [
+            "我想象过位于食物链顶端的大鲨鱼， 也幻想过海龟在珊瑚礁间优雅起舞。",
+            "我的拍摄对象大到巨型鲨鱼， 小到可以在你手掌上游动。"
+        ],
+        "rel_tgt": [
+            "I imagined the great sharks at the top of the food chain, and fantasized about sea turtles dancing gracefully among the coral reefs.",
+            "My subjects range from giant sharks down to creatures so small they could swim in the palm of your hand."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel"
+        }
+    },
+    {
+        "idx": 17,
+        "src": "长久以来，我以为只有震撼的照片 才能让我的观众警醒。",
+        "ref": "For a long time, I thought I had to shock my audience  out of their indifference with disturbing images.",
+        "hyp": "For a long time, I believed that only stunning photographs could jolt my audience awake.",
+        "rel_src": [
+            "（字幕：托马斯•佩斯查克） （字幕：环保摄影师） 在过去40年， 我有幸探索了 地球上最美妙的海洋景观， 为《国家地理杂志》 和“拯救我们的海洋”基金会供稿。",
+            "它们的范围日益缩小， 受到的威胁日益增加。"
+        ],
+        "rel_tgt": [
+            "(Subtitle: Thomas Peschak) (Subtitle: Conservation Photographer) Over the past 40 years, I've had the privilege of exploring the most spectacular seascapes on our planet, contributing to National Geographic and the Save Our Seas Foundation.",
+            "Their realm is shrinking ever more, and the threats they face are growing."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel"
+        }
+    },
+    {
+        "idx": 18,
+        "src": "当然这种看法也是有好处的， 那就是让我回到了原点。",
+        "ref": "And while this approach has merits,  I have come full circle.",
+        "hyp": "Of course, there was an upside to this, which was that it brought me full circle.",
+        "rel_src": [
+            "如大家所见， 我从很小就开始在水中冒险了。",
+            "但第一次真正潜入水中， 发生在我10岁那年。"
+        ],
+        "rel_tgt": [
+            "As you can see, I started taking to the water on adventures from a very young age.",
+            "But my first real dive underwater took place when I was 10 years old."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel"
+        }
+    },
+    {
+        "idx": 19,
+        "src": "我相信带来改变的最好方法 就是传播爱。",
+        "ref": "I believe that the best way for me to effect change  is to sell love.",
+        "hyp": "I believe the best way to effect change is by spreading love.",
+        "new_src_summary": "摘要：\n\n本文段出自环保摄影师托马斯·佩斯查克之口，讲述了他自儿时对海洋的向往与热爱，以及他作为一名摄影师的职业生涯。他从小便对海洋充满了无限的想象，那些色彩斑斓、生机勃勃的海底世界，以及各种奇特的海洋生物，都成为了他心中永恒的梦幻之地。他的摄影生涯始于10岁的一次潜水经历，当时他在珊瑚礁中发现了一根锈迹斑斑的炮筒，而周围环绕的五彩斑斓的鱼群让他彻底爱上了海洋。\n\n在过去的40年里，佩斯查克有幸探索了许多地球上最美的海洋景观，为《国家地理杂志》和“拯救我们的海洋”基金会供稿。他的镜头下，不仅有巨型鲨鱼这样的庞然大物，也有小巧玲珑、能在手掌上游动的小鱼。在加拿大的大熊雨林边，他曾近距离目睹座头鲸的进食场景，那股浓烈的鱼腥味至今仍记忆犹新；在莫桑比克海峡，他还见证了绿海龟的求爱仪式。\n\n然而，随着人类活动的加剧，曾经纯净的海洋环境正面临着前所未有的挑战。海洋的范围在不断缩小，受到的威胁也在不断增加。作为食物链顶端的人类，我们对海洋的影响日益显著。佩斯查克意识到，仅仅通过震撼人心的照片来唤醒公众意识已经不够，他开始思考如何更有效地传递海洋保护的信息。\n\n风格与语气：\n\n本文段以第一人称叙述，语言生动形象，情感真挚。作者通过回忆童年梦想与个人成长经历，展现了他对海洋的深厚情感。同时，他也表达了对当前海洋环境问题的担忧，呼吁人们关注海洋保护。整体风格自然流畅，既有对美好回忆的怀念，也有对现实问题的深刻反思，体现了作者作为环保摄影师的责任感和使命感。\n\n领域：\n\n本文段主要涉及的领域是海洋生物学与环保摄影。通过作者的个人经历，读者可以了解到海洋生态的多样性和美丽，同时也认识到人类活动对海洋环境造成的负面影响。此外，文章还反映了摄影师在记录自然美景的同时，承担起传播环保理念的社会责任。\n\n关键词汇：\n\n海洋、环保摄影师、《国家地理杂志》、“拯救我们的海洋”基金会、巨型鲨鱼、座头鲸、绿海龟、珊瑚礁、加拿大、莫桑比克海峡、食物链、人类活动、海洋保护。",
+        "new_tgt_summary": "The author, Thomas Peschak, a conservation photographer and former marine biologist, has been fascinated with the ocean since childhood, particularly its diverse and vibrant marine life. His passion for underwater exploration began at age 10 when he encountered a school of colorful fish during his first dive. Throughout his 40-year career, Peschak has documented the beauty and fragility of marine environments around the world, from humpback whales in Canada's Great Bear Rainforest to green sea turtles in the Mozambique Channel, contributing to National Geographic and the Save Our Seas Foundation. However, he notes that the pristine oceans of his youth are increasingly threatened, and human activities are impacting marine ecosystems. Initially believing that stunning photography could raise awareness, Peschak now understands the need for a broader approach to ocean conservation.",
+        "rel_src": [
+            "我们每一个人都会 影响海洋，也会被海洋影响。",
+            "而我小时候梦想过的纯净海洋， 如今已越来越难找到。"
+        ],
+        "rel_tgt": [
+            "Each and every one of us impacts the ocean, and in turn, is impacted by it.",
+            "The pristine oceans of my childhood dreams, however, are becoming increasingly difficult to find."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel"
+        }
+    },
+    {
+        "idx": 20,
+        "src": "我觉得自己是人和动物间的桥梁， 作为一名摄影师， 我有难得的机会 去揭开隐藏在大洋深处的 动物和生态系统的神秘面纱。",
+        "ref": "I guess I'm a matchmaker of sorts  and as a photographer,  I have the rare opportunity  to reveal animals and entire ecosystems  that lie hidden beneath the ocean's surface.",
+        "hyp": "I feel like a bridge between people and animals, and as a photographer, I have the rare opportunity to unveil the mysteries of creatures and ecosystems hidden deep in the ocean's depths.",
+        "rel_src": [
+            "我的拍摄对象大到巨型鲨鱼， 小到可以在你手掌上游动。",
+            "在莫桑比克海峡，我看到了 绿海龟的求爱仪式。"
+        ],
+        "rel_tgt": [
+            "My subjects range from giant sharks down to creatures so small they could swim in the palm of your hand.",
+            "In the Mozambique Channel, I witnessed the courtship rituals of green sea turtles."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel"
+        }
+    },
+    {
+        "idx": 21,
+        "src": "如果你都不知道某件东西的存在， 你怎么可能 去爱它和保护它呢。",
+        "ref": "You can't love something and become a champion for it  if you don't know it exists.",
+        "hyp": "If you don't even know something exists, how can you possibly love it and protect it?",
+        "rel_src": [
+            "我们每一个人都会 影响海洋，也会被海洋影响。",
+            "而我小时候梦想过的纯净海洋， 如今已越来越难找到。"
+        ],
+        "rel_tgt": [
+            "Each and every one of us impacts the ocean, and in turn, is impacted by it.",
+            "The pristine oceans of my childhood dreams, however, are becoming increasingly difficult to find."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel"
+        }
+    },
+    {
+        "idx": 22,
+        "src": "而这，恰恰是我们环保摄影师的强项。",
+        "ref": "Uncovering this -- that is the power of conservation photography.",
+        "hyp": "And this is precisely where conservation photographers like myself excel.",
+        "rel_src": [
+            "（字幕：托马斯•佩斯查克） （字幕：环保摄影师） 在过去40年， 我有幸探索了 地球上最美妙的海洋景观， 为《国家地理杂志》 和“拯救我们的海洋”基金会供稿。",
+            "我觉得自己是人和动物间的桥梁， 作为一名摄影师， 我有难得的机会 去揭开隐藏在大洋深处的 动物和生态系统的神秘面纱。"
+        ],
+        "rel_tgt": [
+            "(Subtitle: Thomas Peschak) (Subtitle: Conservation Photographer) Over the past 40 years, I've had the privilege of exploring the most spectacular seascapes on our planet, contributing to National Geographic and the Save Our Seas Foundation.",
+            "I feel like a bridge between people and animals, and as a photographer, I have the rare opportunity to unveil the mysteries of creatures and ecosystems hidden deep in the ocean's depths."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel"
+        }
+    },
+    {
+        "idx": 23,
+        "src": "我去过几百个不同海域， 但真正让我永生难忘的景象 只有那么几个。",
+        "ref": "I've visited hundreds of marine locations,  but there are a handful of seascapes  that have touched me incredibly deeply.",
+        "hyp": "I've visited hundreds of different marine environments, but there are only a few sights that have truly left an indelible mark on my memory.",
+        "rel_src": [
+            "在加拿大大熊雨林边寒冷的海中， 我遇到过座头鲸就在我身边大快朵颐， 那满嘴鱼腥味让我难忘。",
+            "在莫桑比克海峡，我看到了 绿海龟的求爱仪式。"
+        ],
+        "rel_tgt": [
+            "In the cold waters off the coast of Canada's Great Bear Rainforest, I encountered humpback whales feeding right beside me, their fish-laden breath a memory that lingers.",
+            "In the Mozambique Channel, I witnessed the courtship rituals of green sea turtles."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel"
+        }
+    },
+    {
+        "idx": 24,
+        "src": "我第一次被这样的场景所震撼 是在差不多十年前， 在南非崎岖陡峭的海岸边。",
+        "ref": "The first time I experienced that kind of high  was about 10 years ago,  off South Africa's rugged, wild coast.",
+        "hyp": "The first time I was struck by such a scene was about a decade ago, off the rugged coastline of South Africa.",
+        "rel_src": [
+            "但第一次真正潜入水中， 发生在我10岁那年。",
+            "（字幕：托马斯•佩斯查克） （字幕：环保摄影师） 在过去40年， 我有幸探索了 地球上最美妙的海洋景观， 为《国家地理杂志》 和“拯救我们的海洋”基金会供稿。"
+        ],
+        "rel_tgt": [
+            "But my first real dive underwater took place when I was 10 years old.",
+            "(Subtitle: Thomas Peschak) (Subtitle: Conservation Photographer) Over the past 40 years, I've had the privilege of exploring the most spectacular seascapes on our planet, contributing to National Geographic and the Save Our Seas Foundation."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa"
+        }
+    },
+    {
+        "idx": 25,
+        "src": "每年六七月间， 无数的沙丁鱼会向北迁徙， 我们称之为“沙丁鱼潮”。",
+        "ref": "And every June and July,  enormous shoals of sardines travel northwards  in a mass migration we call the Sardine Run.",
+        "hyp": "Every June and July, countless sardines migrate northward, which we call the \"sardine run.\"",
+        "rel_src": [
+            "我去过几百个不同海域， 但真正让我永生难忘的景象 只有那么几个。",
+            "我第一次被这样的场景所震撼 是在差不多十年前， 在南非崎岖陡峭的海岸边。"
+        ],
+        "rel_tgt": [
+            "I've visited hundreds of different marine environments, but there are only a few sights that have truly left an indelible mark on my memory.",
+            "The first time I was struck by such a scene was about a decade ago, off the rugged coastline of South Africa."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa"
+        }
+    },
+    {
+        "idx": 26,
+        "src": "相信我，这些鱼必须这么做。",
+        "ref": "And boy, do those fish have good reason to run.",
+        "hyp": "Believe me, these fish have no choice but to do so.",
+        "rel_src": [
+            "最后，我成功够到了炮筒， 抬头一看，发现自己被鱼群包围了， 各种颜色的鱼，像彩虹一样。",
+            "在加拿大大熊雨林边寒冷的海中， 我遇到过座头鲸就在我身边大快朵颐， 那满嘴鱼腥味让我难忘。"
+        ],
+        "rel_tgt": [
+            "Finally, I managed to reach the cannon barrel, and when I looked up, I found myself surrounded by a school of fish, a rainbow of colors.",
+            "In the cold waters off the coast of Canada's Great Bear Rainforest, I encountered humpback whales feeding right beside me, their fish-laden breath a memory that lingers."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa"
+        }
+    },
+    {
+        "idx": 27,
+        "src": "因为有成群结队饥肠辘辘、 身手敏捷的捕猎者在身后追赶。",
+        "ref": "In hot pursuit are hoards of hungry and agile predators.",
+        "hyp": "Because there are packs of hungry, agile predators chasing after them.",
+        "rel_src": [
+            "每年六七月间， 无数的沙丁鱼会向北迁徙， 我们称之为“沙丁鱼潮”。",
+            "相信我，这些鱼必须这么做。"
+        ],
+        "rel_tgt": [
+            "Every June and July, countless sardines migrate northward, which we call the \"sardine run.\"",
+            "Believe me, these fish have no choice but to do so."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa"
+        }
+    },
+    {
+        "idx": 28,
+        "src": "比如集体捕猎的海豚， 它们将一部分沙丁鱼 从鱼群中中分离出来， 把它们聚成球状。",
+        "ref": "Common dolphins hunt together  and they can separate some of the sardines from the main shoal  and they create bait balls.",
+        "hyp": "For example, dolphins that hunt in groups separate a portion of the sardines from the school, corralling them into a ball.",
+        "rel_src": [
+            "每年六七月间， 无数的沙丁鱼会向北迁徙， 我们称之为“沙丁鱼潮”。",
+            "相信我，这些鱼必须这么做。"
+        ],
+        "rel_tgt": [
+            "Every June and July, countless sardines migrate northward, which we call the \"sardine run.\"",
+            "Believe me, these fish have no choice but to do so."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa"
+        }
+    },
+    {
+        "idx": 29,
+        "src": "海豚会把这些沙丁鱼赶到离海面较近的地方 然后冲进鱼群大快朵颐， 享受这移动的盛宴。",
+        "ref": "They drive and trap the fish upward against the ocean surface  and then they rush in to dine  on this pulsating and movable feast.",
+        "hyp": "The dolphins drive these sardines closer to the surface, then plunge into the school to feast, relishing this mobile smorgasbord.",
+        "rel_src": [
+            "在加拿大大熊雨林边寒冷的海中， 我遇到过座头鲸就在我身边大快朵颐， 那满嘴鱼腥味让我难忘。",
+            "比如集体捕猎的海豚， 它们将一部分沙丁鱼 从鱼群中中分离出来， 把它们聚成球状。"
+        ],
+        "rel_tgt": [
+            "In the cold waters off the coast of Canada's Great Bear Rainforest, I encountered humpback whales feeding right beside me, their fish-laden breath a memory that lingers.",
+            "For example, dolphins that hunt in groups separate a portion of the sardines from the school, corralling them into a ball."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa"
+        }
+    },
+    {
+        "idx": 30,
+        "src": "紧随其后的是鲨鱼。",
+        "ref": "Close behind are sharks.",
+        "hyp": "Following closely behind are the sharks.",
+        "rel_src": [
+            "我的拍摄对象大到巨型鲨鱼， 小到可以在你手掌上游动。",
+            "在加拿大大熊雨林边寒冷的海中， 我遇到过座头鲸就在我身边大快朵颐， 那满嘴鱼腥味让我难忘。"
+        ],
+        "rel_tgt": [
+            "My subjects range from giant sharks down to creatures so small they could swim in the palm of your hand.",
+            "In the cold waters off the coast of Canada's Great Bear Rainforest, I encountered humpback whales feeding right beside me, their fish-laden breath a memory that lingers."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa"
+        }
+    },
+    {
+        "idx": 31,
+        "src": "大部人会认为， 鲨鱼和海豚是天敌， 但在“沙丁鱼潮”中， 它俩是共存的。",
+        "ref": "Now, most people believe  that sharks and dolphins are these mortal enemies,  but during the Sardine Run, they actually coexist.",
+        "hyp": "Most people would assume that sharks and dolphins are natural enemies, but during the sardine run, they coexist.",
+        "rel_src": [
+            "比如集体捕猎的海豚， 它们将一部分沙丁鱼 从鱼群中中分离出来， 把它们聚成球状。",
+            "紧随其后的是鲨鱼。"
+        ],
+        "rel_tgt": [
+            "For example, dolphins that hunt in groups separate a portion of the sardines from the school, corralling them into a ball.",
+            "Following closely behind are the sharks."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa"
+        }
+    },
+    {
+        "idx": 32,
+        "src": "实际上，在海豚的帮助下， 鲨鱼吃得更爽了。",
+        "ref": "In fact, dolphins actually help sharks feed more effectively.",
+        "hyp": "In fact, with the dolphins' assistance, the sharks enjoy an even more satisfying feast.",
+        "rel_src": [
+            "比如集体捕猎的海豚， 它们将一部分沙丁鱼 从鱼群中中分离出来， 把它们聚成球状。",
+            "紧随其后的是鲨鱼。"
+        ],
+        "rel_tgt": [
+            "For example, dolphins that hunt in groups separate a portion of the sardines from the school, corralling them into a ball.",
+            "Following closely behind are the sharks."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa"
+        }
+    },
+    {
+        "idx": 33,
+        "src": "没有海豚的驱赶， 沙丁鱼很难聚成球状， 鲨鱼经常会从鱼群中间穿过， 就像穿过甜甜圈一样， 有时候只能喝一肚子水。",
+        "ref": "Without dolphins, the bait balls are more dispersed  and sharks often end up with what I call a sardine donut,  or a mouth full of water.",
+        "hyp": "Without the dolphins herding them, the sardines struggle to form a tight ball, and sharks often swim right through the middle of the school, like a knife through a doughnut, sometimes ending up with just a bellyful of water.",
+        "rel_src": [
+            "比如集体捕猎的海豚， 它们将一部分沙丁鱼 从鱼群中中分离出来， 把它们聚成球状。",
+            "紧随其后的是鲨鱼。"
+        ],
+        "rel_tgt": [
+            "For example, dolphins that hunt in groups separate a portion of the sardines from the school, corralling them into a ball.",
+            "Following closely behind are the sharks."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa"
+        }
+    },
+    {
+        "idx": 34,
+        "src": "我在“沙丁鱼潮”中与鲨群有过几次亲密接触， 我明白鲨鱼没把我放在眼里。",
+        "ref": "Now, while I've had a few spicy moments with sharks on the sardine run,  I know they don't see me as prey.",
+        "hyp": "I've had several close encounters with shark packs during the sardine run, and I know that they don't see me as a threat.",
+        "rel_src": [
+            "每年六七月间， 无数的沙丁鱼会向北迁徙， 我们称之为“沙丁鱼潮”。",
+            "紧随其后的是鲨鱼。"
+        ],
+        "rel_tgt": [
+            "Every June and July, countless sardines migrate northward, which we call the \"sardine run.\"",
+            "Following closely behind are the sharks."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run"
+        }
+    },
+    {
+        "idx": 35,
+        "src": "但我还是不停被撞到，被尾巴扫到， 就像这场喧闹盛宴上的其他客人一样。",
+        "ref": "However, I get bumped and tail-slapped just like any other guest  at this rowdy, rowdy banquet.",
+        "hyp": "But I still get bumped and brushed by tails, just like the other guests at this raucous feast.",
+        "rel_src": [
+            "海豚会把这些沙丁鱼赶到离海面较近的地方 然后冲进鱼群大快朵颐， 享受这移动的盛宴。",
+            "紧随其后的是鲨鱼。"
+        ],
+        "rel_tgt": [
+            "The dolphins drive these sardines closer to the surface, then plunge into the school to feast, relishing this mobile smorgasbord.",
+            "Following closely behind are the sharks."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run"
+        }
+    },
+    {
+        "idx": 36,
+        "src": "我们从非洲海岸线往东航行， 穿过浩瀚的印度洋， 来到马尔代夫——一个由珊瑚礁组成的群岛。",
+        "ref": "From the shores of Africa we travel east,  across the vastness that is the Indian Ocean  to the Maldives, an archipelago of coral islands.",
+        "hyp": "We sail eastward from the African coastline, across the vast Indian Ocean, to the Maldives—a collection of islands formed by coral reefs.",
+        "rel_src": [
+            "我觉得自己是人和动物间的桥梁， 作为一名摄影师， 我有难得的机会 去揭开隐藏在大洋深处的 动物和生态系统的神秘面纱。",
+            "我去过几百个不同海域， 但真正让我永生难忘的景象 只有那么几个。"
+        ],
+        "rel_tgt": [
+            "I feel like a bridge between people and animals, and as a photographer, I have the rare opportunity to unveil the mysteries of creatures and ecosystems hidden deep in the ocean's depths.",
+            "I've visited hundreds of different marine environments, but there are only a few sights that have truly left an indelible mark on my memory."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives"
+        }
+    },
+    {
+        "idx": 37,
+        "src": "在暴风雨不断的西南季风季节里， 生活在群岛海域的魔鬼鱼 都会聚集到巴阿环礁 一个叫哈尼法鲁的小岛附近。",
+        "ref": "And during the stormy southwest monsoon,  manta rays from all across the archipelago  travel to a tiny speck in Baa Atoll called Hanifaru.",
+        "hyp": "During the stormy Southwest Monsoon season, manta rays that inhabit the atoll waters congregate near Hanifaru, a small island in Baa Atoll.",
+        "rel_src": [
+            "但我还是不停被撞到，被尾巴扫到， 就像这场喧闹盛宴上的其他客人一样。",
+            "我们从非洲海岸线往东航行， 穿过浩瀚的印度洋， 来到马尔代夫——一个由珊瑚礁组成的群岛。"
+        ],
+        "rel_tgt": [
+            "But I still get bumped and brushed by tails, just like the other guests at this raucous feast.",
+            "We sail eastward from the African coastline, across the vast Indian Ocean, to the Maldives—a collection of islands formed by coral reefs."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever"
+        }
+    },
+    {
+        "idx": 38,
+        "src": "成群的小虾小蟹， 大部分比咱们的瞳孔还要小， 是魔鬼鱼的主要食物。",
+        "ref": "Armies of crustaceans,  most no bigger than the size of your pupils,  are the mainstay of the manta ray's diet.",
+        "hyp": "Swarms of tiny shrimp and crabs, most smaller than our pupils, form the primary diet of manta rays.",
+        "rel_src": [
+            "我们从非洲海岸线往东航行， 穿过浩瀚的印度洋， 来到马尔代夫——一个由珊瑚礁组成的群岛。",
+            "在暴风雨不断的西南季风季节里， 生活在群岛海域的魔鬼鱼 都会聚集到巴阿环礁 一个叫哈尼法鲁的小岛附近。"
+        ],
+        "rel_tgt": [
+            "We sail eastward from the African coastline, across the vast Indian Ocean, to the Maldives—a collection of islands formed by coral reefs.",
+            "During the stormy Southwest Monsoon season, manta rays that inhabit the atoll waters congregate near Hanifaru, a small island in Baa Atoll."
+        ],
+        "hist_info": "\"魔鬼鱼\" - \"manta rays\"",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean",
+            "印度礁": "Inde Reef",
+            "加拉帕戈斯鲨鱼": "Galapagos sharks",
+            "加利福尼亚半岛": "Baja California Peninsula",
+            "半岛": "peninsula",
+            "圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "灰鲸": "gray whales\n\nHowever",
+            "so the correct annotation would be:\n\n<Proper nouns> 圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "普尔莫角": "Cabo Pulmo"
+        }
+    },
+    {
+        "idx": 39,
+        "src": "当这些浮游生物比较分散时， 魔鬼鱼一般单独捕食， 它们在水里不停的向后翻滚， 就像小狗追着自己的尾巴。",
+        "ref": "When plankton concentrations become patchy,  manta rays feed alone  and they somersault themselves backwards again and again,  very much like a puppy chasing its own tail.",
+        "hyp": "When these plankton are more scattered, manta rays typically feed alone, rolling continuously in the water like puppies chasing their own tails.",
+        "new_src_summary": "摘要：\n\n这篇文段源自环保摄影师托马斯·佩斯查克的心路历程，讲述了他的海洋情缘与职业生涯，以及他如何成为人与海洋之间的情感纽带。自幼对海洋充满憧憬，佩斯查克的摄影之路始于一次偶然的潜水经历，自此，他走遍全球，用镜头捕捉了从巨型鲨鱼到微小生灵的壮丽瞬间。他的作品不仅见诸《国家地理杂志》，也为“拯救我们的海洋”基金会增色添彩。从加拿大座头鲸的震撼进食，到莫桑比克绿海龟的浪漫求偶，每一帧都是海洋生态多样性的见证。\n\n然而，佩斯查克也深切感受到人类活动给海洋带来的创伤，他意识到单凭影像的力量已不足以唤醒大众的环保意识。因此，他致力于寻找更有效的传播方式，让公众真正爱上这些神秘的海洋生物，从而激发保护行动。他强调，爱是最好的改变动力，而环保摄影师的任务就是展现海洋深处未被熟知的生命奇迹，激发人们的同理心与责任感。\n\n文段通过佩斯查克的亲身经历，展现了南非“沙丁鱼潮”的壮观场面，描绘了海豚与鲨鱼间巧妙的合作捕食，以及马尔代夫哈尼法鲁岛附近魔鬼鱼的聚餐奇观。这些生动的描述，旨在激发读者对海洋生物多样性的认知与爱护，倡导一种积极向上的环保态度。\n\n风格上，文段采用第一人称叙述，语言优美动人，情感充沛。它不仅回顾了作者与海洋的不解之缘，也反映了他对环保事业的深刻思考。整体而言，这是一篇融合个人故事、专业摄影与环保使命的佳作，旨在唤起公众对海洋生态保护的关注与行动。\n\n关键词汇：\n\n海洋、环保摄影师、《国家地理杂志》、“拯救我们的海洋”基金会、巨型鲨鱼、座头鲸、绿海龟、珊瑚礁、加拿大、莫桑比克海峡、食物链、人类活动、海洋保护、沙丁鱼潮、海豚、鲨鱼、马尔代夫、哈尼法鲁岛、魔鬼鱼、小虾小蟹、生物多样性、传播爱、改变动力、同理心、责任感。",
+        "new_tgt_summary": "Thomas Peschak, a conservation photographer and former marine biologist, has dedicated his 40-year career to documenting the beauty and fragility of marine environments worldwide, from humpback whales in Canada's Great Bear Rainforest to green sea turtles in the Mozambique Channel. His passion for underwater exploration began at age 10 when he encountered a school of colorful fish during his first dive. However, he notes that the pristine oceans of his youth are increasingly threatened by human activities, and he now understands the need for a broader approach to ocean conservation than just stunning photography. Peschak believes that spreading love is the best way to create change, particularly in regards to protecting the environment. He highlights two memorable experiences: the annual sardine run off the coast of South Africa, where dolphins and sharks coexist and feast on the migrating fish, and the gathering of manta rays in the Maldives during the Southwest Monsoon season to feed on tiny shrimp and crabs. These experiences emphasize the importance of unveiling the mysteries of hidden ecosystems and creatures in order to foster love and protection for them. Close encounters with sharks during the sardine run demonstrate their lack of threat towards humans, while also highlighting the role of dolphins in assisting sharks in hunting sardines.",
+        "rel_src": [
+            "我们从非洲海岸线往东航行， 穿过浩瀚的印度洋， 来到马尔代夫——一个由珊瑚礁组成的群岛。",
+            "在暴风雨不断的西南季风季节里， 生活在群岛海域的魔鬼鱼 都会聚集到巴阿环礁 一个叫哈尼法鲁的小岛附近。"
+        ],
+        "rel_tgt": [
+            "We sail eastward from the African coastline, across the vast Indian Ocean, to the Maldives—a collection of islands formed by coral reefs.",
+            "During the stormy Southwest Monsoon season, manta rays that inhabit the atoll waters congregate near Hanifaru, a small island in Baa Atoll."
+        ],
+        "hist_info": "\"魔鬼鱼\" - \"manta rays\"",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever"
+        },
+        "conflict": [
+            "\"魔鬼鱼\" - \"manta rays\"/\"manta rays \n\nHowever\""
+        ]
+    },
+    {
+        "idx": 40,
+        "src": "而当浮游生物聚集得越来越多时， 魔鬼鱼就开始首尾相连， 排成长长的进食队形， 队首的魔鬼鱼漏掉的美味 会被后面的同伴吞食干净。",
+        "ref": "However, when plankton densities increase,  the mantas line up head-to-tail to form these long feeding chains,  and any tasty morsel that escapes the first or second manta in line  is surely to be gobbled up by the next or the one after.",
+        "hyp": "And when the plankton accumulate in greater numbers, the manta rays begin to form long feeding lines, connecting head to tail, with the tasty morsels missed by the leading manta ray being scooped up by its trailing companions.",
+        "rel_src": [
+            "在暴风雨不断的西南季风季节里， 生活在群岛海域的魔鬼鱼 都会聚集到巴阿环礁 一个叫哈尼法鲁的小岛附近。",
+            "当这些浮游生物比较分散时， 魔鬼鱼一般单独捕食， 它们在水里不停的向后翻滚， 就像小狗追着自己的尾巴。"
+        ],
+        "rel_tgt": [
+            "During the stormy Southwest Monsoon season, manta rays that inhabit the atoll waters congregate near Hanifaru, a small island in Baa Atoll.",
+            "When these plankton are more scattered, manta rays typically feed alone, rolling continuously in the water like puppies chasing their own tails."
+        ],
+        "hist_info": "\"魔鬼鱼\" - \"manta rays\"",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever"
+        },
+        "conflict": [
+            "\"魔鬼鱼\" - \"manta rays\"/\"manta ray \n\nHowever\""
+        ]
+    },
+    {
+        "idx": 41,
+        "src": "随着海湾里的浮游生物越聚越多， 魔鬼鱼的队形也越聚越拢， 这种独特的捕食方法， 我们称之为“旋风捕食法”。",
+        "ref": "As plankton levels peak in the bay,  the mantas swim closer and closer together  in a unique behavior we call cyclone feeding.",
+        "hyp": "As the plankton in the bay accumulate in greater numbers, the manta rays draw closer together in formation, employing this unique feeding technique, which we call the \"tornado feeding method.\"",
+        "rel_src": [
+            "当这些浮游生物比较分散时， 魔鬼鱼一般单独捕食， 它们在水里不停的向后翻滚， 就像小狗追着自己的尾巴。",
+            "而当浮游生物聚集得越来越多时， 魔鬼鱼就开始首尾相连， 排成长长的进食队形， 队首的魔鬼鱼漏掉的美味 会被后面的同伴吞食干净。"
+        ],
+        "rel_tgt": [
+            "When these plankton are more scattered, manta rays typically feed alone, rolling continuously in the water like puppies chasing their own tails.",
+            "And when the plankton accumulate in greater numbers, the manta rays begin to form long feeding lines, connecting head to tail, with the tasty morsels missed by the leading manta ray being scooped up by its trailing companions."
+        ],
+        "hist_info": "\"魔鬼鱼\" - \"manta rays\"",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever"
+        }
+    },
+    {
+        "idx": 42,
+        "src": "魔鬼鱼们层层叠叠， 排成紧密的队形旋转， 形成漩涡，将浮游生物吸住， 径直送入魔鬼鱼巨大的嘴中。",
+        "ref": "And as they swirl in tight formation,  this multi-step column of mantas  creates its own vortex, sucking in and delivering the plankton  right into the mantas' cavernous mouths.",
+        "hyp": "The manta rays stack up, forming a tight spiral that creates a vortex, trapping the plankton and directing it straight into the manta rays' enormous mouths.",
+        "rel_src": [
+            "当这些浮游生物比较分散时， 魔鬼鱼一般单独捕食， 它们在水里不停的向后翻滚， 就像小狗追着自己的尾巴。",
+            "随着海湾里的浮游生物越聚越多， 魔鬼鱼的队形也越聚越拢， 这种独特的捕食方法， 我们称之为“旋风捕食法”。"
+        ],
+        "rel_tgt": [
+            "When these plankton are more scattered, manta rays typically feed alone, rolling continuously in the water like puppies chasing their own tails.",
+            "As the plankton in the bay accumulate in greater numbers, the manta rays draw closer together in formation, employing this unique feeding technique, which we call the \"tornado feeding method.\""
+        ],
+        "hist_info": "\"魔鬼鱼\" - \"manta rays\"",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever"
+        }
+    },
+    {
+        "idx": 43,
+        "src": "在成百上千魔鬼鱼中间潜水， 那景象让我终生难忘。",
+        "ref": "The experience of diving amongst such masses of hundreds of rays  is truly unforgettable.",
+        "hyp": "Diving among hundreds of manta rays is a sight I will never forget.",
+        "rel_src": [
+            "在暴风雨不断的西南季风季节里， 生活在群岛海域的魔鬼鱼 都会聚集到巴阿环礁 一个叫哈尼法鲁的小岛附近。",
+            "随着海湾里的浮游生物越聚越多， 魔鬼鱼的队形也越聚越拢， 这种独特的捕食方法， 我们称之为“旋风捕食法”。"
+        ],
+        "rel_tgt": [
+            "During the stormy Southwest Monsoon season, manta rays that inhabit the atoll waters congregate near Hanifaru, a small island in Baa Atoll.",
+            "As the plankton in the bay accumulate in greater numbers, the manta rays draw closer together in formation, employing this unique feeding technique, which we call the \"tornado feeding method.\""
+        ],
+        "hist_info": "\"魔鬼鱼\" - \"manta rays\"",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever"
+        }
+    },
+    {
+        "idx": 44,
+        "src": "当我第一次去哈尼法鲁拍照时， 那里还没有被保护起来， 生态环境受到当地发展的威胁。",
+        "ref": "When I first photographed Hanifaru,  the site enjoyed no protection  and was threatened by development.",
+        "hyp": "When I first went to Hanifaru to take photos, the area was not yet protected, and the ecosystem was threatened by local development.",
+        "rel_src": [
+            "在暴风雨不断的西南季风季节里， 生活在群岛海域的魔鬼鱼 都会聚集到巴阿环礁 一个叫哈尼法鲁的小岛附近。",
+            "随着海湾里的浮游生物越聚越多， 魔鬼鱼的队形也越聚越拢， 这种独特的捕食方法， 我们称之为“旋风捕食法”。"
+        ],
+        "rel_tgt": [
+            "During the stormy Southwest Monsoon season, manta rays that inhabit the atoll waters congregate near Hanifaru, a small island in Baa Atoll.",
+            "As the plankton in the bay accumulate in greater numbers, the manta rays draw closer together in formation, employing this unique feeding technique, which we call the \"tornado feeding method.\""
+        ],
+        "hist_info": "\"哈尼法鲁\" - \"Hanifaru \n\nHowever\"",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever"
+        },
+        "conflict": [
+            "\"哈尼法鲁\" - \"Hanifaru \n\nHowever\"/\"Hanifaru\""
+        ]
+    },
+    {
+        "idx": 45,
+        "src": "通过与“魔鬼鱼信托基金” 这类的非政府组织合作， 我的照片最终帮助哈尼法鲁 成为了海洋保护区。",
+        "ref": "And working with NGOs like the Manta Trust,  my images eventually helped Hanifaru  become a marine-protected area.",
+        "hyp": "By working with non-governmental organizations like the Manta Trust, my photographs ultimately helped secure Hanifaru's designation as a marine protected area.",
+        "rel_src": [
+            "在暴风雨不断的西南季风季节里， 生活在群岛海域的魔鬼鱼 都会聚集到巴阿环礁 一个叫哈尼法鲁的小岛附近。",
+            "在成百上千魔鬼鱼中间潜水， 那景象让我终生难忘。"
+        ],
+        "rel_tgt": [
+            "During the stormy Southwest Monsoon season, manta rays that inhabit the atoll waters congregate near Hanifaru, a small island in Baa Atoll.",
+            "Diving among hundreds of manta rays is a sight I will never forget."
+        ],
+        "hist_info": "\"魔鬼鱼\" - \"manta rays\", \"哈尼法鲁\" - \"Hanifaru \n\nHowever\"",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust"
+        },
+        "conflict": [
+            "\"哈尼法鲁\" - \"Hanifaru \n\nHowever\"/\"Hanifaru\""
+        ]
+    },
+    {
+        "idx": 46,
+        "src": "附近岛屿的渔民， 曾经捕杀过许多魔鬼鱼， 用它们的皮来制作传统的鼓。",
+        "ref": "Now, fisherman from neighboring islands,  they once hunted these manta rays  to make traditional drums from their skins.",
+        "hyp": "Fishermen from nearby islands used to hunt many manta rays, using their skin to make traditional drums.",
+        "rel_src": [
+            "成群的小虾小蟹， 大部分比咱们的瞳孔还要小， 是魔鬼鱼的主要食物。",
+            "随着海湾里的浮游生物越聚越多， 魔鬼鱼的队形也越聚越拢， 这种独特的捕食方法， 我们称之为“旋风捕食法”。"
+        ],
+        "rel_tgt": [
+            "Swarms of tiny shrimp and crabs, most smaller than our pupils, form the primary diet of manta rays.",
+            "As the plankton in the bay accumulate in greater numbers, the manta rays draw closer together in formation, employing this unique feeding technique, which we call the \"tornado feeding method.\""
+        ],
+        "hist_info": "\"魔鬼鱼\" - \"manta rays\"",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust"
+        }
+    },
+    {
+        "idx": 47,
+        "src": "而如今，他们成为了魔鬼鱼最坚定的保护者， 魔鬼鱼每年为马尔代夫带来 超过800万美元的收入。",
+        "ref": "Today, they are the most ardent conservation champions  and manta rays earn the Maldivian economy  in excess of 8 million dollars every single year.",
+        "hyp": "And now, they have become the most staunch protectors of the manta rays, which generate over $8 million annually for the Maldives.",
+        "rel_src": [
+            "在暴风雨不断的西南季风季节里， 生活在群岛海域的魔鬼鱼 都会聚集到巴阿环礁 一个叫哈尼法鲁的小岛附近。",
+            "随着海湾里的浮游生物越聚越多， 魔鬼鱼的队形也越聚越拢， 这种独特的捕食方法， 我们称之为“旋风捕食法”。"
+        ],
+        "rel_tgt": [
+            "During the stormy Southwest Monsoon season, manta rays that inhabit the atoll waters congregate near Hanifaru, a small island in Baa Atoll.",
+            "As the plankton in the bay accumulate in greater numbers, the manta rays draw closer together in formation, employing this unique feeding technique, which we call the \"tornado feeding method.\""
+        ],
+        "hist_info": "\"马尔代夫\" - \"Maldives\", \"魔鬼鱼\" - \"manta rays\"",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust"
+        }
+    },
+    {
+        "idx": 48,
+        "src": "我一直想回到过去， 回到那个大部分地图还是一片空白， 或者标着“此处有龙”的时代。",
+        "ref": "I have always wanted to travel back in time  to an era where maps were mostly blank  or they read, \"There be dragons.\"",
+        "hyp": "I often wish I could go back to a time when most of the map was blank or marked \"here be dragons.\"",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust"
+        }
+    },
+    {
+        "idx": 49,
+        "src": "到目前为止，我去过的 最类似的地方是一些位于西印度洋 的偏远环礁。",
+        "ref": "And today, the closest I've come is visiting remote atolls  in the western Indian Ocean.",
+        "hyp": "The closest thing so far to what I've experienced are some remote atolls in the western Indian Ocean.",
+        "rel_src": [
+            "我们从非洲海岸线往东航行， 穿过浩瀚的印度洋， 来到马尔代夫——一个由珊瑚礁组成的群岛。",
+            "在暴风雨不断的西南季风季节里， 生活在群岛海域的魔鬼鱼 都会聚集到巴阿环礁 一个叫哈尼法鲁的小岛附近。"
+        ],
+        "rel_tgt": [
+            "We sail eastward from the African coastline, across the vast Indian Ocean, to the Maldives—a collection of islands formed by coral reefs.",
+            "During the stormy Southwest Monsoon season, manta rays that inhabit the atoll waters congregate near Hanifaru, a small island in Baa Atoll."
+        ],
+        "hist_info": "\"印度洋\" - \"Indian Ocean\"",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean"
+        }
+    },
+    {
+        "idx": 50,
+        "src": "那里远离渔场和渔船， 在那里潜水总是让我感到悲凉， 因为它让我想起海洋曾经的样子。",
+        "ref": "Far, far away from shipping lanes and fishing fleets,  diving into these waters is a poignant reminder  of what our oceans once looked like.",
+        "hyp": "Diving there, far from fishing grounds and boats, always fills me with melancholy, as it reminds me of what the ocean once was.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean"
+        }
+    },
+    {
+        "idx": 51,
+        "src": "很少有人听说过印度礁， 它是一个很小的珊瑚环礁， 位于莫桑比克海峡。",
+        "ref": "Very few people have heard of Bassas da India,  a tiny speck of coral in the Mozambique Channel.",
+        "hyp": "Few have heard of Inde Reef, a tiny coral atoll located in the Mozambique Channel.",
+        "rel_src": [
+            "我们从非洲海岸线往东航行， 穿过浩瀚的印度洋， 来到马尔代夫——一个由珊瑚礁组成的群岛。",
+            "到目前为止，我去过的 最类似的地方是一些位于西印度洋 的偏远环礁。"
+        ],
+        "rel_tgt": [
+            "We sail eastward from the African coastline, across the vast Indian Ocean, to the Maldives—a collection of islands formed by coral reefs.",
+            "The closest thing so far to what I've experienced are some remote atolls in the western Indian Ocean."
+        ],
+        "hist_info": "\"莫桑比克海峡\" - \"Mozambique Channel\"",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean",
+            "印度礁": "Inde Reef"
+        }
+    },
+    {
+        "idx": 52,
+        "src": "它外围的礁石形成了保护屏障 中间的环礁湖成为了 加拉帕戈斯鲨鱼的幼儿园。",
+        "ref": "Its reef forms a protective outer barrier  and the inner lagoon is a nursery ground  for Galapagos sharks.",
+        "hyp": "The outer reef forms a protective barrier, and the lagoon within serves as a nursery for Galapagos sharks.",
+        "rel_src": [
+            "我们从非洲海岸线往东航行， 穿过浩瀚的印度洋， 来到马尔代夫——一个由珊瑚礁组成的群岛。",
+            "随着海湾里的浮游生物越聚越多， 魔鬼鱼的队形也越聚越拢， 这种独特的捕食方法， 我们称之为“旋风捕食法”。"
+        ],
+        "rel_tgt": [
+            "We sail eastward from the African coastline, across the vast Indian Ocean, to the Maldives—a collection of islands formed by coral reefs.",
+            "As the plankton in the bay accumulate in greater numbers, the manta rays draw closer together in formation, employing this unique feeding technique, which we call the \"tornado feeding method.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean",
+            "印度礁": "Inde Reef",
+            "加拉帕戈斯鲨鱼": "Galapagos sharks"
+        }
+    },
+    {
+        "idx": 53,
+        "src": "这些鲨鱼从不害羞， 即使在白天也一样。",
+        "ref": "These sharks are anything but shy, even during the day.",
+        "hyp": "These sharks are never shy, not even during the day.",
+        "rel_src": [
+            "我在“沙丁鱼潮”中与鲨群有过几次亲密接触， 我明白鲨鱼没把我放在眼里。",
+            "在成百上千魔鬼鱼中间潜水， 那景象让我终生难忘。"
+        ],
+        "rel_tgt": [
+            "I've had several close encounters with shark packs during the sardine run, and I know that they don't see me as a threat.",
+            "Diving among hundreds of manta rays is a sight I will never forget."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean",
+            "印度礁": "Inde Reef",
+            "加拉帕戈斯鲨鱼": "Galapagos sharks"
+        }
+    },
+    {
+        "idx": 54,
+        "src": "我猜它们在晚上会更加活泼， 数量也会更多。",
+        "ref": "I had a bit of a hunch that they'd be even bolder  and more abundant at night.",
+        "hyp": "I suspect they become even more active and abundant at night.",
+        "rel_src": [
+            "它外围的礁石形成了保护屏障 中间的环礁湖成为了 加拉帕戈斯鲨鱼的幼儿园。",
+            "这些鲨鱼从不害羞， 即使在白天也一样。"
+        ],
+        "rel_tgt": [
+            "The outer reef forms a protective barrier, and the lagoon within serves as a nursery for Galapagos sharks.",
+            "These sharks are never shy, not even during the day."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean",
+            "印度礁": "Inde Reef",
+            "加拉帕戈斯鲨鱼": "Galapagos sharks"
+        }
+    },
+    {
+        "idx": 55,
+        "src": "我以前从未在一个珊瑚环礁湖中 看到过如此多的鲨鱼。",
+        "ref": "Never before have I encountered  so many sharks on a single coral outcrop.",
+        "hyp": "I had never seen so many sharks in a coral atoll lagoon before.",
+        "rel_src": [
+            "很少有人听说过印度礁， 它是一个很小的珊瑚环礁， 位于莫桑比克海峡。",
+            "它外围的礁石形成了保护屏障 中间的环礁湖成为了 加拉帕戈斯鲨鱼的幼儿园。"
+        ],
+        "rel_tgt": [
+            "Few have heard of Inde Reef, a tiny coral atoll located in the Mozambique Channel.",
+            "The outer reef forms a protective barrier, and the lagoon within serves as a nursery for Galapagos sharks."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean",
+            "印度礁": "Inde Reef",
+            "加拉帕戈斯鲨鱼": "Galapagos sharks"
+        }
+    },
+    {
+        "idx": 56,
+        "src": "记录和分享这样的瞬间—— 时刻提醒我选择这条道路的初衷。",
+        "ref": "Capturing and sharing moments like this --  that reminds me why I chose my path.",
+        "hyp": "Recording and sharing moments like these constantly remind me of the reasons why I chose this path.",
+        "rel_src": [
+            "在成百上千魔鬼鱼中间潜水， 那景象让我终生难忘。",
+            "而如今，他们成为了魔鬼鱼最坚定的保护者， 魔鬼鱼每年为马尔代夫带来 超过800万美元的收入。"
+        ],
+        "rel_tgt": [
+            "Diving among hundreds of manta rays is a sight I will never forget.",
+            "And now, they have become the most staunch protectors of the manta rays, which generate over $8 million annually for the Maldives."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean",
+            "印度礁": "Inde Reef",
+            "加拉帕戈斯鲨鱼": "Galapagos sharks"
+        }
+    },
+    {
+        "idx": 57,
+        "src": "今年早些时候，为完成 《国家地理杂志》的合约拍摄， 我来到加利福尼亚半岛。",
+        "ref": "Earlier this year, I was on assignment for National Geographic Magazine  in Baja California.",
+        "hyp": "Earlier this year, to fulfill a contract with National Geographic, I traveled to the Baja California Peninsula.",
+        "rel_src": [
+            "当我第一次去哈尼法鲁拍照时， 那里还没有被保护起来， 生态环境受到当地发展的威胁。",
+            "通过与“魔鬼鱼信托基金” 这类的非政府组织合作， 我的照片最终帮助哈尼法鲁 成为了海洋保护区。"
+        ],
+        "rel_tgt": [
+            "When I first went to Hanifaru to take photos, the area was not yet protected, and the ecosystem was threatened by local development.",
+            "By working with non-governmental organizations like the Manta Trust, my photographs ultimately helped secure Hanifaru's designation as a marine protected area."
+        ],
+        "hist_info": "\"国家地理杂志\" - \"National Geographic\"",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean",
+            "印度礁": "Inde Reef",
+            "加拉帕戈斯鲨鱼": "Galapagos sharks",
+            "加利福尼亚半岛": "Baja California Peninsula"
+        }
+    },
+    {
+        "idx": 58,
+        "src": "在半岛中部，临太平洋的一侧， 坐落着圣伊格纳西奥环礁湖， 那里是灰鲸重要的繁殖地。",
+        "ref": "And about halfway down the peninsula on the Pacific side  lies San Ignacio Lagoon,  a critical calving ground for gray whales.",
+        "hyp": "On the Pacific side of the peninsula's midsection lies San Ignacio Lagoon, a crucial breeding ground for gray whales.",
+        "rel_src": [
+            "它外围的礁石形成了保护屏障 中间的环礁湖成为了 加拉帕戈斯鲨鱼的幼儿园。",
+            "今年早些时候，为完成 《国家地理杂志》的合约拍摄， 我来到加利福尼亚半岛。"
+        ],
+        "rel_tgt": [
+            "The outer reef forms a protective barrier, and the lagoon within serves as a nursery for Galapagos sharks.",
+            "Earlier this year, to fulfill a contract with National Geographic, I traveled to the Baja California Peninsula."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean",
+            "印度礁": "Inde Reef",
+            "加拉帕戈斯鲨鱼": "Galapagos sharks",
+            "加利福尼亚半岛": "Baja California Peninsula",
+            "半岛": "peninsula",
+            "圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "灰鲸": "gray whales\n\nHowever",
+            "so the correct annotation would be:\n\n<Proper nouns> 圣伊格纳西奥环礁湖": "San Ignacio Lagoon"
+        }
+    },
+    {
+        "idx": 59,
+        "src": "在过去的一百年里， 这段海岸线就是一个巨大的屠宰场， 超过2万头灰鲸在这里被杀， 只剩下几百头幸存者。",
+        "ref": "For 100 years, this coast was the scene of a wholesale slaughter,  where more than 20,000 gray whales were killed,  leaving only a few hundred survivors.",
+        "hyp": "Over the past century, this coastline was a massive slaughterhouse, with over 20,000 gray whales killed here, leaving only a few hundred survivors.",
+        "new_src_summary": "合并后的摘要：\n\n这篇文段讲述了环保摄影师托马斯·佩斯查克的海洋情缘与职业生涯，以及他如何成为连接人与海洋的情感纽带。佩斯查克的作品不仅在《国家地理杂志》等知名平台展出，还与“拯救我们的海洋”基金会合作，记录了从巨型鲨鱼到绿海龟的壮丽瞬间，见证了海洋生态的多样性。然而，面对人类活动给海洋带来的创伤，佩斯查克意识到仅靠影像的力量难以唤醒公众的环保意识。因此，他致力于寻找更有效的传播方式，以激发人们保护海洋生物的同理心与责任感。他强调，爱是最好的改变动力，环保摄影师的任务是展现海洋深处未被熟知的生命奇迹，促进对海洋生物多样性的认知与爱护。\n\n文段详细描绘了魔鬼鱼独特的“旋风捕食法”，以及其对马尔代夫经济的重大影响——每年超过800万美元的收入。佩斯查克在哈尼法鲁潜水的经历及其照片与非政府组织的合作，促成了该地区成为海洋保护区。曾经捕杀魔鬼鱼的当地渔民如今转变为坚定的保护者。此外，作者还提及了印度礁珊瑚环礁湖作为加拉帕戈斯鲨鱼的栖息地，以及加利福尼亚半岛圣伊格纳西奥环礁湖作为灰鲸重要繁殖地的发现。这些个人经历和对海洋生态的反思，旨在唤起公众对海洋生态保护的关注与行动。\n\n领域：自然生态与海洋保护\n\n风格：叙述性、纪实性、情感充沛\n\n语气：描述性、反思性、倡导积极环保态度\n\n关键信息：\n- 海洋生态多样性：巨型鲨鱼、座头鲸、绿海龟、珊瑚礁\n- 人类活动对海洋的影响\n- 环保摄影师的责任：展现生命奇迹，激发同理心与责任感\n- 魔鬼鱼的捕食方式：“旋风捕食法”\n- 马尔代夫的经济受益于魔鬼鱼：每年超过800万美元\n- 哈尼法鲁成为海洋保护区的过程\n- 当地渔民的角色转变：从捕杀魔鬼鱼到成为保护者\n- 印度礁珊瑚环礁湖作为加拉帕戈斯鲨鱼的栖息地\n- 圣伊格纳西奥环礁湖是灰鲸的重要繁殖地\n- 作者对海洋生态的关注和保护意识",
+        "new_tgt_summary": "Thomas Peschak, a conservation photographer and former marine biologist, has spent four decades capturing the splendor and vulnerability of marine environments globally, from humpback whales in Canada's Great Bear Rainforest to green sea turtles in the Mozambique Channel. Peschak's love for underwater exploration ignited at age 10 during his first dive when he encountered a vibrant school of fish. Today, he acknowledges the growing threats posed by human activities to once-pristine oceans and advocates for a comprehensive approach to ocean conservation that goes beyond breathtaking images. Peschak emphasizes that fostering affection for the environment is crucial for driving positive change. Two standout experiences highlight this point: the annual sardine run off South Africa's coast, where dolphins and sharks collaborate to feast on migrating fish, and the Southwest Monsoon season in the Maldives, when manta rays gather to feed on plankton using a unique \"tornado feeding method.\" This technique involves manta rays forming tight spirals to trap and direct plankton into their mouths. Peschak's photography of this behavior contributed to the designation of Hanifaru Bay as a marine protected area, safeguarding it from local development threats. Former manta ray hunters have transitioned to protectors due to the economic benefits these creatures bring to the Maldives. Peschak's adventures also include observing Galapagos sharks in abundance at Inde Reef in the western Indian Ocean, underscoring the significance of marine ecosystem preservation. Recently, he visited San Ignacio Lagoon in Baja California, Mexico, a critical breeding site for gray whales, as part of a National Geographic assignment. These experiences reinforce Peschak's commitment to revealing the mysteries of hidden marine ecosystems and inspiring their protection.",
+        "rel_src": [
+            "附近岛屿的渔民， 曾经捕杀过许多魔鬼鱼， 用它们的皮来制作传统的鼓。",
+            "而如今，他们成为了魔鬼鱼最坚定的保护者， 魔鬼鱼每年为马尔代夫带来 超过800万美元的收入。"
+        ],
+        "rel_tgt": [
+            "Fishermen from nearby islands used to hunt many manta rays, using their skin to make traditional drums.",
+            "And now, they have become the most staunch protectors of the manta rays, which generate over $8 million annually for the Maldives."
+        ],
+        "hist_info": "\"灰鲸\" - \"gray whales\n\nHowever\"",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean",
+            "印度礁": "Inde Reef",
+            "加拉帕戈斯鲨鱼": "Galapagos sharks",
+            "加利福尼亚半岛": "Baja California Peninsula",
+            "半岛": "peninsula",
+            "圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "灰鲸": "gray whales\n\nHowever",
+            "so the correct annotation would be:\n\n<Proper nouns> 圣伊格纳西奥环礁湖": "San Ignacio Lagoon"
+        }
+    },
+    {
+        "idx": 60,
+        "src": "而现在，这些灰鲸的后裔 会将自己的幼仔推向海面， 玩耍嬉戏，甚至与我们互动。",
+        "ref": "Today the descendents of these same whales  nudge their youngsters to the surface  to play and even interact with us.",
+        "hyp": "And now, the descendants of these gray whales push their calves to the surface to play, frolic, and even interact with us.",
+        "rel_src": [
+            "在半岛中部，临太平洋的一侧， 坐落着圣伊格纳西奥环礁湖， 那里是灰鲸重要的繁殖地。",
+            "在过去的一百年里， 这段海岸线就是一个巨大的屠宰场， 超过2万头灰鲸在这里被杀， 只剩下几百头幸存者。"
+        ],
+        "rel_tgt": [
+            "On the Pacific side of the peninsula's midsection lies San Ignacio Lagoon, a crucial breeding ground for gray whales.",
+            "Over the past century, this coastline was a massive slaughterhouse, with over 20,000 gray whales killed here, leaving only a few hundred survivors."
+        ],
+        "hist_info": "\"灰鲸\" - \"gray whales\n\nHowever\"",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean",
+            "印度礁": "Inde Reef",
+            "加拉帕戈斯鲨鱼": "Galapagos sharks",
+            "加利福尼亚半岛": "Baja California Peninsula",
+            "半岛": "peninsula",
+            "圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "灰鲸": "gray whales\n\nHowever",
+            "so the correct annotation would be:\n\n<Proper nouns> 圣伊格纳西奥环礁湖": "San Ignacio Lagoon"
+        }
+    },
+    {
+        "idx": 61,
+        "src": "这一物种令人惊讶地恢复过来了。",
+        "ref": "This species truly has made a remarkable comeback.",
+        "hyp": "This species has made a remarkable recovery.",
+        "rel_src": [
+            "在半岛中部，临太平洋的一侧， 坐落着圣伊格纳西奥环礁湖， 那里是灰鲸重要的繁殖地。",
+            "而现在，这些灰鲸的后裔 会将自己的幼仔推向海面， 玩耍嬉戏，甚至与我们互动。"
+        ],
+        "rel_tgt": [
+            "On the Pacific side of the peninsula's midsection lies San Ignacio Lagoon, a crucial breeding ground for gray whales.",
+            "And now, the descendants of these gray whales push their calves to the surface to play, frolic, and even interact with us."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean",
+            "印度礁": "Inde Reef",
+            "加拉帕戈斯鲨鱼": "Galapagos sharks",
+            "加利福尼亚半岛": "Baja California Peninsula",
+            "半岛": "peninsula",
+            "圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "灰鲸": "gray whales\n\nHowever",
+            "so the correct annotation would be:\n\n<Proper nouns> 圣伊格纳西奥环礁湖": "San Ignacio Lagoon"
+        }
+    },
+    {
+        "idx": 62,
+        "src": "在半岛的另一侧是普尔莫角， 一个宁静的小渔村。",
+        "ref": "Now, on the other side of the peninsula lies Cabo Pulmo,  a sleepy fishing village.",
+        "hyp": "On the other side of the peninsula lies Cabo Pulmo, a tranquil little fishing village.",
+        "rel_src": [
+            "今年早些时候，为完成 《国家地理杂志》的合约拍摄， 我来到加利福尼亚半岛。",
+            "在半岛中部，临太平洋的一侧， 坐落着圣伊格纳西奥环礁湖， 那里是灰鲸重要的繁殖地。"
+        ],
+        "rel_tgt": [
+            "Earlier this year, to fulfill a contract with National Geographic, I traveled to the Baja California Peninsula.",
+            "On the Pacific side of the peninsula's midsection lies San Ignacio Lagoon, a crucial breeding ground for gray whales."
+        ],
+        "hist_info": "\"半岛\" - \"peninsula\"",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean",
+            "印度礁": "Inde Reef",
+            "加拉帕戈斯鲨鱼": "Galapagos sharks",
+            "加利福尼亚半岛": "Baja California Peninsula",
+            "半岛": "peninsula",
+            "圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "灰鲸": "gray whales\n\nHowever",
+            "so the correct annotation would be:\n\n<Proper nouns> 圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "普尔莫角": "Cabo Pulmo"
+        }
+    },
+    {
+        "idx": 63,
+        "src": "数十年的过度捕捞一度 将这个村子带到破产边缘。",
+        "ref": "Decades of overfishing had brought them close to collapse.",
+        "hyp": "Decades of overfishing had once pushed this village to the brink of bankruptcy.",
+        "rel_src": [
+            "附近岛屿的渔民， 曾经捕杀过许多魔鬼鱼， 用它们的皮来制作传统的鼓。",
+            "而如今，他们成为了魔鬼鱼最坚定的保护者， 魔鬼鱼每年为马尔代夫带来 超过800万美元的收入。"
+        ],
+        "rel_tgt": [
+            "Fishermen from nearby islands used to hunt many manta rays, using their skin to make traditional drums.",
+            "And now, they have become the most staunch protectors of the manta rays, which generate over $8 million annually for the Maldives."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean",
+            "印度礁": "Inde Reef",
+            "加拉帕戈斯鲨鱼": "Galapagos sharks",
+            "加利福尼亚半岛": "Baja California Peninsula",
+            "半岛": "peninsula",
+            "圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "灰鲸": "gray whales\n\nHowever",
+            "so the correct annotation would be:\n\n<Proper nouns> 圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "普尔莫角": "Cabo Pulmo"
+        }
+    },
+    {
+        "idx": 64,
+        "src": "1995年，当地渔民说服政府 将这片海域列为海洋保护区。",
+        "ref": "In 1995, local fisherman convinced the authorities  to proclaim their waters a marine reserve.",
+        "hyp": "In 1995, the local fishermen convinced the government to designate these waters as a marine protected area.",
+        "rel_src": [
+            "通过与“魔鬼鱼信托基金” 这类的非政府组织合作， 我的照片最终帮助哈尼法鲁 成为了海洋保护区。",
+            "数十年的过度捕捞一度 将这个村子带到破产边缘。"
+        ],
+        "rel_tgt": [
+            "By working with non-governmental organizations like the Manta Trust, my photographs ultimately helped secure Hanifaru's designation as a marine protected area.",
+            "Decades of overfishing had once pushed this village to the brink of bankruptcy."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean",
+            "印度礁": "Inde Reef",
+            "加拉帕戈斯鲨鱼": "Galapagos sharks",
+            "加利福尼亚半岛": "Baja California Peninsula",
+            "半岛": "peninsula",
+            "圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "灰鲸": "gray whales\n\nHowever",
+            "so the correct annotation would be:\n\n<Proper nouns> 圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "普尔莫角": "Cabo Pulmo"
+        }
+    },
+    {
+        "idx": 65,
+        "src": "接下来发生的一切简直可以说是奇迹。",
+        "ref": "But what happened next was nothing short of miraculous.",
+        "hyp": "What unfolded next could be described as nothing short of a miracle.",
+        "rel_src": [
+            "我以前从未在一个珊瑚环礁湖中 看到过如此多的鲨鱼。",
+            "这一物种令人惊讶地恢复过来了。"
+        ],
+        "rel_tgt": [
+            "I had never seen so many sharks in a coral atoll lagoon before.",
+            "This species has made a remarkable recovery."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean",
+            "印度礁": "Inde Reef",
+            "加拉帕戈斯鲨鱼": "Galapagos sharks",
+            "加利福尼亚半岛": "Baja California Peninsula",
+            "半岛": "peninsula",
+            "圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "灰鲸": "gray whales\n\nHowever",
+            "so the correct annotation would be:\n\n<Proper nouns> 圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "普尔莫角": "Cabo Pulmo"
+        }
+    },
+    {
+        "idx": 66,
+        "src": "在2005年，仅仅经过10年的保护， 科学家发现，当地鱼群数量 得到了创纪录的恢复。",
+        "ref": "In 2005, after only a single decade of protection,  scientists measured the largest recovery of fish ever recorded.",
+        "hyp": "In 2005, just a decade after the protection measures were implemented, scientists found that the local fish populations had recovered to record-breaking levels.",
+        "rel_src": [
+            "1995年，当地渔民说服政府 将这片海域列为海洋保护区。",
+            "接下来发生的一切简直可以说是奇迹。"
+        ],
+        "rel_tgt": [
+            "In 1995, the local fishermen convinced the government to designate these waters as a marine protected area.",
+            "What unfolded next could be described as nothing short of a miracle."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean",
+            "印度礁": "Inde Reef",
+            "加拉帕戈斯鲨鱼": "Galapagos sharks",
+            "加利福尼亚半岛": "Baja California Peninsula",
+            "半岛": "peninsula",
+            "圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "灰鲸": "gray whales\n\nHowever",
+            "so the correct annotation would be:\n\n<Proper nouns> 圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "普尔莫角": "Cabo Pulmo"
+        }
+    },
+    {
+        "idx": 67,
+        "src": "眼见为凭，跟我一起来吧。",
+        "ref": "But don't take my word for it -- come with me.",
+        "hyp": "See for yourself, come with me.",
+        "rel_src": [
+            "在半岛中部，临太平洋的一侧， 坐落着圣伊格纳西奥环礁湖， 那里是灰鲸重要的繁殖地。",
+            "而现在，这些灰鲸的后裔 会将自己的幼仔推向海面， 玩耍嬉戏，甚至与我们互动。"
+        ],
+        "rel_tgt": [
+            "On the Pacific side of the peninsula's midsection lies San Ignacio Lagoon, a crucial breeding ground for gray whales.",
+            "And now, the descendants of these gray whales push their calves to the surface to play, frolic, and even interact with us."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean",
+            "印度礁": "Inde Reef",
+            "加拉帕戈斯鲨鱼": "Galapagos sharks",
+            "加利福尼亚半岛": "Baja California Peninsula",
+            "半岛": "peninsula",
+            "圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "灰鲸": "gray whales\n\nHowever",
+            "so the correct annotation would be:\n\n<Proper nouns> 圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "普尔莫角": "Cabo Pulmo"
+        }
+    },
+    {
+        "idx": 68,
+        "src": "深吸一口气，与我一起潜入海底， 去看看我遇到过的最庞大、最密集的鱼群 是什么样子。",
+        "ref": "On a single breath, swim with me in deep,  into one of the largest and densest schools of fish  I have ever encountered.",
+        "hyp": "Take a deep breath and dive with me into the depths, to witness what the largest and densest schools of fish I've ever encountered look like.",
+        "rel_src": [
+            "接下来发生的一切简直可以说是奇迹。",
+            "在2005年，仅仅经过10年的保护， 科学家发现，当地鱼群数量 得到了创纪录的恢复。"
+        ],
+        "rel_tgt": [
+            "What unfolded next could be described as nothing short of a miracle.",
+            "In 2005, just a decade after the protection measures were implemented, scientists found that the local fish populations had recovered to record-breaking levels."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean",
+            "印度礁": "Inde Reef",
+            "加拉帕戈斯鲨鱼": "Galapagos sharks",
+            "加利福尼亚半岛": "Baja California Peninsula",
+            "半岛": "peninsula",
+            "圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "灰鲸": "gray whales\n\nHowever",
+            "so the correct annotation would be:\n\n<Proper nouns> 圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "普尔莫角": "Cabo Pulmo"
+        }
+    },
+    {
+        "idx": 69,
+        "src": "我们都有能力创造希望。",
+        "ref": "We all have the ability to be creators of hope.",
+        "hyp": "We all have the power to create hope.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean",
+            "印度礁": "Inde Reef",
+            "加拉帕戈斯鲨鱼": "Galapagos sharks",
+            "加利福尼亚半岛": "Baja California Peninsula",
+            "半岛": "peninsula",
+            "圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "灰鲸": "gray whales\n\nHowever",
+            "so the correct annotation would be:\n\n<Proper nouns> 圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "普尔莫角": "Cabo Pulmo"
+        }
+    },
+    {
+        "idx": 70,
+        "src": "我想通过自己的照片， 传递一个信息，从现在开始 拯救海洋还不算太晚。",
+        "ref": "And through my photography,  I want to pass on the message that it is not too late for our oceans.",
+        "hyp": "I want my photographs to convey a message: it's not too late to save our oceans, starting from now.",
+        "rel_src": [
+            "这一物种令人惊讶地恢复过来了。",
+            "在2005年，仅仅经过10年的保护， 科学家发现，当地鱼群数量 得到了创纪录的恢复。"
+        ],
+        "rel_tgt": [
+            "This species has made a remarkable recovery.",
+            "In 2005, just a decade after the protection measures were implemented, scientists found that the local fish populations had recovered to record-breaking levels."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean",
+            "印度礁": "Inde Reef",
+            "加拉帕戈斯鲨鱼": "Galapagos sharks",
+            "加利福尼亚半岛": "Baja California Peninsula",
+            "半岛": "peninsula",
+            "圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "灰鲸": "gray whales\n\nHowever",
+            "so the correct annotation would be:\n\n<Proper nouns> 圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "普尔莫角": "Cabo Pulmo"
+        }
+    },
+    {
+        "idx": 71,
+        "src": "我尤其想关注大自然所拥有的恢复能力， 在它面对73亿人类的时候。",
+        "ref": "And particularly, I want to focus on nature's resilience  in the face of 7.3 billion people.",
+        "hyp": "I particularly wish to highlight nature's resilience, even in the face of 7.3 billion humans.",
+        "rel_src": [
+            "这一物种令人惊讶地恢复过来了。",
+            "在2005年，仅仅经过10年的保护， 科学家发现，当地鱼群数量 得到了创纪录的恢复。"
+        ],
+        "rel_tgt": [
+            "This species has made a remarkable recovery.",
+            "In 2005, just a decade after the protection measures were implemented, scientists found that the local fish populations had recovered to record-breaking levels."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean",
+            "印度礁": "Inde Reef",
+            "加拉帕戈斯鲨鱼": "Galapagos sharks",
+            "加利福尼亚半岛": "Baja California Peninsula",
+            "半岛": "peninsula",
+            "圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "灰鲸": "gray whales\n\nHowever",
+            "so the correct annotation would be:\n\n<Proper nouns> 圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "普尔莫角": "Cabo Pulmo"
+        }
+    },
+    {
+        "idx": 72,
+        "src": "我希望在未来的时光里， 我将越来越难拍到 这样的照片， 而是拍到更多 反映人与海洋和谐共处的照片。",
+        "ref": "My hope is that in the future,  I will have to search much, much harder  to make photographs like this,  while creating images that showcase  our respectful coexistence with the ocean.",
+        "hyp": "I hope that in the years to come, it will become increasingly difficult for me to capture images like these, and instead, I'll be taking more photos that reflect a harmonious coexistence between people and the ocean.",
+        "rel_src": [
+            "1995年，当地渔民说服政府 将这片海域列为海洋保护区。",
+            "在2005年，仅仅经过10年的保护， 科学家发现，当地鱼群数量 得到了创纪录的恢复。"
+        ],
+        "rel_tgt": [
+            "In 1995, the local fishermen convinced the government to designate these waters as a marine protected area.",
+            "In 2005, just a decade after the protection measures were implemented, scientists found that the local fish populations had recovered to record-breaking levels."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean",
+            "印度礁": "Inde Reef",
+            "加拉帕戈斯鲨鱼": "Galapagos sharks",
+            "加利福尼亚半岛": "Baja California Peninsula",
+            "半岛": "peninsula",
+            "圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "灰鲸": "gray whales\n\nHowever",
+            "so the correct annotation would be:\n\n<Proper nouns> 圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "普尔莫角": "Cabo Pulmo"
+        }
+    },
+    {
+        "idx": 73,
+        "src": "真希望我每天都能拍到这样的照片。",
+        "ref": "Those will hopefully become an everyday occurrence for me.",
+        "hyp": "I truly wish I could take pictures like this every single day.",
+        "rel_src": [
+            "记录和分享这样的瞬间—— 时刻提醒我选择这条道路的初衷。",
+            "我想通过自己的照片， 传递一个信息，从现在开始 拯救海洋还不算太晚。"
+        ],
+        "rel_tgt": [
+            "Recording and sharing moments like these constantly remind me of the reasons why I chose this path.",
+            "I want my photographs to convey a message: it's not too late to save our oceans, starting from now."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean",
+            "印度礁": "Inde Reef",
+            "加拉帕戈斯鲨鱼": "Galapagos sharks",
+            "加利福尼亚半岛": "Baja California Peninsula",
+            "半岛": "peninsula",
+            "圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "灰鲸": "gray whales\n\nHowever",
+            "so the correct annotation would be:\n\n<Proper nouns> 圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "普尔莫角": "Cabo Pulmo"
+        }
+    },
+    {
+        "idx": 74,
+        "src": "要想在我们这一行干出点名堂， 你必须是个无可救药的乐观主义者。",
+        "ref": "To thrive and survive in my profession,  you really have to be a hopeless optimist.",
+        "hyp": "To make it in this line of work, you have to be a hopeless optimist.",
+        "rel_src": [
+            "我们都有能力创造希望。",
+            "我想通过自己的照片， 传递一个信息，从现在开始 拯救海洋还不算太晚。"
+        ],
+        "rel_tgt": [
+            "We all have the power to create hope.",
+            "I want my photographs to convey a message: it's not too late to save our oceans, starting from now."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean",
+            "印度礁": "Inde Reef",
+            "加拉帕戈斯鲨鱼": "Galapagos sharks",
+            "加利福尼亚半岛": "Baja California Peninsula",
+            "半岛": "peninsula",
+            "圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "灰鲸": "gray whales\n\nHowever",
+            "so the correct annotation would be:\n\n<Proper nouns> 圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "普尔莫角": "Cabo Pulmo"
+        }
+    },
+    {
+        "idx": 75,
+        "src": "我总是怀着这样的一个假设在拍照， 下一张能够带来改变的伟大照片 就在前面等我， 也许就在下一个珊瑚礁后面， 在下一个环礁湖里， 要不然，就在再下一个。",
+        "ref": "And I always operate on the assumption  that the next great picture that will effect change  is right around the corner,  behind the next coral head,  inside the next lagoon  or possibly, in the one after it.",
+        "hyp": "I always shoot with the assumption that the next great image, the one that could make a difference, is just out there waiting for me, perhaps behind the next coral reef, in the next lagoon, or if not, then the one after that.",
+        "rel_src": [
+            "在半岛中部，临太平洋的一侧， 坐落着圣伊格纳西奥环礁湖， 那里是灰鲸重要的繁殖地。",
+            "深吸一口气，与我一起潜入海底， 去看看我遇到过的最庞大、最密集的鱼群 是什么样子。"
+        ],
+        "rel_tgt": [
+            "On the Pacific side of the peninsula's midsection lies San Ignacio Lagoon, a crucial breeding ground for gray whales.",
+            "Take a deep breath and dive with me into the depths, to witness what the largest and densest schools of fish I've ever encountered look like."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "托马斯•佩斯查克": "Thomas Peschak",
+            "国家地理杂志": "National Geographic",
+            "拯救我们的海洋基金会": "Save Our Seas Foundation",
+            "加拿大": "Canada",
+            "大熊雨林": "Great Bear Rainforest",
+            "莫桑比克海峡": "Mozambique Channel",
+            "绿海龟": "green sea turtles (Note: 绿海龟 is not a proper noun",
+            "the proper noun is: 莫桑比克海峡": "Mozambique Channel",
+            "南非": "South Africa",
+            "沙丁鱼潮": "sardine run",
+            "非洲": "African",
+            "印度洋": "Indian Ocean",
+            "马尔代夫": "Maldives",
+            "西南季风": "Southwest Monsoon",
+            "群岛海域": "atoll waters",
+            "魔鬼鱼": "manta rays",
+            "巴阿环礁": "Baa Atoll",
+            "哈尼法鲁": "Hanifaru \n\nHowever",
+            "海湾": "bay",
+            "旋风捕食法": "tornado feeding method \n\nHowever",
+            "魔鬼鱼信托基金": "Manta Trust",
+            "西印度洋": "western Indian Ocean",
+            "印度礁": "Inde Reef",
+            "加拉帕戈斯鲨鱼": "Galapagos sharks",
+            "加利福尼亚半岛": "Baja California Peninsula",
+            "半岛": "peninsula",
+            "圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "灰鲸": "gray whales\n\nHowever",
+            "so the correct annotation would be:\n\n<Proper nouns> 圣伊格纳西奥环礁湖": "San Ignacio Lagoon",
+            "普尔莫角": "Cabo Pulmo"
+        }
+    }
+]

@@ -1,0 +1,2787 @@
+[
+    {
+        "idx": 0,
+        "src": "Les ordinateurs d'aujourd'hui sont tellement incroyables que l'on ne réalise pas à quel point ils sont mauvais.",
+        "ref": "Today's computers are so amazing  that we fail to notice how terrible they really are.",
+        "hyp": "The computers of today are so incredible that we don't realize how bad they are.",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 1,
+        "src": "J'aimerais aujourd'hui vous parler de ce problème et comment nous pouvons le résoudre avec les neurosciences.",
+        "ref": "I'd like to talk to you today about this problem,  and how we can fix it with neuroscience.",
+        "hyp": "I would like to talk to you today about this problem and how we can solve it with neuroscience.",
+        "rel_src": [
+            "Les ordinateurs d'aujourd'hui sont tellement incroyables que l'on ne réalise pas à quel point ils sont mauvais."
+        ],
+        "rel_tgt": [
+            "The computers of today are so incredible that we don't realize how bad they are."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 2,
+        "src": "Tout d'abord, j'aimerais vous ramener à Harlem lors d'une nuit glaciale de 2011 qui m'a profondément marqué.",
+        "ref": "First, I'd like to take you back to a frosty night in Harlem in 2011  that had a profound impact on me.",
+        "hyp": "First of all, I would like to take you back to Harlem on a freezing night in 2011 which deeply impacted me.",
+        "rel_src": [
+            "Les ordinateurs d'aujourd'hui sont tellement incroyables que l'on ne réalise pas à quel point ils sont mauvais.",
+            "J'aimerais aujourd'hui vous parler de ce problème et comment nous pouvons le résoudre avec les neurosciences."
+        ],
+        "rel_tgt": [
+            "The computers of today are so incredible that we don't realize how bad they are.",
+            "I would like to talk to you today about this problem and how we can solve it with neuroscience."
+        ],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 3,
+        "src": "J'étais assis à un bar non loin de l'université Columbia, où j'étudiais l'informatique et les neurosciences et j'étais en grande conversation avec un autre étudiant sur la capacité des hologrammes à remplacer un jour les ordinateurs.",
+        "ref": "I was sitting in a dive bar outside of Columbia University,  where I studied computer science and neuroscience,  and I was having this great conversation with a fellow student  about the power of holograms to one day replace computers.",
+        "hyp": "I was sitting at a bar not far from Columbia University, where I studied computer science and neuroscience, and I was having a great discussion with another student on the ability of holograms to one day replace computers.",
+        "rel_src": [
+            "J'aimerais aujourd'hui vous parler de ce problème et comment nous pouvons le résoudre avec les neurosciences.",
+            "Tout d'abord, j'aimerais vous ramener à Harlem lors d'une nuit glaciale de 2011 qui m'a profondément marqué."
+        ],
+        "rel_tgt": [
+            "I would like to talk to you today about this problem and how we can solve it with neuroscience.",
+            "First of all, I would like to take you back to Harlem on a freezing night in 2011 which deeply impacted me."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers"
+        }
+    },
+    {
+        "idx": 4,
+        "src": "Alors que nous arrivions au meilleur moment de la conversation, bien sûr, son téléphone s'allume.",
+        "ref": "And just as we were getting to the best part of the conversation,  of course, his phone lights up.",
+        "hyp": "As we reach the best moment of the conversation, of course, his phone lights up.",
+        "rel_src": [
+            "J'aimerais aujourd'hui vous parler de ce problème et comment nous pouvons le résoudre avec les neurosciences.",
+            "J'étais assis à un bar non loin de l'université Columbia, où j'étudiais l'informatique et les neurosciences et j'étais en grande conversation avec un autre étudiant sur la capacité des hologrammes à remplacer un jour les ordinateurs."
+        ],
+        "rel_tgt": [
+            "I would like to talk to you today about this problem and how we can solve it with neuroscience.",
+            "I was sitting at a bar not far from Columbia University, where I studied computer science and neuroscience, and I was having a great discussion with another student on the ability of holograms to one day replace computers."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers"
+        }
+    },
+    {
+        "idx": 5,
+        "src": "Il le sort, le regarde et commence à taper quelque chose.",
+        "ref": "And he pulls it towards himself, and he looks down and he starts typing.",
+        "hyp": "He takes it out, looks at it, and starts to type something.",
+        "rel_src": [
+            "J'étais assis à un bar non loin de l'université Columbia, où j'étudiais l'informatique et les neurosciences et j'étais en grande conversation avec un autre étudiant sur la capacité des hologrammes à remplacer un jour les ordinateurs.",
+            "Alors que nous arrivions au meilleur moment de la conversation, bien sûr, son téléphone s'allume."
+        ],
+        "rel_tgt": [
+            "I was sitting at a bar not far from Columbia University, where I studied computer science and neuroscience, and I was having a great discussion with another student on the ability of holograms to one day replace computers.",
+            "As we reach the best moment of the conversation, of course, his phone lights up."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers"
+        }
+    },
+    {
+        "idx": 6,
+        "src": "Puis il force ses yeux à revenir sur moi et il dit : « Continue. Je t'écoute. »",
+        "ref": "And then he forces his eyeballs back up to mine and he goes,  \"Keep going. I'm with you.\"",
+        "hyp": "Then he forces his eyes back to me and says: \"Go on. I'm listening.\"",
+        "rel_src": [
+            "J'étais assis à un bar non loin de l'université Columbia, où j'étudiais l'informatique et les neurosciences et j'étais en grande conversation avec un autre étudiant sur la capacité des hologrammes à remplacer un jour les ordinateurs.",
+            "Il le sort, le regarde et commence à taper quelque chose."
+        ],
+        "rel_tgt": [
+            "I was sitting at a bar not far from Columbia University, where I studied computer science and neuroscience, and I was having a great discussion with another student on the ability of holograms to one day replace computers.",
+            "He takes it out, looks at it, and starts to type something."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers"
+        }
+    },
+    {
+        "idx": 7,
+        "src": "Mais bien sûr, ses yeux étaient absents, et le moment était passé.",
+        "ref": "But of course his eyes were glazed over,  and the moment was dead.",
+        "hyp": "\"But of course, his eyes were absent, and the moment has passed.\"",
+        "rel_src": [
+            "Tout d'abord, j'aimerais vous ramener à Harlem lors d'une nuit glaciale de 2011 qui m'a profondément marqué.",
+            "J'étais assis à un bar non loin de l'université Columbia, où j'étudiais l'informatique et les neurosciences et j'étais en grande conversation avec un autre étudiant sur la capacité des hologrammes à remplacer un jour les ordinateurs."
+        ],
+        "rel_tgt": [
+            "First of all, I would like to take you back to Harlem on a freezing night in 2011 which deeply impacted me.",
+            "I was sitting at a bar not far from Columbia University, where I studied computer science and neuroscience, and I was having a great discussion with another student on the ability of holograms to one day replace computers."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers"
+        }
+    },
+    {
+        "idx": 8,
+        "src": "Pendant ce temps, dans ce bar, j'ai vu un autre étudiant tenir son téléphone, cette fois vers un groupe.",
+        "ref": "Meanwhile across the bar,  I noticed another student holding his phone,  this time towards a group.",
+        "hyp": "Meanwhile, in this bar, I saw another student holding his phone, this time towards a group.",
+        "rel_src": [
+            "J'étais assis à un bar non loin de l'université Columbia, où j'étudiais l'informatique et les neurosciences et j'étais en grande conversation avec un autre étudiant sur la capacité des hologrammes à remplacer un jour les ordinateurs.",
+            "Puis il force ses yeux à revenir sur moi et il dit : « Continue. Je t'écoute. »"
+        ],
+        "rel_tgt": [
+            "I was sitting at a bar not far from Columbia University, where I studied computer science and neuroscience, and I was having a great discussion with another student on the ability of holograms to one day replace computers.",
+            "Then he forces his eyes back to me and says: \"Go on. I'm listening.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers"
+        }
+    },
+    {
+        "idx": 9,
+        "src": "Il faisait défiler des photos sur Instagram, et ces gamins riaient hystériquement.",
+        "ref": "He was swiping through pictures on Instagram,  and these kids were laughing hysterically.",
+        "hyp": "He was scrolling through Instagram photos, and these kids were hysterically laughing.",
+        "rel_src": [
+            "Il le sort, le regarde et commence à taper quelque chose.",
+            "Pendant ce temps, dans ce bar, j'ai vu un autre étudiant tenir son téléphone, cette fois vers un groupe."
+        ],
+        "rel_tgt": [
+            "He takes it out, looks at it, and starts to type something.",
+            "Meanwhile, in this bar, I saw another student holding his phone, this time towards a group."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers"
+        }
+    },
+    {
+        "idx": 10,
+        "src": "Cette dichotomie entre mon sentiment de malaise et la joie qu'ils ressentaient à propos de la même technologie m'a fait m'interroger.",
+        "ref": "And that dichotomy between how crappy I was feeling  and how happy they were feeling about the same technology,  really got me thinking.",
+        "hyp": "This contradiction between my feeling of discomfort and the joy they felt about the same technology made me reflect.",
+        "rel_src": [
+            "Les ordinateurs d'aujourd'hui sont tellement incroyables que l'on ne réalise pas à quel point ils sont mauvais.",
+            "J'étais assis à un bar non loin de l'université Columbia, où j'étudiais l'informatique et les neurosciences et j'étais en grande conversation avec un autre étudiant sur la capacité des hologrammes à remplacer un jour les ordinateurs."
+        ],
+        "rel_tgt": [
+            "The computers of today are so incredible that we don't realize how bad they are.",
+            "I was sitting at a bar not far from Columbia University, where I studied computer science and neuroscience, and I was having a great discussion with another student on the ability of holograms to one day replace computers."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers"
+        }
+    },
+    {
+        "idx": 11,
+        "src": "Plus j'y pensais, plus je réalisais qu'ici, le problème n'était clairement pas l'information numérique, c'était seulement la position d'utilisation qui me séparait de mon ami et qui rassemblait ces gamins.",
+        "ref": "And the more I thought of it, the more I realized  it was clearly not the digital information that was the bad guy here,  it was simply the display position that was separating me from my friend  and that was binding those kids together.",
+        "hyp": "The more I thought about it, the more I realized that here, the problem wasn't clearly not digital information, it was was just the usage position that separated me from my friend and gathered these kids.",
+        "rel_src": [
+            "J'aimerais aujourd'hui vous parler de ce problème et comment nous pouvons le résoudre avec les neurosciences.",
+            "J'étais assis à un bar non loin de l'université Columbia, où j'étudiais l'informatique et les neurosciences et j'étais en grande conversation avec un autre étudiant sur la capacité des hologrammes à remplacer un jour les ordinateurs."
+        ],
+        "rel_tgt": [
+            "I would like to talk to you today about this problem and how we can solve it with neuroscience.",
+            "I was sitting at a bar not far from Columbia University, where I studied computer science and neuroscience, and I was having a great discussion with another student on the ability of holograms to one day replace computers."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers"
+        }
+    },
+    {
+        "idx": 12,
+        "src": "Ils étaient connectés autour de quelque chose tout comme nos ancêtres qui ont amélioré leurs connaissances sociales en racontant des histoires autour du feu de camp.",
+        "ref": "See, they were connected around something,  just like our ancestors who evolved their social cognitions  telling stories around the campfire.",
+        "hyp": "They were connected around something just like our ancestors who improved their social knowledge by telling stories around the campfire.",
+        "rel_src": [
+            "J'étais assis à un bar non loin de l'université Columbia, où j'étudiais l'informatique et les neurosciences et j'étais en grande conversation avec un autre étudiant sur la capacité des hologrammes à remplacer un jour les ordinateurs.",
+            "Cette dichotomie entre mon sentiment de malaise et la joie qu'ils ressentaient à propos de la même technologie m'a fait m'interroger."
+        ],
+        "rel_tgt": [
+            "I was sitting at a bar not far from Columbia University, where I studied computer science and neuroscience, and I was having a great discussion with another student on the ability of holograms to one day replace computers.",
+            "This contradiction between my feeling of discomfort and the joy they felt about the same technology made me reflect."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers"
+        }
+    },
+    {
+        "idx": 13,
+        "src": "Je pense que c'est exactement ce que les outils devraient faire.",
+        "ref": "And that's exactly what tools should do, I think.",
+        "hyp": "I think that's exactly what tools should do.",
+        "rel_src": [
+            "Les ordinateurs d'aujourd'hui sont tellement incroyables que l'on ne réalise pas à quel point ils sont mauvais.",
+            "Plus j'y pensais, plus je réalisais qu'ici, le problème n'était clairement pas l'information numérique, c'était seulement la position d'utilisation qui me séparait de mon ami et qui rassemblait ces gamins."
+        ],
+        "rel_tgt": [
+            "The computers of today are so incredible that we don't realize how bad they are.",
+            "The more I thought about it, the more I realized that here, the problem wasn't clearly not digital information, it was was just the usage position that separated me from my friend and gathered these kids."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers"
+        }
+    },
+    {
+        "idx": 14,
+        "src": "Prolonger nos corps.",
+        "ref": "They should extend our bodies.",
+        "hyp": "Extend our bodies.",
+        "rel_src": [
+            "Les ordinateurs d'aujourd'hui sont tellement incroyables que l'on ne réalise pas à quel point ils sont mauvais.",
+            "Ils étaient connectés autour de quelque chose tout comme nos ancêtres qui ont amélioré leurs connaissances sociales en racontant des histoires autour du feu de camp."
+        ],
+        "rel_tgt": [
+            "The computers of today are so incredible that we don't realize how bad they are.",
+            "They were connected around something just like our ancestors who improved their social knowledge by telling stories around the campfire."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers"
+        }
+    },
+    {
+        "idx": 15,
+        "src": "Je pense qu'aujourd'hui les ordinateurs font l'inverse.",
+        "ref": "And I think computers today are doing quite the opposite.",
+        "hyp": "I think that today's computers are doing the opposite.",
+        "rel_src": [
+            "Les ordinateurs d'aujourd'hui sont tellement incroyables que l'on ne réalise pas à quel point ils sont mauvais.",
+            "J'étais assis à un bar non loin de l'université Columbia, où j'étudiais l'informatique et les neurosciences et j'étais en grande conversation avec un autre étudiant sur la capacité des hologrammes à remplacer un jour les ordinateurs."
+        ],
+        "rel_tgt": [
+            "The computers of today are so incredible that we don't realize how bad they are.",
+            "I was sitting at a bar not far from Columbia University, where I studied computer science and neuroscience, and I was having a great discussion with another student on the ability of holograms to one day replace computers."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers"
+        }
+    },
+    {
+        "idx": 16,
+        "src": "Que vous envoyiez un e-mail à votre femme, que vous composiez une symphonie ou que vous consoliez un ami, vous le faites à peu près de la même manière.",
+        "ref": "Whether you're sending an email to your wife  or you're composing a symphony  or just consoling a friend,  you're doing it in pretty much the same way.",
+        "hyp": "Whether you send an email to your wife, compose a symphony, or comfort a friend, you do it about the same way.",
+        "rel_src": [
+            "Les ordinateurs d'aujourd'hui sont tellement incroyables que l'on ne réalise pas à quel point ils sont mauvais.",
+            "J'étais assis à un bar non loin de l'université Columbia, où j'étudiais l'informatique et les neurosciences et j'étais en grande conversation avec un autre étudiant sur la capacité des hologrammes à remplacer un jour les ordinateurs."
+        ],
+        "rel_tgt": [
+            "The computers of today are so incredible that we don't realize how bad they are.",
+            "I was sitting at a bar not far from Columbia University, where I studied computer science and neuroscience, and I was having a great discussion with another student on the ability of holograms to one day replace computers."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers"
+        }
+    },
+    {
+        "idx": 17,
+        "src": "Vous êtes penchés sur ces rectangles, vous tapez sur des boutons, des menus et plus de rectangles.",
+        "ref": "You're hunched over these rectangles,  fumbling with buttons and menus and more rectangles.",
+        "hyp": "You are leaning over these rectangles, pressing buttons, menus and more rectangles.",
+        "rel_src": [
+            "Les ordinateurs d'aujourd'hui sont tellement incroyables que l'on ne réalise pas à quel point ils sont mauvais.",
+            "J'étais assis à un bar non loin de l'université Columbia, où j'étudiais l'informatique et les neurosciences et j'étais en grande conversation avec un autre étudiant sur la capacité des hologrammes à remplacer un jour les ordinateurs."
+        ],
+        "rel_tgt": [
+            "The computers of today are so incredible that we don't realize how bad they are.",
+            "I was sitting at a bar not far from Columbia University, where I studied computer science and neuroscience, and I was having a great discussion with another student on the ability of holograms to one day replace computers."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers"
+        }
+    },
+    {
+        "idx": 18,
+        "src": "Je pense que c'est la mauvaise manière. Je pense que nous pouvons commencer à utiliser une machine plus naturelle.",
+        "ref": "And I think this is the wrong way,  I think we can start using a much more natural machine.",
+        "hyp": "I think it's the wrong way. I think we can start using a more natural machine.",
+        "rel_src": [
+            "Les ordinateurs d'aujourd'hui sont tellement incroyables que l'on ne réalise pas à quel point ils sont mauvais.",
+            "Je pense qu'aujourd'hui les ordinateurs font l'inverse."
+        ],
+        "rel_tgt": [
+            "The computers of today are so incredible that we don't realize how bad they are.",
+            "I think that today's computers are doing the opposite."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers"
+        }
+    },
+    {
+        "idx": 19,
+        "src": "Nous devrions utiliser des machines qui ramènent notre travail dans ce monde.",
+        "ref": "We should use machines that bring our work back into the world.",
+        "hyp": "We should use machines that bring our work back into this world.",
+        "new_src_summary": "Ce texte discute de l'utilisation excessive et inefficace des ordinateurs moderneses, comparés à leur potentiel d'amélioration. L'auteur évoque un souvenir de 2011 à Harlem, où il constatait une dichotomie intéressante entre sa propre inquiétude face à l'interaction numérique et la joie des autres utilisateurs. Il conclut que le problème ne réside pas dans l information numérique elle-même, mais dans la façon dont elle est utilisée. Selon lui, les outils devraient prolonger nos capacités physiques et sociaux, contrairement aux ordinateurs actuels qui semblent avoir un impact n nverse. Il soutient que pour résoudre ce problème, il serait préférable d développer des machines plus naturelles pour l interaction humaine.",
+        "new_tgt_summary": "The author discusses the disparity between the advanced capabilities of modern computers and their seemingly inadequate user experience. Drawing inspiration from a personal anecdote in 2011, the author reflects on a conversation about holograms potentially replacing computers, interrupted by the sudden attention of a phone notification. This incident contrasts with the joyful engagement of other students using their phones, highlighting the disconnect between technology's potential to extend human abilities and its current limitations. The author argues that today's computers fail to effectively connect users socially or extend their capabilities due to their rigid interaction methods. The author suggests that a more natural, intuitive interface could better utilize the power of computers and enhance their user experience, aligning more closely with the intended purpose of technological advancement.",
+        "rel_src": [
+            "Je pense qu'aujourd'hui les ordinateurs font l'inverse.",
+            "Vous êtes penchés sur ces rectangles, vous tapez sur des boutons, des menus et plus de rectangles."
+        ],
+        "rel_tgt": [
+            "I think that today's computers are doing the opposite.",
+            "You are leaning over these rectangles, pressing buttons, menus and more rectangles."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers"
+        }
+    },
+    {
+        "idx": 20,
+        "src": "Des machines qui utilisent les principes des neurosciences pour prolonger nos sens, et non aller contre eux.",
+        "ref": "We should use machines that use the principles of neuroscience  to extend our senses versus going against them.",
+        "hyp": "Machines that use the principles of neuroscience to extend our senses, rather than going against them.",
+        "rel_src": [
+            "J'étais assis à un bar non loin de l'université Columbia, où j'étudiais l'informatique et les neurosciences et j'étais en grande conversation avec un autre étudiant sur la capacité des hologrammes à remplacer un jour les ordinateurs.",
+            "Vous êtes penchés sur ces rectangles, vous tapez sur des boutons, des menus et plus de rectangles."
+        ],
+        "rel_tgt": [
+            "I was sitting at a bar not far from Columbia University, where I studied computer science and neuroscience, and I was having a great discussion with another student on the ability of holograms to one day replace computers.",
+            "You are leaning over these rectangles, pressing buttons, menus and more rectangles."
+        ],
+        "hist_info": "\"neuroscience\" - \"neuroscience\"",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers"
+        }
+    },
+    {
+        "idx": 21,
+        "src": "Il s'avère en fait que j'ai une telle machine.",
+        "ref": "Now it just so happens that I have such a machine here.",
+        "hyp": "It turns out that I have such a machine.",
+        "rel_src": [
+            "Je pense que c'est exactement ce que les outils devraient faire.",
+            "Nous devrions utiliser des machines qui ramènent notre travail dans ce monde."
+        ],
+        "rel_tgt": [
+            "I think that's exactly what tools should do.",
+            "We should use machines that bring our work back into this world."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers"
+        }
+    },
+    {
+        "idx": 22,
+        "src": "Elle s'appelle Meta 2.",
+        "ref": "It's called the Meta 2.",
+        "hyp": "It's called Meta 2.",
+        "rel_src": [
+            "Des machines qui utilisent les principes des neurosciences pour prolonger nos sens, et non aller contre eux.",
+            "Il s'avère en fait que j'ai une telle machine."
+        ],
+        "rel_tgt": [
+            "Machines that use the principles of neuroscience to extend our senses, rather than going against them.",
+            "It turns out that I have such a machine."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2"
+        }
+    },
+    {
+        "idx": 23,
+        "src": "Testons-la !",
+        "ref": "Let's try it out.",
+        "hyp": "Let's test it!",
+        "rel_src": [
+            "Il s'avère en fait que j'ai une telle machine.",
+            "Elle s'appelle Meta 2."
+        ],
+        "rel_tgt": [
+            "It turns out that I have such a machine.",
+            "It's called Meta 2."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2"
+        }
+    },
+    {
+        "idx": 24,
+        "src": "En face de moi, je peux voir un public, et je peux voir mes mains.",
+        "ref": "Now in front of me right now, I can see the audience,  and I can see my very hands.",
+        "hyp": "In front of me, I can see an audience, and I can see my hands.",
+        "rel_src": [
+            "Alors que nous arrivions au meilleur moment de la conversation, bien sûr, son téléphone s'allume.",
+            "Il le sort, le regarde et commence à taper quelque chose."
+        ],
+        "rel_tgt": [
+            "As we reach the best moment of the conversation, of course, his phone lights up.",
+            "He takes it out, looks at it, and starts to type something."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2"
+        }
+    },
+    {
+        "idx": 25,
+        "src": "Et dans trois, deux, un, nous allons voir apparaître un hologramme immersif, un hologramme très réaliste apparaît devant moi, issu des lunettes que je porte.",
+        "ref": "And in three, two, one,  we're going to see an immersive hologram appear,  a very realistic hologram appear in front of me,  of our very glasses I'm wearing on my head right now.",
+        "hyp": "And in three, two, one, we're going to see an immersive hologram appear, a very realistic hologram appears in front of me, coming from the glasses I'm wearing.",
+        "rel_src": [
+            "Des machines qui utilisent les principes des neurosciences pour prolonger nos sens, et non aller contre eux.",
+            "Elle s'appelle Meta 2."
+        ],
+        "rel_tgt": [
+            "Machines that use the principles of neuroscience to extend our senses, rather than going against them.",
+            "It's called Meta 2."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2"
+        }
+    },
+    {
+        "idx": 26,
+        "src": "Bien sûr, cela pourrait être quelque chose que nous achetons ou que nous apprenons, et je peux utilise mes mains pour les déplacer finement.",
+        "ref": "And of course this could be anything that we're shopping for  or learning from,  and I can use my hands  to very nicely kind of move it around with fine control.",
+        "hyp": "Certainly, this could be something we purchase or learn, and I can use my hands to move them precisely.",
+        "rel_src": [
+            "Je pense que c'est la mauvaise manière. Je pense que nous pouvons commencer à utiliser une machine plus naturelle.",
+            "Des machines qui utilisent les principes des neurosciences pour prolonger nos sens, et non aller contre eux."
+        ],
+        "rel_tgt": [
+            "I think it's the wrong way. I think we can start using a more natural machine.",
+            "Machines that use the principles of neuroscience to extend our senses, rather than going against them."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2"
+        }
+    },
+    {
+        "idx": 27,
+        "src": "Je pense qu'Iron Man serait fier.",
+        "ref": "And I think Iron Man would be proud.",
+        "hyp": "\"I think Iron Man would be proud.\"",
+        "rel_src": [
+            "Mais bien sûr, ses yeux étaient absents, et le moment était passé.",
+            "Bien sûr, cela pourrait être quelque chose que nous achetons ou que nous apprenons, et je peux utilise mes mains pour les déplacer finement."
+        ],
+        "rel_tgt": [
+            "\"But of course, his eyes were absent, and the moment has passed.\"",
+            "Certainly, this could be something we purchase or learn, and I can use my hands to move them precisely."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man"
+        }
+    },
+    {
+        "idx": 28,
+        "src": "Nous reviendrons sur ça un peu plus tard.",
+        "ref": "We're going to come back to this in just a bit.",
+        "hyp": "We'll come back to this later.",
+        "rel_src": [
+            "Pendant ce temps, dans ce bar, j'ai vu un autre étudiant tenir son téléphone, cette fois vers un groupe.",
+            "Testons-la !"
+        ],
+        "rel_tgt": [
+            "Meanwhile, in this bar, I saw another student holding his phone, this time towards a group.",
+            "Let's test it!"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man"
+        }
+    },
+    {
+        "idx": 29,
+        "src": "Maintenant si vous êtes comme moi, votre esprit est déjà sous le choc des possibilités que nous avons avec ce type de technologie, regardons-en quelques-unes.",
+        "ref": "Now if you're anything like me, your mind is already reeling  with the possibilities of what we can do with this kind of technology,  so let's look at a few.",
+        "hyp": "Now, if you're like me, your mind is already blown by the possibilities we have with this kind of technology, let's look at some of them.",
+        "rel_src": [
+            "Il s'avère en fait que j'ai une telle machine.",
+            "Elle s'appelle Meta 2."
+        ],
+        "rel_tgt": [
+            "It turns out that I have such a machine.",
+            "It's called Meta 2."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man"
+        }
+    },
+    {
+        "idx": 30,
+        "src": "Ma mère est architecte, naturellement la première chose que j'ai imaginée était de dessiner un bâtiment en 3D au lieu d'utiliser ces plans en 2D.",
+        "ref": "My mom is an architect,  so naturally the first thing I imagined  was laying out a building in 3D space  instead of having to use these 2D floor plans.",
+        "hyp": "My mother is an architect, naturally the first thing I imagined was drawing a 3D building instead of using these 2D plans.",
+        "rel_src": [
+            "Cette dichotomie entre mon sentiment de malaise et la joie qu'ils ressentaient à propos de la même technologie m'a fait m'interroger.",
+            "Elle s'appelle Meta 2."
+        ],
+        "rel_tgt": [
+            "This contradiction between my feeling of discomfort and the joy they felt about the same technology made me reflect.",
+            "It's called Meta 2."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man"
+        }
+    },
+    {
+        "idx": 31,
+        "src": "Là, elle touche des graphiques et sélectionne un décor intérieur.",
+        "ref": "She's actually touching graphics right now  and selecting an interior decor.",
+        "hyp": "Here, she touches the graphics and selects an indoor setting.",
+        "rel_src": [
+            "Que vous envoyiez un e-mail à votre femme, que vous composiez une symphonie ou que vous consoliez un ami, vous le faites à peu près de la même manière.",
+            "Nous devrions utiliser des machines qui ramènent notre travail dans ce monde."
+        ],
+        "rel_tgt": [
+            "Whether you send an email to your wife, compose a symphony, or comfort a friend, you do it about the same way.",
+            "We should use machines that bring our work back into this world."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man"
+        }
+    },
+    {
+        "idx": 32,
+        "src": "Tout a été filmé avec une GoPro avec nos propres lunettes.",
+        "ref": "This was all shot through a GoPro through our very glasses.",
+        "hyp": "Everything was was filmed with a GoPro using our own glasses.",
+        "rel_src": [
+            "En face de moi, je peux voir un public, et je peux voir mes mains.",
+            "Et dans trois, deux, un, nous allons voir apparaître un hologramme immersif, un hologramme très réaliste apparaît devant moi, issu des lunettes que je porte."
+        ],
+        "rel_tgt": [
+            "In front of me, I can see an audience, and I can see my hands.",
+            "And in three, two, one, we're going to see an immersive hologram appear, a very realistic hologram appears in front of me, coming from the glasses I'm wearing."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro"
+        }
+    },
+    {
+        "idx": 33,
+        "src": "Ce prochain cas est vraiment particulier pour moi, il s'agit du projet de lunettes pour cerveau du professeur Adam Gazzaley, fourni par l'UCSF.",
+        "ref": "And this next use case is very personal to me,  it's Professor Adam Gazzaley's glass brain project,  courtesy of UCSF.",
+        "hyp": "This upcoming case is truly special for me, it refers to Professor Adam Gazzaley's brain glasses project, provided by the UCSF.",
+        "rel_src": [
+            "Je pense que c'est exactement ce que les outils devraient faire.",
+            "Elle s'appelle Meta 2."
+        ],
+        "rel_tgt": [
+            "I think that's exactly what tools should do.",
+            "It's called Meta 2."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 34,
+        "src": "En tant qu'étudiant en neurosciences, je fantasmerai toujours sur la possibilité d'apprendre et de mémoriser ces structures cérébrales complexes avec une machine réelle, je pourrais toucher et jouer avec ces différentes structures cérébrales.",
+        "ref": "As a neuroscience student,  I would always fantasize  about the ability to learn and memorize these complex brain structures  with an actual machine,  where I could touch and play with the various brain structures.",
+        "hyp": "As a neuroscience student, I would always fantasize about the possibility of learning and memorizing these complex cerebral structures with a real machine, I could touch and play with these different cerebral structures.",
+        "rel_src": [
+            "Des machines qui utilisent les principes des neurosciences pour prolonger nos sens, et non aller contre eux.",
+            "Elle s'appelle Meta 2."
+        ],
+        "rel_tgt": [
+            "Machines that use the principles of neuroscience to extend our senses, rather than going against them.",
+            "It's called Meta 2."
+        ],
+        "hist_info": "\"neuroscience\" - \"neuroscience\"",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 35,
+        "src": "Ce que vous voyez à présent s'appelle la réalité augmentée, mais pour moi, ca fait partie d'une histoire beaucoup plus importante — une histoire sur la manière dont on commence à étendre nos corps grâce à des objets numériques, plutôt que l'inverse.",
+        "ref": "Now what you're seeing is called augmented reality,  but to me, it's part of a much more important story --  a story of how we can begin to extend our bodies with digital devices,  instead of the other way around.",
+        "hyp": "What you see now is called augmented reality, but for me, it's part of a much bigger story - a story about how we start to extend our bodies through digital objects, rather than the other way around.",
+        "rel_src": [
+            "Je pense qu'aujourd'hui les ordinateurs font l'inverse.",
+            "Ma mère est architecte, naturellement la première chose que j'ai imaginée était de dessiner un bâtiment en 3D au lieu d'utiliser ces plans en 2D."
+        ],
+        "rel_tgt": [
+            "I think that today's computers are doing the opposite.",
+            "My mother is an architect, naturally the first thing I imagined was drawing a 3D building instead of using these 2D plans."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 36,
+        "src": "A présent...",
+        "ref": "Now ...",
+        "hyp": "Now...",
+        "rel_src": [
+            "En face de moi, je peux voir un public, et je peux voir mes mains.",
+            "Et dans trois, deux, un, nous allons voir apparaître un hologramme immersif, un hologramme très réaliste apparaît devant moi, issu des lunettes que je porte."
+        ],
+        "rel_tgt": [
+            "In front of me, I can see an audience, and I can see my hands.",
+            "And in three, two, one, we're going to see an immersive hologram appear, a very realistic hologram appears in front of me, coming from the glasses I'm wearing."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 37,
+        "src": "je pense que dans les prochaines années, l'humanité va vivre un changement.",
+        "ref": "in the next few years, humanity's going to go through a shift, I think.",
+        "hyp": "I think that in the coming years, humanity will experience a change.",
+        "rel_src": [
+            "Vous êtes penchés sur ces rectangles, vous tapez sur des boutons, des menus et plus de rectangles.",
+            "Je pense que c'est la mauvaise manière. Je pense que nous pouvons commencer à utiliser une machine plus naturelle."
+        ],
+        "rel_tgt": [
+            "You are leaning over these rectangles, pressing buttons, menus and more rectangles.",
+            "I think it's the wrong way. I think we can start using a more natural machine."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 38,
+        "src": "Nous allons commencer à mettre une couche entière d'information digitale sur le monde réel.",
+        "ref": "We're going to start putting an entire layer of digital information  on the real world.",
+        "hyp": "We are going to start overlaying a whole layer of digital information onto the real world.",
+        "rel_src": [
+            "Je pense que c'est la mauvaise manière. Je pense que nous pouvons commencer à utiliser une machine plus naturelle.",
+            "Nous devrions utiliser des machines qui ramènent notre travail dans ce monde."
+        ],
+        "rel_tgt": [
+            "I think it's the wrong way. I think we can start using a more natural machine.",
+            "We should use machines that bring our work back into this world."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 39,
+        "src": "Imaginez un seul instant ce que cela signifierait pour les conteurs, les peintres, les neurochirurgiens, les décorateurs d'intérieurs et peut-être pour nous tous ici aujourd'hui.",
+        "ref": "Just imagine for a moment  what this could mean for storytellers,  for painters,  for brain surgeons,  for interior decorators  and maybe for all of us here today.",
+        "hyp": "Imagine for a moment what it would mean for storytellers, painters, neurosurgeons, interior decorators, and perhaps for us all here today.",
+        "new_src_summary": "Dans cet article, l'auteur discute de l'utilisation excessive et inefficace des ordinateurs moderneses, en comparaison de leur potentiel d'amélioration. Il se rappelle d une expérience à Harlem en 2011, où il observait une dichotomie intéressante entre son inquiétude concernant l'interaction numérique et la joie des autres utilisateurs. Il conclut que le problème ne réside pas dans l'information numérique elle-même, mais dans la façon dont elle est utilisée. Selon lui, les outils devraient prolonger nos capacités physiques et sociales, contrairement aux ordinateurs actuels qui semblent avoir un impact inversé. L'auteur soutient qu pour résoudre ce problème, il serait préférable de développer des machines plus naturelles pour l interaction humaine. \n\nL'article évoque également l'utilisation de machines qui utilisent les principes des neurosciences pour prolonger nos sens, comme l exemple de la Meta 2, une machine qui permet de voir un hologramme imm immos et réaliste. L'auteur met en avant les possibilités offertes par cette technologie, comme la création de bâtiments en 3D ou l apprentissage des structures cérébraales complexes. Il souligne également que la réalité augmentée est une partie intégrante de l extension de nos corps grâce aux objets numériques. Le texte suggère que l'humanité est sur le point de vivre un changement majeur avec l'introduction d'une couche entière d'information digitale sur le monde réel.",
+        "new_tgt_summary": "The author highlights the discrepancy between the sophisticated capabilities of contemporary computers and the unsatisfactory user experience they offer. Inspired by a 2011 incident where a hologram discussion was abruptly halted by a phone notification, the author contrasts the engaging smartphone usage among peers. This juxtaposition underscores the gap between technology's potential to augment human abilities and its current limitations, especially in social interaction and capability extension. The author advocates for a more natural, intuitive interface to harness computer power and improve user experience, echoing the intended purpose of technological progress. Moreover, the author showcases the Meta 2 device, demonstrating its capacity to generate realistic holographic images and facilitate interactive augmented reality experiences. By linking this technology to neuroscience, particularly brain structure manipulation, the author envisions a future where integrates digital information seamlessly into daily life, enhancing the physical world through technology.",
+        "rel_src": [
+            "En tant qu'étudiant en neurosciences, je fantasmerai toujours sur la possibilité d'apprendre et de mémoriser ces structures cérébrales complexes avec une machine réelle, je pourrais toucher et jouer avec ces différentes structures cérébrales.",
+            "Ce que vous voyez à présent s'appelle la réalité augmentée, mais pour moi, ca fait partie d'une histoire beaucoup plus importante — une histoire sur la manière dont on commence à étendre nos corps grâce à des objets numériques, plutôt que l'inverse."
+        ],
+        "rel_tgt": [
+            "As a neuroscience student, I would always fantasize about the possibility of learning and memorizing these complex cerebral structures with a real machine, I could touch and play with these different cerebral structures.",
+            "What you see now is called augmented reality, but for me, it's part of a much bigger story - a story about how we start to extend our bodies through digital objects, rather than the other way around."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 40,
+        "src": "Et ce que nous devons faire en tant que communauté, c'est d'essayer et de faire l'effort d'imaginer comment nous pouvons créer cette nouvelle réalité d'une manière qui étende l'expérience humaine, plutôt que de ludifier notre réalité ou de l'encombrer avec de l'information digitale.",
+        "ref": "And what I think we need to do as a community,  is really try and make an effort  to imagine how we can create this new reality  in a way that extends the human experience,  instead of gamifying our reality  or cluttering it with digital information.",
+        "hyp": "And what we need to do as a community is to try and make the effort to imagine how we can create this new reality in a way that extends human experience, rather than gamifying our reality or cluttering it with digital information.",
+        "rel_src": [
+            "Ce prochain cas est vraiment particulier pour moi, il s'agit du projet de lunettes pour cerveau du professeur Adam Gazzaley, fourni par l'UCSF.",
+            "Nous allons commencer à mettre une couche entière d'information digitale sur le monde réel."
+        ],
+        "rel_tgt": [
+            "This upcoming case is truly special for me, it refers to Professor Adam Gazzaley's brain glasses project, provided by the UCSF.",
+            "We are going to start overlaying a whole layer of digital information onto the real world."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 41,
+        "src": "C'est cela qui me passionne réellement.",
+        "ref": "And that's what I'm very passionate about.",
+        "hyp": "This is what truly fascinates me.",
+        "rel_src": [
+            "A présent...",
+            "Imaginez un seul instant ce que cela signifierait pour les conteurs, les peintres, les neurochirurgiens, les décorateurs d'intérieurs et peut-être pour nous tous ici aujourd'hui."
+        ],
+        "rel_tgt": [
+            "Now...",
+            "Imagine for a moment what it would mean for storytellers, painters, neurosurgeons, interior decorators, and perhaps for us all here today."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 42,
+        "src": "A présent, je veux vous dire un petit secret.",
+        "ref": "Now, I want to tell you a little secret.",
+        "hyp": "Now, I want to tell you a little secret.",
+        "rel_src": [
+            "Et ce que nous devons faire en tant que communauté, c'est d'essayer et de faire l'effort d'imaginer comment nous pouvons créer cette nouvelle réalité d'une manière qui étende l'expérience humaine, plutôt que de ludifier notre réalité ou de l'encombrer avec de l'information digitale.",
+            "C'est cela qui me passionne réellement."
+        ],
+        "rel_tgt": [
+            "And what we need to do as a community is to try and make the effort to imagine how we can create this new reality in a way that extends human experience, rather than gamifying our reality or cluttering it with digital information.",
+            "This is what truly fascinates me."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 43,
+        "src": "Dans environ cinq ans — c'est pas l'appareil le plus petit — dans environ cinq ans, ils ressembleront tous à des bandes de verre sur nos yeux qui projetteront des hologrammes.",
+        "ref": "In about five years --  this is not the smallest device --  in about five years,  these are all going to look like strips of glass on our eyes  that project holograms.",
+        "hyp": "In about five years - not the smallest device - in about five years, they will all look like bands of glass on our eyes projecting holograms.",
+        "rel_src": [
+            "Ce que vous voyez à présent s'appelle la réalité augmentée, mais pour moi, ca fait partie d'une histoire beaucoup plus importante — une histoire sur la manière dont on commence à étendre nos corps grâce à des objets numériques, plutôt que l'inverse.",
+            "Et ce que nous devons faire en tant que communauté, c'est d'essayer et de faire l'effort d'imaginer comment nous pouvons créer cette nouvelle réalité d'une manière qui étende l'expérience humaine, plutôt que de ludifier notre réalité ou de l'encombrer avec de l'information digitale."
+        ],
+        "rel_tgt": [
+            "What you see now is called augmented reality, but for me, it's part of a much bigger story - a story about how we start to extend our bodies through digital objects, rather than the other way around.",
+            "And what we need to do as a community is to try and make the effort to imagine how we can create this new reality in a way that extends human experience, rather than gamifying our reality or cluttering it with digital information."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 44,
+        "src": "Comme on se préoccupe peu du téléphone que l'on achète pour ses caractéristiques techniques — on l'achète pour le système d'exploitation — en tant que neuroscientifique, j'ai toujours rêvé de créer « l'iOS de l'esprit », si vous voulez.",
+        "ref": "And just like we don't care so much about which phone we buy  in terms of the hardware -- we buy it for the operating system --  as a neuroscientist,  I always dreamt of building the iOS of the mind, if you will.",
+        "hyp": "As we rarely consider a phone's purchase for its technical specifications - we buy it for the operating system - as a neuroscientist, I've always dreamed of creating \"iOS of the mind\", if you will.",
+        "rel_src": [
+            "En tant qu'étudiant en neurosciences, je fantasmerai toujours sur la possibilité d'apprendre et de mémoriser ces structures cérébrales complexes avec une machine réelle, je pourrais toucher et jouer avec ces différentes structures cérébrales.",
+            "C'est cela qui me passionne réellement."
+        ],
+        "rel_tgt": [
+            "As a neuroscience student, I would always fantasize about the possibility of learning and memorizing these complex cerebral structures with a real machine, I could touch and play with these different cerebral structures.",
+            "This is what truly fascinates me."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 45,
+        "src": "C'est très, très important de faire bien les choses, car nous pourrions vivre dans ces choses pendant au moins aussi longtemps que le temps passé avec l'interface utilisateur de Windows.",
+        "ref": "And it's very, very important that we get this right,  because we might be living inside of these things  for at least as long as we've lived  with the Windows graphical user interface.",
+        "hyp": "It is extremely crucial to do things right, as we would be living with these things for at least as long as we spent time with the Windows user interface.",
+        "rel_src": [
+            "Ma mère est architecte, naturellement la première chose que j'ai imaginée était de dessiner un bâtiment en 3D au lieu d'utiliser ces plans en 2D.",
+            "Et ce que nous devons faire en tant que communauté, c'est d'essayer et de faire l'effort d'imaginer comment nous pouvons créer cette nouvelle réalité d'une manière qui étende l'expérience humaine, plutôt que de ludifier notre réalité ou de l'encombrer avec de l'information digitale."
+        ],
+        "rel_tgt": [
+            "My mother is an architect, naturally the first thing I imagined was drawing a 3D building instead of using these 2D plans.",
+            "And what we need to do as a community is to try and make the effort to imagine how we can create this new reality in a way that extends human experience, rather than gamifying our reality or cluttering it with digital information."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 46,
+        "src": "Et je ne sais pas vous, mais vivre à l'intérieur de Windows me fait peur.",
+        "ref": "And I don't know about you,  but living inside of Windows scares me.",
+        "hyp": "And I don't know about you, but living inside of Windows scares me.",
+        "rel_src": [
+            "Comme on se préoccupe peu du téléphone que l'on achète pour ses caractéristiques techniques — on l'achète pour le système d'exploitation — en tant que neuroscientifique, j'ai toujours rêvé de créer « l'iOS de l'esprit », si vous voulez.",
+            "C'est très, très important de faire bien les choses, car nous pourrions vivre dans ces choses pendant au moins aussi longtemps que le temps passé avec l'interface utilisateur de Windows."
+        ],
+        "rel_tgt": [
+            "As we rarely consider a phone's purchase for its technical specifications - we buy it for the operating system - as a neuroscientist, I've always dreamed of creating \"iOS of the mind\", if you will.",
+            "It is extremely crucial to do things right, as we would be living with these things for at least as long as we spent time with the Windows user interface."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 47,
+        "src": "Pour isoler de l'infinité l'interface la plus intuitive, nous utilisons les neurosciences pour créer nos principes de design, plutôt qu'une bande de designers se disputant en réunion.",
+        "ref": "To isolate the single most intuitive interface out of infinity,  we use neuroscience to drive our design guidelines,  instead of letting a bunch of designers fight it out in the boardroom.",
+        "hyp": "To isolate from infinity the most intuitive interface, we use neuroscience to create our design principles, rather than a group of designers arguing in meetings.",
+        "rel_src": [
+            "Comme on se préoccupe peu du téléphone que l'on achète pour ses caractéristiques techniques — on l'achète pour le système d'exploitation — en tant que neuroscientifique, j'ai toujours rêvé de créer « l'iOS de l'esprit », si vous voulez.",
+            "C'est très, très important de faire bien les choses, car nous pourrions vivre dans ces choses pendant au moins aussi longtemps que le temps passé avec l'interface utilisateur de Windows."
+        ],
+        "rel_tgt": [
+            "As we rarely consider a phone's purchase for its technical specifications - we buy it for the operating system - as a neuroscientist, I've always dreamed of creating \"iOS of the mind\", if you will.",
+            "It is extremely crucial to do things right, as we would be living with these things for at least as long as we spent time with the Windows user interface."
+        ],
+        "hist_info": "\"neuroscience\" - \"neuroscience\"",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 48,
+        "src": "Le principe sur lequel nous nous appuyons tous est ce qui est appelé le « Chemin Neural de Plus Faible Résistance. »",
+        "ref": "And the principle we all revolve around  is what's called the \"Neural Path of Least Resistance.\"",
+        "hyp": "The principle we all rely on is known as the 'Neural Path of Least Resistance.'",
+        "rel_src": [
+            "Nous reviendrons sur ça un peu plus tard.",
+            "Comme on se préoccupe peu du téléphone que l'on achète pour ses caractéristiques techniques — on l'achète pour le système d'exploitation — en tant que neuroscientifique, j'ai toujours rêvé de créer « l'iOS de l'esprit », si vous voulez."
+        ],
+        "rel_tgt": [
+            "We'll come back to this later.",
+            "As we rarely consider a phone's purchase for its technical specifications - we buy it for the operating system - as a neuroscientist, I've always dreamed of creating \"iOS of the mind\", if you will."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 49,
+        "src": "A chaque fois, nous essayons de connecter l'iOS de notre cerveau avec notre cerveau selon, pour la toute première fois, nos conditions.",
+        "ref": "At every turn, we're connecting the iOS of the brain with our brain  on, for the first time, our brain's terms.",
+        "hyp": "Every time, we try to connect our brain's iOS with our brain according to, for the first time, our conditions.",
+        "rel_src": [
+            "Comme on se préoccupe peu du téléphone que l'on achète pour ses caractéristiques techniques — on l'achète pour le système d'exploitation — en tant que neuroscientifique, j'ai toujours rêvé de créer « l'iOS de l'esprit », si vous voulez.",
+            "Pour isoler de l'infinité l'interface la plus intuitive, nous utilisons les neurosciences pour créer nos principes de design, plutôt qu'une bande de designers se disputant en réunion."
+        ],
+        "rel_tgt": [
+            "As we rarely consider a phone's purchase for its technical specifications - we buy it for the operating system - as a neuroscientist, I've always dreamed of creating \"iOS of the mind\", if you will.",
+            "To isolate from infinity the most intuitive interface, we use neuroscience to create our design principles, rather than a group of designers arguing in meetings."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 50,
+        "src": "Autrement dit, nous essayons de créer un ordinateur sans courbe d'apprentissage.",
+        "ref": "In other words, we're trying to create a zero learning-curve computer.",
+        "hyp": "In other words, we are trying to create a computer without a learning curve.",
+        "rel_src": [
+            "Le principe sur lequel nous nous appuyons tous est ce qui est appelé le « Chemin Neural de Plus Faible Résistance. »",
+            "A chaque fois, nous essayons de connecter l'iOS de notre cerveau avec notre cerveau selon, pour la toute première fois, nos conditions."
+        ],
+        "rel_tgt": [
+            "The principle we all rely on is known as the 'Neural Path of Least Resistance.'",
+            "Every time, we try to connect our brain's iOS with our brain according to, for the first time, our conditions."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 51,
+        "src": "Nous construisons un système que vous savez utiliser depuis toujours.",
+        "ref": "We're building a system that you've always known how to use.",
+        "hyp": "We build a system that you know how to use all the time.",
+        "rel_src": [
+            "Comme on se préoccupe peu du téléphone que l'on achète pour ses caractéristiques techniques — on l'achète pour le système d'exploitation — en tant que neuroscientifique, j'ai toujours rêvé de créer « l'iOS de l'esprit », si vous voulez.",
+            "A chaque fois, nous essayons de connecter l'iOS de notre cerveau avec notre cerveau selon, pour la toute première fois, nos conditions."
+        ],
+        "rel_tgt": [
+            "As we rarely consider a phone's purchase for its technical specifications - we buy it for the operating system - as a neuroscientist, I've always dreamed of creating \"iOS of the mind\", if you will.",
+            "Every time, we try to connect our brain's iOS with our brain according to, for the first time, our conditions."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 52,
+        "src": "Voici le premier des trois principes que nous employons dans cette toute nouvelle expérience utilisateur.",
+        "ref": "Here are the first three design guidelines that we employ  in this brand-new form of user experience.",
+        "hyp": "Here is the first of the three principles we use in this entirely new user experience.",
+        "rel_src": [
+            "Autrement dit, nous essayons de créer un ordinateur sans courbe d'apprentissage.",
+            "Nous construisons un système que vous savez utiliser depuis toujours."
+        ],
+        "rel_tgt": [
+            "In other words, we are trying to create a computer without a learning curve.",
+            "We build a system that you know how to use all the time."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 53,
+        "src": "En premier lieu, vous êtes le système d'exploitation.",
+        "ref": "First and foremost, you are the operating system.",
+        "hyp": "Firstly, you are the operating system.",
+        "rel_src": [
+            "Ce prochain cas est vraiment particulier pour moi, il s'agit du projet de lunettes pour cerveau du professeur Adam Gazzaley, fourni par l'UCSF.",
+            "Comme on se préoccupe peu du téléphone que l'on achète pour ses caractéristiques techniques — on l'achète pour le système d'exploitation — en tant que neuroscientifique, j'ai toujours rêvé de créer « l'iOS de l'esprit », si vous voulez."
+        ],
+        "rel_tgt": [
+            "This upcoming case is truly special for me, it refers to Professor Adam Gazzaley's brain glasses project, provided by the UCSF.",
+            "As we rarely consider a phone's purchase for its technical specifications - we buy it for the operating system - as a neuroscientist, I've always dreamed of creating \"iOS of the mind\", if you will."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 54,
+        "src": "Les systèmes de fichiers classiques sont complexes et abstraits, exigent de votre cerveau des étapes en plus pour les décoder.",
+        "ref": "Traditional file systems are complex and abstract,  and they take your brain extra steps to decode them.",
+        "hyp": "Classic file systems are complex and abstract, requiring your brain to go through increasingly more steps to decode them.",
+        "rel_src": [
+            "En tant qu'étudiant en neurosciences, je fantasmerai toujours sur la possibilité d'apprendre et de mémoriser ces structures cérébrales complexes avec une machine réelle, je pourrais toucher et jouer avec ces différentes structures cérébrales.",
+            "Comme on se préoccupe peu du téléphone que l'on achète pour ses caractéristiques techniques — on l'achète pour le système d'exploitation — en tant que neuroscientifique, j'ai toujours rêvé de créer « l'iOS de l'esprit », si vous voulez."
+        ],
+        "rel_tgt": [
+            "As a neuroscience student, I would always fantasize about the possibility of learning and memorizing these complex cerebral structures with a real machine, I could touch and play with these different cerebral structures.",
+            "As we rarely consider a phone's purchase for its technical specifications - we buy it for the operating system - as a neuroscientist, I've always dreamed of creating \"iOS of the mind\", if you will."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 55,
+        "src": "Nous contrarions le Chemin Neural de Plus Faible Resistance.",
+        "ref": "We're going against the Neural Path of Least Resistance.",
+        "hyp": "We oppose the Path Neural of Least Resistance.",
+        "rel_src": [
+            "Ce que vous voyez à présent s'appelle la réalité augmentée, mais pour moi, ca fait partie d'une histoire beaucoup plus importante — une histoire sur la manière dont on commence à étendre nos corps grâce à des objets numériques, plutôt que l'inverse.",
+            "A chaque fois, nous essayons de connecter l'iOS de notre cerveau avec notre cerveau selon, pour la toute première fois, nos conditions."
+        ],
+        "rel_tgt": [
+            "What you see now is called augmented reality, but for me, it's part of a much bigger story - a story about how we start to extend our bodies through digital objects, rather than the other way around.",
+            "Every time, we try to connect our brain's iOS with our brain according to, for the first time, our conditions."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 56,
+        "src": "Pendant ce temps, dans la réalité augmentée, vous placez votre panneau holographique TED juste là, et votre email holographique de l'autre coté du bureau, et votre mémoire spatiale évoluée les récupère.",
+        "ref": "Meanwhile, in augmented reality,  you can of course place your holographic TED panel over here,  and your holographic email on the other side of the desk,  and your spatial memory evolved just fine to go ahead and retrieve them.",
+        "hyp": "While in augmented reality, you place your TED holographic panel there, and your holographic email on the other side of the desk, and your advanced spatial memory retrieves them.",
+        "rel_src": [
+            "Dans environ cinq ans — c'est pas l'appareil le plus petit — dans environ cinq ans, ils ressembleront tous à des bandes de verre sur nos yeux qui projetteront des hologrammes.",
+            "Les systèmes de fichiers classiques sont complexes et abstraits, exigent de votre cerveau des étapes en plus pour les décoder."
+        ],
+        "rel_tgt": [
+            "In about five years - not the smallest device - in about five years, they will all look like bands of glass on our eyes projecting holograms.",
+            "Classic file systems are complex and abstract, requiring your brain to go through increasingly more steps to decode them."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF"
+        }
+    },
+    {
+        "idx": 57,
+        "src": "Vous pourriez mettre votre Tesla holographique que vous achetez — ou n'importe quel modèle que mon équipe juridique m'a dit de mettre.",
+        "ref": "You could put your holographic Tesla that you're shopping for --  or whatever model my legal team told me to put in right before the show.",
+        "hyp": "You could put your holographic Tesla that you purchase - or any model that my legal team told me to put.",
+        "rel_src": [
+            "Dans environ cinq ans — c'est pas l'appareil le plus petit — dans environ cinq ans, ils ressembleront tous à des bandes de verre sur nos yeux qui projetteront des hologrammes.",
+            "C'est très, très important de faire bien les choses, car nous pourrions vivre dans ces choses pendant au moins aussi longtemps que le temps passé avec l'interface utilisateur de Windows."
+        ],
+        "rel_tgt": [
+            "In about five years - not the smallest device - in about five years, they will all look like bands of glass on our eyes projecting holograms.",
+            "It is extremely crucial to do things right, as we would be living with these things for at least as long as we spent time with the Windows user interface."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team"
+        }
+    },
+    {
+        "idx": 58,
+        "src": "Parfait. Votre cerveau sait exactement comment le faire revenir.",
+        "ref": "Perfect. And your brain knows exactly how to get it back.",
+        "hyp": "\"Perfect. Your brain knows exactly how to bring it back.\"",
+        "rel_src": [
+            "Nous contrarions le Chemin Neural de Plus Faible Resistance.",
+            "Pendant ce temps, dans la réalité augmentée, vous placez votre panneau holographique TED juste là, et votre email holographique de l'autre coté du bureau, et votre mémoire spatiale évoluée les récupère."
+        ],
+        "rel_tgt": [
+            "We oppose the Path Neural of Least Resistance.",
+            "While in augmented reality, you place your TED holographic panel there, and your holographic email on the other side of the desk, and your advanced spatial memory retrieves them."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team"
+        }
+    },
+    {
+        "idx": 59,
+        "src": "Nous appelons le second principe d'interface « Toucher pour voir ».",
+        "ref": "The second interface guideline we call \"touch to see.\"",
+        "hyp": "The second interface principle is called \"Touch to See\".",
+        "new_src_summary": "Dans cet article, l'auteur aborde l'usage excessif et inefficace des ordinateurs contemporains, en comparaison de leur potentiel d amélioration. Il fait référence à une expérience à Harlem en 2011, marquée par une contradiction entre son inquiétude quant à l'interaction numérique et le plaisir des autres utilisateurs. Il conclut que le problème ne réside pas dans l'information numérique en soi, mais dans sa manière d être exploitée. Selon lui, les outils devraient renforcer nos capacités physiques et sociales, contrairement aux ordinateurs actuels qui semblent avoir un impact inverse. Pour résoudre ce problème, l auteur soutient qu il serait préférable de développer des machines plus naturelles pour l interaction humaine.\n\nL'article explore également l'utilisation de machines qui utilisent les principeses des neurosciences pour prolonger nos sens, comme l exemple de la Meta 2, une machine qui permet de voir un hologramme imm immos et réaliste. L'auteur met en avant les possibilités offertes par cette technologie, comme la création de bâtiments en 3D ou l apprentissage des structures cérébraales complexes. Il souligne également que la réalité augmentée est une partie intégrante de l extension de nos corps grâce aux objets numériques. Le texte suggère que l humanité est sur le point de vivre un changement majeur avec l'introduction d'une couche entière d'information digitale sur le monde réel.\n\nEn parallèle, l auteur imagine une technologie future qui transforme notre réalité en une réalité holographique projetée devant nos yeux, comparée à l'interface utilisateur d iOS. Il imagine que dans environ cinq ans, cette technologie sera omniprésente et influencera fortement notre expérience de vie. Il souhaite créer \"l'iOS de l'esprit\", basé sur des principes de design inspirés des neurosciences. Il insiste sur l'importance de créer une interface qui soit intuitive et facile à utiliser, basée sur le \"Chemin Neural de Plus Faible Résistance\". Selon lui, chaque utilisateur serait alors le système d'exploitation lui-même, permettant de simplifier les tâches comme la gestion de fichiers, l accès à l email, ou le contrôle de véhicules holographiques. L'objectif final est de créer une interface qui serait aussi naturelle à utiliser que Windows, sans nécessiter d'apprentissage, et qui facilite l interaction avec l'infinité de l'espace réel.",
+        "new_tgt_summary": "The author illuminates the contrast between the advanced computational capabilities and the unsatisfactory user experience currently offered by technology, citing a 2011 instance where a hologram discussion was interrupted by a phone notification as a poignant example. This highlights the gap between technology's potential to augment human abilities and its current limitations, particularly in social interaction and capability extension. The author calls for a more natural, intuitive interface to fully leverage computer power and improve user experience, aligning with the intended purpose of technological advancement. The Meta 2 device is showcased as an embodiment of this vision, capable of generating realistic holographic images and facilitating interactive augmented reality experiences. By integrating neuroscience, the author envisions a future where digital information seamlessly integrates into daily life, enhancing the physical world through technology. In this future, transformative technology, akin to an \"iOS of the mind,\" becomes ubiquitous within the next five years, aiming to significantly enhance human experience by extending it rather than merely adding digital clutter. The importance of design principles derived from neuroscience is emphasized to ensure an intuitive user experience, focusing on the 'Neural Path of Least Resistance,' which seeks to align the interaction between the human brain and the new technology naturally. In this setting, users themselves become the operating system, with holographic content easily accessible through spatial memory, offering a more immersive and direct interaction with digital information. This technology promises to revolutionize various professions by enhancing creativity and efficiency, potentially blending technology and human cognition seamlessly.",
+        "rel_src": [
+            "Comme on se préoccupe peu du téléphone que l'on achète pour ses caractéristiques techniques — on l'achète pour le système d'exploitation — en tant que neuroscientifique, j'ai toujours rêvé de créer « l'iOS de l'esprit », si vous voulez.",
+            "Pour isoler de l'infinité l'interface la plus intuitive, nous utilisons les neurosciences pour créer nos principes de design, plutôt qu'une bande de designers se disputant en réunion."
+        ],
+        "rel_tgt": [
+            "As we rarely consider a phone's purchase for its technical specifications - we buy it for the operating system - as a neuroscientist, I've always dreamed of creating \"iOS of the mind\", if you will.",
+            "To isolate from infinity the most intuitive interface, we use neuroscience to create our design principles, rather than a group of designers arguing in meetings."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team"
+        }
+    },
+    {
+        "idx": 60,
+        "src": "Que font les bébés lorsqu'ils voient quelque chose qui attirent l'attention ?",
+        "ref": "What do babies do when they see something that grabs their interest?",
+        "hyp": "What do babies do when they see something that catches their attention?",
+        "rel_src": [
+            "Et ce que nous devons faire en tant que communauté, c'est d'essayer et de faire l'effort d'imaginer comment nous pouvons créer cette nouvelle réalité d'une manière qui étende l'expérience humaine, plutôt que de ludifier notre réalité ou de l'encombrer avec de l'information digitale.",
+            "Vous pourriez mettre votre Tesla holographique que vous achetez — ou n'importe quel modèle que mon équipe juridique m'a dit de mettre."
+        ],
+        "rel_tgt": [
+            "And what we need to do as a community is to try and make the effort to imagine how we can create this new reality in a way that extends human experience, rather than gamifying our reality or cluttering it with digital information.",
+            "You could put your holographic Tesla that you purchase - or any model that my legal team told me to put."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team"
+        }
+    },
+    {
+        "idx": 61,
+        "src": "Ils essayent de l'atteindre, de le toucher.",
+        "ref": "They try and reach out and touch it.",
+        "hyp": "\"Theytry to reachach it, to touch it.\"",
+        "rel_src": [
+            "Parfait. Votre cerveau sait exactement comment le faire revenir.",
+            "Nous appelons le second principe d'interface « Toucher pour voir »."
+        ],
+        "rel_tgt": [
+            "\"Perfect. Your brain knows exactly how to bring it back.\"",
+            "The second interface principle is called \"Touch to See\"."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team"
+        }
+    },
+    {
+        "idx": 62,
+        "src": "C'est exactement la manière dont la machine naturelle devrait marcher.",
+        "ref": "And that's exactly how the natural machine should work as well.",
+        "hyp": "That's exactly how a natural machine should operate.",
+        "rel_src": [
+            "A présent, je veux vous dire un petit secret.",
+            "Nous construisons un système que vous savez utiliser depuis toujours."
+        ],
+        "rel_tgt": [
+            "Now, I want to tell you a little secret.",
+            "We build a system that you know how to use all the time."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team"
+        }
+    },
+    {
+        "idx": 63,
+        "src": "Il s'avère que le système visuel ait un coup de pouce essentiel d'un sens que l'on appelle proprioception — c'est le sens des membres de notre corps dans l'espace.",
+        "ref": "Turns out the visual system gets a fundamental boost  from a sense we call proprioception --  that's the sense of our body parts in space.",
+        "hyp": "It turns out that the visual system has a crucial help from a sense called proprioception - the sense of our body parts in space.",
+        "rel_src": [
+            "Dans environ cinq ans — c'est pas l'appareil le plus petit — dans environ cinq ans, ils ressembleront tous à des bandes de verre sur nos yeux qui projetteront des hologrammes.",
+            "Pendant ce temps, dans la réalité augmentée, vous placez votre panneau holographique TED juste là, et votre email holographique de l'autre coté du bureau, et votre mémoire spatiale évoluée les récupère."
+        ],
+        "rel_tgt": [
+            "In about five years - not the smallest device - in about five years, they will all look like bands of glass on our eyes projecting holograms.",
+            "While in augmented reality, you place your TED holographic panel there, and your holographic email on the other side of the desk, and your advanced spatial memory retrieves them."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team"
+        }
+    },
+    {
+        "idx": 64,
+        "src": "En touchant directement notre travail, nous allons non seulement mieux le contrôler, mais nous allons également mieux le comprendre.",
+        "ref": "So by touching our work directly, we're not only going to control it better,  we're also going to understand it much more deeply.",
+        "hyp": "By directly touching our work, we will not only better control it, but we will also better understand it.",
+        "rel_src": [
+            "Vous pourriez mettre votre Tesla holographique que vous achetez — ou n'importe quel modèle que mon équipe juridique m'a dit de mettre.",
+            "Ils essayent de l'atteindre, de le toucher."
+        ],
+        "rel_tgt": [
+            "You could put your holographic Tesla that you purchase - or any model that my legal team told me to put.",
+            "\"Theytry to reachach it, to touch it.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team"
+        }
+    },
+    {
+        "idx": 65,
+        "src": "Et ainsi, toucher pour voir.",
+        "ref": "Hence, touch to see.",
+        "hyp": "And thus, touch to see.",
+        "rel_src": [
+            "Nous appelons le second principe d'interface « Toucher pour voir ».",
+            "C'est exactement la manière dont la machine naturelle devrait marcher."
+        ],
+        "rel_tgt": [
+            "The second interface principle is called \"Touch to See\".",
+            "That's exactly how a natural machine should operate."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team"
+        }
+    },
+    {
+        "idx": 66,
+        "src": "Mais ce n'est pas assez pour ressentir les choses.",
+        "ref": "But it's not enough to experience things ourselves.",
+        "hyp": "But that's not enough to feel things.",
+        "rel_src": [
+            "Nous construisons un système que vous savez utiliser depuis toujours.",
+            "Les systèmes de fichiers classiques sont complexes et abstraits, exigent de votre cerveau des étapes en plus pour les décoder."
+        ],
+        "rel_tgt": [
+            "We build a system that you know how to use all the time.",
+            "Classic file systems are complex and abstract, requiring your brain to go through increasingly more steps to decode them."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team"
+        }
+    },
+    {
+        "idx": 67,
+        "src": "Nous sommes intrinsèquement des primates sociaux.",
+        "ref": "We're inherently these social primates.",
+        "hyp": "We are inherently social primates.",
+        "rel_src": [
+            "Voici le premier des trois principes que nous employons dans cette toute nouvelle expérience utilisateur.",
+            "Nous appelons le second principe d'interface « Toucher pour voir »."
+        ],
+        "rel_tgt": [
+            "Here is the first of the three principles we use in this entirely new user experience.",
+            "The second interface principle is called \"Touch to See\"."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team"
+        }
+    },
+    {
+        "idx": 68,
+        "src": "Ceci m'amène à notre troisième principe, le feu de camp holographique de notre première histoire.",
+        "ref": "And this leads me to our third guideline,  the holographic campfire from our first story.",
+        "hyp": "This leads us to our third principle, the holographic campfire from our first story.",
+        "rel_src": [
+            "Voici le premier des trois principes que nous employons dans cette toute nouvelle expérience utilisateur.",
+            "Il s'avère que le système visuel ait un coup de pouce essentiel d'un sens que l'on appelle proprioception — c'est le sens des membres de notre corps dans l'espace."
+        ],
+        "rel_tgt": [
+            "Here is the first of the three principles we use in this entirely new user experience.",
+            "It turns out that the visual system has a crucial help from a sense called proprioception - the sense of our body parts in space."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team"
+        }
+    },
+    {
+        "idx": 69,
+        "src": "Notre système de neurones miroirs suggère que nous pouvons mieux nous connecter entre nous et avec notre travail si nous pouvons voir nos visages et nos mains en 3D.",
+        "ref": "Our mirror-neuron subsystem suggests  that we can connect with each other and with our work much better  if we can see each other's faces and hands in 3D.",
+        "hyp": "Our mirror neuron system suggests that we can better connect with each other and our work if we can see our faces and hands in 3D.",
+        "rel_src": [
+            "A chaque fois, nous essayons de connecter l'iOS de notre cerveau avec notre cerveau selon, pour la toute première fois, nos conditions.",
+            "C'est exactement la manière dont la machine naturelle devrait marcher."
+        ],
+        "rel_tgt": [
+            "Every time, we try to connect our brain's iOS with our brain according to, for the first time, our conditions.",
+            "That's exactly how a natural machine should operate."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team"
+        }
+    },
+    {
+        "idx": 70,
+        "src": "Donc si vous regardez la vidéo derrière moi, vous pouvez voir deux Meta utilisateurs jouant avec le même hologramme, établissant un contact visuel, connectés autour de cet objet, au lieu d'être distraits par des appareils externes.",
+        "ref": "So if you look at the video behind me,  you can see two Meta users playing around with the same hologram,  making eye contact, connected around this thing,  instead of being distracted by external devices.",
+        "hyp": "So if you look at the video behind me, you can see two Meta users interacting with the same hologram, establishing visual contact, connected around this object, instead of being distracted by external devices.",
+        "rel_src": [
+            "Mais ce n'est pas assez pour ressentir les choses.",
+            "Nous sommes intrinsèquement des primates sociaux."
+        ],
+        "rel_tgt": [
+            "But that's not enough to feel things.",
+            "We are inherently social primates."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team"
+        }
+    },
+    {
+        "idx": 71,
+        "src": "Continuons et essayons à nouveau en ayant les neurosciences à l'esprit.",
+        "ref": "Let's go ahead and try this again with neuroscience in mind.",
+        "hyp": "Let's continue and try again with neuroscience in mind.",
+        "rel_src": [
+            "Pendant ce temps, dans la réalité augmentée, vous placez votre panneau holographique TED juste là, et votre email holographique de l'autre coté du bureau, et votre mémoire spatiale évoluée les récupère.",
+            "Nous appelons le second principe d'interface « Toucher pour voir »."
+        ],
+        "rel_tgt": [
+            "While in augmented reality, you place your TED holographic panel there, and your holographic email on the other side of the desk, and your advanced spatial memory retrieves them.",
+            "The second interface principle is called \"Touch to See\"."
+        ],
+        "hist_info": "\"neuroscience\" - \"neuroscience\"",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team"
+        }
+    },
+    {
+        "idx": 72,
+        "src": "Encore une fois, notre interface favorite, l'iOS de l'esprit.",
+        "ref": "So again, our favorite interface, the iOS of the mind.",
+        "hyp": "Once again, our favorite interface, the 'iOS of the Mind'.",
+        "rel_src": [
+            "Nous appelons le second principe d'interface « Toucher pour voir ».",
+            "Et ainsi, toucher pour voir."
+        ],
+        "rel_tgt": [
+            "The second interface principle is called \"Touch to See\".",
+            "And thus, touch to see."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind"
+        }
+    },
+    {
+        "idx": 73,
+        "src": "Je vais maintenant aller plus loin et attraper cette paire de lunettes et la laisser ici à coté du bureau.",
+        "ref": "I'm going to now take a step further  and go ahead and grab this pair of glasses  and leave it right here by the desk.",
+        "hyp": "I will now go further and grab this pair of glasses and leave it here beside the desk.",
+        "rel_src": [
+            "Que font les bébés lorsqu'ils voient quelque chose qui attirent l'attention ?",
+            "Ils essayent de l'atteindre, de le toucher."
+        ],
+        "rel_tgt": [
+            "What do babies do when they see something that catches their attention?",
+            "\"Theytry to reachach it, to touch it.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind"
+        }
+    },
+    {
+        "idx": 74,
+        "src": "Je suis avec vous, en ce moment, nous sommes connectés.",
+        "ref": "I'm now with you, I'm in the moment,  we're connecting.",
+        "hyp": "I am with you, at this moment, we are connected.",
+        "rel_src": [
+            "Les systèmes de fichiers classiques sont complexes et abstraits, exigent de votre cerveau des étapes en plus pour les décoder.",
+            "Notre système de neurones miroirs suggère que nous pouvons mieux nous connecter entre nous et avec notre travail si nous pouvons voir nos visages et nos mains en 3D."
+        ],
+        "rel_tgt": [
+            "Classic file systems are complex and abstract, requiring your brain to go through increasingly more steps to decode them.",
+            "Our mirror neuron system suggests that we can better connect with each other and our work if we can see our faces and hands in 3D."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind"
+        }
+    },
+    {
+        "idx": 75,
+        "src": "Ma mémoire spatiale s'est mise en marche, et je peux l'attraper et la remettre ici, en me rappelant que je suis le système d'exploitation.",
+        "ref": "My spatial memory kicks in, and I can go ahead and grab it  and bring it right back here, reminding me  that I am the operating system.",
+        "hyp": "My spatial memory has kicked in, and I can grab it and put it back here, reminding myself that I am the operating system.",
+        "rel_src": [
+            "Nous contrarions le Chemin Neural de Plus Faible Resistance.",
+            "Notre système de neurones miroirs suggère que nous pouvons mieux nous connecter entre nous et avec notre travail si nous pouvons voir nos visages et nos mains en 3D."
+        ],
+        "rel_tgt": [
+            "We oppose the Path Neural of Least Resistance.",
+            "Our mirror neuron system suggests that we can better connect with each other and our work if we can see our faces and hands in 3D."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind"
+        }
+    },
+    {
+        "idx": 76,
+        "src": "Et ma proprioception est en marche, et je peux continuer et exploser ces lunettes en des milliers de morceaux et toucher le capteur qui est en train de scanner ma main.",
+        "ref": "And now my proprioception is working,  and I can go ahead and explode these glasses into a thousand parts  and touch the very sensor that is currently scanning my hand.",
+        "hyp": "\"And my proprioception is working, and I can continue and shatter these glasses into thousands of pieces and touch the sensor that is scanning my hand.\"",
+        "rel_src": [
+            "Ils essayent de l'atteindre, de le toucher.",
+            "En touchant directement notre travail, nous allons non seulement mieux le contrôler, mais nous allons également mieux le comprendre."
+        ],
+        "rel_tgt": [
+            "\"Theytry to reachach it, to touch it.\"",
+            "By directly touching our work, we will not only better control it, but we will also better understand it."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind"
+        }
+    },
+    {
+        "idx": 77,
+        "src": "Mais ça n'est pas assez pour voir les objets seuls, dans une seconde, le co-fondateur Ray va téléphoner en 3D -- Ray ?",
+        "ref": "But it's not enough to see things alone,  so in a second, my co-founder Ray is going to make a 3D call --  Ray?",
+        "hyp": "But that's not enough to see objects alone, in a second, the co-founder Ray will call in 3D - Ray?",
+        "rel_src": [
+            "En touchant directement notre travail, nous allons non seulement mieux le contrôler, mais nous allons également mieux le comprendre.",
+            "Et ainsi, toucher pour voir."
+        ],
+        "rel_tgt": [
+            "By directly touching our work, we will not only better control it, but we will also better understand it.",
+            "And thus, touch to see."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind"
+        }
+    },
+    {
+        "idx": 78,
+        "src": "Salut Ray, comment ça va ?",
+        "ref": "Hey Ray, how's it going?",
+        "hyp": "\"Hello Ray, how are you?\"",
+        "rel_src": [
+            "Parfait. Votre cerveau sait exactement comment le faire revenir.",
+            "Et ainsi, toucher pour voir."
+        ],
+        "rel_tgt": [
+            "\"Perfect. Your brain knows exactly how to bring it back.\"",
+            "And thus, touch to see."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind"
+        }
+    },
+    {
+        "idx": 79,
+        "src": "Je peux voir cette personne entièrement en face de moi en 3D.",
+        "ref": "Guys, I can see this guy in front me in full 3D.",
+        "hyp": "I can see this person completely in front of me in 3D.",
+        "new_src_summary": "Dans cet article, l'auteur explore l'usage inefficace et excessif des ordinateurs contemporains, comparé à leur potentiel d'amélioration. En référence à une expérience à Harlem en 2011, il note une contradiction entre l'inquiétude concernant l'interaction numérique et le plaisir des utilisateurs. Selon lui, le problème n réside pas dans l'information numérique en soi, mais dans sa manière d être exploitée. Les outils devraient renforcer nos capacités physiques et sociales, contrairement à ce que font les ordinateurs actuels qui semblent avoir un impact inverse. L'auteur soutient que pour résoudre ce problème, il serait préférable de développer des machines plus naturelles pour l'interaction humaine.\n\nL'article examine également l'utilisation de machines qui utilisent les principeses des neurosciences pour prolonger nos sens, comme l'exemple de la Meta 2, une machine qui permet de voir un hologramme immémorable et réaliste. L'auteur met en avant les possibilités offertes par cette technologie, comme la création de bâtiments en 3D ou l'apprentissage des structures cérébraales complexes. Il souligne également que la réalité augmentée est une partie intégrante de l'extension de nos corps grâce aux objets numériques. Le texte suggère que l'humanité est sur le point de vivre un changement majeur avec l'introduction d'une couche entière d'information digitale sur le monde réel.\n\nDe plus, l'auteur imagine une technologie future qui transforme notre réalité en une réalité holographique projetée devant nos yeux, comparée à l'interface utilisateur de iOS. Il imagine que dans environ cinq ans, cette technologie sera omniprésente et influencera fortement notre expérience de vie. Il souhaite créer \"l'iOS de l'esprit\", basé sur des principes de design inspirés des neurosciences. Il insiste sur l'importance de créer une interface qui soit intuitive et facile à utiliser, basé sur le \"Chemin Neural de Plus Faible Résstance\". Selon lui, chaque utilisateur serait alors le système d'exploitation lui-même, permettant de simplifier les tâches comme la gestion de fichiers, l'accès à l'email, ou le contrôle de véhicules holographiques. L'objectif final est de créer une interface qui serait aussi naturelle à utiliser que Windows, sans nécessiter d'apprentissage, et qui facilite l'interaction avec l'infinité de l'espace réel.\n\nLe texte décrit trois principes de l'interaction humaine avec l'interface technologique, mettant l'accent sur l'importance du toucher, de la proprioception et de la visuospatialité. Le premier principe est le \"toucher pour voir\", où les bébés apprennent à comprendre leur environnement en interagissant physiquement avec les objets. Le deuxième principe est l'interface 3D, qui souligne l'importance de la visuospatialité et de la perception en 3D pour faciliter la connexion entre les individus et leur travail. Le troisième principe est l'iOS de l'esprit, qui évoque une interface mentale ou une interface entre le cerveau et l'environnement numérique, permettant aux utilisateurs, en tant que système d'exploitation, de manipuler et comprendre leur environnement numérique en utilisant leurs propres perceptions sensorielles.\n\nLe ton est scientifique et technique, avec une légère nuance d'optimisme quant à la facilité et la nature intuitive des interactions humaines avec la technologie. Le domaine général est celui de l'interface utilisateur et de l'interaction humaine avec la technologie.",
+        "new_tgt_summary": "The author addresses the disparity between the advanced computational capabilities and the suboptimal user experience in technology, using of a 2011 hologram interruption as a case in point. They advocate for a more natural, intuitive interface to harness computer power and improve user experience, in line with technology's intended purpose of augmenting human abilities. The Meta 2 device is highlighted as an embodiment of this concept, capable of producing realistic holographic images and facilitating interactive augmented reality experiences. The author envisions a future where digital information seamlessly integrates into daily life, enhanced by technology, akin to an \"iOS of the mind.\" This future relies on design principles derived from neuroscience to ensure an intuitive user experience, focusing on the 'Neural Path of Least Resistance.' Users themselves would become the operating system, with holographic content easily accessible through spatial memory, offering a more immersive and direct interaction with digital information. This technology promises to revolutionize various professions by enhancing creativity and efficiency, potentially merging technology and human cognition seamlessly. Three interface principles based on human behavior and neuroscience are discussed: \"Touch to See,\" which explains that touching an object enhances both tactile and cognitive understanding; the importance of social interaction, suggesting that seeing one's own face and hands in 3D enhances connection with others and work; and the use of a headset that allows for 3D interaction, enabling a more immersive and tactile experience.",
+        "rel_src": [
+            "Nous appelons le second principe d'interface « Toucher pour voir ».",
+            "Et ainsi, toucher pour voir."
+        ],
+        "rel_tgt": [
+            "The second interface principle is called \"Touch to See\".",
+            "And thus, touch to see."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind"
+        }
+    },
+    {
+        "idx": 80,
+        "src": "Et il est plutôt réaliste.",
+        "ref": "And he is photo-realistic.",
+        "hyp": "\"And it is rather realistic.\"",
+        "rel_src": [
+            "Ils essayent de l'atteindre, de le toucher.",
+            "Et ainsi, toucher pour voir."
+        ],
+        "rel_tgt": [
+            "\"Theytry to reachach it, to touch it.\"",
+            "And thus, touch to see."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind"
+        }
+    },
+    {
+        "idx": 81,
+        "src": "Merci.",
+        "ref": "Thank you.",
+        "hyp": "Thank you.",
+        "rel_src": [
+            "Ils essayent de l'atteindre, de le toucher.",
+            "Donc si vous regardez la vidéo derrière moi, vous pouvez voir deux Meta utilisateurs jouant avec le même hologramme, établissant un contact visuel, connectés autour de cet objet, au lieu d'être distraits par des appareils externes."
+        ],
+        "rel_tgt": [
+            "\"Theytry to reachach it, to touch it.\"",
+            "So if you look at the video behind me, you can see two Meta users interacting with the same hologram, establishing visual contact, connected around this object, instead of being distracted by external devices."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind"
+        }
+    },
+    {
+        "idx": 82,
+        "src": "Mon système de neurones miroirs suggère que cela va remplacer les téléphones dans peu de temps.",
+        "ref": "My mirror-neuron subsystem suggests that this is going to replace phones  in not too long.",
+        "hyp": "My mirror neuron system suggests that this will replace phones soon.",
+        "rel_src": [
+            "Notre système de neurones miroirs suggère que nous pouvons mieux nous connecter entre nous et avec notre travail si nous pouvons voir nos visages et nos mains en 3D.",
+            "Je peux voir cette personne entièrement en face de moi en 3D."
+        ],
+        "rel_tgt": [
+            "Our mirror neuron system suggests that we can better connect with each other and our work if we can see our faces and hands in 3D.",
+            "I can see this person completely in front of me in 3D."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind"
+        }
+    },
+    {
+        "idx": 83,
+        "src": "Ray, comment ça va ?",
+        "ref": "Ray, how's it going?",
+        "hyp": "\"Ray, how are you?\"",
+        "rel_src": [
+            "Salut Ray, comment ça va ?",
+            "Merci."
+        ],
+        "rel_tgt": [
+            "\"Hello Ray, how are you?\"",
+            "Thank you."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind"
+        }
+    },
+    {
+        "idx": 84,
+        "src": "Ray : Très bien. Nous sommes en direct aujourd'hui.",
+        "ref": "Ray: Great. We're live today.",
+        "hyp": "Ray: Very well. We're here live today.",
+        "rel_src": [
+            "En touchant directement notre travail, nous allons non seulement mieux le contrôler, mais nous allons également mieux le comprendre.",
+            "Je peux voir cette personne entièrement en face de moi en 3D."
+        ],
+        "rel_tgt": [
+            "By directly touching our work, we will not only better control it, but we will also better understand it.",
+            "I can see this person completely in front of me in 3D."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind"
+        }
+    },
+    {
+        "idx": 85,
+        "src": "MG: Ray, donne au public un cadeau du cerveau holographique que nous avons vu plus tôt.",
+        "ref": "MG: Ray, give the crowd a gift  of the holographic brain we saw from the video earlier.",
+        "hyp": "MG: Ray, give the audience a gift from the holographic brain we saw earlier.",
+        "rel_src": [
+            "Mais ça n'est pas assez pour voir les objets seuls, dans une seconde, le co-fondateur Ray va téléphoner en 3D -- Ray ?",
+            "Je peux voir cette personne entièrement en face de moi en 3D."
+        ],
+        "rel_tgt": [
+            "But that's not enough to see objects alone, in a second, the co-founder Ray will call in 3D - Ray?",
+            "I can see this person completely in front of me in 3D."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind"
+        }
+    },
+    {
+        "idx": 86,
+        "src": "Ceci va non seulement remplacer les téléphones, mais cela va changer également notre manière de collaborer.",
+        "ref": "Guys, this is not only going to change phones,  it's also going to change the way we collaborate.",
+        "hyp": "This will won't just replace phones, but it will change also our way of collaborating.",
+        "rel_src": [
+            "Mais ce n'est pas assez pour ressentir les choses.",
+            "Merci."
+        ],
+        "rel_tgt": [
+            "But that's not enough to feel things.",
+            "Thank you."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind"
+        }
+    },
+    {
+        "idx": 87,
+        "src": "Merci beaucoup.",
+        "ref": "Thank you so much.",
+        "hyp": "Thank you very much.",
+        "rel_src": [
+            "Nous sommes intrinsèquement des primates sociaux.",
+            "Je suis avec vous, en ce moment, nous sommes connectés."
+        ],
+        "rel_tgt": [
+            "We are inherently social primates.",
+            "I am with you, at this moment, we are connected."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind"
+        }
+    },
+    {
+        "idx": 88,
+        "src": "Merci, Ray.",
+        "ref": "Thanks, Ray.",
+        "hyp": "\"Thank you, Ray.\"",
+        "rel_src": [
+            "Salut Ray, comment ça va ?",
+            "Ray, comment ça va ?"
+        ],
+        "rel_tgt": [
+            "\"Hello Ray, how are you?\"",
+            "\"Ray, how are you?\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind",
+            "Ray": "Ray"
+        }
+    },
+    {
+        "idx": 89,
+        "src": "Ray : De rien.",
+        "ref": "Ray: You're welcome.",
+        "hyp": "Ray: You're welcome.",
+        "rel_src": [
+            "Je peux voir cette personne entièrement en face de moi en 3D.",
+            "Merci beaucoup."
+        ],
+        "rel_tgt": [
+            "I can see this person completely in front of me in 3D.",
+            "Thank you very much."
+        ],
+        "hist_info": "\"Ray\" - \"Ray\"",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind",
+            "Ray": "Ray"
+        }
+    },
+    {
+        "idx": 90,
+        "src": "MG: Bon, voici le message que j'ai découvert dans un bar en 2011 : le futur des ordinateurs n'est pas bloqué à l'intérieur de l'un de ces écrans.",
+        "ref": "MG: So folks, this is the message that I discovered in that bar in 2011:  The future of computers is not locked inside one of these screens.",
+        "hyp": "MG: Alright, here's the message I found out in a bar in 2011: the future of computers isn't't blocked inside one of these screens.",
+        "rel_src": [
+            "Donc si vous regardez la vidéo derrière moi, vous pouvez voir deux Meta utilisateurs jouant avec le même hologramme, établissant un contact visuel, connectés autour de cet objet, au lieu d'être distraits par des appareils externes.",
+            "Je peux voir cette personne entièrement en face de moi en 3D."
+        ],
+        "rel_tgt": [
+            "So if you look at the video behind me, you can see two Meta users interacting with the same hologram, establishing visual contact, connected around this object, instead of being distracted by external devices.",
+            "I can see this person completely in front of me in 3D."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind",
+            "Ray": "Ray"
+        }
+    },
+    {
+        "idx": 91,
+        "src": "Il est juste là, en nous.",
+        "ref": "It's right here, inside of us.",
+        "hyp": "It's just there for us.",
+        "rel_src": [
+            "Continuons et essayons à nouveau en ayant les neurosciences à l'esprit.",
+            "Ma mémoire spatiale s'est mise en marche, et je peux l'attraper et la remettre ici, en me rappelant que je suis le système d'exploitation."
+        ],
+        "rel_tgt": [
+            "Let's continue and try again with neuroscience in mind.",
+            "My spatial memory has kicked in, and I can grab it and put it back here, reminding myself that I am the operating system."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind",
+            "Ray": "Ray"
+        }
+    },
+    {
+        "idx": 92,
+        "src": "S'il n'y a qu'une seule idée que je peux donner aujourd'hui, c'est que la machine naturelle n'est pas le fruit du futur, elle est juste ici en 2016.",
+        "ref": "So if there's one idea that I could leave you with here today,  it's that the natural machine is not some figment of the future,  it's right here in 2016.",
+        "hyp": "If there's one idea I can impart today, it's that the natural machine isn't not the product of the future, it's just here in 2016.",
+        "rel_src": [
+            "MG: Bon, voici le message que j'ai découvert dans un bar en 2011 : le futur des ordinateurs n'est pas bloqué à l'intérieur de l'un de ces écrans.",
+            "Il est juste là, en nous."
+        ],
+        "rel_tgt": [
+            "MG: Alright, here's the message I found out in a bar in 2011: the future of computers isn't't blocked inside one of these screens.",
+            "It's just there for us."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind",
+            "Ray": "Ray"
+        }
+    },
+    {
+        "idx": 93,
+        "src": "C'est pourquoi nous tous à Meta, incluant le personnel administratif, les cadres, les designers, les ingénieurs -- avant TED2017, nous allons tous mettre à la poubelle nos moniteurs externes et les remplacer par des machines vraiment et profondément plus naturelles.",
+        "ref": "Which is why all hundred of us at Meta,  including the administrative staff,  the executives,  the designers, the engineers --  before TED2017,  we're all going to be throwing away our external monitors  and replacing them with a truly and profoundly more natural machine.",
+        "hyp": "That's why at Meta, including administrative staff, managers, designers, engineers - before TED2011, we're all going to get rid of our external monitors and replace them with truly and deeply more natural machines.",
+        "rel_src": [
+            "Je vais maintenant aller plus loin et attraper cette paire de lunettes et la laisser ici à coté du bureau.",
+            "Ceci va non seulement remplacer les téléphones, mais cela va changer également notre manière de collaborer."
+        ],
+        "rel_tgt": [
+            "I will now go further and grab this pair of glasses and leave it here beside the desk.",
+            "This will won't just replace phones, but it will change also our way of collaborating."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind",
+            "Ray": "Ray"
+        }
+    },
+    {
+        "idx": 94,
+        "src": "Merci beaucoup.",
+        "ref": "Thank you very much.",
+        "hyp": "Thank you very much.",
+        "rel_src": [
+            "Je peux voir cette personne entièrement en face de moi en 3D.",
+            "Mon système de neurones miroirs suggère que cela va remplacer les téléphones dans peu de temps."
+        ],
+        "rel_tgt": [
+            "I can see this person completely in front of me in 3D.",
+            "My mirror neuron system suggests that this will replace phones soon."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind",
+            "Ray": "Ray"
+        }
+    },
+    {
+        "idx": 95,
+        "src": "Merci, c'est très gentil.",
+        "ref": "Thank you, appreciate it.",
+        "hyp": "\"Thank you, that's very kind.\"",
+        "rel_src": [
+            "Et il est plutôt réaliste.",
+            "Ray, comment ça va ?"
+        ],
+        "rel_tgt": [
+            "\"And it is rather realistic.\"",
+            "\"Ray, how are you?\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind",
+            "Ray": "Ray"
+        }
+    },
+    {
+        "idx": 96,
+        "src": "Merci à tous.",
+        "ref": "Thanks, guys.",
+        "hyp": "Thank you to everyone.",
+        "rel_src": [
+            "Merci.",
+            "Merci beaucoup."
+        ],
+        "rel_tgt": [
+            "Thank you.",
+            "Thank you very much."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind",
+            "Ray": "Ray"
+        }
+    },
+    {
+        "idx": 97,
+        "src": "Chris Anderson : Bon, expliquez-moi une chose, parce qu'il y a eu peu de démonstrations sur la réalité augmentée l'année dernière ou précédemment ici-même.",
+        "ref": "Chris Anderson: So help me out on one thing,  because there've been a few augmented reality demos  shown over the last year or so out there.",
+        "hyp": "Chris Anderson: Alright, let me explain something, because there were few demonstrations of augmented reality last year or previously here.",
+        "rel_src": [
+            "Mais ça n'est pas assez pour voir les objets seuls, dans une seconde, le co-fondateur Ray va téléphoner en 3D -- Ray ?",
+            "Ray : Très bien. Nous sommes en direct aujourd'hui."
+        ],
+        "rel_tgt": [
+            "But that's not enough to see objects alone, in a second, the co-founder Ray will call in 3D - Ray?",
+            "Ray: Very well. We're here live today."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind",
+            "Ray": "Ray",
+            "Chris Anderson": "Chris Anderson"
+        }
+    },
+    {
+        "idx": 98,
+        "src": "Et il y a parfois un débat parmi les technologistes pour savoir si nous voyons vraiment l'objet réel à l'écran.",
+        "ref": "And there's sometimes a debate among technologists  about, are we really seeing the real thing on-screen?",
+        "hyp": "\"And sometimes there is a debate among technologists to know if we really see the real object on the screen.\"",
+        "rel_src": [
+            "Ray, comment ça va ?",
+            "Ceci va non seulement remplacer les téléphones, mais cela va changer également notre manière de collaborer."
+        ],
+        "rel_tgt": [
+            "\"Ray, how are you?\"",
+            "This will won't just replace phones, but it will change also our way of collaborating."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind",
+            "Ray": "Ray",
+            "Chris Anderson": "Chris Anderson"
+        }
+    },
+    {
+        "idx": 99,
+        "src": "C'est un problème de champ de vision. D'une certaine manière, la technologie montre une vue plus large que celle que vous devriez voir en portant les lunettes.",
+        "ref": "There's this issue of field of view,  that somehow the technology is showing a broader view  than you would actually see wearing the glasses.",
+        "hyp": "It's a problem of field of view. In a way, the technology shows a wider view than what you should see while wearing the glasses.",
+        "new_src_summary": "Cet article explore l'utilisation inefficace et excessive des ordinateurs contemporains par rapport à leur potentiel d'amélioration. Il met en relief une contradiction entre l'inquiétude concernant l'interaction numérique et le plaisir des utilisateurs. L'auteur soutient que le problème ne réside pas dans l'information numérique elle-même, mais dans sa manière d être exploitée. Les outils devraient renforcer nos capacités physiques et sociales, contrairement à ce que font les ordinateurs actuels qui semblent avoir un impact inverse. Pour résoudre ce problème, l'auteur propose de développer des machines plus naturelles pour l'interaction humaine, basées sur les principeses des neurosciences.\n\nL'article examine également la possibilité d prolonger nos sens grâce à des machines qui utilisent les principes des neurosciences, comme l'exemple de la Meta 2, une machine qui permet de voir un hologramme immémorable et réaliste. La réalité augmentée est décrite comme une partie intégrante de l'extension de nos corps grâce aux objets numériques. L'auteur imagine une technologie future qui transforme notre réalité en une réalité holographique projetée devant nos yeux, comparée à l'interface utilisateur de iOS. Il imagine que dans environ cinq ans, cette technologie sera omniprésente et influencera fortement notre expérience de vie.\n\nLe texte décrit trois principes de l'interaction humaine avec l'interface technologique, mettant l'accent sur l'importance du toucher, de la proprioception et de la visuospatialité. Le ton est scientifique et technique, avec une légère nuance d'optimisme quant à la facilité et la nature intuitive des interactions humaines avec la technologie. \n\nPar ailleurs, Ray, une figure de proue dans le domaine, utilise son cerveau holographique pour donner un cadeau au public, illustrant comment cela pourrait changer la façon dont nous collaborons. Il est souligné que le futur des ordinateurs ne se situe pas nécessairement dans des écrans, mais bien en nous, et que l'interaction naturelle est déjà ici, en 2016. Meta, l'entreprise dont Ray fait partie, a l'intention de remplacer tous leurs écrans externes par des appareils plus naturels et intégrés.\n\nChris Anderson, une figure connue dans le domaine de la technologie, pose une question sur la réalité augmentée et suggère qu il y ait eu peu de démonstration lors de l'année précédente. Il soulève également un débat parmi les technologistes sur la perception de l'objet réel à l'écran. \n\nLe ton général est celui de l'optimisme et de la conviction en l'avenir de la technologie. Le style est direct et inform, avec un accent mis sur la présentation de nouvelles idées et technologies.",
+        "new_tgt_summary": "The author highlights the gap between current computational capabilities and the suboptimal user experience in technology, citing a 2011 hologram interruption as an illustrative case. They advocate for a more natural, intuitive interface to better utilize computer power and enhance user experience, aligning with technology's intended purpose of augmenting human abilities. The Meta 2 device is presented as an embodiment of this concept, capable of producing realistic holographic images and facilitating interactive augmented reality experiences. The author envisions a future where digital information seamlessly integrates into daily life, akin to an \"iOS of the mind,\" emphasizing the importance of design principles derived from neuroscience to ensure an intuitive user experience. This future relies on three key interface principles: \"Touch to See,\" highlighting the enhancement of both tactile and cognitive understanding through physical interaction; the significance of social interaction, suggesting that seeing one's own face and hands in 3D can strengthen connection with others and work; and the utilization of a headset for 3D interaction, enabling a more immersive and tactile experience. The author also discusses the potential of this technology to revolutionize various professions by enhancing creativity and efficiency, possibly merging technology and human cognition seamlessly. They mention the possibility of 3D visualization replacing traditional phones and transforming collaboration methods, and share a 2011 message found in a bar suggesting that the future of computing may be contained within screens. The author argues that natural machines are already available and present, not a future product, and shares that at Meta, all employees will replace their external monitors with more natural devices by TED2011. They express gratitude and address Chris Anderson, acknowledging debates among technologists regarding user perception of objects on screens during augmented reality demonstrations.",
+        "rel_src": [
+            "Je peux voir cette personne entièrement en face de moi en 3D.",
+            "Mon système de neurones miroirs suggère que cela va remplacer les téléphones dans peu de temps."
+        ],
+        "rel_tgt": [
+            "I can see this person completely in front of me in 3D.",
+            "My mirror neuron system suggests that this will replace phones soon."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind",
+            "Ray": "Ray",
+            "Chris Anderson": "Chris Anderson"
+        }
+    },
+    {
+        "idx": 100,
+        "src": "Avons-nous vu la vraie vie ?",
+        "ref": "Were we seeing the real deal there?",
+        "hyp": "\"Have we seen the real life?\"",
+        "rel_src": [
+            "MG: Bon, voici le message que j'ai découvert dans un bar en 2011 : le futur des ordinateurs n'est pas bloqué à l'intérieur de l'un de ces écrans.",
+            "Et il y a parfois un débat parmi les technologistes pour savoir si nous voyons vraiment l'objet réel à l'écran."
+        ],
+        "rel_tgt": [
+            "MG: Alright, here's the message I found out in a bar in 2011: the future of computers isn't't blocked inside one of these screens.",
+            "\"And sometimes there is a debate among technologists to know if we really see the real object on the screen.\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind",
+            "Ray": "Ray",
+            "Chris Anderson": "Chris Anderson"
+        }
+    },
+    {
+        "idx": 101,
+        "src": "MG : Absolument la vraie vie.",
+        "ref": "MG: Absolutely the real deal.",
+        "hyp": "MG: Absolutely real life.",
+        "rel_src": [
+            "Ceci va non seulement remplacer les téléphones, mais cela va changer également notre manière de collaborer.",
+            "MG: Bon, voici le message que j'ai découvert dans un bar en 2011 : le futur des ordinateurs n'est pas bloqué à l'intérieur de l'un de ces écrans."
+        ],
+        "rel_tgt": [
+            "This will won't just replace phones, but it will change also our way of collaborating.",
+            "MG: Alright, here's the message I found out in a bar in 2011: the future of computers isn't't blocked inside one of these screens."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind",
+            "Ray": "Ray",
+            "Chris Anderson": "Chris Anderson"
+        }
+    },
+    {
+        "idx": 102,
+        "src": "Et pas seulement cela, nous avons pris d'autres mesures pour filmer avec une GoPro avec les vraies lentilles, les différentes vidéos diffusées.",
+        "ref": "Not only that,  we took extra measures to shoot it with a GoPro through the actual lens  in the various videos that you've seen here.",
+        "hyp": "And not only that, we have taken other measures to film with a GoPro using the real lenses, the different videos broadcasted.",
+        "rel_src": [
+            "Mon système de neurones miroirs suggère que cela va remplacer les téléphones dans peu de temps.",
+            "Avons-nous vu la vraie vie ?"
+        ],
+        "rel_tgt": [
+            "My mirror neuron system suggests that this will replace phones soon.",
+            "\"Have we seen the real life?\""
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind",
+            "Ray": "Ray",
+            "Chris Anderson": "Chris Anderson"
+        }
+    },
+    {
+        "idx": 103,
+        "src": "Nous voulons essayer de simuler l'expérience du monde que nous voyons à travers les lunettes, et ne couper aucun passage.",
+        "ref": "We want to try to simulate the experience for the world  that we're actually seeing through the glasses,  and not cut any corners.",
+        "hyp": "\"We want to try to simulate the experience of the world we see through the glasses, and not cut any part of it.\"",
+        "rel_src": [
+            "Ray, comment ça va ?",
+            "Chris Anderson : Bon, expliquez-moi une chose, parce qu'il y a eu peu de démonstrations sur la réalité augmentée l'année dernière ou précédemment ici-même."
+        ],
+        "rel_tgt": [
+            "\"Ray, how are you?\"",
+            "Chris Anderson: Alright, let me explain something, because there were few demonstrations of augmented reality last year or previously here."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind",
+            "Ray": "Ray",
+            "Chris Anderson": "Chris Anderson"
+        }
+    },
+    {
+        "idx": 104,
+        "src": "CA : Merci beaucoup pour cette présentation.",
+        "ref": "CA: Thank you so much for showing us that.",
+        "hyp": "Chris Anderson: Thank you very much for this presentation.",
+        "rel_src": [
+            "Merci beaucoup.",
+            "Et pas seulement cela, nous avons pris d'autres mesures pour filmer avec une GoPro avec les vraies lentilles, les différentes vidéos diffusées."
+        ],
+        "rel_tgt": [
+            "Thank you very much.",
+            "And not only that, we have taken other measures to film with a GoPro using the real lenses, the different videos broadcasted."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind",
+            "Ray": "Ray",
+            "Chris Anderson": "Chris Anderson"
+        }
+    },
+    {
+        "idx": 105,
+        "src": "MG : Merci beaucoup, c'était un plaisir.",
+        "ref": "MG: Thanks so much, I appreciate that.",
+        "hyp": "MG: Thank you very much, it was a pleasure.",
+        "rel_src": [
+            "MG: Bon, voici le message que j'ai découvert dans un bar en 2011 : le futur des ordinateurs n'est pas bloqué à l'intérieur de l'un de ces écrans.",
+            "C'est pourquoi nous tous à Meta, incluant le personnel administratif, les cadres, les designers, les ingénieurs -- avant TED2017, nous allons tous mettre à la poubelle nos moniteurs externes et les remplacer par des machines vraiment et profondément plus naturelles."
+        ],
+        "rel_tgt": [
+            "MG: Alright, here's the message I found out in a bar in 2011: the future of computers isn't't blocked inside one of these screens.",
+            "That's why at Meta, including administrative staff, managers, designers, engineers - before TED2011, we're all going to get rid of our external monitors and replace them with truly and deeply more natural machines."
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "université Columbia": "Columbia University",
+            "computer science": "computer science",
+            "neuroscience": "neuroscience",
+            "holograms": "holograms",
+            "computersers": "computers",
+            "Meta 2": "Meta 2",
+            "Iron Man": "Iron Man",
+            "<Proper nouns> GoPro": "GoPro",
+            "UCSF": "UCSF",
+            "<Tesstra>": "Tesla",
+            "my legal team": "my legal team",
+            "<iOS of the Mind</i>": "iOS of the Mind",
+            "Ray": "Ray",
+            "Chris Anderson": "Chris Anderson"
+        }
+    }
+]

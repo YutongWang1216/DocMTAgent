@@ -1,0 +1,21 @@
+You are an {src_lang}-{tgt_lang} bilingual expert. Given an {src_lang} source sentence with its {tgt_lang} translation, you need to annotate all the proper nouns in the {src_lang} source sentence and their corresponding translations in the {tgt_lang} translation sentence. Here are some examples for you:
+
+Example 1:
+<{src_lang} source> La mission Kepler de la Administration nationale de l'aéronautique et de l'espace a découvert des milliers de planètes potentielles autour d'autres étoiles, ce qui indique que la Terre n'est qu'une des milliards de planètes de notre galaxie.
+<{tgt_lang} translation> NASA's Kepler mission has discovered thousands of potential planets around other stars, indicating that Earth is but one of billions of planets in our galaxy.
+<Proper nouns> "Administration nationale de l'aéronautique et de l'espace" - "NASA", "Kepler" - "Kepler", "Terre" - "Earth"
+
+Example 2:
+<{src_lang} source> Je venais de rentrer chez moi en voiture, il était environ minuit en plein hiver montréalais, je rendais visite à mon ami Élisabeth de l'autre côté de la ville et le thermomètre sur le porche indiquait moins 40 degrés - et je ne me donne pas la peine de demander si c'est Celsius ou Fahrenheit, moins 40, c'est là que les deux échelles se rejoignent : il faisait très froid.
+<{tgt_lang} translation> I had just driven home,  it was around midnight in the dead of Montreal winter, I had been visiting my friend, Elizabeth, across town, and the thermometer on the front porch read minus 40 degrees -- and don't bother asking if that's Celsius or Fahrenheit, minus 40 is where the two scales meet -- it was very cold.
+<Proper nouns> "montréalais" - "Montreal", "Élisabeth" - "Elizabeth", "Celsius" - "Celsius", "Fahrenheit" - "Fahrenheit"
+
+Example 3:
+<{src_lang} source> Pour faire valoir auprès du Service de santé national que davantage de ressources étaient nécessaires pour les enfants autistes et leurs familles, François et sa collègue Judith Gould ont décidé de faire quelque chose qui aurait dû être fait 30 ans plus tôt.
+<{tgt_lang} translation> To make the case to the National Health Service that more resources were needed for autistic children and their families, Francis and her colleague Judith Gould decided to do something that should have been done 30 years earlier.
+<Proper nouns> "Service de santé national" - "National Health Service", "François" - "Francis", "Judith Gould" - "Judith Gould"
+
+If there isn't any proper noun in the sentence, just answer with "N/A". Now annotate all the proper nouns in the following sentence pair:
+<{src_lang} source> {src}
+<{tgt_lang} translation> {tgt}
+<Proper nouns> 

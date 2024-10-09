@@ -1,0 +1,4491 @@
+[
+    {
+        "idx": 0,
+        "src": "So, this is a story  about how we know what we know.",
+        "ref": "これは 私たちがどうやって 知識を得るのかという話です",
+        "hyp": "これは、私たちが何を知っているかを知る方法についての物語です。",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {}
+    },
+    {
+        "idx": 1,
+        "src": "It's a story about this woman,  Natalia Rybczynski.",
+        "ref": "話の主役は この女性 ナタリア・リプチンスキー",
+        "hyp": "この物語は、ナタリア・リブチンスキーという女性についてのものです。",
+        "rel_src": [
+            "So, this is a story  about how we know what we know."
+        ],
+        "rel_tgt": [
+            "これは、私たちが何を知っているかを知る方法についての物語です。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー"
+        }
+    },
+    {
+        "idx": 2,
+        "src": "She's a paleobiologist,  which means she specializes in digging up really old dead stuff.",
+        "ref": "古生物学者で 太古の死骸を掘るのが専門です",
+        "hyp": "彼女は古生物学者であり、つまり非常に古い死んだものを掘り起こすことを専門としています。",
+        "rel_src": [
+            "So, this is a story  about how we know what we know.",
+            "It's a story about this woman,  Natalia Rybczynski."
+        ],
+        "rel_tgt": [
+            "これは、私たちが何を知っているかを知る方法についての物語です。",
+            "この物語は、ナタリア・リブチンスキーという女性についてのものです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー"
+        }
+    },
+    {
+        "idx": 3,
+        "src": "Natalia Rybczynski: Yeah, I had someone call me \"Dr. Dead Things.\"",
+        "ref": "ナタリア・リプチンスキー： 人には「死骸博士」って呼ばせてたわ",
+        "hyp": "ナタリア・リブチンスキー：ええ、誰かが私を「死んだもの博士」と呼んだことがあります。",
+        "rel_src": [
+            "It's a story about this woman,  Natalia Rybczynski.",
+            "She's a paleobiologist,  which means she specializes in digging up really old dead stuff."
+        ],
+        "rel_tgt": [
+            "この物語は、ナタリア・リブチンスキーという女性についてのものです。",
+            "彼女は古生物学者であり、つまり非常に古い死んだものを掘り起こすことを専門としています。"
+        ],
+        "hist_info": "\"Natalia Rybczynski\" - \"ナタリア・リブチンスキー\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー"
+        }
+    },
+    {
+        "idx": 4,
+        "src": "Latif Nasser: And I think she's particularly interesting  because of where she digs that stuff up,  way above the Arctic Circle in the remote Canadian tundra.",
+        "ref": "ラティフ・ナサー： 特に面白いと思ったのは 発掘現場が 北極圏のはるか北 人里離れた カナダのツンドラ地帯だからです",
+        "hyp": "ラティフ・ナッサー：そして、彼女がそのようなものを掘り起こす場所、すなわち遠くカナダのツンドラの北極圏よりずっと上であることから、彼女は特に興味深いと思います。",
+        "rel_src": [
+            "It's a story about this woman,  Natalia Rybczynski.",
+            "She's a paleobiologist,  which means she specializes in digging up really old dead stuff."
+        ],
+        "rel_tgt": [
+            "この物語は、ナタリア・リブチンスキーという女性についてのものです。",
+            "彼女は古生物学者であり、つまり非常に古い死んだものを掘り起こすことを専門としています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ"
+        }
+    },
+    {
+        "idx": 5,
+        "src": "Now, one summer day in 2006,  she was at a dig site called the Fyles Leaf Bed,  which is less than 10 degrees latitude away from the magnetic north pole.",
+        "ref": "2006年の夏のある日 彼女はファイルズリーフベッドという 発掘現場にいました 磁北極まで緯度10度もありません",
+        "hyp": "さて、2006年のある夏の日、彼女はファイルズ・リーフ・ベッドという発掘現場にいて、そこは磁北極から緯度で10度未満の距離です。",
+        "rel_src": [
+            "It's a story about this woman,  Natalia Rybczynski.",
+            "Latif Nasser: And I think she's particularly interesting  because of where she digs that stuff up,  way above the Arctic Circle in the remote Canadian tundra."
+        ],
+        "rel_tgt": [
+            "この物語は、ナタリア・リブチンスキーという女性についてのものです。",
+            "ラティフ・ナッサー：そして、彼女がそのようなものを掘り起こす場所、すなわち遠くカナダのツンドラの北極圏よりずっと上であることから、彼女は特に興味深いと思います。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極"
+        }
+    },
+    {
+        "idx": 6,
+        "src": "NR: Really, it's not going to sound very exciting,  because it was a day of walking with your backpack and your GPS  and notebook and just picking up anything that might be a fossil.",
+        "ref": "ナタリア： 退屈だと思うかもしれません リュックを背負って GPSとノートを抱え 化石らしきものを拾いながら １日中歩き回るだけですから",
+        "hyp": "NR：実際、それはあまり興奮するようなことには聞こえないでしょう。なぜなら、それはリュックサックとGPS、ノートを持って歩き回り、化石になりそうなものを拾い集める一日だったからです。",
+        "rel_src": [
+            "Latif Nasser: And I think she's particularly interesting  because of where she digs that stuff up,  way above the Arctic Circle in the remote Canadian tundra.",
+            "Now, one summer day in 2006,  she was at a dig site called the Fyles Leaf Bed,  which is less than 10 degrees latitude away from the magnetic north pole."
+        ],
+        "rel_tgt": [
+            "ラティフ・ナッサー：そして、彼女がそのようなものを掘り起こす場所、すなわち遠くカナダのツンドラの北極圏よりずっと上であることから、彼女は特に興味深いと思います。",
+            "さて、2006年のある夏の日、彼女はファイルズ・リーフ・ベッドという発掘現場にいて、そこは磁北極から緯度で10度未満の距離です。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極"
+        }
+    },
+    {
+        "idx": 7,
+        "src": "LN: And at some point, she noticed something.",
+        "ref": "ラティフ：ある時 彼女は 何かに気づきました",
+        "hyp": "LN：そして、ある時、彼女は何かに気づきました。",
+        "rel_src": [
+            "Latif Nasser: And I think she's particularly interesting  because of where she digs that stuff up,  way above the Arctic Circle in the remote Canadian tundra.",
+            "Now, one summer day in 2006,  she was at a dig site called the Fyles Leaf Bed,  which is less than 10 degrees latitude away from the magnetic north pole."
+        ],
+        "rel_tgt": [
+            "ラティフ・ナッサー：そして、彼女がそのようなものを掘り起こす場所、すなわち遠くカナダのツンドラの北極圏よりずっと上であることから、彼女は特に興味深いと思います。",
+            "さて、2006年のある夏の日、彼女はファイルズ・リーフ・ベッドという発掘現場にいて、そこは磁北極から緯度で10度未満の距離です。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極"
+        }
+    },
+    {
+        "idx": 8,
+        "src": "NR: Rusty, kind of rust-colored,  about the size of the palm of my hand.",
+        "ref": "ナタリア：古い 赤褐色をした 手のひら大のもので",
+        "hyp": "NR：錆びたような錆色で、私の手のひらほどの大きさです。",
+        "rel_src": [
+            "Now, one summer day in 2006,  she was at a dig site called the Fyles Leaf Bed,  which is less than 10 degrees latitude away from the magnetic north pole.",
+            "LN: And at some point, she noticed something."
+        ],
+        "rel_tgt": [
+            "さて、2006年のある夏の日、彼女はファイルズ・リーフ・ベッドという発掘現場にいて、そこは磁北極から緯度で10度未満の距離です。",
+            "LN：そして、ある時、彼女は何かに気づきました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極"
+        }
+    },
+    {
+        "idx": 9,
+        "src": "It was just lying on the surface.",
+        "ref": "地面に落ちていたんです",
+        "hyp": "それはただ表面に横たわっていました。",
+        "rel_src": [
+            "LN: And at some point, she noticed something.",
+            "NR: Rusty, kind of rust-colored,  about the size of the palm of my hand."
+        ],
+        "rel_tgt": [
+            "LN：そして、ある時、彼女は何かに気づきました。",
+            "NR：錆びたような錆色で、私の手のひらほどの大きさです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極"
+        }
+    },
+    {
+        "idx": 10,
+        "src": "LN: And at first she thought it was just a splinter of wood,  because that's the sort of thing people had found  at the Fyles Leaf Bed before -- prehistoric plant parts.",
+        "ref": "ラティフ：最初は ただの木片だと思いました というのも ファイルズリーフベッドでは 太古の植物の破片が よく見つかったからです",
+        "hyp": "LN：そして最初、彼女はそれがただの木のささくれだと思いました。なぜなら、それは以前にファイルズ・リーフ・ベッドで人々が見つけたことのあるもので、先史時代の植物の一部だからです。",
+        "rel_src": [
+            "Now, one summer day in 2006,  she was at a dig site called the Fyles Leaf Bed,  which is less than 10 degrees latitude away from the magnetic north pole.",
+            "It was just lying on the surface."
+        ],
+        "rel_tgt": [
+            "さて、2006年のある夏の日、彼女はファイルズ・リーフ・ベッドという発掘現場にいて、そこは磁北極から緯度で10度未満の距離です。",
+            "それはただ表面に横たわっていました。"
+        ],
+        "hist_info": "\"Fyles Leaf Bed\" - \"ファイルズ・リーフ・ベッド\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極"
+        }
+    },
+    {
+        "idx": 11,
+        "src": "But that night, back at camp ...",
+        "ref": "ところが その夜キャンプに帰り ―",
+        "hyp": "しかし、その夜、キャンプに戻ると…",
+        "rel_src": [
+            "NR: Really, it's not going to sound very exciting,  because it was a day of walking with your backpack and your GPS  and notebook and just picking up anything that might be a fossil.",
+            "LN: And at some point, she noticed something."
+        ],
+        "rel_tgt": [
+            "NR：実際、それはあまり興奮するようなことには聞こえないでしょう。なぜなら、それはリュックサックとGPS、ノートを持って歩き回り、化石になりそうなものを拾い集める一日だったからです。",
+            "LN：そして、ある時、彼女は何かに気づきました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極"
+        }
+    },
+    {
+        "idx": 12,
+        "src": "NR: ... I get out the hand lens,  I'm looking a little bit more closely and realizing  it doesn't quite look like this has tree rings.",
+        "ref": "ナタリア：ルーペを取り出して もう少し よく見てみると 年輪がないんです",
+        "hyp": "NR：…ハンドレンズを取り出して、もう少し注意深く見ていると、これには木の年輪がないように見えることに気づきました。",
+        "rel_src": [
+            "NR: Rusty, kind of rust-colored,  about the size of the palm of my hand.",
+            "LN: And at first she thought it was just a splinter of wood,  because that's the sort of thing people had found  at the Fyles Leaf Bed before -- prehistoric plant parts."
+        ],
+        "rel_tgt": [
+            "NR：錆びたような錆色で、私の手のひらほどの大きさです。",
+            "LN：そして最初、彼女はそれがただの木のささくれだと思いました。なぜなら、それは以前にファイルズ・リーフ・ベッドで人々が見つけたことのあるもので、先史時代の植物の一部だからです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極"
+        }
+    },
+    {
+        "idx": 13,
+        "src": "Maybe it's a preservation thing,  but it looks really like ...",
+        "ref": "保存状態のせいかもしれませんが それは見れば見るほど —",
+        "hyp": "もしかしたら保存の問題かもしれませんが、それは本当に…のように見えます。",
+        "rel_src": [
+            "NR: Rusty, kind of rust-colored,  about the size of the palm of my hand.",
+            "LN: And at first she thought it was just a splinter of wood,  because that's the sort of thing people had found  at the Fyles Leaf Bed before -- prehistoric plant parts."
+        ],
+        "rel_tgt": [
+            "NR：錆びたような錆色で、私の手のひらほどの大きさです。",
+            "LN：そして最初、彼女はそれがただの木のささくれだと思いました。なぜなら、それは以前にファイルズ・リーフ・ベッドで人々が見つけたことのあるもので、先史時代の植物の一部だからです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極"
+        }
+    },
+    {
+        "idx": 14,
+        "src": "bone.",
+        "ref": "骨でした",
+        "hyp": "骨。",
+        "rel_src": [
+            "LN: And at first she thought it was just a splinter of wood,  because that's the sort of thing people had found  at the Fyles Leaf Bed before -- prehistoric plant parts.",
+            "NR: ... I get out the hand lens,  I'm looking a little bit more closely and realizing  it doesn't quite look like this has tree rings."
+        ],
+        "rel_tgt": [
+            "LN：そして最初、彼女はそれがただの木のささくれだと思いました。なぜなら、それは以前にファイルズ・リーフ・ベッドで人々が見つけたことのあるもので、先史時代の植物の一部だからです。",
+            "NR：…ハンドレンズを取り出して、もう少し注意深く見ていると、これには木の年輪がないように見えることに気づきました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極"
+        }
+    },
+    {
+        "idx": 15,
+        "src": "LN: Huh. So over the next four years,  she went to that spot over and over,  and eventually collected 30 fragments of that exact same bone,  most of them really tiny.",
+        "ref": "ラティフ：彼女は それから４年以上 何度も この地点を訪れ 最終的に 30個の 同じ骨の破片を集めました ほとんどが とても小さなものです",
+        "hyp": "LN：へえ。それからの4年間、彼女はその場所に何度も通い、最終的にはその正確に同じ骨の破片を30個集めました。そのほとんどは本当に小さいものでした。",
+        "rel_src": [
+            "LN: And at first she thought it was just a splinter of wood,  because that's the sort of thing people had found  at the Fyles Leaf Bed before -- prehistoric plant parts.",
+            "bone."
+        ],
+        "rel_tgt": [
+            "LN：そして最初、彼女はそれがただの木のささくれだと思いました。なぜなら、それは以前にファイルズ・リーフ・ベッドで人々が見つけたことのあるもので、先史時代の植物の一部だからです。",
+            "骨。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極"
+        }
+    },
+    {
+        "idx": 16,
+        "src": "NR: It's not a whole lot. It fits in a small Ziploc bag.",
+        "ref": "ナタリア：数は多くありません 小さなビニール袋に収まるくらいです",
+        "hyp": "NR：それほど多くはありません。小さなジップロックバッグに収まります。",
+        "rel_src": [
+            "NR: ... I get out the hand lens,  I'm looking a little bit more closely and realizing  it doesn't quite look like this has tree rings.",
+            "bone."
+        ],
+        "rel_tgt": [
+            "NR：…ハンドレンズを取り出して、もう少し注意深く見ていると、これには木の年輪がないように見えることに気づきました。",
+            "骨。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極"
+        }
+    },
+    {
+        "idx": 17,
+        "src": "LN: And she tried to piece them together like a jigsaw puzzle.",
+        "ref": "ラティフ：パズルのように 破片を組み合わせようとしましたが",
+        "hyp": "LN：そして、彼女はそれらをジグソーパズルのように組み立てようとしました。",
+        "rel_src": [
+            "LN: Huh. So over the next four years,  she went to that spot over and over,  and eventually collected 30 fragments of that exact same bone,  most of them really tiny.",
+            "NR: It's not a whole lot. It fits in a small Ziploc bag."
+        ],
+        "rel_tgt": [
+            "LN：へえ。それからの4年間、彼女はその場所に何度も通い、最終的にはその正確に同じ骨の破片を30個集めました。そのほとんどは本当に小さいものでした。",
+            "NR：それほど多くはありません。小さなジップロックバッグに収まります。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極"
+        }
+    },
+    {
+        "idx": 18,
+        "src": "But it was challenging.",
+        "ref": "本当に大変な作業でした",
+        "hyp": "しかし、それは難しかったです。",
+        "rel_src": [
+            "NR: Really, it's not going to sound very exciting,  because it was a day of walking with your backpack and your GPS  and notebook and just picking up anything that might be a fossil.",
+            "LN: And she tried to piece them together like a jigsaw puzzle."
+        ],
+        "rel_tgt": [
+            "NR：実際、それはあまり興奮するようなことには聞こえないでしょう。なぜなら、それはリュックサックとGPS、ノートを持って歩き回り、化石になりそうなものを拾い集める一日だったからです。",
+            "LN：そして、彼女はそれらをジグソーパズルのように組み立てようとしました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極"
+        }
+    },
+    {
+        "idx": 19,
+        "src": "NR: It's broken up into so many little tiny pieces,  I'm trying to use sand and putty, and it's not looking good.",
+        "ref": "ナタリア：割れて 粉々になっていたので 砂とパテを使おうとしましたが うまくいきません",
+        "hyp": "NR：それはとても小さな小さな破片に分かれていて、私は砂とパテを使おうとしていますが、うまくいっていません。",
+        "new_src_summary": "The paragraph narrates the story of Natalia Rybczynski, a paleobiologist who specializes in uncovering ancient fossils in the remote Canadian tundra, specifically above the Arctic Circle. The narrative begins with Rybczynski's self-deprecating humor, referring to herself as \"Dr. Dead Things.\" In the summer of 2006, while at a dig site known as the Fyles Leaf Bed, she discovered a rusty, palm-sized object that she initially mistook for wood. Upon closer inspection that evening, she suspected it was bone. Over the next four years, Rybczynski returned to the site multiple times, collecting 30 tiny bone fragments, which she struggled to piece together like a jigsaw puzzle. The overall domain is scientific exploration and paleontology, while the style is conversational and informative, and the tone is both engaging and slightly humorous.",
+        "new_tgt_summary": "この段落は、古生物学者ナタリア・リブチンスキーの物語について述べています。彼女はカナダのツンドラで発掘作業を行っており、ある日、ファイルズ・リーフ・ベッドで錆色の物体を見つけました。当初は木のささくれと思われましたが、詳細に観察すると骨のように見えることに気づきました。その後、彼女は4年間にわたり同じ場所を訪れ、30個の骨の破片を集めましたが、それらを組み立てるのは難しいと感じています。",
+        "rel_src": [
+            "LN: And she tried to piece them together like a jigsaw puzzle.",
+            "But it was challenging."
+        ],
+        "rel_tgt": [
+            "LN：そして、彼女はそれらをジグソーパズルのように組み立てようとしました。",
+            "しかし、それは難しかったです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極"
+        }
+    },
+    {
+        "idx": 20,
+        "src": "So finally, we used a 3D surface scanner.",
+        "ref": "だから結局 3Dスキャナーを使いました",
+        "hyp": "ついに、私たちは3D表面スキャナーを使用しました。",
+        "rel_src": [
+            "LN: And she tried to piece them together like a jigsaw puzzle.",
+            "NR: It's broken up into so many little tiny pieces,  I'm trying to use sand and putty, and it's not looking good."
+        ],
+        "rel_tgt": [
+            "LN：そして、彼女はそれらをジグソーパズルのように組み立てようとしました。",
+            "NR：それはとても小さな小さな破片に分かれていて、私は砂とパテを使おうとしていますが、うまくいっていません。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極"
+        }
+    },
+    {
+        "idx": 21,
+        "src": "LN: Ooh! NR: Yeah, right?",
+        "ref": "ラティフ：すごいな！ ナタリア：でしょ？",
+        "hyp": "ラティフ・ナッサー：おお！ナタリア・リブチンスキー：そうでしょう？",
+        "rel_src": [
+            "Natalia Rybczynski: Yeah, I had someone call me \"Dr. Dead Things.\"",
+            "Latif Nasser: And I think she's particularly interesting  because of where she digs that stuff up,  way above the Arctic Circle in the remote Canadian tundra."
+        ],
+        "rel_tgt": [
+            "ナタリア・リブチンスキー：ええ、誰かが私を「死んだもの博士」と呼んだことがあります。",
+            "ラティフ・ナッサー：そして、彼女がそのようなものを掘り起こす場所、すなわち遠くカナダのツンドラの北極圏よりずっと上であることから、彼女は特に興味深いと思います。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー"
+        }
+    },
+    {
+        "idx": 22,
+        "src": "LN: It turns out it was way easier to do it virtually.",
+        "ref": "ラティフ：画面上で作業した方が ずっと簡単です",
+        "hyp": "ラティフ・ナッサー：実際、バーチャルでやる方がずっと簡単だったことがわかりました。",
+        "rel_src": [
+            "So finally, we used a 3D surface scanner.",
+            "LN: Ooh! NR: Yeah, right?"
+        ],
+        "rel_tgt": [
+            "ついに、私たちは3D表面スキャナーを使用しました。",
+            "ラティフ・ナッサー：おお！ナタリア・リブチンスキー：そうでしょう？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー"
+        }
+    },
+    {
+        "idx": 23,
+        "src": "NR: It's kind of magical when it all fits together.",
+        "ref": "ナタリア：全部 組み合わさった時は ちょっと感動しました",
+        "hyp": "ナタリア・リブチンスキー：すべてがぴったり合うと、なんだか魔法のようです。",
+        "rel_src": [
+            "LN: And she tried to piece them together like a jigsaw puzzle.",
+            "LN: It turns out it was way easier to do it virtually."
+        ],
+        "rel_tgt": [
+            "LN：そして、彼女はそれらをジグソーパズルのように組み立てようとしました。",
+            "ラティフ・ナッサー：実際、バーチャルでやる方がずっと簡単だったことがわかりました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー"
+        }
+    },
+    {
+        "idx": 24,
+        "src": "LN: How certain were you that you had it right,  that you had put it together in the right way?",
+        "ref": "ラティフ：組み立て方が正しいという 自信は どのくらいありました？",
+        "hyp": "ラティフ・ナッサー：それを正しく組み立てたと、どれほど確信がありましたか？",
+        "rel_src": [
+            "LN: And she tried to piece them together like a jigsaw puzzle.",
+            "NR: It's kind of magical when it all fits together."
+        ],
+        "rel_tgt": [
+            "LN：そして、彼女はそれらをジグソーパズルのように組み立てようとしました。",
+            "ナタリア・リブチンスキー：すべてがぴったり合うと、なんだか魔法のようです。"
+        ],
+        "hist_info": "\"LN\" - \"ラティフ・ナッサー\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー"
+        }
+    },
+    {
+        "idx": 25,
+        "src": "Was there a potential that you'd put it together a different way  and have, like, a parakeet or something?",
+        "ref": "別の組み立て方をしたら 違うものになる可能性は？ 実はインコだったとか？",
+        "hyp": "他の方法で組み立てて、例えばオウムのようなものになった可能性はありましたか？",
+        "rel_src": [
+            "LN: And she tried to piece them together like a jigsaw puzzle.",
+            "NR: It's broken up into so many little tiny pieces,  I'm trying to use sand and putty, and it's not looking good."
+        ],
+        "rel_tgt": [
+            "LN：そして、彼女はそれらをジグソーパズルのように組み立てようとしました。",
+            "NR：それはとても小さな小さな破片に分かれていて、私は砂とパテを使おうとしていますが、うまくいっていません。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー"
+        }
+    },
+    {
+        "idx": 26,
+        "src": "NR:  Um, no. No, we got this.",
+        "ref": "ナタリア：いいえ 間違いありません",
+        "hyp": "ナタリア・リブチンスキー：うーん、違う。大丈夫、私たちはこれをやれる。",
+        "rel_src": [
+            "LN: Huh. So over the next four years,  she went to that spot over and over,  and eventually collected 30 fragments of that exact same bone,  most of them really tiny.",
+            "LN: And she tried to piece them together like a jigsaw puzzle."
+        ],
+        "rel_tgt": [
+            "LN：へえ。それからの4年間、彼女はその場所に何度も通い、最終的にはその正確に同じ骨の破片を30個集めました。そのほとんどは本当に小さいものでした。",
+            "LN：そして、彼女はそれらをジグソーパズルのように組み立てようとしました。"
+        ],
+        "hist_info": "\"NR\" - \"ナタリア・リブチンスキー\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー"
+        }
+    },
+    {
+        "idx": 27,
+        "src": "LN: What she had, she discovered, was a tibia, a leg bone,  and specifically, one that belonged to a cloven-hoofed mammal,  so something like a cow or a sheep.",
+        "ref": "ラティフ：彼女が発見したのは けい骨 つまり脚の骨で しかも偶蹄類のものでした 牛や羊の仲間のことです",
+        "hyp": "ラティフ・ナッサー：彼女が発見したのは脛骨、つまり脚の骨で、特に偶蹄類の哺乳類に属するもので、牛や羊のようなものです。",
+        "rel_src": [
+            "bone.",
+            "LN: Huh. So over the next four years,  she went to that spot over and over,  and eventually collected 30 fragments of that exact same bone,  most of them really tiny."
+        ],
+        "rel_tgt": [
+            "骨。",
+            "LN：へえ。それからの4年間、彼女はその場所に何度も通い、最終的にはその正確に同じ骨の破片を30個集めました。そのほとんどは本当に小さいものでした。"
+        ],
+        "hist_info": "\"LN\" - \"ラティフ・ナッサー\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー"
+        }
+    },
+    {
+        "idx": 28,
+        "src": "But it couldn't have been either of those.",
+        "ref": "ただ この骨は牛や羊のはずは ありませんでした",
+        "hyp": "しかし、それらのどちらでもあり得ませんでした。",
+        "rel_src": [
+            "NR:  Um, no. No, we got this.",
+            "LN: What she had, she discovered, was a tibia, a leg bone,  and specifically, one that belonged to a cloven-hoofed mammal,  so something like a cow or a sheep."
+        ],
+        "rel_tgt": [
+            "ナタリア・リブチンスキー：うーん、違う。大丈夫、私たちはこれをやれる。",
+            "ラティフ・ナッサー：彼女が発見したのは脛骨、つまり脚の骨で、特に偶蹄類の哺乳類に属するもので、牛や羊のようなものです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー"
+        }
+    },
+    {
+        "idx": 29,
+        "src": "It was just too big.",
+        "ref": "大き過ぎたのです",
+        "hyp": "それはただ大きすぎました。",
+        "rel_src": [
+            "LN: What she had, she discovered, was a tibia, a leg bone,  and specifically, one that belonged to a cloven-hoofed mammal,  so something like a cow or a sheep.",
+            "But it couldn't have been either of those."
+        ],
+        "rel_tgt": [
+            "ラティフ・ナッサー：彼女が発見したのは脛骨、つまり脚の骨で、特に偶蹄類の哺乳類に属するもので、牛や羊のようなものです。",
+            "しかし、それらのどちらでもあり得ませんでした。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー"
+        }
+    },
+    {
+        "idx": 30,
+        "src": "NR: The size of this thing, it was huge. It's a really big animal.",
+        "ref": "ナタリア：特大サイズでした すごく大きな動物です",
+        "hyp": "ナタリア・リブチンスキー：この物体の大きさは、巨大でした。本当に大きな動物です。",
+        "rel_src": [
+            "LN: What she had, she discovered, was a tibia, a leg bone,  and specifically, one that belonged to a cloven-hoofed mammal,  so something like a cow or a sheep.",
+            "It was just too big."
+        ],
+        "rel_tgt": [
+            "ラティフ・ナッサー：彼女が発見したのは脛骨、つまり脚の骨で、特に偶蹄類の哺乳類に属するもので、牛や羊のようなものです。",
+            "それはただ大きすぎました。"
+        ],
+        "hist_info": "\"NR\" - \"ナタリア・リブチンスキー\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー"
+        }
+    },
+    {
+        "idx": 31,
+        "src": "LN: So what animal could it be?",
+        "ref": "ラティフ：どんな動物だったのでしょう？",
+        "hyp": "ラティフ・ナッサー：それは一体どの動物なのでしょうか？",
+        "rel_src": [
+            "LN: What she had, she discovered, was a tibia, a leg bone,  and specifically, one that belonged to a cloven-hoofed mammal,  so something like a cow or a sheep.",
+            "NR: The size of this thing, it was huge. It's a really big animal."
+        ],
+        "rel_tgt": [
+            "ラティフ・ナッサー：彼女が発見したのは脛骨、つまり脚の骨で、特に偶蹄類の哺乳類に属するもので、牛や羊のようなものです。",
+            "ナタリア・リブチンスキー：この物体の大きさは、巨大でした。本当に大きな動物です。"
+        ],
+        "hist_info": "\"LN\" - \"ラティフ・ナッサー\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー"
+        }
+    },
+    {
+        "idx": 32,
+        "src": "Having hit a wall, she showed one of the fragments  to some colleagues of hers in Colorado,  and they had an idea.",
+        "ref": "行き詰った彼女は 骨片の１つを コロラドの同僚に見せました その時ひらめいたんです",
+        "hyp": "壁にぶつかり、彼女はコロラドの同僚の一人にその破片の一つを見せました。そして、彼らはアイデアを思いつきました。",
+        "rel_src": [
+            "LN: Huh. So over the next four years,  she went to that spot over and over,  and eventually collected 30 fragments of that exact same bone,  most of them really tiny.",
+            "LN: What she had, she discovered, was a tibia, a leg bone,  and specifically, one that belonged to a cloven-hoofed mammal,  so something like a cow or a sheep."
+        ],
+        "rel_tgt": [
+            "LN：へえ。それからの4年間、彼女はその場所に何度も通い、最終的にはその正確に同じ骨の破片を30個集めました。そのほとんどは本当に小さいものでした。",
+            "ラティフ・ナッサー：彼女が発見したのは脛骨、つまり脚の骨で、特に偶蹄類の哺乳類に属するもので、牛や羊のようなものです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド"
+        }
+    },
+    {
+        "idx": 33,
+        "src": "NR: We took a saw, and we nicked just the edge of it,  and there was this really interesting smell that comes from it.",
+        "ref": "ナタリア：私たちが のこぎりで 骨の端に切り目を入れると 特徴のある匂いがしたんです",
+        "hyp": "ナタリア・リブチンスキー：私たちはノコギリを使って、その端を少し切り、そこからとても興味深い匂いがしました。",
+        "rel_src": [
+            "LN: Huh. So over the next four years,  she went to that spot over and over,  and eventually collected 30 fragments of that exact same bone,  most of them really tiny.",
+            "LN: What she had, she discovered, was a tibia, a leg bone,  and specifically, one that belonged to a cloven-hoofed mammal,  so something like a cow or a sheep."
+        ],
+        "rel_tgt": [
+            "LN：へえ。それからの4年間、彼女はその場所に何度も通い、最終的にはその正確に同じ骨の破片を30個集めました。そのほとんどは本当に小さいものでした。",
+            "ラティフ・ナッサー：彼女が発見したのは脛骨、つまり脚の骨で、特に偶蹄類の哺乳類に属するもので、牛や羊のようなものです。"
+        ],
+        "hist_info": "\"NR\" - \"ナタリア・リブチンスキー\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド"
+        }
+    },
+    {
+        "idx": 34,
+        "src": "LN: It smelled kind of like singed flesh.",
+        "ref": "ラティフ：焦げた肉のような匂いで",
+        "hyp": "ラティフ・ナッサー：それは焼けた肉のような匂いがしました。",
+        "rel_src": [
+            "LN: What she had, she discovered, was a tibia, a leg bone,  and specifically, one that belonged to a cloven-hoofed mammal,  so something like a cow or a sheep.",
+            "NR: We took a saw, and we nicked just the edge of it,  and there was this really interesting smell that comes from it."
+        ],
+        "rel_tgt": [
+            "ラティフ・ナッサー：彼女が発見したのは脛骨、つまり脚の骨で、特に偶蹄類の哺乳類に属するもので、牛や羊のようなものです。",
+            "ナタリア・リブチンスキー：私たちはノコギリを使って、その端を少し切り、そこからとても興味深い匂いがしました。"
+        ],
+        "hist_info": "\"LN\" - \"ラティフ・ナッサー\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド"
+        }
+    },
+    {
+        "idx": 35,
+        "src": "It was a smell that Natalia recognized  from cutting up skulls in her gross anatomy lab:  collagen.",
+        "ref": "不気味な解剖室で ナタリアが 頭蓋骨を切断した時に 嗅いだのと同じ匂いでした コラーゲンです",
+        "hyp": "それはナタリアが彼女の解剖学実習室で頭蓋骨を切り分けるときに認識した匂いでした：コラーゲン。",
+        "rel_src": [
+            "NR: We took a saw, and we nicked just the edge of it,  and there was this really interesting smell that comes from it.",
+            "LN: It smelled kind of like singed flesh."
+        ],
+        "rel_tgt": [
+            "ナタリア・リブチンスキー：私たちはノコギリを使って、その端を少し切り、そこからとても興味深い匂いがしました。",
+            "ラティフ・ナッサー：それは焼けた肉のような匂いがしました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア"
+        }
+    },
+    {
+        "idx": 36,
+        "src": "Collagen is what gives structure to our bones.",
+        "ref": "コラーゲンは骨の構造を保つ 役割を果たします",
+        "hyp": "コラーゲンは私たちの骨に構造を与えるものです。",
+        "rel_src": [
+            "NR: We took a saw, and we nicked just the edge of it,  and there was this really interesting smell that comes from it.",
+            "It was a smell that Natalia recognized  from cutting up skulls in her gross anatomy lab:  collagen."
+        ],
+        "rel_tgt": [
+            "ナタリア・リブチンスキー：私たちはノコギリを使って、その端を少し切り、そこからとても興味深い匂いがしました。",
+            "それはナタリアが彼女の解剖学実習室で頭蓋骨を切り分けるときに認識した匂いでした：コラーゲン。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア"
+        }
+    },
+    {
+        "idx": 37,
+        "src": "And usually, after so many years,  it breaks down.",
+        "ref": "年月が経つと 普通は 分解しますが",
+        "hyp": "そして通常、何年も経つと、それは崩れてしまいます。",
+        "rel_src": [
+            "NR: It's broken up into so many little tiny pieces,  I'm trying to use sand and putty, and it's not looking good.",
+            "NR: The size of this thing, it was huge. It's a really big animal."
+        ],
+        "rel_tgt": [
+            "NR：それはとても小さな小さな破片に分かれていて、私は砂とパテを使おうとしていますが、うまくいっていません。",
+            "ナタリア・リブチンスキー：この物体の大きさは、巨大でした。本当に大きな動物です。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア"
+        }
+    },
+    {
+        "idx": 38,
+        "src": "But in this case, the Arctic had acted like a natural freezer and preserved it.",
+        "ref": "この場合 北極圏の気候が 天然の冷蔵庫となって保存したのです",
+        "hyp": "しかし、この場合、北極は自然の冷凍庫のように機能し、それを保存していました。",
+        "rel_src": [
+            "LN: What she had, she discovered, was a tibia, a leg bone,  and specifically, one that belonged to a cloven-hoofed mammal,  so something like a cow or a sheep.",
+            "It was a smell that Natalia recognized  from cutting up skulls in her gross anatomy lab:  collagen."
+        ],
+        "rel_tgt": [
+            "ラティフ・ナッサー：彼女が発見したのは脛骨、つまり脚の骨で、特に偶蹄類の哺乳類に属するもので、牛や羊のようなものです。",
+            "それはナタリアが彼女の解剖学実習室で頭蓋骨を切り分けるときに認識した匂いでした：コラーゲン。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極"
+        }
+    },
+    {
+        "idx": 39,
+        "src": "Then a year or two later, Natalia was at a conference in Bristol,  and she saw that a colleague of hers named Mike Buckley  was demoing this new process that he called \"collagen fingerprinting.\"",
+        "ref": "それから１〜２年経って ナタリアがブリストルで学会に参加した時 マイク・バックリーという学者仲間が 「コラーゲン鑑定」という新しい処理法の デモをしていました",
+        "hyp": "その後、1年か2年後にナタリアはブリストルでの会議に出席し、彼女の同僚であるマイク・バックリーが「コラーゲンフィンガープリンティング」と呼ぶ新しいプロセスをデモしているのを見ました。",
+        "new_src_summary": "The narrative unfolds the story of Natalia Rybczynski, a paleobiologist known for her work in uncovering ancient fossils in the remote Canadian tundra above the Arctic Circle. With a touch of self-deprecating humor, she refers to herself as \"Dr. Dead Things.\" In the summer of 2006, during her time at the Fyles Leaf Bed dig site, Rybczynski stumbled upon a rusty, palm-sized object she initially thought was wood, only to later suspect it was bone. Over the next four years, she returned to the site multiple times, meticulously collecting 30 tiny bone fragments that she pieced together like a jigsaw puzzle. In a parallel narrative, NR and LN collaborate to identify a large bone fragment they discovered, initially struggling with reconstruction using sand and putty before switching to a 3D surface scanner, which significantly eases their task. They conclude that the bone is a tibia from a cloven-hoofed mammal, too large for a cow or sheep. Further examination reveals a distinctive smell reminiscent of singed flesh, which NR connects to collagen from her anatomy lab, while the bone's preservation is credited to the Arctic conditions acting as a natural freezer. Both accounts are rooted in scientific exploration and paleontology, featuring a conversational and engaging tone, with moments of humor and inquisitiveness.",
+        "new_tgt_summary": "古生物学者ナタリア・リブチンスキーは、カナダのツンドラでの発掘作業中にファイルズ・リーフ・ベッドで錆色の物体を発見し、最初は木のささくれと思われたそれが骨のように見えることに気づきました。彼女は4年間にわたり同じ場所を訪れ、30個の骨の破片を集めましたが、組み立てるのは難しいと感じていました。ナタリアは、同僚のラティフ・ナッサーと共に3D表面スキャナーを使用して非常に小さな破片を組み立て、発見した脛骨が偶蹄類の大きな動物に属することを確認しました。彼らはノコギリで破片を切り、その際に焼けた肉のような匂いを感じましたが、これはナタリアが解剖学実習室で認識したコラーゲンの匂いであり、北極の寒さがその骨を保存していたと考えられています。",
+        "rel_src": [
+            "It was a smell that Natalia recognized  from cutting up skulls in her gross anatomy lab:  collagen.",
+            "Collagen is what gives structure to our bones."
+        ],
+        "rel_tgt": [
+            "それはナタリアが彼女の解剖学実習室で頭蓋骨を切り分けるときに認識した匂いでした：コラーゲン。",
+            "コラーゲンは私たちの骨に構造を与えるものです。"
+        ],
+        "hist_info": "\"Natalia\" - \"ナタリア\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング"
+        }
+    },
+    {
+        "idx": 40,
+        "src": "It turns out that different species have slightly different structures  of collagen,  so if you get a collagen profile of an unknown bone,  you can compare it to those of known species,  and, who knows, maybe you get a match.",
+        "ref": "動物はそれぞれ コラーゲンの構造が少しずつ 違っていて 未知の骨のコラーゲンの特徴がわかれば 既に分かっている動物のものと 比較でき ひょっとしたら 特定できるかもしれません",
+        "hyp": "異なる種はわずかに異なるコラーゲンの構造を持っていることが分かりました。したがって、未知の骨のコラーゲンプロファイルを取得すれば、既知の種のものと比較することができ、もしかしたら一致するかもしれません。",
+        "rel_src": [
+            "It was a smell that Natalia recognized  from cutting up skulls in her gross anatomy lab:  collagen.",
+            "Then a year or two later, Natalia was at a conference in Bristol,  and she saw that a colleague of hers named Mike Buckley  was demoing this new process that he called \"collagen fingerprinting.\""
+        ],
+        "rel_tgt": [
+            "それはナタリアが彼女の解剖学実習室で頭蓋骨を切り分けるときに認識した匂いでした：コラーゲン。",
+            "その後、1年か2年後にナタリアはブリストルでの会議に出席し、彼女の同僚であるマイク・バックリーが「コラーゲンフィンガープリンティング」と呼ぶ新しいプロセスをデモしているのを見ました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング"
+        }
+    },
+    {
+        "idx": 41,
+        "src": "So she shipped him one of the fragments,  FedEx.",
+        "ref": "だから 骨片を１つ送ったのです 宅配便でね",
+        "hyp": "彼女はその破片の一つをフェデックスで彼に送った。",
+        "rel_src": [
+            "Having hit a wall, she showed one of the fragments  to some colleagues of hers in Colorado,  and they had an idea.",
+            "Then a year or two later, Natalia was at a conference in Bristol,  and she saw that a colleague of hers named Mike Buckley  was demoing this new process that he called \"collagen fingerprinting.\""
+        ],
+        "rel_tgt": [
+            "壁にぶつかり、彼女はコロラドの同僚の一人にその破片の一つを見せました。そして、彼らはアイデアを思いつきました。",
+            "その後、1年か2年後にナタリアはブリストルでの会議に出席し、彼女の同僚であるマイク・バックリーが「コラーゲンフィンガープリンティング」と呼ぶ新しいプロセスをデモしているのを見ました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス"
+        }
+    },
+    {
+        "idx": 42,
+        "src": "NR: Yeah, you want to track it. It's kind of important.",
+        "ref": "ナタリア：大切なものだから 追跡したかったんです",
+        "hyp": "ナタリア・リブチンスキー：うん、それを追跡したいね。結構重要だよ。",
+        "rel_src": [
+            "NR: It's kind of magical when it all fits together.",
+            "NR:  Um, no. No, we got this."
+        ],
+        "rel_tgt": [
+            "ナタリア・リブチンスキー：すべてがぴったり合うと、なんだか魔法のようです。",
+            "ナタリア・リブチンスキー：うーん、違う。大丈夫、私たちはこれをやれる。"
+        ],
+        "hist_info": "\"NR\" - \"ナタリア・リブチンスキー\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス"
+        }
+    },
+    {
+        "idx": 43,
+        "src": "LN: And he processed it,  and compared it to 37 known and modern-day mammal species.",
+        "ref": "ラティフ：彼は骨片を処理して 37種類の現代の哺乳類と比較し",
+        "hyp": "ラティフ・ナッサー：そして彼はそれを処理し、37の既知の現生哺乳類種と比較しました。",
+        "rel_src": [
+            "Then a year or two later, Natalia was at a conference in Bristol,  and she saw that a colleague of hers named Mike Buckley  was demoing this new process that he called \"collagen fingerprinting.\"",
+            "It turns out that different species have slightly different structures  of collagen,  so if you get a collagen profile of an unknown bone,  you can compare it to those of known species,  and, who knows, maybe you get a match."
+        ],
+        "rel_tgt": [
+            "その後、1年か2年後にナタリアはブリストルでの会議に出席し、彼女の同僚であるマイク・バックリーが「コラーゲンフィンガープリンティング」と呼ぶ新しいプロセスをデモしているのを見ました。",
+            "異なる種はわずかに異なるコラーゲンの構造を持っていることが分かりました。したがって、未知の骨のコラーゲンプロファイルを取得すれば、既知の種のものと比較することができ、もしかしたら一致するかもしれません。"
+        ],
+        "hist_info": "\"LN\" - \"ラティフ・ナッサー\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス"
+        }
+    },
+    {
+        "idx": 44,
+        "src": "And he found a match.",
+        "ref": "一致する動物を見つけました",
+        "hyp": "そして彼は一致するものを見つけました。",
+        "rel_src": [
+            "Then a year or two later, Natalia was at a conference in Bristol,  and she saw that a colleague of hers named Mike Buckley  was demoing this new process that he called \"collagen fingerprinting.\"",
+            "LN: And he processed it,  and compared it to 37 known and modern-day mammal species."
+        ],
+        "rel_tgt": [
+            "その後、1年か2年後にナタリアはブリストルでの会議に出席し、彼女の同僚であるマイク・バックリーが「コラーゲンフィンガープリンティング」と呼ぶ新しいプロセスをデモしているのを見ました。",
+            "ラティフ・ナッサー：そして彼はそれを処理し、37の既知の現生哺乳類種と比較しました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス"
+        }
+    },
+    {
+        "idx": 45,
+        "src": "It turns out that the 3.5 million-year-old bone  that Natalia had dug out of the High Arctic  belonged to ...",
+        "ref": "ナタリアが高緯度の北極圏で 発掘した 350万年前の骨の持ち主は なんと",
+        "hyp": "ナタリアがハイ・アークティックから掘り出した350万年前の骨は…",
+        "rel_src": [
+            "Then a year or two later, Natalia was at a conference in Bristol,  and she saw that a colleague of hers named Mike Buckley  was demoing this new process that he called \"collagen fingerprinting.\"",
+            "It turns out that different species have slightly different structures  of collagen,  so if you get a collagen profile of an unknown bone,  you can compare it to those of known species,  and, who knows, maybe you get a match."
+        ],
+        "rel_tgt": [
+            "その後、1年か2年後にナタリアはブリストルでの会議に出席し、彼女の同僚であるマイク・バックリーが「コラーゲンフィンガープリンティング」と呼ぶ新しいプロセスをデモしているのを見ました。",
+            "異なる種はわずかに異なるコラーゲンの構造を持っていることが分かりました。したがって、未知の骨のコラーゲンプロファイルを取得すれば、既知の種のものと比較することができ、もしかしたら一致するかもしれません。"
+        ],
+        "hist_info": "\"Natalia\" - \"ナタリア\", \"Arctic\" - \"北極\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック"
+        }
+    },
+    {
+        "idx": 46,
+        "src": "a camel.",
+        "ref": "ラクダでした",
+        "hyp": "ラクダ。",
+        "rel_src": [
+            "LN: What she had, she discovered, was a tibia, a leg bone,  and specifically, one that belonged to a cloven-hoofed mammal,  so something like a cow or a sheep.",
+            "And he found a match."
+        ],
+        "rel_tgt": [
+            "ラティフ・ナッサー：彼女が発見したのは脛骨、つまり脚の骨で、特に偶蹄類の哺乳類に属するもので、牛や羊のようなものです。",
+            "そして彼は一致するものを見つけました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック"
+        }
+    },
+    {
+        "idx": 47,
+        "src": "NR: And I'm thinking, what? That's amazing -- if it's true.",
+        "ref": "ナタリア：「え？」って思いました 本当なら すごいことです",
+        "hyp": "ナタリア・リブチンスキー: そして私は考えています、何？それは驚くべきことです—もし本当なら。",
+        "rel_src": [
+            "It turns out that the 3.5 million-year-old bone  that Natalia had dug out of the High Arctic  belonged to ...",
+            "a camel."
+        ],
+        "rel_tgt": [
+            "ナタリアがハイ・アークティックから掘り出した350万年前の骨は…",
+            "ラクダ。"
+        ],
+        "hist_info": "\"NR\" - \"ナタリア・リブチンスキー\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック"
+        }
+    },
+    {
+        "idx": 48,
+        "src": "LN: So they tested a bunch of the fragments,  and they got the same result for each one.",
+        "ref": "ラティフ：多くの骨片を 検査しましたが どれも結果は同じでした",
+        "hyp": "ラティフ・ナッサー：そこで彼らは多くの破片をテストし、どれも同じ結果が得られました。",
+        "rel_src": [
+            "LN: And he processed it,  and compared it to 37 known and modern-day mammal species.",
+            "It turns out that the 3.5 million-year-old bone  that Natalia had dug out of the High Arctic  belonged to ..."
+        ],
+        "rel_tgt": [
+            "ラティフ・ナッサー：そして彼はそれを処理し、37の既知の現生哺乳類種と比較しました。",
+            "ナタリアがハイ・アークティックから掘り出した350万年前の骨は…"
+        ],
+        "hist_info": "\"LN\" - \"ラティフ・ナッサー\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック"
+        }
+    },
+    {
+        "idx": 49,
+        "src": "However, based on the size of the bone that they found,  it meant that this camel was 30 percent larger than modern-day camels.",
+        "ref": "ただし 発見した骨の サイズから考えると このラクダは 現在のものより ３割も大きかったのです",
+        "hyp": "しかし、彼らが見つけた骨の大きさに基づくと、このラクダは現代のラクダよりも30パーセント大きかったということになります。",
+        "rel_src": [
+            "NR: The size of this thing, it was huge. It's a really big animal.",
+            "a camel."
+        ],
+        "rel_tgt": [
+            "ナタリア・リブチンスキー：この物体の大きさは、巨大でした。本当に大きな動物です。",
+            "ラクダ。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック"
+        }
+    },
+    {
+        "idx": 50,
+        "src": "So this camel would have been about nine feet tall,  weighed around a ton.",
+        "ref": "背の高さは およそ2.7m — 体重は約１トンでした",
+        "hyp": "このラクダは約2.7メートルの高さがあり、重さは約1トンだったでしょう。",
+        "rel_src": [
+            "a camel.",
+            "However, based on the size of the bone that they found,  it meant that this camel was 30 percent larger than modern-day camels."
+        ],
+        "rel_tgt": [
+            "ラクダ。",
+            "しかし、彼らが見つけた骨の大きさに基づくと、このラクダは現代のラクダよりも30パーセント大きかったということになります。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック"
+        }
+    },
+    {
+        "idx": 51,
+        "src": "Yeah.",
+        "ref": "そうです",
+        "hyp": "うん。",
+        "rel_src": [
+            "It turns out that the 3.5 million-year-old bone  that Natalia had dug out of the High Arctic  belonged to ...",
+            "a camel."
+        ],
+        "rel_tgt": [
+            "ナタリアがハイ・アークティックから掘り出した350万年前の骨は…",
+            "ラクダ。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック"
+        }
+    },
+    {
+        "idx": 52,
+        "src": "Natalia had found a Giant Arctic camel.",
+        "ref": "ナタリアが発見したのは 「巨大 北極ラクダ」だったんです",
+        "hyp": "ナタリアは巨大な北極ラクダを見つけました。",
+        "rel_src": [
+            "It turns out that the 3.5 million-year-old bone  that Natalia had dug out of the High Arctic  belonged to ...",
+            "However, based on the size of the bone that they found,  it meant that this camel was 30 percent larger than modern-day camels."
+        ],
+        "rel_tgt": [
+            "ナタリアがハイ・アークティックから掘り出した350万年前の骨は…",
+            "しかし、彼らが見つけた骨の大きさに基づくと、このラクダは現代のラクダよりも30パーセント大きかったということになります。"
+        ],
+        "hist_info": "\"Natalia\" - \"ナタリア\", \"Arctic\" - \"北極\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極"
+        }
+    },
+    {
+        "idx": 53,
+        "src": "Now, when you hear the word \"camel,\"  what may come to mind is one of these,  the Bactrian camel of East and Central Asia.",
+        "ref": "みなさんがラクダと聞いて 思い浮かべるのは 東・中央アジアに生息する フタコブラクダか",
+        "hyp": "今、「ラクダ」という言葉を聞くと、思い浮かぶのは東アジアと中央アジアのバクトリアンラクダの一つかもしれません。",
+        "rel_src": [
+            "a camel.",
+            "Natalia had found a Giant Arctic camel."
+        ],
+        "rel_tgt": [
+            "ラクダ。",
+            "ナタリアは巨大な北極ラクダを見つけました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア"
+        }
+    },
+    {
+        "idx": 54,
+        "src": "But chances are the postcard image you have in your brain  is one of these, the dromedary,  quintessential desert creature --  hangs out in sandy, hot places like the Middle East and the Sahara,  has a big old hump on its back  for storing water for those long desert treks,  has big, broad feet to help it tromp over sand dunes.",
+        "ref": "頭の中の 絵はがきのイメージは きっと こちらのヒトコブラクダでしょう 砂漠の生き物といえば これです 中東やサハラ砂漠といった 高温の砂漠に暮らし 背中の大きなこぶに 砂漠の長旅用に水を蓄え 大きな幅広い足で 砂丘を踏みしめて進みます",
+        "hyp": "しかし、あなたの脳にあるポストカードのイメージは、これらの一つ、ドロメダリーの可能性が高いです。これは典型的な砂漠の生き物で、砂地や暑い場所、例えば中東やサハラで過ごし、水を蓄えるための大きなコブを背中に持ち、砂丘を歩くのを助けるために大きく広い足を持っています。",
+        "rel_src": [
+            "a camel.",
+            "Now, when you hear the word \"camel,\"  what may come to mind is one of these,  the Bactrian camel of East and Central Asia."
+        ],
+        "rel_tgt": [
+            "ラクダ。",
+            "今、「ラクダ」という言葉を聞くと、思い浮かぶのは東アジアと中央アジアのバクトリアンラクダの一つかもしれません。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ"
+        }
+    },
+    {
+        "idx": 55,
+        "src": "So how on earth would one of these guys end up in the High Arctic?",
+        "ref": "一体なぜ そんな動物がカナダ北部の 北極圏に到達したのでしょう？",
+        "hyp": "では、一体どうしてこれらの生き物がハイ・アークティックにたどり着くのでしょうか？",
+        "rel_src": [
+            "However, based on the size of the bone that they found,  it meant that this camel was 30 percent larger than modern-day camels.",
+            "Natalia had found a Giant Arctic camel."
+        ],
+        "rel_tgt": [
+            "しかし、彼らが見つけた骨の大きさに基づくと、このラクダは現代のラクダよりも30パーセント大きかったということになります。",
+            "ナタリアは巨大な北極ラクダを見つけました。"
+        ],
+        "hist_info": "\"Arctic\" - \"北極\", \"High Arctic\" - \"ハイ・アークティック\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ"
+        }
+    },
+    {
+        "idx": 56,
+        "src": "Well, scientists have known for a long time, turns out,  even before Natalia's discovery,  that camels are actually originally American.",
+        "ref": "実は 科学者が以前から 知っていたことがあります ナタリアの発見以前からです 実は ラクダの原産地は アメリカなんです",
+        "hyp": "実は、ナタリアの発見のずっと前から、科学者たちはラクダがもともとはアメリカに起源を持つことを長い間知っていました。",
+        "rel_src": [
+            "a camel.",
+            "Natalia had found a Giant Arctic camel."
+        ],
+        "rel_tgt": [
+            "ラクダ。",
+            "ナタリアは巨大な北極ラクダを見つけました。"
+        ],
+        "hist_info": "\"Natalia\" - \"ナタリア\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ"
+        }
+    },
+    {
+        "idx": 57,
+        "src": "They started here.",
+        "ref": "ここで誕生したんです",
+        "hyp": "彼らはここから始まりました。",
+        "rel_src": [
+            "a camel.",
+            "Well, scientists have known for a long time, turns out,  even before Natalia's discovery,  that camels are actually originally American."
+        ],
+        "rel_tgt": [
+            "ラクダ。",
+            "実は、ナタリアの発見のずっと前から、科学者たちはラクダがもともとはアメリカに起源を持つことを長い間知っていました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ"
+        }
+    },
+    {
+        "idx": 58,
+        "src": "For nearly 40 of the 45 million years that camels have been around,  you could only find them in North America,  around 20 different species, maybe more.",
+        "ref": "ラクダが出現してから 約4,500万年経ちますが そのうち ほぼ4,000万年の間 北米だけに分布し 種類は およそ20種類 多分それ以上いました",
+        "hyp": "約4500万年のうち、ラクダが存在していた40年近くの間、彼らは北アメリカにしか見られず、約20種、あるいはそれ以上の種類が存在していました。",
+        "rel_src": [
+            "Well, scientists have known for a long time, turns out,  even before Natalia's discovery,  that camels are actually originally American.",
+            "They started here."
+        ],
+        "rel_tgt": [
+            "実は、ナタリアの発見のずっと前から、科学者たちはラクダがもともとはアメリカに起源を持つことを長い間知っていました。",
+            "彼らはここから始まりました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ"
+        }
+    },
+    {
+        "idx": 59,
+        "src": "LN: If I put them all in a lineup, would they look different?",
+        "ref": "ラティフ：全部 並べたら 違いは分かったでしょうか？",
+        "hyp": "ラティフ・ナッサー：もし私がそれらをすべて並べたら、見た目は異なるのでしょうか？",
+        "new_src_summary": "The narrative unfolds the story of Natalia Rybczynski, a paleobiologist humorously dubbed \"Dr. Dead Things,\" renowned for her work in uncovering ancient fossils in the remote Canadian tundra above the Arctic Circle. In the summer of 2006, while at the Fyles Leaf Bed dig site, she discovered a rusty, palm-sized object she initially believed to be wood, later suspecting it was bone. Over the next four years, Rybczynski meticulously collected 30 tiny bone fragments, piecing them together like a jigsaw puzzle. In a parallel account, she and her colleague LN worked on reconstructing a large bone fragment they found, initially using sand and putty before switching to a 3D surface scanner, which significantly eased their task. They identified the bone as a tibia from a cloven-hoofed mammal, too large for a cow or sheep, and noted a distinctive smell reminiscent of singed flesh, linking it to collagen from her anatomy lab. The bone's exceptional preservation was attributed to the Arctic conditions acting as a natural freezer.\n\nAt a conference in Bristol, Rybczynski encountered her colleague Mike Buckley, who was demonstrating \"collagen fingerprinting,\" a technique for identifying species by analyzing collagen structures from bones. She sent him a bone fragment from the High Arctic, which he tested against 37 modern mammal species, leading to the astonishing discovery that the 3.5 million-year-old bone belonged to a Giant Arctic camel, which was 30% larger than contemporary camels, standing about nine feet tall and weighing around a ton. This finding challenged common perceptions of camels, typically associated with hot desert environments, highlighting that camels originally evolved in North America, where they thrived for nearly 40 of their 45 million years of existence. Both accounts are rooted in scientific exploration and paleontology, featuring a conversational, engaging tone with humor and inquisitiveness, while also conveying the excitement of significant scientific discovery in the domains of paleontology and evolutionary biology.",
+        "new_tgt_summary": "古生物学者ナタリア・リブチンスキーは、カナダのツンドラでの発掘作業中にファイルズ・リーフ・ベッドで錆色の物体を発見し、最初は木のささくれと思われたそれが骨のように見えることに気づきました。彼女は4年間同じ場所を訪れ、30個の骨の破片を集めましたが、組み立てるのは難しいと感じていました。ナタリアは同僚のラティフ・ナッサーと共に3D表面スキャナーを使用して非常に小さな破片を組み立て、発見した脛骨が偶蹄類の大きな動物に属することを確認しました。彼らはノコギリで破片を切り、その際に焼けた肉のような匂いを感じましたが、これはナタリアが解剖学実習室で認識したコラーゲンの匂いであり、北極の寒さがその骨を保存していたと考えられています。また、ナタリアはブリストルでの会議で、同僚マイク・バックリーが「コラーゲンフィンガープリンティング」という新しいプロセスをデモするのを見て、この技術を用いて350万年前の骨を調査し、現生のラクダと一致することを発見しました。このラクダは現代のものよりも30パーセント大きく、約2.7メートルの高さで重さは約1トンと推定され、元々アメリカに起源を持ち、約4500万年前から北アメリカに存在していたことが知られています。",
+        "rel_src": [
+            "It turns out that different species have slightly different structures  of collagen,  so if you get a collagen profile of an unknown bone,  you can compare it to those of known species,  and, who knows, maybe you get a match.",
+            "LN: And he processed it,  and compared it to 37 known and modern-day mammal species."
+        ],
+        "rel_tgt": [
+            "異なる種はわずかに異なるコラーゲンの構造を持っていることが分かりました。したがって、未知の骨のコラーゲンプロファイルを取得すれば、既知の種のものと比較することができ、もしかしたら一致するかもしれません。",
+            "ラティフ・ナッサー：そして彼はそれを処理し、37の既知の現生哺乳類種と比較しました。"
+        ],
+        "hist_info": "\"LN\" - \"ラティフ・ナッサー\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ"
+        }
+    },
+    {
+        "idx": 60,
+        "src": "NR: Yeah, you're going to have different body sizes.",
+        "ref": "ナタリア：ええ 体の大きさはまちまちで",
+        "hyp": "ナタリア・リブチンスキー：そうですね、体のサイズは異なるでしょう。",
+        "rel_src": [
+            "However, based on the size of the bone that they found,  it meant that this camel was 30 percent larger than modern-day camels.",
+            "So this camel would have been about nine feet tall,  weighed around a ton."
+        ],
+        "rel_tgt": [
+            "しかし、彼らが見つけた骨の大きさに基づくと、このラクダは現代のラクダよりも30パーセント大きかったということになります。",
+            "このラクダは約2.7メートルの高さがあり、重さは約1トンだったでしょう。"
+        ],
+        "hist_info": "\"NR\" - \"ナタリア・リブチンスキー\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ"
+        }
+    },
+    {
+        "idx": 61,
+        "src": "You'll have some with really long necks,  so they're actually functionally like giraffes.",
+        "ref": "とても首の長い種類もいました キリンの首と同じようなものでしょう",
+        "hyp": "非常に長い首を持つものもいるので、実際には機能的にキリンのようです。",
+        "rel_src": [
+            "LN: And he processed it,  and compared it to 37 known and modern-day mammal species.",
+            "LN: If I put them all in a lineup, would they look different?"
+        ],
+        "rel_tgt": [
+            "ラティフ・ナッサー：そして彼はそれを処理し、37の既知の現生哺乳類種と比較しました。",
+            "ラティフ・ナッサー：もし私がそれらをすべて並べたら、見た目は異なるのでしょうか？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ"
+        }
+    },
+    {
+        "idx": 62,
+        "src": "LN: Some had snouts, like crocodiles.",
+        "ref": "ラティフ：ワニのような 顔をしたものもいました",
+        "hyp": "ラティフ・ナッサー：いくつかはワニのような鼻を持っていました。",
+        "rel_src": [
+            "LN: And he processed it,  and compared it to 37 known and modern-day mammal species.",
+            "Natalia had found a Giant Arctic camel."
+        ],
+        "rel_tgt": [
+            "ラティフ・ナッサー：そして彼はそれを処理し、37の既知の現生哺乳類種と比較しました。",
+            "ナタリアは巨大な北極ラクダを見つけました。"
+        ],
+        "hist_info": "\"LN\" - \"ラティフ・ナッサー\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ"
+        }
+    },
+    {
+        "idx": 63,
+        "src": "NR: The really primitive, early ones would have been really small,  almost like rabbits.",
+        "ref": "ナタリア：初期の 原始的なラクダは とても小さくて ウサギくらいの大きさでした",
+        "hyp": "ナタリア・リブチンスキー：本当に原始的で初期のものは非常に小さく、ほとんどウサギのようだったでしょう。",
+        "rel_src": [
+            "They started here.",
+            "For nearly 40 of the 45 million years that camels have been around,  you could only find them in North America,  around 20 different species, maybe more."
+        ],
+        "rel_tgt": [
+            "彼らはここから始まりました。",
+            "約4500万年のうち、ラクダが存在していた40年近くの間、彼らは北アメリカにしか見られず、約20種、あるいはそれ以上の種類が存在していました。"
+        ],
+        "hist_info": "\"NR\" - \"ナタリア・リブチンスキー\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ"
+        }
+    },
+    {
+        "idx": 64,
+        "src": "LN: What? Rabbit-sized camels?",
+        "ref": "ラティフ：ええっ？ ウサギサイズのラクダですか？",
+        "hyp": "ラティフ・ナッサー：え？ウサギサイズのラクダ？",
+        "rel_src": [
+            "For nearly 40 of the 45 million years that camels have been around,  you could only find them in North America,  around 20 different species, maybe more.",
+            "NR: The really primitive, early ones would have been really small,  almost like rabbits."
+        ],
+        "rel_tgt": [
+            "約4500万年のうち、ラクダが存在していた40年近くの間、彼らは北アメリカにしか見られず、約20種、あるいはそれ以上の種類が存在していました。",
+            "ナタリア・リブチンスキー：本当に原始的で初期のものは非常に小さく、ほとんどウサギのようだったでしょう。"
+        ],
+        "hist_info": "\"LN\" - \"ラティフ・ナッサー\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ"
+        }
+    },
+    {
+        "idx": 65,
+        "src": "NR: The earliest ones.",
+        "ref": "ナタリア：初期の種類です",
+        "hyp": "ナタリア・リブチンスキー：最も初期のものです。",
+        "rel_src": [
+            "Well, scientists have known for a long time, turns out,  even before Natalia's discovery,  that camels are actually originally American.",
+            "For nearly 40 of the 45 million years that camels have been around,  you could only find them in North America,  around 20 different species, maybe more."
+        ],
+        "rel_tgt": [
+            "実は、ナタリアの発見のずっと前から、科学者たちはラクダがもともとはアメリカに起源を持つことを長い間知っていました。",
+            "約4500万年のうち、ラクダが存在していた40年近くの間、彼らは北アメリカにしか見られず、約20種、あるいはそれ以上の種類が存在していました。"
+        ],
+        "hist_info": "\"NR\" - \"ナタリア・リブチンスキー\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ"
+        }
+    },
+    {
+        "idx": 66,
+        "src": "So those ones you probably would not recognize.",
+        "ref": "見てもわからないでしょうね",
+        "hyp": "それらはおそらく、あなたには認識できないでしょう。",
+        "rel_src": [
+            "NR: The really primitive, early ones would have been really small,  almost like rabbits.",
+            "LN: What? Rabbit-sized camels?"
+        ],
+        "rel_tgt": [
+            "ナタリア・リブチンスキー：本当に原始的で初期のものは非常に小さく、ほとんどウサギのようだったでしょう。",
+            "ラティフ・ナッサー：え？ウサギサイズのラクダ？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ"
+        }
+    },
+    {
+        "idx": 67,
+        "src": "LN: Oh my God, I want a pet rabbit-camel.",
+        "ref": "ラティフ：ウサギ・ラクダを飼ってみたいな",
+        "hyp": "ラティフ・ナッサー：おお、神様、ウサギラクダをペットにしたい！",
+        "rel_src": [
+            "LN: What? Rabbit-sized camels?",
+            "So those ones you probably would not recognize."
+        ],
+        "rel_tgt": [
+            "ラティフ・ナッサー：え？ウサギサイズのラクダ？",
+            "それらはおそらく、あなたには認識できないでしょう。"
+        ],
+        "hist_info": "\"LN\" - \"ラティフ・ナッサー\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ"
+        }
+    },
+    {
+        "idx": 68,
+        "src": "NR: I know, wouldn't that be great?",
+        "ref": "ナタリア：ええ きっと最高ね",
+        "hyp": "ナタリア・リブチンスキー：そうですね、それは素晴らしいでしょうね！",
+        "rel_src": [
+            "LN: What? Rabbit-sized camels?",
+            "LN: Oh my God, I want a pet rabbit-camel."
+        ],
+        "rel_tgt": [
+            "ラティフ・ナッサー：え？ウサギサイズのラクダ？",
+            "ラティフ・ナッサー：おお、神様、ウサギラクダをペットにしたい！"
+        ],
+        "hist_info": "\"NR\" - \"ナタリア・リブチンスキー\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ"
+        }
+    },
+    {
+        "idx": 69,
+        "src": "LN: And then about three to seven million years ago,  one branch of camels went down to South America,  where they became llamas and alpacas,  and another branch crossed over the Bering Land Bridge  into Asia and Africa.",
+        "ref": "ラティフ：その後 3〜700万年前に ラクダの群れが南米へと下り ラマやアルパカになりました 別の種類はベーリング陸橋を渡り アジアやアフリカに行きました",
+        "hyp": "ラティフ・ナッサー：そして、約300万年から700万年前に、ラクダの一つの系統が南アメリカに向かい、そこでリャマやアルパカになりました。一方、別の系統はベーリング陸橋を越えてアジアとアフリカに渡りました。",
+        "rel_src": [
+            "Well, scientists have known for a long time, turns out,  even before Natalia's discovery,  that camels are actually originally American.",
+            "For nearly 40 of the 45 million years that camels have been around,  you could only find them in North America,  around 20 different species, maybe more."
+        ],
+        "rel_tgt": [
+            "実は、ナタリアの発見のずっと前から、科学者たちはラクダがもともとはアメリカに起源を持つことを長い間知っていました。",
+            "約4500万年のうち、ラクダが存在していた40年近くの間、彼らは北アメリカにしか見られず、約20種、あるいはそれ以上の種類が存在していました。"
+        ],
+        "hist_info": "\"LN\" - \"ラティフ・ナッサー\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ"
+        }
+    },
+    {
+        "idx": 70,
+        "src": "And then around the end of the last ice age,  North American camels went extinct.",
+        "ref": "前回の氷河期の終わり頃 北米のラクダは絶滅しました",
+        "hyp": "そして、最後の氷河時代の終わり頃、北アメリカのラクダは絶滅しました。",
+        "rel_src": [
+            "Well, scientists have known for a long time, turns out,  even before Natalia's discovery,  that camels are actually originally American.",
+            "LN: And then about three to seven million years ago,  one branch of camels went down to South America,  where they became llamas and alpacas,  and another branch crossed over the Bering Land Bridge  into Asia and Africa."
+        ],
+        "rel_tgt": [
+            "実は、ナタリアの発見のずっと前から、科学者たちはラクダがもともとはアメリカに起源を持つことを長い間知っていました。",
+            "ラティフ・ナッサー：そして、約300万年から700万年前に、ラクダの一つの系統が南アメリカに向かい、そこでリャマやアルパカになりました。一方、別の系統はベーリング陸橋を越えてアジアとアフリカに渡りました。"
+        ],
+        "hist_info": "\"American\" - \"アメリカ\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ"
+        }
+    },
+    {
+        "idx": 71,
+        "src": "So, scientists knew all of that already,  but it still doesn't fully explain how Natalia found one so far north.",
+        "ref": "ここまでは すでに判明していることです とは言え あれほど北で発見されたことが 完全に説明できるわけではありません",
+        "hyp": "ですので、科学者たちはそれらのことをすでに知っていましたが、それでもナタリアがなぜそんなに北で一頭見つけたのかを完全には説明できません。",
+        "rel_src": [
+            "So how on earth would one of these guys end up in the High Arctic?",
+            "Well, scientists have known for a long time, turns out,  even before Natalia's discovery,  that camels are actually originally American."
+        ],
+        "rel_tgt": [
+            "では、一体どうしてこれらの生き物がハイ・アークティックにたどり着くのでしょうか？",
+            "実は、ナタリアの発見のずっと前から、科学者たちはラクダがもともとはアメリカに起源を持つことを長い間知っていました。"
+        ],
+        "hist_info": "\"Natalia\" - \"ナタリア\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ"
+        }
+    },
+    {
+        "idx": 72,
+        "src": "Like, this is, temperature-wise, the polar opposite of the Sahara.",
+        "ref": "例えば気温の面で サハラ砂漠とは正反対ですから",
+        "hyp": "これは、温度的にはサハラの真逆です。",
+        "rel_src": [
+            "But chances are the postcard image you have in your brain  is one of these, the dromedary,  quintessential desert creature --  hangs out in sandy, hot places like the Middle East and the Sahara,  has a big old hump on its back  for storing water for those long desert treks,  has big, broad feet to help it tromp over sand dunes.",
+            "So how on earth would one of these guys end up in the High Arctic?"
+        ],
+        "rel_tgt": [
+            "しかし、あなたの脳にあるポストカードのイメージは、これらの一つ、ドロメダリーの可能性が高いです。これは典型的な砂漠の生き物で、砂地や暑い場所、例えば中東やサハラで過ごし、水を蓄えるための大きなコブを背中に持ち、砂丘を歩くのを助けるために大きく広い足を持っています。",
+            "では、一体どうしてこれらの生き物がハイ・アークティックにたどり着くのでしょうか？"
+        ],
+        "hist_info": "\"Sahara\" - \"サハラ\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ"
+        }
+    },
+    {
+        "idx": 73,
+        "src": "Now to be fair,  three and a half million years ago,  it was on average 22 degrees Celsius warmer than it is now.",
+        "ref": "確かに 350万年前の気温は 現代より平均22度 高かったんです",
+        "hyp": "さて、公平を期すために言えば、350万年前は現在より平均して22度セルシウス高かったのです。",
+        "rel_src": [
+            "And then around the end of the last ice age,  North American camels went extinct.",
+            "Like, this is, temperature-wise, the polar opposite of the Sahara."
+        ],
+        "rel_tgt": [
+            "そして、最後の氷河時代の終わり頃、北アメリカのラクダは絶滅しました。",
+            "これは、温度的にはサハラの真逆です。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ"
+        }
+    },
+    {
+        "idx": 74,
+        "src": "So it would have been boreal forest,  so more like the Yukon or Siberia today.",
+        "ref": "だから針葉樹林が広がっていて 今のユーコン川流域やシベリアに 似ていたかもしれません",
+        "hyp": "したがって、当時は北方林であり、今日のユーコンやシベリアにより似ていたことでしょう。",
+        "rel_src": [
+            "So, scientists knew all of that already,  but it still doesn't fully explain how Natalia found one so far north.",
+            "Like, this is, temperature-wise, the polar opposite of the Sahara."
+        ],
+        "rel_tgt": [
+            "ですので、科学者たちはそれらのことをすでに知っていましたが、それでもナタリアがなぜそんなに北で一頭見つけたのかを完全には説明できません。",
+            "これは、温度的にはサハラの真逆です。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア"
+        }
+    },
+    {
+        "idx": 75,
+        "src": "But still, like, they would have six-month-long winters  where the ponds would freeze over.",
+        "ref": "ただ それでも 冬は６か月間も続き 池は凍りついたでしょう",
+        "hyp": "しかし、それでも、彼らは池が凍る6か月間の冬を過ごしていたことでしょう。",
+        "rel_src": [
+            "Like, this is, temperature-wise, the polar opposite of the Sahara.",
+            "So it would have been boreal forest,  so more like the Yukon or Siberia today."
+        ],
+        "rel_tgt": [
+            "これは、温度的にはサハラの真逆です。",
+            "したがって、当時は北方林であり、今日のユーコンやシベリアにより似ていたことでしょう。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア"
+        }
+    },
+    {
+        "idx": 76,
+        "src": "You'd have blizzards.",
+        "ref": "ブリザードもあれば",
+        "hyp": "吹雪が発生するでしょう。",
+        "rel_src": [
+            "Like, this is, temperature-wise, the polar opposite of the Sahara.",
+            "But still, like, they would have six-month-long winters  where the ponds would freeze over."
+        ],
+        "rel_tgt": [
+            "これは、温度的にはサハラの真逆です。",
+            "しかし、それでも、彼らは池が凍る6か月間の冬を過ごしていたことでしょう。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア"
+        }
+    },
+    {
+        "idx": 77,
+        "src": "You'd have 24 hours a day of straight darkness.",
+        "ref": "夜の暗闇が 24時間続く時期もあったでしょう",
+        "hyp": "24時間ずっと暗闇が続くでしょう。",
+        "rel_src": [
+            "So it would have been boreal forest,  so more like the Yukon or Siberia today.",
+            "But still, like, they would have six-month-long winters  where the ponds would freeze over."
+        ],
+        "rel_tgt": [
+            "したがって、当時は北方林であり、今日のユーコンやシベリアにより似ていたことでしょう。",
+            "しかし、それでも、彼らは池が凍る6か月間の冬を過ごしていたことでしょう。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア"
+        }
+    },
+    {
+        "idx": 78,
+        "src": "Like, how ... How?",
+        "ref": "では一体全体",
+        "hyp": "どうやって…どういうこと？",
+        "rel_src": [
+            "LN: And then about three to seven million years ago,  one branch of camels went down to South America,  where they became llamas and alpacas,  and another branch crossed over the Bering Land Bridge  into Asia and Africa.",
+            "So, scientists knew all of that already,  but it still doesn't fully explain how Natalia found one so far north."
+        ],
+        "rel_tgt": [
+            "ラティフ・ナッサー：そして、約300万年から700万年前に、ラクダの一つの系統が南アメリカに向かい、そこでリャマやアルパカになりました。一方、別の系統はベーリング陸橋を越えてアジアとアフリカに渡りました。",
+            "ですので、科学者たちはそれらのことをすでに知っていましたが、それでもナタリアがなぜそんなに北で一頭見つけたのかを完全には説明できません。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア"
+        }
+    },
+    {
+        "idx": 79,
+        "src": "How is it that one of these Saharan superstars  could ever have survived those arctic conditions?",
+        "ref": "このサハラ砂漠の スーパースターは どうやって 北極圏の気候を 生き延びることができたのでしょう？",
+        "hyp": "どうしてこれらのサハラのスーパースターの一頭が、あの北極の厳しい環境で生き残ることができたのでしょうか？",
+        "new_src_summary": "The narrative follows Natalia Rybczynski, a paleobiologist humorously known as \"Dr. Dead Things,\" celebrated for her discoveries of ancient fossils in the Canadian tundra above the Arctic Circle. In the summer of 2006, while at the Fyles Leaf Bed dig site, she stumbled upon a rusty, palm-sized object she initially thought was wood, later suspecting it to be bone. Over the next four years, Rybczynski meticulously collected 30 tiny bone fragments, piecing them together like a jigsaw puzzle. Simultaneously, she and her colleague LN worked on reconstructing a large bone fragment, initially using sand and putty before transitioning to a 3D surface scanner, which greatly facilitated their efforts. They identified the bone as a tibia from a cloven-hoofed mammal, too large for a cow or sheep, and noted a distinctive smell reminiscent of singed flesh, linking it to collagen from her anatomy lab. The bone's exceptional preservation was due to the Arctic conditions acting as a natural freezer.\n\nAt a conference in Bristol, Rybczynski met her colleague Mike Buckley, who was showcasing \"collagen fingerprinting,\" a technique for identifying species by analyzing collagen structures from bones. She sent him a bone fragment from the High Arctic, which he tested against 37 modern mammal species, leading to the remarkable discovery that the 3.5 million-year-old bone belonged to a Giant Arctic camel, which was 30% larger than contemporary camels, standing about nine feet tall and weighing around a ton. This finding challenged traditional perceptions of camels, typically associated with hot desert environments, revealing that camels originally evolved in North America, where they thrived for nearly 40 of their 45 million years of existence. The discussion extends to the physical diversity and evolutionary history of camels, highlighting their varying body sizes, features, and ancestral forms, including rabbit-sized camels. It notes that some species migrated to South America, evolving into llamas and alpacas, while others moved to Asia and Africa. The extinction of North American camels at the end of the last ice age is mentioned, alongside the surprising discovery of a camel in a much colder northern region, contrasting with its original habitat in the warmer Sahara. Both accounts reflect the excitement of scientific exploration in paleontology and evolutionary biology, presented in a conversational, engaging tone that conveys humor and curiosity about significant discoveries in the field.",
+        "new_tgt_summary": "古生物学者ナタリア・リブチンスキーは、カナダのツンドラでの発掘作業中に、ファイルズ・リーフ・ベッドで発見した錆色の物体が骨であることに気づきました。彼女は4年間同じ場所を訪れ、30個の骨の破片を収集しましたが、組み立てには苦労しました。ナタリアは同僚のラティフ・ナッサーと共に3D表面スキャナーを使用して小さな破片を組み立て、発見した脛骨が偶蹄類の大きな動物に属することを確認しました。彼らは破片を切る際にコラーゲンの匂いを感じ、これは北極の寒さによって骨が保存されていたことを示唆しています。ナタリアはまた、ブリストルでの会議で「コラーゲンフィンガープリンティング」を用いて350万年前の骨を調査し、現生のラクダと一致することを発見しました。この古代ラクダは現代のものより30パーセント大きく、約2.7メートルの高さで重さは約1トンと推定され、元々アメリカに起源を持ち、約4500万年前から北アメリカに存在していました。ナタリアとラティフの会話では、古代ラクダのサイズや形状についても議論され、初期のラクダはウサギのような小ささだった可能性があり、約300万から700万年前に南アメリカに移動してリャマやアルパカに進化したことが示唆されています。一方、別の系統はアジアとアフリカに渡り、北アメリカのラクダは最後の氷河時代の終わりに絶滅しました。ナタリアが北で発見したラクダの存在は、当時の気温が現在より高く、北方林の環境が影響していた可能性があるものの、厳しい冬の条件には疑問が残ります。",
+        "rel_src": [
+            "LN: And then about three to seven million years ago,  one branch of camels went down to South America,  where they became llamas and alpacas,  and another branch crossed over the Bering Land Bridge  into Asia and Africa.",
+            "And then around the end of the last ice age,  North American camels went extinct."
+        ],
+        "rel_tgt": [
+            "ラティフ・ナッサー：そして、約300万年から700万年前に、ラクダの一つの系統が南アメリカに向かい、そこでリャマやアルパカになりました。一方、別の系統はベーリング陸橋を越えてアジアとアフリカに渡りました。",
+            "そして、最後の氷河時代の終わり頃、北アメリカのラクダは絶滅しました。"
+        ],
+        "hist_info": "\"Sahara\" - \"サハラ\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極"
+        }
+    },
+    {
+        "idx": 80,
+        "src": "Natalia and her colleagues think they have an answer.",
+        "ref": "ナタリアと仲間の学者たちは 答えを見つけたと考えています",
+        "hyp": "ナタリアと彼女の同僚たちは、答えを見つけたと思っています。",
+        "rel_src": [
+            "So, scientists knew all of that already,  but it still doesn't fully explain how Natalia found one so far north.",
+            "How is it that one of these Saharan superstars  could ever have survived those arctic conditions?"
+        ],
+        "rel_tgt": [
+            "ですので、科学者たちはそれらのことをすでに知っていましたが、それでもナタリアがなぜそんなに北で一頭見つけたのかを完全には説明できません。",
+            "どうしてこれらのサハラのスーパースターの一頭が、あの北極の厳しい環境で生き残ることができたのでしょうか？"
+        ],
+        "hist_info": "\"Natalia\" - \"ナタリア\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極"
+        }
+    },
+    {
+        "idx": 81,
+        "src": "And it's kind of brilliant.",
+        "ref": "しかも見事な答えです",
+        "hyp": "そして、それはちょっと素晴らしいです。",
+        "rel_src": [
+            "How is it that one of these Saharan superstars  could ever have survived those arctic conditions?",
+            "Natalia and her colleagues think they have an answer."
+        ],
+        "rel_tgt": [
+            "どうしてこれらのサハラのスーパースターの一頭が、あの北極の厳しい環境で生き残ることができたのでしょうか？",
+            "ナタリアと彼女の同僚たちは、答えを見つけたと思っています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極"
+        }
+    },
+    {
+        "idx": 82,
+        "src": "What if the very features that we imagine make the camel so well-suited  to places like the Sahara,  actually evolved to help it get through the winter?",
+        "ref": "サハラ砂漠のような場所に 適応するためだと 私たちが考えてきた ラクダの特徴が 実は 冬を乗り切るために 進化したものだとしたら？",
+        "hyp": "ラクダがサハラのような場所に非常に適していると私たちが想像する特徴は、実は冬を乗り越えるために進化したものだったとしたらどうでしょうか？",
+        "rel_src": [
+            "LN: And then about three to seven million years ago,  one branch of camels went down to South America,  where they became llamas and alpacas,  and another branch crossed over the Bering Land Bridge  into Asia and Africa.",
+            "How is it that one of these Saharan superstars  could ever have survived those arctic conditions?"
+        ],
+        "rel_tgt": [
+            "ラティフ・ナッサー：そして、約300万年から700万年前に、ラクダの一つの系統が南アメリカに向かい、そこでリャマやアルパカになりました。一方、別の系統はベーリング陸橋を越えてアジアとアフリカに渡りました。",
+            "どうしてこれらのサハラのスーパースターの一頭が、あの北極の厳しい環境で生き残ることができたのでしょうか？"
+        ],
+        "hist_info": "\"Sahara\" - \"サハラ\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ"
+        }
+    },
+    {
+        "idx": 83,
+        "src": "What if those broad feet were meant to tromp not over sand,  but over snow, like a pair of snowshoes?",
+        "ref": "幅の広い足は 砂の上を歩くためではなく かんじきのように 雪上を歩くためのものだとしたら？",
+        "hyp": "その広い足は砂の上を踏むためではなく、スノーシューのように雪の上を踏むために作られたのだとしたらどうでしょうか？",
+        "rel_src": [
+            "How is it that one of these Saharan superstars  could ever have survived those arctic conditions?",
+            "What if the very features that we imagine make the camel so well-suited  to places like the Sahara,  actually evolved to help it get through the winter?"
+        ],
+        "rel_tgt": [
+            "どうしてこれらのサハラのスーパースターの一頭が、あの北極の厳しい環境で生き残ることができたのでしょうか？",
+            "ラクダがサハラのような場所に非常に適していると私たちが想像する特徴は、実は冬を乗り越えるために進化したものだったとしたらどうでしょうか？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ"
+        }
+    },
+    {
+        "idx": 84,
+        "src": "What if that hump -- which, huge news to me,  does not contain water, it contains fat --    was there to help the camel get through that six-month-long winter,  when food was scarce?",
+        "ref": "背中のこぶには — 私は知らなくて 驚いたんですが 水ではなく 脂肪が詰まっています  そのこぶが 食料の少ない 半年に渡る冬を乗り切るのに 役立っていたとしたら？",
+        "hyp": "そのこぶは、私にとって大ニュースですが、水を含んでいるのではなく、脂肪を含んでいるとしたら、食料が乏しい6ヶ月間の冬をラクダが乗り越えるために存在していたのだとしたらどうでしょうか？",
+        "rel_src": [
+            "What if the very features that we imagine make the camel so well-suited  to places like the Sahara,  actually evolved to help it get through the winter?",
+            "What if those broad feet were meant to tromp not over sand,  but over snow, like a pair of snowshoes?"
+        ],
+        "rel_tgt": [
+            "ラクダがサハラのような場所に非常に適していると私たちが想像する特徴は、実は冬を乗り越えるために進化したものだったとしたらどうでしょうか？",
+            "その広い足は砂の上を踏むためではなく、スノーシューのように雪の上を踏むために作られたのだとしたらどうでしょうか？"
+        ],
+        "hist_info": "\"camel\" - \"ラクダ\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ"
+        }
+    },
+    {
+        "idx": 85,
+        "src": "And then, only later, long after it crossed over the land bridge  did it retrofit those winter features for a hot desert environment?",
+        "ref": "その後 陸橋を超えてから しばらく経って 冬向きの特徴を 高温の砂漠の環境に役立てたとしたら？",
+        "hyp": "そして、その後、陸橋を渡ったかなり後になってから、暑い砂漠の環境に合わせて冬の特徴を改良したのだとしたらどうでしょうか？",
+        "rel_src": [
+            "What if the very features that we imagine make the camel so well-suited  to places like the Sahara,  actually evolved to help it get through the winter?",
+            "What if that hump -- which, huge news to me,  does not contain water, it contains fat --    was there to help the camel get through that six-month-long winter,  when food was scarce?"
+        ],
+        "rel_tgt": [
+            "ラクダがサハラのような場所に非常に適していると私たちが想像する特徴は、実は冬を乗り越えるために進化したものだったとしたらどうでしょうか？",
+            "そのこぶは、私にとって大ニュースですが、水を含んでいるのではなく、脂肪を含んでいるとしたら、食料が乏しい6ヶ月間の冬をラクダが乗り越えるために存在していたのだとしたらどうでしょうか？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ"
+        }
+    },
+    {
+        "idx": 86,
+        "src": "Like, for instance, the hump may be helpful to camels in hotter climes  because having all your fat in one place,  like a, you know, fat backpack,  means that you don't have to have that insulation  all over the rest of your body.",
+        "ref": "例えば こぶは暑い気候でも 役立つかもしれません というのも 全身の脂肪を リュックのように１か所に蓄えれば 断熱材の役割を果たす脂肪で 体中を覆う必要がなくなります",
+        "hyp": "例えば、そのこぶは、暑い気候にいるラクダにとって役立つかもしれません。なぜなら、すべての脂肪が一箇所に集まっている、いわば脂肪のバックパックのような状態であれば、体の他の部分に断熱材を持つ必要がなくなるからです。",
+        "rel_src": [
+            "What if the very features that we imagine make the camel so well-suited  to places like the Sahara,  actually evolved to help it get through the winter?",
+            "What if that hump -- which, huge news to me,  does not contain water, it contains fat --    was there to help the camel get through that six-month-long winter,  when food was scarce?"
+        ],
+        "rel_tgt": [
+            "ラクダがサハラのような場所に非常に適していると私たちが想像する特徴は、実は冬を乗り越えるために進化したものだったとしたらどうでしょうか？",
+            "そのこぶは、私にとって大ニュースですが、水を含んでいるのではなく、脂肪を含んでいるとしたら、食料が乏しい6ヶ月間の冬をラクダが乗り越えるために存在していたのだとしたらどうでしょうか？"
+        ],
+        "hist_info": "\"camel\" - \"ラクダ\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ"
+        }
+    },
+    {
+        "idx": 87,
+        "src": "So it helps heat dissipate easier.",
+        "ref": "そうすれば熱を逃がすのが楽になります",
+        "hyp": "それは熱がより容易に放散されるのを助けます。",
+        "rel_src": [
+            "What if the very features that we imagine make the camel so well-suited  to places like the Sahara,  actually evolved to help it get through the winter?",
+            "Like, for instance, the hump may be helpful to camels in hotter climes  because having all your fat in one place,  like a, you know, fat backpack,  means that you don't have to have that insulation  all over the rest of your body."
+        ],
+        "rel_tgt": [
+            "ラクダがサハラのような場所に非常に適していると私たちが想像する特徴は、実は冬を乗り越えるために進化したものだったとしたらどうでしょうか？",
+            "例えば、そのこぶは、暑い気候にいるラクダにとって役立つかもしれません。なぜなら、すべての脂肪が一箇所に集まっている、いわば脂肪のバックパックのような状態であれば、体の他の部分に断熱材を持つ必要がなくなるからです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ"
+        }
+    },
+    {
+        "idx": 88,
+        "src": "It's this crazy idea,  that what seems like proof of the camel's quintessential desert nature  could actually be proof of its High Arctic past.",
+        "ref": "この途方もない発想によって 砂漠に適応したことの 代表的な証拠と考えられていたものが 実際は かつて高緯度北極圏に 住んでいた証拠になりうるのです",
+        "hyp": "この奇妙な考えは、ラクダの本質的な砂漠の特性の証拠のように見えるものが、実際にはそのハイ・アークティックの過去の証拠である可能性があるということです。",
+        "rel_src": [
+            "What if the very features that we imagine make the camel so well-suited  to places like the Sahara,  actually evolved to help it get through the winter?",
+            "What if that hump -- which, huge news to me,  does not contain water, it contains fat --    was there to help the camel get through that six-month-long winter,  when food was scarce?"
+        ],
+        "rel_tgt": [
+            "ラクダがサハラのような場所に非常に適していると私たちが想像する特徴は、実は冬を乗り越えるために進化したものだったとしたらどうでしょうか？",
+            "そのこぶは、私にとって大ニュースですが、水を含んでいるのではなく、脂肪を含んでいるとしたら、食料が乏しい6ヶ月間の冬をラクダが乗り越えるために存在していたのだとしたらどうでしょうか？"
+        ],
+        "hist_info": "\"Arctic\" - \"北極\", \"High Arctic\" - \"ハイ・アークティック\", \"camel\" - \"ラクダ\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ"
+        }
+    },
+    {
+        "idx": 89,
+        "src": "Now, I'm not the first person to tell this story.",
+        "ref": "この話をするのは 私が初めてではありません",
+        "hyp": "今、私がこの話をするのは初めてではありません。",
+        "rel_src": [
+            "So, scientists knew all of that already,  but it still doesn't fully explain how Natalia found one so far north.",
+            "Natalia and her colleagues think they have an answer."
+        ],
+        "rel_tgt": [
+            "ですので、科学者たちはそれらのことをすでに知っていましたが、それでもナタリアがなぜそんなに北で一頭見つけたのかを完全には説明できません。",
+            "ナタリアと彼女の同僚たちは、答えを見つけたと思っています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ"
+        }
+    },
+    {
+        "idx": 90,
+        "src": "Others have told it as a way to marvel at evolutionary biology  or as a keyhole into the future of climate change.",
+        "ref": "他の人たちは この話を通して 進化生物学の驚異を語り 将来の気候変動を解明する 手がかりにしてきました",
+        "hyp": "他の人々は、それを進化生物学に驚嘆する方法として、または気候変動の未来への鍵穴として語っています。",
+        "rel_src": [
+            "What if the very features that we imagine make the camel so well-suited  to places like the Sahara,  actually evolved to help it get through the winter?",
+            "It's this crazy idea,  that what seems like proof of the camel's quintessential desert nature  could actually be proof of its High Arctic past."
+        ],
+        "rel_tgt": [
+            "ラクダがサハラのような場所に非常に適していると私たちが想像する特徴は、実は冬を乗り越えるために進化したものだったとしたらどうでしょうか？",
+            "この奇妙な考えは、ラクダの本質的な砂漠の特性の証拠のように見えるものが、実際にはそのハイ・アークティックの過去の証拠である可能性があるということです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ"
+        }
+    },
+    {
+        "idx": 91,
+        "src": "But I love it for a totally different reason.",
+        "ref": "でも私が この話が好きな理由は別なんです",
+        "hyp": "しかし、私はまったく異なる理由でそれを愛しています。",
+        "rel_src": [
+            "Natalia and her colleagues think they have an answer.",
+            "It's this crazy idea,  that what seems like proof of the camel's quintessential desert nature  could actually be proof of its High Arctic past."
+        ],
+        "rel_tgt": [
+            "ナタリアと彼女の同僚たちは、答えを見つけたと思っています。",
+            "この奇妙な考えは、ラクダの本質的な砂漠の特性の証拠のように見えるものが、実際にはそのハイ・アークティックの過去の証拠である可能性があるということです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ"
+        }
+    },
+    {
+        "idx": 92,
+        "src": "For me, it's a story about us,  about how we see the world  and about how that changes.",
+        "ref": "私にとって これは自分自身の話であり 自分たちの世界観や それがどう変化するかという話なのです",
+        "hyp": "私にとって、それは私たちについての物語であり、私たちが世界をどのように見ているか、そしてそれがどのように変わるかについての物語です。",
+        "rel_src": [
+            "It's this crazy idea,  that what seems like proof of the camel's quintessential desert nature  could actually be proof of its High Arctic past.",
+            "Others have told it as a way to marvel at evolutionary biology  or as a keyhole into the future of climate change."
+        ],
+        "rel_tgt": [
+            "この奇妙な考えは、ラクダの本質的な砂漠の特性の証拠のように見えるものが、実際にはそのハイ・アークティックの過去の証拠である可能性があるということです。",
+            "他の人々は、それを進化生物学に驚嘆する方法として、または気候変動の未来への鍵穴として語っています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ"
+        }
+    },
+    {
+        "idx": 93,
+        "src": "So I was trained as a historian.",
+        "ref": "私は歴史家として 教育を受けてきました",
+        "hyp": "私は歴史家として訓練を受けました。",
+        "rel_src": [
+            "What if the very features that we imagine make the camel so well-suited  to places like the Sahara,  actually evolved to help it get through the winter?",
+            "What if that hump -- which, huge news to me,  does not contain water, it contains fat --    was there to help the camel get through that six-month-long winter,  when food was scarce?"
+        ],
+        "rel_tgt": [
+            "ラクダがサハラのような場所に非常に適していると私たちが想像する特徴は、実は冬を乗り越えるために進化したものだったとしたらどうでしょうか？",
+            "そのこぶは、私にとって大ニュースですが、水を含んでいるのではなく、脂肪を含んでいるとしたら、食料が乏しい6ヶ月間の冬をラクダが乗り越えるために存在していたのだとしたらどうでしょうか？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ"
+        }
+    },
+    {
+        "idx": 94,
+        "src": "And I've learned that, actually, a lot of scientists are historians, too.",
+        "ref": "わかってきたのは 科学者も大部分が歴史家だということです",
+        "hyp": "そして、実際には多くの科学者も歴史家であることを学びました。",
+        "rel_src": [
+            "For me, it's a story about us,  about how we see the world  and about how that changes.",
+            "So I was trained as a historian."
+        ],
+        "rel_tgt": [
+            "私にとって、それは私たちについての物語であり、私たちが世界をどのように見ているか、そしてそれがどのように変わるかについての物語です。",
+            "私は歴史家として訓練を受けました。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ"
+        }
+    },
+    {
+        "idx": 95,
+        "src": "They make sense of the past.",
+        "ref": "彼らも過去を理解しようとします",
+        "hyp": "彼らは過去を理解します。",
+        "rel_src": [
+            "Others have told it as a way to marvel at evolutionary biology  or as a keyhole into the future of climate change.",
+            "For me, it's a story about us,  about how we see the world  and about how that changes."
+        ],
+        "rel_tgt": [
+            "他の人々は、それを進化生物学に驚嘆する方法として、または気候変動の未来への鍵穴として語っています。",
+            "私にとって、それは私たちについての物語であり、私たちが世界をどのように見ているか、そしてそれがどのように変わるかについての物語です。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ"
+        }
+    },
+    {
+        "idx": 96,
+        "src": "They tell the history of our universe, of our planet, of life on this planet.",
+        "ref": "宇宙や惑星や 地球の生命の歴史を語ります",
+        "hyp": "彼らは私たちの宇宙、私たちの惑星、そしてこの惑星上の生命の歴史を語っています。",
+        "rel_src": [
+            "Now, I'm not the first person to tell this story.",
+            "Others have told it as a way to marvel at evolutionary biology  or as a keyhole into the future of climate change."
+        ],
+        "rel_tgt": [
+            "今、私がこの話をするのは初めてではありません。",
+            "他の人々は、それを進化生物学に驚嘆する方法として、または気候変動の未来への鍵穴として語っています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ"
+        }
+    },
+    {
+        "idx": 97,
+        "src": "And as a historian,  you start with an idea in your mind of how the story goes.",
+        "ref": "そして歴史家として 物語の展開について 発想することから始めるのです",
+        "hyp": "そして、歴史家として、あなたは物語がどのように進むかについて心の中にアイデアを持って始めます。",
+        "rel_src": [
+            "So I was trained as a historian.",
+            "They tell the history of our universe, of our planet, of life on this planet."
+        ],
+        "rel_tgt": [
+            "私は歴史家として訓練を受けました。",
+            "彼らは私たちの宇宙、私たちの惑星、そしてこの惑星上の生命の歴史を語っています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ"
+        }
+    },
+    {
+        "idx": 98,
+        "src": "NR: We make up stories and we stick with it,  like the camel in the desert, right?",
+        "ref": "ナタリア：私たちは物語を作り それにこだわります 例えば砂漠のラクダという物語です",
+        "hyp": "ナタリア・リブチンスキー：私たちは物語を作り上げ、それに固執します。まるで砂漠のラクダのように、ですよね？",
+        "rel_src": [
+            "What if the very features that we imagine make the camel so well-suited  to places like the Sahara,  actually evolved to help it get through the winter?",
+            "It's this crazy idea,  that what seems like proof of the camel's quintessential desert nature  could actually be proof of its High Arctic past."
+        ],
+        "rel_tgt": [
+            "ラクダがサハラのような場所に非常に適していると私たちが想像する特徴は、実は冬を乗り越えるために進化したものだったとしたらどうでしょうか？",
+            "この奇妙な考えは、ラクダの本質的な砂漠の特性の証拠のように見えるものが、実際にはそのハイ・アークティックの過去の証拠である可能性があるということです。"
+        ],
+        "hist_info": "\"NR\" - \"ナタリア・リブチンスキー\", \"camel\" - \"ラクダ\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ"
+        }
+    },
+    {
+        "idx": 99,
+        "src": "That's a great story! It's totally adapted for that.",
+        "ref": "すごくよく出来た物語です ラクダは完璧に適応しています",
+        "hyp": "それは素晴らしい物語ですね！それに完全に適応しています。",
+        "new_src_summary": "The narrative centers on Natalia Rybczynski, a paleobiologist humorously dubbed \"Dr. Dead Things,\" renowned for her discoveries of ancient fossils in the Canadian tundra above the Arctic Circle. In the summer of 2006, while at the Fyles Leaf Bed dig site, she discovered a rusty, palm-sized object she initially thought was wood, later suspecting it to be bone. Over the next four years, Rybczynski meticulously collected 30 tiny bone fragments, piecing them together like a jigsaw puzzle. Alongside her colleague LN, she reconstructed a large bone fragment using sand and putty, eventually transitioning to a 3D surface scanner, which significantly aided their efforts. They identified the bone as a tibia from a cloven-hoofed mammal, too large for a cow or sheep, and noted a distinctive smell reminiscent of singed flesh, linking it to collagen from her anatomy lab. The bone's exceptional preservation was attributed to the Arctic conditions acting as a natural freezer.\n\nAt a conference in Bristol, Rybczynski met Mike Buckley, who showcased \"collagen fingerprinting,\" a technique for identifying species by analyzing collagen structures from bones. She sent him a bone fragment from the High Arctic, which he tested against 37 modern mammal species, leading to the remarkable discovery that the 3.5 million-year-old bone belonged to a Giant Arctic camel, standing about nine feet tall and weighing around a ton—30% larger than contemporary camels. This finding challenged traditional perceptions of camels, typically associated with hot desert environments, revealing that they originally evolved in North America, thriving for nearly 40 of their 45 million years of existence. The discussion extends to the physical diversity and evolutionary history of camels, including varying body sizes and ancestral forms, such as rabbit-sized camels. Notably, some species migrated to South America, evolving into llamas and alpacas, while others moved to Asia and Africa. The extinction of North American camels at the end of the last ice age is mentioned, alongside the surprising discovery of a camel in a much colder northern region, contrasting with its original habitat in the warmer Sahara. Furthermore, the narrative explores the intriguing idea that camels may have evolved features suited for survival in Arctic conditions, with broad feet and fat-storing humps as adaptations for traversing snow and enduring harsh winters. This challenges the traditional view of camels as quintessential desert creatures, suggesting their characteristics reflect a history of adaptation to cold climates before transitioning to warmer environments. Both accounts reflect the excitement of scientific exploration in paleontology and evolutionary biology, presented in a conversational, engaging tone that conveys humor and curiosity about significant discoveries in the field, while emphasizing the importance of storytelling in understanding scientific and historical narratives.",
+        "new_tgt_summary": "古生物学者ナタリア・リブチンスキーは、カナダのツンドラでの発掘作業中に、ファイルズ・リーフ・ベッドで発見した錆色の物体が骨であることを確認しました。彼女は4年間同じ場所を訪れ、30個の骨の破片を収集し、同僚のラティフ・ナッサーと共に3D表面スキャナーを使用してこれらを組み立てました。発見された脛骨は偶蹄類の大きな動物に属し、コラーゲンの匂いから北極の寒さによって骨が保存されていたことが示唆されました。ナタリアはブリストルでの会議で、350万年前の骨を「コラーゲンフィンガープリンティング」により調査し、現生のラクダと一致することを発見しました。この古代ラクダは現代のものより30パーセント大きく、約2.7メートルの高さで重さは約1トンと推定されています。ナタリアとラティフは、初期のラクダがウサギのように小さかった可能性や、約300万から700万年前に南アメリカに移動してリャマやアルパカに進化したことを議論しました。また、別の系統はアジアとアフリカに渡り、北アメリカのラクダは最後の氷河時代の終わりに絶滅しました。\n\nさらに、ナタリアと彼女の同僚は、ラクダが北極の厳しい環境で生き残る理由について、ラクダの特徴が寒冷地での生存に適応したものである可能性を提案しています。広い足は雪の上を歩くため、こぶは食料が乏しい冬を乗り越えるために脂肪を蓄えるためのものであるかもしれません。ラクダはその後、砂漠の環境に適応して進化した可能性も示唆されています。この研究は進化生物学や気候変動の未来に関する重要な考察を提供し、ナタリアは科学者たちが過去を理解し、物語を作り上げる重要性を強調しています。",
+        "rel_src": [
+            "What if the very features that we imagine make the camel so well-suited  to places like the Sahara,  actually evolved to help it get through the winter?",
+            "It's this crazy idea,  that what seems like proof of the camel's quintessential desert nature  could actually be proof of its High Arctic past."
+        ],
+        "rel_tgt": [
+            "ラクダがサハラのような場所に非常に適していると私たちが想像する特徴は、実は冬を乗り越えるために進化したものだったとしたらどうでしょうか？",
+            "この奇妙な考えは、ラクダの本質的な砂漠の特性の証拠のように見えるものが、実際にはそのハイ・アークティックの過去の証拠である可能性があるということです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ"
+        }
+    },
+    {
+        "idx": 100,
+        "src": "Clearly, it always lived there.",
+        "ref": "ずっと砂漠にいるんですから",
+        "hyp": "明らかに、それは常にそこに生息していました。",
+        "rel_src": [
+            "It's this crazy idea,  that what seems like proof of the camel's quintessential desert nature  could actually be proof of its High Arctic past.",
+            "That's a great story! It's totally adapted for that."
+        ],
+        "rel_tgt": [
+            "この奇妙な考えは、ラクダの本質的な砂漠の特性の証拠のように見えるものが、実際にはそのハイ・アークティックの過去の証拠である可能性があるということです。",
+            "それは素晴らしい物語ですね！それに完全に適応しています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ"
+        }
+    },
+    {
+        "idx": 101,
+        "src": "LN: But at any moment, you could uncover some tiny bit of evidence.",
+        "ref": "ラティフ：でも いつか 小さな証拠が見つかるかもしれません",
+        "hyp": "ラティフ・ナッサー：しかし、いつでも小さな証拠の一片を発見する可能性があるのです。",
+        "rel_src": [
+            "What if the very features that we imagine make the camel so well-suited  to places like the Sahara,  actually evolved to help it get through the winter?",
+            "It's this crazy idea,  that what seems like proof of the camel's quintessential desert nature  could actually be proof of its High Arctic past."
+        ],
+        "rel_tgt": [
+            "ラクダがサハラのような場所に非常に適していると私たちが想像する特徴は、実は冬を乗り越えるために進化したものだったとしたらどうでしょうか？",
+            "この奇妙な考えは、ラクダの本質的な砂漠の特性の証拠のように見えるものが、実際にはそのハイ・アークティックの過去の証拠である可能性があるということです。"
+        ],
+        "hist_info": "\"LN\" - \"ラティフ・ナッサー\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ"
+        }
+    },
+    {
+        "idx": 102,
+        "src": "You could learn some tiny thing  that forces you to reframe everything you thought you knew.",
+        "ref": "小さなことを理解することで 自分が信じていたこと すべてを 組み立て直すことになるかもしれません",
+        "hyp": "あなたは、あなたが知っていると思っていたすべてを再構築させるような小さなことを学ぶことができるのです。",
+        "rel_src": [
+            "It's this crazy idea,  that what seems like proof of the camel's quintessential desert nature  could actually be proof of its High Arctic past.",
+            "LN: But at any moment, you could uncover some tiny bit of evidence."
+        ],
+        "rel_tgt": [
+            "この奇妙な考えは、ラクダの本質的な砂漠の特性の証拠のように見えるものが、実際にはそのハイ・アークティックの過去の証拠である可能性があるということです。",
+            "ラティフ・ナッサー：しかし、いつでも小さな証拠の一片を発見する可能性があるのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ"
+        }
+    },
+    {
+        "idx": 103,
+        "src": "Like, in this case, this one scientist finds this one shard  of what she thought was wood,  and because of that, science has a totally new and totally counterintuitive theory  about why this absurd Dr. Seuss-looking creature  looks the way it does.",
+        "ref": "この場合も そうです 一人の科学者が発見した 木片のような化石が きっかけで ドクター・スースの絵本に 出てきそうな この動物が なぜ こんな姿なのか まったく新しい 常識を超える仮説に 科学はたどり着いたのです",
+        "hyp": "この場合、ある科学者が木だと思っていたこの一片の破片を発見し、その結果、科学はこの奇妙なドクター・スースのような生物がなぜこのように見えるのかについて、まったく新しい、そしてまったく直感に反する理論を持つことになったのです。",
+        "rel_src": [
+            "It's this crazy idea,  that what seems like proof of the camel's quintessential desert nature  could actually be proof of its High Arctic past.",
+            "You could learn some tiny thing  that forces you to reframe everything you thought you knew."
+        ],
+        "rel_tgt": [
+            "この奇妙な考えは、ラクダの本質的な砂漠の特性の証拠のように見えるものが、実際にはそのハイ・アークティックの過去の証拠である可能性があるということです。",
+            "あなたは、あなたが知っていると思っていたすべてを再構築させるような小さなことを学ぶことができるのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ",
+            "Dr. Seuss": "ドクター・スース"
+        }
+    },
+    {
+        "idx": 104,
+        "src": "And for me, it completely upended the way I think of the camel.",
+        "ref": "ラクダに対する私の考え方は 一変しました",
+        "hyp": "私にとって、それはラクダについての考え方を完全に覆すものでした。",
+        "rel_src": [
+            "It's this crazy idea,  that what seems like proof of the camel's quintessential desert nature  could actually be proof of its High Arctic past.",
+            "You could learn some tiny thing  that forces you to reframe everything you thought you knew."
+        ],
+        "rel_tgt": [
+            "この奇妙な考えは、ラクダの本質的な砂漠の特性の証拠のように見えるものが、実際にはそのハイ・アークティックの過去の証拠である可能性があるということです。",
+            "あなたは、あなたが知っていると思っていたすべてを再構築させるような小さなことを学ぶことができるのです。"
+        ],
+        "hist_info": "\"camel\" - \"ラクダ\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ",
+            "Dr. Seuss": "ドクター・スース"
+        }
+    },
+    {
+        "idx": 105,
+        "src": "It went from being this ridiculously niche creature  suited only to this one specific environment,  to being this world traveler that just happens to be in the Sahara,  and could end up virtually anywhere.",
+        "ref": "砂漠という特定の環境にしか 適応できない 極めて特殊な動物という見方から たまたまサハラ砂漠にいるけれど 本当は世界を股にかけ どこでだって生きられる動物という 見方に変わったんです",
+        "hyp": "それは、特定の環境にしか適応していない非常にニッチな生物から、サハラにいる偶然の世界旅行者へと変わり、ほぼどこにでも現れる可能性がある存在へと進化したのです。",
+        "rel_src": [
+            "It's this crazy idea,  that what seems like proof of the camel's quintessential desert nature  could actually be proof of its High Arctic past.",
+            "Like, in this case, this one scientist finds this one shard  of what she thought was wood,  and because of that, science has a totally new and totally counterintuitive theory  about why this absurd Dr. Seuss-looking creature  looks the way it does."
+        ],
+        "rel_tgt": [
+            "この奇妙な考えは、ラクダの本質的な砂漠の特性の証拠のように見えるものが、実際にはそのハイ・アークティックの過去の証拠である可能性があるということです。",
+            "この場合、ある科学者が木だと思っていたこの一片の破片を発見し、その結果、科学はこの奇妙なドクター・スースのような生物がなぜこのように見えるのかについて、まったく新しい、そしてまったく直感に反する理論を持つことになったのです。"
+        ],
+        "hist_info": "\"Sahara\" - \"サハラ\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ",
+            "Dr. Seuss": "ドクター・スース"
+        }
+    },
+    {
+        "idx": 106,
+        "src": "This is Azuri.",
+        "ref": "（拍手） こちらはアズーリ",
+        "hyp": "これはアズリです。",
+        "rel_src": [
+            "It's this crazy idea,  that what seems like proof of the camel's quintessential desert nature  could actually be proof of its High Arctic past.",
+            "It went from being this ridiculously niche creature  suited only to this one specific environment,  to being this world traveler that just happens to be in the Sahara,  and could end up virtually anywhere."
+        ],
+        "rel_tgt": [
+            "この奇妙な考えは、ラクダの本質的な砂漠の特性の証拠のように見えるものが、実際にはそのハイ・アークティックの過去の証拠である可能性があるということです。",
+            "それは、特定の環境にしか適応していない非常にニッチな生物から、サハラにいる偶然の世界旅行者へと変わり、ほぼどこにでも現れる可能性がある存在へと進化したのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ",
+            "Dr. Seuss": "ドクター・スース",
+            "Azuri": "アズリ"
+        }
+    },
+    {
+        "idx": 107,
+        "src": "Azuri, hi, how are you doing?",
+        "ref": "やあアズーリ こんにちは",
+        "hyp": "アズリ、こんにちは、元気ですか？",
+        "rel_src": [
+            "NR: We make up stories and we stick with it,  like the camel in the desert, right?",
+            "This is Azuri."
+        ],
+        "rel_tgt": [
+            "ナタリア・リブチンスキー：私たちは物語を作り上げ、それに固執します。まるで砂漠のラクダのように、ですよね？",
+            "これはアズリです。"
+        ],
+        "hist_info": "\"Azuri\" - \"アズリ\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ",
+            "Dr. Seuss": "ドクター・スース",
+            "Azuri": "アズリ"
+        }
+    },
+    {
+        "idx": 108,
+        "src": "OK, here, I've got one of these for you here.",
+        "ref": "ほら お食べ",
+        "hyp": "では、こちらにこれを一つ用意しました。",
+        "rel_src": [
+            "Now, I'm not the first person to tell this story.",
+            "NR: We make up stories and we stick with it,  like the camel in the desert, right?"
+        ],
+        "rel_tgt": [
+            "今、私がこの話をするのは初めてではありません。",
+            "ナタリア・リブチンスキー：私たちは物語を作り上げ、それに固執します。まるで砂漠のラクダのように、ですよね？"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ",
+            "Dr. Seuss": "ドクター・スース",
+            "Azuri": "アズリ"
+        }
+    },
+    {
+        "idx": 109,
+        "src": "So Azuri is on a break from her regular gig at the Radio City Music Hall.",
+        "ref": "アズーリは普段 ラジオシティ・ ミュージックホールに出演していますが",
+        "hyp": "アズリはラジオシティ・ミュージックホールでの定期的な仕事から休憩中です。",
+        "rel_src": [
+            "This is Azuri.",
+            "Azuri, hi, how are you doing?"
+        ],
+        "rel_tgt": [
+            "これはアズリです。",
+            "アズリ、こんにちは、元気ですか？"
+        ],
+        "hist_info": "\"Azuri\" - \"アズリ\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ",
+            "Dr. Seuss": "ドクター・スース",
+            "Azuri": "アズリ",
+            "Radio City Music Hall": "ラジオシティ・ミュージックホール"
+        }
+    },
+    {
+        "idx": 110,
+        "src": "That's not even a joke.",
+        "ref": "冗談なんかじゃありません",
+        "hyp": "それはジョークですらありません。",
+        "rel_src": [
+            "NR: We make up stories and we stick with it,  like the camel in the desert, right?",
+            "That's a great story! It's totally adapted for that."
+        ],
+        "rel_tgt": [
+            "ナタリア・リブチンスキー：私たちは物語を作り上げ、それに固執します。まるで砂漠のラクダのように、ですよね？",
+            "それは素晴らしい物語ですね！それに完全に適応しています。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ",
+            "Dr. Seuss": "ドクター・スース",
+            "Azuri": "アズリ",
+            "Radio City Music Hall": "ラジオシティ・ミュージックホール"
+        }
+    },
+    {
+        "idx": 111,
+        "src": "Anyway --  But really, Azuri is here as a living reminder  that the story of our world is a dynamic one.",
+        "ref": "さて このアズーリこそ 私たちの世界についての物語が ダイナミックなものだという 生きた証拠です",
+        "hyp": "とにかく、アズリは私たちの世界の物語がダイナミックなものであることを生きた証としてここにいるのです。",
+        "rel_src": [
+            "For me, it's a story about us,  about how we see the world  and about how that changes.",
+            "You could learn some tiny thing  that forces you to reframe everything you thought you knew."
+        ],
+        "rel_tgt": [
+            "私にとって、それは私たちについての物語であり、私たちが世界をどのように見ているか、そしてそれがどのように変わるかについての物語です。",
+            "あなたは、あなたが知っていると思っていたすべてを再構築させるような小さなことを学ぶことができるのです。"
+        ],
+        "hist_info": "\"Azuri\" - \"アズリ\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ",
+            "Dr. Seuss": "ドクター・スース",
+            "Azuri": "アズリ",
+            "Radio City Music Hall": "ラジオシティ・ミュージックホール"
+        }
+    },
+    {
+        "idx": 112,
+        "src": "It requires our willingness to readjust, to reimagine.",
+        "ref": "私たちは 物語を組み立て直し 想像し直さなければなりません",
+        "hyp": "それは、私たちが再調整し、再想像する意欲を必要とします。",
+        "rel_src": [
+            "You could learn some tiny thing  that forces you to reframe everything you thought you knew.",
+            "It went from being this ridiculously niche creature  suited only to this one specific environment,  to being this world traveler that just happens to be in the Sahara,  and could end up virtually anywhere."
+        ],
+        "rel_tgt": [
+            "あなたは、あなたが知っていると思っていたすべてを再構築させるような小さなことを学ぶことができるのです。",
+            "それは、特定の環境にしか適応していない非常にニッチな生物から、サハラにいる偶然の世界旅行者へと変わり、ほぼどこにでも現れる可能性がある存在へと進化したのです。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ",
+            "Dr. Seuss": "ドクター・スース",
+            "Azuri": "アズリ",
+            "Radio City Music Hall": "ラジオシティ・ミュージックホール"
+        }
+    },
+    {
+        "idx": 113,
+        "src": "Right, Azuri?",
+        "ref": "そうだろ？アズーリ",
+        "hyp": "そうだよね、アズリ？",
+        "rel_src": [
+            "Anyway --  But really, Azuri is here as a living reminder  that the story of our world is a dynamic one.",
+            "It requires our willingness to readjust, to reimagine."
+        ],
+        "rel_tgt": [
+            "とにかく、アズリは私たちの世界の物語がダイナミックなものであることを生きた証としてここにいるのです。",
+            "それは、私たちが再調整し、再想像する意欲を必要とします。"
+        ],
+        "hist_info": "\"Azuri\" - \"アズリ\"",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ",
+            "Dr. Seuss": "ドクター・スース",
+            "Azuri": "アズリ",
+            "Radio City Music Hall": "ラジオシティ・ミュージックホール"
+        }
+    },
+    {
+        "idx": 114,
+        "src": "And, really, that we're all just one shard of bone away  from seeing the world anew.",
+        "ref": "ひとかけらの骨の向こう側に 世界の新しい見方が 存在するんです",
+        "hyp": "そして、本当に、私たちは皆、世界を新たに見るための一片の骨の破片のすぐそばにいるのです。",
+        "rel_src": [
+            "You could learn some tiny thing  that forces you to reframe everything you thought you knew.",
+            "It requires our willingness to readjust, to reimagine."
+        ],
+        "rel_tgt": [
+            "あなたは、あなたが知っていると思っていたすべてを再構築させるような小さなことを学ぶことができるのです。",
+            "それは、私たちが再調整し、再想像する意欲を必要とします。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ",
+            "Dr. Seuss": "ドクター・スース",
+            "Azuri": "アズリ",
+            "Radio City Music Hall": "ラジオシティ・ミュージックホール"
+        }
+    },
+    {
+        "idx": 115,
+        "src": "Thank you very much.",
+        "ref": "ありがとうございました",
+        "hyp": "ありがとうございます。",
+        "rel_src": [
+            "Anyway --  But really, Azuri is here as a living reminder  that the story of our world is a dynamic one.",
+            "It requires our willingness to readjust, to reimagine."
+        ],
+        "rel_tgt": [
+            "とにかく、アズリは私たちの世界の物語がダイナミックなものであることを生きた証としてここにいるのです。",
+            "それは、私たちが再調整し、再想像する意欲を必要とします。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "Natalia Rybczynski": "ナタリア・リブチンスキー",
+            "Latif Nasser": "ラティフ・ナッサー",
+            "Arctic Circle": "北極圏",
+            "Canadian": "カナダ",
+            "2006": "2006年",
+            "Fyles Leaf Bed": "ファイルズ・リーフ・ベッド",
+            "magnetic north pole": "磁北極",
+            "Natalia Libchinsky": "ナタリア・リブチンスキー",
+            "LN": "ラティフ・ナッサー",
+            "NR": "ナタリア・リブチンスキー",
+            "Colorado": "コロラド",
+            "Natalia": "ナタリア",
+            "Arctic": "北極",
+            "Bristol": "ブリストル",
+            "Mike Buckley": "マイク・バックリー",
+            "collagen fingerprinting": "コラーゲンフィンガープリンティング",
+            "FedEx": "フェデックス",
+            "High Arctic": "ハイ・アークティック",
+            "Giant Arctic": "巨大な北極",
+            "Bactrian camel": "バクトリアンラクダ",
+            "East and Central Asia": "東アジアと中央アジア",
+            "Middle East": "中東",
+            "Sahara": "サハラ",
+            "American": "アメリカ",
+            "South America": "南アメリカ",
+            "Bering Land Bridge": "ベーリング陸橋",
+            "Asia": "アジア",
+            "Africa": "アフリカ",
+            "North American": "北アメリカ",
+            "Yukon": "ユーコン",
+            "Siberia": "シベリア",
+            "Saharan superstars": "サハラのスーパースター",
+            "arctic": "北極",
+            "camel": "ラクダ",
+            "Dr. Seuss": "ドクター・スース",
+            "Azuri": "アズリ",
+            "Radio City Music Hall": "ラジオシティ・ミュージックホール"
+        }
+    }
+]
