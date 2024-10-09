@@ -11,8 +11,8 @@ import time
 import os
 
 
-api_base = 'API_BASE'
-api_key = 'API_KEY'
+api_base = os.getenv("API_BASE", None)
+api_key = os.getenv("API_KEY", None)
 
 MODEL_NAME=None
 

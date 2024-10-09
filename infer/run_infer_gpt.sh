@@ -1,5 +1,5 @@
 
-lang=$1
+lang=en-zh
 src_lang=${lang%%-*}
 tgt_lang=${lang##*-}
 
@@ -21,6 +21,9 @@ out_path=results
 
 src=/path/to/src/file
 ref=/path/to/ref/file
+
+export API_BASE=
+export API_KEY=
 
 src_summary_prompt=prompts/${lang}/src_summary_prompt.txt
 tgt_summary_prompt=prompts/${lang}/tgt_summary_prompt.txt
