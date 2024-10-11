@@ -102,5 +102,13 @@ output_dir=result/                 # output path of the evaluation results
 ## **📝 Citation**<a name="citation"></a>
 If you find this repo useful, please cite our paper as:
 ```
-
+@misc{wang2024deltaonlinedocumentleveltranslation,
+      title={DelTA: An Online Document-Level Translation Agent Based on Multi-Level Memory}, 
+      author={Yutong Wang and Jiali Zeng and Xuebo Liu and Derek F. Wong and Fandong Meng and Jie Zhou and Min Zhang},
+      year={2024},
+      eprint={2410.08143},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2410.08143}, 
+}
 ```
