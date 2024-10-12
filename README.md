@@ -2,7 +2,7 @@
 This repository releases the codes and data for the paper -- [DelTA: An Online Document-Level Translation Agent Based on Multi-Level Memory](https://arxiv.org/abs/2410.08143).
 
 <div align="center">
-    <img src="images/logo.png" width=250></img>
+    <img src="images/logo.png" width=200></img>
     <p class="image-caption">DelTA: An Online Document-Level Translation Agent Based on Multi-Level Memory</p>
 </div>
 
