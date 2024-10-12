@@ -10,7 +10,7 @@ This repository releases the codes and data for the paper -- [DelTA: An Online D
 ## **📣 News**
 
 - **[10/10/2024] Our code and dataset for DelTA is released!**
-- **[10/11/2024] Our paper is published on arXiv: [arXiv:2410.08143](https://arxiv.org/abs/2410.08143)!**
+- **[11/10/2024] Our paper is published on arXiv: [arXiv:2410.08143](https://arxiv.org/abs/2410.08143)!**
 
 ## **🔗 Quick Links**
 
