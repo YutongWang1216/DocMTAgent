@@ -1,19 +1,15 @@
 
-lang=en-zh
+lang=en-zh              # language pair, en<->zh,de,fr,ja supported
 src_lang=${lang%%-*}
 tgt_lang=${lang##*-}
 
 # use_model=gpt35turbo
 use_model=gpt4omini
 
-summary_step=20
-long_window=20
-top_k=2
-
-recency_weight=0
-similarity_weight=10
-
-context_window=3
+summary_step=20         # update summary every $summary_step sentences, 20 recommanded
+long_window=20          # long-term memory window size, 20 recommanded
+top_k=2                 # long-term memory retrieve sentence number, 2 recommanded
+context_window=3        # short-term memory window size, 3 recommanded
 
 pyfile=infer_gpt.py
 
@@ -25,13 +21,13 @@ ref=/path/to/ref/file
 export API_BASE=
 export API_KEY=
 
-src_summary_prompt=prompts/${lang}/src_summary_prompt.txt
-tgt_summary_prompt=prompts/${lang}/tgt_summary_prompt.txt
-src_merge_prompt=prompts/${lang}/src_merge_prompt.txt
-tgt_merge_prompt=prompts/${lang}/tgt_merge_prompt.txt
-history_prompt=prompts/${lang}/history_prompt.txt
-retrieve_prompt=prompts/retrieve_prompt.txt
-trans_prompt=prompts/trans_summary_long_context_history_prompt.txt
+src_summary_prompt=prompts/${lang}/src_summary_prompt.txt               # prompt for source-side summary generation
+tgt_summary_prompt=prompts/${lang}/tgt_summary_prompt.txt               # prompt for target-side summary generation
+src_merge_prompt=prompts/${lang}/src_merge_prompt.txt                   # prompt for source-side summary merging
+tgt_merge_prompt=prompts/${lang}/tgt_merge_prompt.txt                   # prompt for target-side summary merging
+history_prompt=prompts/${lang}/history_prompt.txt                       # prompt for proper noun extraction
+retrieve_prompt=prompts/retrieve_prompt.txt                             # prompt for short-term memory retrieval
+trans_prompt=prompts/trans_summary_long_context_history_prompt.txt      # prompt for document translation
 
 if [ ! -d $out_path ]; then
     mkdir -p $out_path
@@ -53,7 +49,6 @@ python -u $pyfile \
     --long_window $long_window \
     --top_k $top_k \
     --output $output \
-    --recency_weight $recency_weight --similarity_weight $similarity_weight \
     --settings summary long context history \
     --context_window $context_window \
     --retriever agent \
