@@ -62,7 +62,7 @@ DelTA with Qwen as backbone models is developed with [HuggingFaces's transformer
 ```bash
 git clone https://github.com/YutongWang1216/DocMTAgent.git
 cd DocMTAgent
-pip install -r requirments.txt
+pip install -r requirements.txt
 ```
 
 ### **Inference with DelTA**
