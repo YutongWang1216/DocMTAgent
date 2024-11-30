@@ -1,5 +1,5 @@
 
-lang=en-zh              # language pair, en<->zh,de,fr,ja supported
+lang=en-zh              # language pair, en<=>zh,de,fr,ja supported
 src_lang=${lang%%-*}
 tgt_lang=${lang##*-}
 
@@ -16,8 +16,8 @@ pyfile=infer_qwen.py
 
 out_path=results
 
-src=/path/to/src/file
-ref=/path/to/ref/file
+src=/path/to/src/file   # path to source document
+ref=/path/to/ref/file   # path to reference document (optional, leave blank if not given)
 
 src_summary_prompt=prompts/${lang}/src_summary_prompt.txt               # prompt for source-side summary generation
 tgt_summary_prompt=prompts/${lang}/tgt_summary_prompt.txt               # prompt for target-side summary generation
@@ -34,21 +34,44 @@ fi
 
 output=$out_path/$use_model.json
 
-python3 $pyfile \
-    --language ${lang} \
-    --src $src --ref $ref \
-    --src_summary_prompt $src_summary_prompt \
-    --tgt_summary_prompt $tgt_summary_prompt \
-    --src_merge_prompt $src_merge_prompt \
-    --tgt_merge_prompt $tgt_merge_prompt \
-    --retrieve_prompt $retrieve_prompt \
-    --history_prompt $history_prompt \
-    --trans_prompt $trans_prompt \
-    --summary_step $summary_step \
-    --long_window $long_window \
-    --top_k $top_k \
-    --output $output \
-    --settings summary long context history \
-    --context_window $context_window \
-    --retriever agent \
-    --model $modelpathroot
+if [[ $ref == '' ]]; then
+    python3 $pyfile \
+        --language ${lang} \
+        --src $src \
+        --src_summary_prompt $src_summary_prompt \
+        --tgt_summary_prompt $tgt_summary_prompt \
+        --src_merge_prompt $src_merge_prompt \
+        --tgt_merge_prompt $tgt_merge_prompt \
+        --retrieve_prompt $retrieve_prompt \
+        --history_prompt $history_prompt \
+        --trans_prompt $trans_prompt \
+        --summary_step $summary_step \
+        --long_window $long_window \
+        --top_k $top_k \
+        --output $output \
+        --settings summary long context history \
+        --context_window $context_window \
+        --retriever agent \
+        --model $modelpathroot
+else
+    python3 $pyfile \
+        --language ${lang} \
+        --src $src --ref $ref \
+        --src_summary_prompt $src_summary_prompt \
+        --tgt_summary_prompt $tgt_summary_prompt \
+        --src_merge_prompt $src_merge_prompt \
+        --tgt_merge_prompt $tgt_merge_prompt \
+        --retrieve_prompt $retrieve_prompt \
+        --history_prompt $history_prompt \
+        --trans_prompt $trans_prompt \
+        --summary_step $summary_step \
+        --long_window $long_window \
+        --top_k $top_k \
+        --output $output \
+        --settings summary long context history \
+        --context_window $context_window \
+        --retriever agent \
+        --model $modelpathroot
+fi
+
+python post_process.py $output

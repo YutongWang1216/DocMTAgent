@@ -1,5 +1,5 @@
 
-lang=en-zh              # language pair, en<->zh,de,fr,ja supported
+lang=en-zh              # language pair, en<=>zh,de,fr,ja supported
 src_lang=${lang%%-*}
 tgt_lang=${lang##*-}
 
@@ -15,8 +15,8 @@ pyfile=infer_gpt.py
 
 out_path=results
 
-src=/path/to/src/file
-ref=/path/to/ref/file
+src=/path/to/src/file   # path to source document
+ref=/path/to/ref/file   # path to reference document (optional, leave blank if not given)
 
 export API_BASE=
 export API_KEY=
@@ -35,22 +35,44 @@ fi
 
 output=$out_path/$use_model.json
 
-python -u $pyfile \
-    --language ${lang} \
-    --src $src --ref $ref\
-    --src_summary_prompt $src_summary_prompt \
-    --tgt_summary_prompt $tgt_summary_prompt \
-    --src_merge_prompt $src_merge_prompt \
-    --tgt_merge_prompt $tgt_merge_prompt \
-    --retrieve_prompt $retrieve_prompt \
-    --history_prompt $history_prompt \
-    --trans_prompt $trans_prompt \
-    --summary_step $summary_step \
-    --long_window $long_window \
-    --top_k $top_k \
-    --output $output \
-    --settings summary long context history \
-    --context_window $context_window \
-    --retriever agent \
-    --model $use_model
+if [[ $ref == '' ]]; then
+    python -u $pyfile \
+        --language ${lang} \
+        --src $src \
+        --src_summary_prompt $src_summary_prompt \
+        --tgt_summary_prompt $tgt_summary_prompt \
+        --src_merge_prompt $src_merge_prompt \
+        --tgt_merge_prompt $tgt_merge_prompt \
+        --retrieve_prompt $retrieve_prompt \
+        --history_prompt $history_prompt \
+        --trans_prompt $trans_prompt \
+        --summary_step $summary_step \
+        --long_window $long_window \
+        --top_k $top_k \
+        --output $output \
+        --settings summary long context history \
+        --context_window $context_window \
+        --retriever agent \
+        --model $use_model
+else
+    python -u $pyfile \
+        --language ${lang} \
+        --src $src --ref $ref\
+        --src_summary_prompt $src_summary_prompt \
+        --tgt_summary_prompt $tgt_summary_prompt \
+        --src_merge_prompt $src_merge_prompt \
+        --tgt_merge_prompt $tgt_merge_prompt \
+        --retrieve_prompt $retrieve_prompt \
+        --history_prompt $history_prompt \
+        --trans_prompt $trans_prompt \
+        --summary_step $summary_step \
+        --long_window $long_window \
+        --top_k $top_k \
+        --output $output \
+        --settings summary long context history \
+        --context_window $context_window \
+        --retriever agent \
+        --model $use_model
+fi
 
+python post_process.py $output
