@@ -15,6 +15,7 @@ DelTA is a document-level translation agent designed to handle long document tra
      ```
    - Install additional dependencies in your virtual environment:
      ```bash
+     conda create --name myenv python=3.9
      pip install -r requirements.txt
      ```
 
