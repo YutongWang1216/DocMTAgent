@@ -1,0 +1,79 @@
+[
+    {
+        "idx": 0,
+        "src": "It was a bright sunny day, and the world seemed alive with possibilities.",
+        "hyp": "这是一个阳光明媚的日子，世界似乎充满了可能性。",
+        "rel_src": [],
+        "rel_tgt": [],
+        "hist_info": "",
+        "entity_dict": {
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 1,
+        "src": "The birds chirped melodiously, their songs weaving through the gentle breeze; meanwhile, the trees swayed rhythmically, as if they were part of a grand symphony conducted by nature itself.",
+        "hyp": "鸟儿悦耳地鸣叫，它们的歌声随着轻柔的微风交织在一起；同时，树木有节奏地摇摆，仿佛是大自然亲自指挥的一场宏大的交响乐的一部分。",
+        "rel_src": [
+            "It was a bright sunny day, and the world seemed alive with possibilities."
+        ],
+        "rel_tgt": [
+            "这是一个阳光明媚的日子，世界似乎充满了可能性。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 2,
+        "src": "\"What a beautiful morning!\" exclaimed Sarah, her voice filled with an enthusiasm that was contagious.",
+        "hyp": "\"多么美好的早晨啊！\"莎拉脱口而出，她的声音充满了极具感染力的热情。",
+        "rel_src": [
+            "It was a bright sunny day, and the world seemed alive with possibilities.",
+            "The birds chirped melodiously, their songs weaving through the gentle breeze; meanwhile, the trees swayed rhythmically, as if they were part of a grand symphony conducted by nature itself."
+        ],
+        "rel_tgt": [
+            "这是一个阳光明媚的日子，世界似乎充满了可能性。",
+            "鸟儿悦耳地鸣叫，它们的歌声随着轻柔的微风交织在一起；同时，树木有节奏地摇摆，仿佛是大自然亲自指挥的一场宏大的交响乐的一部分。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 3,
+        "src": "She glanced at her watch—8:30 AM—and realized she had just enough time to grab coffee before her meeting at the library.",
+        "hyp": "她看了看手表——上午8点30分——意识到自己刚好有足够的时间在图书馆会议前抓杯咖啡。",
+        "rel_src": [
+            "The birds chirped melodiously, their songs weaving through the gentle breeze; meanwhile, the trees swayed rhythmically, as if they were part of a grand symphony conducted by nature itself.",
+            "\"What a beautiful morning!\" exclaimed Sarah, her voice filled with an enthusiasm that was contagious."
+        ],
+        "rel_tgt": [
+            "鸟儿悦耳地鸣叫，它们的歌声随着轻柔的微风交织在一起；同时，树木有节奏地摇摆，仿佛是大自然亲自指挥的一场宏大的交响乐的一部分。",
+            "\"多么美好的早晨啊！\"莎拉脱口而出，她的声音充满了极具感染力的热情。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "N/A": "N/A"
+        }
+    },
+    {
+        "idx": 4,
+        "src": "As she hurried down the street, she couldn't help but notice the hustle and bustle around her: a mother trying to console her crying toddler, a cyclist narrowly avoiding a pedestrian, and a street vendor shouting, \"Fresh bagels! Get them while they're hot!\"",
+        "hyp": "她在街上匆匆前行，不禁注意到周围的繁忙景象：一位母亲试图安抚哭泣的幼儿，一名骑车人险些撞到行人，还有一位街头摊贩大声喊道，“新鲜的百吉饼！趁热来一份吧！”",
+        "rel_src": [
+            "\"What a beautiful morning!\" exclaimed Sarah, her voice filled with an enthusiasm that was contagious.",
+            "She glanced at her watch—8:30 AM—and realized she had just enough time to grab coffee before her meeting at the library."
+        ],
+        "rel_tgt": [
+            "\"多么美好的早晨啊！\"莎拉脱口而出，她的声音充满了极具感染力的热情。",
+            "她看了看手表——上午8点30分——意识到自己刚好有足够的时间在图书馆会议前抓杯咖啡。"
+        ],
+        "hist_info": "",
+        "entity_dict": {
+            "N/A": "N/A"
+        }
+    }
+]
