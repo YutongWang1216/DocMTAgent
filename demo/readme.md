@@ -11,6 +11,8 @@ DelTA is a document-level translation agent designed to handle long document tra
 1. **Set Up the Environment**:
    - Navigate to the `demo` folder:
      ```bash
+     git clone https://github.com/YutongWang1216/DocMTAgent.git
+     cd DocMTAgent
      cd demo
      ```
    - Install additional dependencies in your virtual environment:
