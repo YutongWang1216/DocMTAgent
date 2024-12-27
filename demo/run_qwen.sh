@@ -1,7 +1,7 @@
 #!/bin/bash
 source ~/.bashrc
 # modify the path to your conda env
-source /data/lyc/miniconda3/bin/activate delta # env activate
+source /PATH/TO/YOUR/CONDA/bin/activate myenv # env activate
 
 export Qwen2-72B-path=$(realpath models/Qwen2-72B-Instruct)
 export Qwen2-7B-path=$(realpath models/Qwen2-7B-Instruct)
