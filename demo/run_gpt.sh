@@ -1,7 +1,7 @@
 #!/bin/bash
 source ~/.bashrc
 # modify the path to your conda env
-source /data/lyc/miniconda3/bin/activate delta # env activate
+source /PATH/TO/YOUR/CONDA/bin/activate myenv # env activate
 
 export API_BASE="sk-your-openai-api-key"
 export API_KEY="https://api.openai.com/v1"
