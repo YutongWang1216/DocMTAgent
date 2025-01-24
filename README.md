@@ -12,6 +12,7 @@ This repository releases the codes and data for the paper -- [DelTA: An Online D
 - **[10/10/2024] Our code and dataset for DelTA is released!**
 - **[11/10/2024] Our paper is published on arXiv: [arXiv:2410.08143](https://arxiv.org/abs/2410.08143)!**
 - **[27/12/2024] Our [demo system](https://github.com/YutongWang1216/DocMTAgent/tree/main/demo) is available now!**
+- **[22/01/2025] Our paper is accepted by [ICLR 2025](https://iclr.cc/)!🎉🎉🎉**
 
 ## **🔗 Quick Links**
 
