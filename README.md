@@ -119,13 +119,12 @@ Please see [Demo Page](https://github.com/YutongWang1216/DocMTAgent/tree/main/de
 ## **📝 Citation**<a name="citation"></a>
 If you find this repo useful, please cite our paper as:
 ```
-@misc{wang2024deltaonlinedocumentleveltranslation,
-      title={DelTA: An Online Document-Level Translation Agent Based on Multi-Level Memory}, 
-      author={Yutong Wang and Jiali Zeng and Xuebo Liu and Derek F. Wong and Fandong Meng and Jie Zhou and Min Zhang},
-      year={2024},
-      eprint={2410.08143},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2410.08143}, 
+@inproceedings{
+wang2025delta,
+title={Del{TA}: An Online Document-Level Translation Agent Based on Multi-Level Memory},
+author={Yutong Wang and Jiali Zeng and Xuebo Liu and Derek F. Wong and Fandong Meng and Jie Zhou and Min Zhang},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=hoYFLRNbhc}
 }
 ```
